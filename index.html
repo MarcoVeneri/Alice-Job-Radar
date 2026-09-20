@@ -181,6 +181,160 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
   .meta,.summary,.checks{margin-left:0}
   .summary{font-size:13px}
 }
+/* dark-contrast-v4-6 */
+
+@media (prefers-color-scheme:dark){
+  html,body{
+    background:
+      radial-gradient(circle at 92% 4%,rgba(120,108,249,.16),transparent 26%),
+      radial-gradient(circle at 0% 18%,rgba(91,141,255,.10),transparent 22%),
+      linear-gradient(180deg,#111827 0%,#172033 100%);
+  }
+
+  .kicker{color:#b8c3d8}
+  .sub{color:#c4cee0}
+  h1{color:#ffffff}
+
+  .bell{
+    color:#f7f9ff;
+    background:rgba(38,47,66,.82);
+    border-color:rgba(255,255,255,.18);
+    box-shadow:0 10px 26px rgba(0,0,0,.28);
+  }
+
+  .runChip{
+    background:rgba(31,39,56,.92);
+    border-color:rgba(255,255,255,.12);
+  }
+  .runChip strong{color:#ffffff}
+  .runChip span{color:#c3ccdc}
+  .auditHint{color:#b8c2d6}
+
+  .tabs{
+    background:rgba(31,39,56,.88);
+    border-color:rgba(255,255,255,.14);
+  }
+  .tab{color:#c4cde0}
+  .tab.active{
+    color:#ffffff;
+    background:linear-gradient(135deg,#7f73ff,#9c92ff);
+    box-shadow:0 10px 24px rgba(127,115,255,.28);
+  }
+
+  .stat{
+    background:rgba(34,42,60,.92);
+    border-color:rgba(255,255,255,.13);
+    color:#f8faff;
+  }
+  .statLabel{color:#c5cee0}
+  .stat strong{color:#ffffff}
+  .iconWrap{
+    border-color:rgba(255,255,255,.14);
+    background:rgba(255,255,255,.05);
+  }
+  .stat.active{
+    box-shadow:0 14px 30px rgba(0,0,0,.26),inset 0 0 0 1px rgba(255,255,255,.08);
+  }
+  .stat:nth-child(1).active{background:rgba(127,115,255,.18);border-color:#9c92ff}
+  .stat:nth-child(2).active{background:rgba(240,191,114,.15);border-color:#f0bf72}
+  .stat:nth-child(3).active{background:rgba(121,168,255,.16);border-color:#79a8ff}
+  .stat.active .statLabel{color:#ffffff}
+
+  .search{
+    background:rgba(33,41,58,.94);
+    border-color:rgba(255,255,255,.15);
+  }
+  .search input{color:#ffffff}
+  .search input::placeholder{color:#aeb9ce;opacity:1}
+  .search{color:#cfd7e7}
+
+  .notice{
+    color:#ffd08a;
+    background:rgba(193,122,24,.14);
+    border-color:rgba(240,191,114,.25);
+  }
+
+  .card{
+    background:linear-gradient(180deg,rgba(31,39,56,.97),rgba(26,33,48,.95));
+    border-color:rgba(255,255,255,.12);
+    outline-color:rgba(255,255,255,.03);
+    box-shadow:0 18px 42px rgba(0,0,0,.28);
+  }
+  .card.topmatch{border-color:rgba(150,140,255,.46)}
+  .card.isNew{border-color:#968cff;box-shadow:0 18px 42px rgba(82,69,190,.20)}
+
+  .logo{
+    background:rgba(20,27,40,.92);
+    border-color:rgba(255,255,255,.10);
+    color:#ffffff;
+  }
+  .logo small,.logoWord{color:#aeb9ce}
+
+  .company{color:#b7c1d6}
+  .title{color:#ffffff}
+  .loc{color:#c3ccdd}
+
+  .score{
+    background:rgba(20,27,40,.84);
+    border-color:rgba(255,255,255,.12);
+    color:#ffffff;
+  }
+
+  .tag{
+    background:rgba(47,56,76,.94);
+    border-color:rgba(255,255,255,.08);
+    color:#d8dfec;
+  }
+
+  .summary{color:#c7d0e2}
+  .checks{color:#b5bfd2}
+  .checks b{color:#ffffff}
+
+  .badge.new{
+    color:#c7c0ff;
+    background:rgba(150,140,255,.18);
+    border-color:rgba(150,140,255,.28);
+  }
+  .badge.top{
+    color:#ffd28c;
+    background:rgba(240,191,114,.15);
+    border-color:rgba(240,191,114,.24);
+  }
+  .badge.remote{
+    color:#a9c8ff;
+    background:rgba(121,168,255,.15);
+    border-color:rgba(121,168,255,.24);
+  }
+
+  .saveBtn{color:#c3ccdd}
+  .saveBtn.saved{color:#b9b1ff}
+  .open{
+    background:linear-gradient(135deg,#314565,#22324e);
+    color:#ffffff;
+    box-shadow:0 12px 28px rgba(0,0,0,.28);
+  }
+
+  .empty{
+    background:rgba(31,39,56,.88);
+    border-color:rgba(255,255,255,.12);
+    color:#c2ccdd;
+  }
+
+  .bottomNav{
+    background:rgba(24,31,46,.94);
+    border-color:rgba(255,255,255,.11);
+    box-shadow:0 18px 42px rgba(0,0,0,.34);
+  }
+  .navItem{color:#aeb9ce}
+  .navItem.active{color:#b0a8ff}
+  .navItem.active .dot{
+    background:rgba(150,140,255,.16);
+    border-color:rgba(150,140,255,.28);
+  }
+
+  .footer{color:#aab5c8}
+}
+
 </style>
 </head>
 <body>
@@ -233,13 +387,13 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v4.5 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v4.6 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"4.5"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"4.6"};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),updated:$("#updated"),refresh:$("#refresh"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved")};
 let DATA=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
