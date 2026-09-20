@@ -104,7 +104,7 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
 .stat:nth-child(3) .iconWrap{color:var(--blue);background:var(--blue-soft)}
 .statLabel{font-size:12px;color:var(--muted);margin-bottom:3px}
 .stat strong{display:block;font-size:26px;line-height:1;font-weight:850;letter-spacing:-.04em}
-.searchRow{display:none;gap:10px;align-items:center;margin:0 0 12px}.searchRow.open{display:flex}
+.searchRow{display:none;gap:10px;align-items:center;margin:0 0 12px}.searchRow.searchVisible{display:flex}
 .search{flex:1;height:54px;border-radius:27px;border:1px solid rgba(255,255,255,.70);background:rgba(255,255,255,.54);display:flex;align-items:center;gap:10px;padding:0 18px;box-shadow:var(--shadow-soft);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
 .search input{width:100%;border:0;outline:none;background:transparent;color:var(--ink);font-size:14px}
 .notice{display:none;margin:12px 0;padding:11px 13px;border-radius:16px;border:1px solid rgba(243,179,92,.25);background:rgba(243,179,92,.10);color:#c27a15;font-size:11px}
@@ -172,7 +172,7 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
   
   .bell{width:50px;height:50px}
   .stats{grid-template-columns:repeat(3,1fr);gap:8px}
-  .searchRow.open{flex-direction:column;align-items:stretch}
+  .searchRow.searchVisible{flex-direction:column;align-items:stretch}
   .cardGrid{grid-template-columns:66px 1fr;grid-template-areas:'logo info' 'logo side'}
   .logo{width:66px;height:66px;border-radius:20px;font-size:13px}
   .rightCol{gap:8px;flex-wrap:wrap}
@@ -335,6 +335,18 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
   .footer{color:#aab5c8}
 }
 
+
+/* light-search-contrast-v4-7 */
+@media (prefers-color-scheme:light){
+  .search{
+    background:rgba(255,255,255,.80);
+    border-color:rgba(99,111,143,.22);
+    color:#526079;
+    box-shadow:0 10px 24px rgba(40,58,94,.07);
+  }
+  .search input{color:#17223a;font-weight:650}
+  .search input::placeholder{color:#66738d;opacity:1;font-weight:650}
+}
 </style>
 </head>
 <body>
@@ -387,13 +399,13 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v4.6 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v4.7 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"4.6"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"4.7"};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),updated:$("#updated"),refresh:$("#refresh"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved")};
 let DATA=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -543,9 +555,9 @@ document.querySelectorAll(".stat").forEach(el=>el.addEventListener("click",()=>{
  document.querySelectorAll(".stat").forEach(x=>x.classList.toggle("active",x.dataset.stat===statFilter));
  render();
 }));
-ui.navHome.addEventListener("click",()=>{savedOnly=false;searchOpen=false;ui.searchRow.classList.remove("open");ui.q.value="";resetTopFilters();setNavActive("home");render();window.scrollTo({top:0,behavior:"smooth"})});
-ui.navSearch.addEventListener("click",()=>{savedOnly=false;searchOpen=!searchOpen;ui.searchRow.classList.toggle("open",searchOpen);setNavActive(searchOpen?"search":"home");if(searchOpen){setTimeout(()=>ui.q.focus(),80)}else{ui.q.value="";render()}});
-ui.navSaved.addEventListener("click",()=>{savedOnly=!savedOnly;searchOpen=false;ui.searchRow.classList.remove("open");ui.q.value="";if(savedOnly){resetTopFilters();setNavActive("saved")}else setNavActive("home");render()});
+ui.navHome.addEventListener("click",()=>{savedOnly=false;searchOpen=false;ui.searchRow.classList.remove("searchVisible");ui.q.value="";resetTopFilters();setNavActive("home");render();window.scrollTo({top:0,behavior:"smooth"})});
+ui.navSearch.addEventListener("click",()=>{savedOnly=false;searchOpen=!searchOpen;ui.searchRow.classList.toggle("searchVisible",searchOpen);setNavActive(searchOpen?"search":"home");if(searchOpen){setTimeout(()=>ui.q.focus(),80)}else{ui.q.value="";render()}});
+ui.navSaved.addEventListener("click",()=>{savedOnly=!savedOnly;searchOpen=false;ui.searchRow.classList.remove("searchVisible");ui.q.value="";if(savedOnly){resetTopFilters();setNavActive("saved")}else setNavActive("home");render()});
 ui.refresh.addEventListener('click',load);
 load();
 })();
