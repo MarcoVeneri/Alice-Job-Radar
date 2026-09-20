@@ -86,7 +86,6 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
 .sub{font-size:12px;color:var(--muted);position:relative;z-index:2}
 
 .heroNote::after{content:"";display:block;margin-top:8px;width:28px;height:2px;background:currentColor;opacity:.38;border-radius:3px}
-.bell{position:relative;z-index:2;flex:0 0 auto;width:54px;height:54px;border-radius:50%;border:1px solid rgba(255,255,255,.66);background:rgba(255,255,255,.46);box-shadow:var(--shadow-soft);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);display:grid;place-items:center;color:var(--ink);cursor:pointer;font-size:20px}
 .runAudit{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 12px}
 .runChip{min-height:50px;padding:9px 13px;border-radius:20px;background:rgba(255,255,255,.52);border:1px solid rgba(255,255,255,.68);box-shadow:var(--shadow-soft);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);display:flex;align-items:center;justify-content:space-between;gap:8px}
 .runChip strong{font-size:13px;letter-spacing:-.01em}.runChip span{font-size:11px;font-weight:800;color:var(--muted);text-align:right}
@@ -167,10 +166,7 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
   .top{gap:10px}
   .hero{min-height:84px}
   .blob1{right:58px;top:12px;width:92px;height:92px}
-  .blob2{right:6px;top:50px;width:108px;height:108px}
-  
-  .bell{width:50px;height:50px}
-  .stats{grid-template-columns:repeat(3,1fr);gap:8px}
+  .blob2{right:6px;top:50px;width:108px;height:108px}.stats{grid-template-columns:repeat(3,1fr);gap:8px}
   .searchRow.searchVisible{flex-direction:column;align-items:stretch}
   .cardGrid{grid-template-columns:66px 1fr;grid-template-areas:'logo info' 'logo side'}
   .logo{width:66px;height:66px;border-radius:20px;font-size:13px}
@@ -355,8 +351,7 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
   <header class="top">
     <div class="hero"><div class="kicker">Ricerca automatica</div>
       <h1>Alice Job Radar</h1></div>
-    <button id="refresh" class="bell" aria-label="Aggiorna">⟳</button>
-  </header>
+</header>
 
   <section class="runAudit" aria-label="Stato ricerche di oggi">
     <div id="run08box" class="runChip"><strong>08:00</strong><span id="run08">In attesa</span></div>
@@ -398,15 +393,15 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v5.2 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v5.3 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"5.2"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"5.3"};
 const $=s=>document.querySelector(s);
-const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),refresh:$("#refresh"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved")};
+const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved")};
 let DATA=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
 const STATUS=["Nuova","Interessante","Candidata","Colloquio","Scartata"];
 const storeKey="alice-job-radar-status-v3";
@@ -531,8 +526,7 @@ function renderAudit(audit){
  one("08:00",ui.run08,ui.run08box);
  one("15:00",ui.run15,ui.run15box);
 }
-async function load(){
- ui.refresh.textContent='…'; ui.notice.classList.remove('show');
+async function load(){ ui.notice.classList.remove('show');
  try{
    const sep=CFG.dataUrl.includes('?')?'&':'?';
    const r=await fetch(CFG.dataUrl+sep+'t='+Date.now(),{cache:'no-store'});
@@ -544,7 +538,6 @@ async function load(){
  }catch(e){
    ui.notice.textContent='Non riesco a leggere i dati della ricerca. Riprova con ↻.';ui.notice.classList.add('show');
  }
- ui.refresh.textContent='⟳';
 }
 ui.q.addEventListener('input',render);
 ui.filters.addEventListener('click',e=>{
@@ -560,7 +553,6 @@ document.querySelectorAll(".stat").forEach(el=>el.addEventListener("click",()=>{
 ui.navHome.addEventListener("click",()=>{savedOnly=false;searchOpen=false;ui.searchRow.classList.remove("searchVisible");ui.q.blur();ui.q.value="";resetTopFilters();setNavActive("home");render();window.scrollTo({top:0,behavior:"smooth"})});
 ui.navSearch.addEventListener("click",()=>{savedOnly=false;searchOpen=!searchOpen;ui.searchRow.classList.toggle("searchVisible",searchOpen);setNavActive(searchOpen?"search":"home");if(searchOpen){setTimeout(()=>ui.q.focus({preventScroll:true}),80)}else{ui.q.blur();ui.q.value="";render();setTimeout(()=>window.scrollTo({top:window.scrollY,behavior:"auto"}),60)}});
 ui.navSaved.addEventListener("click",()=>{savedOnly=!savedOnly;searchOpen=false;ui.searchRow.classList.remove("searchVisible");ui.q.blur();ui.q.value="";if(savedOnly){resetTopFilters();setNavActive("saved")}else setNavActive("home");render()});
-ui.refresh.addEventListener('click',load);
 load();
 })();
 </script>
