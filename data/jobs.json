@@ -1,0 +1,131 @@
+{
+  "generatedAt": "2026-09-20T21:30:00+02:00",
+  "source": "Ricerca quotidiana Alice",
+  "jobs": [
+    {
+      "id": "neverhack-it-tender-office-specialist-20260917",
+      "date": "2026-09-17",
+      "company": "NEVERHACK Italy",
+      "title": "IT Tender Office Specialist",
+      "location": "Italia",
+      "workMode": "Remoto",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "45.000–55.000 €",
+      "category": "Tender",
+      "score": 10,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/it-tender-office-specialist-at-neverhack-italy-4461171049",
+      "summary": "Gestione amministrativa e documentale di gare pubbliche e private ICT: disciplinari, capitolati, portali procurement, scadenze e coordinamento interno.",
+      "checks": [
+        "Codice Appalti",
+        "ATI / avvalimento / subappalto"
+      ],
+      "remote": true,
+      "active": true
+    },
+    {
+      "id": "grafton-sales-proposals-ito-20260919",
+      "date": "2026-09-19",
+      "company": "Grafton Office / Gi Group",
+      "title": "Sales Proposals – ITO Support & Booking Expert",
+      "location": "Firenze",
+      "workMode": "Ibrido",
+      "contract": "Somministrazione 12 mesi · possibile finalizzazione",
+      "salary": "35.209,98 €",
+      "category": "Sales Support",
+      "score": 9.5,
+      "source": "Gi Group / Grafton Office",
+      "url": "https://www.gigroup.it/offerte-lavoro-dettaglio/firenze-sales-proposals-ito-support-booking-expert/1368491/",
+      "summary": "Supporto Commercial Operations / International Tender Office, screening proposte, booking ordini, pipeline, KPI e digitalizzazione dei flussi ITO.",
+      "checks": [
+        "Laurea richiesta",
+        "Inglese fluente"
+      ],
+      "remote": false,
+      "active": true
+    },
+    {
+      "id": "randstad-customer-service-20260916",
+      "date": "2026-09-16",
+      "company": "Randstad Italia",
+      "title": "Impiegato Customer Service",
+      "location": "Provincia di Firenze",
+      "workMode": "Non dichiarato",
+      "contract": "Da chiarire · possibile indeterminato",
+      "salary": "28.000–34.000 €",
+      "category": "Sales Support",
+      "score": 9,
+      "source": "Randstad",
+      "url": "https://www.randstad.it/offerte-lavoro/impiegato-customer-service_firenze_ade2d3d0-91c5-4ff2-ba12-a12a226954b4/",
+      "summary": "Gestione ordini, assistenza B2B, portali, documentazione, monitoraggio spedizioni, coordinamento tra reparti e reportistica.",
+      "checks": [
+        "Formula contrattuale effettiva"
+      ],
+      "remote": false,
+      "active": true
+    },
+    {
+      "id": "ingenium-event-coordinator-20260916",
+      "date": "2026-09-16",
+      "company": "Ingenium",
+      "title": "Event Coordinator Specialist",
+      "location": "Italia",
+      "workMode": "100% remoto",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "Non dichiarata",
+      "category": "Eventi",
+      "score": 8.5,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/event-coordinator-specialist-at-ingenium-made-in-italy-innovation-platform-4467209845",
+      "summary": "Pianificazione eventi, fornitori, stakeholder, scadenze, materiali, documentazione e follow-up.",
+      "checks": [
+        "Inglese fluente",
+        "Trasferte / presenze a Milano"
+      ],
+      "remote": true,
+      "active": true
+    },
+    {
+      "id": "randstad-procurement-initiatives-20260916",
+      "date": "2026-09-16",
+      "company": "Randstad Italia",
+      "title": "Procurement Initiatives Specialist",
+      "location": "Firenze",
+      "workMode": "Ampio smart working",
+      "contract": "Somministrazione sostituzione maternità · possibile inserimento",
+      "salary": "30.000–34.000 €",
+      "category": "Operations",
+      "score": 8,
+      "source": "Randstad",
+      "url": "https://www.randstad.com/jobs/procurement-initiatives-specialist-specialista-iniziative-acquisti_firenze_47405449/",
+      "summary": "Coordinamento fornitori e reparti, monitoraggio rischi e scadenze, analisi dati e reportistica.",
+      "checks": [
+        "Power BI",
+        "Inglese fluente"
+      ],
+      "remote": false,
+      "active": true
+    },
+    {
+      "id": "ingegneria-italia-project-manager-eventi-20260916",
+      "date": "2026-09-16",
+      "company": "Ingegneria Italia",
+      "title": "Project Manager Fiere & Eventi – Convivium",
+      "location": "Lombardia",
+      "workMode": "Prevalentemente remoto",
+      "contract": "Determinato 12 mesi → indeterminato",
+      "salary": "35.000–50.000 € + variabile",
+      "category": "Eventi",
+      "score": 7,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/project-manager-fiere-eventi-convivium-at-ingegneria-italia-4462786257",
+      "summary": "Coordinamento operativo, fornitori, aziende partecipanti, logistica, budget e scadenze per fiere ed eventi B2B.",
+      "checks": [
+        "3–5 anni esperienza specifica eventi B2B",
+        "Trasferte nazionali"
+      ],
+      "remote": true,
+      "active": true
+    }
+  ]
+}
