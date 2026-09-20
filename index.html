@@ -91,7 +91,6 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
 .runChip{min-height:50px;padding:9px 13px;border-radius:20px;background:rgba(255,255,255,.52);border:1px solid rgba(255,255,255,.68);box-shadow:var(--shadow-soft);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);display:flex;align-items:center;justify-content:space-between;gap:8px}
 .runChip strong{font-size:13px;letter-spacing:-.01em}.runChip span{font-size:11px;font-weight:800;color:var(--muted);text-align:right}
 .runChip.ok span{color:#1f8f5f}.runChip.partial span{color:#c17a18}.runChip.failed span{color:#c95050}
-.auditHint{grid-column:1/-1;font-size:9px;color:var(--muted);padding:0 5px;margin-top:-3px}
 @media(prefers-color-scheme:dark){.runChip{background:rgba(25,32,47,.62);border-color:rgba(255,255,255,.08)}.runChip.ok span{color:#6ed5a6}.runChip.partial span{color:#f2ba6a}.runChip.failed span{color:#ff8d8d}}
 .tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:3px;background:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.70);padding:6px;border-radius:26px;box-shadow:var(--shadow);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
 .tab{height:48px;border:0;background:transparent;border-radius:18px;color:#58637e;font-size:12px;font-weight:800;cursor:pointer}
@@ -208,8 +207,6 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
   }
   .runChip strong{color:#ffffff}
   .runChip span{color:#c3ccdc}
-  .auditHint{color:#b8c2d6}
-
   .tabs{
     background:rgba(31,39,56,.88);
     border-color:rgba(255,255,255,.14);
@@ -361,8 +358,7 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
   <section class="runAudit" aria-label="Stato ricerche di oggi">
     <div id="run08box" class="runChip"><strong>08:00</strong><span id="run08">In attesa</span></div>
     <div id="run15box" class="runChip"><strong>15:00</strong><span id="run15">In attesa</span></div>
-    <div class="auditHint">✓ significa che tutte le 35 fonti previste hanno risposto. Se anche una sola non è verificabile, compare “Parziale”.</div>
-  </section>
+</section>
 
   <section id="filters" class="tabs">
     <button class="tab active" data-filter="Tutte">Tutte</button>
@@ -399,13 +395,13 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v4.7 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v4.8 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"4.7"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"4.8"};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),updated:$("#updated"),refresh:$("#refresh"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved")};
 let DATA=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
