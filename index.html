@@ -104,7 +104,7 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
 .stat:nth-child(3) .iconWrap{color:var(--blue);background:var(--blue-soft)}
 .statLabel{font-size:12px;color:var(--muted);margin-bottom:3px}
 .stat strong{display:block;font-size:26px;line-height:1;font-weight:850;letter-spacing:-.04em}
-.searchRow{display:flex;gap:10px;align-items:center;margin:0 0 8px}
+.searchRow{display:none;gap:10px;align-items:center;margin:0 0 12px}.searchRow.open{display:flex}
 .search{flex:1;height:54px;border-radius:27px;border:1px solid rgba(255,255,255,.70);background:rgba(255,255,255,.54);display:flex;align-items:center;gap:10px;padding:0 18px;box-shadow:var(--shadow-soft);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
 .search input{width:100%;border:0;outline:none;background:transparent;color:var(--ink);font-size:14px}
 .notice{display:none;margin:12px 0;padding:11px 13px;border-radius:16px;border:1px solid rgba(243,179,92,.25);background:rgba(243,179,92,.10);color:#c27a15;font-size:11px}
@@ -132,15 +132,11 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
 .checks b{color:var(--ink)}
 .cardBottom{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:14px}
 .open{height:52px;padding:0 20px;border-radius:20px;background:linear-gradient(135deg,var(--btn),var(--btn2));color:#fff;text-decoration:none;font-size:14px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;box-shadow:0 12px 24px rgba(34,49,82,.22)}
-.saveBtn{border:0;background:transparent;color:var(--muted);display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:750;padding:8px 4px;cursor:pointer}.saveBtn.saved{color:var(--accent)}
+.saveBtn{border:0;background:transparent;color:var(--muted);display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:800;padding:8px 4px;cursor:pointer}.saveBtn svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}.saveBtn.saved{color:var(--accent)}.saveBtn.saved svg{fill:var(--accent-soft)}
 .empty{background:var(--panel);border:1px dashed var(--line);border-radius:24px;padding:28px;text-align:center;color:var(--muted)}
 .bottomNav{position:sticky;bottom:max(6px,env(safe-area-inset-bottom));margin-top:18px;padding:10px 10px 8px;background:rgba(255,255,255,.72);border:1px solid rgba(255,255,255,.55);box-shadow:var(--shadow);border-radius:28px;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
 @media(prefers-color-scheme:dark){.bottomNav{background:rgba(24,30,43,.82);border-color:rgba(255,255,255,.08)}}
-.navGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:4px}
-.navItem{display:grid;justify-items:center;gap:4px;color:#66718d;font-size:11px;text-decoration:none;font-weight:700;padding:6px 0}
-.navItem .dot{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font-size:19px}
-.navItem.active{color:var(--accent)}
-.navItem.active .dot{background:var(--accent-soft);border:1px solid rgba(120,108,249,.16)}
+.navGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}.navItem{appearance:none;border:0;background:transparent;display:grid;justify-items:center;gap:5px;color:#66718d;font-size:11px;text-decoration:none;font-weight:800;padding:6px 0;cursor:pointer}.navItem .dot{width:38px;height:38px;border-radius:50%;display:grid;place-items:center}.navItem .dot svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}.navItem.active{color:var(--accent)}.navItem.active .dot{background:var(--accent-soft);border:1px solid rgba(120,108,249,.20);box-shadow:0 5px 14px rgba(120,108,249,.10)}
 .footer{text-align:center;color:var(--muted);font-size:9px;margin-top:10px}
 @media (max-width:720px){
   .hero{min-height:142px}
@@ -176,7 +172,7 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
   
   .bell{width:50px;height:50px}
   .stats{grid-template-columns:repeat(3,1fr);gap:8px}
-  .searchRow{flex-direction:column;align-items:stretch}
+  .searchRow.open{flex-direction:column;align-items:stretch}
   .cardGrid{grid-template-columns:66px 1fr;grid-template-areas:'logo info' 'logo side'}
   .logo{width:66px;height:66px;border-radius:20px;font-size:13px}
   .rightCol{gap:8px;flex-wrap:wrap}
@@ -231,29 +227,35 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
 
   <nav class="bottomNav" aria-label="Navigazione">
     <div class="navGrid">
-      <a class="navItem active" href="#"><span class="dot">◎</span><span>Home</span></a>
-      <a class="navItem" href="#"><span class="dot">⌕</span><span>Esplora</span></a>
-      <a class="navItem" href="#"><span class="dot">⌑</span><span>Salvati</span></a>
-      <a class="navItem" href="#"><span class="dot">◌</span><span>Profilo</span></a>
+      <button id="navHome" class="navItem active" type="button"><span class="dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 10.5 12 3l8.5 7.5"/><path d="M5.5 9.5V21h13V9.5"/><path d="M9.5 21v-6h5v6"/></svg></span><span>Home</span></button>
+      <button id="navSearch" class="navItem" type="button"><span class="dot"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.4"/><path d="m15.6 15.6 4.9 4.9"/></svg></span><span>Ricerca</span></button>
+      <button id="navSaved" class="navItem" type="button"><span class="dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 4.5h11a1 1 0 0 1 1 1V21L12 17l-6.5 4V5.5a1 1 0 0 1 1-1Z"/></svg></span><span>Salvati</span></button>
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v4.4 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v4.5 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"4.4"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"4.5"};
 const $=s=>document.querySelector(s);
-const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),updated:$("#updated"),refresh:$("#refresh"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box")};
-let DATA=[],filter="Tutte",statFilter="",AUDIT=null;
+const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),updated:$("#updated"),refresh:$("#refresh"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved")};
+let DATA=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
 const STATUS=["Nuova","Interessante","Candidata","Colloquio","Scartata"];
 const storeKey="alice-job-radar-status-v3";
 function state(){try{return JSON.parse(localStorage.getItem(storeKey)||"{}")}catch(e){return{}}}
 function saveState(s){try{localStorage.setItem(storeKey,JSON.stringify(s))}catch(e){}}
 function getStatus(id){return state()[id]||"Nuova"}
 function setStatus(id,v){const s=state();s[id]=v;saveState(s);render()}
+const savedKey="alice-job-radar-saved-v1";
+function savedState(){try{return JSON.parse(localStorage.getItem(savedKey)||"{}")}catch(e){return{}}}
+function saveSavedState(v){try{localStorage.setItem(savedKey,JSON.stringify(v))}catch(e){}}
+function isSaved(id){return !!savedState()[id]}
+function toggleSaved(id){const v=savedState();if(v[id])delete v[id];else v[id]=true;saveSavedState(v);render()}
+function setNavActive(which){ui.navHome.classList.toggle("active",which==="home");ui.navSearch.classList.toggle("active",which==="search");ui.navSaved.classList.toggle("active",which==="saved")}
+function resetTopFilters(){filter="Tutte";statFilter="";document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("active",x.dataset.filter==="Tutte"));document.querySelectorAll(".stat").forEach(x=>x.classList.remove("active"))}
 function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
 function fmtDateTime(iso){try{return new Intl.DateTimeFormat("it-IT",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"}).format(new Date(iso))}catch(e){return iso}}
 function ageHours(iso){const t=Date.parse(iso);return Number.isFinite(t)?(Date.now()-t)/36e5:Infinity}
@@ -276,6 +278,7 @@ function match(j){
  const q=ui.q.value.trim().toLowerCase();
  if(q && ![j.company,j.title,j.location,j.category,j.summary,j.salary,j.contract].join(" ").toLowerCase().includes(q))return false;
  if(filter!=="Tutte" && j.category!==filter)return false;
+ if(savedOnly && !isSaved(j.id))return false;
  if(statFilter==="Nuove" && !isNew(j))return false;
  if(statFilter==="Top" && j.score<9)return false;
  if(statFilter==="Remote" && !j.remote)return false;
@@ -295,6 +298,7 @@ function render(){
  if(!arr.length){ui.jobs.innerHTML='<div class="empty">Nessuna offerta con questi filtri.</div>';return}
  ui.jobs.innerHTML=arr.map(j=>{
   const st=getStatus(j.id);
+  const saved=isSaved(j.id);
   const fresh=isNew(j);
   const badges='<div class="badges">'+
     (fresh?'<span class="badge new">NUOVA '+esc(j.firstSeenRun||"")+'</span>':'')+
@@ -320,10 +324,10 @@ function render(){
     </div>
     <div class="summary">${esc(j.summary)}</div>
     ${(j.checks&&j.checks.length)?`<div class="checks"><b>Da verificare:</b> ${esc(j.checks.join(' · '))}</div>`:''}
-    <div class="cardBottom"><button class="saveBtn ${st==="Interessante"?"saved":""}" data-save="${esc(j.id)}">⌑ <span>${st==="Interessante"?"Salvata":"Salva"}</span></button><a class="open" href="${esc(j.url)}" target="_blank" rel="noopener">Apri annuncio →</a></div>
+    <div class="cardBottom"><button class="saveBtn ${saved?"saved":""}" data-save="${esc(j.id)}" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 4.5h11a1 1 0 0 1 1 1V21L12 17l-6.5 4V5.5a1 1 0 0 1 1-1Z"/></svg><span>${saved?"Salvata":"Salva"}</span></button><a class="open" href="${esc(j.url)}" target="_blank" rel="noopener">Apri annuncio →</a></div>
   </article>`;
  }).join("");
- document.querySelectorAll('.saveBtn').forEach(el=>el.addEventListener('click',e=>{const id=e.currentTarget.dataset.save;setStatus(id,getStatus(id)==="Interessante"?"Nuova":"Interessante")}));
+ document.querySelectorAll('.saveBtn').forEach(el=>el.addEventListener('click',e=>toggleSaved(e.currentTarget.dataset.save)));
 }
 function romeDateKey(d=new Date()){
  try{
@@ -385,6 +389,9 @@ document.querySelectorAll(".stat").forEach(el=>el.addEventListener("click",()=>{
  document.querySelectorAll(".stat").forEach(x=>x.classList.toggle("active",x.dataset.stat===statFilter));
  render();
 }));
+ui.navHome.addEventListener("click",()=>{savedOnly=false;searchOpen=false;ui.searchRow.classList.remove("open");ui.q.value="";resetTopFilters();setNavActive("home");render();window.scrollTo({top:0,behavior:"smooth"})});
+ui.navSearch.addEventListener("click",()=>{savedOnly=false;searchOpen=!searchOpen;ui.searchRow.classList.toggle("open",searchOpen);setNavActive(searchOpen?"search":"home");if(searchOpen){setTimeout(()=>ui.q.focus(),80)}else{ui.q.value="";render()}});
+ui.navSaved.addEventListener("click",()=>{savedOnly=!savedOnly;searchOpen=false;ui.searchRow.classList.remove("open");ui.q.value="";if(savedOnly){resetTopFilters();setNavActive("saved")}else setNavActive("home");render()});
 ui.refresh.addEventListener('click',load);
 load();
 })();
