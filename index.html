@@ -80,7 +80,7 @@ button,input,select{font:inherit}
 button,a{-webkit-tap-highlight-color:transparent}
 .app{max-width:760px;margin:0 auto;padding-bottom:14px}
 .top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;padding:4px 2px 4px;position:relative}
-.hero{flex:1;position:relative;min-height:82px}.encourage{position:relative;z-index:5;flex:0 0 128px;align-self:flex-start;margin-top:18px;text-align:center;font-family:"Snell Roundhand","Segoe Print","Bradley Hand",cursive;font-size:25px;font-weight:600;line-height:1;color:#766cf3;transform:rotate(-7deg);transform-origin:center;white-space:nowrap;opacity:.96;text-shadow:0 1px 0 rgba(255,255,255,.75)}
+.hero{flex:1;position:relative;min-height:82px}.encourage{position:absolute;z-index:5;top:18px;left:78%;text-align:center;font-family:"Snell Roundhand","Segoe Print","Bradley Hand",cursive;font-size:25px;font-weight:600;line-height:1;color:#766cf3;transform:translateX(-50%) rotate(-7deg);transform-origin:center;white-space:nowrap;opacity:.96;text-shadow:0 1px 0 rgba(255,255,255,.75);pointer-events:none}
 .kicker{font-size:13px;color:var(--muted2);font-weight:700;margin-top:10px}
 h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position:relative;z-index:2}
 .sub{font-size:12px;color:var(--muted);position:relative;z-index:2}
@@ -163,7 +163,7 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
   .cardBottom{justify-content:stretch}
 }
 @media (max-width:430px){
-  .encourage{font-size:21px;flex-basis:118px;margin-top:18px}
+  .encourage{font-size:21px;top:18px}
   .top{gap:10px}
   .hero{min-height:84px}
   .blob1{right:58px;top:12px;width:92px;height:92px}
@@ -396,13 +396,13 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v5.6 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v5.7 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"5.6"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"5.7"};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved")};
 let DATA=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -556,7 +556,20 @@ document.querySelectorAll(".stat").forEach(el=>el.addEventListener("click",()=>{
 ui.navHome.addEventListener("click",()=>{savedOnly=false;searchOpen=false;ui.searchRow.classList.remove("searchVisible");ui.q.blur();ui.q.value="";resetTopFilters();setNavActive("home");render();window.scrollTo({top:0,behavior:"smooth"})});
 ui.navSearch.addEventListener("click",()=>{savedOnly=false;searchOpen=!searchOpen;ui.searchRow.classList.toggle("searchVisible",searchOpen);setNavActive(searchOpen?"search":"home");if(searchOpen){setTimeout(()=>ui.q.focus({preventScroll:true}),80)}else{ui.q.blur();ui.q.value="";render();setTimeout(()=>window.scrollTo({top:window.scrollY,behavior:"auto"}),60)}});
 ui.navSaved.addEventListener("click",()=>{savedOnly=!savedOnly;searchOpen=false;ui.searchRow.classList.remove("searchVisible");ui.q.blur();ui.q.value="";if(savedOnly){resetTopFilters();setNavActive("saved")}else setNavActive("home");render()});
-load();
+function positionEncourage(){
+ const el=document.querySelector(".encourage");
+ const title=document.querySelector("h1");
+ const top=document.querySelector(".top");
+ if(!el||!title||!top)return;
+ const tr=title.getBoundingClientRect();
+ const pr=top.getBoundingClientRect();
+ const midpoint=tr.right+((pr.right-tr.right)/2);
+ el.style.left=(midpoint-pr.left)+"px";
+}
+window.addEventListener("resize",positionEncourage);
+window.addEventListener("orientationchange",()=>setTimeout(positionEncourage,120));
+positionEncourage();
+Promise.resolve(load()).then(positionEncourage);
 })();
 </script>
 <script>
