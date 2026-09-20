@@ -353,7 +353,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
   <header class="top">
     <div class="hero"><div class="kicker">Ricerca automatica</div>
       <h1>Alice Job Radar</h1></div>
-    <div class="encourage" aria-label="ce la faremo amore">ce la faremo!<span>amore!</span></div>
+    <div class="encourage" aria-label="ce la faremo amore">ce la faremo<span>amore!</span></div>
 </header>
 
   <section class="runAudit" aria-label="Stato ricerche di oggi">
@@ -396,13 +396,13 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v6.0 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v6.1 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.0"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.1"};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved")};
 let DATA=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -427,14 +427,54 @@ function latestRun(){
  const runs=Object.values(AUDIT.runs).filter(Boolean).sort((a,b)=>String(b.completedAt||"").localeCompare(String(a.completedAt||"")));
  return runs[0]||null;
 }
+function currentNewBatch(){
+ const events=[];
+
+ if(AUDIT&&AUDIT.runs){
+   Object.values(AUDIT.runs).filter(Boolean).forEach(r=>{
+     if(r.completedAt){
+       events.push({
+         completedAt:r.completedAt,
+         date:String(r.completedAt).slice(0,10),
+         run:r.scheduledFor||"",
+         newJobs:Number(r.newJobs||0)
+       });
+     }
+   });
+ }
+
+ if(window.__MANUAL_REFRESH__&&window.__MANUAL_REFRESH__.completedAt){
+   const m=window.__MANUAL_REFRESH__;
+   const matching=DATA.filter(j=>j.firstSeenAt===m.completedAt&&j.firstSeenRun);
+   events.push({
+     completedAt:m.completedAt,
+     date:String(m.completedAt).slice(0,10),
+     run:matching[0]?.firstSeenRun||"",
+     newJobs:Number(m.newJobs||matching.length||0)
+   });
+ }
+
+ // Fallback: if no audit/manual event is available, use the latest discovery batch.
+ if(!events.length){
+   const discovered=DATA.filter(j=>j.firstSeenAt&&j.firstSeenRun)
+     .sort((a,b)=>String(b.firstSeenAt).localeCompare(String(a.firstSeenAt)));
+   if(discovered.length){
+     const d=discovered[0];
+     return {date:String(d.firstSeenAt).slice(0,10),run:d.firstSeenRun};
+   }
+   return null;
+ }
+
+ events.sort((a,b)=>String(b.completedAt).localeCompare(String(a.completedAt)));
+ const latest=events[0];
+ if(latest.newJobs<=0)return null;
+ return {date:latest.date,run:latest.run};
+}
 function isNew(j){
  if(!j.firstSeenAt||!j.firstSeenRun)return false;
- const seenDay=String(j.firstSeenAt).slice(0,10);
- const today=romeDateKey();
- if(seenDay!==today)return false;
- if(j.firstSeenRun!=="08:00" && j.firstSeenRun!=="15:00")return true;
- const r=latestRun();
- return !!(r&&AUDIT&&AUDIT.date===today&&j.firstSeenRun===r.scheduledFor);
+ const batch=currentNewBatch();
+ if(!batch)return false;
+ return String(j.firstSeenAt).slice(0,10)===batch.date && j.firstSeenRun===batch.run;
 }
 function counts(){
  ui.stNew.textContent=DATA.filter(isNew).length;
@@ -534,7 +574,7 @@ async function load(){ ui.notice.classList.remove('show');
    const sep=CFG.dataUrl.includes('?')?'&':'?';
    const r=await fetch(CFG.dataUrl+sep+'t='+Date.now(),{cache:'no-store'});
    if(!r.ok)throw Error('HTTP '+r.status);
-   const j=await r.json(); DATA=Array.isArray(j.jobs)?j.jobs:[]; AUDIT=j.audit||null;
+   const j=await r.json(); DATA=Array.isArray(j.jobs)?j.jobs:[]; AUDIT=j.audit||null; window.__MANUAL_REFRESH__=j.manualRefresh||null;
    renderAudit(AUDIT);
    if(ageHours(j.generatedAt)>36){ui.notice.textContent='La ricerca non risulta aggiornata nelle ultime 36 ore.';ui.notice.classList.add('show')}
    render();
