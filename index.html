@@ -202,7 +202,7 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
   <section class="runAudit" aria-label="Stato ricerche di oggi">
     <div id="run08box" class="runChip"><strong>08:00</strong><span id="run08">In attesa</span></div>
     <div id="run15box" class="runChip"><strong>15:00</strong><span id="run15">In attesa</span></div>
-    <div class="auditHint">✓ significa che tutti i 15 portali base sono stati controllati. Se un sito non è raggiungibile compare “Parziale”.</div>
+    <div class="auditHint">✓ significa che tutte le 35 fonti previste hanno risposto. Se anche una sola non è verificabile, compare “Parziale”.</div>
   </section>
 
   <section id="filters" class="tabs">
@@ -248,13 +248,13 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v4.1 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v4.2 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"4.1"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"4.2"};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),miniFilters:$("#miniFilters"),updated:$("#updated"),refresh:$("#refresh"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box")};
 let DATA=[],filter="Tutte",miniFilter="";
@@ -338,7 +338,7 @@ function renderAudit(audit){
      el.textContent="Da eseguire";
      return;
    }
-   const checked=Number(r.requiredSourcesChecked||0), total=Number(r.requiredSourcesTotal||15);
+   const checked=Number(r.requiredSourcesChecked||0), total=Number(r.requiredSourcesTotal||35);
    if(r.status==="complete"){
      box.classList.add("ok");
      el.textContent="✓ aggiornata · "+checked+"/"+total;
