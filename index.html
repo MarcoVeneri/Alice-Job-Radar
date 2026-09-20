@@ -79,15 +79,15 @@ body{padding:max(14px,env(safe-area-inset-top)) max(10px,env(safe-area-inset-rig
 button,input,select{font:inherit}
 button,a{-webkit-tap-highlight-color:transparent}
 .app{max-width:760px;margin:0 auto;padding-bottom:14px}
-.top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;padding:4px 2px 12px;position:relative}
-.hero{flex:1;position:relative;min-height:104px}
+.top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;padding:4px 2px 4px;position:relative}
+.hero{flex:1;position:relative;min-height:82px}
 .kicker{font-size:13px;color:var(--muted2);font-weight:700;margin-top:10px}
 h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position:relative;z-index:2}
 .sub{font-size:12px;color:var(--muted);position:relative;z-index:2}
 
 .heroNote::after{content:"";display:block;margin-top:8px;width:28px;height:2px;background:currentColor;opacity:.38;border-radius:3px}
 .bell{position:relative;z-index:2;flex:0 0 auto;width:54px;height:54px;border-radius:50%;border:1px solid rgba(255,255,255,.66);background:rgba(255,255,255,.46);box-shadow:var(--shadow-soft);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);display:grid;place-items:center;color:var(--ink);cursor:pointer;font-size:20px}
-.runAudit{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 14px}
+.runAudit{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 12px}
 .runChip{min-height:50px;padding:9px 13px;border-radius:20px;background:rgba(255,255,255,.52);border:1px solid rgba(255,255,255,.68);box-shadow:var(--shadow-soft);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);display:flex;align-items:center;justify-content:space-between;gap:8px}
 .runChip strong{font-size:13px;letter-spacing:-.01em}.runChip span{font-size:11px;font-weight:800;color:var(--muted);text-align:right}
 .runChip.ok span{color:#1f8f5f}.runChip.partial span{color:#c17a18}.runChip.failed span{color:#c95050}
@@ -138,7 +138,7 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
 .navGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}.navItem{appearance:none;border:0;background:transparent;display:grid;justify-items:center;gap:5px;color:#66718d;font-size:11px;text-decoration:none;font-weight:800;padding:6px 0;cursor:pointer}.navItem .dot{width:38px;height:38px;border-radius:50%;display:grid;place-items:center}.navItem .dot svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}.navItem.active{color:var(--accent)}.navItem.active .dot{background:var(--accent-soft);border:1px solid rgba(120,108,249,.20);box-shadow:0 5px 14px rgba(120,108,249,.10)}
 .footer{text-align:center;color:var(--muted);font-size:9px;margin-top:10px}
 @media (max-width:720px){
-  .hero{min-height:142px}
+  .hero{min-height:88px}
   .blob1{right:62px;width:106px;height:106px}
   .blob2{right:4px;width:128px;height:128px}
   
@@ -165,7 +165,7 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
 }
 @media (max-width:430px){
   .top{gap:10px}
-  .hero{min-height:136px}
+  .hero{min-height:84px}
   .blob1{right:58px;top:12px;width:92px;height:92px}
   .blob2{right:6px;top:50px;width:108px;height:108px}
   
@@ -398,13 +398,13 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v5.1 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v5.2 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"5.1"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"5.2"};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),refresh:$("#refresh"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved")};
 let DATA=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
