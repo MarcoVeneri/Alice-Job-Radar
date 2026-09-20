@@ -97,7 +97,7 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
 .tab{height:48px;border:0;background:transparent;border-radius:18px;color:#58637e;font-size:12px;font-weight:800;cursor:pointer}
 .tab.active{color:#fff;background:linear-gradient(135deg,var(--accent),var(--accent-2));box-shadow:0 10px 22px rgba(120,108,249,.22)}
 .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0}
-.stat{background:rgba(255,255,255,.56);border:1px solid rgba(255,255,255,.70);border-radius:27px;padding:14px 15px;display:grid;grid-template-columns:56px 1fr;align-items:center;gap:13px;box-shadow:var(--shadow-soft);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);cursor:pointer;transition:.18s ease}.stat.active{transform:translateY(-1px);border-color:rgba(120,108,249,.40);box-shadow:0 12px 28px rgba(120,108,249,.14)}
+.stat{background:rgba(255,255,255,.56);border:1px solid rgba(255,255,255,.70);border-radius:27px;padding:14px 15px;display:grid;grid-template-columns:56px 1fr;align-items:center;gap:13px;box-shadow:var(--shadow-soft);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);cursor:pointer;transition:.18s ease}.stat.active{transform:translateY(-1px);border-width:2px;box-shadow:0 14px 30px rgba(40,58,94,.14),inset 0 0 0 1px rgba(255,255,255,.35)}.stat:nth-child(1).active{border-color:var(--accent);background:rgba(120,108,249,.11)}.stat:nth-child(2).active{border-color:var(--gold);background:rgba(243,179,92,.12)}.stat:nth-child(3).active{border-color:var(--blue);background:rgba(91,141,255,.12)}.stat.active .statLabel{font-weight:850;color:var(--ink)}.stat.active strong{transform:scale(1.04);transform-origin:left center}
 .iconWrap{width:58px;height:58px;border-radius:22px;display:grid;place-items:center;font-size:25px;background:rgba(255,255,255,.35);border:1px solid rgba(255,255,255,.45)}
 .stat:nth-child(1) .iconWrap{color:var(--accent);background:var(--accent-soft)}
 .stat:nth-child(2) .iconWrap{color:var(--gold);background:var(--gold-soft)}
@@ -238,13 +238,13 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v4.3 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v4.4 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"4.3"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"4.4"};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),updated:$("#updated"),refresh:$("#refresh"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box")};
 let DATA=[],filter="Tutte",statFilter="",AUDIT=null;
