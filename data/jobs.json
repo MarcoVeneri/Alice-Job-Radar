@@ -127,5 +127,10 @@
       "remote": true,
       "active": true
     }
-  ]
+  ],
+  "audit": {
+    "date": "2026-09-20",
+    "runs": {},
+    "note": "Il registro automatico dei controlli 08:00 e 15:00 è attivo dalla prossima esecuzione."
+  }
 }
