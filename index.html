@@ -80,7 +80,7 @@ button,input,select{font:inherit}
 button,a{-webkit-tap-highlight-color:transparent}
 .app{max-width:760px;margin:0 auto;padding-bottom:14px}
 .top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;padding:4px 2px 4px;position:relative}
-.hero{flex:1;position:relative;min-height:82px}.encourage{position:absolute;z-index:5;top:18px;left:76%;text-align:center;font-family:"Snell Roundhand","Segoe Print","Bradley Hand",cursive;font-size:28px;font-weight:600;line-height:.95;color:#766cf3;transform:translateX(-50%) rotate(-7deg);transform-origin:center;white-space:nowrap;opacity:.96;text-shadow:0 1px 0 rgba(255,255,255,.75);pointer-events:none}.encourage span{display:block;margin-top:3px;font-size:.92em}
+.hero{flex:1;position:relative;min-height:82px}.encourage{position:absolute;z-index:5;top:18px;left:76%;text-align:center;font-family:"Snell Roundhand","Segoe Print","Bradley Hand",cursive;font-size:28px;font-weight:600;line-height:.95;color:#86BFA0;transform:translateX(-50%) rotate(-7deg);transform-origin:center;white-space:nowrap;opacity:.96;text-shadow:0 1px 0 rgba(255,255,255,.75);pointer-events:none}.encourage span{display:block;margin-top:3px;font-size:.92em}
 .kicker{font-size:13px;color:var(--muted2);font-weight:700;margin-top:10px}
 h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position:relative;z-index:2}
 .sub{font-size:12px;color:var(--muted);position:relative;z-index:2}
@@ -180,7 +180,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 /* dark-contrast-v4-6 */
 
 @media (prefers-color-scheme:dark){
-  .encourage{color:#b9b1ff;opacity:.95;text-shadow:0 1px 8px rgba(0,0,0,.28)}
+  .encourage{color:#A6D6B5;opacity:.98;text-shadow:0 1px 8px rgba(0,0,0,.28)}
   html,body{
     background:
       radial-gradient(circle at 92% 4%,rgba(120,108,249,.16),transparent 26%),
@@ -396,13 +396,13 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v6.1 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v6.2 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.1"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.2"};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved")};
 let DATA=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
