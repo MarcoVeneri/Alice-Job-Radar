@@ -80,21 +80,18 @@ button,input,select{font:inherit}
 button,a{-webkit-tap-highlight-color:transparent}
 .app{max-width:760px;margin:0 auto;padding-bottom:14px}
 .top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;padding:4px 2px 12px;position:relative}
-.hero{flex:1;position:relative;min-height:150px}
+.hero{flex:1;position:relative;min-height:104px}
 .kicker{font-size:13px;color:var(--muted2);font-weight:700;margin-top:10px}
-h1{margin:8px 0 8px;font-size:34px;line-height:1;letter-spacing:-.048em;position:relative;z-index:2}
+h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position:relative;z-index:2}
 .sub{font-size:12px;color:var(--muted);position:relative;z-index:2}
-.blob1,.blob2{position:absolute;border-radius:50%;border:1px solid rgba(255,255,255,.55);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
-.blob1{right:78px;top:6px;width:122px;height:122px;background:linear-gradient(145deg,rgba(156,147,255,.26),rgba(255,255,255,.08))}
-.blob2{right:8px;top:46px;width:144px;height:144px;background:linear-gradient(145deg,rgba(255,255,255,.34),rgba(209,213,255,.08))}
 
 .heroNote::after{content:"";display:block;margin-top:8px;width:28px;height:2px;background:currentColor;opacity:.38;border-radius:3px}
-.bell{position:relative;z-index:2;flex:0 0 auto;width:54px;height:54px;border-radius:50%;border:1px solid rgba(255,255,255,.56);background:rgba(255,255,255,.42);box-shadow:var(--shadow-soft);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);display:grid;place-items:center;color:var(--ink);cursor:pointer}
-.tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:0;background:var(--panel);border:1px solid var(--line);padding:6px;border-radius:24px;box-shadow:var(--shadow);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.bell{position:relative;z-index:2;flex:0 0 auto;width:54px;height:54px;border-radius:50%;border:1px solid rgba(255,255,255,.66);background:rgba(255,255,255,.46);box-shadow:var(--shadow-soft);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);display:grid;place-items:center;color:var(--ink);cursor:pointer;font-size:20px}
+.tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:3px;background:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.70);padding:6px;border-radius:26px;box-shadow:var(--shadow);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
 .tab{height:48px;border:0;background:transparent;border-radius:18px;color:#58637e;font-size:12px;font-weight:800;cursor:pointer}
 .tab.active{color:#fff;background:linear-gradient(135deg,var(--accent),var(--accent-2));box-shadow:0 10px 22px rgba(120,108,249,.22)}
 .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0}
-.stat{background:var(--panel);border:1px solid var(--line);border-radius:28px;padding:14px 16px;display:grid;grid-template-columns:58px 1fr;align-items:center;gap:14px;box-shadow:var(--shadow-soft);backdrop-filter:blur(16px)}
+.stat{background:rgba(255,255,255,.56);border:1px solid rgba(255,255,255,.70);border-radius:27px;padding:14px 15px;display:grid;grid-template-columns:56px 1fr;align-items:center;gap:13px;box-shadow:var(--shadow-soft);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
 .iconWrap{width:58px;height:58px;border-radius:22px;display:grid;place-items:center;font-size:25px;background:rgba(255,255,255,.35);border:1px solid rgba(255,255,255,.45)}
 .stat:nth-child(1) .iconWrap{color:var(--accent);background:var(--accent-soft)}
 .stat:nth-child(2) .iconWrap{color:var(--gold);background:var(--gold-soft)}
@@ -102,16 +99,16 @@ h1{margin:8px 0 8px;font-size:34px;line-height:1;letter-spacing:-.048em;position
 .statLabel{font-size:12px;color:var(--muted);margin-bottom:3px}
 .stat strong{display:block;font-size:26px;line-height:1;font-weight:850;letter-spacing:-.04em}
 .searchRow{display:flex;gap:10px;align-items:center;margin:0 0 8px}
-.search{flex:1;height:44px;border-radius:17px;border:1px solid var(--line);background:var(--panel);display:flex;align-items:center;gap:9px;padding:0 13px;box-shadow:var(--shadow-soft)}
+.search{flex:1;height:54px;border-radius:27px;border:1px solid rgba(255,255,255,.70);background:rgba(255,255,255,.54);display:flex;align-items:center;gap:10px;padding:0 18px;box-shadow:var(--shadow-soft);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
 .search input{width:100%;border:0;outline:none;background:transparent;color:var(--ink);font-size:14px}
-.quick{display:flex;gap:8px;overflow:auto;padding-bottom:4px;scrollbar-width:none}
+.quick{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;overflow:visible;padding-bottom:4px;scrollbar-width:none}
 .quick::-webkit-scrollbar{display:none}
-.mini{flex:0 0 auto;height:40px;padding:0 14px;border-radius:15px;border:1px solid var(--line);background:var(--panel);color:var(--muted);font-size:11px;font-weight:800;box-shadow:var(--shadow-soft);cursor:pointer}
+.mini{height:46px;padding:0 13px;border-radius:23px;border:1px solid rgba(255,255,255,.68);background:rgba(255,255,255,.50);color:var(--muted);font-size:11px;font-weight:800;box-shadow:var(--shadow-soft);cursor:pointer;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
 .mini.active{color:var(--accent);background:var(--accent-soft);border-color:var(--line-strong)}
 .notice{display:none;margin:12px 0;padding:11px 13px;border-radius:16px;border:1px solid rgba(243,179,92,.25);background:rgba(243,179,92,.10);color:#c27a15;font-size:11px}
 .notice.show{display:block}
 .jobs{display:grid;gap:16px;margin-top:14px}
-.card{position:relative;background:linear-gradient(180deg,rgba(255,255,255,.82),rgba(255,255,255,.70));border:1px solid var(--line);outline:1px solid rgba(125,138,168,.10);border-radius:28px;padding:18px;box-shadow:var(--shadow);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.card{position:relative;background:linear-gradient(180deg,rgba(255,255,255,.70),rgba(255,255,255,.55));border:1px solid rgba(111,126,160,.23);outline:1px solid rgba(255,255,255,.48);border-radius:28px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
 @media (prefers-color-scheme:dark){.card{background:linear-gradient(180deg,rgba(27,33,46,.94),rgba(23,29,41,.88))}}
 .card.topmatch{border-color:var(--line-strong);outline-color:rgba(120,108,249,.18)}
 .cardGrid{display:grid;grid-template-columns:92px 1fr auto;gap:16px;align-items:start}
@@ -125,13 +122,14 @@ h1{margin:8px 0 8px;font-size:34px;line-height:1;letter-spacing:-.048em;position
 .score{height:38px;min-width:82px;padding:0 13px;border-radius:999px;background:rgba(255,255,255,.50);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;gap:6px;font-size:16px;font-weight:850;box-shadow:var(--shadow-soft)}
 .score .star{color:var(--gold);font-size:18px;line-height:1}
 .statusSel{height:42px;min-width:142px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.35);color:var(--accent);padding:0 14px;font-size:12px;font-weight:800;outline:none;box-shadow:var(--shadow-soft)}
-.meta{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 10px 108px}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin:13px 0 10px 0}
 .tag{padding:8px 14px;border-radius:999px;background:var(--chip);border:1px solid rgba(124,138,171,.08);font-size:12px;font-weight:700;color:#5c6782}
-.summary{margin-left:108px;font-size:14px;line-height:1.42;color:#5f6a86;max-width:540px}
-.checks{margin:10px 0 0 108px;font-size:11px;line-height:1.35;color:var(--muted)}
+.summary{margin-left:0;font-size:13px;line-height:1.44;color:#5f6a86;max-width:100%}
+.checks{display:none}
 .checks b{color:var(--ink)}
-.cardBottom{display:flex;justify-content:flex-end;margin-top:14px}
-.open{height:56px;padding:0 24px;border-radius:20px;background:linear-gradient(135deg,var(--btn),var(--btn2));color:#fff;text-decoration:none;font-size:15px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;box-shadow:0 14px 28px rgba(34,49,82,.22)}
+.cardBottom{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:14px}
+.open{height:52px;padding:0 20px;border-radius:20px;background:linear-gradient(135deg,var(--btn),var(--btn2));color:#fff;text-decoration:none;font-size:14px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;box-shadow:0 12px 24px rgba(34,49,82,.22)}
+.saveBtn{border:0;background:transparent;color:var(--muted);display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:750;padding:8px 4px;cursor:pointer}.saveBtn.saved{color:var(--accent)}
 .empty{background:var(--panel);border:1px dashed var(--line);border-radius:24px;padding:28px;text-align:center;color:var(--muted)}
 .bottomNav{position:sticky;bottom:max(6px,env(safe-area-inset-bottom));margin-top:18px;padding:10px 10px 8px;background:rgba(255,255,255,.72);border:1px solid rgba(255,255,255,.55);box-shadow:var(--shadow);border-radius:28px;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
 @media(prefers-color-scheme:dark){.bottomNav{background:rgba(24,30,43,.82);border-color:rgba(255,255,255,.08)}}
@@ -174,7 +172,7 @@ h1{margin:8px 0 8px;font-size:34px;line-height:1;letter-spacing:-.048em;position
   .blob2{right:6px;top:50px;width:108px;height:108px}
   
   .bell{width:50px;height:50px}
-  .stats{grid-template-columns:1fr;gap:10px}
+  .stats{grid-template-columns:repeat(3,1fr);gap:8px}
   .searchRow{flex-direction:column;align-items:stretch}
   .cardGrid{grid-template-columns:66px 1fr;grid-template-areas:'logo info' 'logo side'}
   .logo{width:66px;height:66px;border-radius:20px;font-size:13px}
@@ -189,10 +187,7 @@ h1{margin:8px 0 8px;font-size:34px;line-height:1;letter-spacing:-.048em;position
 <body>
 <main class="app">
   <header class="top">
-    <div class="hero">
-      <div class="blob1"></div>
-      <div class="blob2"></div>
-      <div class="kicker">Ricerca automatica</div>
+    <div class="hero"><div class="kicker">Ricerca automatica</div>
       <h1>Alice Job Radar</h1>
       <div id="updated" class="sub">Ultimo aggiornamento: caricamento…</div></div>
     <button id="refresh" class="bell" aria-label="Aggiorna">⟳</button>
@@ -241,13 +236,13 @@ h1{margin:8px 0 8px;font-size:34px;line-height:1;letter-spacing:-.048em;position
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v3.3 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v4.0 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"3.2"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"4.0"};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),miniFilters:$("#miniFilters"),updated:$("#updated"),refresh:$("#refresh"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote")};
 let DATA=[],filter="Tutte",miniFilter="";
@@ -276,8 +271,11 @@ function match(j){
  return true;
 }
 function initials(name){
- const clean=(name||'').replace(/S\.p\.A\.|Spa|Italia|Italy|Office|Group|Srl|SRL|spa/gi,'').trim();
- const parts=clean.split(/\s+/).filter(Boolean).slice(0,2);
+ const n=String(name||'');
+ if(/neverhack/i.test(n))return 'NEVERHACK<br><small>ITALY</small>';
+ if(/grafton|gi group/i.test(n))return 'Gi Group';
+ const clean=n.replace(/S\\.p\\.A\\.|Spa|Italia|Italy|Office|Group|Srl|SRL|spa/gi,'').trim();
+ const parts=clean.split(/\\s+/).filter(Boolean).slice(0,2);
  return parts.map(x=>x[0]||'').join('').toUpperCase()||'AJ';
 }
 function render(){
@@ -288,7 +286,7 @@ function render(){
   const st=getStatus(j.id),opts=STATUS.map(x=>`<option ${x===st?"selected":""}>${x}</option>`).join("");
   return `<article class="card ${j.score>=9.5?"topmatch":""}">
     <div class="cardGrid">
-      <div class="logo"><div><span class="logoWord">${esc(initials(j.company))}</span></div></div>
+      <div class="logo"><div>${initials(j.company)}</div></div>
       <div class="infoTop">
         <div class="company">${esc(j.company)}</div>
         <div class="title">${esc(j.title)}</div>
@@ -296,7 +294,6 @@ function render(){
       </div>
       <div class="rightCol">
         <div class="score"><span class="star">★</span> ${j.score.toFixed(1)}</div>
-        <select class="statusSel" data-id="${esc(j.id)}">${opts}</select>
       </div>
     </div>
     <div class="meta">
@@ -306,10 +303,10 @@ function render(){
     </div>
     <div class="summary">${esc(j.summary)}</div>
     ${(j.checks&&j.checks.length)?`<div class="checks"><b>Da verificare:</b> ${esc(j.checks.join(' · '))}</div>`:''}
-    <div class="cardBottom"><a class="open" href="${esc(j.url)}" target="_blank" rel="noopener">Apri annuncio →</a></div>
+    <div class="cardBottom"><button class="saveBtn ${st==="Interessante"?"saved":""}" data-save="${esc(j.id)}">⌑ <span>${st==="Interessante"?"Salvata":"Salva"}</span></button><a class="open" href="${esc(j.url)}" target="_blank" rel="noopener">Apri annuncio →</a></div>
   </article>`;
  }).join("");
- document.querySelectorAll('.statusSel').forEach(el=>el.addEventListener('change',e=>setStatus(e.target.dataset.id,e.target.value)));
+ document.querySelectorAll('.saveBtn').forEach(el=>el.addEventListener('click',e=>{const id=e.currentTarget.dataset.save;setStatus(id,getStatus(id)==="Interessante"?"Nuova":"Interessante")}));
 }
 async function load(){
  ui.refresh.textContent='…'; ui.notice.classList.remove('show');
