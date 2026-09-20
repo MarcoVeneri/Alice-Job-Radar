@@ -398,13 +398,13 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v5.0 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v5.1 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"5.0"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"5.1"};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),refresh:$("#refresh"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved")};
 let DATA=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -430,9 +430,13 @@ function latestRun(){
  return runs[0]||null;
 }
 function isNew(j){
+ if(!j.firstSeenAt||!j.firstSeenRun)return false;
+ const seenDay=String(j.firstSeenAt).slice(0,10);
+ const today=romeDateKey();
+ if(seenDay!==today)return false;
+ if(j.firstSeenRun!=="08:00" && j.firstSeenRun!=="15:00")return true;
  const r=latestRun();
- if(!r||!j.firstSeenAt||!j.firstSeenRun||!AUDIT)return false;
- return String(j.firstSeenAt).slice(0,10)===AUDIT.date && j.firstSeenRun===r.scheduledFor;
+ return !!(r&&AUDIT&&AUDIT.date===today&&j.firstSeenRun===r.scheduledFor);
 }
 function counts(){
  ui.stNew.textContent=DATA.filter(isNew).length;
