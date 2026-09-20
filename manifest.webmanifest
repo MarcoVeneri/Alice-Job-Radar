@@ -1,11 +1,18 @@
 {
-  "name":"Alice Job Radar",
-  "short_name":"Alice Jobs",
-  "start_url":"./",
-  "scope":"./",
-  "display":"standalone",
-  "background_color":"#f3f5f8",
-  "theme_color":"#6d5dfc",
-  "description":"Dashboard automatica delle opportunità di lavoro per Alice.",
-  "icons":[{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]
+  "name": "Alice Job Radar",
+  "short_name": "Alice Jobs",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f5f8",
+  "theme_color": "#6FAE86",
+  "description": "Dashboard automatica delle opportunità di lavoro per Alice.",
+  "icons": [
+    {
+      "src": "./icon.svg?v=6.4",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
 }
