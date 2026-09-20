@@ -1,1 +1,1 @@
-window.ALICE_RADAR_CONFIG={dataUrl:"./data/jobs.json",appVersion:"3.1"};
+window.ALICE_RADAR_CONFIG={dataUrl:"./data/jobs.json",appVersion:"3.2"};
