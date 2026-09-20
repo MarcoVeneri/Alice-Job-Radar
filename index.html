@@ -238,16 +238,16 @@ h1{margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v4.2 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v4.3 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"4.2"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"4.3"};
 const $=s=>document.querySelector(s);
-const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),miniFilters:$("#miniFilters"),updated:$("#updated"),refresh:$("#refresh"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box")};
-let DATA=[],filter="Tutte",miniFilter="";
+const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),updated:$("#updated"),refresh:$("#refresh"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box")};
+let DATA=[],filter="Tutte",statFilter="",AUDIT=null;
 const STATUS=["Nuova","Interessante","Candidata","Colloquio","Scartata"];
 const storeKey="alice-job-radar-status-v3";
 function state(){try{return JSON.parse(localStorage.getItem(storeKey)||"{}")}catch(e){return{}}}
@@ -257,9 +257,18 @@ function setStatus(id,v){const s=state();s[id]=v;saveState(s);render()}
 function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
 function fmtDateTime(iso){try{return new Intl.DateTimeFormat("it-IT",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"}).format(new Date(iso))}catch(e){return iso}}
 function ageHours(iso){const t=Date.parse(iso);return Number.isFinite(t)?(Date.now()-t)/36e5:Infinity}
+function latestRun(){
+ if(!AUDIT||!AUDIT.runs)return null;
+ const runs=Object.values(AUDIT.runs).filter(Boolean).sort((a,b)=>String(b.completedAt||"").localeCompare(String(a.completedAt||"")));
+ return runs[0]||null;
+}
+function isNew(j){
+ const r=latestRun();
+ if(!r||!j.firstSeenAt||!j.firstSeenRun||!AUDIT)return false;
+ return String(j.firstSeenAt).slice(0,10)===AUDIT.date && j.firstSeenRun===r.scheduledFor;
+}
 function counts(){
- const today=DATA.length?DATA.map(x=>x.date).sort().reverse()[0]:"";
- ui.stNew.textContent=DATA.filter(x=>x.date===today).length;
+ ui.stNew.textContent=DATA.filter(isNew).length;
  ui.stHot.textContent=DATA.filter(x=>x.score>=9).length;
  ui.stRemote.textContent=DATA.filter(x=>x.remote).length;
 }
@@ -267,9 +276,9 @@ function match(j){
  const q=ui.q.value.trim().toLowerCase();
  if(q && ![j.company,j.title,j.location,j.category,j.summary,j.salary,j.contract].join(" ").toLowerCase().includes(q))return false;
  if(filter!=="Tutte" && j.category!==filter)return false;
- if(miniFilter==="Remote" && !j.remote)return false;
- if(miniFilter==="Seguite" && ["Nuova","Scartata"].includes(getStatus(j.id)))return false;
- if(miniFilter==="Operations" && j.category!=="Operations")return false;
+ if(statFilter==="Nuove" && !isNew(j))return false;
+ if(statFilter==="Top" && j.score<9)return false;
+ if(statFilter==="Remote" && !j.remote)return false;
  return true;
 }
 function initials(name){
@@ -285,12 +294,18 @@ function render(){
  const arr=DATA.filter(match).sort((a,b)=>b.score-a.score || b.date.localeCompare(a.date));
  if(!arr.length){ui.jobs.innerHTML='<div class="empty">Nessuna offerta con questi filtri.</div>';return}
  ui.jobs.innerHTML=arr.map(j=>{
-  const st=getStatus(j.id),opts=STATUS.map(x=>`<option ${x===st?"selected":""}>${x}</option>`).join("");
-  return `<article class="card ${j.score>=9.5?"topmatch":""}">
+  const st=getStatus(j.id);
+  const fresh=isNew(j);
+  const badges='<div class="badges">'+
+    (fresh?'<span class="badge new">NUOVA '+esc(j.firstSeenRun||"")+'</span>':'')+
+    (j.score>=9?'<span class="badge top">★ TOP</span>':'')+
+    (j.remote?'<span class="badge remote">REMOTE</span>':'')+
+    '</div>';
+  return `<article class="card ${fresh?"isNew":""} ${j.score>=9?"topmatch":""}">
     <div class="cardGrid">
       <div class="logo"><div>${initials(j.company)}</div></div>
       <div class="infoTop">
-        <div class="company">${esc(j.company)}</div>
+        ${badges}<div class="company">${esc(j.company)}</div>
         <div class="title">${esc(j.title)}</div>
         <div class="loc">📍 ${esc(j.location)}</div>
       </div>
@@ -349,8 +364,8 @@ async function load(){
    const sep=CFG.dataUrl.includes('?')?'&':'?';
    const r=await fetch(CFG.dataUrl+sep+'t='+Date.now(),{cache:'no-store'});
    if(!r.ok)throw Error('HTTP '+r.status);
-   const j=await r.json(); DATA=Array.isArray(j.jobs)?j.jobs:[];
-   renderAudit(j.audit);
+   const j=await r.json(); DATA=Array.isArray(j.jobs)?j.jobs:[]; AUDIT=j.audit||null;
+   renderAudit(AUDIT);
    ui.updated.textContent=`Ultimo aggiornamento: ${fmtDateTime(j.generatedAt)}`;
    if(ageHours(j.generatedAt)>36){ui.notice.textContent='La ricerca non risulta aggiornata nelle ultime 36 ore.';ui.notice.classList.add('show')}
    render();
@@ -364,13 +379,12 @@ ui.filters.addEventListener('click',e=>{
  const b=e.target.closest('.tab'); if(!b)return;
  filter=b.dataset.filter; document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b)); render();
 });
-ui.miniFilters.addEventListener('click',e=>{
- const b=e.target.closest('.mini'); if(!b)return;
- const next=b.dataset.mini;
- miniFilter = miniFilter===next ? '' : next;
- document.querySelectorAll('.mini').forEach(x=>x.classList.toggle('active',x.dataset.mini===miniFilter));
+document.querySelectorAll(".stat").forEach(el=>el.addEventListener("click",()=>{
+ const next=el.dataset.stat;
+ statFilter=statFilter===next?"":next;
+ document.querySelectorAll(".stat").forEach(x=>x.classList.toggle("active",x.dataset.stat===statFilter));
  render();
-});
+}));
 ui.refresh.addEventListener('click',load);
 load();
 })();
