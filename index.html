@@ -80,7 +80,7 @@ button,input,select{font:inherit}
 button,a{-webkit-tap-highlight-color:transparent}
 .app{max-width:760px;margin:0 auto;padding-bottom:14px}
 .top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;padding:4px 2px 4px;position:relative}
-.hero{flex:1;position:relative;min-height:82px}.encourage{position:absolute;z-index:5;top:18px;left:76%;text-align:center;font-family:"Snell Roundhand","Segoe Print","Bradley Hand",cursive;font-size:25px;font-weight:600;line-height:.95;color:#766cf3;transform:translateX(-50%) rotate(-7deg);transform-origin:center;white-space:nowrap;opacity:.96;text-shadow:0 1px 0 rgba(255,255,255,.75);pointer-events:none}.encourage span{display:block;margin-top:3px;font-size:.92em}
+.hero{flex:1;position:relative;min-height:82px}.encourage{position:absolute;z-index:5;top:18px;left:76%;text-align:center;font-family:"Snell Roundhand","Segoe Print","Bradley Hand",cursive;font-size:28px;font-weight:600;line-height:.95;color:#766cf3;transform:translateX(-50%) rotate(-7deg);transform-origin:center;white-space:nowrap;opacity:.96;text-shadow:0 1px 0 rgba(255,255,255,.75);pointer-events:none}.encourage span{display:block;margin-top:3px;font-size:.92em}
 .kicker{font-size:13px;color:var(--muted2);font-weight:700;margin-top:10px}
 h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position:relative;z-index:2}
 .sub{font-size:12px;color:var(--muted);position:relative;z-index:2}
@@ -163,7 +163,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
   .cardBottom{justify-content:stretch}
 }
 @media (max-width:430px){
-  .encourage{font-size:21px;top:18px}
+  .encourage{font-size:23px;top:18px}
   .top{gap:10px}
   .hero{min-height:84px}
   .blob1{right:58px;top:12px;width:92px;height:92px}
@@ -396,13 +396,13 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v5.9 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v6.0 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"5.9"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.0"};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved")};
 let DATA=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
