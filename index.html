@@ -10,7 +10,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Alice Jobs">
 <link rel="manifest" href="./manifest.webmanifest">
-<link rel="apple-touch-icon" href="./icon.svg?v=6.4">
+<link rel="apple-touch-icon" href="./icon.svg?v=6.7">
 <title>Alice Job Radar</title>
 <script src="./config.js"></script>
 <style>
@@ -400,13 +400,13 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v6.6 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v6.7 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.6"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.7"};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -431,60 +431,9 @@ function latestRun(){
  const runs=Object.values(AUDIT.runs).filter(Boolean).sort((a,b)=>String(b.completedAt||"").localeCompare(String(a.completedAt||"")));
  return runs[0]||null;
 }
-function currentNewBatch(){
- const today=romeDateKey();
- const events=[];
-
- if(AUDIT&&AUDIT.runs){
-   Object.entries(AUDIT.runs).forEach(([slot,r])=>{
-     if(r&&r.completedAt){
-       const date=String(r.completedAt).slice(0,10);
-       if(date!==today)return;
-       events.push({
-         completedAt:r.completedAt,
-         date,
-         run:slot,
-         newJobs:Number(r.newJobs||0)
-       });
-     }
-   });
- }
-
- if(window.__MANUAL_REFRESH__&&window.__MANUAL_REFRESH__.completedAt){
-   const m=window.__MANUAL_REFRESH__;
-   const date=String(m.completedAt).slice(0,10);
-   if(date===today){
-     const matching=DATA.filter(j=>j.firstSeenAt===m.completedAt&&j.firstSeenRun);
-     events.push({
-       completedAt:m.completedAt,
-       date,
-       run:matching[0]?.firstSeenRun||"",
-       newJobs:Number(m.newJobs||matching.length||0)
-     });
-   }
- }
-
- // Fallback only to discoveries from today: never carry yesterday's "Nuove" count forward.
- if(!events.length){
-   const discovered=DATA.filter(j=>j.firstSeenAt&&j.firstSeenRun&&String(j.firstSeenAt).slice(0,10)===today)
-     .sort((a,b)=>String(b.firstSeenAt).localeCompare(String(a.firstSeenAt)));
-   if(discovered.length){
-     const d=discovered[0];
-     return {date:today,run:d.firstSeenRun};
-   }
-   return null;
- }
-
- events.sort((a,b)=>String(b.completedAt).localeCompare(String(a.completedAt)));
- const latest=events[0];
- if(latest.newJobs<=0)return null;
- return {date:latest.date,run:latest.run};
-}
 function isNew(j){
  if(!j.firstSeenAt||!j.firstSeenRun)return false;
- const batch=currentNewBatch();
- if(!batch)return false;
- return String(j.firstSeenAt).slice(0,10)===batch.date && j.firstSeenRun===batch.run;
+ return String(j.firstSeenAt).slice(0,10)===romeDateKey();
 }
 function counts(){
  ui.stNew.textContent=DATA.filter(isNew).length;
