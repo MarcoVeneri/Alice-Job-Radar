@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T23:30:08+02:00",
+  "generatedAt": "2026-09-21T08:02:54+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -123,29 +123,6 @@
       "checks": [
         "Inglese fluente",
         "Verificare eventuale smart working"
-      ],
-      "remote": false,
-      "active": true,
-      "firstSeenAt": "2026-09-20T23:30:08+02:00",
-      "firstSeenRun": "23:30"
-    },
-    {
-      "id": "manpower-sales-specialist-proposal-20260920",
-      "date": "2026-09-20",
-      "company": "Manpower Italy",
-      "title": "Sales Specialist - Proposal - Energy Transition",
-      "location": "Firenze",
-      "workMode": "Ibrido dopo periodo iniziale in presenza",
-      "contract": "Somministrazione 12 mesi · CCNL Metalmeccanica Industria B1",
-      "salary": "35.000 €",
-      "category": "Sales Support",
-      "score": 9.2,
-      "source": "LinkedIn / Manpower",
-      "url": "https://it.linkedin.com/jobs/view/sales-specialist-proposal-energy-transition-firenze-at-manpower-italy-4458233469",
-      "summary": "Supporto al team proposal con stima e validazione costi, gestione opportunità, Oracle/BPM, priorità, fornitori e miglioramento continuo dei processi commerciali.",
-      "checks": [
-        "Laurea richiesta",
-        "Inglese ottimo"
       ],
       "remote": false,
       "active": true,
@@ -359,12 +336,214 @@
       "active": true,
       "firstSeenAt": "2026-09-20T23:30:08+02:00",
       "firstSeenRun": "23:30"
+    },
+    {
+      "id": "colser-tender-specialist-4468653225",
+      "date": "2026-09-18",
+      "company": "Gruppo COLSER-Auroradomus",
+      "title": "Tender Specialist (progettista gare)",
+      "location": "Italia",
+      "workMode": "Full remote",
+      "contract": "Tempo indeterminato · full time",
+      "salary": "40.000–50.000 €",
+      "category": "Tender",
+      "score": 7.3,
+      "source": "LinkedIn Jobs (annuncio aziendale)",
+      "url": "https://it.linkedin.com/jobs/view/tender-specialist-at-gruppo-cooperativo-colser-auroradomus-4468653225",
+      "summary": "Progettazione tecnica di offerte pubbliche e private nei servizi di facility management, analisi capitolati, sopralluoghi e documenti d'offerta.",
+      "checks": [
+        "Richiesta esperienza nel medesimo ruolo nel facility management",
+        "Ruolo più tecnico-progettuale che amministrativo"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-21T08:02:54+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "bcd-congress-project-manager-4469203934",
+      "date": "2026-09-19",
+      "company": "BCD Meetings & Events",
+      "title": "Congress Project Manager",
+      "location": "Italia (preferibilmente Milano o Firenze)",
+      "workMode": "Flessibile; quota da remoto non dichiarata",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "30.000–33.000 €",
+      "category": "Eventi",
+      "score": 7.6,
+      "source": "LinkedIn Jobs (annuncio aziendale)",
+      "url": "https://it.linkedin.com/jobs/view/congress-project-manager-at-bcd-meetings-events-4469203934",
+      "summary": "Coordinamento congressi, hotel e registrazioni, budget, documentazione di compliance, clienti e logistica in loco.",
+      "checks": [
+        "Esperienza congressuale life science richiesta",
+        "Conoscenza Cvent",
+        "Verificare sede e frequenza della presenza"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-21T08:02:54+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "randstad-service-specialist-47390191",
+      "date": "2026-09-04",
+      "company": "Randstad Italia",
+      "title": "Service Specialist – Parts Services",
+      "location": "Firenze",
+      "workMode": "Ibrido · 1 giorno smart working a settimana",
+      "contract": "Somministrazione iniziale 12 mesi · full time · CCNL Metalmeccanica B1",
+      "salary": "Non dichiarato",
+      "category": "Operations",
+      "score": 7.4,
+      "source": "Randstad (annuncio originale)",
+      "url": "https://www.randstad.com/jobs/service-specialist_firenze_47390191/",
+      "summary": "Coordinamento ordini ricambi e materiali fra project manager, supply chain, logistica e fatturazione, KPI e miglioramento processi.",
+      "checks": [
+        "Preferita laurea in ingegneria gestionale/industriale",
+        "Competenze supply chain e ricambi Oil & Gas",
+        "Una componente di obiettivi commerciali, non vendita diretta prevalente"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-21T08:02:54+02:00",
+      "firstSeenRun": "08:00"
     }
   ],
   "audit": {
-    "date": "2026-09-20",
-    "runs": {},
-    "note": "Mega ricerca manuale eseguita alle 23:30. I run certificati 35/35 restano quelli schedulati delle 08:00 e 15:00."
+    "date": "2026-09-21",
+    "runs": {
+      "08:00": {
+        "scheduledFor": "2026-09-21T08:00:00+02:00",
+        "completedAt": "2026-09-21T08:02:54+02:00",
+        "status": "partial",
+        "requiredSourcesTotal": 35,
+        "requiredSourcesChecked": 9,
+        "sourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed",
+          "Randstad",
+          "Adecco",
+          "Gi Group/Grafton",
+          "Michael Page",
+          "Openjobmetis",
+          "Synergie",
+          "Etjca"
+        ],
+        "sourcesUnavailable": [
+          {
+            "name": "InfoJobs",
+            "reason": "La piattaforma dichiara di essere chiusa"
+          },
+          {
+            "name": "Monster",
+            "reason": "Ricerca mirata non accessibile"
+          },
+          {
+            "name": "Manpower",
+            "reason": "Ricerca mirata non accessibile; un vecchio annuncio ora reindirizza a pagina generica"
+          },
+          {
+            "name": "Hays",
+            "reason": "Pagina offerte non accessibile"
+          },
+          {
+            "name": "Page Personnel",
+            "reason": "Indice consultabile solo in cache datata, non verificabile oggi"
+          },
+          {
+            "name": "Orienta",
+            "reason": "Pagina offerte non accessibile"
+          },
+          {
+            "name": "Lavoropiù",
+            "reason": "Solo catalogo generale accessibile, risultati mirati non verificabili"
+          },
+          {
+            "name": "Jobrapido",
+            "reason": "Solo homepage accessibile, risultati mirati non verificabili"
+          },
+          {
+            "name": "Jooble",
+            "reason": "Solo homepage accessibile, risultati mirati non verificabili"
+          },
+          {
+            "name": "Talent.com",
+            "reason": "Elenco disponibile solo in cache datata"
+          },
+          {
+            "name": "Glassdoor Jobs",
+            "reason": "Ricerca mirata non accessibile"
+          },
+          {
+            "name": "Careerjet",
+            "reason": "Pagina offerte non accessibile"
+          },
+          {
+            "name": "Trovolavoro",
+            "reason": "Pagina offerte non accessibile"
+          },
+          {
+            "name": "Bakeca Lavoro",
+            "reason": "Pagina offerte non accessibile"
+          },
+          {
+            "name": "Helplavoro",
+            "reason": "Pagina offerte non accessibile"
+          },
+          {
+            "name": "Experis",
+            "reason": "Pagina offerte non accessibile"
+          },
+          {
+            "name": "Umana",
+            "reason": "Catalogo accessibile ma risultati mirati non verificabili"
+          },
+          {
+            "name": "Ali Lavoro",
+            "reason": "Pagina offerte non accessibile"
+          },
+          {
+            "name": "During",
+            "reason": "Pagina offerte non accessibile"
+          },
+          {
+            "name": "MAW",
+            "reason": "Catalogo accessibile ma filtro territoriale non verificabile"
+          },
+          {
+            "name": "Humangest",
+            "reason": "Pagina offerte non accessibile"
+          },
+          {
+            "name": "ADHR Group",
+            "reason": "Pagina di ingresso accessibile ma risultati mirati non verificabili"
+          },
+          {
+            "name": "Staff S.p.A.",
+            "reason": "Pagina offerte non accessibile"
+          },
+          {
+            "name": "Atempo",
+            "reason": "Pagina offerte non accessibile"
+          },
+          {
+            "name": "Toscana Lavoro/ARTI Toscana",
+            "reason": "Portale accessibile senza elenco offerte verificabile"
+          },
+          {
+            "name": "inPA",
+            "reason": "Portale accessibile ma ricerca mirata non verificabile"
+          }
+        ],
+        "extraSourcesChecked": [
+          "Marriott Careers",
+          "catworkx Careers (catalogo)"
+        ],
+        "queriesRun": 16,
+        "newJobs": 3,
+        "activeJobs": 18
+      }
+    }
   },
   "manualRefresh": {
     "completedAt": "2026-09-20T23:30:08+02:00",
