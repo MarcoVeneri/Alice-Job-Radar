@@ -10,7 +10,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Alice Jobs">
 <link rel="manifest" href="./manifest.webmanifest">
-<link rel="apple-touch-icon" href="./icon.svg?v=6.9">
+<link rel="apple-touch-icon" href="./icon.svg?v=6.10">
 <title>Alice Job Radar</title>
 <script src="./config.js"></script>
 <style>
@@ -97,8 +97,8 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 .tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:3px;background:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.70);padding:6px;border-radius:26px;box-shadow:var(--shadow);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
 .tab{height:48px;border:0;background:transparent;border-radius:18px;color:#58637e;font-size:12px;font-weight:800;cursor:pointer}
 .tab.active{color:#fff;background:linear-gradient(135deg,var(--accent),var(--accent-2));box-shadow:0 10px 22px rgba(111,174,134,.22)}
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0}
-.stat{background:rgba(255,255,255,.56);border:1px solid rgba(255,255,255,.70);border-radius:27px;padding:14px 15px;display:grid;grid-template-columns:56px 1fr;align-items:center;gap:13px;box-shadow:var(--shadow-soft);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);cursor:pointer;transition:.18s ease}.stat.active{transform:translateY(-1px);border-width:2px;box-shadow:0 14px 30px rgba(40,58,94,.14),inset 0 0 0 1px rgba(255,255,255,.35)}.stat:nth-child(1).active{border-color:var(--accent);background:rgba(111,174,134,.12)}.stat:nth-child(2).active{border-color:var(--gold);background:rgba(243,179,92,.12)}.stat:nth-child(3).active{border-color:var(--accent);background:rgba(111,174,134,.12)}.stat.active .statLabel{font-weight:850;color:var(--ink)}.stat.active strong{transform:scale(1.04);transform-origin:left center}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:16px 0;width:100%;max-width:100%;overflow:visible}
+.stat{background:rgba(255,255,255,.56);border:1px solid rgba(255,255,255,.70);border-radius:27px;padding:14px 15px;display:grid;grid-template-columns:56px minmax(0,1fr);align-items:center;gap:13px;box-shadow:var(--shadow-soft);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);cursor:pointer;transition:.18s ease;min-width:0;width:100%;max-width:100%;overflow:hidden}.stat>div:last-child{min-width:0}.stat.active{transform:translateY(-1px);border-width:1px;box-shadow:0 12px 26px rgba(40,58,94,.10),inset 0 0 0 2px currentColor}.stat:nth-child(1).active{border-color:var(--accent);background:rgba(111,174,134,.12)}.stat:nth-child(2).active{border-color:var(--gold);background:rgba(243,179,92,.12)}.stat:nth-child(3).active{border-color:var(--accent);background:rgba(111,174,134,.12)}.stat.active .statLabel{font-weight:850;color:var(--ink)}.stat.active strong{transform:none}
 .iconWrap{width:58px;height:58px;border-radius:22px;display:grid;place-items:center;font-size:25px;background:rgba(255,255,255,.35);border:1px solid rgba(255,255,255,.45)}
 .stat:nth-child(1) .iconWrap{color:var(--accent);background:var(--accent-soft)}
 .stat:nth-child(2) .iconWrap{color:var(--gold);background:var(--gold-soft)}
@@ -155,9 +155,10 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
   .tabs{border-radius:22px}
   .tab{font-size:11px;height:46px}
   .stats{gap:10px}
-  .stat{grid-template-columns:48px 1fr;border-radius:24px;padding:13px}
-  .iconWrap{width:48px;height:48px;border-radius:18px;font-size:22px}
-  .stat strong{font-size:24px}
+  .stat{grid-template-columns:44px minmax(0,1fr);border-radius:24px;padding:11px 10px;gap:8px}
+  .iconWrap{width:44px;height:44px;border-radius:17px;font-size:21px}
+  .statLabel{font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .stat strong{font-size:23px}
   .card{padding:16px;border-radius:26px}
   .logo{width:72px;height:72px}
   .title{font-size:20px}
@@ -171,7 +172,11 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
   .top{gap:10px}
   .hero{min-height:84px}
   .blob1{right:58px;top:12px;width:92px;height:92px}
-  .blob2{right:6px;top:50px;width:108px;height:108px}.stats{grid-template-columns:repeat(3,1fr);gap:8px}
+  .blob2{right:6px;top:50px;width:108px;height:108px}.stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}
+  .stat{grid-template-columns:38px minmax(0,1fr);padding:9px 7px;gap:6px;border-radius:20px}
+  .iconWrap{width:38px;height:38px;border-radius:15px;font-size:19px}
+  .statLabel{font-size:10px;letter-spacing:-.01em}
+  .stat strong{font-size:21px}
   .searchRow.searchVisible{flex-direction:column;align-items:stretch}
   .cardGrid{grid-template-columns:66px 1fr;grid-template-areas:'logo info' 'logo side'}
   .logo{width:66px;height:66px;border-radius:20px;font-size:13px}
@@ -232,7 +237,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     background:rgba(255,255,255,.05);
   }
   .stat.active{
-    box-shadow:0 14px 30px rgba(0,0,0,.26),inset 0 0 0 1px rgba(255,255,255,.08);
+    box-shadow:0 10px 22px rgba(0,0,0,.20),inset 0 0 0 2px currentColor;
   }
   .stat:nth-child(1).active{background:rgba(111,174,134,.18);border-color:#8BC6A0}
   .stat:nth-child(2).active{background:rgba(240,191,114,.15);border-color:#f0bf72}
@@ -405,13 +410,13 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v6.9 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v6.10 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.9"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.10"};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
