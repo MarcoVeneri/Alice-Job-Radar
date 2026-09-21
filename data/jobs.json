@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T08:02:54+02:00",
+  "generatedAt": "2026-09-21T08:15:18+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -407,6 +407,150 @@
       "active": true,
       "firstSeenAt": "2026-09-21T08:02:54+02:00",
       "firstSeenRun": "08:00"
+    },
+    {
+      "id": "universo-progettista-ufficio-gare-4465516715",
+      "date": "2026-09-21",
+      "company": "Universo",
+      "title": "Progettista Ufficio Gare",
+      "location": "Firenze",
+      "workMode": "In presenza",
+      "contract": "Tempo indeterminato · full time",
+      "salary": "Fino a 45.000 €",
+      "category": "Tender",
+      "score": 9.6,
+      "source": "LinkedIn Jobs / Universo",
+      "url": "https://it.linkedin.com/jobs/view/progettista-ufficio-gare-at-universo-4465516715",
+      "summary": "Ruolo nell'Ufficio Gare, Progetti e Contratti: analisi capitolati, requisiti formali, costruzione della proposta tecnica ed economica e documentazione di gara.",
+      "checks": [
+        "Richiesti almeno 5 anni di esperienza in gare/preventivazione nel Soft Facility Management",
+        "Inglese preferenziale",
+        "Sede Firenze"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-21T08:15:18+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "adecco-customer-service-specialist-campi-20260921",
+      "date": "2026-09-21",
+      "company": "Adecco",
+      "title": "Customer Service Specialist",
+      "location": "Campi Bisenzio",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo determinato 6+6 mesi · prospettiva tempo indeterminato",
+      "salary": "27.000–35.000 €",
+      "category": "Sales Support",
+      "score": 8.4,
+      "source": "Adecco",
+      "url": "https://www.adecco.com/it-it/cerca-lavoro/customer-service-specialist-campi-bisenzio-firenze/f1fffcb8-8d5d-4cef-b00a-4391096ce85c",
+      "summary": "Gestione dell'intero ciclo ordine, documentazione, assistenza al cliente e supporto alle attività commerciali.",
+      "checks": [
+        "Richiesti 3-4 anni di esperienza",
+        "Inglese C1 richiesto: livello superiore al B2 di Alice",
+        "Sede Campi Bisenzio"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-21T08:15:18+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "atempo-front-back-office-scandicci-16913",
+      "date": "2026-09-21",
+      "company": "Atempo",
+      "title": "Addetto/a Front Office / Back Office Amministrativo",
+      "location": "Scandicci",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo determinato con proroghe · finalizzato a inserimento stabile",
+      "salary": "23.500–25.500 €",
+      "category": "Operations",
+      "score": 7.7,
+      "source": "Atempo",
+      "url": "https://atempojob.atempospa.it/job/view-job.php?id=16913-addetto-a-front-office-back-office-amministrativo-scandicci&language=it",
+      "summary": "Back office amministrativo con gestione centralino e mail, DDT, inserimento ordini e supporto alla fatturazione.",
+      "checks": [
+        "Full time dal lunedì al venerdì",
+        "Sede Scandicci",
+        "RAL dichiarata 23.500–25.500 €"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-21T08:15:18+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "adhr-back-office-commerciale-campi-20260921",
+      "date": "2026-09-21",
+      "company": "ADHR Group",
+      "title": "Impiegato/a Back Office Commerciale",
+      "location": "Campi Bisenzio",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo determinato 6 mesi · finalizzato a inserimento",
+      "salary": "25.000–30.000 €",
+      "category": "Sales Support",
+      "score": 8.4,
+      "source": "ADHR Group / annuncio indicizzato",
+      "url": "https://www.jobijoba.it/annunci-di-lavoro/13/d9e3928eabfa68af64a78146028f7c38",
+      "summary": "Gestione ordini e offerte, coordinamento con produzione e magazzino, prezzi, conferme d'ordine e assistenza post-vendita.",
+      "checks": [
+        "Inglese richiesto",
+        "Possibili trasferte/visite",
+        "Annuncio verificato tramite fallback indicizzato perché il portale ADHR è fortemente dinamico"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-21T08:15:18+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "cognita-eca-coordinator-4468814703",
+      "date": "2026-09-21",
+      "company": "Cognita Schools / Florence Bilingual School",
+      "title": "ECA Coordinator",
+      "location": "Firenze",
+      "workMode": "In presenza",
+      "contract": "Non dichiarato · full time",
+      "salary": "20.000–23.000 €",
+      "category": "Eventi",
+      "score": 8.3,
+      "source": "LinkedIn Jobs / Cognita Schools",
+      "url": "https://it.linkedin.com/jobs/view/eca-coordinator-at-cognita-schools-4468814703",
+      "summary": "Coordinamento del programma extracurricolare: attività after-school, sport, club, visite, viaggi e campi, con logistica, budget e rapporti con famiglie e fornitori.",
+      "checks": [
+        "Richiesta esperienza in eventi, viaggi, campi o hospitality",
+        "Italiano e inglese fluenti",
+        "Scadenza candidatura indicata al 27 settembre 2026"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-21T08:15:18+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "archimede-back-office-ambiente-scandicci-20260921",
+      "date": "2026-09-21",
+      "company": "Archimede S.r.l.",
+      "title": "Addetto/a Back Office – Settore Ambiente",
+      "location": "Scandicci",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo determinato · possibile inserimento stabile",
+      "salary": "Non dichiarato",
+      "category": "Operations",
+      "score": 8.1,
+      "source": "Archimede / annuncio indicizzato",
+      "url": "https://www.recruit.net/job/addetto-back-office-settore-ambiente-jobs/EDC854D00E0288C9",
+      "summary": "Attività di back office e logistica, gestione clienti e fornitori, registrazioni, documentazione, priorità operative e supporto amministrativo.",
+      "checks": [
+        "Full time dal lunedì al venerdì",
+        "Sede Scandicci",
+        "Pagina specifica verificata tramite indicizzazione esterna"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-21T08:15:18+02:00",
+      "firstSeenRun": "08:00"
     }
   ],
   "audit": {
@@ -414,134 +558,73 @@
     "runs": {
       "08:00": {
         "scheduledFor": "2026-09-21T08:00:00+02:00",
-        "completedAt": "2026-09-21T08:02:54+02:00",
+        "completedAt": "2026-09-21T08:15:18+02:00",
         "status": "partial",
         "requiredSourcesTotal": 35,
-        "requiredSourcesChecked": 9,
+        "requiredSourcesChecked": 31,
         "sourcesChecked": [
           "LinkedIn Jobs",
           "Indeed",
           "Randstad",
           "Adecco",
+          "Manpower",
           "Gi Group/Grafton",
+          "Hays",
           "Michael Page",
           "Openjobmetis",
           "Synergie",
-          "Etjca"
+          "Orienta",
+          "Lavoropiù",
+          "Jobrapido",
+          "Jooble",
+          "Glassdoor Jobs",
+          "Careerjet",
+          "Trovolavoro",
+          "Bakeca Lavoro",
+          "Helplavoro",
+          "Experis",
+          "Umana",
+          "Ali Lavoro",
+          "During",
+          "Etjca",
+          "MAW",
+          "Humangest",
+          "ADHR Group",
+          "Staff S.p.A.",
+          "Atempo",
+          "Toscana Lavoro/ARTI Toscana",
+          "inPA"
         ],
         "sourcesUnavailable": [
           {
             "name": "InfoJobs",
-            "reason": "La piattaforma dichiara di essere chiusa"
+            "reason": "Piattaforma italiana chiusa; verificati accesso diretto e ricerca indicizzata senza un catalogo offerte attuale utilizzabile."
           },
           {
             "name": "Monster",
-            "reason": "Ricerca mirata non accessibile"
-          },
-          {
-            "name": "Manpower",
-            "reason": "Ricerca mirata non accessibile; un vecchio annuncio ora reindirizza a pagina generica"
-          },
-          {
-            "name": "Hays",
-            "reason": "Pagina offerte non accessibile"
+            "reason": "Il servizio italiano non espone più una ricerca lavoro utilizzabile come catalogo indipendente; tentati accesso diretto e fallback indicizzato."
           },
           {
             "name": "Page Personnel",
-            "reason": "Indice consultabile solo in cache datata, non verificabile oggi"
-          },
-          {
-            "name": "Orienta",
-            "reason": "Pagina offerte non accessibile"
-          },
-          {
-            "name": "Lavoropiù",
-            "reason": "Solo catalogo generale accessibile, risultati mirati non verificabili"
-          },
-          {
-            "name": "Jobrapido",
-            "reason": "Solo homepage accessibile, risultati mirati non verificabili"
-          },
-          {
-            "name": "Jooble",
-            "reason": "Solo homepage accessibile, risultati mirati non verificabili"
+            "reason": "Il dominio reindirizza a Michael Page e Page Personnel risulta confluito nel brand Michael Page; non esiste un catalogo indipendente corrente da verificare separatamente."
           },
           {
             "name": "Talent.com",
-            "reason": "Elenco disponibile solo in cache datata"
-          },
-          {
-            "name": "Glassdoor Jobs",
-            "reason": "Ricerca mirata non accessibile"
-          },
-          {
-            "name": "Careerjet",
-            "reason": "Pagina offerte non accessibile"
-          },
-          {
-            "name": "Trovolavoro",
-            "reason": "Pagina offerte non accessibile"
-          },
-          {
-            "name": "Bakeca Lavoro",
-            "reason": "Pagina offerte non accessibile"
-          },
-          {
-            "name": "Helplavoro",
-            "reason": "Pagina offerte non accessibile"
-          },
-          {
-            "name": "Experis",
-            "reason": "Pagina offerte non accessibile"
-          },
-          {
-            "name": "Umana",
-            "reason": "Catalogo accessibile ma risultati mirati non verificabili"
-          },
-          {
-            "name": "Ali Lavoro",
-            "reason": "Pagina offerte non accessibile"
-          },
-          {
-            "name": "During",
-            "reason": "Pagina offerte non accessibile"
-          },
-          {
-            "name": "MAW",
-            "reason": "Catalogo accessibile ma filtro territoriale non verificabile"
-          },
-          {
-            "name": "Humangest",
-            "reason": "Pagina offerte non accessibile"
-          },
-          {
-            "name": "ADHR Group",
-            "reason": "Pagina di ingresso accessibile ma risultati mirati non verificabili"
-          },
-          {
-            "name": "Staff S.p.A.",
-            "reason": "Pagina offerte non accessibile"
-          },
-          {
-            "name": "Atempo",
-            "reason": "Pagina offerte non accessibile"
-          },
-          {
-            "name": "Toscana Lavoro/ARTI Toscana",
-            "reason": "Portale accessibile senza elenco offerte verificabile"
-          },
-          {
-            "name": "inPA",
-            "reason": "Portale accessibile ma ricerca mirata non verificabile"
+            "reason": "Homepage raggiungibile, ma la ricerca mirata e i fallback indicizzati non hanno consentito di verificare in modo affidabile risultati correnti per Firenze/Toscana."
           }
         ],
         "extraSourcesChecked": [
-          "Marriott Careers",
-          "catworkx Careers (catalogo)"
+          "Cognita Schools / Florence Bilingual School",
+          "Archimede S.r.l.",
+          "Recruit.net",
+          "Jobijoba",
+          "Lavoro.it",
+          "PortaleGiovani Firenze"
         ],
-        "queriesRun": 16,
-        "newJobs": 3,
-        "activeJobs": 18
+        "queriesRun": 125,
+        "newJobs": 9,
+        "activeJobs": 24,
+        "note": "Run delle 08:00 rieseguito integralmente con fallback indicizzati per i portali non accessibili direttamente."
       }
     }
   },
