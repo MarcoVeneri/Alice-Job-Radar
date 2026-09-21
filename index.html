@@ -10,7 +10,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Alice Jobs">
 <link rel="manifest" href="./manifest.webmanifest">
-<link rel="apple-touch-icon" href="./icon.svg?v=6.7">
+<link rel="apple-touch-icon" href="./icon.svg?v=6.8">
 <title>Alice Job Radar</title>
 <script src="./config.js"></script>
 <style>
@@ -118,7 +118,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 .logo{width:92px;height:92px;border-radius:26px;background:var(--panel-strong);border:1px solid var(--line);box-shadow:var(--shadow-soft);display:grid;place-items:center;padding:10px;text-align:center;color:var(--ink);font-weight:900;font-size:16px;line-height:1.05;overflow:hidden}
 .logoWord{display:block;color:var(--muted2);font-size:11px;font-weight:700;margin-bottom:2px;text-transform:uppercase;letter-spacing:.04em}
 .infoTop{padding-top:3px}
-.badges{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 8px}.badge{height:24px;padding:0 9px;border-radius:999px;display:inline-flex;align-items:center;font-size:9px;font-weight:900;letter-spacing:.04em;border:1px solid transparent}.badge.new{color:var(--accent);background:var(--accent-soft);border-color:rgba(111,174,134,.18)}.badge.top{color:#b87818;background:var(--gold-soft);border-color:rgba(243,179,92,.20)}.badge.remote{color:var(--blue);background:var(--blue-soft);border-color:rgba(91,141,255,.18)}@media(prefers-color-scheme:dark){.badge.top{color:#f0bf72}}.card.isNew{border-color:rgba(111,174,134,.48);box-shadow:0 16px 38px rgba(111,174,134,.13)}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 8px}.badge{height:24px;padding:0 9px;border-radius:999px;display:inline-flex;align-items:center;font-size:9px;font-weight:900;letter-spacing:.04em;border:1px solid transparent}.badge.new{color:var(--accent);background:var(--accent-soft);border-color:rgba(111,174,134,.18)}.badge.top{color:#b87818;background:var(--gold-soft);border-color:rgba(243,179,92,.20)}.badge.remote{color:var(--blue);background:var(--blue-soft);border-color:rgba(91,141,255,.18)}.badge.applied{color:#218858;background:rgba(67,182,118,.14);border-color:rgba(67,182,118,.24)}@media(prefers-color-scheme:dark){.badge.top{color:#f0bf72}}.card.isNew{border-color:rgba(111,174,134,.48);box-shadow:0 16px 38px rgba(111,174,134,.13)}
 .company{font-size:13px;color:#5d6783;margin-bottom:2px}
 .title{font-size:22px;font-weight:850;line-height:1.06;letter-spacing:-.03em;margin:0 0 7px}
 .loc{font-size:13px;color:var(--muted)}
@@ -131,9 +131,9 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 .summary{margin-left:0;font-size:13px;line-height:1.44;color:#5f6a86;max-width:100%}
 .checks{display:none}
 .checks b{color:var(--ink)}
-.cardBottom{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:14px}
-.open{height:52px;padding:0 20px;border-radius:20px;background:linear-gradient(135deg,var(--btn),var(--btn2));color:#fff;text-decoration:none;font-size:14px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;box-shadow:0 12px 24px rgba(34,49,82,.22)}
-.saveBtn{border:0;background:transparent;color:var(--muted);display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:800;padding:8px 4px;cursor:pointer}.saveBtn svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}.saveBtn.saved{color:var(--accent)}.saveBtn.saved svg{fill:var(--accent-soft)}
+.cardBottom{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:14px}.cardActions{display:flex;align-items:center;gap:7px;flex-wrap:wrap}.miniAction{height:40px;border-radius:15px;border:1px solid var(--line);background:rgba(255,255,255,.34);color:var(--muted);padding:0 11px;display:inline-flex;align-items:center;justify-content:center;gap:6px;font-size:11px;font-weight:850;cursor:pointer;box-shadow:var(--shadow-soft)}.miniAction svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}.miniAction.applied{color:#218858;background:rgba(67,182,118,.13);border-color:rgba(67,182,118,.25)}.miniAction.delete{width:40px;padding:0;color:#c55454}.miniAction:active{transform:scale(.96)}.card.alreadyApplied{border-color:rgba(67,182,118,.34)}
+.open{height:52px;padding:0 20px;border-radius:20px;background:linear-gradient(135deg,var(--btn),var(--btn2));color:#fff;text-decoration:none;font-size:14px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;box-shadow:0 12px 24px rgba(34,49,82,.22)}.open.appliedOpen{background:linear-gradient(135deg,#2f7d58,#27684a)}
+.saveBtn{height:40px;border:1px solid transparent;background:transparent;color:var(--muted);display:inline-flex;align-items:center;gap:7px;font-size:11px;font-weight:800;padding:0 7px;cursor:pointer;border-radius:15px}.saveBtn svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}.saveBtn.saved{color:var(--accent)}.saveBtn.saved svg{fill:var(--accent-soft)}
 .empty{background:var(--panel);border:1px dashed var(--line);border-radius:24px;padding:28px;text-align:center;color:var(--muted)}
 .bottomNav{position:sticky;bottom:max(6px,env(safe-area-inset-bottom));margin-top:18px;padding:10px 10px 8px;background:rgba(255,255,255,.72);border:1px solid rgba(255,255,255,.55);box-shadow:var(--shadow);border-radius:28px;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
 @media(prefers-color-scheme:dark){.bottomNav{background:rgba(24,30,43,.82);border-color:rgba(255,255,255,.08)}}
@@ -163,7 +163,8 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
   .title{font-size:20px}
   .meta,.summary,.checks{margin-left:84px}
   .open{height:52px;width:100%}
-  .cardBottom{justify-content:stretch}
+  .cardBottom{justify-content:stretch;flex-direction:column;align-items:stretch}
+  .cardActions{justify-content:flex-start}
 }
 @media (max-width:430px){
   .encourage{font-size:23px;top:18px}
@@ -303,6 +304,10 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     background:rgba(121,168,255,.15);
     border-color:rgba(121,168,255,.24);
   }
+  .badge.applied{color:#9BE0B7;background:rgba(91,203,139,.16);border-color:rgba(91,203,139,.28)}
+  .miniAction{background:rgba(20,27,40,.72);border-color:rgba(255,255,255,.11);color:#c3ccdd}
+  .miniAction.applied{color:#9BE0B7;background:rgba(91,203,139,.14);border-color:rgba(91,203,139,.26)}
+  .miniAction.delete{color:#ff9a9a}
 
   .saveBtn{color:#c3ccdd}
   .saveBtn.saved{color:#B7E0C2}
@@ -400,13 +405,13 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v6.7 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v6.8 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.7"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.8"};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -417,6 +422,30 @@ function saveState(s){try{localStorage.setItem(storeKey,JSON.stringify(s))}catch
 function getStatus(id){return state()[id]||"Nuova"}
 function setStatus(id,v){const s=state();s[id]=v;saveState(s);render()}
 const savedKey="alice-job-radar-saved-v1";
+const dismissedKey="alice-job-radar-dismissed-v1";
+const appliedKey="alice-job-radar-applied-v1";
+function objectStore(key){try{return JSON.parse(localStorage.getItem(key)||"{}")}catch(e){return{}}}
+function writeObjectStore(key,v){try{localStorage.setItem(key,JSON.stringify(v))}catch(e){}}
+function dismissedState(){return objectStore(dismissedKey)}
+function isDismissed(id){return !!dismissedState()[id]}
+function dismissJob(id){
+ const j=DATA.find(x=>String(x.id)===String(id));
+ if(!j)return;
+ if(!confirm("Eliminare questa offerta? Non verrà più mostrata anche se risulta ancora attiva."))return;
+ const v=dismissedState();
+ v[id]={at:new Date().toISOString(),company:j.company||"",title:j.title||"",url:j.url||""};
+ writeObjectStore(dismissedKey,v);
+ const s=savedState();if(s[id]){delete s[id];saveSavedState(s)}
+ render();
+}
+function appliedState(){return objectStore(appliedKey)}
+function isApplied(id){return !!appliedState()[id]}
+function toggleApplied(id){
+ const v=appliedState();
+ if(v[id])delete v[id];else v[id]={at:new Date().toISOString()};
+ writeObjectStore(appliedKey,v);
+ render();
+}
 function savedState(){try{return JSON.parse(localStorage.getItem(savedKey)||"{}")}catch(e){return{}}}
 function saveSavedState(v){try{localStorage.setItem(savedKey,JSON.stringify(v))}catch(e){}}
 function isSaved(id){return !!savedState()[id]}
@@ -436,11 +465,13 @@ function isNew(j){
  return String(j.firstSeenAt).slice(0,10)===romeDateKey();
 }
 function counts(){
- ui.stNew.textContent=DATA.filter(isNew).length;
- ui.stHot.textContent=DATA.filter(x=>x.score>=9).length;
- ui.stRemote.textContent=DATA.filter(x=>x.remote).length;
+ const visible=DATA.filter(x=>!isDismissed(x.id));
+ ui.stNew.textContent=visible.filter(isNew).length;
+ ui.stHot.textContent=visible.filter(x=>x.score>=9).length;
+ ui.stRemote.textContent=visible.filter(x=>x.remote).length;
 }
 function match(j){
+ if(isDismissed(j.id))return false;
  const q=ui.q.value.trim().toLowerCase();
  if(q && ![j.company,j.title,j.location,j.category,j.summary,j.salary,j.contract].join(" ").toLowerCase().includes(q))return false;
  if(filter!=="Tutte" && j.category!==filter)return false;
@@ -465,13 +496,15 @@ function render(){
  ui.jobs.innerHTML=arr.map(j=>{
   const st=getStatus(j.id);
   const saved=isSaved(j.id);
+  const applied=isApplied(j.id);
   const fresh=isNew(j);
   const badges='<div class="badges">'+
     (fresh?'<span class="badge new">NUOVA '+esc(j.firstSeenRun||"")+'</span>':'')+
     (j.score>=9?'<span class="badge top">★ TOP</span>':'')+
     (j.remote?'<span class="badge remote">REMOTE</span>':'')+
+    (applied?'<span class="badge applied">✓ GIÀ CANDIDATA</span>':'')+
     '</div>';
-  return `<article class="card ${fresh?"isNew":""} ${j.score>=9?"topmatch":""}">
+  return `<article class="card ${fresh?"isNew":""} ${j.score>=9?"topmatch":""} ${applied?"alreadyApplied":""}">
     <div class="cardGrid">
       <div class="logo"><div>${initials(j.company)}</div></div>
       <div class="infoTop">
@@ -490,10 +523,19 @@ function render(){
     </div>
     <div class="summary">${esc(j.summary)}</div>
     ${(j.checks&&j.checks.length)?`<div class="checks"><b>Da verificare:</b> ${esc(j.checks.join(' · '))}</div>`:''}
-    <div class="cardBottom"><button class="saveBtn ${saved?"saved":""}" data-save="${esc(j.id)}" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 4.5h11a1 1 0 0 1 1 1V21L12 17l-6.5 4V5.5a1 1 0 0 1 1-1Z"/></svg><span>${saved?"Salvata":"Salva"}</span></button><a class="open" href="${esc(j.url)}" target="_blank" rel="noopener">Apri annuncio →</a></div>
+    <div class="cardBottom">
+      <div class="cardActions">
+        <button class="saveBtn ${saved?"saved":""}" data-save="${esc(j.id)}" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 4.5h11a1 1 0 0 1 1 1V21L12 17l-6.5 4V5.5a1 1 0 0 1 1-1Z"/></svg><span>${saved?"Salvata":"Salva"}</span></button>
+        <button class="miniAction ${applied?"applied":""}" data-applied="${esc(j.id)}" type="button" title="Segna come candidata"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg><span>${applied?"Candidata":"Segna candidata"}</span></button>
+        <button class="miniAction delete" data-delete="${esc(j.id)}" type="button" aria-label="Elimina offerta" title="Non mostrare più"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3m-8 0 1 13h8l1-13M10 11v5m4-5v5"/></svg></button>
+      </div>
+      <a class="open ${applied?"appliedOpen":""}" href="${esc(j.url)}" target="_blank" rel="noopener">${applied?"✓ Già candidata · Apri":"Apri annuncio →"}</a>
+    </div>
   </article>`;
  }).join("");
  document.querySelectorAll('.saveBtn').forEach(el=>el.addEventListener('click',e=>toggleSaved(e.currentTarget.dataset.save)));
+ document.querySelectorAll('[data-applied]').forEach(el=>el.addEventListener('click',e=>toggleApplied(e.currentTarget.dataset.applied)));
+ document.querySelectorAll('[data-delete]').forEach(el=>el.addEventListener('click',e=>dismissJob(e.currentTarget.dataset.delete)));
 }
 function romeDateKey(d=new Date()){
  try{
