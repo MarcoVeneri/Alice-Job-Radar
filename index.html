@@ -400,13 +400,13 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v6.5 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v6.6 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.5"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.6"};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -432,14 +432,17 @@ function latestRun(){
  return runs[0]||null;
 }
 function currentNewBatch(){
+ const today=romeDateKey();
  const events=[];
 
  if(AUDIT&&AUDIT.runs){
    Object.entries(AUDIT.runs).forEach(([slot,r])=>{
      if(r&&r.completedAt){
+       const date=String(r.completedAt).slice(0,10);
+       if(date!==today)return;
        events.push({
          completedAt:r.completedAt,
-         date:String(r.completedAt).slice(0,10),
+         date,
          run:slot,
          newJobs:Number(r.newJobs||0)
        });
@@ -449,22 +452,25 @@ function currentNewBatch(){
 
  if(window.__MANUAL_REFRESH__&&window.__MANUAL_REFRESH__.completedAt){
    const m=window.__MANUAL_REFRESH__;
-   const matching=DATA.filter(j=>j.firstSeenAt===m.completedAt&&j.firstSeenRun);
-   events.push({
-     completedAt:m.completedAt,
-     date:String(m.completedAt).slice(0,10),
-     run:matching[0]?.firstSeenRun||"",
-     newJobs:Number(m.newJobs||matching.length||0)
-   });
+   const date=String(m.completedAt).slice(0,10);
+   if(date===today){
+     const matching=DATA.filter(j=>j.firstSeenAt===m.completedAt&&j.firstSeenRun);
+     events.push({
+       completedAt:m.completedAt,
+       date,
+       run:matching[0]?.firstSeenRun||"",
+       newJobs:Number(m.newJobs||matching.length||0)
+     });
+   }
  }
 
- // Fallback: if no audit/manual event is available, use the latest discovery batch.
+ // Fallback only to discoveries from today: never carry yesterday's "Nuove" count forward.
  if(!events.length){
-   const discovered=DATA.filter(j=>j.firstSeenAt&&j.firstSeenRun)
+   const discovered=DATA.filter(j=>j.firstSeenAt&&j.firstSeenRun&&String(j.firstSeenAt).slice(0,10)===today)
      .sort((a,b)=>String(b.firstSeenAt).localeCompare(String(a.firstSeenAt)));
    if(discovered.length){
      const d=discovered[0];
-     return {date:String(d.firstSeenAt).slice(0,10),run:d.firstSeenRun};
+     return {date:today,run:d.firstSeenRun};
    }
    return null;
  }
@@ -637,8 +643,27 @@ function positionEncourage(){
 }
 window.addEventListener("resize",positionEncourage);
 window.addEventListener("orientationchange",()=>setTimeout(positionEncourage,120));
+
+let activeDay=romeDateKey();
+function watchDayChange(){
+ const day=romeDateKey();
+ if(day!==activeDay){
+   activeDay=day;
+   renderAudit(AUDIT);
+   render();
+ }
+}
+document.addEventListener("visibilitychange",()=>{
+ if(document.visibilityState==="visible"){
+   watchDayChange();
+   load();
+ }
+});
+
 positionEncourage();
 Promise.resolve(load()).then(positionEncourage);
+setInterval(watchDayChange,15000);
+setInterval(()=>{if(document.visibilityState==="visible")load()},5*60*1000);
 })();
 </script>
 <script>
