@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T08:15:18+02:00",
+  "generatedAt": "2026-09-21T15:12:50+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -62,27 +62,6 @@
         "Formula contrattuale effettiva"
       ],
       "remote": false,
-      "active": true
-    },
-    {
-      "id": "ingenium-event-coordinator-20260916",
-      "date": "2026-09-16",
-      "company": "Ingenium",
-      "title": "Event Coordinator Specialist",
-      "location": "Italia",
-      "workMode": "100% remoto",
-      "contract": "Full time · tipologia non dichiarata",
-      "salary": "Non dichiarata",
-      "category": "Eventi",
-      "score": 8.5,
-      "source": "LinkedIn Jobs",
-      "url": "https://it.linkedin.com/jobs/view/event-coordinator-specialist-at-ingenium-made-in-italy-innovation-platform-4467209845",
-      "summary": "Pianificazione eventi, fornitori, stakeholder, scadenze, materiali, documentazione e follow-up.",
-      "checks": [
-        "Inglese fluente",
-        "Trasferte / presenze a Milano"
-      ],
-      "remote": true,
       "active": true
     },
     {
@@ -551,6 +530,98 @@
       "active": true,
       "firstSeenAt": "2026-09-21T08:15:18+02:00",
       "firstSeenRun": "08:00"
+    },
+    {
+      "id": "mistertemp-back-office-inglese-firenze-4469886231",
+      "date": "2026-09-21",
+      "company": "MisterTemp' Italia",
+      "title": "Impiegato/a Back Office con Inglese",
+      "location": "Firenze",
+      "workMode": "Non dichiarato",
+      "contract": "Non dichiarato (full-time dal lunedì al venerdì)",
+      "salary": "Non dichiarato",
+      "category": "Sales Support",
+      "score": 9,
+      "source": "LinkedIn Jobs (annuncio MisterTemp; confronto Jooble)",
+      "url": "https://it.linkedin.com/jobs/view/impiegato-del-back-office-at-mistertemp-%E2%80%8B-italia-4469886231",
+      "summary": "Ordini, offerte, documenti commerciali, clienti e fornitori italiani ed esteri, anagrafiche e comunicazioni in inglese. Esperienza di Alice direttamente spendibile.",
+      "checks": [
+        "RAL e tipologia contrattuale da confermare",
+        "Modalità ibrida non dichiarata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-21T15:12:50+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "openjobmetis-back-office-scandicci-4468091626",
+      "date": "2026-09-21",
+      "company": "Openjobmetis SpA (azienda cliente settore energia)",
+      "title": "Impiegato/a Back Office",
+      "location": "Scandicci (FI)",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo determinato con finalità di assunzione diretta",
+      "salary": "Non dichiarato",
+      "category": "Operations",
+      "score": 8.5,
+      "source": "LinkedIn Jobs (annuncio Openjobmetis; confronto Jooble)",
+      "url": "https://it.linkedin.com/jobs/view/impiegato-a-back-office-at-openjobmetis-spa-4468091626",
+      "summary": "Inserimento ordini e fatture, verifiche sul gestionale e front office in inglese per un fornitore di energia; buoni pasto previsti.",
+      "checks": [
+        "Diploma AFM/SIA/RIM richiesto o da valutare",
+        "Smart working non dichiarato"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-21T15:12:50+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "castelfalfi-back-office-coordinator-landscape-4469188591",
+      "date": "2026-09-21",
+      "company": "Castelfalfi",
+      "title": "Back Office Coordinator - Landscape",
+      "location": "Montaione (FI)",
+      "workMode": "Non dichiarato",
+      "contract": "CCNL Turismo, full-time; durata non dichiarata",
+      "salary": "RAL non dichiarata; lordo mensile da 2.000 €",
+      "category": "Operations",
+      "score": 8,
+      "source": "LinkedIn Jobs (annuncio Castelfalfi)",
+      "url": "https://it.linkedin.com/jobs/view/back-office-coordinator-landscape-at-castelfalfi-4469188591",
+      "summary": "Coordina contratti, ordini, fornitori, documenti e scadenze del reparto Landscape; richiede reportistica di budget ed ERP. Valutare la distanza da Firenze.",
+      "checks": [
+        "Esperienza di budget e cost control",
+        "Sede Montaione e lavoro ibrido non dichiarato"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-21T15:12:50+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "tuvsud-customer-service-tavarnelle-4439828227",
+      "date": "2026-09-21",
+      "company": "TÜV SÜD / P.H. S.r.l.",
+      "title": "Addetto/a al Customer Service B2B",
+      "location": "Barberino Tavarnelle (FI)",
+      "workMode": "In sede secondo annuncio; smart working elencato tra i benefit senza frequenza",
+      "contract": "Tempo determinato 12 mesi, full-time",
+      "salary": "RAL circa 25.000 €",
+      "category": "Sales Support",
+      "score": 9.5,
+      "source": "LinkedIn Jobs (annuncio TÜV SÜD; ATS aziendale consultato)",
+      "url": "https://it.linkedin.com/jobs/view/addetto-a-al-customer-service-m-f-d-at-t%C3%BCv-s%C3%BCd-4439828227",
+      "summary": "Offerte, ordini, commesse, CRM/ERP, documenti commerciali, scadenze e rapporto B2B: sovrapposizione molto forte al profilo di Alice. Annuncio pubblicato da circa due mesi ma ancora candidabile su LinkedIn.",
+      "checks": [
+        "Smart working citato fra i benefit ma modalità ufficiale in sede",
+        "Sede Barberino Tavarnelle e RAL inferiore a 35k"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-21T15:12:50+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
@@ -625,6 +696,114 @@
         "newJobs": 9,
         "activeJobs": 24,
         "note": "Run delle 08:00 rieseguito integralmente con fallback indicizzati per i portali non accessibili direttamente."
+      },
+      "15:00": {
+        "scheduledFor": "2026-09-21T15:00:00+02:00",
+        "completedAt": "2026-09-21T15:12:50+02:00",
+        "status": "partial",
+        "requiredSourcesTotal": 35,
+        "requiredSourcesChecked": 18,
+        "sourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed",
+          "Randstad",
+          "Adecco",
+          "Gi Group/Grafton",
+          "Michael Page",
+          "Openjobmetis",
+          "Synergie",
+          "Lavoropiù",
+          "Jobrapido",
+          "Jooble",
+          "Trovolavoro",
+          "Helplavoro",
+          "Umana",
+          "Etjca",
+          "MAW",
+          "Toscana Lavoro/ARTI Toscana",
+          "inPA"
+        ],
+        "sourcesUnavailable": [
+          {
+            "name": "InfoJobs",
+            "reason": "Accesso diretto mostra la chiusura del servizio italiano; fallback site:infojobs.it per gare e back office senza catalogo corrente."
+          },
+          {
+            "name": "Monster",
+            "reason": "Ricerca diretta bloccata; fallback site:monster.it per gare e back office senza risultati italiani correnti verificabili."
+          },
+          {
+            "name": "Manpower",
+            "reason": "Ricerca diretta inaccessibile; l'annuncio individuale reperito è scaduto e i fallback site:manpower.it per gare e back office non hanno verificato un catalogo corrente pertinente."
+          },
+          {
+            "name": "Hays",
+            "reason": "Ricerca diretta e percorso alternativo inaccessibili; fallback site:hays.it per gare e back office senza pagine correnti specifiche verificabili."
+          },
+          {
+            "name": "Page Personnel",
+            "reason": "Il dominio reindirizza a Michael Page; fallback site:pagepersonnel.it per gare e back office non permette di verificare un catalogo indipendente."
+          },
+          {
+            "name": "Orienta",
+            "reason": "La pagina nativa segnala errore tecnico; fallback site:orienta.net per gare e back office senza offerte originali correnti verificabili."
+          },
+          {
+            "name": "Talent.com",
+            "reason": "Catalogo generico nazionale raggiungibile, ma ricerca mirata Firenze bloccata; fallback site:talent.com per gare e back office senza risultati locali attuali verificabili."
+          },
+          {
+            "name": "Glassdoor Jobs",
+            "reason": "Ricerca diretta bloccata nelle varianti provate; fallback site:glassdoor.it per gare e back office senza risultati correnti accessibili."
+          },
+          {
+            "name": "Careerjet",
+            "reason": "La pagina Firenze è priva di risultati leggibili; fallback site:careerjet.it per gare e back office non ha restituito inserzioni locali correnti verificabili."
+          },
+          {
+            "name": "Bakeca Lavoro",
+            "reason": "Ricerca diretta e pagina città inaccessibili; fallback site:bakeca.it per gare e back office senza inserzioni attuali verificabili."
+          },
+          {
+            "name": "Experis",
+            "reason": "Pagina all-jobs raggiungibile ma senza elenco leggibile; fallback site:experis.it per gare e back office senza annunci originali attuali verificabili."
+          },
+          {
+            "name": "Ali Lavoro",
+            "reason": "Percorsi diretti delle offerte bloccati; fallback site:alilavoro.it per gare e back office senza pagine correnti originali verificabili."
+          },
+          {
+            "name": "During",
+            "reason": "Percorsi diretti delle offerte bloccati; fallback site:during.it per gare e back office senza annunci originali correnti verificabili."
+          },
+          {
+            "name": "Humangest",
+            "reason": "Ricerca diretta bloccata; fallback site:humangest.it per gare e back office senza annunci locali correnti verificabili."
+          },
+          {
+            "name": "ADHR Group",
+            "reason": "Pagina candidatura caricata solo con JavaScript; fallback site:adhr.it per gare e back office senza offerte originali correnti verificabili."
+          },
+          {
+            "name": "Staff S.p.A.",
+            "reason": "Ricerca diretta bloccata; fallback site:staff.it per gare e back office senza inserzioni originali correnti verificabili."
+          },
+          {
+            "name": "Atempo",
+            "reason": "Ricerca diretta e catalogo ATS bloccati; fallback site:atempospa.it per gare e back office senza inserzioni correnti verificabili (una vecchia scheda individuale non basta)."
+          }
+        ],
+        "extraSourcesChecked": [
+          "MisterTemp' Italia / annuncio LinkedIn",
+          "Castelfalfi Careers / annuncio aziendale LinkedIn",
+          "TÜV SÜD SuccessFactors / annuncio aziendale LinkedIn",
+          "Openjobmetis / annuncio LinkedIn",
+          "Jobijoba",
+          "Recruit.net"
+        ],
+        "queriesRun": 73,
+        "newJobs": 4,
+        "activeJobs": 27
       }
     }
   },
