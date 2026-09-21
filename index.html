@@ -80,6 +80,9 @@ button,input,select{font:inherit}
 button,a{-webkit-tap-highlight-color:transparent}
 .app{max-width:760px;margin:0 auto;padding-bottom:14px}
 .top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;padding:4px 2px 4px;position:relative}
+.refreshTop{position:relative;z-index:12;flex:0 0 auto;width:44px;height:44px;margin-top:7px;border-radius:50%;border:1px solid rgba(255,255,255,.72);background:rgba(255,255,255,.56);box-shadow:var(--shadow-soft);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);display:grid;place-items:center;font-size:21px;font-weight:800;color:var(--accent);cursor:pointer;-webkit-tap-highlight-color:transparent}
+.refreshTop:active{transform:scale(.96)}.refreshTop[disabled]{opacity:.6}.refreshTop.spinning{animation:spin .8s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+@media(prefers-color-scheme:dark){.refreshTop{background:rgba(25,32,47,.68);border-color:rgba(255,255,255,.10);color:var(--accent)}}
 .hero{flex:1;position:relative;min-height:82px}.encourage{position:absolute;z-index:5;top:18px;left:76%;text-align:center;font-family:"Snell Roundhand","Segoe Print","Bradley Hand",cursive;font-size:28px;font-weight:600;line-height:.95;color:#6FAE86;transform:translateX(-50%) rotate(-7deg);transform-origin:center;white-space:nowrap;opacity:.96;text-shadow:0 1px 0 rgba(255,255,255,.75);pointer-events:none}.encourage span{display:block;margin-top:3px;font-size:.92em}
 .kicker{font-size:13px;color:var(--muted2);font-weight:700;margin-top:10px}
 h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spacing:-.052em;position:relative;z-index:2}
@@ -353,6 +356,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
   <header class="top">
     <div class="hero"><div class="kicker">Ricerca automatica</div>
       <h1>Alice Job Radar</h1></div>
+    <button id="refreshBtn" class="refreshTop" type="button" aria-label="Aggiorna offerte" title="Aggiorna">↻</button>
     <div class="encourage" aria-label="ce la faremo amore">ce la faremo<span>amore!</span></div>
 </header>
 
@@ -396,15 +400,15 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v6.4 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v6.5 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.4"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.5"};
 const $=s=>document.querySelector(s);
-const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved")};
+const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stRemote:$("#stRemote"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
 const STATUS=["Nuova","Interessante","Candidata","Colloquio","Scartata"];
 const storeKey="alice-job-radar-status-v3";
@@ -431,12 +435,12 @@ function currentNewBatch(){
  const events=[];
 
  if(AUDIT&&AUDIT.runs){
-   Object.values(AUDIT.runs).filter(Boolean).forEach(r=>{
-     if(r.completedAt){
+   Object.entries(AUDIT.runs).forEach(([slot,r])=>{
+     if(r&&r.completedAt){
        events.push({
          completedAt:r.completedAt,
          date:String(r.completedAt).slice(0,10),
-         run:r.scheduledFor||"",
+         run:slot,
          newJobs:Number(r.newJobs||0)
        });
      }
@@ -570,6 +574,7 @@ function renderAudit(audit){
  one("15:00",ui.run15,ui.run15box);
 }
 async function load(){ ui.notice.classList.remove('show');
+ if(ui.refreshBtn){ui.refreshBtn.disabled=true;ui.refreshBtn.classList.add("spinning")}
  try{
    const sep=CFG.dataUrl.includes('?')?'&':'?';
    const r=await fetch(CFG.dataUrl+sep+'t='+Date.now(),{cache:'no-store'});
@@ -580,8 +585,11 @@ async function load(){ ui.notice.classList.remove('show');
    render();
  }catch(e){
    ui.notice.textContent='Non riesco a leggere i dati della ricerca. Riprova con ↻.';ui.notice.classList.add('show');
+ }finally{
+   if(ui.refreshBtn){ui.refreshBtn.disabled=false;ui.refreshBtn.classList.remove("spinning")}
  }
 }
+if(ui.refreshBtn)ui.refreshBtn.addEventListener("click",()=>load());
 ui.q.addEventListener('input',render);
 ui.filters.addEventListener('click',e=>{
  const b=e.target.closest('.tab'); if(!b)return;
@@ -609,7 +617,9 @@ function positionEncourage(){
 
  const pad=6;
  const freeLeft=Math.min(pr.right-pad,tr.right+6);
- const freeRight=pr.right-pad;
+ const rb=document.querySelector("#refreshBtn");
+ const rr=rb?rb.getBoundingClientRect():null;
+ const freeRight=(rr&&rr.width)?rr.left-pad:pr.right-pad;
  const available=Math.max(0,freeRight-freeLeft);
 
  let er=el.getBoundingClientRect();
