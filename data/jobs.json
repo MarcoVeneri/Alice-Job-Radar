@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T15:12:50+02:00",
+  "generatedAt": "2026-09-22T08:06:02+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -622,46 +622,126 @@
       "active": true,
       "firstSeenAt": "2026-09-21T15:12:50+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "brandini-back-office-sesto-4458737565",
+      "company": "Gruppo Brandini",
+      "title": "Impiegato del back office",
+      "location": "Sesto Fiorentino (FI)",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo determinato full time, con possibilità di stabilizzazione",
+      "salary": "Non dichiarato",
+      "category": "Sales Support",
+      "score": 8.7,
+      "source": "LinkedIn Jobs · annuncio Gruppo Brandini",
+      "url": "https://it.linkedin.com/jobs/view/impiegato-del-back-office-at-gruppo-brandini-4458737565",
+      "summary": "Contratti di vendita, fatture, finanziamenti e documentazione per pratiche e consegne auto; attività di supporto commerciale e coordinamento con clienti. Annuncio ancora candidabile al 22/09/2026.",
+      "checks": [
+        "Esperienza nel settore automobilistico non esplicitamente richiesta",
+        "Modalità ibrida non dichiarata"
+      ],
+      "date": "2026-09-22",
+      "firstSeenAt": "2026-09-22T08:05:48+02:00",
+      "firstSeenRun": "08:00",
+      "remote": false,
+      "active": true
+    },
+    {
+      "id": "kering-after-sales-front-office-scandicci-4461042999",
+      "company": "Kering Italia",
+      "title": "After Sales and Front Office Support",
+      "location": "Scandicci (FI)",
+      "workMode": "Non dichiarato",
+      "contract": "A termine / tramite agenzia (durata non dichiarata)",
+      "salary": "26.000 € di compenso iniziale indicativo (periodicità non dichiarata)",
+      "category": "Operations",
+      "score": 8.1,
+      "source": "LinkedIn Jobs · annuncio Kering",
+      "url": "https://it.linkedin.com/jobs/view/kering-after-sales-and-front-office-support-fixed-term-at-kering-4461042999",
+      "summary": "Gestione richieste post-vendita B2B, ticket, SLA, ricambi e coordinamento tra negozi, grossisti, back office e centri riparazione. Annuncio aziendale aperto al 22/09/2026.",
+      "checks": [
+        "Inglese fluente richiesto (Alice B2)",
+        "Laurea richiesta; verifica requisiti"
+      ],
+      "date": "2026-09-22",
+      "firstSeenAt": "2026-09-22T08:05:48+02:00",
+      "firstSeenRun": "08:00",
+      "remote": false,
+      "active": true
+    },
+    {
+      "id": "lamarzocco-shipping-assistant-scarperia-4450243054",
+      "company": "La Marzocco",
+      "title": "Shipping Assistant – Customer Care Estero",
+      "location": "Scarperia e San Piero (FI)",
+      "workMode": "Politica di lavoro da remoto dichiarata; frequenza non indicata",
+      "contract": "Tempo determinato",
+      "salary": "RAL da 27.000 €",
+      "category": "Sales Support",
+      "score": 7.2,
+      "source": "LinkedIn Jobs · annuncio La Marzocco",
+      "url": "https://it.linkedin.com/jobs/view/shipping-assistant-at-la-marzocco-4450243054",
+      "summary": "Coordinamento spedizioni estere, documentazione export, fatture e supporto clienti su ordini; profilo trasferibile dal back office commerciale. Posizione candidabile al 22/09/2026.",
+      "checks": [
+        "Seconda lingua straniera con ottima padronanza richiesta oltre all'inglese; da verificare",
+        "Sede Mugello: verificare spostamenti e quota remoto"
+      ],
+      "date": "2026-09-22",
+      "firstSeenAt": "2026-09-22T08:05:48+02:00",
+      "firstSeenRun": "08:00",
+      "remote": false,
+      "active": true
+    },
+    {
+      "id": "sinerbit-office-management-4299229672",
+      "company": "Sinerbit S.r.l.",
+      "title": "Impiegato/a amministrativo/a – Supporto CFO, Welcome Desk e Office Management",
+      "location": "Prato",
+      "workMode": "Non dichiarato",
+      "contract": "Non dichiarato",
+      "salary": "Non dichiarato",
+      "category": "Operations",
+      "score": 8.6,
+      "source": "LinkedIn Jobs · annuncio Sinerbit",
+      "url": "https://it.linkedin.com/jobs/view/impiegato-a-amministrativo-a-%E2%80%93-supporto-cfo-welcome-desk-e-office-management-at-sinerbit-s-r-l-4299229672",
+      "summary": "Azienda ICT: gestione ordini, clienti e fornitori, documenti e scadenze, fatture, back office e coordinamento operativo dell'ufficio. Annuncio aperto al 22/09/2026.",
+      "checks": [
+        "Contabilità ordinaria e fatturazione richieste",
+        "Modalità ibrida non dichiarata"
+      ],
+      "date": "2026-09-22",
+      "firstSeenAt": "2026-09-22T08:05:48+02:00",
+      "firstSeenRun": "08:00",
+      "remote": false,
+      "active": true
     }
   ],
   "audit": {
-    "date": "2026-09-21",
+    "date": "2026-09-22",
     "runs": {
       "08:00": {
-        "scheduledFor": "2026-09-21T08:00:00+02:00",
-        "completedAt": "2026-09-21T08:15:18+02:00",
+        "scheduledFor": "2026-09-22T08:00:00+02:00",
+        "completedAt": "2026-09-22T08:06:02+02:00",
         "status": "partial",
         "requiredSourcesTotal": 35,
-        "requiredSourcesChecked": 31,
+        "requiredSourcesChecked": 19,
         "sourcesChecked": [
           "LinkedIn Jobs",
           "Indeed",
           "Randstad",
           "Adecco",
-          "Manpower",
           "Gi Group/Grafton",
-          "Hays",
           "Michael Page",
           "Openjobmetis",
           "Synergie",
-          "Orienta",
           "Lavoropiù",
           "Jobrapido",
           "Jooble",
-          "Glassdoor Jobs",
-          "Careerjet",
           "Trovolavoro",
-          "Bakeca Lavoro",
           "Helplavoro",
-          "Experis",
           "Umana",
-          "Ali Lavoro",
-          "During",
           "Etjca",
           "MAW",
-          "Humangest",
-          "ADHR Group",
-          "Staff S.p.A.",
           "Atempo",
           "Toscana Lavoro/ARTI Toscana",
           "inPA"
@@ -669,141 +749,77 @@
         "sourcesUnavailable": [
           {
             "name": "InfoJobs",
-            "reason": "Piattaforma italiana chiusa; verificati accesso diretto e ricerca indicizzata senza un catalogo offerte attuale utilizzabile."
+            "reason": "Il sito annuncia la chiusura del servizio italiano; ricerca nativa e due fallback site:infojobs.it (gare/tender e back office/eventi) senza catalogo corrente."
           },
           {
             "name": "Monster",
-            "reason": "Il servizio italiano non espone più una ricerca lavoro utilizzabile come catalogo indipendente; tentati accesso diretto e fallback indicizzato."
-          },
-          {
-            "name": "Page Personnel",
-            "reason": "Il dominio reindirizza a Michael Page e Page Personnel risulta confluito nel brand Michael Page; non esiste un catalogo indipendente corrente da verificare separatamente."
-          },
-          {
-            "name": "Talent.com",
-            "reason": "Homepage raggiungibile, ma la ricerca mirata e i fallback indicizzati non hanno consentito di verificare in modo affidabile risultati correnti per Firenze/Toscana."
-          }
-        ],
-        "extraSourcesChecked": [
-          "Cognita Schools / Florence Bilingual School",
-          "Archimede S.r.l.",
-          "Recruit.net",
-          "Jobijoba",
-          "Lavoro.it",
-          "PortaleGiovani Firenze"
-        ],
-        "queriesRun": 125,
-        "newJobs": 9,
-        "activeJobs": 24,
-        "note": "Run delle 08:00 rieseguito integralmente con fallback indicizzati per i portali non accessibili direttamente."
-      },
-      "15:00": {
-        "scheduledFor": "2026-09-21T15:00:00+02:00",
-        "completedAt": "2026-09-21T15:12:50+02:00",
-        "status": "partial",
-        "requiredSourcesTotal": 35,
-        "requiredSourcesChecked": 18,
-        "sourcesChecked": [
-          "LinkedIn Jobs",
-          "Indeed",
-          "Randstad",
-          "Adecco",
-          "Gi Group/Grafton",
-          "Michael Page",
-          "Openjobmetis",
-          "Synergie",
-          "Lavoropiù",
-          "Jobrapido",
-          "Jooble",
-          "Trovolavoro",
-          "Helplavoro",
-          "Umana",
-          "Etjca",
-          "MAW",
-          "Toscana Lavoro/ARTI Toscana",
-          "inPA"
-        ],
-        "sourcesUnavailable": [
-          {
-            "name": "InfoJobs",
-            "reason": "Accesso diretto mostra la chiusura del servizio italiano; fallback site:infojobs.it per gare e back office senza catalogo corrente."
-          },
-          {
-            "name": "Monster",
-            "reason": "Ricerca diretta bloccata; fallback site:monster.it per gare e back office senza risultati italiani correnti verificabili."
+            "reason": "Ricerca diretta inaccessibile; due fallback site:monster.it per gare/tender e back office/eventi senza annunci locali correnti verificabili."
           },
           {
             "name": "Manpower",
-            "reason": "Ricerca diretta inaccessibile; l'annuncio individuale reperito è scaduto e i fallback site:manpower.it per gare e back office non hanno verificato un catalogo corrente pertinente."
+            "reason": "Catalogo diretto inaccessibile; fallback site:manpower.it per gare/tender e back office/eventi senza schede originali correnti verificabili."
           },
           {
             "name": "Hays",
-            "reason": "Ricerca diretta e percorso alternativo inaccessibili; fallback site:hays.it per gare e back office senza pagine correnti specifiche verificabili."
+            "reason": "Ricerca diretta inaccessibile; fallback site:hays.it per gare/tender e back office/eventi senza offerte originali pertinenti attuali."
           },
           {
             "name": "Page Personnel",
-            "reason": "Il dominio reindirizza a Michael Page; fallback site:pagepersonnel.it per gare e back office non permette di verificare un catalogo indipendente."
+            "reason": "Pagina diretta reindirizza al catalogo Michael Page; due ricerche site:pagepersonnel.it non verificano un catalogo autonomo attuale."
           },
           {
             "name": "Orienta",
-            "reason": "La pagina nativa segnala errore tecnico; fallback site:orienta.net per gare e back office senza offerte originali correnti verificabili."
+            "reason": "Ricerca nativa segnala errore tecnico; fallback site:orienta.net gare/tender e back office/eventi senza offerte individuali correnti verificabili."
           },
           {
             "name": "Talent.com",
-            "reason": "Catalogo generico nazionale raggiungibile, ma ricerca mirata Firenze bloccata; fallback site:talent.com per gare e back office senza risultati locali attuali verificabili."
+            "reason": "Solo catalogo generico nazionale accessibile; fallback site:talent.com su gare/tender e back office/eventi non verifica annunci locali correnti."
           },
           {
             "name": "Glassdoor Jobs",
-            "reason": "Ricerca diretta bloccata nelle varianti provate; fallback site:glassdoor.it per gare e back office senza risultati correnti accessibili."
+            "reason": "Ricerca locale bloccata; fallback site:glassdoor.it per gare/tender e back office/eventi privo di pagine lavoro attuali accessibili."
           },
           {
             "name": "Careerjet",
-            "reason": "La pagina Firenze è priva di risultati leggibili; fallback site:careerjet.it per gare e back office non ha restituito inserzioni locali correnti verificabili."
+            "reason": "Pagina locale senza elenco leggibile; fallback site:careerjet.it gare/tender e back office/eventi senza schede correnti verificabili."
           },
           {
             "name": "Bakeca Lavoro",
-            "reason": "Ricerca diretta e pagina città inaccessibili; fallback site:bakeca.it per gare e back office senza inserzioni attuali verificabili."
+            "reason": "Pagina locale inaccessibile; fallback site:bakeca.it gare/tender e back office/eventi senza pagine specifiche attuali verificabili."
           },
           {
             "name": "Experis",
-            "reason": "Pagina all-jobs raggiungibile ma senza elenco leggibile; fallback site:experis.it per gare e back office senza annunci originali attuali verificabili."
+            "reason": "Ricerca nativa richiede JavaScript e l'elenco completo non espone offerte; fallback site:experis.it gare/tender e back office/eventi senza schede locali attuali verificabili."
           },
           {
             "name": "Ali Lavoro",
-            "reason": "Percorsi diretti delle offerte bloccati; fallback site:alilavoro.it per gare e back office senza pagine correnti originali verificabili."
+            "reason": "Catalogo diretto inaccessibile; fallback site:alilavoro.it gare/tender e back office/eventi ha mostrato soltanto pagine editoriali, non annunci originali correnti."
           },
           {
             "name": "During",
-            "reason": "Percorsi diretti delle offerte bloccati; fallback site:during.it per gare e back office senza annunci originali correnti verificabili."
+            "reason": "Catalogo diretto inaccessibile; fallback site:during.it gare/tender e back office/eventi ha restituito pagine aziendali, non inserzioni correnti pertinenti."
           },
           {
             "name": "Humangest",
-            "reason": "Ricerca diretta bloccata; fallback site:humangest.it per gare e back office senza annunci locali correnti verificabili."
+            "reason": "Ricerca diretta inaccessibile; fallback site:humangest.it gare/tender e back office/eventi senza inserzioni correnti verificabili."
           },
           {
             "name": "ADHR Group",
-            "reason": "Pagina candidatura caricata solo con JavaScript; fallback site:adhr.it per gare e back office senza offerte originali correnti verificabili."
+            "reason": "Ricerca reindirizza a un'applicazione senza risultati leggibili; fallback site:adhr.it gare/tender e back office/eventi senza schede individuali correnti verificabili."
           },
           {
             "name": "Staff S.p.A.",
-            "reason": "Ricerca diretta bloccata; fallback site:staff.it per gare e back office senza inserzioni originali correnti verificabili."
-          },
-          {
-            "name": "Atempo",
-            "reason": "Ricerca diretta e catalogo ATS bloccati; fallback site:atempospa.it per gare e back office senza inserzioni correnti verificabili (una vecchia scheda individuale non basta)."
+            "reason": "Ricerca diretta inaccessibile; fallback site:staff.it gare/tender e back office/eventi senza offerte originali correnti verificabili."
           }
         ],
         "extraSourcesChecked": [
-          "MisterTemp' Italia / annuncio LinkedIn",
-          "Castelfalfi Careers / annuncio aziendale LinkedIn",
-          "TÜV SÜD SuccessFactors / annuncio aziendale LinkedIn",
-          "Openjobmetis / annuncio LinkedIn",
-          "Jobijoba",
-          "Recruit.net"
+          "Kering Careers (catalogo ufficiale)",
+          "Marriott Careers (catalogo generale)",
+          "Annunci aziendali LinkedIn: Gruppo Brandini, La Marzocco, Sinerbit, Kering"
         ],
-        "queriesRun": 73,
+        "queriesRun": 62,
         "newJobs": 4,
-        "activeJobs": 27
+        "activeJobs": 31
       }
     }
   },
