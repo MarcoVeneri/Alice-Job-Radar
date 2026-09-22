@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T08:06:02+02:00",
+  "generatedAt": "2026-09-22T15:04:35+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -714,6 +714,30 @@
       "firstSeenRun": "08:00",
       "remote": false,
       "active": true
+    },
+    {
+      "id": "grafton-compliance-documentation-specialist-fiesole-4465998913",
+      "date": "2026-09-18",
+      "company": "Grafton Recruitment (azienda cliente)",
+      "title": "Compliance & Documentation Specialist",
+      "location": "Fiesole (FI)",
+      "workMode": "Non dichiarato",
+      "contract": "Non dichiarato",
+      "salary": "RAL 30.000–32.000 €",
+      "category": "Operations",
+      "score": 7.5,
+      "source": "Annuncio Grafton Recruitment su LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/compliance-documentation-specialist-at-grafton-recruitment-4465998913",
+      "summary": "Controllo documentale e qualificazione fornitori (DURC, certificazioni e autorizzazioni), registri e scadenze degli audit; esperienza di Alice trasferibile, ma competenze HSE e normative doganali da approfondire.",
+      "checks": [
+        "Titolo di studio o esperienza equivalente richiesta",
+        "Conoscenze HSE, audit e commercio internazionale da verificare",
+        "Modalità ibrida non dichiarata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-22T15:04:35+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
@@ -820,6 +844,108 @@
         "queriesRun": 62,
         "newJobs": 4,
         "activeJobs": 31
+      },
+      "15:00": {
+        "scheduledFor": "2026-09-22T15:00:00+02:00",
+        "completedAt": "2026-09-22T15:04:35+02:00",
+        "status": "partial",
+        "requiredSourcesTotal": 35,
+        "requiredSourcesChecked": 19,
+        "sourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed",
+          "Randstad",
+          "Adecco",
+          "Gi Group/Grafton",
+          "Michael Page",
+          "Openjobmetis",
+          "Synergie",
+          "Lavoropiù",
+          "Jobrapido",
+          "Jooble",
+          "Trovolavoro",
+          "Helplavoro",
+          "Umana",
+          "Etjca",
+          "MAW",
+          "Atempo",
+          "Toscana Lavoro/ARTI Toscana",
+          "inPA"
+        ],
+        "sourcesUnavailable": [
+          {
+            "name": "InfoJobs",
+            "reason": "Il sito annuncia la chiusura del servizio italiano; ricerca nativa e due fallback site:infojobs.it (gare/tender e back office/eventi) senza catalogo corrente."
+          },
+          {
+            "name": "Monster",
+            "reason": "Ricerca diretta inaccessibile; due fallback site:monster.it per gare/tender e back office/eventi senza annunci locali correnti verificabili."
+          },
+          {
+            "name": "Manpower",
+            "reason": "Catalogo diretto inaccessibile; ritentato oggi con ricerca diretta e fallback site:manpower.it per gare/tender e back office/eventi senza schede originali correnti verificabili."
+          },
+          {
+            "name": "Hays",
+            "reason": "Ricerca diretta inaccessibile; ritentato oggi con ricerca diretta e fallback site:hays.it per gare/tender e back office/eventi senza offerte originali pertinenti attuali."
+          },
+          {
+            "name": "Page Personnel",
+            "reason": "Pagina diretta reindirizza al catalogo Michael Page; due ricerche site:pagepersonnel.it non verificano un catalogo autonomo attuale."
+          },
+          {
+            "name": "Orienta",
+            "reason": "Ricerca nativa segnala errore tecnico; ritentato oggi con ricerca diretta e fallback site:orienta.net gare/tender e back office/eventi senza offerte individuali correnti verificabili."
+          },
+          {
+            "name": "Talent.com",
+            "reason": "Solo catalogo generico nazionale accessibile; ritentato oggi con ricerca diretta e fallback site:talent.com su gare/tender e back office/eventi non verifica annunci locali correnti."
+          },
+          {
+            "name": "Glassdoor Jobs",
+            "reason": "Ricerca locale bloccata; ritentato oggi con ricerca diretta e fallback site:glassdoor.it per gare/tender e back office/eventi privo di pagine lavoro attuali accessibili."
+          },
+          {
+            "name": "Careerjet",
+            "reason": "Pagina locale senza elenco leggibile; ritentato oggi con ricerca diretta e fallback site:careerjet.it gare/tender e back office/eventi senza schede correnti verificabili."
+          },
+          {
+            "name": "Bakeca Lavoro",
+            "reason": "Pagina locale inaccessibile; ritentato oggi con ricerca diretta e fallback site:bakeca.it gare/tender e back office/eventi senza pagine specifiche attuali verificabili."
+          },
+          {
+            "name": "Experis",
+            "reason": "Ricerca nativa richiede JavaScript e l'elenco completo non espone offerte; ritentato oggi con ricerca diretta e fallback site:experis.it gare/tender e back office/eventi senza schede locali attuali verificabili."
+          },
+          {
+            "name": "Ali Lavoro",
+            "reason": "Catalogo diretto inaccessibile; ritentato oggi con ricerca diretta e fallback site:alilavoro.it gare/tender e back office/eventi ha mostrato soltanto pagine editoriali, non annunci originali correnti."
+          },
+          {
+            "name": "During",
+            "reason": "Catalogo diretto inaccessibile; ritentato oggi con ricerca diretta e fallback site:during.it gare/tender e back office/eventi ha restituito pagine aziendali, non inserzioni correnti pertinenti."
+          },
+          {
+            "name": "Humangest",
+            "reason": "Ricerca diretta inaccessibile; ritentato oggi con ricerca diretta e fallback site:humangest.it gare/tender e back office/eventi senza inserzioni correnti verificabili."
+          },
+          {
+            "name": "ADHR Group",
+            "reason": "Ricerca reindirizza a un'applicazione senza risultati leggibili; ritentato oggi con ricerca diretta e fallback site:adhr.it gare/tender e back office/eventi senza schede individuali correnti verificabili."
+          },
+          {
+            "name": "Staff S.p.A.",
+            "reason": "Ricerca diretta inaccessibile; ritentato oggi con ricerca diretta e fallback site:staff.it gare/tender e back office/eventi senza offerte originali correnti verificabili."
+          }
+        ],
+        "extraSourcesChecked": [
+          "LinkedIn Jobs: annunci Grafton Recruitment e ricerca eventi",
+          "Adecco: scheda annuncio specifico",
+          "Atempo ATS: scheda annuncio specifico"
+        ],
+        "queriesRun": 80,
+        "newJobs": 1,
+        "activeJobs": 32
       }
     }
   },
