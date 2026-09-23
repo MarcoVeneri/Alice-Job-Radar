@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T15:04:35+02:00",
+  "generatedAt": "2026-09-23T08:05:23+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -738,14 +738,63 @@
       "active": true,
       "firstSeenAt": "2026-09-22T15:04:35+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "abb-spare-parts-business-support-specialist-4445737716",
+      "date": "2026-09-16",
+      "company": "ABB E-mobility",
+      "title": "Spare Parts Business Support Specialist - Temporary",
+      "location": "San Giovanni Valdarno (AR)",
+      "workMode": "Ibrido · frequenza non dichiarata",
+      "contract": "Temporaneo · durata non dichiarata",
+      "salary": "RAL da 31.000 € + bonus variabile",
+      "category": "Sales Support",
+      "score": 9.5,
+      "source": "ABB E-mobility / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/spare-parts-business-support-specialist-temporary-at-abb-e-mobility-4445737716",
+      "summary": "Supporto commerciale internazionale su cataloghi e listini, documentazione per gare e offerte, amministrazione contratti, accuratezza degli ordini, compliance commerciale, analisi ERP/CRM e flussi Salesforce.",
+      "checks": [
+        "Inglese fluente richiesto",
+        "Laurea in ambito gestionale/economico o correlato",
+        "Esperienza SAP/Salesforce e Excel avanzato",
+        "Frequenza del lavoro ibrido non dichiarata"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-23T08:05:23+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "abb-service-warehouse-back-office-specialist-4439163143",
+      "date": "2026-09-16",
+      "company": "ABB E-mobility",
+      "title": "Service Warehouse Back-office Specialist - Temporary",
+      "location": "San Giovanni Valdarno (AR)",
+      "workMode": "Non dichiarato",
+      "contract": "Temporaneo · durata non dichiarata",
+      "salary": "RAL da 29.000 € + bonus variabile",
+      "category": "Operations",
+      "score": 8,
+      "source": "ABB E-mobility / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/service-warehouse-back-office-specialist-temporary-at-abb-e-mobility-4439163143",
+      "summary": "Back office operativo per pianificazione dei ricambi e kit di assistenza, ordini di produzione, disponibilità materiali, controllo inventario e coordinamento con Service, Supply Chain e logistica.",
+      "checks": [
+        "Buon inglese richiesto",
+        "Esperienza SAP e sistemi WMS",
+        "Modalità di lavoro non dichiarata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-23T08:05:23+02:00",
+      "firstSeenRun": "08:00"
     }
   ],
   "audit": {
-    "date": "2026-09-22",
+    "date": "2026-09-23",
     "runs": {
       "08:00": {
-        "scheduledFor": "2026-09-22T08:00:00+02:00",
-        "completedAt": "2026-09-22T08:06:02+02:00",
+        "scheduledFor": "2026-09-23T08:00:00+02:00",
+        "completedAt": "2026-09-23T08:05:23+02:00",
         "status": "partial",
         "requiredSourcesTotal": 35,
         "requiredSourcesChecked": 19,
@@ -773,179 +822,78 @@
         "sourcesUnavailable": [
           {
             "name": "InfoJobs",
-            "reason": "Il sito annuncia la chiusura del servizio italiano; ricerca nativa e due fallback site:infojobs.it (gare/tender e back office/eventi) senza catalogo corrente."
+            "reason": "Il servizio italiano risulta chiuso; ricerca diretta e due fallback site:infojobs.it (gare/tender e back office/eventi) senza catalogo corrente."
           },
           {
             "name": "Monster",
-            "reason": "Ricerca diretta inaccessibile; due fallback site:monster.it per gare/tender e back office/eventi senza annunci locali correnti verificabili."
+            "reason": "Ricerca diretta in errore; due fallback site:monster.it non hanno restituito annunci locali correnti verificabili."
           },
           {
             "name": "Manpower",
-            "reason": "Catalogo diretto inaccessibile; fallback site:manpower.it per gare/tender e back office/eventi senza schede originali correnti verificabili."
+            "reason": "Catalogo diretto inaccessibile; due fallback site:manpower.it senza schede originali correnti pertinenti."
           },
           {
             "name": "Hays",
-            "reason": "Ricerca diretta inaccessibile; fallback site:hays.it per gare/tender e back office/eventi senza offerte originali pertinenti attuali."
+            "reason": "Ricerca diretta inaccessibile; i due fallback site:hays.it hanno restituito soltanto pagine generiche, non offerte correnti pertinenti."
           },
           {
             "name": "Page Personnel",
-            "reason": "Pagina diretta reindirizza al catalogo Michael Page; due ricerche site:pagepersonnel.it non verificano un catalogo autonomo attuale."
+            "reason": "La pagina reindirizza al catalogo Michael Page; due fallback site:pagepersonnel.it non verificano un catalogo autonomo attuale."
           },
           {
             "name": "Orienta",
-            "reason": "Ricerca nativa segnala errore tecnico; fallback site:orienta.net gare/tender e back office/eventi senza offerte individuali correnti verificabili."
+            "reason": "La ricerca nativa segnala un errore tecnico; i due fallback hanno mostrato schede non pertinenti e non verificano il catalogo locale corrente."
           },
           {
             "name": "Talent.com",
-            "reason": "Solo catalogo generico nazionale accessibile; fallback site:talent.com su gare/tender e back office/eventi non verifica annunci locali correnti."
+            "reason": "Ricerca diretta in errore; due fallback site:talent.com senza annunci locali correnti verificabili."
           },
           {
             "name": "Glassdoor Jobs",
-            "reason": "Ricerca locale bloccata; fallback site:glassdoor.it per gare/tender e back office/eventi privo di pagine lavoro attuali accessibili."
+            "reason": "Ricerca locale bloccata; due fallback site:glassdoor.it senza pagine lavoro correnti accessibili."
           },
           {
             "name": "Careerjet",
-            "reason": "Pagina locale senza elenco leggibile; fallback site:careerjet.it gare/tender e back office/eventi senza schede correnti verificabili."
+            "reason": "Pagina locale priva di elenco leggibile; due fallback site:careerjet.it senza schede correnti verificabili."
           },
           {
             "name": "Bakeca Lavoro",
-            "reason": "Pagina locale inaccessibile; fallback site:bakeca.it gare/tender e back office/eventi senza pagine specifiche attuali verificabili."
+            "reason": "Pagina locale inaccessibile; due fallback site:bakeca.it senza annunci specifici attuali verificabili."
           },
           {
             "name": "Experis",
-            "reason": "Ricerca nativa richiede JavaScript e l'elenco completo non espone offerte; fallback site:experis.it gare/tender e back office/eventi senza schede locali attuali verificabili."
+            "reason": "Catalogo diretto in errore; due fallback site:experis.it senza schede locali correnti verificabili."
           },
           {
             "name": "Ali Lavoro",
-            "reason": "Catalogo diretto inaccessibile; fallback site:alilavoro.it gare/tender e back office/eventi ha mostrato soltanto pagine editoriali, non annunci originali correnti."
+            "reason": "Catalogo diretto inaccessibile; due fallback site:alilavoro.it senza annunci originali correnti pertinenti."
           },
           {
             "name": "During",
-            "reason": "Catalogo diretto inaccessibile; fallback site:during.it gare/tender e back office/eventi ha restituito pagine aziendali, non inserzioni correnti pertinenti."
+            "reason": "Catalogo diretto inaccessibile; due fallback site:during.it senza inserzioni correnti pertinenti."
           },
           {
             "name": "Humangest",
-            "reason": "Ricerca diretta inaccessibile; fallback site:humangest.it gare/tender e back office/eventi senza inserzioni correnti verificabili."
+            "reason": "Ricerca diretta inaccessibile; due fallback site:humangest.it senza inserzioni correnti verificabili."
           },
           {
             "name": "ADHR Group",
-            "reason": "Ricerca reindirizza a un'applicazione senza risultati leggibili; fallback site:adhr.it gare/tender e back office/eventi senza schede individuali correnti verificabili."
+            "reason": "La pagina diretta non espone risultati leggibili; due fallback site:adhr.it senza schede individuali correnti verificabili."
           },
           {
             "name": "Staff S.p.A.",
-            "reason": "Ricerca diretta inaccessibile; fallback site:staff.it gare/tender e back office/eventi senza offerte originali correnti verificabili."
+            "reason": "Ricerca diretta inaccessibile; due fallback site:staff.it senza offerte originali correnti verificabili."
           }
         ],
         "extraSourcesChecked": [
-          "Kering Careers (catalogo ufficiale)",
-          "Marriott Careers (catalogo generale)",
-          "Annunci aziendali LinkedIn: Gruppo Brandini, La Marzocco, Sinerbit, Kering"
+          "ABB E-mobility Careers",
+          "Annunci ABB E-mobility su LinkedIn Jobs",
+          "EV.Careers e InMatch per controllo incrociato",
+          "Ricerca LinkedIn distinta: Back Office, Tender, Sales Operations, Event Coordinator"
         ],
-        "queriesRun": 62,
-        "newJobs": 4,
-        "activeJobs": 31
-      },
-      "15:00": {
-        "scheduledFor": "2026-09-22T15:00:00+02:00",
-        "completedAt": "2026-09-22T15:04:35+02:00",
-        "status": "partial",
-        "requiredSourcesTotal": 35,
-        "requiredSourcesChecked": 19,
-        "sourcesChecked": [
-          "LinkedIn Jobs",
-          "Indeed",
-          "Randstad",
-          "Adecco",
-          "Gi Group/Grafton",
-          "Michael Page",
-          "Openjobmetis",
-          "Synergie",
-          "Lavoropiù",
-          "Jobrapido",
-          "Jooble",
-          "Trovolavoro",
-          "Helplavoro",
-          "Umana",
-          "Etjca",
-          "MAW",
-          "Atempo",
-          "Toscana Lavoro/ARTI Toscana",
-          "inPA"
-        ],
-        "sourcesUnavailable": [
-          {
-            "name": "InfoJobs",
-            "reason": "Il sito annuncia la chiusura del servizio italiano; ricerca nativa e due fallback site:infojobs.it (gare/tender e back office/eventi) senza catalogo corrente."
-          },
-          {
-            "name": "Monster",
-            "reason": "Ricerca diretta inaccessibile; due fallback site:monster.it per gare/tender e back office/eventi senza annunci locali correnti verificabili."
-          },
-          {
-            "name": "Manpower",
-            "reason": "Catalogo diretto inaccessibile; ritentato oggi con ricerca diretta e fallback site:manpower.it per gare/tender e back office/eventi senza schede originali correnti verificabili."
-          },
-          {
-            "name": "Hays",
-            "reason": "Ricerca diretta inaccessibile; ritentato oggi con ricerca diretta e fallback site:hays.it per gare/tender e back office/eventi senza offerte originali pertinenti attuali."
-          },
-          {
-            "name": "Page Personnel",
-            "reason": "Pagina diretta reindirizza al catalogo Michael Page; due ricerche site:pagepersonnel.it non verificano un catalogo autonomo attuale."
-          },
-          {
-            "name": "Orienta",
-            "reason": "Ricerca nativa segnala errore tecnico; ritentato oggi con ricerca diretta e fallback site:orienta.net gare/tender e back office/eventi senza offerte individuali correnti verificabili."
-          },
-          {
-            "name": "Talent.com",
-            "reason": "Solo catalogo generico nazionale accessibile; ritentato oggi con ricerca diretta e fallback site:talent.com su gare/tender e back office/eventi non verifica annunci locali correnti."
-          },
-          {
-            "name": "Glassdoor Jobs",
-            "reason": "Ricerca locale bloccata; ritentato oggi con ricerca diretta e fallback site:glassdoor.it per gare/tender e back office/eventi privo di pagine lavoro attuali accessibili."
-          },
-          {
-            "name": "Careerjet",
-            "reason": "Pagina locale senza elenco leggibile; ritentato oggi con ricerca diretta e fallback site:careerjet.it gare/tender e back office/eventi senza schede correnti verificabili."
-          },
-          {
-            "name": "Bakeca Lavoro",
-            "reason": "Pagina locale inaccessibile; ritentato oggi con ricerca diretta e fallback site:bakeca.it gare/tender e back office/eventi senza pagine specifiche attuali verificabili."
-          },
-          {
-            "name": "Experis",
-            "reason": "Ricerca nativa richiede JavaScript e l'elenco completo non espone offerte; ritentato oggi con ricerca diretta e fallback site:experis.it gare/tender e back office/eventi senza schede locali attuali verificabili."
-          },
-          {
-            "name": "Ali Lavoro",
-            "reason": "Catalogo diretto inaccessibile; ritentato oggi con ricerca diretta e fallback site:alilavoro.it gare/tender e back office/eventi ha mostrato soltanto pagine editoriali, non annunci originali correnti."
-          },
-          {
-            "name": "During",
-            "reason": "Catalogo diretto inaccessibile; ritentato oggi con ricerca diretta e fallback site:during.it gare/tender e back office/eventi ha restituito pagine aziendali, non inserzioni correnti pertinenti."
-          },
-          {
-            "name": "Humangest",
-            "reason": "Ricerca diretta inaccessibile; ritentato oggi con ricerca diretta e fallback site:humangest.it gare/tender e back office/eventi senza inserzioni correnti verificabili."
-          },
-          {
-            "name": "ADHR Group",
-            "reason": "Ricerca reindirizza a un'applicazione senza risultati leggibili; ritentato oggi con ricerca diretta e fallback site:adhr.it gare/tender e back office/eventi senza schede individuali correnti verificabili."
-          },
-          {
-            "name": "Staff S.p.A.",
-            "reason": "Ricerca diretta inaccessibile; ritentato oggi con ricerca diretta e fallback site:staff.it gare/tender e back office/eventi senza offerte originali correnti verificabili."
-          }
-        ],
-        "extraSourcesChecked": [
-          "LinkedIn Jobs: annunci Grafton Recruitment e ricerca eventi",
-          "Adecco: scheda annuncio specifico",
-          "Atempo ATS: scheda annuncio specifico"
-        ],
-        "queriesRun": 80,
-        "newJobs": 1,
-        "activeJobs": 32
+        "queriesRun": 82,
+        "newJobs": 2,
+        "activeJobs": 34
       }
     }
   },
