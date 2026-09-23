@@ -1,10 +1,10 @@
 window.ALICE_RADAR_CONFIG={
   dataUrl:"./data/jobs.json",
-  appVersion:"6.21",
+  appVersion:"6.22",
   sync:{
-    enabled:false,
-    url:"",
-    publishableKey:"",
+    enabled:true,
+    url:"https://nlhxjpartgvplythgzrz.supabase.co",
+    publishableKey:"sb_publishable_uA9EbSMwJ5oFraqP-r5njg_EXtLSjEH",
     table:"job_state"
   }
 };
