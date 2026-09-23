@@ -416,23 +416,95 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.10"};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.20",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
 const STATUS=["Nuova","Interessante","Candidata","Colloquio","Scartata"];
 const storeKey="alice-job-radar-status-v3";
-function state(){try{return JSON.parse(localStorage.getItem(storeKey)||"{}")}catch(e){return{}}}
-function saveState(s){try{localStorage.setItem(storeKey,JSON.stringify(s))}catch(e){}}
-function getStatus(id){return state()[id]||"Nuova"}
-function setStatus(id,v){const s=state();s[id]=v;saveState(s);render()}
 const savedKey="alice-job-radar-saved-v1";
 const dismissedKey="alice-job-radar-dismissed-v1";
 const appliedKey="alice-job-radar-applied-v1";
+const syncMigrationKey="alice-job-radar-sync-migrated-v1";
+const syncPendingKey="alice-job-radar-sync-pending-v1";
+const syncCfg=CFG.sync||{};
+function state(){try{return JSON.parse(localStorage.getItem(storeKey)||"{}")}catch(e){return{}}}
+function saveState(s){try{localStorage.setItem(storeKey,JSON.stringify(s))}catch(e){}}
 function objectStore(key){try{return JSON.parse(localStorage.getItem(key)||"{}")}catch(e){return{}}}
 function writeObjectStore(key,v){try{localStorage.setItem(key,JSON.stringify(v))}catch(e){}}
 function dismissedState(){return objectStore(dismissedKey)}
+function appliedState(){return objectStore(appliedKey)}
+function savedState(){try{return JSON.parse(localStorage.getItem(savedKey)||"{}")}catch(e){return{}}}
+function saveSavedState(v){try{localStorage.setItem(savedKey,JSON.stringify(v))}catch(e){}}
+function getStatus(id){return state()[id]||"Nuova"}
 function isDismissed(id){return !!dismissedState()[id]}
+function isApplied(id){return !!appliedState()[id]}
+function isSaved(id){return !!savedState()[id]}
+function syncEnabled(){return !!(syncCfg.enabled&&syncCfg.url&&syncCfg.anonKey)}
+function syncTable(){return String(syncCfg.table||"job_state").replace(/[^a-zA-Z0-9_]/g,"")}
+function syncHeaders(prefer){
+ const h={"apikey":syncCfg.anonKey,"Authorization":"Bearer "+syncCfg.anonKey,"Content-Type":"application/json"};
+ if(prefer)h["Prefer"]=prefer;
+ return h;
+}
+function syncEndpoint(suffix=""){return String(syncCfg.url||"").replace(/\/$/,"")+"/rest/v1/"+syncTable()+suffix}
+function pendingState(){return objectStore(syncPendingKey)}
+function markPending(id){const p=pendingState();p[String(id)]=new Date().toISOString();writeObjectStore(syncPendingKey,p)}
+function clearPending(id){const p=pendingState();delete p[String(id)];writeObjectStore(syncPendingKey,p)}
+function jobRow(id){
+ const sid=String(id),j=DATA.find(x=>String(x.id)===sid),d=dismissedState()[sid];
+ return {job_id:sid,status:getStatus(sid),saved:isSaved(sid),applied:isApplied(sid),dismissed:!!d,
+  dismissed_at:d&&d.at?d.at:null,company:(d&&d.company)||(j&&j.company)||"",title:(d&&d.title)||(j&&j.title)||"",
+  url:(d&&d.url)||(j&&j.url)||"",updated_at:new Date().toISOString()};
+}
+async function upsertRows(rows){
+ if(!syncEnabled()||!rows.length)return false;
+ const r=await fetch(syncEndpoint("?on_conflict=job_id"),{method:"POST",headers:syncHeaders("resolution=merge-duplicates,return=minimal"),body:JSON.stringify(rows)});
+ if(!r.ok)throw Error("sync upsert "+r.status);
+ return true;
+}
+function localRowsForMigration(){
+ const st=state(),sv=savedState(),ap=appliedState(),di=dismissedState();
+ const ids=new Set([...Object.keys(st),...Object.keys(sv),...Object.keys(ap),...Object.keys(di)]);
+ return [...ids].filter(id=>(st[id]||"Nuova")!=="Nuova"||!!sv[id]||!!ap[id]||!!di[id]).map(id=>jobRow(id));
+}
+async function seedLocalOnce(){
+ if(!syncEnabled()||localStorage.getItem(syncMigrationKey)==="1")return;
+ const rows=localRowsForMigration();
+ if(rows.length)await upsertRows(rows);
+ localStorage.setItem(syncMigrationKey,"1");
+}
+function replaceLocalFromRemote(rows){
+ const st={},sv={},ap={},di={};
+ for(const r of rows||[]){
+  const id=String(r.job_id);
+  if(r.status&&r.status!=="Nuova")st[id]=r.status;
+  if(r.saved)sv[id]=true;
+  if(r.applied)ap[id]={at:r.updated_at||new Date().toISOString()};
+  if(r.dismissed)di[id]={at:r.dismissed_at||r.updated_at||new Date().toISOString(),company:r.company||"",title:r.title||"",url:r.url||""};
+ }
+ saveState(st);saveSavedState(sv);writeObjectStore(appliedKey,ap);writeObjectStore(dismissedKey,di);
+}
+async function pullRemote(){
+ if(!syncEnabled())return;
+ const r=await fetch(syncEndpoint("?select=job_id,status,saved,applied,dismissed,dismissed_at,company,title,url,updated_at"),{headers:syncHeaders(),cache:"no-store"});
+ if(!r.ok)throw Error("sync pull "+r.status);
+ replaceLocalFromRemote(await r.json());
+}
+async function pushJob(id){
+ if(!syncEnabled())return;
+ markPending(id);
+ try{await upsertRows([jobRow(id)]);clearPending(id)}catch(e){}
+}
+async function flushPending(){
+ if(!syncEnabled())return;
+ for(const id of Object.keys(pendingState())){try{await upsertRows([jobRow(id)]);clearPending(id)}catch(e){}}
+}
+async function syncCycle(){
+ if(!syncEnabled())return;
+ try{await seedLocalOnce();await flushPending();await pullRemote()}catch(e){}
+}
+function setStatus(id,v){const s=state();s[id]=v;saveState(s);render();pushJob(id)}
 function dismissJob(id){
  const j=DATA.find(x=>String(x.id)===String(id));
  if(!j)return;
@@ -441,20 +513,16 @@ function dismissJob(id){
  v[id]={at:new Date().toISOString(),company:j.company||"",title:j.title||"",url:j.url||""};
  writeObjectStore(dismissedKey,v);
  const s=savedState();if(s[id]){delete s[id];saveSavedState(s)}
- render();
+ render();pushJob(id);
 }
-function appliedState(){return objectStore(appliedKey)}
-function isApplied(id){return !!appliedState()[id]}
 function toggleApplied(id){
  const v=appliedState();
  if(v[id])delete v[id];else v[id]={at:new Date().toISOString()};
- writeObjectStore(appliedKey,v);
- render();
+ writeObjectStore(appliedKey,v);render();pushJob(id);
 }
-function savedState(){try{return JSON.parse(localStorage.getItem(savedKey)||"{}")}catch(e){return{}}}
-function saveSavedState(v){try{localStorage.setItem(savedKey,JSON.stringify(v))}catch(e){}}
-function isSaved(id){return !!savedState()[id]}
-function toggleSaved(id){const v=savedState();if(v[id])delete v[id];else v[id]=true;saveSavedState(v);render()}
+function toggleSaved(id){
+ const v=savedState();if(v[id])delete v[id];else v[id]=true;saveSavedState(v);render();pushJob(id);
+}
 function setNavActive(which){ui.navHome.classList.toggle("active",which==="home");ui.navSearch.classList.toggle("active",which==="search");ui.navSaved.classList.toggle("active",which==="saved")}
 function resetTopFilters(){filter="Tutte";statFilter="";document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("active",x.dataset.filter==="Tutte"));document.querySelectorAll(".stat").forEach(x=>x.classList.remove("active"))}
 function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
@@ -588,6 +656,7 @@ async function load(){ ui.notice.classList.remove('show');
    const r=await fetch(CFG.dataUrl+sep+'t='+Date.now(),{cache:'no-store'});
    if(!r.ok)throw Error('HTTP '+r.status);
    const j=await r.json(); DATA=Array.isArray(j.jobs)?j.jobs:[]; AUDIT=j.audit||null; window.__MANUAL_REFRESH__=j.manualRefresh||null;
+   await syncCycle();
    renderAudit(AUDIT);
    if(ageHours(j.generatedAt)>36){ui.notice.textContent='La ricerca non risulta aggiornata nelle ultime 36 ore.';ui.notice.classList.add('show')}
    render();
