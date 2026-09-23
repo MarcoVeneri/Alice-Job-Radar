@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T14:45:51+02:00",
+  "generatedAt": "2026-09-23T14:55:18+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -955,6 +955,431 @@
       "active": true,
       "firstSeenAt": "2026-09-23T14:45:51+02:00",
       "firstSeenRun": "manuale"
+    },
+    {
+      "id": "activa-digital-tender-specialist-4446798112",
+      "date": "2026-09-23",
+      "company": "Activa Digital",
+      "title": "Tender Specialist",
+      "location": "Roma",
+      "workMode": "Ibrido · smart working flessibile",
+      "contract": "Tempo indeterminato · full time",
+      "salary": "Non dichiarato",
+      "category": "Tender",
+      "score": 10,
+      "source": "Activa Digital / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/tender-specialist-at-activa-digital-4446798112",
+      "summary": "Gestione dell’intero ciclo di gare pubbliche e private in una tech company ICT/Digital Transformation: documentazione amministrativa, coordinamento interno, portali e-procurement e centrali di committenza.",
+      "checks": [
+        "Presenza richiesta presso la sede di Roma con smart working flessibile",
+        "Inglese considerato un plus",
+        "Esperienza gare ICT/Digital Transformation valorizzata"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:55:18+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "kpmg-contract-specialist-ufficio-gare-4468020044",
+      "date": "2026-09-23",
+      "company": "KPMG Italy",
+      "title": "Contract Specialist - Ufficio Gare",
+      "location": "Roma",
+      "workMode": "Non dichiarato",
+      "contract": "Full time",
+      "salary": "Non dichiarato",
+      "category": "Tender",
+      "score": 9.7,
+      "source": "KPMG Italy / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/contract-specialist-ufficio-gare-at-kpmg-italy-4468020044",
+      "summary": "Ruolo nel Team Tender Services di KPMG Business Services con supporto alla gestione delle gare e delle attività contrattuali interne.",
+      "checks": [
+        "Verificare requisiti di esperienza specifici",
+        "Smart working e RAL non dichiarati nell’estratto verificato"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:55:18+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "humangest-proposal-specialist-4464207062",
+      "date": "2026-09-23",
+      "company": "SGB HUMANGEST HOLDING",
+      "title": "Proposal Specialist",
+      "location": "Milano",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo indeterminato · full time · CCNL Vigilanza 3° livello",
+      "salary": "28.000–38.000 €",
+      "category": "Tender",
+      "score": 9.7,
+      "source": "SGB Humangest / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/proposal-specialist-at-sgb-humangest-holding-4464207062",
+      "summary": "Analisi documentazione di gara, redazione proposte tecnico-operative, chiarimenti, coordinamento con funzioni interne e partner e monitoraggio dei progetti.",
+      "checks": [
+        "Richiesti 3–4 anni in ruoli analoghi",
+        "Conoscenza appalti pubblici e privati",
+        "Sede Milano zona Affori"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:55:18+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "sicuritalia-bid-proposal-specialist-4460729105",
+      "date": "2026-09-23",
+      "company": "Sicuritalia S.p.A.",
+      "title": "Bid & Proposal Specialist – Progettazione Gare d'Appalto",
+      "location": "Milano",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · CCNL Vigilanza Privata e Servizi Fiduciari",
+      "salary": "28.000–38.000 €",
+      "category": "Tender",
+      "score": 9.5,
+      "source": "Sicuritalia / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/bid-proposal-specialist-%E2%80%93-progettazione-gare-d-appalto-at-sicuritalia-s-p-a-4460729105",
+      "summary": "Sviluppo di proposte tecnico-operative per gare e offerte commerciali: analisi documentazione, relazioni tecniche, richieste chiarimenti e progettazione di soluzioni organizzative e tecnologiche.",
+      "checks": [
+        "Richiesti 3–4 anni di esperienza",
+        "Laurea preferita",
+        "Modalità ibrida non dichiarata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:55:18+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "pellegrini-addetto-ufficio-gare-4462526172",
+      "date": "2026-09-23",
+      "company": "Pellegrini S.p.A.",
+      "title": "Addetto/a Ufficio Gare",
+      "location": "Milano",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Tender",
+      "score": 9.4,
+      "source": "Pellegrini / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/addetto-a-ufficio-gare-at-pellegrini-s-p-a-4462526172",
+      "summary": "Qualifica fornitori, gestione portali, scadenze documentali, certificazioni e supporto alla ricerca e analisi dei bandi di gara.",
+      "checks": [
+        "Verificare RAL e tipologia contrattuale",
+        "Modalità di lavoro non dichiarata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:55:18+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "trevi-tender-specialist-4460704090",
+      "date": "2026-09-23",
+      "company": "Trevi Group",
+      "title": "Tender Specialist",
+      "location": "Forlì",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · CCNL Edile Industria",
+      "salary": "50.000–70.000 €",
+      "category": "Tender",
+      "score": 8.2,
+      "source": "Trevi Group / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/tender-specialist-at-trevi-group-4460704090",
+      "summary": "Preparazione di gare e offerte commerciali, analisi tecniche e commerciali, coordinamento interfunzionale e aggiornamento al Tender Office Manager.",
+      "checks": [
+        "Richiesta familiarità con stima costi e strumenti dedicati",
+        "Ottimo inglese",
+        "Valutate anche candidature con esperienza inferiore"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:55:18+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "v-valley-inside-sales-microsoft-4462861734",
+      "date": "2026-09-23",
+      "company": "V-Valley / Esprinet",
+      "title": "Inside Sales Specialist - Microsoft",
+      "location": "Vimercate (MB)",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Sales Support",
+      "score": 9.8,
+      "source": "V-Valley / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/inside-sales-specialist-microsoft-at-v-valley-enhancing-your-business-4462861734",
+      "summary": "Inside Sales ICT su soluzioni Microsoft: relazione clienti, opportunità di business, offerte con business developer e vendor, follow-up e supporto pre/post vendita.",
+      "checks": [
+        "Ruolo con obiettivi di fatturato e marginalità",
+        "Verificare smart working e RAL"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:55:18+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "td-synnex-internal-sales-executive-4466672687",
+      "date": "2026-09-23",
+      "company": "TD SYNNEX Italy",
+      "title": "Internal Sales Executive",
+      "location": "San Giuliano Milanese (MI)",
+      "workMode": "Non dichiarato",
+      "contract": "Full time",
+      "salary": "Non dichiarato",
+      "category": "Sales Support",
+      "score": 9.5,
+      "source": "TD SYNNEX Italy / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/internal-sales-executive-at-td-synnex-italy-4466672687",
+      "summary": "Gestione e sviluppo di account e partner nel portafoglio IT, generazione di opportunità e supporto commerciale interno su soluzioni e prodotti tecnologici.",
+      "checks": [
+        "Componente outbound presente",
+        "Verificare modalità ibrida e RAL"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:55:18+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "exclusive-networks-senior-inside-sales-4467704351",
+      "date": "2026-09-23",
+      "company": "Exclusive Networks / Ignition Italia",
+      "title": "Senior Inside Sales Specialist",
+      "location": "Milano",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Sales Support",
+      "score": 9.6,
+      "source": "Exclusive Networks / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/senior-inside-sales-specialist-at-exclusive-networks-4467704351",
+      "summary": "Inside Sales nel cybersecurity: gestione partner, quotazioni e proposte, follow-up opportunità, supporto all’intero ciclo commerciale e coordinamento con vendor e team interni.",
+      "checks": [
+        "Richiesti diversi anni di esperienza Inside Sales/Sales Operations",
+        "Preferita esperienza IT distribution/cybersecurity",
+        "Italiano e inglese"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:55:18+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "fiven-junior-presales-sales-support-4458898216",
+      "date": "2026-09-23",
+      "company": "Fiven",
+      "title": "Junior Presales & Sales Support Specialist",
+      "location": "Milano",
+      "workMode": "Ibrido",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "25.000–32.000 €",
+      "category": "Sales Support",
+      "score": 9.2,
+      "source": "Fiven / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/junior-presales-sales-support-specialist-at-fiven-4458898216",
+      "summary": "Supporto Sales su progetti digitali e AI: opportunità clienti, meeting, raccolta esigenze, proposte commerciali, CRM, pipeline e organizzazione demo.",
+      "checks": [
+        "Richiesti 1–3 anni in commerciale/business development/presales",
+        "Buon inglese",
+        "Laurea richiesta"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:55:18+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "bibus-back-office-inside-sales-4467495055",
+      "date": "2026-09-23",
+      "company": "BIBUS ITALIA",
+      "title": "Back Office Commerciale – Inside Sales Representative",
+      "location": "San Giovanni in Persiceto (BO)",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo indeterminato · full time",
+      "salary": "25.000–30.000 €",
+      "category": "Sales Support",
+      "score": 9.3,
+      "source": "BIBUS Italia / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/back-office-commerciale-%E2%80%93-inside-sales-representative-at-bibus-italia-4467495055",
+      "summary": "Gestione richieste clienti, preparazione offerte e sviluppo opportunità commerciali in un contesto B2B tecnico, con CRM e coordinamento commerciale.",
+      "checks": [
+        "Settore automazione industriale",
+        "Verificare quota eventuale di smart working"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:55:18+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "kerry-sales-support-specialist-4460389114",
+      "date": "2026-09-23",
+      "company": "Kerry",
+      "title": "Sales Support Specialist",
+      "location": "Mozzo (BG)",
+      "workMode": "Ibrido · 3 giorni in ufficio / 2 da casa",
+      "contract": "Tempo indeterminato · full time",
+      "salary": "Non dichiarato",
+      "category": "Sales Support",
+      "score": 9,
+      "source": "Kerry / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/sales-support-specialist-at-kerry-4460389114",
+      "summary": "Sales Support per il mercato europeo: coordinamento quotidiano, supporto Key Account Manager e clienti, master data, SAP e collaborazione cross-funzionale.",
+      "checks": [
+        "Laurea richiesta",
+        "Inglese fluente",
+        "Francese o spagnolo costituiscono vantaggio"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:55:18+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "24hassistance-customer-operations-specialist-4461887995",
+      "date": "2026-09-23",
+      "company": "24hassistance",
+      "title": "Customer Operations Specialist",
+      "location": "Milano",
+      "workMode": "Ibrido",
+      "contract": "Tempo indeterminato · full time",
+      "salary": "26.000–30.000 €",
+      "category": "Operations",
+      "score": 8.7,
+      "source": "24hassistance / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/customer-operations-specialist-at-24hassistance-4461887995",
+      "summary": "Customer Operations digitale con gestione ticket, sistemi IoT, escalation strutturate, strumenti gestionali e processi ad alto volume.",
+      "checks": [
+        "Preferita esperienza customer care digitale",
+        "HubSpot e SQL sono plus"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:55:18+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "engineering-proposal-manager-healthcare-4321304064",
+      "date": "2026-09-23",
+      "company": "Engineering Group / Alfahealth",
+      "title": "Proposal Manager | Healthcare",
+      "location": "Roma / Milano / Torino / Bologna / Napoli / Padova",
+      "workMode": "Smart working",
+      "contract": "Full time · CCNL Metalmeccanico da livello B2",
+      "salary": "Da 42.000 €",
+      "category": "Tender",
+      "score": 9.4,
+      "source": "Engineering Group / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/proposal-manager-healthcare-at-engineering-group-4321304064",
+      "summary": "Gestione end-to-end di gare pubbliche e private in Sanità Digitale: bandi, documentazione tecnica, coordinamento Sales/Delivery/Legal/Finance, pricing, demo e compliance al Codice Appalti.",
+      "checks": [
+        "Richiesti 5–7 anni in tender complessi",
+        "Focus IT per sanità",
+        "Inglese minimo B2",
+        "Disponibilità a brevi trasferte"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:55:18+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "lutech-bid-manager-public-sector-4449702091",
+      "date": "2026-09-23",
+      "company": "Lutech",
+      "title": "Bid Manager | Public Sector",
+      "location": "Roma",
+      "workMode": "Ibrido",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Tender",
+      "score": 9.6,
+      "source": "Lutech Careers / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/bid-manager-public-sector-at-lutech-4449702091",
+      "summary": "Bid Management nel Public Sector presso gruppo ICT: gestione gare e offerte per clienti pubblici in un contesto digitale e AI.",
+      "checks": [
+        "Ruolo di livello professionista",
+        "Verificare RAL e requisiti di seniority"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:55:18+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "ingenium-event-coordinator-specialist-4467209845",
+      "date": "2026-09-23",
+      "company": "Ingenium: Made in Italy Innovation Platform",
+      "title": "Event Coordinator Specialist",
+      "location": "Italia",
+      "workMode": "Full remote",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Eventi",
+      "score": 9.3,
+      "source": "Ingenium / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/event-coordinator-specialist-at-ingenium-made-in-italy-innovation-platform-4467209845",
+      "summary": "Coordinamento end-to-end di eventi e iniziative internazionali in fashion, luxury, tecnologia e innovazione, lavorando con partner, speaker, clienti e venue.",
+      "checks": [
+        "Ruolo operativo e hands-on",
+        "Possibili trasferte/eventi internazionali",
+        "RAL non dichiarata"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:55:18+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "arsenale-special-projects-events-coordinator-4468385873",
+      "date": "2026-09-23",
+      "company": "Arsenale Group",
+      "title": "Special Projects & Events Coordinator",
+      "location": "Roma",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Eventi",
+      "score": 8.8,
+      "source": "Arsenale Group / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/special-projects-events-coordinator-at-arsenale-group-4468385873",
+      "summary": "Coordinamento di progetti speciali ed eventi in un gruppo hospitality/luxury con partnership internazionali.",
+      "checks": [
+        "Contesto luxury/hospitality",
+        "Modalità di lavoro e RAL non dichiarate"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:55:18+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "epackpro-sdr-4467745626",
+      "date": "2026-09-23",
+      "company": "ePackPro",
+      "title": "Sales Development Representative",
+      "location": "Milano",
+      "workMode": "Remote policy prevista · frequenza non specificata",
+      "contract": "Tempo indeterminato · full time",
+      "salary": "27.000 € + commissioni uncapped",
+      "category": "Sales Support",
+      "score": 8.7,
+      "source": "ePackPro / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/sales-development-representative-at-epackpro-4467745626",
+      "summary": "SDR SaaS con gestione lead inbound, qualificazione prospect, appuntamenti per il team Sales, Salesforce e attività outbound.",
+      "checks": [
+        "Ruolo con componente outbound e obiettivi commerciali",
+        "Commissioni variabili",
+        "Sede Milano"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:55:18+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
@@ -1049,26 +1474,45 @@
         "newJobs": 2,
         "activeJobs": 34,
         "note": "Run delle 08:00 rieseguito integralmente il 23/09/2026 come scansione profonda indipendente: oltre 200 query/controlli, secondo giro obbligatorio sulle fonti non verificate e terzo passaggio selettivo. Nessun dato di copertura del run delle 15:00 è stato usato."
+      },
+      "15:00": {
+        "scheduledFor": "2026-09-23T15:00:00+02:00",
+        "completedAt": "2026-09-23T14:55:18+02:00",
+        "status": "partial",
+        "requiredSourcesTotal": 35,
+        "requiredSourcesChecked": 1,
+        "sourcesChecked": [
+          "LinkedIn Jobs"
+        ],
+        "sourcesUnavailable": [
+          {
+            "name": "Altre 34 fonti obbligatorie",
+            "reason": "Run delle 15:00 anticipato manualmente prima delle 15:00 su richiesta: ricerca nazionale profonda completata su LinkedIn Jobs e career page selezionate; non è stata attribuita una verifica completa alle altre fonti senza controllo diretto affidabile."
+          }
+        ],
+        "extraSourcesChecked": [
+          "Lutech Careers",
+          "career page/annunci aziendali emersi dalla ricerca nazionale",
+          "controlli incrociati su annunci specifici"
+        ],
+        "queriesRun": 114,
+        "newJobs": 18,
+        "activeJobs": 59,
+        "note": "Run delle 15:00 anticipato manualmente su richiesta. Ambito geografico: tutta Italia. Famiglie ricercate: Tender/Bid/Proposal/Ufficio Gare, Sales Support/Commercial Operations/Sales Operations/Order Management/Customer Operations, Digital/Inside Sales/SDR/BDR e Eventi. Da domani restano attivi gli orari esatti 08:00 e 15:00."
       }
     }
   },
   "manualRefresh": {
-    "completedAt": "2026-09-23T14:45:51+02:00",
-    "label": "Espansione nazionale Digital / Inside Sales ICT",
-    "newJobs": 7,
-    "activeJobs": 41,
-    "note": "Ricerca manuale aggiuntiva su tutta Italia per ruoli Digital Seller, Inside Sales, Inbound Sales, Sales Operations, Lead Management, Sales Development e ruoli ICT/SaaS affini. Aggiunte anche opportunità fuori Toscana per non perdere posizioni coerenti con il profilo.",
+    "completedAt": "2026-09-23T14:55:18+02:00",
+    "label": "Scansione 15:00 anticipata — tutta Italia",
+    "newJobs": 18,
+    "activeJobs": 59,
+    "note": "Scansione nazionale anticipata; domani riprende la schedulazione ordinaria alle 08:00 e alle 15:00.",
     "sourcesReviewed": [
       "LinkedIn Jobs",
-      "Indeed",
+      "Lutech Careers",
       "career page aziendali",
-      "Avanade",
-      "Qboxmail",
-      "TeamSystem",
-      "Lenovo",
-      "Siemens",
-      "Syneto",
-      "Adecco Digital & Technologies"
+      "ricerche nazionali per tutte le famiglie di ruolo"
     ]
   }
 }
