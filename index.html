@@ -416,7 +416,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.20",sync:{enabled:false}};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.22",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -458,7 +458,7 @@ function syncToken(){try{return localStorage.getItem(syncTokenKey)||""}catch(e){
 function syncEnabled(){return !!(syncCfg.enabled&&syncCfg.url&&syncCfg.publishableKey&&syncToken())}
 function syncTable(){return String(syncCfg.table||"job_state").replace(/[^a-zA-Z0-9_]/g,"")}
 function syncHeaders(prefer){
- const h={"apikey":syncCfg.publishableKey,"Content-Type":"application/json","x-workspace-key":syncToken()};
+ const h={"apikey":syncCfg.publishableKey,"Content-Type":"application/json","x-client-info":"alice-job-radar/"+syncToken()};
  if(prefer)h["Prefer"]=prefer;
  return h;
 }
@@ -523,6 +523,7 @@ async function bootstrapIfMaster(rows){
  if(ready)return true;
  if(sessionStorage.getItem("alice-job-radar-master-import")!=="1")return false;
  const local=localRowsForBootstrap();
+ if(!local.length)return false;
  local.push({job_id:syncSentinel,status:"Nuova",saved:false,applied:false,dismissed:false,dismissed_at:null,company:"",title:"",url:"",updated_at:new Date().toISOString()});
  await upsertRows(local);
  sessionStorage.removeItem("alice-job-radar-master-import");
