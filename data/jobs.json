@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T08:05:23+02:00",
+  "generatedAt": "2026-09-23T08:15:39+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -794,24 +794,29 @@
     "runs": {
       "08:00": {
         "scheduledFor": "2026-09-23T08:00:00+02:00",
-        "completedAt": "2026-09-23T08:05:23+02:00",
+        "completedAt": "2026-09-23T08:15:39+02:00",
         "status": "partial",
         "requiredSourcesTotal": 35,
-        "requiredSourcesChecked": 19,
+        "requiredSourcesChecked": 24,
         "sourcesChecked": [
           "LinkedIn Jobs",
           "Indeed",
           "Randstad",
           "Adecco",
+          "Manpower",
           "Gi Group/Grafton",
           "Michael Page",
           "Openjobmetis",
           "Synergie",
+          "Orienta",
           "Lavoropiù",
           "Jobrapido",
           "Jooble",
+          "Glassdoor Jobs",
           "Trovolavoro",
+          "Bakeca Lavoro",
           "Helplavoro",
+          "Experis",
           "Umana",
           "Etjca",
           "MAW",
@@ -822,78 +827,60 @@
         "sourcesUnavailable": [
           {
             "name": "InfoJobs",
-            "reason": "Il servizio italiano risulta chiuso; ricerca diretta e due fallback site:infojobs.it (gare/tender e back office/eventi) senza catalogo corrente."
+            "reason": "Scansione profonda indipendente: tentate più query dirette/domain-restricted e fallback su tender, back office/sales support ed eventi in Firenze/Toscana; non è emerso un catalogo italiano corrente e verificabile."
           },
           {
             "name": "Monster",
-            "reason": "Ricerca diretta in errore; due fallback site:monster.it non hanno restituito annunci locali correnti verificabili."
-          },
-          {
-            "name": "Manpower",
-            "reason": "Catalogo diretto inaccessibile; due fallback site:manpower.it senza schede originali correnti pertinenti."
+            "reason": "Scansione profonda indipendente: tentate più query dirette/domain-restricted e fallback su tre famiglie di ruoli; non sono emerse pagine lavoro italiane correnti e verificabili per l'area."
           },
           {
             "name": "Hays",
-            "reason": "Ricerca diretta inaccessibile; i due fallback site:hays.it hanno restituito soltanto pagine generiche, non offerte correnti pertinenti."
+            "reason": "Scansione profonda indipendente: ricerca diretta non accessibile e più fallback su Firenze/Toscana per tender, sales support/operations ed eventi senza pagine lavoro correnti verificabili."
           },
           {
             "name": "Page Personnel",
-            "reason": "La pagina reindirizza al catalogo Michael Page; due fallback site:pagepersonnel.it non verificano un catalogo autonomo attuale."
-          },
-          {
-            "name": "Orienta",
-            "reason": "La ricerca nativa segnala un errore tecnico; i due fallback hanno mostrato schede non pertinenti e non verificano il catalogo locale corrente."
+            "reason": "Scansione profonda indipendente: le ricerche hanno restituito materiale storico, non un catalogo autonomo corrente; il brand confluisce operativamente nel perimetro Michael Page."
           },
           {
             "name": "Talent.com",
-            "reason": "Ricerca diretta in errore; due fallback site:talent.com senza annunci locali correnti verificabili."
-          },
-          {
-            "name": "Glassdoor Jobs",
-            "reason": "Ricerca locale bloccata; due fallback site:glassdoor.it senza pagine lavoro correnti accessibili."
+            "reason": "Homepage e motore generale risultano attivi, ma dopo più query localizzate e secondo passaggio non sono state ottenute pagine risultati correnti sufficientemente verificabili per Firenze/Toscana."
           },
           {
             "name": "Careerjet",
-            "reason": "Pagina locale priva di elenco leggibile; due fallback site:careerjet.it senza schede correnti verificabili."
-          },
-          {
-            "name": "Bakeca Lavoro",
-            "reason": "Pagina locale inaccessibile; due fallback site:bakeca.it senza annunci specifici attuali verificabili."
-          },
-          {
-            "name": "Experis",
-            "reason": "Catalogo diretto in errore; due fallback site:experis.it senza schede locali correnti verificabili."
+            "reason": "La pagina Firenze è raggiungibile ma presenta verifica anti-bot; i fallback multipli non hanno consentito di leggere in modo affidabile il catalogo corrente locale."
           },
           {
             "name": "Ali Lavoro",
-            "reason": "Catalogo diretto inaccessibile; due fallback site:alilavoro.it senza annunci originali correnti pertinenti."
+            "reason": "Portale diretto non accessibile dallo scanner e fallback multipli su Firenze/Toscana non hanno restituito schede correnti sufficientemente verificabili."
           },
           {
             "name": "During",
-            "reason": "Catalogo diretto inaccessibile; due fallback site:during.it senza inserzioni correnti pertinenti."
+            "reason": "Portale diretto non accessibile dallo scanner e fallback multipli su Firenze/Toscana non hanno restituito un catalogo locale corrente verificabile."
           },
           {
             "name": "Humangest",
-            "reason": "Ricerca diretta inaccessibile; due fallback site:humangest.it senza inserzioni correnti verificabili."
+            "reason": "Portale diretto non accessibile dallo scanner e fallback multipli su Firenze/Toscana non hanno restituito un catalogo locale corrente verificabile."
           },
           {
             "name": "ADHR Group",
-            "reason": "La pagina diretta non espone risultati leggibili; due fallback site:adhr.it senza schede individuali correnti verificabili."
+            "reason": "Il portale offerte è attivo ma richiede JavaScript per esporre i risultati; dopo più query e fallback non sono state ottenute schede locali correnti sufficientemente verificabili."
           },
           {
             "name": "Staff S.p.A.",
-            "reason": "Ricerca diretta inaccessibile; due fallback site:staff.it senza offerte originali correnti verificabili."
+            "reason": "Sono emerse pagine lavoro correnti del portale, ma i tentativi localizzati e i fallback non hanno consentito di verificare in modo affidabile il catalogo Firenze/Toscana del run corrente."
           }
         ],
         "extraSourcesChecked": [
-          "ABB E-mobility Careers",
-          "Annunci ABB E-mobility su LinkedIn Jobs",
-          "EV.Careers e InMatch per controllo incrociato",
-          "Ricerca LinkedIn distinta: Back Office, Tender, Sales Operations, Event Coordinator"
+          "ABB E-mobility Careers / annunci ABB E-mobility su LinkedIn Jobs",
+          "The Social Hub career page su Greenhouse",
+          "PortaleGiovani Firenze per controllo incrociato di offerte Orienta",
+          "Ricerche LinkedIn distinte: Tender/Bid, Back Office/Sales Support, Event Coordinator",
+          "Controlli incrociati su pagine annuncio e aggregatori per validare annunci già presenti"
         ],
-        "queriesRun": 82,
+        "queriesRun": 213,
         "newJobs": 2,
-        "activeJobs": 34
+        "activeJobs": 34,
+        "note": "Run delle 08:00 rieseguito integralmente il 23/09/2026 come scansione profonda indipendente: oltre 200 query/controlli, secondo giro obbligatorio sulle fonti non verificate e terzo passaggio selettivo. Nessun dato di copertura del run delle 15:00 è stato usato."
       }
     }
   },
