@@ -466,7 +466,7 @@ function latestRun(){
  return runs[0]||null;
 }
 function isNew(j){
- if(!j.firstSeenAt||!j.firstSeenRun)return false;
+ if(!j.firstSeenAt)return false;
  return String(j.firstSeenAt).slice(0,10)===romeDateKey();
 }
 function counts(){
@@ -496,7 +496,13 @@ function initials(name){
 }
 function render(){
  counts();
- const arr=DATA.filter(match).sort((a,b)=>b.score-a.score || b.date.localeCompare(a.date));
+ const arr=DATA.filter(match).sort((a,b)=>{
+  if(statFilter==="Nuove"){
+   const ta=Date.parse(a.firstSeenAt||"")||0, tb=Date.parse(b.firstSeenAt||"")||0;
+   return tb-ta || b.score-a.score || String(b.date||"").localeCompare(String(a.date||""));
+  }
+  return b.score-a.score || String(b.date||"").localeCompare(String(a.date||""));
+ });
  if(!arr.length){ui.jobs.innerHTML='<div class="empty">Nessuna offerta con questi filtri.</div>';return}
  ui.jobs.innerHTML=arr.map(j=>{
   const st=getStatus(j.id);
