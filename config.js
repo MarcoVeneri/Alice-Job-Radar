@@ -1,10 +1,10 @@
 window.ALICE_RADAR_CONFIG={
   dataUrl:"./data/jobs.json",
-  appVersion:"6.20",
+  appVersion:"6.21",
   sync:{
     enabled:false,
     url:"",
-    anonKey:"",
+    publishableKey:"",
     table:"job_state"
   }
 };
