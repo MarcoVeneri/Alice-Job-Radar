@@ -1,15 +1,25 @@
 # Alice Job Radar
 
-PWA collegata alla ricerca automatica delle 08:00.
+PWA collegata alla ricerca automatica delle 08:00 e delle 15:00.
 
-La ricerca quotidiana aggiorna `data/jobs.json` nel repository. La PWA legge quel file senza cache, quindi le nuove offerte compaiono automaticamente. Ogni scheda contiene il link originale dell'annuncio; il pulsante **Apri annuncio** apre direttamente la pagina del portale/azienda.
+La ricerca aggiorna `data/jobs.json`; la PWA continua a funzionare normalmente anche prima dell'attivazione del database condiviso.
 
-Gli stati personali (`Nuova`, `Interessante`, `Candidata`, `Colloquio`, `Scartata`) restano salvati sul dispositivo tramite localStorage e non vengono sovrascritti dall'aggiornamento dei dati.
+## Sincronizzazione condivisa
 
-Per pubblicare:
-1. GitHub → Settings → Pages
-2. Source: Deploy from a branch
-3. Branch: `main`, folder `/ (root)`
-4. Save
+La versione 6.21 è predisposta per sincronizzare tra tutti i dispositivi:
+- stato dell'offerta
+- Salvata
+- Candidata
+- Eliminata
 
-URL atteso: `https://marcoveneri.github.io/Alice-Job-Radar/`
+La sincronizzazione resta disattivata finché il database non è configurato.
+
+### Migrazione senza perdita dati
+
+Il database può essere inizializzato soltanto da un link master. Quel link va aperto per la prima volta sul telefono di Alice. Prima di leggere il database, la PWA carica gli stati locali già presenti sul suo telefono e crea il riferimento di inizializzazione. Solo dopo gli altri dispositivi iniziano a leggere lo stato condiviso.
+
+Quindi un altro iPhone, iPad o computer non può inizializzare accidentalmente il database vuoto e cancellare le selezioni locali di Alice.
+
+Il `localStorage` resta anche come copia locale/fallback.
+
+URL PWA: `https://marcoveneri.github.io/Alice-Job-Radar/`
