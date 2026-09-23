@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T08:15:39+02:00",
+  "generatedAt": "2026-09-23T14:45:51+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -787,6 +787,174 @@
       "active": true,
       "firstSeenAt": "2026-09-23T08:05:23+02:00",
       "firstSeenRun": "08:00"
+    },
+    {
+      "id": "avanade-digital-seller-inside-sales-ict-4432574395",
+      "date": "2026-09-23",
+      "company": "Avanade",
+      "title": "Digital Seller / Inside Sales ICT",
+      "location": "Milano",
+      "workMode": "Flessibile / smart working · frequenza non dichiarata",
+      "contract": "Full time · CCNL Terziario (livello indicato 3/2 nell'annuncio aggregato)",
+      "salary": "32.000–44.000 €",
+      "category": "Sales Support",
+      "score": 9.6,
+      "source": "Avanade / LinkedIn Jobs / Indeed",
+      "url": "https://it.linkedin.com/jobs/view/digital-seller-inside-sales-ict-at-avanade-4432574395",
+      "summary": "Ruolo tra Sales e Marketing: gestione e qualificazione lead da eventi, campagne e webinar, nurturing, CRM, pipeline, KPI e conversione delle opportunità commerciali in ambito ICT.",
+      "checks": [
+        "Richiesti 3–5 anni in Digital Seller/BDR/Inside Sales/Lead Management/Demand Generation",
+        "Ottimo inglese",
+        "Sede Milano; verificare frequenza effettiva di presenza"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:45:51+02:00",
+      "firstSeenRun": "manuale"
+    },
+    {
+      "id": "qboxmail-sales-specialist-prato-20260923",
+      "date": "2026-09-23",
+      "company": "Qboxmail",
+      "title": "Sales Specialist",
+      "location": "Prato",
+      "workMode": "Ibrido · 2 giorni a settimana da casa dopo periodo iniziale",
+      "contract": "CCNL Commercio · full time",
+      "salary": "28.000–35.000 €",
+      "category": "Sales Support",
+      "score": 9.7,
+      "source": "Qboxmail Careers / Indeed",
+      "url": "https://www.qboxmail.it/lavora-con-noi/",
+      "summary": "Gestione lead inbound, analisi esigenze, demo online, offerte commerciali, CRM, KPI, upselling/cross-selling e collaborazione con Marketing in azienda SaaS/IT.",
+      "checks": [
+        "Almeno 2 anni in ruoli commerciali B2B",
+        "Ottimo inglese",
+        "Richiesta esperienza in demo e trattative"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:45:51+02:00",
+      "firstSeenRun": "manuale"
+    },
+    {
+      "id": "teamsystem-digital-sales-micro-solutions-4463520854",
+      "date": "2026-09-23",
+      "company": "TeamSystem",
+      "title": "Digital Sales - Micro Solutions",
+      "location": "Milano",
+      "workMode": "Ibrido · autonomia sulla presenza",
+      "contract": "Full time · tipologia contrattuale non dichiarata",
+      "salary": "34.000–40.000 € complessivi, inclusa componente variabile",
+      "category": "Sales Support",
+      "score": 9.1,
+      "source": "TeamSystem / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/digital-sales-micro-solutions-at-teamsystem-4463520854",
+      "summary": "Digital Sales inbound su soluzioni software: presa in carico e qualificazione lead, discovery, demo, CRM HubSpot, pipeline, forecast, upselling/cross-selling e collaborazione con Marketing.",
+      "checks": [
+        "Richiesti almeno 3 anni in inside/inbound sales o telemarketing B2B",
+        "Buon inglese",
+        "Ruolo con obiettivi commerciali e KPI"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:45:51+02:00",
+      "firstSeenRun": "manuale"
+    },
+    {
+      "id": "lenovo-sales-ops-specialist-mbg-4463858289",
+      "date": "2026-09-23",
+      "company": "Lenovo / Motorola Mobility",
+      "title": "Sales Ops Specialist, MBG Italy",
+      "location": "Segrate (MI)",
+      "workMode": "Ibrido",
+      "contract": "Tempo indeterminato · full time",
+      "salary": "32.100–42.800 €",
+      "category": "Sales Support",
+      "score": 9.8,
+      "source": "Lenovo / LinkedIn Jobs / Indeed",
+      "url": "https://it.linkedin.com/jobs/view/sales-ops-specialist-mbg-italy-at-lenovo-4463858289",
+      "summary": "Sales Operations con order management, qualità dati, reportistica, supporto a Sales/Marketing/Finance/Operations, gestione distributori e clienti, processi promozionali e miglioramento operativo.",
+      "checks": [
+        "Laurea richiesta in area economica/business/data o correlata",
+        "Inglese avanzato",
+        "Excel forte; Power BI/Copilot costituiscono valore"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:45:51+02:00",
+      "firstSeenRun": "manuale"
+    },
+    {
+      "id": "siemens-inside-sales-digital-industries-4416197483",
+      "date": "2026-09-23",
+      "company": "Siemens",
+      "title": "Inside Sales Specialist - Digital Industries",
+      "location": "Milano",
+      "workMode": "Ibrido / remoto abilitato",
+      "contract": "Tempo indeterminato · full time",
+      "salary": "Non dichiarato",
+      "category": "Sales Support",
+      "score": 8.9,
+      "source": "Siemens / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/inside-sales-specialist-digital-industries-at-siemens-4416197483",
+      "summary": "Vendita digitale B2B e gestione clienti tramite canali digitali, sviluppo opportunità, proposte con back office e product expert, relazione con partner e supporto alla crescita commerciale.",
+      "checks": [
+        "Richiesto inglese",
+        "Componente di sviluppo nuovi clienti",
+        "Contesto Digital Industries/automazione da approfondire"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:45:51+02:00",
+      "firstSeenRun": "manuale"
+    },
+    {
+      "id": "syneto-inside-sales-specialist-4460466586",
+      "date": "2026-09-23",
+      "company": "Syneto",
+      "title": "Inside Sales Specialist",
+      "location": "Lombardia, Italia",
+      "workMode": "Flessibilità operativa · modalità precisa non dichiarata",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Sales Support",
+      "score": 8.8,
+      "source": "Syneto / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/inside-sales-specialist-at-syneto-4460466586",
+      "summary": "Lead generation e qualificazione prospect B2B IT, CRM, pipeline, collaborazione con Sales, monitoraggio risultati e miglioramento continuo in ambito infrastrutture IT e cybersecurity.",
+      "checks": [
+        "Lead generation o ruoli simili sono un plus",
+        "CRM/HubSpot/Salesforce",
+        "Verificare presenza richiesta e sede effettiva"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:45:51+02:00",
+      "firstSeenRun": "manuale"
+    },
+    {
+      "id": "adecco-inside-sales-it-4465976968",
+      "date": "2026-09-23",
+      "company": "Adecco (per multinazionale IT)",
+      "title": "Inside Sales IT",
+      "location": "Milano",
+      "workMode": "Non dichiarato",
+      "contract": "Non dichiarato",
+      "salary": "Non dichiarato",
+      "category": "Sales Support",
+      "score": 8.7,
+      "source": "Adecco Digital & Technologies / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/inside-sales-it-at-adecco-4465976968",
+      "summary": "Gestione partner e account, sviluppo opportunità da Sales e Marketing, collaborazione con il team commerciale e uso di social selling in una multinazionale informatica.",
+      "checks": [
+        "Offerta aperta anche a neolaureati",
+        "Verificare RAL e tipologia contrattuale",
+        "Presenza/smart working non dichiarati"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-23T14:45:51+02:00",
+      "firstSeenRun": "manuale"
     }
   ],
   "audit": {
@@ -885,31 +1053,22 @@
     }
   },
   "manualRefresh": {
-    "completedAt": "2026-09-20T23:30:08+02:00",
-    "label": "Mega ricerca manuale",
-    "newJobs": 11,
-    "activeJobs": 16,
-    "note": "Aggiornamento manuale straordinario; il controllo schedulato a 35 fonti riparte alle 08:00.",
+    "completedAt": "2026-09-23T14:45:51+02:00",
+    "label": "Espansione nazionale Digital / Inside Sales ICT",
+    "newJobs": 7,
+    "activeJobs": 41,
+    "note": "Ricerca manuale aggiuntiva su tutta Italia per ruoli Digital Seller, Inside Sales, Inbound Sales, Sales Operations, Lead Management, Sales Development e ruoli ICT/SaaS affini. Aggiunte anche opportunità fuori Toscana per non perdere posizioni coerenti con il profilo.",
     "sourcesReviewed": [
       "LinkedIn Jobs",
       "Indeed",
-      "Randstad",
-      "Adecco",
-      "Manpower",
-      "Gi Group/Grafton",
-      "Openjobmetis",
-      "Synergie",
-      "Etjca",
-      "Lavoropiù",
-      "MAW",
-      "Jooble",
-      "Bakeca",
-      "HelpLavoro",
-      "Marriott Careers",
-      "career page/ATS aziendali",
-      "Workday",
-      "SmartRecruiters",
-      "Lever"
+      "career page aziendali",
+      "Avanade",
+      "Qboxmail",
+      "TeamSystem",
+      "Lenovo",
+      "Siemens",
+      "Syneto",
+      "Adecco Digital & Technologies"
     ]
   }
 }
