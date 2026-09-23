@@ -416,7 +416,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.22",sync:{enabled:false}};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.23",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -427,6 +427,7 @@ const dismissedKey="alice-job-radar-dismissed-v1";
 const appliedKey="alice-job-radar-applied-v1";
 const syncTokenKey="alice-job-radar-sync-token-v1";
 const syncPendingKey="alice-job-radar-sync-pending-v1";
+const syncMasterKey="alice-job-radar-master-import-v1";
 const syncCfg=CFG.sync||{};
 const syncSentinel="__ALICE_RADAR_SYNC_READY__";
 
@@ -448,7 +449,7 @@ function captureSyncLink(){
   const p=new URLSearchParams(location.hash.replace(/^#/,""));
   const token=p.get("sync");
   if(token&&token.length>=24)localStorage.setItem(syncTokenKey,token);
-  if(p.get("master")==="1")sessionStorage.setItem("alice-job-radar-master-import","1");
+  if(p.get("master")==="1")localStorage.setItem(syncMasterKey,"1");
   if(token||p.has("master"))history.replaceState(null,"",location.pathname+location.search);
  }catch(e){}
 }
@@ -521,12 +522,12 @@ function replaceLocalFromRemote(rows){
 async function bootstrapIfMaster(rows){
  const ready=(rows||[]).some(r=>String(r.job_id)===syncSentinel);
  if(ready)return true;
- if(sessionStorage.getItem("alice-job-radar-master-import")!=="1")return false;
+ if(localStorage.getItem(syncMasterKey)!=="1")return false;
  const local=localRowsForBootstrap();
- if(!local.length)return false;
+ if(!local.length){localStorage.removeItem(syncMasterKey);return false;}
  local.push({job_id:syncSentinel,status:"Nuova",saved:false,applied:false,dismissed:false,dismissed_at:null,company:"",title:"",url:"",updated_at:new Date().toISOString()});
  await upsertRows(local);
- sessionStorage.removeItem("alice-job-radar-master-import");
+ localStorage.removeItem(syncMasterKey);
  return true;
 }
 async function pushJob(id){
@@ -570,6 +571,35 @@ function toggleApplied(id){
  render();pushJob(id);
 }
 function toggleSaved(id){const v=savedState();if(v[id])delete v[id];else v[id]=true;saveSavedState(v);render();pushJob(id)}
+function showSyncSetup(){
+ if(!syncCfg.enabled||syncToken()||document.getElementById("syncSetupBtn"))return;
+ const b=document.createElement("button");
+ b.id="syncSetupBtn";
+ b.type="button";
+ b.textContent="Attiva sync";
+ b.setAttribute("aria-label","Attiva sincronizzazione condivisa");
+ Object.assign(b.style,{
+  position:"fixed",right:"14px",bottom:"calc(82px + env(safe-area-inset-bottom))",zIndex:"9999",
+  border:"1px solid rgba(111,174,134,.35)",borderRadius:"999px",padding:"10px 14px",
+  background:"var(--panel-strong)",color:"var(--ink)",font:"800 12px system-ui,-apple-system,sans-serif",
+  boxShadow:"0 10px 28px rgba(0,0,0,.12)",cursor:"pointer"
+ });
+ b.addEventListener("click",()=>{
+  const raw=prompt("Incolla il codice di sincronizzazione Job Radar:");
+  const code=String(raw||"").trim();
+  if(!code)return;
+  if(code.length<24){alert("Codice non valido.");return}
+  localStorage.setItem(syncTokenKey,code);
+  const n=localRowsForBootstrap().length;
+  if(n>0){
+   const ok=confirm("Ho trovato "+n+" stati locali su questo dispositivo. Vuoi usarli come base del database condiviso?\n\nSul telefono di Alice scegli OK.");
+   if(ok)localStorage.setItem(syncMasterKey,"1");
+  }
+  location.reload();
+ });
+ document.body.appendChild(b);
+}
+
 function setNavActive(which){ui.navHome.classList.toggle("active",which==="home");ui.navSearch.classList.toggle("active",which==="search");ui.navSaved.classList.toggle("active",which==="saved")}
 function resetTopFilters(){filter="Tutte";statFilter="";document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("active",x.dataset.filter==="Tutte"));document.querySelectorAll(".stat").forEach(x=>x.classList.remove("active"))}
 function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
@@ -779,6 +809,7 @@ document.addEventListener("visibilitychange",()=>{
 });
 
 positionEncourage();
+showSyncSetup();
 Promise.resolve(load()).then(positionEncourage);
 setInterval(watchDayChange,15000);
 setInterval(()=>{if(document.visibilityState==="visible")load()},5*60*1000);
