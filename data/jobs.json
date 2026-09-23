@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T14:55:18+02:00",
+  "generatedAt": "2026-09-23T15:13:24+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -1380,6 +1380,268 @@
       "active": true,
       "firstSeenAt": "2026-09-23T14:55:18+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "abbott-bids-tenders-specialist-4470926078",
+      "date": "2026-09-23",
+      "company": "Abbott",
+      "title": "Bids & Tenders Specialist",
+      "location": "Milano",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Tender",
+      "score": 10,
+      "source": "Abbott / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/bids-tenders-specialist-at-abbott-4470926078",
+      "summary": "Gestione di gare pubbliche, offerte commerciali, documentazione e conformità; coordinamento con Sales e Customer Service, prezzi, contratti e archiviazione.",
+      "checks": [
+        "Richiesti almeno 2 anni in tender management, amministrazione commerciale o customer support",
+        "RAL e modalità di lavoro non dichiarate"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-23T15:13:24+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "lhh-ufficio-gare-energy-global-services-4469989559",
+      "date": "2026-09-23",
+      "company": "LHH (azienda cliente Energy & Global Services)",
+      "title": "Ufficio Gare - Energy & Global Services",
+      "location": "Milano",
+      "workMode": "Ibrido · 2 giorni di smart working a settimana",
+      "contract": "Non dichiarato",
+      "salary": "40.000–55.000 €",
+      "category": "Tender",
+      "score": 9.2,
+      "source": "LHH / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/ufficio-gare-energy-global-services-at-lhh-4469989559",
+      "summary": "Analisi di capitolati e offerte tecniche per gare di facility management, global service ed energia, con coordinamento della progettazione e degli incontri tecnici.",
+      "checks": [
+        "Retribuzione e smart working molto interessanti",
+        "Esperienza specifica in proposal engineering/facility management da valutare",
+        "Tipologia contrattuale non dichiarata"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-23T15:13:24+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "accenture-bid-management-specialist-4436860668",
+      "date": "2026-09-23",
+      "company": "Accenture Italia",
+      "title": "Bid Management Specialist",
+      "location": "Rovigo",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · CCNL Telecomunicazioni C3; durata non dichiarata",
+      "salary": "32.000–50.500 €",
+      "category": "Tender",
+      "score": 9.6,
+      "source": "Accenture Italia / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/bid-management-specialist-at-accenture-italia-4436860668",
+      "summary": "Gestione end-to-end di gare pubbliche: analisi bandi, requisiti, documentazione amministrativa, prequalifica, scadenze, stakeholder e RTI/consorzi.",
+      "checks": [
+        "Ottima aderenza all'esperienza gare e documentazione",
+        "RAL dichiarata; modalità di lavoro non dichiarata",
+        "Contesto appalti pubblici per servizi di ingegneria"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-23T15:13:24+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "eagleprojects-bid-specialist-4468991456",
+      "date": "2026-09-23",
+      "company": "Eagleprojects S.p.A.",
+      "title": "Bid Specialist – Area Amministrativa",
+      "location": "Perugia",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Tender",
+      "score": 9.8,
+      "source": "Eagleprojects / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/bid-specialist-at-eagleprojects-s-p-a-4468991456",
+      "summary": "Presidio amministrativo completo di gare pubbliche e private: portali, bandi, requisiti, DGUE, FVOE/AVCPass, RTI/ATI, qualifiche aziendali e scadenze.",
+      "checks": [
+        "Aderenza quasi perfetta al profilo di Alice",
+        "RAL e modalità di lavoro non dichiarate"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-23T15:13:24+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "cisalpina-bid-specialist-tender-support-4468593494",
+      "date": "2026-09-23",
+      "company": "CISALPINA TOURS SPA",
+      "title": "Bid Specialist & Tender Support",
+      "location": "Milano",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo indeterminato · full time",
+      "salary": "30.000–35.000 €",
+      "category": "Tender",
+      "score": 9.7,
+      "source": "CISALPINA TOURS / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/bid-specialist-tender-support-at-cisalpina-tours-spa-4468593494",
+      "summary": "Gare, portali e qualifiche fornitori, repository documentali, CRM, report e miglioramento dei processi commerciali in contesto B2B/business travel.",
+      "checks": [
+        "Richiesti 2–3 anni di esperienza pertinente",
+        "Inglese minimo C1 richiesto, superiore al B2 dichiarato da Alice",
+        "Modalità di lavoro non dichiarata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-23T15:13:24+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "seaman-paper-sales-support-representative-4470465003",
+      "date": "2026-09-23",
+      "company": "Seaman Paper",
+      "title": "Sales Support Representative",
+      "location": "Correggio (RE)",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Sales Support",
+      "score": 9.1,
+      "source": "Seaman Paper / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/sales-support-representative-at-seaman-paper-4470465003",
+      "summary": "Supporto a Sales Manager e clienti internazionali su preventivi, ordini, campioni, disponibilità, consegne e lead inbound, con coordinamento tra Sales, Customer Service e Operations.",
+      "checks": [
+        "Molto coerente con sales support e order management",
+        "Richiesta capacità di comunicare in più lingue da verificare",
+        "RAL e modalità di lavoro non dichiarate"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-23T15:13:24+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "kubota-commercial-back-office-4464500479",
+      "date": "2026-09-23",
+      "company": "Kubota Holdings Europe",
+      "title": "Commercial Back Office Specialist",
+      "location": "Milano",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Sales Support",
+      "score": 9.6,
+      "source": "Kubota / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/commercial-back-office-at-kubota-holdings-europe-4464500479",
+      "summary": "Back office commerciale e supporto alla rete: ordini, prezzi, sconti, consegne, documenti, fatture, inventario, statistiche vendite e supporto all'organizzazione eventi.",
+      "checks": [
+        "Profilo richiesto direttamente affine all'esperienza di Alice",
+        "Inglese professionale richiesto",
+        "RAL e modalità di lavoro non dichiarate"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-23T15:13:24+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "lely-crm-sales-support-junior-4375417195",
+      "date": "2026-09-23",
+      "company": "Lely Italia",
+      "title": "CRM Specialist & Supporto commerciale Junior",
+      "location": "Piacenza / Emilia-Romagna",
+      "workMode": "Ibrido · frequenza non dichiarata",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Sales Support",
+      "score": 8.2,
+      "source": "Lely Italia / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/crm-specialist-supporto-commerciale-junior-at-lely-italia-4375417195",
+      "summary": "Qualità dati Salesforce, gestione strutturata dei lead, reportistica e supporto Sales & Marketing, con attività di lead generation e contatto telefonico.",
+      "checks": [
+        "Ruolo junior rispetto alla seniority di Alice",
+        "Include cold calling, ma il nucleo è CRM, dati e sales support",
+        "RAL non dichiarata"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-23T15:13:24+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "solventum-emea-marketing-event-coordinator-4470447418",
+      "date": "2026-09-23",
+      "company": "Solventum",
+      "title": "EMEA Marketing Assistant and Event Coordinator - HIS",
+      "location": "Italia",
+      "workMode": "Full remote",
+      "contract": "Full time · CCNL Chimico-Farmaceutico B2; durata non dichiarata",
+      "salary": "36.000–49.500 € target cash annuo incluso variabile",
+      "category": "Eventi",
+      "score": 9.4,
+      "source": "Solventum / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/emea-marketing-assistant-and-event-coordinator-his-at-solventum-4470447418",
+      "summary": "Coordinamento remoto di eventi, fiere e meeting EMEA: fornitori, venue, logistica, registrazioni, ordini di acquisto, calendari e follow-up in contesto healthcare/tech B2B.",
+      "checks": [
+        "Full remote e retribuzione sopra soglia prioritaria",
+        "Richiesti 5 anni con diploma oppure laurea e 2 anni in eventi/marketing operations/supporto executive",
+        "Tedesco o francese sono preferenziali, non obbligatori"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-23T15:13:24+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "uvet-project-leader-eventi-pharma-4469427457",
+      "date": "2026-09-23",
+      "company": "Uvet",
+      "title": "Project Leader - Eventi Pharma and M&E",
+      "location": "Firenze",
+      "workMode": "Ibrido · 1 giorno di smart working a settimana",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "25.000–30.000 €",
+      "category": "Eventi",
+      "score": 7.8,
+      "source": "Uvet / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/project-leader-eventi-pharma-and-m-e-at-uvet-4469427457",
+      "summary": "Coordinamento di eventi scientifici e congressi: brief, servizi logistici, fornitori, contratti, budget, compliance, presenza on-site e chiusura amministrativo-contabile.",
+      "checks": [
+        "Sede Firenze e smart working dichiarato",
+        "Richiesti 4–5 anni in eventi Healthcare/Pharma e conoscenza della compliance farmaceutica",
+        "Inglese fluente richiesto"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-23T15:13:24+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "gruppo-montenegro-event-specialist-4470466610",
+      "date": "2026-09-23",
+      "company": "Gruppo Montenegro / LGS SportLab",
+      "title": "Event Specialist",
+      "location": "Bologna",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Eventi",
+      "score": 8.1,
+      "source": "Gruppo Montenegro / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/event-specialist-at-gruppo-montenegro-4470466610",
+      "summary": "Gestione end-to-end di eventi corporate, sportivi e promozionali: piani, timeline, fornitori, location, hospitality, logistica, budget, documentazione e coordinamento on-site.",
+      "checks": [
+        "Richiesti 2–4 anni di esperienza eventi o ambiti affini",
+        "Disponibilità a trasferte e orari legati agli eventi",
+        "RAL e modalità di lavoro non dichiarate"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-23T15:13:24+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
@@ -1477,28 +1739,68 @@
       },
       "15:00": {
         "scheduledFor": "2026-09-23T15:00:00+02:00",
-        "completedAt": "2026-09-23T14:55:18+02:00",
+        "completedAt": "2026-09-23T15:13:24+02:00",
         "status": "partial",
         "requiredSourcesTotal": 35,
-        "requiredSourcesChecked": 1,
+        "requiredSourcesChecked": 32,
         "sourcesChecked": [
-          "LinkedIn Jobs"
+          "LinkedIn Jobs",
+          "Indeed",
+          "Monster",
+          "Randstad",
+          "Adecco",
+          "Manpower",
+          "Gi Group/Grafton",
+          "Michael Page",
+          "Page Personnel",
+          "Openjobmetis",
+          "Synergie",
+          "Orienta",
+          "Lavoropiù",
+          "Jobrapido",
+          "Jooble",
+          "Talent.com",
+          "Glassdoor Jobs",
+          "Careerjet",
+          "Trovolavoro",
+          "Bakeca Lavoro",
+          "Helplavoro",
+          "Experis",
+          "Umana",
+          "Ali Lavoro",
+          "Etjca",
+          "MAW",
+          "Humangest",
+          "ADHR Group",
+          "Staff S.p.A.",
+          "Atempo",
+          "Toscana Lavoro/ARTI Toscana",
+          "inPA"
         ],
         "sourcesUnavailable": [
           {
-            "name": "Altre 34 fonti obbligatorie",
-            "reason": "Run delle 15:00 anticipato manualmente prima delle 15:00 su richiesta: ricerca nazionale profonda completata su LinkedIn Jobs e career page selezionate; non è stata attribuita una verifica completa alle altre fonti senza controllo diretto affidabile."
+            "name": "InfoJobs",
+            "reason": "Il portale italiano è ufficialmente chiuso; tentati accesso diretto e tre fallback nazionali distinti, senza un catalogo corrente verificabile."
+          },
+          {
+            "name": "Hays",
+            "reason": "Accesso diretto non disponibile nello scanner; dopo due giri e almeno tre fallback nazionali su tender, sales support/operations ed eventi non sono emerse pagine lavoro italiane correnti verificabili."
+          },
+          {
+            "name": "During",
+            "reason": "Accesso diretto non disponibile nello scanner; dopo due giri e almeno tre fallback nazionali su tender, back office/operations ed eventi non è stato possibile verificare un catalogo corrente affidabile."
           }
         ],
         "extraSourcesChecked": [
-          "Lutech Careers",
-          "career page/annunci aziendali emersi dalla ricerca nazionale",
-          "controlli incrociati su annunci specifici"
+          "LinkedIn Jobs – ricerche nazionali indipendenti per Tender/Bid/Proposal, Sales Support/Operations, Inside/Digital Sales ed Eventi",
+          "ATS/career discovery tramite ricerche domain-restricted su Workday, Greenhouse e Lever",
+          "Abbott, Accenture, Kubota, Lely, Seaman Paper, Solventum, Uvet e Gruppo Montenegro – pagine annuncio specifiche verificate",
+          "Pagine annuncio specifiche LHH, Eagleprojects e CISALPINA TOURS"
         ],
-        "queriesRun": 114,
-        "newJobs": 18,
-        "activeJobs": 59,
-        "note": "Run delle 15:00 anticipato manualmente su richiesta. Ambito geografico: tutta Italia. Famiglie ricercate: Tender/Bid/Proposal/Ufficio Gare, Sales Support/Commercial Operations/Sales Operations/Order Management/Customer Operations, Digital/Inside Sales/SDR/BDR e Eventi. Da domani restano attivi gli orari esatti 08:00 e 15:00."
+        "queriesRun": 365,
+        "newJobs": 29,
+        "activeJobs": 70,
+        "note": "Scansione nazionale indipendente delle 15:00. Conservate le 18 offerte già scoperte nell'anticipazione dello stesso slot e aggiunte 11 ulteriori offerte dopo la verifica completa. Copertura fonti e query rieseguite da zero; nessun esito del run delle 08:00 è stato usato come scorciatoia."
       }
     }
   },
