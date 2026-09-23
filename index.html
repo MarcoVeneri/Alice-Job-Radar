@@ -425,9 +425,11 @@ const storeKey="alice-job-radar-status-v3";
 const savedKey="alice-job-radar-saved-v1";
 const dismissedKey="alice-job-radar-dismissed-v1";
 const appliedKey="alice-job-radar-applied-v1";
-const syncMigrationKey="alice-job-radar-sync-migrated-v1";
+const syncTokenKey="alice-job-radar-sync-token-v1";
 const syncPendingKey="alice-job-radar-sync-pending-v1";
 const syncCfg=CFG.sync||{};
+const syncSentinel="__ALICE_RADAR_SYNC_READY__";
+
 function state(){try{return JSON.parse(localStorage.getItem(storeKey)||"{}")}catch(e){return{}}}
 function saveState(s){try{localStorage.setItem(storeKey,JSON.stringify(s))}catch(e){}}
 function objectStore(key){try{return JSON.parse(localStorage.getItem(key)||"{}")}catch(e){return{}}}
@@ -440,10 +442,23 @@ function getStatus(id){return state()[id]||"Nuova"}
 function isDismissed(id){return !!dismissedState()[id]}
 function isApplied(id){return !!appliedState()[id]}
 function isSaved(id){return !!savedState()[id]}
-function syncEnabled(){return !!(syncCfg.enabled&&syncCfg.url&&syncCfg.anonKey)}
+
+function captureSyncLink(){
+ try{
+  const p=new URLSearchParams(location.hash.replace(/^#/,""));
+  const token=p.get("sync");
+  if(token&&token.length>=24)localStorage.setItem(syncTokenKey,token);
+  if(p.get("master")==="1")sessionStorage.setItem("alice-job-radar-master-import","1");
+  if(token||p.has("master"))history.replaceState(null,"",location.pathname+location.search);
+ }catch(e){}
+}
+captureSyncLink();
+
+function syncToken(){try{return localStorage.getItem(syncTokenKey)||""}catch(e){return""}}
+function syncEnabled(){return !!(syncCfg.enabled&&syncCfg.url&&syncCfg.publishableKey&&syncToken())}
 function syncTable(){return String(syncCfg.table||"job_state").replace(/[^a-zA-Z0-9_]/g,"")}
 function syncHeaders(prefer){
- const h={"apikey":syncCfg.anonKey,"Authorization":"Bearer "+syncCfg.anonKey,"Content-Type":"application/json"};
+ const h={"apikey":syncCfg.publishableKey,"Content-Type":"application/json","x-workspace-key":syncToken()};
  if(prefer)h["Prefer"]=prefer;
  return h;
 }
@@ -451,32 +466,50 @@ function syncEndpoint(suffix=""){return String(syncCfg.url||"").replace(/\/$/,""
 function pendingState(){return objectStore(syncPendingKey)}
 function markPending(id){const p=pendingState();p[String(id)]=new Date().toISOString();writeObjectStore(syncPendingKey,p)}
 function clearPending(id){const p=pendingState();delete p[String(id)];writeObjectStore(syncPendingKey,p)}
+
 function jobRow(id){
  const sid=String(id),j=DATA.find(x=>String(x.id)===sid),d=dismissedState()[sid];
- return {job_id:sid,status:getStatus(sid),saved:isSaved(sid),applied:isApplied(sid),dismissed:!!d,
-  dismissed_at:d&&d.at?d.at:null,company:(d&&d.company)||(j&&j.company)||"",title:(d&&d.title)||(j&&j.title)||"",
-  url:(d&&d.url)||(j&&j.url)||"",updated_at:new Date().toISOString()};
+ return {
+  job_id:sid,
+  status:getStatus(sid),
+  saved:isSaved(sid),
+  applied:isApplied(sid),
+  dismissed:!!d,
+  dismissed_at:d&&d.at?d.at:null,
+  company:(d&&d.company)||(j&&j.company)||"",
+  title:(d&&d.title)||(j&&j.title)||"",
+  url:(d&&d.url)||(j&&j.url)||"",
+  updated_at:new Date().toISOString()
+ };
 }
-async function upsertRows(rows){
- if(!syncEnabled()||!rows.length)return false;
- const r=await fetch(syncEndpoint("?on_conflict=job_id"),{method:"POST",headers:syncHeaders("resolution=merge-duplicates,return=minimal"),body:JSON.stringify(rows)});
- if(!r.ok)throw Error("sync upsert "+r.status);
- return true;
-}
-function localRowsForMigration(){
+function localRowsForBootstrap(){
  const st=state(),sv=savedState(),ap=appliedState(),di=dismissedState();
  const ids=new Set([...Object.keys(st),...Object.keys(sv),...Object.keys(ap),...Object.keys(di)]);
- return [...ids].filter(id=>(st[id]||"Nuova")!=="Nuova"||!!sv[id]||!!ap[id]||!!di[id]).map(id=>jobRow(id));
+ return [...ids].filter(id=>{
+  const status=st[id]||"Nuova";
+  return status!=="Nuova"||!!sv[id]||!!ap[id]||!!di[id];
+ }).map(id=>jobRow(id));
 }
-async function seedLocalOnce(){
- if(!syncEnabled()||localStorage.getItem(syncMigrationKey)==="1")return;
- const rows=localRowsForMigration();
- if(rows.length)await upsertRows(rows);
- localStorage.setItem(syncMigrationKey,"1");
+async function remoteRows(){
+ const r=await fetch(syncEndpoint("?select=job_id,status,saved,applied,dismissed,dismissed_at,company,title,url,updated_at"),{
+  headers:syncHeaders(),cache:"no-store"
+ });
+ if(!r.ok)throw Error("sync read "+r.status);
+ return await r.json();
+}
+async function upsertRows(rows){
+ if(!syncEnabled()||!rows.length)return;
+ const r=await fetch(syncEndpoint("?on_conflict=job_id"),{
+  method:"POST",
+  headers:syncHeaders("resolution=merge-duplicates,return=minimal"),
+  body:JSON.stringify(rows)
+ });
+ if(!r.ok)throw Error("sync write "+r.status);
 }
 function replaceLocalFromRemote(rows){
  const st={},sv={},ap={},di={};
  for(const r of rows||[]){
+  if(String(r.job_id)===syncSentinel)continue;
   const id=String(r.job_id);
   if(r.status&&r.status!=="Nuova")st[id]=r.status;
   if(r.saved)sv[id]=true;
@@ -485,11 +518,15 @@ function replaceLocalFromRemote(rows){
  }
  saveState(st);saveSavedState(sv);writeObjectStore(appliedKey,ap);writeObjectStore(dismissedKey,di);
 }
-async function pullRemote(){
- if(!syncEnabled())return;
- const r=await fetch(syncEndpoint("?select=job_id,status,saved,applied,dismissed,dismissed_at,company,title,url,updated_at"),{headers:syncHeaders(),cache:"no-store"});
- if(!r.ok)throw Error("sync pull "+r.status);
- replaceLocalFromRemote(await r.json());
+async function bootstrapIfMaster(rows){
+ const ready=(rows||[]).some(r=>String(r.job_id)===syncSentinel);
+ if(ready)return true;
+ if(sessionStorage.getItem("alice-job-radar-master-import")!=="1")return false;
+ const local=localRowsForBootstrap();
+ local.push({job_id:syncSentinel,status:"Nuova",saved:false,applied:false,dismissed:false,dismissed_at:null,company:"",title:"",url:"",updated_at:new Date().toISOString()});
+ await upsertRows(local);
+ sessionStorage.removeItem("alice-job-radar-master-import");
+ return true;
 }
 async function pushJob(id){
  if(!syncEnabled())return;
@@ -498,12 +535,22 @@ async function pushJob(id){
 }
 async function flushPending(){
  if(!syncEnabled())return;
- for(const id of Object.keys(pendingState())){try{await upsertRows([jobRow(id)]);clearPending(id)}catch(e){}}
+ for(const id of Object.keys(pendingState())){
+  try{await upsertRows([jobRow(id)]);clearPending(id)}catch(e){}
+ }
 }
 async function syncCycle(){
  if(!syncEnabled())return;
- try{await seedLocalOnce();await flushPending();await pullRemote()}catch(e){}
+ try{
+  let rows=await remoteRows();
+  const ready=await bootstrapIfMaster(rows);
+  if(!ready)return;
+  await flushPending();
+  rows=await remoteRows();
+  replaceLocalFromRemote(rows);
+ }catch(e){}
 }
+
 function setStatus(id,v){const s=state();s[id]=v;saveState(s);render();pushJob(id)}
 function dismissJob(id){
  const j=DATA.find(x=>String(x.id)===String(id));
@@ -518,11 +565,10 @@ function dismissJob(id){
 function toggleApplied(id){
  const v=appliedState();
  if(v[id])delete v[id];else v[id]={at:new Date().toISOString()};
- writeObjectStore(appliedKey,v);render();pushJob(id);
+ writeObjectStore(appliedKey,v);
+ render();pushJob(id);
 }
-function toggleSaved(id){
- const v=savedState();if(v[id])delete v[id];else v[id]=true;saveSavedState(v);render();pushJob(id);
-}
+function toggleSaved(id){const v=savedState();if(v[id])delete v[id];else v[id]=true;saveSavedState(v);render();pushJob(id)}
 function setNavActive(which){ui.navHome.classList.toggle("active",which==="home");ui.navSearch.classList.toggle("active",which==="search");ui.navSaved.classList.toggle("active",which==="saved")}
 function resetTopFilters(){filter="Tutte";statFilter="";document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("active",x.dataset.filter==="Tutte"));document.querySelectorAll(".stat").forEach(x=>x.classList.remove("active"))}
 function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
