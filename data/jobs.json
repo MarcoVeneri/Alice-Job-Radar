@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T08:15:57+02:00",
+  "generatedAt": "2026-09-24T15:11:41+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -1810,6 +1810,126 @@
       "active": true,
       "firstSeenAt": "2026-09-24T08:15:57+02:00",
       "firstSeenRun": "08:00"
+    },
+    {
+      "id": "michael-page-supporto-commerciale-offerte-4469326438",
+      "date": "2026-09-24",
+      "company": "Michael Page",
+      "title": "Addetto/a Supporto commerciale, gare e redazione offerte",
+      "location": "Roma",
+      "workMode": "Ibrido · 6 giorni al mese da remoto",
+      "contract": "Full time · CCNL Metalmeccanico · durata non dichiarata",
+      "salary": "25.000–28.000 €",
+      "category": "Tender",
+      "score": 10,
+      "source": "Michael Page / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/adetto-supporto-commerciale-e-redazione-offerte-at-michael-page-4469326438",
+      "summary": "Supporto commerciale in azienda cyber security e tecnologie avanzate: offerte, gare pubbliche e private, documentazione tecnica/amministrativa, scadenze, follow-up, report e gestionali.",
+      "checks": [
+        "Annuncio attivo e pubblicato nelle ultime 24 ore",
+        "Esperienza richiesta 1–2 anni; gare pubbliche e documentazione contrattuale sono titoli preferenziali",
+        "Modalità ibrida, RAL e benefit dichiarati"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-24T15:11:41+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "human-job-tender-specialist-4470982763",
+      "date": "2026-09-24",
+      "company": "Human Job - Agenzia per il lavoro",
+      "title": "Addetto/a Ufficio Gare d'Appalto / Tender Specialist",
+      "location": "Roma centro",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo determinato finalizzato all'indeterminato · full time · CCNL Commercio/Terziario o Agenzie per il Lavoro",
+      "salary": "28.000–35.000 €",
+      "category": "Tender",
+      "score": 9.9,
+      "source": "Human Job / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/addetto-a-ufficio-gare-d-appalto-tender-specialist-settore-hr-roma-at-human-job-agenzia-per-il-lavoro-4470982763",
+      "summary": "Gestione end-to-end di gare pubbliche e private per servizi HR: scouting, MEPA/Sintel, albi fornitori, documentazione amministrativa e tecnica, caricamento offerte, PASSOE, report e scadenze.",
+      "checks": [
+        "Annuncio attivo e pubblicato nelle ultime 24 ore",
+        "Richiesta esperienza consolidata sull'intero ciclo di gara e conoscenza del Codice Appalti",
+        "Smart working non dichiarato"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-24T15:11:41+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "gruppo-ab-service-sales-back-office-4470983309",
+      "date": "2026-09-24",
+      "company": "Gruppo AB - Energy Sustainability",
+      "title": "Service Sales Back Office Assistant",
+      "location": "Orzinuovi (BS)",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · tipologia e durata non dichiarate",
+      "salary": "Non dichiarato",
+      "category": "Sales Support",
+      "score": 9.6,
+      "source": "Gruppo AB / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/service-sales-back-office-assistant-1-at-gruppo-ab-energy-sustainability-4470983309",
+      "summary": "Back office commerciale Service su offerte e contratti di manutenzione, rinnovi, documentazione contrattuale, follow-up clienti, ordini e aggiornamenti su SAP/CRM.",
+      "checks": [
+        "Annuncio attivo e pubblicato nelle ultime 24 ore",
+        "Richiesta esperienza minima in back office commerciale, service o customer support",
+        "RAL e smart working non dichiarati"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-24T15:11:41+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "araymond-sales-back-office-4460370528",
+      "date": "2026-09-24",
+      "company": "ARaymond / CGA Technologies",
+      "title": "Sales Back Office",
+      "location": "Cividale del Friuli (UD)",
+      "workMode": "Non dichiarato",
+      "contract": "Inserimento diretto con prospettiva di consolidamento · full time",
+      "salary": "Non dichiarato",
+      "category": "Sales Support",
+      "score": 8.4,
+      "source": "ARaymond / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/sales-back-office-at-araymond-4460370528",
+      "summary": "Gestione completa di ordini e dati cliente, documentazione commerciale e doganale, spedizioni, consegne, fatturazione, comunicazioni con clienti/fornitori e supporto alla Direzione.",
+      "checks": [
+        "Annuncio attivo e pubblicato nell'ultimo giorno",
+        "Esperienza richiesta 2–3 anni; inglese C1 richiesto, superiore al B2 dichiarato da Alice",
+        "RAL e smart working non dichiarati"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-24T15:11:41+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "artena-events-manager-4469475053",
+      "date": "2026-09-24",
+      "company": "Artena",
+      "title": "Events Manager",
+      "location": "Milano",
+      "workMode": "Ibrido · 2 giorni a settimana da remoto",
+      "contract": "Tempo indeterminato",
+      "salary": "26.000–30.000 €",
+      "category": "Eventi",
+      "score": 8.2,
+      "source": "Artena / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/events-manager-at-artena-4469475053",
+      "summary": "Gestione end-to-end di progetti evento B2B/B2C, incluse gare, materiali, scadenze, clienti, fornitori, partner ed execution sul campo.",
+      "checks": [
+        "Annuncio attivo e pubblicato nelle ultime 24 ore",
+        "Richiesta esperienza nel mondo eventi e disponibilità a trasferte; trasferibilità delle competenze da valutare",
+        "Tempo indeterminato, RAL e smart working dichiarati"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-24T15:11:41+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
@@ -1881,6 +2001,72 @@
         "queriesRun": 319,
         "newJobs": 7,
         "activeJobs": 77
+      },
+      "15:00": {
+        "scheduledFor": "2026-09-24T15:00:00+02:00",
+        "completedAt": "2026-09-24T15:11:41+02:00",
+        "status": "partial",
+        "requiredSourcesTotal": 35,
+        "requiredSourcesChecked": 31,
+        "sourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed",
+          "Monster",
+          "Randstad",
+          "Adecco",
+          "Manpower",
+          "Gi Group/Grafton",
+          "Michael Page",
+          "Page Personnel",
+          "Openjobmetis",
+          "Synergie",
+          "Orienta",
+          "Lavoropiù",
+          "Jobrapido",
+          "Jooble",
+          "Talent.com",
+          "Glassdoor Jobs",
+          "Careerjet",
+          "Trovolavoro",
+          "Helplavoro",
+          "Experis",
+          "Umana",
+          "Ali Lavoro",
+          "Etjca",
+          "MAW",
+          "Humangest",
+          "ADHR Group",
+          "Staff S.p.A.",
+          "Atempo",
+          "Toscana Lavoro/ARTI Toscana",
+          "inPA"
+        ],
+        "sourcesUnavailable": [
+          {
+            "name": "InfoJobs",
+            "reason": "Il portale italiano è ufficialmente chiuso; tentati accesso diretto e almeno tre fallback nazionali distinti, incluso un terzo passaggio selettivo, senza un catalogo corrente verificabile."
+          },
+          {
+            "name": "Hays",
+            "reason": "Accesso diretto non verificabile; due giri domain-restricted e un terzo passaggio nazionale selettivo non hanno restituito un catalogo italiano corrente affidabile."
+          },
+          {
+            "name": "During",
+            "reason": "Accesso diretto non verificabile; due giri domain-restricted e un terzo passaggio nazionale selettivo non hanno consentito di verificare un catalogo corrente affidabile."
+          },
+          {
+            "name": "Bakeca Lavoro",
+            "reason": "Accesso diretto non verificabile; dopo tre famiglie di fallback nazionali e un ulteriore passaggio selettivo non sono emerse pagine lavoro correnti appartenenti al dominio."
+          }
+        ],
+        "extraSourcesChecked": [
+          "LinkedIn Jobs – scansioni nazionali indipendenti per Tender/Bid/Proposal, Sales Operations, Inside Sales ed Eventi",
+          "Michael Page, Human Job, Gruppo AB, ARaymond, Artena, GEWISS, Camfil, Adecco e Siemens – pagine annuncio specifiche verificate",
+          "Career page e ATS tech/corporate tramite Workday, Greenhouse, Lever e pagine aziendali indicizzate"
+        ],
+        "queriesRun": 222,
+        "newJobs": 5,
+        "activeJobs": 82
       }
     }
   },
