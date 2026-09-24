@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T15:13:24+02:00",
+  "generatedAt": "2026-09-24T08:15:57+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -1642,107 +1642,185 @@
       "active": true,
       "firstSeenAt": "2026-09-23T15:13:24+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "bip-tender-specialist-4469331745",
+      "date": "2026-09-24",
+      "company": "BIP",
+      "title": "Tender Specialist (Corporate Internal Function)",
+      "location": "Roma",
+      "workMode": "Ibrido · lavoro agile programmabile con il responsabile",
+      "contract": "Tempo indeterminato · full time · CCNL Metalmeccanici Industria",
+      "salary": "29.000–39.000 €",
+      "category": "Tender",
+      "score": 10,
+      "source": "BIP / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/tender-specialist-corporate-internal-function-at-bip-4469331745",
+      "summary": "Gestione end-to-end di gare pubbliche e private, e-procurement, albi fornitori, subappalti, PEC, scadenze e raccolta documentale in un gruppo di consulenza digitale e cybersecurity.",
+      "checks": [
+        "Annuncio attivo e pubblicato nelle ultime 24 ore",
+        "Richiesti almeno 3–4 anni in ruolo analogo, inglese e conoscenza del Codice Appalti",
+        "Modalità ibrida e tempo indeterminato dichiarati"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-24T08:15:57+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "ryze-tender-bid-specialist-4457750319",
+      "date": "2026-09-24",
+      "company": "RYZE",
+      "title": "Tender & Bid Specialist – Real Estate Services",
+      "location": "Milano",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · tipologia valutata in base all’esperienza",
+      "salary": "35.000–45.000 €",
+      "category": "Tender",
+      "score": 9.8,
+      "source": "RYZE / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/tender-bid-specialist-%E2%80%93-real-estate-services-at-ryze-4457750319",
+      "summary": "Ufficio Gare per procedure pubbliche e private: scouting, requisiti, documentazione amministrativa e tecnica, post-aggiudicazione, contratti, albi e piattaforme MEPA/Sintel/Ariba/Jaggaer.",
+      "checks": [
+        "Annuncio attivo e pubblicato nelle ultime 24 ore",
+        "Richiesti almeno 3 anni di esperienza in gare pubbliche e private",
+        "Smart working non dichiarato"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-24T08:15:57+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "datamanagement-proposal-specialist-4469439405",
+      "date": "2026-09-24",
+      "company": "Datamanagement Italia",
+      "title": "Proposal Specialist",
+      "location": "Pomezia (RM)",
+      "workMode": "In sede",
+      "contract": "Full time · CCNL Metalmeccanico PMI Confapi · durata non dichiarata",
+      "salary": "Da 35.000 €",
+      "category": "Tender",
+      "score": 9.8,
+      "source": "Datamanagement Italia / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/proposal-specialist-at-datamanagement-italia-spa-4469439405",
+      "summary": "Progettazione e redazione di offerte tecniche ICT per gare PA, analisi di capitolati e disciplinari, coordinamento Commerciale/Tecnica/Delivery/Ufficio Gare e supporto ai budget.",
+      "checks": [
+        "Annuncio attivo e pubblicato nelle ultime 24 ore",
+        "Richiesti almeno 3 anni in proposal, bid, presales o gare, preferibilmente ICT",
+        "Sede operativa dichiarata in presenza"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-24T08:15:57+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "convera-sales-support-coordinator-4462157630",
+      "date": "2026-09-24",
+      "company": "Convera",
+      "title": "Sales Support Coordinator",
+      "location": "Roma",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · durata non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Sales Support",
+      "score": 9.5,
+      "source": "Convera / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/sales-support-coordinator-at-convera-4462157630",
+      "summary": "Supporto operativo e amministrativo end-to-end al team Sales: richieste clienti, booking, scadenze, CRM/Salesforce, account setup, reportistica e coordinamento con Operations, Legal e Finance.",
+      "checks": [
+        "Annuncio attivo e pubblicato nelle ultime 24 ore",
+        "Esperienza in amministrazione, customer service, sales support o operations considerata preferenziale",
+        "RAL e modalità di lavoro non dichiarate"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-24T08:15:57+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "integra-commercial-operation-senior-specialist-4452493265",
+      "date": "2026-09-24",
+      "company": "Integra LifeSciences",
+      "title": "Commercial Operation Senior Specialist",
+      "location": "Rozzano (MI)",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · durata non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Operations",
+      "score": 9.7,
+      "source": "Integra LifeSciences / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/commercial-operation-senior-specialist-at-integra-lifesciences-4452493265",
+      "summary": "Commercial Operations EMEA con reporting, master data, pricing, contratti, tender follow-up, quote/back office e coordinamento con Sales, Finance e Customer Service su ERP e Salesforce.",
+      "checks": [
+        "Annuncio attivo e pubblicato nelle ultime 24 ore",
+        "Richiesti almeno 3 anni e inglese fluente; esperienza Sales/Commercial/Tender Operations",
+        "RAL e modalità di lavoro non dichiarate"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-24T08:15:57+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "ralph-lauren-sales-operations-assistant-4459527615",
+      "date": "2026-09-24",
+      "company": "Ralph Lauren",
+      "title": "Sales Operations Assistant, Partner Territories",
+      "location": "Casalecchio di Reno (BO)",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo determinato 12 mesi · full time · CCNL Commercio livello 4",
+      "salary": "Da 27.000 €",
+      "category": "Sales Support",
+      "score": 9.1,
+      "source": "Ralph Lauren / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/sales-operations-assistant-partner-territories-fixed-term-contract-12-months-at-ralph-lauren-4459527615",
+      "summary": "Supporto Sales Operations internazionale su ciclo ordini, spedizioni, fatturazione, riordini, reclami, customer service, dati e sistemi ERP/SAP.",
+      "checks": [
+        "Annuncio attivo e pubblicato nelle ultime 24 ore",
+        "Richiesti 1–3 anni in Sales Operations, Customer Service, Wholesale Operations o amministrazione",
+        "Inglese fluente richiesto; smart working non dichiarato"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-24T08:15:57+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "limolane-event-project-manager-4468902337",
+      "date": "2026-09-24",
+      "company": "LimoLane",
+      "title": "Event Project Manager",
+      "location": "Milano",
+      "workMode": "Ibrido · almeno 2 giorni a settimana in ufficio",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "38.000–42.000 € + variabile",
+      "category": "Eventi",
+      "score": 7.8,
+      "source": "LimoLane / LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/event-project-manager-at-limolane-4468902337",
+      "summary": "Gestione end-to-end di eventi luxury/MICE: clienti, fornitori, logistica, trasferimenti, attività onsite, preventivi, budget e consuntivi.",
+      "checks": [
+        "Annuncio attivo e pubblicato nelle ultime 24 ore",
+        "Richiesti 3–5 anni di esperienza eventi e inglese C1: requisiti da valutare rispetto al profilo di Alice",
+        "Modalità ibrida e RAL sopra soglia dichiarate"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-24T08:15:57+02:00",
+      "firstSeenRun": "08:00"
     }
   ],
   "audit": {
-    "date": "2026-09-23",
+    "date": "2026-09-24",
     "runs": {
       "08:00": {
-        "scheduledFor": "2026-09-23T08:00:00+02:00",
-        "completedAt": "2026-09-23T08:15:39+02:00",
+        "scheduledFor": "2026-09-24T08:00:00+02:00",
+        "completedAt": "2026-09-24T08:15:57+02:00",
         "status": "partial",
         "requiredSourcesTotal": 35,
-        "requiredSourcesChecked": 24,
-        "sourcesChecked": [
-          "LinkedIn Jobs",
-          "Indeed",
-          "Randstad",
-          "Adecco",
-          "Manpower",
-          "Gi Group/Grafton",
-          "Michael Page",
-          "Openjobmetis",
-          "Synergie",
-          "Orienta",
-          "Lavoropiù",
-          "Jobrapido",
-          "Jooble",
-          "Glassdoor Jobs",
-          "Trovolavoro",
-          "Bakeca Lavoro",
-          "Helplavoro",
-          "Experis",
-          "Umana",
-          "Etjca",
-          "MAW",
-          "Atempo",
-          "Toscana Lavoro/ARTI Toscana",
-          "inPA"
-        ],
-        "sourcesUnavailable": [
-          {
-            "name": "InfoJobs",
-            "reason": "Scansione profonda indipendente: tentate più query dirette/domain-restricted e fallback su tender, back office/sales support ed eventi in Firenze/Toscana; non è emerso un catalogo italiano corrente e verificabile."
-          },
-          {
-            "name": "Monster",
-            "reason": "Scansione profonda indipendente: tentate più query dirette/domain-restricted e fallback su tre famiglie di ruoli; non sono emerse pagine lavoro italiane correnti e verificabili per l'area."
-          },
-          {
-            "name": "Hays",
-            "reason": "Scansione profonda indipendente: ricerca diretta non accessibile e più fallback su Firenze/Toscana per tender, sales support/operations ed eventi senza pagine lavoro correnti verificabili."
-          },
-          {
-            "name": "Page Personnel",
-            "reason": "Scansione profonda indipendente: le ricerche hanno restituito materiale storico, non un catalogo autonomo corrente; il brand confluisce operativamente nel perimetro Michael Page."
-          },
-          {
-            "name": "Talent.com",
-            "reason": "Homepage e motore generale risultano attivi, ma dopo più query localizzate e secondo passaggio non sono state ottenute pagine risultati correnti sufficientemente verificabili per Firenze/Toscana."
-          },
-          {
-            "name": "Careerjet",
-            "reason": "La pagina Firenze è raggiungibile ma presenta verifica anti-bot; i fallback multipli non hanno consentito di leggere in modo affidabile il catalogo corrente locale."
-          },
-          {
-            "name": "Ali Lavoro",
-            "reason": "Portale diretto non accessibile dallo scanner e fallback multipli su Firenze/Toscana non hanno restituito schede correnti sufficientemente verificabili."
-          },
-          {
-            "name": "During",
-            "reason": "Portale diretto non accessibile dallo scanner e fallback multipli su Firenze/Toscana non hanno restituito un catalogo locale corrente verificabile."
-          },
-          {
-            "name": "Humangest",
-            "reason": "Portale diretto non accessibile dallo scanner e fallback multipli su Firenze/Toscana non hanno restituito un catalogo locale corrente verificabile."
-          },
-          {
-            "name": "ADHR Group",
-            "reason": "Il portale offerte è attivo ma richiede JavaScript per esporre i risultati; dopo più query e fallback non sono state ottenute schede locali correnti sufficientemente verificabili."
-          },
-          {
-            "name": "Staff S.p.A.",
-            "reason": "Sono emerse pagine lavoro correnti del portale, ma i tentativi localizzati e i fallback non hanno consentito di verificare in modo affidabile il catalogo Firenze/Toscana del run corrente."
-          }
-        ],
-        "extraSourcesChecked": [
-          "ABB E-mobility Careers / annunci ABB E-mobility su LinkedIn Jobs",
-          "The Social Hub career page su Greenhouse",
-          "PortaleGiovani Firenze per controllo incrociato di offerte Orienta",
-          "Ricerche LinkedIn distinte: Tender/Bid, Back Office/Sales Support, Event Coordinator",
-          "Controlli incrociati su pagine annuncio e aggregatori per validare annunci già presenti"
-        ],
-        "queriesRun": 213,
-        "newJobs": 2,
-        "activeJobs": 34,
-        "note": "Run delle 08:00 rieseguito integralmente il 23/09/2026 come scansione profonda indipendente: oltre 200 query/controlli, secondo giro obbligatorio sulle fonti non verificate e terzo passaggio selettivo. Nessun dato di copertura del run delle 15:00 è stato usato."
-      },
-      "15:00": {
-        "scheduledFor": "2026-09-23T15:00:00+02:00",
-        "completedAt": "2026-09-23T15:13:24+02:00",
-        "status": "partial",
-        "requiredSourcesTotal": 35,
-        "requiredSourcesChecked": 32,
+        "requiredSourcesChecked": 31,
         "sourcesChecked": [
           "LinkedIn Jobs",
           "Indeed",
@@ -1763,7 +1841,6 @@
           "Glassdoor Jobs",
           "Careerjet",
           "Trovolavoro",
-          "Bakeca Lavoro",
           "Helplavoro",
           "Experis",
           "Umana",
@@ -1784,23 +1861,26 @@
           },
           {
             "name": "Hays",
-            "reason": "Accesso diretto non disponibile nello scanner; dopo due giri e almeno tre fallback nazionali su tender, sales support/operations ed eventi non sono emerse pagine lavoro italiane correnti verificabili."
+            "reason": "Accesso diretto non disponibile; dopo accesso diretto, due giri domain-restricted e un terzo passaggio nazionale non è stato possibile verificare in modo affidabile il catalogo italiano corrente."
           },
           {
             "name": "During",
-            "reason": "Accesso diretto non disponibile nello scanner; dopo due giri e almeno tre fallback nazionali su tender, back office/operations ed eventi non è stato possibile verificare un catalogo corrente affidabile."
+            "reason": "Accesso diretto non disponibile; dopo accesso diretto, due giri domain-restricted e un terzo passaggio nazionale non è stato possibile verificare un catalogo corrente affidabile."
+          },
+          {
+            "name": "Bakeca Lavoro",
+            "reason": "Accesso diretto non disponibile e nessuna pagina lavoro corrente appartenente al dominio è emersa dopo tre famiglie di fallback nazionali più un passaggio selettivo."
           }
         ],
         "extraSourcesChecked": [
-          "LinkedIn Jobs – ricerche nazionali indipendenti per Tender/Bid/Proposal, Sales Support/Operations, Inside/Digital Sales ed Eventi",
-          "ATS/career discovery tramite ricerche domain-restricted su Workday, Greenhouse e Lever",
-          "Abbott, Accenture, Kubota, Lely, Seaman Paper, Solventum, Uvet e Gruppo Montenegro – pagine annuncio specifiche verificate",
-          "Pagine annuncio specifiche LHH, Eagleprojects e CISALPINA TOURS"
+          "LinkedIn Jobs – ricerche nazionali indipendenti per Tender/Bid/Proposal, Sales Support/Commercial Operations, Inside/Digital Sales ed Eventi",
+          "ATS/career discovery tramite Workday, Greenhouse, Lever e career page tech",
+          "BIP, RYZE, Datamanagement Italia, Convera, Integra LifeSciences, Ralph Lauren e LimoLane – pagine annuncio specifiche verificate",
+          "Career page e risultati correnti di Siemens, Manpower, Openjobmetis, Staff e Atempo"
         ],
-        "queriesRun": 365,
-        "newJobs": 29,
-        "activeJobs": 70,
-        "note": "Scansione nazionale indipendente delle 15:00. Conservate le 18 offerte già scoperte nell'anticipazione dello stesso slot e aggiunte 11 ulteriori offerte dopo la verifica completa. Copertura fonti e query rieseguite da zero; nessun esito del run delle 08:00 è stato usato come scorciatoia."
+        "queriesRun": 319,
+        "newJobs": 7,
+        "activeJobs": 77
       }
     }
   },
