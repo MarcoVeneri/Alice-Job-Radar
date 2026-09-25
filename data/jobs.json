@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T15:11:41+02:00",
+  "generatedAt": "2026-09-25T08:07:54+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -1930,17 +1930,137 @@
       "active": true,
       "firstSeenAt": "2026-09-24T15:11:41+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "randstad-customer-care-back-office-correggio-47397826",
+      "date": "2026-09-25",
+      "company": "Azienda cliente Randstad",
+      "title": "Impiegato Customer Care e Back Office Commerciale",
+      "location": "Correggio (RE)",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo determinato finalizzato all'assunzione · full time",
+      "salary": "22.000–28.000 €",
+      "category": "Sales Support",
+      "score": 9.4,
+      "source": "Randstad",
+      "url": "https://www.randstad.com/jobs/impiegato-customer-care-e-back-office-commerciale-fmnb_correggio_47397826/",
+      "summary": "Supporto ai Sales Manager su preventivi, ordini e campionature, gestione clienti internazionali, pianificazione ordini, qualificazione lead inbound e aggiornamento trattative in Salesforce.",
+      "checks": [
+        "Annuncio attivo con scadenza 5 novembre 2026",
+        "Richiesti esperienza in back office/inside sales/customer service, inglese e CRM",
+        "Smart working non dichiarato"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-25T08:07:54+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "randstad-back-office-commerciale-rivergaro-47308704",
+      "date": "2026-09-25",
+      "company": "Azienda cliente Randstad",
+      "title": "Back Office Commerciale",
+      "location": "Rivergaro (PC)",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo indeterminato · full time",
+      "salary": "28.000–32.000 €",
+      "category": "Sales Support",
+      "score": 8.8,
+      "source": "Randstad",
+      "url": "https://www.randstad.com/jobs/back-office-commerciale_rivergaro_47308704/",
+      "summary": "Posizione di back office commerciale con inserimento diretto a tempo indeterminato; esperienza richiesta di circa due anni.",
+      "checks": [
+        "Annuncio attivo con scadenza 19 ottobre 2026",
+        "Contratto e RAL dichiarati",
+        "Mansioni dettagliate e smart working non dichiarati nella pagina pubblica"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-25T08:07:54+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "randstad-back-office-commerciale-arzignano-47424239",
+      "date": "2026-09-25",
+      "company": "Azienda cliente Randstad",
+      "title": "Back Office Commerciale – Settore conciario",
+      "location": "Arzignano (VI)",
+      "workMode": "In sede",
+      "contract": "Tempo determinato · full time",
+      "salary": "21.000–27.000 €",
+      "category": "Sales Support",
+      "score": 8.6,
+      "source": "Randstad",
+      "url": "https://www.randstad.com/jobs/back-office-commerciale-%7C-settore-conciario-mfnb_arzignano_47424239/",
+      "summary": "Gestione e inserimento ordini di vendita, contatti con clienti italiani ed esteri, supporto alla rete vendita, spedizioni, bolle e corrispondenza commerciale.",
+      "checks": [
+        "Annuncio attivo con scadenza 10 novembre 2026",
+        "Richiesti inglese e diploma; esperienza specifica considerata solo un plus",
+        "Orario in presenza 8–12 e 13–17"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-25T08:07:54+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "randstad-back-office-commerciale-jr-rescaldina-47444456",
+      "date": "2026-09-25",
+      "company": "Azienda cliente Randstad",
+      "title": "Back Office Commerciale Junior",
+      "location": "Rescaldina (MI)",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo determinato finalizzato all'indeterminato · full time",
+      "salary": "22.000–28.000 €",
+      "category": "Sales Support",
+      "score": 8.3,
+      "source": "Randstad",
+      "url": "https://www.randstad.com/jobs/back-office-commerciale-jr_rescaldina_47444456/",
+      "summary": "Inserimento nel back office commerciale di un'azienda del territorio; richiesta buona conoscenza dell'inglese ed esperienza precedente solo preferenziale.",
+      "checks": [
+        "Annuncio attivo con scadenza 14 novembre 2026",
+        "Stabilizzazione prospettata",
+        "Smart working e mansioni di dettaglio non dichiarati"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-25T08:07:54+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "randstad-back-office-sviluppo-clienti-correggio-47436286",
+      "date": "2026-09-25",
+      "company": "Azienda cliente Randstad",
+      "title": "Back Office Commerciale e Sviluppo Clienti",
+      "location": "Correggio (RE)",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo determinato · full time · CCNL Commercio livello 3–5",
+      "salary": "23.000–28.000 €",
+      "category": "Sales Support",
+      "score": 8.7,
+      "source": "Randstad",
+      "url": "https://www.randstad.com/jobs/back-office-commerciale-e-sviluppo-clienti-fmnb_correggio_47436286/",
+      "summary": "Gestione e fidelizzazione clienti, trattative e condizioni contrattuali, analisi mercato, fiere, CRM e collaborazione al budget commerciale; inglese B2 richiesto.",
+      "checks": [
+        "Annuncio attivo con scadenza 13 novembre 2026",
+        "Componente sviluppo clienti presente ma con forte contenuto di back office, CRM e coordinamento",
+        "Smart working non dichiarato"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-25T08:07:54+02:00",
+      "firstSeenRun": "08:00"
     }
   ],
   "audit": {
-    "date": "2026-09-24",
+    "date": "2026-09-25",
     "runs": {
       "08:00": {
-        "scheduledFor": "2026-09-24T08:00:00+02:00",
-        "completedAt": "2026-09-24T08:15:57+02:00",
+        "scheduledFor": "2026-09-25T08:00:00+02:00",
+        "completedAt": "2026-09-25T08:07:54+02:00",
         "status": "partial",
         "requiredSourcesTotal": 35,
-        "requiredSourcesChecked": 31,
+        "requiredSourcesChecked": 32,
         "sourcesChecked": [
           "LinkedIn Jobs",
           "Indeed",
@@ -1961,6 +2081,7 @@
           "Glassdoor Jobs",
           "Careerjet",
           "Trovolavoro",
+          "Bakeca Lavoro",
           "Helplavoro",
           "Experis",
           "Umana",
@@ -1977,96 +2098,26 @@
         "sourcesUnavailable": [
           {
             "name": "InfoJobs",
-            "reason": "Il portale italiano è ufficialmente chiuso; tentati accesso diretto e tre fallback nazionali distinti, senza un catalogo corrente verificabile."
+            "reason": "Il portale italiano è ufficialmente chiuso; accesso diretto e tre fallback nazionali distinti non restituiscono un catalogo corrente verificabile."
           },
           {
             "name": "Hays",
-            "reason": "Accesso diretto non disponibile; dopo accesso diretto, due giri domain-restricted e un terzo passaggio nazionale non è stato possibile verificare in modo affidabile il catalogo italiano corrente."
+            "reason": "Accesso diretto non verificabile; tre query domain-restricted nazionali distinte non hanno permesso di verificare in modo affidabile il catalogo italiano corrente."
           },
           {
             "name": "During",
-            "reason": "Accesso diretto non disponibile; dopo accesso diretto, due giri domain-restricted e un terzo passaggio nazionale non è stato possibile verificare un catalogo corrente affidabile."
-          },
-          {
-            "name": "Bakeca Lavoro",
-            "reason": "Accesso diretto non disponibile e nessuna pagina lavoro corrente appartenente al dominio è emersa dopo tre famiglie di fallback nazionali più un passaggio selettivo."
+            "reason": "Accesso diretto non verificabile; tre fallback nazionali distinti non hanno restituito pagine di offerta correnti verificabili sul dominio."
           }
         ],
         "extraSourcesChecked": [
-          "LinkedIn Jobs – ricerche nazionali indipendenti per Tender/Bid/Proposal, Sales Support/Commercial Operations, Inside/Digital Sales ed Eventi",
-          "ATS/career discovery tramite Workday, Greenhouse, Lever e career page tech",
-          "BIP, RYZE, Datamanagement Italia, Convera, Integra LifeSciences, Ralph Lauren e LimoLane – pagine annuncio specifiche verificate",
-          "Career page e risultati correnti di Siemens, Manpower, Openjobmetis, Staff e Atempo"
+          "LinkedIn Jobs – ricerche nazionali indipendenti per Tender/Bid/Proposal, Sales Operations, Inside Sales ed Eventi",
+          "Randstad – pagine originali specifiche e ancora aperte verificate per cinque offerte",
+          "Career page/ATS nazionali di Accenture, Avanade, Siemens, Lenovo, TeamSystem, TD SYNNEX, Microsoft, Salesforce, Vodafone, Reply, Engineering, Deda, Cisco e Oracle",
+          "Workday, Greenhouse, Lever e SuccessFactors – ricerche nazionali domain-restricted"
         ],
-        "queriesRun": 319,
-        "newJobs": 7,
-        "activeJobs": 77
-      },
-      "15:00": {
-        "scheduledFor": "2026-09-24T15:00:00+02:00",
-        "completedAt": "2026-09-24T15:11:41+02:00",
-        "status": "partial",
-        "requiredSourcesTotal": 35,
-        "requiredSourcesChecked": 31,
-        "sourcesChecked": [
-          "LinkedIn Jobs",
-          "Indeed",
-          "Monster",
-          "Randstad",
-          "Adecco",
-          "Manpower",
-          "Gi Group/Grafton",
-          "Michael Page",
-          "Page Personnel",
-          "Openjobmetis",
-          "Synergie",
-          "Orienta",
-          "Lavoropiù",
-          "Jobrapido",
-          "Jooble",
-          "Talent.com",
-          "Glassdoor Jobs",
-          "Careerjet",
-          "Trovolavoro",
-          "Helplavoro",
-          "Experis",
-          "Umana",
-          "Ali Lavoro",
-          "Etjca",
-          "MAW",
-          "Humangest",
-          "ADHR Group",
-          "Staff S.p.A.",
-          "Atempo",
-          "Toscana Lavoro/ARTI Toscana",
-          "inPA"
-        ],
-        "sourcesUnavailable": [
-          {
-            "name": "InfoJobs",
-            "reason": "Il portale italiano è ufficialmente chiuso; tentati accesso diretto e almeno tre fallback nazionali distinti, incluso un terzo passaggio selettivo, senza un catalogo corrente verificabile."
-          },
-          {
-            "name": "Hays",
-            "reason": "Accesso diretto non verificabile; due giri domain-restricted e un terzo passaggio nazionale selettivo non hanno restituito un catalogo italiano corrente affidabile."
-          },
-          {
-            "name": "During",
-            "reason": "Accesso diretto non verificabile; due giri domain-restricted e un terzo passaggio nazionale selettivo non hanno consentito di verificare un catalogo corrente affidabile."
-          },
-          {
-            "name": "Bakeca Lavoro",
-            "reason": "Accesso diretto non verificabile; dopo tre famiglie di fallback nazionali e un ulteriore passaggio selettivo non sono emerse pagine lavoro correnti appartenenti al dominio."
-          }
-        ],
-        "extraSourcesChecked": [
-          "LinkedIn Jobs – scansioni nazionali indipendenti per Tender/Bid/Proposal, Sales Operations, Inside Sales ed Eventi",
-          "Michael Page, Human Job, Gruppo AB, ARaymond, Artena, GEWISS, Camfil, Adecco e Siemens – pagine annuncio specifiche verificate",
-          "Career page e ATS tech/corporate tramite Workday, Greenhouse, Lever e pagine aziendali indicizzate"
-        ],
-        "queriesRun": 222,
+        "queriesRun": 123,
         "newJobs": 5,
-        "activeJobs": 82
+        "activeJobs": 87
       }
     }
   },
