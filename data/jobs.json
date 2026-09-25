@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T08:07:54+02:00",
+  "generatedAt": "2026-09-25T15:24:30+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -2050,6 +2050,144 @@
       "active": true,
       "firstSeenAt": "2026-09-25T08:07:54+02:00",
       "firstSeenRun": "08:00"
+    },
+    {
+      "id": "madx-sales-support-tender-specialist-301551",
+      "date": "2026-09-25",
+      "company": "MADx",
+      "title": "Sales Support & Tender Specialist (f/m/x) – Italy",
+      "location": "Italia (preferenza Milano)",
+      "workMode": "Remoto",
+      "contract": "Tempo indeterminato · full time",
+      "salary": "Da 3.080 € lordi/mese",
+      "category": "Tender",
+      "score": 10,
+      "source": "MADx Careers / Factorial",
+      "url": "https://madx.factorialhr.com/job_posting/sales-support-tender-specialist-f-m-x-italy-301551",
+      "summary": "Sales support nazionale con ordini, consegne, fatturazione, solleciti, documentazione commerciale e supporto operativo alle gare pubbliche; CRM/Salesforce e procurement sono plus.",
+      "checks": [
+        "Inglese fluente richiesto",
+        "Settore medicale preferenziale"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-25T15:24:30+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "openjobmetis-addetto-ufficio-gare-bacoli-136873",
+      "date": "2026-09-24",
+      "company": "Openjobmetis",
+      "title": "Addetto/a Ufficio Gare",
+      "location": "Bacoli (NA)",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo indeterminato · assunzione diretta · full time",
+      "salary": "24.000–26.000 €",
+      "category": "Tender",
+      "score": 9.6,
+      "source": "Openjobmetis",
+      "url": "https://www.openjobmetis.it/it/candidati/offerte-di-lavoro/addettoa-ufficio-gare-junior-136873",
+      "summary": "Gestione gare, documentazione amministrativa, albi fornitori, qualifiche e certificazioni, scadenze e portali telematici; inserimento stabile.",
+      "checks": [
+        "Preferibile esperienza di almeno 3 anni",
+        "CCNL Logistica e Trasporti"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-25T15:24:30+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "synergie-responsabile-ufficio-gare-contratti-353844",
+      "date": "2026-09-09",
+      "company": "Synergie Italia",
+      "title": "Responsabile Ufficio Gare e Contratti",
+      "location": "Pietra Ligure (SV)",
+      "workMode": "Non dichiarato",
+      "contract": "Da definire",
+      "salary": "25.000–35.000 €",
+      "category": "Tender",
+      "score": 9.7,
+      "source": "Synergie Italia",
+      "url": "https://www.synergie-italia.it/candidato/offerte-di-lavoro/responsabile-ufficio-gare-e-contratti-353844",
+      "summary": "Presidio del ciclo di gara e dei contratti, monitoraggio opportunità, documentazione amministrativa, MEPA, certificazioni e coordinamento delle offerte.",
+      "checks": [
+        "Contratto da definire",
+        "Inglese apprezzato"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-25T15:24:30+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "randstad-addetto-ufficio-gare-pomezia-cx580589",
+      "date": "2026-09-18",
+      "company": "Randstad Italia",
+      "title": "Addetto Ufficio Gare",
+      "location": "Pomezia / Santa Palomba (RM)",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo determinato 12 mesi finalizzato all'indeterminato · full time",
+      "salary": "30.000–40.000 €",
+      "category": "Tender",
+      "score": 9.5,
+      "source": "Randstad Italia",
+      "url": "https://www.randstad.it/offerte-lavoro/addetto-ufficio-gare-fmnb_pomezia_5e802743-b6fa-4e37-a440-059a74bcf5f6/",
+      "summary": "Gestione end-to-end di gare per stazioni appaltanti e strutture ospedaliere, analisi bandi, documentazione e coordinamento interno; candidatura aperta fino al 27 novembre 2026.",
+      "checks": [
+        "Richiesti 3–5 anni nel settore farmaceutico",
+        "CCNL Chimico-Farmaceutico D1"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-25T15:24:30+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "randstad-ufficio-gare-bedizzole-47224453",
+      "date": "2026-07-30",
+      "company": "Randstad Italia",
+      "title": "Ufficio Gare d'Appalto",
+      "location": "Bedizzole (BS)",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo determinato · full time",
+      "salary": "22.000–28.000 €",
+      "category": "Tender",
+      "score": 9.2,
+      "source": "Randstad Italia",
+      "url": "https://www.randstad.com/jobs/ufficio-gare-dappalto_bedizzole_47224453/",
+      "summary": "Supporto alla compilazione e ricerca di gare su siti istituzionali, gestione amministrativa e rapporti con enti pubblici e istituzioni militari; candidatura aperta fino al 28 settembre 2026.",
+      "checks": [
+        "Scadenza candidatura 28 settembre 2026",
+        "Esperienza non richiesta"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-25T15:24:30+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "talent-tree-junior-tender-office-assistant-4468972584",
+      "date": "2026-09-25",
+      "company": "Talent Tree Consulting",
+      "title": "Junior Tender Office Assistant",
+      "location": "Milano",
+      "workMode": "Non dichiarato",
+      "contract": "Apprendistato o stage · full time",
+      "salary": "22.000–24.000 €",
+      "category": "Tender",
+      "score": 8.5,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/junior-tender-office-assistant-at-talent-tree-consulting-s-r-l-4468972584",
+      "summary": "Supporto alla documentazione di gara, monitoraggio MEPA, offerte tecniche ed economiche, reportistica, archivi e scadenze; ruolo junior ma fortemente aderente alle competenze trasferibili.",
+      "checks": [
+        "Inquadramento junior",
+        "Buona conoscenza dell'inglese"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-25T15:24:30+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
@@ -2118,6 +2256,81 @@
         "queriesRun": 123,
         "newJobs": 5,
         "activeJobs": 87
+      },
+      "15:00": {
+        "scheduledFor": "2026-09-25T15:00:00+02:00",
+        "completedAt": "2026-09-25T15:24:30+02:00",
+        "status": "partial",
+        "requiredSourcesTotal": 35,
+        "requiredSourcesChecked": 32,
+        "sourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed",
+          "Monster",
+          "Randstad",
+          "Adecco",
+          "Manpower",
+          "Gi Group/Grafton",
+          "Michael Page",
+          "Page Personnel",
+          "Openjobmetis",
+          "Synergie",
+          "Orienta",
+          "Lavoropiù",
+          "Jobrapido",
+          "Jooble",
+          "Talent.com",
+          "Glassdoor Jobs",
+          "Careerjet",
+          "Trovolavoro",
+          "Bakeca Lavoro",
+          "Helplavoro",
+          "Experis",
+          "Umana",
+          "Ali Lavoro",
+          "Etjca",
+          "MAW",
+          "Humangest",
+          "ADHR Group",
+          "Staff S.p.A.",
+          "Atempo",
+          "Toscana Lavoro/ARTI Toscana",
+          "inPA"
+        ],
+        "sourcesUnavailable": [
+          {
+            "name": "InfoJobs",
+            "reason": "Portale italiano chiuso; tentati accesso diretto e quattro fallback indicizzati nazionali per gare, sales support, inside sales ed eventi senza contenuti correnti verificabili."
+          },
+          {
+            "name": "Hays",
+            "reason": "Ricerca nativa non verificabile; quattro fallback site: nazionali su tender, back office, inside sales ed eventi non hanno restituito annunci italiani correnti affidabili."
+          },
+          {
+            "name": "During",
+            "reason": "Ricerca nativa non verificabile; quattro fallback site: nazionali su gare, back office, operations ed eventi non hanno restituito pagine correnti affidabili."
+          }
+        ],
+        "extraSourcesChecked": [
+          "MADx Careers / Factorial",
+          "PwC Careers",
+          "Accenture Careers",
+          "Avanade Careers",
+          "Siemens Careers",
+          "Lenovo Careers",
+          "TeamSystem Careers",
+          "TD SYNNEX Careers",
+          "Zucchetti Careers",
+          "Salesforce Careers",
+          "Workday",
+          "SuccessFactors",
+          "Greenhouse",
+          "Lever",
+          "Taleo"
+        ],
+        "queriesRun": 124,
+        "newJobs": 6,
+        "activeJobs": 93
       }
     }
   },
