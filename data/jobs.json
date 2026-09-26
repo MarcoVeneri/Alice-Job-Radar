@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T15:24:30+02:00",
+  "generatedAt": "2026-09-26T08:13:20+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -2188,14 +2188,83 @@
       "active": true,
       "firstSeenAt": "2026-09-25T15:24:30+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "seltis-tendering-specialist-4469125947",
+      "date": "2026-09-26",
+      "company": "Seltis Hub",
+      "title": "Tendering Specialist / Tender & Public Procurement Specialist",
+      "location": "Santa Palomba (RM)",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · durata non dichiarata",
+      "salary": "45.000–55.000 €",
+      "category": "Tender",
+      "score": 10,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/tendering-specialist-at-seltis-hub-4469125947",
+      "summary": "Gestione completa di gare pubbliche e private nel farmaceutico: scouting su portali e-procurement, analisi bandi, documentazione amministrativa, chiarimenti, post-aggiudicazione, contratti e reportistica.",
+      "checks": [
+        "Richiesti almeno 3 anni nelle gare",
+        "Preferenza per pharma, healthcare o medical device"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-26T08:13:20+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "lhh-specialista-ufficio-gare-energy-servizi-4468655871",
+      "date": "2026-09-26",
+      "company": "LHH",
+      "title": "Specialista Ufficio Gare Energy e Servizi",
+      "location": "Roma Centro",
+      "workMode": "Ibrido · 2 giorni di smart working a settimana",
+      "contract": "Full time · durata non dichiarata",
+      "salary": "35.000–40.000 €",
+      "category": "Tender",
+      "score": 9.8,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/specialista-ufficio-gare-energy-e-servizi-at-lhh-4468655871",
+      "summary": "Coordinamento di offerte tecnico-economiche per gare, concessioni e project financing; analisi di bandi e capitolati, raccolta dei contributi interni, pricing e richieste di chiarimento.",
+      "checks": [
+        "Componente economico-tecnica significativa",
+        "Ticket da 8 €"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-26T08:13:20+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "tiffany-events-coordinator-southern-europe-4453456174",
+      "date": "2026-09-26",
+      "company": "Tiffany & Co.",
+      "title": "Events Coordinator, Project Management - Southern Europe",
+      "location": "Milano",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · CCNL Terziario, Distribuzione e Servizi",
+      "salary": "Da 34.000 € + possibile bonus",
+      "category": "Eventi",
+      "score": 8.4,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/events-coordinator-project-management-southern-europe-at-tiffany-co-4453456174",
+      "summary": "Gestione end-to-end di eventi e attivazioni per il Sud Europa, coordinamento fornitori, logistica, inviti, budget, comunicazioni e realizzazione on-site.",
+      "checks": [
+        "Richiesti almeno 5 anni in eventi retail o hospitality",
+        "Laurea/Master in Marketing ed Eventi e inglese fluente"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-26T08:13:20+02:00",
+      "firstSeenRun": "08:00"
     }
   ],
   "audit": {
-    "date": "2026-09-25",
+    "date": "2026-09-26",
     "runs": {
       "08:00": {
-        "scheduledFor": "2026-09-25T08:00:00+02:00",
-        "completedAt": "2026-09-25T08:07:54+02:00",
+        "scheduledFor": "2026-09-26T08:00:00+02:00",
+        "completedAt": "2026-09-26T08:13:20+02:00",
         "status": "partial",
         "requiredSourcesTotal": 35,
         "requiredSourcesChecked": 32,
@@ -2236,101 +2305,46 @@
         "sourcesUnavailable": [
           {
             "name": "InfoJobs",
-            "reason": "Il portale italiano è ufficialmente chiuso; accesso diretto e tre fallback nazionali distinti non restituiscono un catalogo corrente verificabile."
+            "reason": "La pagina ufficiale conferma che la piattaforma italiana è chiusa; tentati anche quattro fallback nazionali per gare, operations, inside sales ed eventi."
           },
           {
             "name": "Hays",
-            "reason": "Accesso diretto non verificabile; tre query domain-restricted nazionali distinte non hanno permesso di verificare in modo affidabile il catalogo italiano corrente."
+            "reason": "Ricerca nativa non accessibile in modo affidabile; quattro fallback domain-restricted nazionali non hanno consentito una verifica corrente sufficientemente solida."
           },
           {
             "name": "During",
-            "reason": "Accesso diretto non verificabile; tre fallback nazionali distinti non hanno restituito pagine di offerta correnti verificabili sul dominio."
+            "reason": "Ricerca nativa non accessibile in modo affidabile; quattro fallback domain-restricted nazionali non hanno consentito una verifica corrente sufficientemente solida."
           }
         ],
         "extraSourcesChecked": [
-          "LinkedIn Jobs – ricerche nazionali indipendenti per Tender/Bid/Proposal, Sales Operations, Inside Sales ed Eventi",
-          "Randstad – pagine originali specifiche e ancora aperte verificate per cinque offerte",
-          "Career page/ATS nazionali di Accenture, Avanade, Siemens, Lenovo, TeamSystem, TD SYNNEX, Microsoft, Salesforce, Vodafone, Reply, Engineering, Deda, Cisco e Oracle",
-          "Workday, Greenhouse, Lever e SuccessFactors – ricerche nazionali domain-restricted"
-        ],
-        "queriesRun": 123,
-        "newJobs": 5,
-        "activeJobs": 87
-      },
-      "15:00": {
-        "scheduledFor": "2026-09-25T15:00:00+02:00",
-        "completedAt": "2026-09-25T15:24:30+02:00",
-        "status": "partial",
-        "requiredSourcesTotal": 35,
-        "requiredSourcesChecked": 32,
-        "sourcesChecked": [
-          "LinkedIn Jobs",
-          "Indeed",
-          "Monster",
-          "Randstad",
-          "Adecco",
-          "Manpower",
-          "Gi Group/Grafton",
-          "Michael Page",
-          "Page Personnel",
-          "Openjobmetis",
-          "Synergie",
-          "Orienta",
-          "Lavoropiù",
-          "Jobrapido",
-          "Jooble",
-          "Talent.com",
-          "Glassdoor Jobs",
-          "Careerjet",
-          "Trovolavoro",
-          "Bakeca Lavoro",
-          "Helplavoro",
-          "Experis",
-          "Umana",
-          "Ali Lavoro",
-          "Etjca",
-          "MAW",
-          "Humangest",
-          "ADHR Group",
-          "Staff S.p.A.",
-          "Atempo",
-          "Toscana Lavoro/ARTI Toscana",
-          "inPA"
-        ],
-        "sourcesUnavailable": [
-          {
-            "name": "InfoJobs",
-            "reason": "Portale italiano chiuso; tentati accesso diretto e quattro fallback indicizzati nazionali per gare, sales support, inside sales ed eventi senza contenuti correnti verificabili."
-          },
-          {
-            "name": "Hays",
-            "reason": "Ricerca nativa non verificabile; quattro fallback site: nazionali su tender, back office, inside sales ed eventi non hanno restituito annunci italiani correnti affidabili."
-          },
-          {
-            "name": "During",
-            "reason": "Ricerca nativa non verificabile; quattro fallback site: nazionali su gare, back office, operations ed eventi non hanno restituito pagine correnti affidabili."
-          }
-        ],
-        "extraSourcesChecked": [
-          "MADx Careers / Factorial",
-          "PwC Careers",
-          "Accenture Careers",
+          "Seltis Hub",
+          "Tiffany & Co.",
+          "RINA",
           "Avanade Careers",
-          "Siemens Careers",
-          "Lenovo Careers",
+          "Accenture Careers",
+          "Microsoft Careers",
           "TeamSystem Careers",
+          "Lenovo Careers",
+          "Siemens Careers",
           "TD SYNNEX Careers",
           "Zucchetti Careers",
           "Salesforce Careers",
+          "TIM Careers",
+          "SAP Careers",
+          "DXC Careers",
+          "NTT DATA Careers",
+          "Reply Careers",
+          "Leonardo Careers",
+          "Thales Careers",
           "Workday",
           "SuccessFactors",
           "Greenhouse",
           "Lever",
           "Taleo"
         ],
-        "queriesRun": 124,
-        "newJobs": 6,
-        "activeJobs": 93
+        "queriesRun": 195,
+        "newJobs": 3,
+        "activeJobs": 96
       }
     }
   },
