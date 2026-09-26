@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T08:13:20+02:00",
+  "generatedAt": "2026-09-26T15:21:30+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -2257,6 +2257,98 @@
       "active": true,
       "firstSeenAt": "2026-09-26T08:13:20+02:00",
       "firstSeenRun": "08:00"
+    },
+    {
+      "id": "iconsulting-tender-specialist-4472056472",
+      "date": "2026-09-26",
+      "company": "ICONSULTING",
+      "title": "Tender Specialist",
+      "location": "Roma Centro",
+      "workMode": "Ibrido e flessibile",
+      "contract": "Tempo indeterminato · full time · CCNL Commercio",
+      "salary": "30.000–35.000 €",
+      "category": "Tender",
+      "score": 10,
+      "source": "LinkedIn Jobs / ICONSULTING",
+      "url": "https://it.linkedin.com/jobs/view/tender-specialist-at-iconsulting-4472056472",
+      "summary": "Gestione end-to-end di gare pubbliche e private: scouting, analisi documenti, adempimenti amministrativi, portali e-procurement, soccorso istruttorio, post-aggiudicazione, albi fornitori e contratti.",
+      "checks": [
+        "Richiesti 2–3 anni nelle gare",
+        "Conoscenza del D.Lgs. 36/2023"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-26T15:21:30+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "lutech-proposal-manager-public-sector-4442662261",
+      "date": "2026-09-26",
+      "company": "Lutech",
+      "title": "Proposal Manager | Public Sector",
+      "location": "Roma",
+      "workMode": "Ibrido",
+      "contract": "Full time · durata non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Tender",
+      "score": 9.8,
+      "source": "LinkedIn Jobs / Lutech",
+      "url": "https://it.linkedin.com/jobs/view/proposal-manager-public-sector-at-lutech-4442662261",
+      "summary": "Analisi dei documenti di gara, pianificazione e redazione dell'offerta tecnica, coordinamento degli stakeholder, compliance, chiarimenti e attività post-aggiudicazione fino alla contrattualizzazione.",
+      "checks": [
+        "Richiesti almeno 3 anni nel ruolo",
+        "Laurea richiesta"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-26T15:21:30+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "technical-services-specialista-ufficio-gare-4471616621",
+      "date": "2026-09-26",
+      "company": "Technical Services Srl",
+      "title": "Specialista Ufficio Gare",
+      "location": "Guidonia Montecelio (RM)",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · durata non dichiarata",
+      "salary": "Circa 35.000 €",
+      "category": "Tender",
+      "score": 9.7,
+      "source": "LinkedIn Jobs / Technical Services",
+      "url": "https://it.linkedin.com/jobs/view/specialista-ufficio-gare-at-technical-services-srl-4471616621",
+      "summary": "Presidio dell'intero ciclo di gara pubblica, documentazione amministrativa, RTI, avvalimento e subappalto, caricamenti su portali e-procurement e reportistica.",
+      "checks": [
+        "Richiesti almeno 3 anni",
+        "Preferita esperienza RFI, verde pubblico o manutenzione"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-26T15:21:30+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "michael-page-proposal-manager-aerospace-defense-4470166243",
+      "date": "2026-09-26",
+      "company": "Michael Page",
+      "title": "Proposal Manager – Settore Aerospazio e Difesa",
+      "location": "Roma / remoto",
+      "workMode": "Flessibile · remoto previsto",
+      "contract": "Full time · CCNL Metalmeccanico · durata non dichiarata",
+      "salary": "40.000–50.000 € + 5.000 € welfare",
+      "category": "Tender",
+      "score": 8.8,
+      "source": "LinkedIn Jobs / Michael Page",
+      "url": "https://it.linkedin.com/jobs/view/proposal-manager-settore-aerospazio-e-difesa-at-michael-page-4470166243",
+      "summary": "Monitoraggio di gare nazionali e internazionali, RFI/RFP/RFQ, compliance matrix, contenuti tecnico-commerciali, partner, contratti e presentazione delle offerte.",
+      "checks": [
+        "Richiesti almeno 5 anni in aerospace/defense",
+        "Inglese ottimo e laurea magistrale richiesti"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-26T15:21:30+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
@@ -2345,6 +2437,90 @@
         "queriesRun": 195,
         "newJobs": 3,
         "activeJobs": 96
+      },
+      "15:00": {
+        "scheduledFor": "2026-09-26T15:00:00+02:00",
+        "completedAt": "2026-09-26T15:21:30+02:00",
+        "status": "partial",
+        "requiredSourcesTotal": 35,
+        "requiredSourcesChecked": 32,
+        "sourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed",
+          "Monster",
+          "Randstad",
+          "Adecco",
+          "Manpower",
+          "Gi Group/Grafton",
+          "Michael Page",
+          "Page Personnel",
+          "Openjobmetis",
+          "Synergie",
+          "Orienta",
+          "Lavoropiù",
+          "Jobrapido",
+          "Jooble",
+          "Talent.com",
+          "Glassdoor Jobs",
+          "Careerjet",
+          "Trovolavoro",
+          "Bakeca Lavoro",
+          "Helplavoro",
+          "Experis",
+          "Umana",
+          "Ali Lavoro",
+          "Etjca",
+          "MAW",
+          "Humangest",
+          "ADHR Group",
+          "Staff S.p.A.",
+          "Atempo",
+          "Toscana Lavoro/ARTI Toscana",
+          "inPA"
+        ],
+        "sourcesUnavailable": [
+          {
+            "name": "InfoJobs",
+            "reason": "La pagina ufficiale conferma la chiusura della piattaforma italiana; tentati anche accesso diretto e quattro fallback nazionali per gare, operations, inside sales ed eventi."
+          },
+          {
+            "name": "Hays",
+            "reason": "Ricerca nativa non accessibile in modo affidabile; tentati accesso diretto e quattro fallback domain-restricted nazionali senza riscontri correnti sufficientemente solidi."
+          },
+          {
+            "name": "During",
+            "reason": "Ricerca nativa non accessibile in modo affidabile; tentati accesso diretto e quattro fallback domain-restricted nazionali senza riscontri correnti sufficientemente solidi."
+          }
+        ],
+        "extraSourcesChecked": [
+          "ICONSULTING Careers",
+          "Lutech Careers",
+          "Technical Services",
+          "Avanade Careers",
+          "Accenture Careers",
+          "Microsoft Careers",
+          "TeamSystem Careers",
+          "Lenovo Careers",
+          "Siemens Careers",
+          "TD SYNNEX Careers",
+          "Zucchetti Careers",
+          "Salesforce Careers",
+          "TIM Careers",
+          "SAP Careers",
+          "DXC Careers",
+          "NTT DATA Careers",
+          "Reply Careers",
+          "Leonardo Careers",
+          "Thales Careers",
+          "Workday",
+          "SuccessFactors",
+          "Greenhouse",
+          "Lever",
+          "Taleo"
+        ],
+        "queriesRun": 169,
+        "newJobs": 4,
+        "activeJobs": 100
       }
     }
   },
