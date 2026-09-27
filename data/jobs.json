@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T08:18:30+02:00",
+  "generatedAt": "2026-09-27T15:02:49+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -2466,6 +2466,126 @@
       "active": true,
       "firstSeenAt": "2026-09-27T08:18:30+02:00",
       "firstSeenRun": "08:00"
+    },
+    {
+      "id": "manpower-back-office-commerciale-ufficio-gare-pomezia-1045162",
+      "date": "2026-09-22",
+      "company": "Azienda cliente Manpower",
+      "title": "Back Office Commerciale Specialist / Ufficio Gare",
+      "location": "Pomezia (RM)",
+      "workMode": "In presenza",
+      "contract": "Somministrazione a tempo indeterminato · full time",
+      "salary": "25.000–28.000 €",
+      "category": "Tender",
+      "score": 10,
+      "source": "Manpower",
+      "url": "https://www.manpower.it/it/annuncio-lavoro/biomedical-e-healthcare/sector/ufficio-gare/1045162",
+      "summary": "Ruolo nel Sales Italia con ciclo ordine, offerte e preventivi, CRM/ERP, gare pubbliche e private, documentazione amministrativa, tecnica ed economica e portali telematici.",
+      "checks": [
+        "Richiesti 1–3 anni in back office, customer service, ordini o gare",
+        "Preferita esperienza biomedicale o sanitaria",
+        "Candidatura aperta fino al 31 ottobre 2026"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-27T15:02:49+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "manpower-addetto-ufficio-gare-genova-1009547",
+      "date": "2026-09-07",
+      "company": "Azienda cliente Manpower",
+      "title": "Addetto/a Ufficio Gare",
+      "location": "Genova",
+      "workMode": "In presenza",
+      "contract": "Tempo indeterminato · inserimento diretto · full time",
+      "salary": "25.000–26.500 €",
+      "category": "Tender",
+      "score": 9.7,
+      "source": "Manpower",
+      "url": "https://www.manpower.it/it/annuncio-lavoro/consumer-products/amministrazione/addettoa-ufficio-gare/1009547",
+      "summary": "Redazione di relazioni tecniche, reperimento e analisi di bandi, disciplinari e capitolati, supporto alle offerte economiche e attività operative dell'ufficio gare.",
+      "checks": [
+        "Settore facility management",
+        "Candidatura aperta fino al 30 settembre 2026",
+        "Formazione prevista se l'esperienza specifica non è completa"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-27T15:02:49+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "etjca-impiegato-ufficio-gare-genova-108958",
+      "date": "2026-09-09",
+      "company": "Azienda cliente Etjca",
+      "title": "Impiegato/a Ufficio Gare",
+      "location": "Genova",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato 1 anno · full time · CCNL Chimica Industria",
+      "salary": "30.000–38.000 €",
+      "category": "Tender",
+      "score": 9.8,
+      "source": "Etjca",
+      "url": "https://career.etjca.it/job/view-job.php?id=108958-impiegato-a-ufficio-gare-genova&language=it",
+      "summary": "Gestione operativa e documentale di gare nel farmaceutico: portali, scadenze, bandi e capitolati, caricamento documenti, prezzi, offerte, post-aggiudicazione e tracciabilità.",
+      "checks": [
+        "Laurea richiesta",
+        "Esperienza pregressa nel ruolo",
+        "Disponibilità immediata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-27T15:02:49+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "etjca-responsabile-ufficio-gare-cagliari-108846",
+      "date": "2026-09-07",
+      "company": "Azienda cliente Etjca",
+      "title": "Responsabile Ufficio Gare d'Appalto",
+      "location": "Area di Cagliari",
+      "workMode": "In presenza",
+      "contract": "Full time · CCNL e livello commisurati all'esperienza",
+      "salary": "35.000–40.000 €",
+      "category": "Tender",
+      "score": 9.7,
+      "source": "Etjca",
+      "url": "https://career.etjca.it/job/view-job.php?id=108846-responsabile-ufficio-gare-d-appalto-cagliari&language=it",
+      "summary": "Gestione completa di gare pubbliche e private, portali e albi fornitori, qualificazioni, scadenze, documentazione amministrativa, chiarimenti e attività post-aggiudicazione fino ai contratti.",
+      "checks": [
+        "Richiesti preferibilmente oltre 5 anni di esperienza",
+        "Preferita esperienza in servizi ambientali, industriali o multiservizi",
+        "Candidatura aperta fino al 31 ottobre 2026"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-27T15:02:49+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "randstad-sales-administration-tender-support-roma-cx570435",
+      "date": "2026-07-31",
+      "company": "Azienda cliente Randstad",
+      "title": "Sales Administration & Tender Support",
+      "location": "Roma",
+      "workMode": "Ibrido · 12 giorni di smart working al mese",
+      "contract": "Tempo determinato 12 mesi · inserimento diretto · full time",
+      "salary": "25.000–27.800 €",
+      "category": "Tender",
+      "score": 9.8,
+      "source": "Randstad Italia",
+      "url": "https://www.randstad.it/offerte-lavoro/sales-administration-tender-support_roma_241ad4b3-8af7-4e31-a21d-dc7c3e38d657/",
+      "summary": "Sales administration, gare e contratti: monitoraggio dei portali, documentazione e scadenze, CRM, comunicazioni ai clienti, mandati di agenzia, premi e provvigioni.",
+      "checks": [
+        "Laurea economica richiesta",
+        "Richiesti circa 2 anni di esperienza",
+        "Candidatura in scadenza a fine settembre 2026"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-27T15:02:49+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
@@ -2548,6 +2668,79 @@
         "queriesRun": 198,
         "newJobs": 5,
         "activeJobs": 105
+      },
+      "15:00": {
+        "scheduledFor": "2026-09-27T15:00:00+02:00",
+        "completedAt": "2026-09-27T15:02:49+02:00",
+        "status": "partial",
+        "requiredSourcesTotal": 35,
+        "requiredSourcesChecked": 32,
+        "sourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed",
+          "Monster",
+          "Randstad",
+          "Adecco",
+          "Manpower",
+          "Gi Group/Grafton",
+          "Michael Page",
+          "Page Personnel",
+          "Openjobmetis",
+          "Synergie",
+          "Orienta",
+          "Lavoropiù",
+          "Jobrapido",
+          "Jooble",
+          "Talent.com",
+          "Glassdoor Jobs",
+          "Careerjet",
+          "Trovolavoro",
+          "Bakeca Lavoro",
+          "Helplavoro",
+          "Experis",
+          "Umana",
+          "Ali Lavoro",
+          "Etjca",
+          "MAW",
+          "Humangest",
+          "ADHR Group",
+          "Staff S.p.A.",
+          "Atempo",
+          "Toscana Lavoro/ARTI Toscana",
+          "inPA"
+        ],
+        "sourcesUnavailable": [
+          {
+            "name": "InfoJobs",
+            "reason": "La piattaforma italiana risulta chiusa; tentati accesso diretto e quattro fallback nazionali distinti per gare, sales operations/inside sales, back office ed eventi senza contenuti correnti verificabili."
+          },
+          {
+            "name": "Hays",
+            "reason": "Accesso diretto e quattro fallback nazionali distinti, seguiti da un secondo passaggio mirato, hanno restituito soltanto pagine datate o non verificabili come offerte correnti."
+          },
+          {
+            "name": "During",
+            "reason": "Accesso diretto e quattro fallback nazionali distinti, seguiti da un secondo passaggio mirato, hanno restituito soltanto annunci storici e nessun contenuto corrente affidabile."
+          }
+        ],
+        "extraSourcesChecked": [
+          "Accenture Careers",
+          "Avanade Careers",
+          "Microsoft Careers",
+          "TeamSystem Careers",
+          "Lenovo Careers",
+          "Siemens Careers",
+          "TD SYNNEX Careers",
+          "Zucchetti Careers",
+          "Salesforce Careers",
+          "SAP Careers",
+          "TIM Careers",
+          "NTT DATA Careers",
+          "DXC Careers"
+        ],
+        "queriesRun": 195,
+        "newJobs": 5,
+        "activeJobs": 110
       }
     }
   },
