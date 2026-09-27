@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T15:21:30+02:00",
+  "generatedAt": "2026-09-27T08:18:30+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -2349,14 +2349,131 @@
       "active": true,
       "firstSeenAt": "2026-09-26T15:21:30+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "adecco-ufficio-gare-contratti-roma-dc671114",
+      "date": "2026-09-27",
+      "company": "Azienda cliente Adecco",
+      "title": "Addetto/a Ufficio Gare & Contratti",
+      "location": "Roma (Laurentina)",
+      "workMode": "In presenza",
+      "contract": "Tempo indeterminato · full time · CCNL Metalmeccanico Industria B1",
+      "salary": "Circa 40.000 €",
+      "category": "Tender",
+      "score": 10,
+      "source": "Adecco",
+      "url": "https://www.adecco.com/it-it/cerca-lavoro/addetto-a-ufficio-gare-contratti-roma-roma/dc671114-ed67-4f8a-b3bc-34d78e0bf250",
+      "summary": "Gestione operativa di gare, contratti e qualificazioni: bandi, documentazione amministrativa, scadenze, portali telematici, RTI, avvalimenti, subappalti, post-aggiudicazione, SOA e garanzie.",
+      "checks": [
+        "Esperienza consolidata richiesta",
+        "Nessuno smart working previsto"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-27T08:18:30+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "humangest-impiegato-ufficio-gare-napoli-97263",
+      "date": "2026-09-25",
+      "company": "Azienda cliente Humangest",
+      "title": "Impiegato/a Ufficio Gare",
+      "location": "Napoli",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo determinato · full time · CCNL Metalmeccanica Industria",
+      "salary": "24.000–30.000 €",
+      "category": "Tender",
+      "score": 9.8,
+      "source": "Humangest",
+      "url": "https://lavoro.humangest.it/job/view-job.php?id=97263-impiegato-a-ufficio-gare-napoli&language=it",
+      "summary": "Monitoraggio gare pubbliche e private, documentazione di gara, apertura commesse, registrazione di tender e offerte con Sales, CRM e gestione documentale nel settore energia.",
+      "checks": [
+        "Laurea magistrale in Economia o Giurisprudenza richiesta",
+        "Inglese almeno B2"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-27T08:18:30+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "umana-impiegato-ufficio-gare-modugno-313287",
+      "date": "2026-08-24",
+      "company": "Azienda cliente Umana",
+      "title": "Impiegato Ufficio Gare",
+      "location": "Modugno (BA)",
+      "workMode": "Non dichiarato",
+      "contract": "Non dichiarato",
+      "salary": "27.000–30.000 €",
+      "category": "Tender",
+      "score": 9.6,
+      "source": "Umana",
+      "url": "https://www.umana.it/per-le-persone/offerte-di-lavoro/impiegato-ufficio-gare/313287/",
+      "summary": "Gestione di gare e documenti, preparazione e presentazione delle offerte, coordinamento con il team di progetto, strategie di gara, analisi rischi e conformità normativa.",
+      "checks": [
+        "Candidatura indicata aperta fino al 30 settembre 2026",
+        "Contratto e smart working non dichiarati"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-27T08:18:30+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "manpower-impiegato-tecnico-ufficio-gare-roma-1042559",
+      "date": "2026-09-16",
+      "company": "Azienda cliente Manpower",
+      "title": "Impiegato Tecnico Ufficio Gare",
+      "location": "Roma Tiburtina",
+      "workMode": "In presenza",
+      "contract": "Tempo indeterminato · full time · CCNL Commercio livello 1–2",
+      "salary": "35.000–43.000 €",
+      "category": "Tender",
+      "score": 9.3,
+      "source": "Manpower",
+      "url": "https://www.manpower.it/it/annuncio-lavoro/costruzioni/amministrazione/impiegato-tecnico-ufficio-gare/1042559",
+      "summary": "Scouting e analisi di gare pubbliche e private, documentazione amministrativa, rapporti con stazioni appaltanti, e-procurement, albi fornitori, SOA e ISO.",
+      "checks": [
+        "Candidatura aperta fino al 30 settembre 2026",
+        "Preferiti titolo tecnico ed esperienza in edilizia/restauro",
+        "Richiesto uso di software per computo metrico"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-27T08:18:30+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "openjobmetis-ufficio-gare-tecnico-san-benedetto-136830",
+      "date": "2026-09-24",
+      "company": "Azienda cliente Openjobmetis",
+      "title": "Addetta/Addetto Ufficio Gare – Ufficio Tecnico",
+      "location": "San Benedetto del Tronto (AP)",
+      "workMode": "Ibrido · frequenza non dichiarata",
+      "contract": "Inserimento diretto stabile · iniziale determinato o indeterminato · full time",
+      "salary": "24.000–28.000 €",
+      "category": "Tender",
+      "score": 7.5,
+      "source": "Openjobmetis",
+      "url": "https://www.openjobmetis.it/it/candidati/offerte-di-lavoro/addetto-ufficio-gare-ufficio-tecnico-136830",
+      "summary": "Supporto a gare, gestione offerte dei fornitori, scouting, aggiudicazione, trattative e negoziazione contrattuale, con coordinamento di Site e Project Manager.",
+      "checks": [
+        "Ruolo tecnico-procurement più che amministrativo",
+        "Richiesti AutoCAD, inglese fluente e titolo tecnico",
+        "Smart working previsto ma frequenza non dichiarata"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-27T08:18:30+02:00",
+      "firstSeenRun": "08:00"
     }
   ],
   "audit": {
-    "date": "2026-09-26",
+    "date": "2026-09-27",
     "runs": {
       "08:00": {
-        "scheduledFor": "2026-09-26T08:00:00+02:00",
-        "completedAt": "2026-09-26T08:13:20+02:00",
+        "scheduledFor": "2026-09-27T08:00:00+02:00",
+        "completedAt": "2026-09-27T08:18:30+02:00",
         "status": "partial",
         "requiredSourcesTotal": 35,
         "requiredSourcesChecked": 32,
@@ -2397,23 +2514,20 @@
         "sourcesUnavailable": [
           {
             "name": "InfoJobs",
-            "reason": "La pagina ufficiale conferma che la piattaforma italiana è chiusa; tentati anche quattro fallback nazionali per gare, operations, inside sales ed eventi."
+            "reason": "La pagina ufficiale conferma la chiusura della piattaforma italiana; tentati accesso diretto e quattro fallback nazionali per gare, operations, inside sales ed eventi."
           },
           {
             "name": "Hays",
-            "reason": "Ricerca nativa non accessibile in modo affidabile; quattro fallback domain-restricted nazionali non hanno consentito una verifica corrente sufficientemente solida."
+            "reason": "Ricerca nativa non verificabile in modo affidabile; accesso diretto, quattro fallback nazionali e secondo passaggio non hanno restituito pagine correnti sufficientemente solide."
           },
           {
             "name": "During",
-            "reason": "Ricerca nativa non accessibile in modo affidabile; quattro fallback domain-restricted nazionali non hanno consentito una verifica corrente sufficientemente solida."
+            "reason": "Ricerca nativa non verificabile in modo affidabile; accesso diretto, quattro fallback nazionali e secondo passaggio hanno restituito soltanto annunci datati, non contenuti correnti affidabili."
           }
         ],
         "extraSourcesChecked": [
-          "Seltis Hub",
-          "Tiffany & Co.",
-          "RINA",
-          "Avanade Careers",
           "Accenture Careers",
+          "Avanade Careers",
           "Microsoft Careers",
           "TeamSystem Careers",
           "Lenovo Careers",
@@ -2421,106 +2535,19 @@
           "TD SYNNEX Careers",
           "Zucchetti Careers",
           "Salesforce Careers",
-          "TIM Careers",
           "SAP Careers",
-          "DXC Careers",
+          "TIM Careers",
           "NTT DATA Careers",
-          "Reply Careers",
-          "Leonardo Careers",
-          "Thales Careers",
+          "DXC Careers",
           "Workday",
           "SuccessFactors",
           "Greenhouse",
           "Lever",
           "Taleo"
         ],
-        "queriesRun": 195,
-        "newJobs": 3,
-        "activeJobs": 96
-      },
-      "15:00": {
-        "scheduledFor": "2026-09-26T15:00:00+02:00",
-        "completedAt": "2026-09-26T15:21:30+02:00",
-        "status": "partial",
-        "requiredSourcesTotal": 35,
-        "requiredSourcesChecked": 32,
-        "sourcesChecked": [
-          "LinkedIn Jobs",
-          "Indeed",
-          "Monster",
-          "Randstad",
-          "Adecco",
-          "Manpower",
-          "Gi Group/Grafton",
-          "Michael Page",
-          "Page Personnel",
-          "Openjobmetis",
-          "Synergie",
-          "Orienta",
-          "Lavoropiù",
-          "Jobrapido",
-          "Jooble",
-          "Talent.com",
-          "Glassdoor Jobs",
-          "Careerjet",
-          "Trovolavoro",
-          "Bakeca Lavoro",
-          "Helplavoro",
-          "Experis",
-          "Umana",
-          "Ali Lavoro",
-          "Etjca",
-          "MAW",
-          "Humangest",
-          "ADHR Group",
-          "Staff S.p.A.",
-          "Atempo",
-          "Toscana Lavoro/ARTI Toscana",
-          "inPA"
-        ],
-        "sourcesUnavailable": [
-          {
-            "name": "InfoJobs",
-            "reason": "La pagina ufficiale conferma la chiusura della piattaforma italiana; tentati anche accesso diretto e quattro fallback nazionali per gare, operations, inside sales ed eventi."
-          },
-          {
-            "name": "Hays",
-            "reason": "Ricerca nativa non accessibile in modo affidabile; tentati accesso diretto e quattro fallback domain-restricted nazionali senza riscontri correnti sufficientemente solidi."
-          },
-          {
-            "name": "During",
-            "reason": "Ricerca nativa non accessibile in modo affidabile; tentati accesso diretto e quattro fallback domain-restricted nazionali senza riscontri correnti sufficientemente solidi."
-          }
-        ],
-        "extraSourcesChecked": [
-          "ICONSULTING Careers",
-          "Lutech Careers",
-          "Technical Services",
-          "Avanade Careers",
-          "Accenture Careers",
-          "Microsoft Careers",
-          "TeamSystem Careers",
-          "Lenovo Careers",
-          "Siemens Careers",
-          "TD SYNNEX Careers",
-          "Zucchetti Careers",
-          "Salesforce Careers",
-          "TIM Careers",
-          "SAP Careers",
-          "DXC Careers",
-          "NTT DATA Careers",
-          "Reply Careers",
-          "Leonardo Careers",
-          "Thales Careers",
-          "Workday",
-          "SuccessFactors",
-          "Greenhouse",
-          "Lever",
-          "Taleo"
-        ],
-        "queriesRun": 169,
-        "newJobs": 4,
-        "activeJobs": 100
+        "queriesRun": 198,
+        "newJobs": 5,
+        "activeJobs": 105
       }
     }
   },
