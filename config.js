@@ -1,6 +1,6 @@
 window.ALICE_RADAR_CONFIG={
   dataUrl:"./data/jobs.json",
-  appVersion:"6.25",
+  appVersion:"6.26",
   sync:{
     enabled:true,
     url:"https://nlhxjpartgvplythgzrz.supabase.co",
