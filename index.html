@@ -416,7 +416,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.25",sync:{enabled:false}};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.26",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],REMOTE_ROWS=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -439,7 +439,12 @@ function savedState(){try{return JSON.parse(localStorage.getItem(savedKey)||"{}"
 function saveSavedState(v){try{localStorage.setItem(savedKey,JSON.stringify(v))}catch(e){}}
 function getStatus(id){return state()[id]||"Nuova"}
 function isDismissed(id){return !!dismissedState()[id]}
-function isApplied(id){return !!appliedState()[id]}
+function remoteRow(id){return REMOTE_ROWS.find(r=>String(r.job_id)===String(id))||null}
+function isApplied(id){
+ const r=remoteRow(id);
+ if(r)return !!r.applied&&!r.dismissed;
+ return !!appliedState()[id];
+}
 function isSaved(id){return !!savedState()[id]}
 
 function syncEnabled(){return !!(syncCfg.enabled&&syncCfg.url&&syncCfg.publishableKey)}
@@ -521,7 +526,6 @@ async function syncCycle(){
  if(!syncEnabled())return;
  try{
   let rows=await remoteRows();
-  await flushPending();
   rows=await remoteRows();
   replaceLocalFromRemote(rows);
  }catch(e){}
