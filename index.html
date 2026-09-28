@@ -416,10 +416,10 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.23",sync:{enabled:false}};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.24",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
-let DATA=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
+let DATA=[],REMOTE_ROWS=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
 const STATUS=["Nuova","Interessante","Candidata","Colloquio","Scartata"];
 const storeKey="alice-job-radar-status-v3";
 const savedKey="alice-job-radar-saved-v1";
@@ -456,10 +456,10 @@ function captureSyncLink(){
 captureSyncLink();
 
 function syncToken(){try{return localStorage.getItem(syncTokenKey)||""}catch(e){return""}}
-function syncEnabled(){return !!(syncCfg.enabled&&syncCfg.url&&syncCfg.publishableKey&&syncToken())}
+function syncEnabled(){return !!(syncCfg.enabled&&syncCfg.url&&syncCfg.publishableKey)}
 function syncTable(){return String(syncCfg.table||"job_state").replace(/[^a-zA-Z0-9_]/g,"")}
 function syncHeaders(prefer){
- const h={"apikey":syncCfg.publishableKey,"Content-Type":"application/json","x-client-info":"alice-job-radar/"+syncToken()};
+ const h={"apikey":syncCfg.publishableKey,"Content-Type":"application/json","x-client-info":"alice-job-radar/shared"};
  if(prefer)h["Prefer"]=prefer;
  return h;
 }
@@ -508,6 +508,7 @@ async function upsertRows(rows){
  if(!r.ok)throw Error("sync write "+r.status);
 }
 function replaceLocalFromRemote(rows){
+ REMOTE_ROWS=(rows||[]).filter(r=>String(r.job_id)!==syncSentinel);
  const st={},sv={},ap={},di={};
  for(const r of rows||[]){
   if(String(r.job_id)===syncSentinel)continue;
@@ -551,6 +552,30 @@ async function syncCycle(){
   rows=await remoteRows();
   replaceLocalFromRemote(rows);
  }catch(e){}
+}
+
+function mergePersistedCandidates(){
+ const seen=new Set(DATA.map(j=>String(j.id)));
+ for(const r of REMOTE_ROWS){
+  const id=String(r.job_id);
+  if(!r.applied||r.dismissed||seen.has(id))continue;
+  DATA.push({
+   id,
+   company:r.company||"Azienda",
+   title:r.title||"Candidatura salvata",
+   location:"",
+   category:"Candidata",
+   summary:"Candidatura salvata nello storico condiviso.",
+   salary:"",
+   contract:"",
+   score:0,
+   date:"",
+   firstSeenAt:"",
+   url:r.url||"#",
+   persistedCandidate:true
+  });
+  seen.add(id);
+ }
 }
 
 function setStatus(id,v){const s=state();s[id]=v;saveState(s);render();pushJob(id)}
@@ -734,6 +759,7 @@ async function load(){ ui.notice.classList.remove('show');
    if(!r.ok)throw Error('HTTP '+r.status);
    const j=await r.json(); DATA=Array.isArray(j.jobs)?j.jobs:[]; AUDIT=j.audit||null; window.__MANUAL_REFRESH__=j.manualRefresh||null;
    await syncCycle();
+   mergePersistedCandidates();
    renderAudit(AUDIT);
    if(ageHours(j.generatedAt)>36){ui.notice.textContent='La ricerca non risulta aggiornata nelle ultime 36 ore.';ui.notice.classList.add('show')}
    render();
