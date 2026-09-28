@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T23:01:25+02:00",
+  "generatedAt": "2026-09-28T08:05:34+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -1069,14 +1069,86 @@
       "active": true,
       "firstSeenAt": "2026-09-27T23:01:25+02:00",
       "firstSeenRun": "23:01"
+    },
+    {
+      "id": "ati-project-tender-manager-pisa-20260927",
+      "date": "2026-09-27",
+      "company": "ATI Project",
+      "title": "Tender Manager",
+      "location": "Pisa",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · durata non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Tender",
+      "score": 7.2,
+      "source": "ATI Project Careers",
+      "url": "https://atiproject.com/careers/posizioni-aperte/?single=tender-manager",
+      "summary": "Gestione e pianificazione delle commesse di gara pubbliche e private, coordinamento del gruppo di lavoro e dei consulenti, scadenze, budget, qualità della documentazione tecnica e rapporti con partner e mandanti.",
+      "checks": [
+        "Richiesta laurea in Architettura o Ingegneria",
+        "Richiesti 5–7 anni in uffici gare di società di ingegneria/architettura",
+        "Richiesta conoscenza della Suite Adobe"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-28T08:05:34+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "ati-project-tender-specialist-pisa-4432966405",
+      "date": "2026-09-24",
+      "company": "ATI Project",
+      "title": "Tender Specialist",
+      "location": "Pisa / Milano",
+      "workMode": "Non dichiarato · candidatura per la sede di Pisa",
+      "contract": "Full time · durata non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Tender",
+      "score": 6.5,
+      "source": "ATI Project Careers",
+      "url": "https://atiproject.com/careers/posizioni-aperte/?single=tender-specialist",
+      "summary": "Sviluppo tecnico di offerte per gare pubbliche, private e appalti integrati, analisi di bandi e disciplinari, coordinamento di consulenti e fornitori e redazione dei dossier di offerta.",
+      "checks": [
+        "Candidarsi indicando la sede di Pisa",
+        "Richiesta laurea in Ingegneria o Architettura",
+        "Richieste competenze BIM, rendering e computi metrici: ruolo molto tecnico"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-28T08:05:34+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "betamotor-addetto-backoffice-commerciale-rignano-527ad72fe41afc8e",
+      "date": "2026-09-28",
+      "company": "Betamotor",
+      "title": "Addetto Back Office Commerciale",
+      "location": "Rignano sull'Arno (FI)",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo indeterminato · full time",
+      "salary": "Non dichiarato",
+      "category": "Sales Support",
+      "score": 7.8,
+      "source": "Indeed / Betamotor",
+      "url": "https://it.indeed.com/viewjob?jk=527ad72fe41afc8e",
+      "summary": "Gestione ordini a fornitori e clienti internazionali, pratiche d'importazione, fatturazione, pagamenti, insoluti e coordinamento delle attività di marketing.",
+      "checks": [
+        "Richiesta esperienza nel back office commerciale",
+        "Richieste ottima conoscenza di inglese e tedesco",
+        "Verificare modalità di lavoro"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-28T08:05:34+02:00",
+      "firstSeenRun": "08:00"
     }
   ],
   "audit": {
-    "date": "2026-09-27",
+    "date": "2026-09-28",
     "runs": {
       "08:00": {
-        "scheduledFor": "2026-09-27T08:00:00+02:00",
-        "completedAt": "2026-09-27T08:18:30+02:00",
+        "scheduledFor": "2026-09-28T08:00:00+02:00",
+        "completedAt": "2026-09-28T08:05:34+02:00",
         "status": "partial",
         "requiredSourcesTotal": 35,
         "requiredSourcesChecked": 32,
@@ -1117,18 +1189,20 @@
         "sourcesUnavailable": [
           {
             "name": "InfoJobs",
-            "reason": "La pagina ufficiale conferma la chiusura della piattaforma italiana; tentati accesso diretto e quattro fallback nazionali per gare, operations, inside sales ed eventi."
+            "reason": "La pagina ufficiale conferma che la piattaforma italiana è chiusa; tentati accesso diretto e quattro fallback distinti per Toscana e ruoli full remote nazionali."
           },
           {
             "name": "Hays",
-            "reason": "Ricerca nativa non verificabile in modo affidabile; accesso diretto, quattro fallback nazionali e secondo passaggio non hanno restituito pagine correnti sufficientemente solide."
+            "reason": "Accesso diretto non verificabile; quattro fallback distinti per Toscana e full remote, seguiti da un secondo passaggio mirato, non hanno restituito offerte correnti affidabili."
           },
           {
             "name": "During",
-            "reason": "Ricerca nativa non verificabile in modo affidabile; accesso diretto, quattro fallback nazionali e secondo passaggio hanno restituito soltanto annunci datati, non contenuti correnti affidabili."
+            "reason": "Accesso diretto non verificabile; quattro fallback distinti per Toscana e full remote, seguiti da un secondo passaggio mirato, non hanno restituito contenuti correnti affidabili."
           }
         ],
         "extraSourcesChecked": [
+          "ATI Project Careers",
+          "Betamotor Careers/Indeed",
           "Accenture Careers",
           "Avanade Careers",
           "Microsoft Careers",
@@ -1148,83 +1222,10 @@
           "Lever",
           "Taleo"
         ],
-        "queriesRun": 198,
-        "newJobs": 5,
-        "activeJobs": 105
-      },
-      "15:00": {
-        "scheduledFor": "2026-09-27T15:00:00+02:00",
-        "completedAt": "2026-09-27T15:02:49+02:00",
-        "status": "partial",
-        "requiredSourcesTotal": 35,
-        "requiredSourcesChecked": 32,
-        "sourcesChecked": [
-          "LinkedIn Jobs",
-          "Indeed",
-          "Monster",
-          "Randstad",
-          "Adecco",
-          "Manpower",
-          "Gi Group/Grafton",
-          "Michael Page",
-          "Page Personnel",
-          "Openjobmetis",
-          "Synergie",
-          "Orienta",
-          "Lavoropiù",
-          "Jobrapido",
-          "Jooble",
-          "Talent.com",
-          "Glassdoor Jobs",
-          "Careerjet",
-          "Trovolavoro",
-          "Bakeca Lavoro",
-          "Helplavoro",
-          "Experis",
-          "Umana",
-          "Ali Lavoro",
-          "Etjca",
-          "MAW",
-          "Humangest",
-          "ADHR Group",
-          "Staff S.p.A.",
-          "Atempo",
-          "Toscana Lavoro/ARTI Toscana",
-          "inPA"
-        ],
-        "sourcesUnavailable": [
-          {
-            "name": "InfoJobs",
-            "reason": "La piattaforma italiana risulta chiusa; tentati accesso diretto e quattro fallback nazionali distinti per gare, sales operations/inside sales, back office ed eventi senza contenuti correnti verificabili."
-          },
-          {
-            "name": "Hays",
-            "reason": "Accesso diretto e quattro fallback nazionali distinti, seguiti da un secondo passaggio mirato, hanno restituito soltanto pagine datate o non verificabili come offerte correnti."
-          },
-          {
-            "name": "During",
-            "reason": "Accesso diretto e quattro fallback nazionali distinti, seguiti da un secondo passaggio mirato, hanno restituito soltanto annunci storici e nessun contenuto corrente affidabile."
-          }
-        ],
-        "extraSourcesChecked": [
-          "Accenture Careers",
-          "Avanade Careers",
-          "Microsoft Careers",
-          "TeamSystem Careers",
-          "Lenovo Careers",
-          "Siemens Careers",
-          "TD SYNNEX Careers",
-          "Zucchetti Careers",
-          "Salesforce Careers",
-          "SAP Careers",
-          "TIM Careers",
-          "NTT DATA Careers",
-          "DXC Careers"
-        ],
-        "queriesRun": 195,
-        "newJobs": 5,
-        "activeJobs": 39,
-        "note": "Filtro geografico aggiornato dopo il run: mantenute solo offerte in Toscana oppure 100% full remote fuori Toscana."
+        "queriesRun": 206,
+        "newJobs": 3,
+        "activeJobs": 49,
+        "note": "Applicato il filtro geografico: presenza/ibrido solo in Toscana; fuori Toscana solo full remote o remote-first con presenza occasionale verificabile."
       }
     }
   },
