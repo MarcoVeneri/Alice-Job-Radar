@@ -416,7 +416,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.26",sync:{enabled:false}};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.27",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],REMOTE_ROWS=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -437,15 +437,11 @@ function dismissedState(){return objectStore(dismissedKey)}
 function appliedState(){return objectStore(appliedKey)}
 function savedState(){try{return JSON.parse(localStorage.getItem(savedKey)||"{}")}catch(e){return{}}}
 function saveSavedState(v){try{localStorage.setItem(savedKey,JSON.stringify(v))}catch(e){}}
-function getStatus(id){return state()[id]||"Nuova"}
-function isDismissed(id){return !!dismissedState()[id]}
 function remoteRow(id){return REMOTE_ROWS.find(r=>String(r.job_id)===String(id))||null}
-function isApplied(id){
- const r=remoteRow(id);
- if(r)return !!r.applied&&!r.dismissed;
- return !!appliedState()[id];
-}
-function isSaved(id){return !!savedState()[id]}
+function getStatus(id){const r=remoteRow(id);return r&&r.status?r.status:"Nuova"}
+function isDismissed(id){const r=remoteRow(id);return !!(r&&r.dismissed)}
+function isApplied(id){const r=remoteRow(id);return !!(r&&r.applied&&!r.dismissed)}
+function isSaved(id){const r=remoteRow(id);return !!(r&&r.saved)}
 
 function syncEnabled(){return !!(syncCfg.enabled&&syncCfg.url&&syncCfg.publishableKey)}
 function syncTable(){return String(syncCfg.table||"job_state").replace(/[^a-zA-Z0-9_]/g,"")}
@@ -455,32 +451,21 @@ function syncHeaders(prefer){
  return h;
 }
 function syncEndpoint(suffix=""){return String(syncCfg.url||"").replace(/\/$/,"")+"/rest/v1/"+syncTable()+suffix}
-function pendingState(){return objectStore(syncPendingKey)}
-function markPending(id){const p=pendingState();p[String(id)]=new Date().toISOString();writeObjectStore(syncPendingKey,p)}
-function clearPending(id){const p=pendingState();delete p[String(id)];writeObjectStore(syncPendingKey,p)}
 
-function jobRow(id){
- const sid=String(id),j=DATA.find(x=>String(x.id)===sid),d=dismissedState()[sid];
+function jobRow(id,patch={}){
+ const sid=String(id),j=DATA.find(x=>String(x.id)===sid),r=remoteRow(sid)||{};
  return {
   job_id:sid,
-  status:getStatus(sid),
-  saved:isSaved(sid),
-  applied:isApplied(sid),
-  dismissed:!!d,
-  dismissed_at:d&&d.at?d.at:null,
-  company:(d&&d.company)||(j&&j.company)||"",
-  title:(d&&d.title)||(j&&j.title)||"",
-  url:(d&&d.url)||(j&&j.url)||"",
+  status:patch.status!==undefined?patch.status:(r.status||"Nuova"),
+  saved:patch.saved!==undefined?patch.saved:!!r.saved,
+  applied:patch.applied!==undefined?patch.applied:!!r.applied,
+  dismissed:patch.dismissed!==undefined?patch.dismissed:!!r.dismissed,
+  dismissed_at:patch.dismissed_at!==undefined?patch.dismissed_at:(r.dismissed_at||null),
+  company:(j&&j.company)||r.company||"",
+  title:(j&&j.title)||r.title||"",
+  url:(j&&j.url)||r.url||"",
   updated_at:new Date().toISOString()
  };
-}
-function localRowsForBootstrap(){
- const st=state(),sv=savedState(),ap=appliedState(),di=dismissedState();
- const ids=new Set([...Object.keys(st),...Object.keys(sv),...Object.keys(ap),...Object.keys(di)]);
- return [...ids].filter(id=>{
-  const status=st[id]||"Nuova";
-  return status!=="Nuova"||!!sv[id]||!!ap[id]||!!di[id];
- }).map(id=>jobRow(id));
 }
 async function remoteRows(){
  const r=await fetch(syncEndpoint("?select=job_id,status,saved,applied,dismissed,dismissed_at,company,title,url,updated_at"),{
@@ -500,9 +485,9 @@ async function upsertRows(rows){
 }
 function replaceLocalFromRemote(rows){
  REMOTE_ROWS=(rows||[]).filter(r=>String(r.job_id)!==syncSentinel);
+ // Mirror only for offline cache/debug; UI never reads these stores.
  const st={},sv={},ap={},di={};
- for(const r of rows||[]){
-  if(String(r.job_id)===syncSentinel)continue;
+ for(const r of REMOTE_ROWS){
   const id=String(r.job_id);
   if(r.status&&r.status!=="Nuova")st[id]=r.status;
   if(r.saved)sv[id]=true;
@@ -511,22 +496,18 @@ function replaceLocalFromRemote(rows){
  }
  saveState(st);saveSavedState(sv);writeObjectStore(appliedKey,ap);writeObjectStore(dismissedKey,di);
 }
-async function pushJob(id){
- if(!syncEnabled())return;
- markPending(id);
- try{await upsertRows([jobRow(id)]);clearPending(id)}catch(e){}
-}
-async function flushPending(){
- if(!syncEnabled())return;
- for(const id of Object.keys(pendingState())){
-  try{await upsertRows([jobRow(id)]);clearPending(id)}catch(e){}
- }
+async function writeJob(id,patch){
+ if(!syncEnabled())throw Error("sync disabled");
+ const row=jobRow(id,patch);
+ await upsertRows([row]);
+ const idx=REMOTE_ROWS.findIndex(r=>String(r.job_id)===String(id));
+ if(idx>=0)REMOTE_ROWS[idx]=row; else REMOTE_ROWS.push(row);
+ return row;
 }
 async function syncCycle(){
  if(!syncEnabled())return;
  try{
-  let rows=await remoteRows();
-  rows=await remoteRows();
+  const rows=await remoteRows();
   replaceLocalFromRemote(rows);
  }catch(e){}
 }
@@ -555,24 +536,24 @@ function mergePersistedCandidates(){
  }
 }
 
-function setStatus(id,v){const s=state();s[id]=v;saveState(s);render();pushJob(id)}
-function dismissJob(id){
+async function setStatus(id,v){await writeJob(id,{status:v});render()}
+async function dismissJob(id){
  const j=DATA.find(x=>String(x.id)===String(id));
  if(!j)return;
  if(!confirm("Eliminare questa offerta? Non verrà più mostrata anche se risulta ancora attiva."))return;
- const v=dismissedState();
- v[id]={at:new Date().toISOString(),company:j.company||"",title:j.title||"",url:j.url||""};
- writeObjectStore(dismissedKey,v);
- const s=savedState();if(s[id]){delete s[id];saveSavedState(s)}
- render();pushJob(id);
+ await writeJob(id,{dismissed:true,dismissed_at:new Date().toISOString(),saved:false});
+ render();
 }
-function toggleApplied(id){
- const v=appliedState();
- if(v[id])delete v[id];else v[id]={at:new Date().toISOString()};
- writeObjectStore(appliedKey,v);
- render();pushJob(id);
+async function toggleApplied(id){
+ const next=!isApplied(id);
+ await writeJob(id,{applied:next});
+ render();
 }
-function toggleSaved(id){const v=savedState();if(v[id])delete v[id];else v[id]=true;saveSavedState(v);render();pushJob(id)}
+async function toggleSaved(id){
+ const next=!isSaved(id);
+ await writeJob(id,{saved:next});
+ render();
+}
 function setNavActive(which){ui.navHome.classList.toggle("active",which==="home");ui.navSearch.classList.toggle("active",which==="search");ui.navSaved.classList.toggle("active",which==="saved")}
 function resetTopFilters(){filter="Tutte";statFilter="";document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("active",x.dataset.filter==="Tutte"));document.querySelectorAll(".stat").forEach(x=>x.classList.remove("active"))}
 function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
