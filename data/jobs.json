@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T08:08:09+02:00",
+  "generatedAt": "2026-09-29T15:05:34+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -1338,6 +1338,198 @@
       "active": true,
       "firstSeenAt": "2026-09-29T08:08:09+02:00",
       "firstSeenRun": "08:00"
+    },
+    {
+      "id": "experis-specialista-amministrativo-ufficio-gare-1035397",
+      "date": "2026-09-08",
+      "company": "Experis",
+      "title": "Specialista Amministrativo Ufficio Gare",
+      "location": "Lombardia · lavorabile dalla Toscana",
+      "workMode": "Full remote",
+      "contract": "Tempo determinato · full time · CCNL Commercio livello 3",
+      "salary": "30.000–35.000 €",
+      "category": "Tender",
+      "score": 10,
+      "source": "Experis",
+      "url": "https://www.experis.it/it/trova-lavoro/ict/specialista-amministrativo-ufficio-gare/1035397",
+      "summary": "Ruolo ICT full remote su documentazione per gare pubbliche, perfezionamento contratti, accreditamenti, albi fornitori, piattaforme e scadenze.",
+      "checks": [
+        "Annuncio originale attivo fino al 30 novembre 2026",
+        "Full remote esplicitamente dichiarato",
+        "RAL e contratto verificati sulla pagina Experis"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-29T15:05:34+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "grafton-customers-qualifications-specialist-firenze-20260929",
+      "date": "2026-07-30",
+      "company": "Grafton Recruitment",
+      "title": "Customers' Qualifications Specialist",
+      "location": "Firenze",
+      "workMode": "Ibrido · maggiore presenza iniziale",
+      "contract": "Tempo determinato in somministrazione · 12 mesi con possibile finalizzazione",
+      "salary": "35.209,98 €",
+      "category": "Tender",
+      "score": 9.8,
+      "source": "Gi Group/Grafton",
+      "url": "https://it.grafton.com/offerte-lavoro/back-office-amministrazione-ap/toscana-re/firenze-pr/",
+      "summary": "Qualifiche clienti e fornitori, documentazione per RFQ e tender internazionali, portali e-procurement, scadenze e coordinamento con Legal e Compliance.",
+      "checks": [
+        "Posizione ancora presente nella ricerca corrente Grafton Firenze",
+        "RAL e condizioni riscontrate nell'annuncio indicizzato",
+        "Inglese fluente richiesto"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-29T15:05:34+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "orologio-tender-specialist-junior-pontassieve-4461083042",
+      "date": "2026-09-23",
+      "company": "Orologio 2.0 Network",
+      "title": "Tender Specialist Junior",
+      "location": "Pontassieve (FI)",
+      "workMode": "Ibrido · 1 giorno di smart working a settimana",
+      "contract": "Tempo determinato iniziale finalizzato alla stabilizzazione · CCNL Multiservizi livello 3",
+      "salary": "20.300–25.200 €",
+      "category": "Tender",
+      "score": 9.6,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/tender-specialist-junior-at-orologio-2-0-network-4461083042",
+      "summary": "Analisi bandi, preparazione della documentazione, monitoraggio scadenze e aggiornamento sul Codice degli Appalti per l'ufficio gare.",
+      "checks": [
+        "Pagina specifica corrente con candidatura attiva",
+        "Ruolo junior rispetto all'esperienza di Alice",
+        "Sede toscana e smart working settimanale verificati"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-29T15:05:34+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "ginevra-sales-customer-operations-coordinator-firenze-4444101746",
+      "date": "2026-09-08",
+      "company": "GINEVRA SRL",
+      "title": "Sales & Customer Operations Coordinator",
+      "location": "Firenze",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Sales Support",
+      "score": 9.5,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/sales-customer-operations-coordinator-at-ginevra-srl-4444101746",
+      "summary": "Coordinamento ordini e comunicazioni con clienti, rete vendita, logistica e produzione; documentazione commerciale e utilizzo di ERP/CRM.",
+      "checks": [
+        "Pagina specifica corrente accessibile",
+        "Richiesti 3–5 anni in Customer Service, Sales Support o Sales Operations",
+        "Ottimo inglese richiesto"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-29T15:05:34+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "aec-back-office-commerciale-subbiano-4472707373",
+      "date": "2026-09-29",
+      "company": "AEC Illuminazione",
+      "title": "Impiegato/a Back Office Commerciale",
+      "location": "Subbiano (AR)",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Sales Support",
+      "score": 9.4,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/impiegato-a-back-office-commerciale-at-aec-illuminazione-srl-4472707373",
+      "summary": "Gestione offerte, conferme ed evasione ordini, rapporti con clienti e distributori, CRM e coordinamento con planning e funzioni tecniche.",
+      "checks": [
+        "Repost corrente indicizzato il 29 settembre 2026",
+        "Esperienza di almeno 3 anni in commerciale, back office o assistenza clienti",
+        "Brevi trasferte preferenziali"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-29T15:05:34+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "asso-costruzioni-responsabile-ufficio-gare-pisa-4459296968",
+      "date": "2026-09-29",
+      "company": "Asso Costruzioni",
+      "title": "Responsabile Ufficio Gare d'Appalto",
+      "location": "Pisa",
+      "workMode": "In presenza",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Tender",
+      "score": 9.2,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/responsabile-ufficio-gare-d-appalto-at-asso-costruzioni-4459296968",
+      "summary": "Responsabilità autonoma sull'intero processo di partecipazione alle gare d'appalto presso la sede di Pisa.",
+      "checks": [
+        "Pagina corrente con candidatura attiva",
+        "Annuncio dichiara espressamente full time in loco e nessun lavoro da remoto",
+        "Retribuzione descritta come ottima ma senza importo: non valorizzata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-29T15:05:34+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "etrurialucegas-addetto-logistica-back-office-firenze-4452428050",
+      "date": "2026-09-29",
+      "company": "EtruriaLuceGas",
+      "title": "Addetto/a Logistica – Back Office",
+      "location": "Firenze",
+      "workMode": "Non dichiarato",
+      "contract": "Non dichiarato",
+      "salary": "Non dichiarato",
+      "category": "Operations",
+      "score": 8.7,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/impiegato-del-back-office-at-etrurialucegas-4452428050",
+      "summary": "Gestione operativa delle pratiche con distributori energia e gas: attivazioni, subentri, volture, allacci e richieste tecniche su scala nazionale.",
+      "checks": [
+        "Annuncio corrente indicizzato il 29 settembre 2026",
+        "Titolo LinkedIn generico; mansione dichiarata Addetto/a alla Logistica",
+        "Contratto, RAL e modalità non dichiarati"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-29T15:05:34+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "stanford-program-coordinator-florence-4470879155",
+      "date": "2026-09-29",
+      "company": "Stanford University – Bing Overseas Studies Program",
+      "title": "Program Coordinator",
+      "location": "Firenze",
+      "workMode": "In presenza",
+      "contract": "Temporaneo · full time",
+      "salary": "Non dichiarato",
+      "category": "Eventi",
+      "score": 8.5,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/program-coordinator-at-breyer-center-for-overseas-studies-bing-overseas-studies-program-stanford-university-4470879155",
+      "summary": "Coordinamento operativo del programma di studio: calendari, eventi, escursioni, logistica, fornitori, documentazione e supporto a studenti e docenti.",
+      "checks": [
+        "Pagina specifica corrente con candidatura attiva",
+        "Ruolo full time in presenza a Firenze",
+        "Esperienza in formazione internazionale o servizi agli studenti preferenziale"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-29T15:05:34+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
@@ -1421,6 +1613,83 @@
         "newJobs": 6,
         "activeJobs": 57,
         "note": "Scansione indipendente con filtro geografico: presenza e ibrido solo in Toscana; fuori Toscana esclusivamente full remote o remote-first con presenza occasionale verificabile. Ricontrollate singolarmente anche le offerte esistenti."
+      },
+      "15:00": {
+        "scheduledFor": "2026-09-29T15:00:00+02:00",
+        "completedAt": "2026-09-29T15:05:34+02:00",
+        "status": "partial",
+        "requiredSourcesTotal": 35,
+        "requiredSourcesChecked": 32,
+        "sourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed",
+          "Monster",
+          "Randstad",
+          "Adecco",
+          "Manpower",
+          "Gi Group/Grafton",
+          "Michael Page",
+          "Page Personnel",
+          "Openjobmetis",
+          "Synergie",
+          "Orienta",
+          "Lavoropiù",
+          "Jobrapido",
+          "Jooble",
+          "Talent.com",
+          "Glassdoor Jobs",
+          "Careerjet",
+          "Trovolavoro",
+          "Bakeca Lavoro",
+          "Helplavoro",
+          "Experis",
+          "Umana",
+          "Ali Lavoro",
+          "Etjca",
+          "MAW",
+          "Humangest",
+          "ADHR Group",
+          "Staff S.p.A.",
+          "Atempo",
+          "Toscana Lavoro/ARTI Toscana",
+          "inPA"
+        ],
+        "sourcesUnavailable": [
+          {
+            "name": "InfoJobs",
+            "reason": "La piattaforma italiana risulta chiusa; eseguiti accesso diretto e tre fallback distinti per gare, sales support/eventi in Toscana e full remote nazionali, senza risultati correnti verificabili."
+          },
+          {
+            "name": "Hays",
+            "reason": "Ricerca nativa non verificabile; eseguiti tre fallback distinti e un secondo passaggio mirato per ruoli toscani e full remote, senza pagine correnti affidabili pertinenti."
+          },
+          {
+            "name": "During",
+            "reason": "Ricerca nativa non verificabile; eseguiti tre fallback distinti e un secondo passaggio mirato per ruoli toscani e full remote, senza pagine correnti affidabili pertinenti."
+          }
+        ],
+        "extraSourcesChecked": [
+          "Accenture Careers",
+          "Avanade Careers",
+          "Microsoft Careers",
+          "TeamSystem Careers",
+          "Lenovo Careers",
+          "Siemens Careers",
+          "TD SYNNEX Careers",
+          "Zucchetti Careers",
+          "SAP Careers",
+          "Workday",
+          "Greenhouse",
+          "Lever",
+          "Orologio 2.0 Network / LinkedIn",
+          "AEC Illuminazione / LinkedIn",
+          "Stanford Careers / Taleo",
+          "GINEVRA / LinkedIn"
+        ],
+        "queriesRun": 263,
+        "newJobs": 8,
+        "activeJobs": 65,
+        "note": "Scansione pomeridiana indipendente con filtro geografico: presenza e ibrido solo in Toscana; fuori Toscana esclusivamente full remote o remote-first lavorabile dalla Toscana. Ricontrollate singolarmente le 57 offerte preesistenti; nessuna rimozione senza evidenza certa di chiusura."
       }
     }
   },
