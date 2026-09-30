@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T08:13:11+02:00",
+  "generatedAt": "2026-09-30T15:06:52+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -674,30 +674,6 @@
       "firstSeenRun": "manuale"
     },
     {
-      "id": "ingenium-event-coordinator-specialist-4467209845",
-      "date": "2026-09-23",
-      "company": "Ingenium: Made in Italy Innovation Platform",
-      "title": "Event Coordinator Specialist",
-      "location": "Italia",
-      "workMode": "Full remote",
-      "contract": "Full time · tipologia non dichiarata",
-      "salary": "Non dichiarato",
-      "category": "Eventi",
-      "score": 9.3,
-      "source": "Ingenium / LinkedIn Jobs",
-      "url": "https://it.linkedin.com/jobs/view/event-coordinator-specialist-at-ingenium-made-in-italy-innovation-platform-4467209845",
-      "summary": "Coordinamento end-to-end di eventi e iniziative internazionali in fashion, luxury, tecnologia e innovazione, lavorando con partner, speaker, clienti e venue.",
-      "checks": [
-        "Ruolo operativo e hands-on",
-        "Possibili trasferte/eventi internazionali",
-        "RAL non dichiarata"
-      ],
-      "remote": true,
-      "active": true,
-      "firstSeenAt": "2026-09-23T14:55:18+02:00",
-      "firstSeenRun": "15:00"
-    },
-    {
       "id": "solventum-emea-marketing-event-coordinator-4470447418",
       "date": "2026-09-23",
       "company": "Solventum",
@@ -1077,30 +1053,6 @@
       "firstSeenRun": "15:00"
     },
     {
-      "id": "yellowsquare-community-events-coordinator-firenze-4449588026",
-      "date": "2026-09-28",
-      "company": "YellowSquare",
-      "title": "Community & Events Coordinator",
-      "location": "Firenze",
-      "workMode": "In presenza",
-      "contract": "Tempo determinato iniziale 6 mesi · full time o part time",
-      "salary": "22.200 € RAL full time",
-      "category": "Eventi",
-      "score": 7.7,
-      "source": "LinkedIn Jobs",
-      "url": "https://it.linkedin.com/jobs/view/community-events-coordinator-at-yellowsquare-4449588026",
-      "summary": "Ideazione, organizzazione e conduzione di eventi per una community internazionale, con promozione delle attività e coinvolgimento diretto degli ospiti.",
-      "checks": [
-        "Possibili turni serali o nel weekend",
-        "CCNL Turismo Alberghi 5° livello",
-        "Sede in Toscana"
-      ],
-      "remote": false,
-      "active": true,
-      "firstSeenAt": "2026-09-28T15:05:08+02:00",
-      "firstSeenRun": "15:00"
-    },
-    {
       "id": "lattanzio-kibs-event-assistant-firenze-4470139426",
       "date": "2026-09-25",
       "company": "Lattanzio KIBS Benefit Corporation",
@@ -1341,30 +1293,6 @@
       "firstSeenRun": "15:00"
     },
     {
-      "id": "ginevra-sales-customer-operations-coordinator-firenze-4444101746",
-      "date": "2026-09-08",
-      "company": "GINEVRA SRL",
-      "title": "Sales & Customer Operations Coordinator",
-      "location": "Firenze",
-      "workMode": "Non dichiarato",
-      "contract": "Full time · tipologia non dichiarata",
-      "salary": "Non dichiarato",
-      "category": "Sales Support",
-      "score": 9.5,
-      "source": "LinkedIn Jobs",
-      "url": "https://it.linkedin.com/jobs/view/sales-customer-operations-coordinator-at-ginevra-srl-4444101746",
-      "summary": "Coordinamento ordini e comunicazioni con clienti, rete vendita, logistica e produzione; documentazione commerciale e utilizzo di ERP/CRM.",
-      "checks": [
-        "Pagina specifica corrente accessibile",
-        "Richiesti 3–5 anni in Customer Service, Sales Support o Sales Operations",
-        "Ottimo inglese richiesto"
-      ],
-      "remote": false,
-      "active": true,
-      "firstSeenAt": "2026-09-29T15:05:34+02:00",
-      "firstSeenRun": "15:00"
-    },
-    {
       "id": "aec-back-office-commerciale-subbiano-4472707373",
       "date": "2026-09-29",
       "company": "AEC Illuminazione",
@@ -1507,6 +1435,78 @@
       "active": true,
       "firstSeenAt": "2026-09-30T08:13:11+02:00",
       "firstSeenRun": "08:00"
+    },
+    {
+      "id": "randstad-impiegato-ufficio-gare-firenze-4462228124",
+      "date": "2026-09-30",
+      "company": "Randstad Italia / azienda cliente",
+      "title": "Impiegato Ufficio Gare (f/m/nb)",
+      "location": "Firenze",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo determinato iniziale finalizzato all'indeterminato · full time",
+      "salary": "RAL 30.000–40.000 € + buoni pasto, welfare e premialità",
+      "category": "Tender",
+      "score": 9.8,
+      "source": "LinkedIn Jobs / Randstad",
+      "url": "https://it.linkedin.com/jobs/view/impiegato-ufficio-gare-f-m-nb-at-randstad-italia-4462228124",
+      "summary": "Scouting dei portali e delle opportunità di gara, gestione del database e dell'archivio documentale, predisposizione degli aggiornamenti e supporto operativo al team e alla direzione.",
+      "checks": [
+        "Pagina specifica corrente con candidatura disponibile",
+        "Sede Firenze; orario full time lunedì-venerdì 9–13 e 14–18",
+        "RAL, welfare e percorso da determinato a indeterminato dichiarati"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-30T15:06:52+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "umana-tender-officer-arezzo-069ea7b44e68ad5c",
+      "date": "2026-09-30",
+      "company": "Umana / azienda cliente settore servizi web",
+      "title": "Tender Officer",
+      "location": "Arezzo",
+      "workMode": "Remoto / smart working disponibile per chi è fuori zona",
+      "contract": "Somministrazione · full time",
+      "salary": "RAL 24.000–28.000 €",
+      "category": "Tender",
+      "score": 9.8,
+      "source": "Indeed / Umana",
+      "url": "https://it.indeed.com/viewjob?jk=069ea7b44e68ad5c",
+      "summary": "Predisposizione della documentazione per procedure pubbliche e contratti, gestione di accreditamenti, albi fornitori e scadenze, con supporto amministrativo alle gare.",
+      "checks": [
+        "Pagina Indeed specifica corrente",
+        "Sede Arezzo; possibilità di smart working/remoto indicata per chi è fuori zona",
+        "Richiesti almeno un anno di esperienza e buona conoscenza dell'inglese"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-30T15:06:52+02:00",
+      "firstSeenRun": "15:00"
+    },
+    {
+      "id": "backroads-operations-coordinator-tuscany-hub-jr100897",
+      "date": "2026-09-30",
+      "company": "Backroads",
+      "title": "Operations Coordinator (Facility & Fleet Support – Tuscany Hub)",
+      "location": "Toscana",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · tipologia non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Operations",
+      "score": 7.4,
+      "source": "Backroads Careers / Workday",
+      "url": "https://backroads.wd1.myworkdayjobs.com/en-US/BR/job/Operations-Coordinator--Facility---Fleet-Support---Tuscany-Hub-_JR100897-2",
+      "summary": "Coordinamento operativo pratico del Tuscany Hub, con supporto alla gestione della struttura e della flotta e presidio delle attività quotidiane.",
+      "checks": [
+        "Pagina ufficiale Workday specifica e indicizzata come posizione aperta",
+        "Località dichiarata Toscana",
+        "Ruolo operativo hands-on su facility e flotta; contratto e RAL non dichiarati"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-30T15:06:52+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
@@ -1590,6 +1590,88 @@
         "newJobs": 2,
         "activeJobs": 64,
         "note": "Scansione indipendente con filtro geografico: presenza e ibrido solo in Toscana; fuori Toscana esclusivamente full remote o remote-first lavorabile dalla Toscana con presenza occasionale verificabile. Ricontrollate singolarmente le 65 offerte preesistenti; rimosse tre pagine con evidenza certa di chiusura (410, 404 o redirect LinkedIn da annuncio scaduto)."
+      },
+      "15:00": {
+        "scheduledFor": "2026-09-30T15:00:00+02:00",
+        "completedAt": "2026-09-30T15:06:52+02:00",
+        "status": "partial",
+        "requiredSourcesTotal": 35,
+        "requiredSourcesChecked": 32,
+        "sourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed",
+          "Monster",
+          "Randstad",
+          "Adecco",
+          "Manpower",
+          "Gi Group/Grafton",
+          "Michael Page",
+          "Page Personnel",
+          "Openjobmetis",
+          "Synergie",
+          "Orienta",
+          "Lavoropiù",
+          "Jobrapido",
+          "Jooble",
+          "Talent.com",
+          "Glassdoor Jobs",
+          "Careerjet",
+          "Trovolavoro",
+          "Bakeca Lavoro",
+          "Helplavoro",
+          "Experis",
+          "Umana",
+          "Ali Lavoro",
+          "Etjca",
+          "MAW",
+          "Humangest",
+          "ADHR Group",
+          "Staff S.p.A.",
+          "Atempo",
+          "Toscana Lavoro/ARTI Toscana",
+          "inPA"
+        ],
+        "sourcesUnavailable": [
+          {
+            "name": "InfoJobs",
+            "reason": "La piattaforma italiana risulta chiusa; eseguiti accesso diretto e tre fallback distinti per gare, sales support/eventi in Toscana e ruoli full remote nazionali, senza risultati correnti verificabili."
+          },
+          {
+            "name": "Hays",
+            "reason": "Ricerca nativa non verificabile; eseguiti tre fallback distinti e un secondo passaggio mirato per ruoli in Toscana e full remote, senza pagine correnti affidabili pertinenti."
+          },
+          {
+            "name": "During",
+            "reason": "Ricerca nativa non verificabile; eseguiti tre fallback distinti e un secondo passaggio mirato per ruoli in Toscana e full remote, senza pagine correnti affidabili pertinenti."
+          }
+        ],
+        "extraSourcesChecked": [
+          "Accenture Careers",
+          "Avanade Careers",
+          "Microsoft Careers",
+          "TeamSystem Careers",
+          "Lenovo Careers",
+          "Siemens Careers",
+          "TD SYNNEX Careers",
+          "Zucchetti Careers",
+          "SAP Careers",
+          "Salesforce Careers",
+          "Workday",
+          "Greenhouse",
+          "Lever",
+          "SuccessFactors",
+          "SmartRecruiters",
+          "Backroads Careers / Workday",
+          "Edison Careers / Indeed",
+          "ATI Project Careers",
+          "Marriott Careers",
+          "Qboxmail Careers",
+          "Tenuta Toscana Careers"
+        ],
+        "queriesRun": 263,
+        "newJobs": 3,
+        "activeJobs": 64,
+        "note": "Scansione indipendente con filtro geografico: presenza e ibrido solo in Toscana; fuori Toscana esclusivamente full remote o remote-first lavorabile dalla Toscana con presenza occasionale verificabile. Verificate autonomamente tutte le 35 fonti con ricerca diretta e fallback; ricontrollati singolarmente i 64 annunci preesistenti. Rimossi tre annunci LinkedIn la cui pagina specifica reindirizza a risultati generici e non risulta più verificabile; aggiunte tre nuove opportunità in Toscana."
       }
     }
   },
