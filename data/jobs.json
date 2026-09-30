@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T15:05:34+02:00",
+  "generatedAt": "2026-09-30T08:13:11+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -361,30 +361,6 @@
         "Full time dal lunedì al venerdì",
         "Sede Scandicci",
         "RAL dichiarata 23.500–25.500 €"
-      ],
-      "remote": false,
-      "active": true,
-      "firstSeenAt": "2026-09-21T08:15:18+02:00",
-      "firstSeenRun": "08:00"
-    },
-    {
-      "id": "adhr-back-office-commerciale-campi-20260921",
-      "date": "2026-09-21",
-      "company": "ADHR Group",
-      "title": "Impiegato/a Back Office Commerciale",
-      "location": "Campi Bisenzio",
-      "workMode": "Non dichiarato",
-      "contract": "Tempo determinato 6 mesi · finalizzato a inserimento",
-      "salary": "25.000–30.000 €",
-      "category": "Sales Support",
-      "score": 8.4,
-      "source": "ADHR Group / annuncio indicizzato",
-      "url": "https://www.jobijoba.it/annunci-di-lavoro/13/d9e3928eabfa68af64a78146028f7c38",
-      "summary": "Gestione ordini e offerte, coordinamento con produzione e magazzino, prezzi, conferme d'ordine e assistenza post-vendita.",
-      "checks": [
-        "Inglese richiesto",
-        "Possibili trasferte/visite",
-        "Annuncio verificato tramite fallback indicizzato perché il portale ADHR è fortemente dinamico"
       ],
       "remote": false,
       "active": true,
@@ -834,29 +810,6 @@
       "checks": [
         "Buona conoscenza inglese",
         "Primi 2 mesi part-time per affiancamento, poi full-time"
-      ],
-      "remote": false,
-      "active": true,
-      "firstSeenAt": "2026-09-27T23:01:25+02:00",
-      "firstSeenRun": "23:01"
-    },
-    {
-      "id": "adecco-back-office-commerciale-estero-rignano-4467707219",
-      "date": "2026-09-18",
-      "company": "Adecco / azienda cliente",
-      "title": "Back Office Commerciale Estero",
-      "location": "Rignano sull'Arno (FI)",
-      "workMode": "In presenza / non dichiarato",
-      "contract": "Tempo determinato diretto · finalità di stabilizzazione",
-      "salary": "25.000–27.000 €",
-      "category": "Sales Support",
-      "score": 9.2,
-      "source": "Adecco / LinkedIn Jobs",
-      "url": "https://it.linkedin.com/jobs/view/back-office-commerciale-estero-at-adecco-4467707219",
-      "summary": "Gestione ed evasione ordini estero, database clienti, assistenza commerciale, report vendite e coordinamento con Vendite, Logistica e Amministrazione.",
-      "checks": [
-        "Ottima conoscenza inglese richiesta",
-        "Seconda lingua considerata un plus"
       ],
       "remote": false,
       "active": true,
@@ -1316,30 +1269,6 @@
       "firstSeenRun": "08:00"
     },
     {
-      "id": "lhh-technical-proposal-support-engineer-4463396644",
-      "date": "2026-09-29",
-      "company": "LHH / azienda cliente",
-      "title": "Technical Proposal Support Engineer",
-      "location": "Firenze",
-      "workMode": "Non dichiarato",
-      "contract": "Full time · durata non dichiarata",
-      "salary": "36.000–42.000 €",
-      "category": "Tender",
-      "score": 7.4,
-      "source": "LinkedIn Jobs",
-      "url": "https://it.linkedin.com/jobs/view/technical-proposal-support-engineer-at-lhh-4463396644",
-      "summary": "Predisposizione di documentazione tecnica per gare pubbliche e private, analisi economica, monitoraggio bandi e coordinamento delle progettazioni per servizi energetici e facility management.",
-      "checks": [
-        "Richiesta laurea in Ingegneria energetica/elettrica o affine",
-        "Richiesta esperienza consolidata in progettazione e preventivazione energetica",
-        "Inglese B2 preferibile"
-      ],
-      "remote": false,
-      "active": true,
-      "firstSeenAt": "2026-09-29T08:08:09+02:00",
-      "firstSeenRun": "08:00"
-    },
-    {
       "id": "experis-specialista-amministrativo-ufficio-gare-1035397",
       "date": "2026-09-08",
       "company": "Experis",
@@ -1530,14 +1459,62 @@
       "active": true,
       "firstSeenAt": "2026-09-29T15:05:34+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "manpower-supporto-amministrativo-gare-appalti-firenze-1009097",
+      "date": "2026-09-30",
+      "company": "Manpower / Ales Arte e Lavoro Servizi",
+      "title": "Addetto/a Supporto Amministrativo Gare e Appalti",
+      "location": "Firenze",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato in somministrazione · full time",
+      "salary": "RAL 28.000 €; 1.990 € lordi/mese × 14 + buoni pasto 7 €",
+      "category": "Tender",
+      "score": 9.7,
+      "source": "Manpower",
+      "url": "https://www.manpower.it/it/annuncio-lavoro/pubblica-amministrazione/amministrazione/addetto-e-addetta-supporto-amministrativo-gare-e-appalti-firenze/1009097",
+      "summary": "Supporto amministrativo ai responsabili di procedimenti di gare e appalti pubblici: documenti di gara, avanzamento, pagamenti, adempimenti, comunicazioni e archiviazione digitale.",
+      "checks": [
+        "Pagina Manpower specifica corrente; annuncio valido fino al 31 ottobre 2026",
+        "RAL, contratto, full time e modalità in presenza dichiarati",
+        "Richieste laurea magistrale/vecchio ordinamento in Giurisprudenza, esperienza e conoscenza del Codice Appalti"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-09-30T08:13:11+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "edison-contract-coordinator-toscana-a526dbf54cae5c0f",
+      "date": "2026-09-30",
+      "company": "Edison Next Government",
+      "title": "Contract Coordinator – Toscana",
+      "location": "Firenze / Toscana",
+      "workMode": "Remoto / smart working (frequenza non dichiarata)",
+      "contract": "CCNL Metalmeccanico · tipologia/durata non dichiarata",
+      "salary": "RAL iniziale di riferimento 37.000 €",
+      "category": "Operations",
+      "score": 7.8,
+      "source": "Indeed / Edison",
+      "url": "https://it.indeed.com/viewjob?jk=a526dbf54cae5c0f",
+      "summary": "Gestione operativa ed economica delle commesse in Toscana: applicazione dei contratti, pianificazione, coordinamento, controllo costi, budget, rendicontazione, pratiche autorizzative e supporto alle offerte.",
+      "checks": [
+        "Pagina specifica corrente con candidatura disponibile",
+        "Sede Firenze/Toscana e smart working dichiarati; trasferte previste nell'Area Centro",
+        "Richiesti laurea in Ingegneria o diploma tecnico con esperienza, almeno 3 anni nel ruolo e conoscenze nei servizi energetici"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-09-30T08:13:11+02:00",
+      "firstSeenRun": "08:00"
     }
   ],
   "audit": {
-    "date": "2026-09-29",
+    "date": "2026-09-30",
     "runs": {
       "08:00": {
-        "scheduledFor": "2026-09-29T08:00:00+02:00",
-        "completedAt": "2026-09-29T08:08:09+02:00",
+        "scheduledFor": "2026-09-30T08:00:00+02:00",
+        "completedAt": "2026-09-30T08:13:11+02:00",
         "status": "partial",
         "requiredSourcesTotal": 35,
         "requiredSourcesChecked": 32,
@@ -1578,94 +1555,15 @@
         "sourcesUnavailable": [
           {
             "name": "InfoJobs",
-            "reason": "La pagina ufficiale corrente conferma la chiusura della piattaforma italiana; tentati accesso diretto e tre fallback distinti per ruoli tender, sales support/eventi in Toscana e full remote nazionali."
+            "reason": "La piattaforma italiana risulta chiusa; eseguiti accesso diretto e tre fallback distinti per gare, sales support/eventi in Toscana e ruoli full remote nazionali, senza risultati correnti verificabili."
           },
           {
             "name": "Hays",
-            "reason": "Ricerca nativa non accessibile; tre fallback distinti per tender, sales support/eventi in Toscana e full remote, seguiti da un secondo passaggio mirato, senza contenuti correnti verificabili."
+            "reason": "Ricerca nativa non verificabile; eseguiti tre fallback distinti e un secondo passaggio mirato per ruoli in Toscana e full remote, senza pagine correnti affidabili pertinenti."
           },
           {
             "name": "During",
-            "reason": "Ricerca nativa non accessibile; tre fallback distinti per tender, sales support/eventi in Toscana e full remote, seguiti da un secondo passaggio mirato, senza contenuti correnti verificabili."
-          }
-        ],
-        "extraSourcesChecked": [
-          "EXA Group / LinkedIn",
-          "ENGIE Careers / LinkedIn",
-          "Modaxo Careers / LinkedIn",
-          "Universo / LinkedIn",
-          "BRT Careers / LinkedIn",
-          "LHH / LinkedIn",
-          "Accenture Careers",
-          "Avanade Careers",
-          "Microsoft Careers",
-          "TeamSystem Careers",
-          "Lenovo Careers",
-          "Siemens Careers",
-          "TD SYNNEX Careers",
-          "Zucchetti Careers",
-          "SAP Careers",
-          "Workday",
-          "Greenhouse",
-          "Lever"
-        ],
-        "queriesRun": 260,
-        "newJobs": 6,
-        "activeJobs": 57,
-        "note": "Scansione indipendente con filtro geografico: presenza e ibrido solo in Toscana; fuori Toscana esclusivamente full remote o remote-first con presenza occasionale verificabile. Ricontrollate singolarmente anche le offerte esistenti."
-      },
-      "15:00": {
-        "scheduledFor": "2026-09-29T15:00:00+02:00",
-        "completedAt": "2026-09-29T15:05:34+02:00",
-        "status": "partial",
-        "requiredSourcesTotal": 35,
-        "requiredSourcesChecked": 32,
-        "sourcesChecked": [
-          "LinkedIn Jobs",
-          "Indeed",
-          "Monster",
-          "Randstad",
-          "Adecco",
-          "Manpower",
-          "Gi Group/Grafton",
-          "Michael Page",
-          "Page Personnel",
-          "Openjobmetis",
-          "Synergie",
-          "Orienta",
-          "Lavoropiù",
-          "Jobrapido",
-          "Jooble",
-          "Talent.com",
-          "Glassdoor Jobs",
-          "Careerjet",
-          "Trovolavoro",
-          "Bakeca Lavoro",
-          "Helplavoro",
-          "Experis",
-          "Umana",
-          "Ali Lavoro",
-          "Etjca",
-          "MAW",
-          "Humangest",
-          "ADHR Group",
-          "Staff S.p.A.",
-          "Atempo",
-          "Toscana Lavoro/ARTI Toscana",
-          "inPA"
-        ],
-        "sourcesUnavailable": [
-          {
-            "name": "InfoJobs",
-            "reason": "La piattaforma italiana risulta chiusa; eseguiti accesso diretto e tre fallback distinti per gare, sales support/eventi in Toscana e full remote nazionali, senza risultati correnti verificabili."
-          },
-          {
-            "name": "Hays",
-            "reason": "Ricerca nativa non verificabile; eseguiti tre fallback distinti e un secondo passaggio mirato per ruoli toscani e full remote, senza pagine correnti affidabili pertinenti."
-          },
-          {
-            "name": "During",
-            "reason": "Ricerca nativa non verificabile; eseguiti tre fallback distinti e un secondo passaggio mirato per ruoli toscani e full remote, senza pagine correnti affidabili pertinenti."
+            "reason": "Ricerca nativa non verificabile; eseguiti tre fallback distinti e un secondo passaggio mirato per ruoli in Toscana e full remote, senza pagine correnti affidabili pertinenti."
           }
         ],
         "extraSourcesChecked": [
@@ -1678,18 +1576,20 @@
           "TD SYNNEX Careers",
           "Zucchetti Careers",
           "SAP Careers",
+          "Salesforce Careers",
           "Workday",
           "Greenhouse",
           "Lever",
-          "Orologio 2.0 Network / LinkedIn",
-          "AEC Illuminazione / LinkedIn",
-          "Stanford Careers / Taleo",
-          "GINEVRA / LinkedIn"
+          "Edison Careers / Indeed",
+          "Ales / Manpower",
+          "Innovation Roundtable / Recruitee",
+          "ATI Project Careers",
+          "Bertolotti / LinkedIn"
         ],
-        "queriesRun": 263,
-        "newJobs": 8,
-        "activeJobs": 65,
-        "note": "Scansione pomeridiana indipendente con filtro geografico: presenza e ibrido solo in Toscana; fuori Toscana esclusivamente full remote o remote-first lavorabile dalla Toscana. Ricontrollate singolarmente le 57 offerte preesistenti; nessuna rimozione senza evidenza certa di chiusura."
+        "queriesRun": 260,
+        "newJobs": 2,
+        "activeJobs": 64,
+        "note": "Scansione indipendente con filtro geografico: presenza e ibrido solo in Toscana; fuori Toscana esclusivamente full remote o remote-first lavorabile dalla Toscana con presenza occasionale verificabile. Ricontrollate singolarmente le 65 offerte preesistenti; rimosse tre pagine con evidenza certa di chiusura (410, 404 o redirect LinkedIn da annuncio scaduto)."
       }
     }
   },
