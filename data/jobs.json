@@ -1654,6 +1654,31 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:08:25+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "roadtrippin-event-transportation-coordinator-4472180177",
+      "date": "2026-10-01",
+      "company": "Road Trippin' Italy",
+      "title": "Event Transportation Coordinator",
+      "location": "Toscana",
+      "workMode": "On site su eventi",
+      "contract": "Collaborazione a chiamata · marzo–ottobre",
+      "salary": "Non dichiarato",
+      "category": "Eventi",
+      "score": 8.2,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/event-transportation-coordinator-at-road-trippin-%E2%80%8B-italy-4472180177",
+      "summary": "Coordinamento transfer ospiti durante wedding ed eventi privati in Toscana, gestione orari, autisti e imprevisti operativi.",
+      "checks": [
+        "Buon inglese parlato",
+        "Patente B e mezzo proprio",
+        "Disponibilità sera/weekend",
+        "Collaborazione stagionale a chiamata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:08:25+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
