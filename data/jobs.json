@@ -1631,6 +1631,29 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:08:25+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "consiag-ufficio-gare-prato-4473215687",
+      "date": "2026-10-01",
+      "company": "CONSIAG SERVIZI COMUNI SRL",
+      "title": "Impiegato per ufficio gare e appalti",
+      "location": "Prato (PO)",
+      "workMode": "In presenza",
+      "contract": "Tempo indeterminato",
+      "salary": "CCNL Gas Acqua · 5° livello",
+      "category": "Tender",
+      "score": 9.7,
+      "source": "LinkedIn Jobs / CONSIAG",
+      "url": "https://it.linkedin.com/jobs/view/impiegato-per-ufficio-gare-e-appalti-at-consiag-servizi-comuni-srl-4473215687",
+      "summary": "Gestione di gare e appalti pubblici in società di servizi per enti locali; selezione a tempo indeterminato.",
+      "checks": [
+        "Diploma + almeno 4 anni di esperienza appalti oppure laurea giuridica + 2 anni",
+        "Domande entro 18/10/2026"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:08:25+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
