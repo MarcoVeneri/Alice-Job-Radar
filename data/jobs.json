@@ -1679,6 +1679,30 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:08:25+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "vetpartners-front-office-firenze-4466351538",
+      "date": "2026-10-01",
+      "company": "VetPartners Italia",
+      "title": "Addetto/a Front Office – Firenze",
+      "location": "Firenze (FI)",
+      "workMode": "In presenza",
+      "contract": "Apprendistato · full time",
+      "salary": "16.000–25.000 € annui",
+      "category": "Operations",
+      "score": 7.7,
+      "source": "VetPartners Careers / LinkedIn",
+      "url": "https://www.vetpartnersitalia.it/offerte-lavoro-veterinario-firenze-clinica-europa/",
+      "summary": "Front office con gestione chiamate, email, informazioni alla clientela e smistamento richieste in una struttura sanitaria veterinaria.",
+      "checks": [
+        "Pacchetto Office richiesto",
+        "Contratto di apprendistato",
+        "Ruolo più junior rispetto alla seniority di Alice"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:08:25+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
