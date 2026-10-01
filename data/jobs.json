@@ -1582,6 +1582,31 @@
       "active": true,
       "firstSeenAt": "2026-10-01T08:10:14+02:00",
       "firstSeenRun": "08:00"
+    },
+    {
+      "id": "ingenium-event-coordinator-specialist-4467209845",
+      "date": "2026-10-01",
+      "company": "Ingenium: Made in Italy Innovation Platform",
+      "title": "Event Coordinator Specialist",
+      "location": "Italia",
+      "workMode": "100% remote · attività periodiche in presenza a Milano/eventi",
+      "contract": "Full time",
+      "salary": "Non dichiarato",
+      "category": "Eventi",
+      "score": 9.1,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/event-coordinator-specialist-at-ingenium-made-in-italy-innovation-platform-4467209845",
+      "summary": "Coordinamento operativo di eventi, workshop e iniziative internazionali: timeline, fornitori, speaker, registrazioni, materiali, follow-up e stakeholder.",
+      "checks": [
+        "100% remote dichiarato",
+        "Attività periodiche in presenza a Milano",
+        "Richiesto inglese fluente",
+        "Disponibilità a trasferte per eventi"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:08:25+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
