@@ -1607,6 +1607,30 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:08:25+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "expeditors-order-management-sesto-744000151403569",
+      "date": "2026-09-24",
+      "company": "Expeditors",
+      "title": "Order Management (OM) Agent - Specialista Gestione Ordini/Spedizioni Internazionali",
+      "location": "Sesto Fiorentino (FI)",
+      "workMode": "In presenza",
+      "contract": "Full time",
+      "salary": "26.000–29.000 € annui",
+      "category": "Operations",
+      "score": 8.3,
+      "source": "Expeditors / SmartRecruiters",
+      "url": "https://jobs.smartrecruiters.com/expeditors/744000151403569",
+      "summary": "Gestione operativa di ordini e spedizioni internazionali, documentazione, fatturazione, tracking e relazione con clienti.",
+      "checks": [
+        "Almeno 2 anni in spedizioni/logistica richiesti",
+        "Buon inglese richiesto",
+        "Excel richiesto"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:08:25+02:00",
+      "firstSeenRun": "15:00"
     }
   ],
   "audit": {
