@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T08:10:14+02:00",
+  "generatedAt": "2026-10-01T15:08:25+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -1787,6 +1787,94 @@
         "newJobs": 3,
         "activeJobs": 67,
         "note": "Scansione indipendente con query Toscana e query nazionali limitate a full remote/remote-first. Ricontrollati singolarmente tutti i 64 annunci già presenti; nessuna rimozione perché non sono emerse chiusure certe o incompatibilità geografiche nuove."
+      },
+      "15:00": {
+        "scheduledFor": "2026-10-01T15:00:00+02:00",
+        "completedAt": "2026-10-01T15:08:25+02:00",
+        "status": "partial",
+        "requiredSourcesTotal": 60,
+        "requiredSourcesChecked": 28,
+        "sourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed",
+          "SmartRecruiters",
+          "Workday",
+          "Lever",
+          "VetPartners Careers",
+          "CONSIAG",
+          "Expeditors Careers",
+          "Ingenium",
+          "Road Trippin' Italy",
+          "Randstad",
+          "Adecco",
+          "Manpower",
+          "Gi Group/Grafton",
+          "Openjobmetis",
+          "Synergie",
+          "Orienta",
+          "Lavoropiù",
+          "Umana",
+          "Ali Lavoro",
+          "Etjca",
+          "MAW",
+          "Humangest",
+          "ADHR Group",
+          "Staff",
+          "Atempo",
+          "Careerjet",
+          "Glassdoor Jobs"
+        ],
+        "sourcesUnavailable": [],
+        "extraSourcesChecked": [
+          "Greenhouse indexed pages",
+          "Microsoft Careers indexed pages",
+          "Salesforce Careers indexed pages",
+          "SAP Careers indexed pages",
+          "Cisco Careers indexed pages",
+          "ServiceNow Careers indexed pages",
+          "IBM Careers indexed pages",
+          "Oracle Careers indexed pages"
+        ],
+        "companiesChecked": [
+          "Ingenium",
+          "Expeditors",
+          "CONSIAG SERVIZI COMUNI",
+          "VetPartners Italia",
+          "Giovanni Raspini",
+          "Engineering",
+          "Companial",
+          "GE Vernova",
+          "Leonardo",
+          "Baker Hughes"
+        ],
+        "atsChecked": [
+          "SmartRecruiters",
+          "Workday",
+          "Lever",
+          "Greenhouse"
+        ],
+        "queriesRun": 86,
+        "newJobs": 5,
+        "activeJobs": 72,
+        "layersCompleted": [
+          "portali",
+          "agenzie",
+          "aggregatori",
+          "career page",
+          "ATS",
+          "domain-restricted",
+          "keyword semantiche",
+          "ricontrollo esistenti",
+          "secondo passaggio"
+        ],
+        "secondPassSources": [
+          "LinkedIn Jobs",
+          "Indeed",
+          "SmartRecruiters",
+          "Workday",
+          "Lever"
+        ],
+        "notes": "Run manuale di recupero trattato come scansione delle 15:00. Copertura ampia ma non completa sulle 60 fonti previste dall'automazione; conteggi riportati solo per controlli effettivamente eseguiti."
       }
     }
   },
