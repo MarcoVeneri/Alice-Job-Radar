@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T15:06:52+02:00",
+  "generatedAt": "2026-10-01T08:10:14+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -1507,14 +1507,89 @@
       "active": true,
       "firstSeenAt": "2026-09-30T15:06:52+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "cdc-studio-sales-operations-specialist-4464353998",
+      "date": "2026-10-01",
+      "company": "CDC_STUDIO",
+      "title": "Sales & Operations Specialist",
+      "location": "San Miniato (PI)",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo indeterminato · full time · CCNL Gomma Plastica",
+      "salary": "RAL 26.000–30.000 €",
+      "category": "Sales Support",
+      "score": 9.6,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/sales-operations-specialist-at-cdc-studio-4464353998",
+      "summary": "Gestione clienti B2B, preventivi e offerte, inserimento e monitoraggio ordini, spedizioni, fornitori, documentazione commerciale e non conformità, con uso di ERP ed Excel.",
+      "checks": [
+        "Pagina LinkedIn specifica corrente con candidatura disponibile",
+        "Sede a San Miniato, in Toscana",
+        "Richiesti 2–3 anni in back office, customer service o order management B2B, inglese e strumenti ERP",
+        "Sono previste trasferte occasionali in Italia"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T08:10:14+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "baker-hughes-sales-specialist-proposals-4462851479",
+      "date": "2026-10-01",
+      "company": "Baker Hughes",
+      "title": "Sales Specialist - Proposals (M/F/D)",
+      "location": "Firenze",
+      "workMode": "Non dichiarato",
+      "contract": "Full time · CCNL Metalmeccanico · durata non dichiarata",
+      "salary": "RAL 38.605–59.000 €",
+      "category": "Tender",
+      "score": 8.5,
+      "source": "LinkedIn Jobs / Baker Hughes",
+      "url": "https://it.linkedin.com/jobs/view/sales-specialist-proposals-m-f-d-at-baker-hughes-4462851479",
+      "summary": "Gestione di proposte e gare nel processo ITO, dalla strategia commerciale alla finalizzazione contrattuale, coordinando pricing, rischi, scadenze e contributi delle funzioni coinvolte.",
+      "checks": [
+        "Pagina LinkedIn specifica corrente",
+        "Sede dichiarata Firenze",
+        "Il ruolo richiede inglese eccellente e disponibilità a trasferte",
+        "La laurea tecnica o quantitativa e il livello di seniority richiesto rendono la candidatura più selettiva"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T08:10:14+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "icon-collection-mice-groups-wedding-sales-coordinator-4441622227",
+      "date": "2026-10-01",
+      "company": "Icon Collection",
+      "title": "MICE, Groups & Wedding Sales Coordinator",
+      "location": "Marina di Bibbona (LI)",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo determinato iniziale con concreta possibilità di trasformazione a tempo indeterminato",
+      "salary": "RAL 29.000 €",
+      "category": "Eventi",
+      "score": 9.2,
+      "source": "LinkedIn Jobs / Icon Collection",
+      "url": "https://it.linkedin.com/jobs/view/mice-groups-wedding-sales-coordinator-at-icon-collection-4441622227",
+      "summary": "Gestione end-to-end di richieste inbound e RFP per gruppi, eventi e matrimoni, con offerte commerciali, CRM, pipeline, scadenze, follow-up e reportistica.",
+      "checks": [
+        "Pagina specifica corrente con candidatura disponibile",
+        "Sede a Marina di Bibbona, in Toscana",
+        "Contratto iniziale a termine con prospettiva di stabilizzazione dichiarata",
+        "Attività molto coerenti con offerte, coordinamento eventi, CRM e gestione scadenze"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T08:10:14+02:00",
+      "firstSeenRun": "08:00"
     }
   ],
   "audit": {
-    "date": "2026-09-30",
+    "date": "2026-10-01",
     "runs": {
       "08:00": {
-        "scheduledFor": "2026-09-30T08:00:00+02:00",
-        "completedAt": "2026-09-30T08:13:11+02:00",
+        "scheduledFor": "2026-10-01T08:00:00+02:00",
+        "completedAt": "2026-10-01T08:10:14+02:00",
         "status": "partial",
         "requiredSourcesTotal": 35,
         "requiredSourcesChecked": 32,
@@ -1555,123 +1630,42 @@
         "sourcesUnavailable": [
           {
             "name": "InfoJobs",
-            "reason": "La piattaforma italiana risulta chiusa; eseguiti accesso diretto e tre fallback distinti per gare, sales support/eventi in Toscana e ruoli full remote nazionali, senza risultati correnti verificabili."
+            "reason": "Il portale italiano risulta ufficialmente chiuso; il tentativo diretto e tre ricerche fallback non hanno prodotto annunci correnti verificabili."
           },
           {
             "name": "Hays",
-            "reason": "Ricerca nativa non verificabile; eseguiti tre fallback distinti e un secondo passaggio mirato per ruoli in Toscana e full remote, senza pagine correnti affidabili pertinenti."
+            "reason": "La ricerca nativa non è risultata accessibile e i tre fallback non hanno restituito pagine di annunci correnti sufficientemente affidabili per il perimetro richiesto."
           },
           {
             "name": "During",
-            "reason": "Ricerca nativa non verificabile; eseguiti tre fallback distinti e un secondo passaggio mirato per ruoli in Toscana e full remote, senza pagine correnti affidabili pertinenti."
+            "reason": "La ricerca nativa non è risultata accessibile e i tre fallback non hanno restituito pagine specifiche correnti verificabili per il perimetro richiesto."
           }
         ],
         "extraSourcesChecked": [
-          "Accenture Careers",
           "Avanade Careers",
+          "Accenture Careers",
           "Microsoft Careers",
           "TeamSystem Careers",
           "Lenovo Careers",
           "Siemens Careers",
           "TD SYNNEX Careers",
           "Zucchetti Careers",
-          "SAP Careers",
           "Salesforce Careers",
+          "Baker Hughes Careers",
+          "Backroads Workday",
+          "Amazon Jobs",
           "Workday",
-          "Greenhouse",
-          "Lever",
-          "Edison Careers / Indeed",
-          "Ales / Manpower",
-          "Innovation Roundtable / Recruitee",
-          "ATI Project Careers",
-          "Bertolotti / LinkedIn"
-        ],
-        "queriesRun": 260,
-        "newJobs": 2,
-        "activeJobs": 64,
-        "note": "Scansione indipendente con filtro geografico: presenza e ibrido solo in Toscana; fuori Toscana esclusivamente full remote o remote-first lavorabile dalla Toscana con presenza occasionale verificabile. Ricontrollate singolarmente le 65 offerte preesistenti; rimosse tre pagine con evidenza certa di chiusura (410, 404 o redirect LinkedIn da annuncio scaduto)."
-      },
-      "15:00": {
-        "scheduledFor": "2026-09-30T15:00:00+02:00",
-        "completedAt": "2026-09-30T15:06:52+02:00",
-        "status": "partial",
-        "requiredSourcesTotal": 35,
-        "requiredSourcesChecked": 32,
-        "sourcesChecked": [
-          "LinkedIn Jobs",
-          "Indeed",
-          "Monster",
-          "Randstad",
-          "Adecco",
-          "Manpower",
-          "Gi Group/Grafton",
-          "Michael Page",
-          "Page Personnel",
-          "Openjobmetis",
-          "Synergie",
-          "Orienta",
-          "Lavoropiù",
-          "Jobrapido",
-          "Jooble",
-          "Talent.com",
-          "Glassdoor Jobs",
-          "Careerjet",
-          "Trovolavoro",
-          "Bakeca Lavoro",
-          "Helplavoro",
-          "Experis",
-          "Umana",
-          "Ali Lavoro",
-          "Etjca",
-          "MAW",
-          "Humangest",
-          "ADHR Group",
-          "Staff S.p.A.",
-          "Atempo",
-          "Toscana Lavoro/ARTI Toscana",
-          "inPA"
-        ],
-        "sourcesUnavailable": [
-          {
-            "name": "InfoJobs",
-            "reason": "La piattaforma italiana risulta chiusa; eseguiti accesso diretto e tre fallback distinti per gare, sales support/eventi in Toscana e ruoli full remote nazionali, senza risultati correnti verificabili."
-          },
-          {
-            "name": "Hays",
-            "reason": "Ricerca nativa non verificabile; eseguiti tre fallback distinti e un secondo passaggio mirato per ruoli in Toscana e full remote, senza pagine correnti affidabili pertinenti."
-          },
-          {
-            "name": "During",
-            "reason": "Ricerca nativa non verificabile; eseguiti tre fallback distinti e un secondo passaggio mirato per ruoli in Toscana e full remote, senza pagine correnti affidabili pertinenti."
-          }
-        ],
-        "extraSourcesChecked": [
-          "Accenture Careers",
-          "Avanade Careers",
-          "Microsoft Careers",
-          "TeamSystem Careers",
-          "Lenovo Careers",
-          "Siemens Careers",
-          "TD SYNNEX Careers",
-          "Zucchetti Careers",
-          "SAP Careers",
-          "Salesforce Careers",
-          "Workday",
-          "Greenhouse",
-          "Lever",
           "SuccessFactors",
-          "SmartRecruiters",
-          "Backroads Careers / Workday",
-          "Edison Careers / Indeed",
-          "ATI Project Careers",
-          "Marriott Careers",
-          "Qboxmail Careers",
-          "Tenuta Toscana Careers"
+          "Greenhouse",
+          "Lever",
+          "Taleo",
+          "CDC_STUDIO company page",
+          "Icon Collection career pages"
         ],
-        "queriesRun": 263,
+        "queriesRun": 270,
         "newJobs": 3,
-        "activeJobs": 64,
-        "note": "Scansione indipendente con filtro geografico: presenza e ibrido solo in Toscana; fuori Toscana esclusivamente full remote o remote-first lavorabile dalla Toscana con presenza occasionale verificabile. Verificate autonomamente tutte le 35 fonti con ricerca diretta e fallback; ricontrollati singolarmente i 64 annunci preesistenti. Rimossi tre annunci LinkedIn la cui pagina specifica reindirizza a risultati generici e non risulta più verificabile; aggiunte tre nuove opportunità in Toscana."
+        "activeJobs": 67,
+        "note": "Scansione indipendente con query Toscana e query nazionali limitate a full remote/remote-first. Ricontrollati singolarmente tutti i 64 annunci già presenti; nessuna rimozione perché non sono emerse chiusure certe o incompatibilità geografiche nuove."
       }
     }
   },
