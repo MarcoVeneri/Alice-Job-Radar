@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T15:10:23+02:00",
+  "generatedAt": "2026-10-02T08:06:24+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -1739,94 +1739,110 @@
       "active": true,
       "firstSeenAt": "2026-10-01T15:08:50+02:00",
       "firstSeenRun": "15:00"
+    },
+    {
+      "id": "castelfalfi-capex-tender-cost-control-manager-20261002",
+      "date": "2026-10-02",
+      "company": "Castelfalfi",
+      "title": "CAPEX Tender & Cost Control Manager",
+      "location": "Castelfalfi, Montaione (FI)",
+      "workMode": "Non dichiarato",
+      "contract": "CCNL Turismo · tempo pieno · durata non dichiarata",
+      "salary": "RAL da 50.000 €",
+      "category": "Tender",
+      "score": 7.4,
+      "source": "Castelfalfi Careers",
+      "url": "https://www.castelfalfi.com/it/capex-tender-cost-control-manager",
+      "summary": "Presidio economico-finanziario dell’intero ciclo delle gare CAPEX: budget, analisi comparativa delle offerte, scorecard, fornitori, aggiudicazione, varianti, scostamenti e audit trail, in raccordo con Finance, Procurement e Project Management.",
+      "checks": [
+        "Richiesta laurea in Economia, Finanza o discipline affini",
+        "Richiesta solida esperienza in cost control/CAPEX, real estate o gare ad alta intensità di capitale",
+        "Richiesti inglese fluente, modelli finanziari ed Excel avanzato"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-02T08:06:24+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "stosa-impiegato-back-office-radicofani-20261002",
+      "date": "2026-10-02",
+      "company": "Stosa Spa",
+      "title": "Impiegato back office",
+      "location": "Radicofani (SI)",
+      "workMode": "In presenza",
+      "contract": "Tempo pieno · durata non dichiarata",
+      "salary": "RAL 25.700–27.000 €",
+      "category": "Sales Support",
+      "score": 8.3,
+      "source": "Indeed",
+      "url": "https://it.indeed.com/viewjob?jk=cccd8e30c6312019",
+      "summary": "Inserimento nel reparto tecnico-commerciale con gestione commesse e ordini, uso del software grafico e contatto con i clienti per garantire evasione e standard concordati.",
+      "checks": [
+        "Richiesta conoscenza di progettazione grafica con software CAD",
+        "Richiesta ottima conoscenza della lingua inglese",
+        "Sede in presenza a Radicofani"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-02T08:06:24+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "par-group-back-office-verifica-qualita-firenze-20261002",
+      "date": "2026-10-02",
+      "company": "par group",
+      "title": "Impiegato/a Back Office – Verifica Qualità Servizio",
+      "location": "Firenze",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo pieno · durata non dichiarata",
+      "salary": "1.300–1.400 € lordi al mese",
+      "category": "Operations",
+      "score": 7.8,
+      "source": "Indeed",
+      "url": "https://it.indeed.com/viewjob?jk=3136c5425a64ae4d",
+      "summary": "Back office su gestionale per anagrafiche, contratti, completezza documentale, avanzamento pratiche e quality call a clienti già acquisiti, con registrazione degli esiti.",
+      "checks": [
+        "La modalità di lavoro non è dichiarata",
+        "Verificare in colloquio la componente telefonica e il peso delle quality call",
+        "Durata contrattuale non dichiarata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-02T08:06:24+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "world-recycling-back-office-commerciale-lucca-20261002",
+      "date": "2026-10-02",
+      "company": "World Recycling Srl",
+      "title": "Back Office Commerciale",
+      "location": "Lucca",
+      "workMode": "In presenza",
+      "contract": "Tempo pieno · CCNL Commercio, 14 mensilità · durata non dichiarata",
+      "salary": "1.400–2.300 € lordi al mese",
+      "category": "Sales Support",
+      "score": 8.8,
+      "source": "Indeed",
+      "url": "https://it.indeed.com/viewjob?jk=5eaaa0ded74c8fea",
+      "summary": "Supporto operativo e amministrativo a clienti e vendite, rapporti con clienti e fornitori italiani ed esteri, corrispondenza commerciale, coordinamento con rete vendita e logistica e utilizzo dei gestionali.",
+      "checks": [
+        "Richiesta ottima conoscenza dell’inglese scritto e parlato",
+        "Modalità in presenza a Lucca",
+        "Durata contrattuale non dichiarata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-02T08:06:24+02:00",
+      "firstSeenRun": "08:00"
     }
   ],
   "audit": {
-    "date": "2026-10-01",
+    "date": "2026-10-02",
     "runs": {
       "08:00": {
-        "scheduledFor": "2026-10-01T08:00:00+02:00",
-        "completedAt": "2026-10-01T08:10:14+02:00",
-        "status": "partial",
-        "requiredSourcesTotal": 35,
-        "requiredSourcesChecked": 32,
-        "sourcesChecked": [
-          "LinkedIn Jobs",
-          "Indeed",
-          "Monster",
-          "Randstad",
-          "Adecco",
-          "Manpower",
-          "Gi Group/Grafton",
-          "Michael Page",
-          "Page Personnel",
-          "Openjobmetis",
-          "Synergie",
-          "Orienta",
-          "Lavoropiù",
-          "Jobrapido",
-          "Jooble",
-          "Talent.com",
-          "Glassdoor Jobs",
-          "Careerjet",
-          "Trovolavoro",
-          "Bakeca Lavoro",
-          "Helplavoro",
-          "Experis",
-          "Umana",
-          "Ali Lavoro",
-          "Etjca",
-          "MAW",
-          "Humangest",
-          "ADHR Group",
-          "Staff S.p.A.",
-          "Atempo",
-          "Toscana Lavoro/ARTI Toscana",
-          "inPA"
-        ],
-        "sourcesUnavailable": [
-          {
-            "name": "InfoJobs",
-            "reason": "Il portale italiano risulta ufficialmente chiuso; il tentativo diretto e tre ricerche fallback non hanno prodotto annunci correnti verificabili."
-          },
-          {
-            "name": "Hays",
-            "reason": "La ricerca nativa non è risultata accessibile e i tre fallback non hanno restituito pagine di annunci correnti sufficientemente affidabili per il perimetro richiesto."
-          },
-          {
-            "name": "During",
-            "reason": "La ricerca nativa non è risultata accessibile e i tre fallback non hanno restituito pagine specifiche correnti verificabili per il perimetro richiesto."
-          }
-        ],
-        "extraSourcesChecked": [
-          "Avanade Careers",
-          "Accenture Careers",
-          "Microsoft Careers",
-          "TeamSystem Careers",
-          "Lenovo Careers",
-          "Siemens Careers",
-          "TD SYNNEX Careers",
-          "Zucchetti Careers",
-          "Salesforce Careers",
-          "Baker Hughes Careers",
-          "Backroads Workday",
-          "Amazon Jobs",
-          "Workday",
-          "SuccessFactors",
-          "Greenhouse",
-          "Lever",
-          "Taleo",
-          "CDC_STUDIO company page",
-          "Icon Collection career pages"
-        ],
-        "queriesRun": 270,
-        "newJobs": 3,
-        "activeJobs": 67,
-        "note": "Scansione indipendente con query Toscana e query nazionali limitate a full remote/remote-first. Ricontrollati singolarmente tutti i 64 annunci già presenti; nessuna rimozione perché non sono emerse chiusure certe o incompatibilità geografiche nuove."
-      },
-      "15:00": {
-        "scheduledFor": "2026-10-01T15:00:00+02:00",
-        "completedAt": "2026-10-01T15:10:23+02:00",
+        "scheduledFor": "2026-10-02T08:00:00+02:00",
+        "completedAt": "2026-10-02T08:06:24+02:00",
         "status": "partial",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 58,
@@ -1897,7 +1913,7 @@
           },
           {
             "name": "Kelly Services Italia",
-            "reason": "Nessun portale italiano corrente verificabile né offerte italiane attuali emerse dopo accesso diretto, tre fallback e secondo passaggio mirato; disponibili solo pagine globali o riferimenti storici."
+            "reason": "Nessun portale italiano corrente verificabile né offerte italiane attuali emerse dopo accesso diretto, tre fallback e secondo passaggio mirato; disponibili soltanto pagine globali o riferimenti storici."
           }
         ],
         "extraSourcesChecked": [
@@ -1907,8 +1923,8 @@
           "LinkedIn company jobs",
           "Jooble mirrors (solo discovery)",
           "Career page locali e regionali",
-          "PortaleGiovani Firenze",
-          "Rete Informatica Lavoro"
+          "RemoteRocketship (solo discovery)",
+          "WhatJobs e Trabajo (solo discovery)"
         ],
         "companiesChecked": [
           "Accenture",
@@ -1987,9 +2003,9 @@
           "Jobvite",
           "JOIN"
         ],
-        "queriesRun": 658,
-        "newJobs": 8,
-        "activeJobs": 73,
+        "queriesRun": 619,
+        "newJobs": 4,
+        "activeJobs": 77,
         "layersCompleted": [
           "A) Portali generalisti",
           "B) Agenzie per il lavoro",
@@ -2006,12 +2022,13 @@
         ],
         "secondPassSources": [
           "InfoJobs",
+          "Kelly Services Italia",
           "Hays",
+          "During",
           "Orienta",
           "Trovolavoro",
           "Helplavoro",
           "Ali Lavoro",
-          "During",
           "Staff S.p.A.",
           "Atempo",
           "Toscana Lavoro/ARTI Toscana",
@@ -2024,17 +2041,16 @@
           "e-work",
           "Iziwork",
           "Eurointerim",
-          "Kelly Services Italia",
           "SAPIENS",
           "La Risorsa Umana",
           "CPL Taylor"
         ],
         "notes": [
-          "Scansione pomeridiana indipendente con 658 query/controlli reali; copertura Toscana e ricerca nazionale limitata a ruoli full remote/remote-first compatibili dalla Toscana.",
-          "Ricontrollate singolarmente tutte le 67 offerte presenti all’avvio del run e consolidate le nuove opportunità già pubblicate durante la stessa finestra di esecuzione.",
-          "Rimosse due offerte con evidenza di chiusura: NEVERHACK Italy non accetta più candidature; CDC_STUDIO reindirizza a un annuncio scaduto.",
-          "Escluse le offerte fuori Toscana con ibrido non quantificato, presenza settimanale o modalità remota non verificabile.",
-          "Tre record legacy privi di firstSeenAt/firstSeenRun sono stati conservati senza inventare una data, valorizzando i campi come Non dichiarato."
+          "Scansione mattutina indipendente con 619 query/controlli reali: 60 fonti, 60 aziende, 13 ATS e ricerca stratificata per Toscana e remote-first nazionale.",
+          "Ricontrollate singolarmente tutte le 73 offerte presenti all’avvio; nessuna rimossa perché non è emersa evidenza affidabile di chiusura o nuova incompatibilità geografica.",
+          "Aggiunte quattro offerte verificate in Toscana; escluse le posizioni fuori Toscana con presenza o frequenza remota non chiaramente compatibile.",
+          "Scartato come duplicato l’annuncio Ali Professional Ufficio Gare di Arezzo ripubblicato su LinkedIn; escluse pagine scadute o senza annuncio originale verificabile.",
+          "Il terzo passaggio ha incluso cluster Tender/Proposal, Sales Support/Order Management e Back Office; un tentativo del motore di ricerca ha restituito errore transitorio ed è stato ripetuto con un motore alternativo."
         ]
       }
     }
