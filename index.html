@@ -426,8 +426,30 @@ const savedKey="alice-job-radar-saved-v1";
 const dismissedKey="alice-job-radar-dismissed-v1";
 const appliedKey="alice-job-radar-applied-v1";
 const syncPendingKey="alice-job-radar-sync-pending-v1";
+const accessTokenKey="alice-job-radar-access-token-v1";
+const sharedTokenKey="spesa_shared_token";
 const syncCfg=CFG.sync||{};
 const syncSentinel="__ALICE_RADAR_SYNC_READY__";
+
+function ingestAccessToken(){
+ const p=new URLSearchParams(location.hash.replace(/^#/,""));
+ const k=(p.get("key")||"").trim();
+ if(k){
+   try{localStorage.setItem(accessTokenKey,k)}catch(e){}
+   history.replaceState(null,"",location.pathname+location.search);
+ }
+}
+function syncToken(){
+ try{
+   let t=localStorage.getItem(accessTokenKey)||"";
+   if(!t){
+     t=localStorage.getItem(sharedTokenKey)||"";
+     if(t)localStorage.setItem(accessTokenKey,t);
+   }
+   return t;
+ }catch(e){return ""}
+}
+ingestAccessToken();
 
 function state(){try{return JSON.parse(localStorage.getItem(storeKey)||"{}")}catch(e){return{}}}
 function saveState(s){try{localStorage.setItem(storeKey,JSON.stringify(s))}catch(e){}}
@@ -438,19 +460,16 @@ function appliedState(){return objectStore(appliedKey)}
 function savedState(){try{return JSON.parse(localStorage.getItem(savedKey)||"{}")}catch(e){return{}}}
 function saveSavedState(v){try{localStorage.setItem(savedKey,JSON.stringify(v))}catch(e){}}
 function remoteRow(id){return REMOTE_ROWS.find(r=>String(r.job_id)===String(id))||null}
-function getStatus(id){const r=remoteRow(id);return r&&r.status?r.status:"Nuova"}
-function isDismissed(id){const r=remoteRow(id);return !!(r&&r.dismissed)}
-function isApplied(id){const r=remoteRow(id);return !!(r&&r.applied&&!r.dismissed)}
-function isSaved(id){const r=remoteRow(id);return !!(r&&r.saved)}
+function getStatus(id){const r=remoteRow(id);if(r&&r.status)return r.status;const s=state();return s[String(id)]||"Nuova"}
+function isDismissed(id){const r=remoteRow(id);if(r)return !!r.dismissed;return !!dismissedState()[String(id)]}
+function isApplied(id){const r=remoteRow(id);if(r)return !!(r.applied&&!r.dismissed);return !!appliedState()[String(id)]&&!isDismissed(id)}
+function isSaved(id){const r=remoteRow(id);if(r)return !!r.saved;return !!savedState()[String(id)]}
 
-function syncEnabled(){return !!(syncCfg.enabled&&syncCfg.url&&syncCfg.publishableKey)}
-function syncTable(){return String(syncCfg.table||"job_state").replace(/[^a-zA-Z0-9_]/g,"")}
-function syncHeaders(prefer){
- const h={"apikey":syncCfg.publishableKey,"Content-Type":"application/json","x-client-info":"alice-job-radar/shared"};
- if(prefer)h["Prefer"]=prefer;
- return h;
+function syncEnabled(){return !!(syncCfg.enabled&&syncCfg.url&&syncCfg.publishableKey&&syncToken())}
+function syncHeaders(){
+ return {"apikey":syncCfg.publishableKey,"Content-Type":"application/json","x-client-info":"alice-job-radar/private"};
 }
-function syncEndpoint(suffix=""){return String(syncCfg.url||"").replace(/\/$/,"")+"/rest/v1/"+syncTable()+suffix}
+function syncRpc(name){return String(syncCfg.url||"").replace(/\/$/,"")+"/rest/v1/rpc/"+name}
 
 function jobRow(id,patch={}){
  const sid=String(id),j=DATA.find(x=>String(x.id)===sid),r=remoteRow(sid)||{};
@@ -468,18 +487,22 @@ function jobRow(id,patch={}){
  };
 }
 async function remoteRows(){
- const r=await fetch(syncEndpoint("?select=job_id,status,saved,applied,dismissed,dismissed_at,company,title,url,updated_at"),{
-  headers:syncHeaders(),cache:"no-store"
+ if(!syncEnabled())return [];
+ const r=await fetch(syncRpc("alice_get_state"),{
+  method:"POST",
+  headers:syncHeaders(),
+  cache:"no-store",
+  body:JSON.stringify({p_token:syncToken()})
  });
  if(!r.ok)throw Error("sync read "+r.status);
  return await r.json();
 }
 async function upsertRows(rows){
  if(!syncEnabled()||!rows.length)return;
- const r=await fetch(syncEndpoint("?on_conflict=job_id"),{
+ const r=await fetch(syncRpc("alice_upsert_state"),{
   method:"POST",
-  headers:syncHeaders("resolution=merge-duplicates,return=minimal"),
-  body:JSON.stringify(rows)
+  headers:syncHeaders(),
+  body:JSON.stringify({p_token:syncToken(),p_rows:rows})
  });
  if(!r.ok)throw Error("sync write "+r.status);
 }
@@ -497,10 +520,17 @@ function replaceLocalFromRemote(rows){
  saveState(st);saveSavedState(sv);writeObjectStore(appliedKey,ap);writeObjectStore(dismissedKey,di);
 }
 async function writeJob(id,patch){
- if(!syncEnabled())throw Error("sync disabled");
- const row=jobRow(id,patch);
+ const sid=String(id);
+ if(!syncEnabled()){
+  if(patch.status!==undefined){const s=state();if(patch.status&&patch.status!=="Nuova")s[sid]=patch.status;else delete s[sid];saveState(s)}
+  if(patch.saved!==undefined){const s=savedState();if(patch.saved)s[sid]=true;else delete s[sid];saveSavedState(s)}
+  if(patch.applied!==undefined){const s=appliedState();if(patch.applied)s[sid]={at:new Date().toISOString()};else delete s[sid];writeObjectStore(appliedKey,s)}
+  if(patch.dismissed!==undefined){const s=dismissedState(),j=DATA.find(x=>String(x.id)===sid);if(patch.dismissed)s[sid]={at:patch.dismissed_at||new Date().toISOString(),company:(j&&j.company)||"",title:(j&&j.title)||"",url:(j&&j.url)||""};else delete s[sid];writeObjectStore(dismissedKey,s)}
+  return jobRow(sid,patch);
+ }
+ const row=jobRow(sid,patch);
  await upsertRows([row]);
- const idx=REMOTE_ROWS.findIndex(r=>String(r.job_id)===String(id));
+ const idx=REMOTE_ROWS.findIndex(r=>String(r.job_id)===sid);
  if(idx>=0)REMOTE_ROWS[idx]=row; else REMOTE_ROWS.push(row);
  return row;
 }
@@ -690,7 +720,13 @@ async function load(){ ui.notice.classList.remove('show');
    await syncCycle();
    mergePersistedCandidates();
    renderAudit(AUDIT);
-   if(ageHours(j.generatedAt)>36){ui.notice.textContent='La ricerca non risulta aggiornata nelle ultime 36 ore.';ui.notice.classList.add('show')}
+   if(syncCfg.enabled&&!syncToken()){
+     ui.notice.textContent='Sincronizzazione privata non configurata su questo dispositivo: gli stati restano salvati solo qui.';
+     ui.notice.classList.add('show');
+   }else if(ageHours(j.generatedAt)>36){
+     ui.notice.textContent='La ricerca non risulta aggiornata nelle ultime 36 ore.';
+     ui.notice.classList.add('show');
+   }
    render();
  }catch(e){
    ui.notice.textContent='Non riesco a leggere i dati della ricerca. Riprova con ↻.';ui.notice.classList.add('show');
