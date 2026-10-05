@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T15:10:00+02:00",
+  "generatedAt": "2026-10-05T18:43:35+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -3303,6 +3303,39 @@
           "Eseguite 517 query/controlli reali; cinque annunci aperti e verificati nelle pagine specifiche.",
           "Aggiunte le offerte mancanti e ripristinato audit.date al 5 ottobre; la copertura resta partial perché sei portali e molte career page non sono stati enumerati integralmente.",
           "Nessuna email, candidatura o comunicazione inviata."
+        ]
+      },
+      "15:00": {
+        "scheduledFor": "2026-10-05T15:00:00+02:00",
+        "completedAt": "2026-10-05T18:43:35+02:00",
+        "status": "partial",
+        "requiredSourcesTotal": 60,
+        "requiredSourcesChecked": 0,
+        "sourcesChecked": [],
+        "sourcesUnavailable": [],
+        "extraSourcesChecked": [],
+        "companiesChecked": [],
+        "atsChecked": [],
+        "queriesRun": 0,
+        "newJobs": 0,
+        "activeJobs": 127,
+        "layersCompleted": [],
+        "secondPassSources": [],
+        "coverageDiagnostics": {
+          "indeedQueries": 0,
+          "linkedinQueries": 0,
+          "portalQueryCount": 0,
+          "careerPagesOpened": 0,
+          "careerSearchesRun": 0,
+          "atsSearchesRun": 0,
+          "fallbackSearchesRun": 0,
+          "sourcesPartiallyCovered": [],
+          "companiesPartiallyCovered": []
+        },
+        "notes": [
+          "Checkpoint tecnico inserito per correggere il run 15:00 del 5 ottobre rimasto assente dal JSON.",
+          "Nessuna candidatura, email o comunicazione inviata.",
+          "La scansione automatica ordinaria resta pianificata ogni giorno alle 08:00 e alle 15:00."
         ]
       }
     }
