@@ -1,0 +1,81 @@
+name: Fix Alice 15 audit
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-alice-1510.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Patch data/jobs.json 15:00 audit
+        run: |
+          python3 - <<'PY'
+          import json
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+
+          path = Path('data/jobs.json')
+          data = json.loads(path.read_text(encoding='utf-8'))
+          now = datetime.now(timezone(timedelta(hours=2))).replace(microsecond=0).isoformat()
+          jobs = data.get('jobs', [])
+          active_jobs = sum(1 for j in jobs if j.get('active', True))
+
+          data['generatedAt'] = now
+          data['source'] = data.get('source') or 'Ricerca quotidiana Alice'
+          audit = data.setdefault('audit', {})
+          audit['date'] = '2026-10-05'
+          runs = audit.setdefault('runs', {})
+          base08 = runs.get('08:00', {})
+          runs['15:00'] = {
+            'scheduledFor': '2026-10-05T15:00:00+02:00',
+            'completedAt': now,
+            'status': 'partial',
+            'requiredSourcesTotal': 60,
+            'requiredSourcesChecked': 0,
+            'sourcesChecked': [],
+            'sourcesUnavailable': [],
+            'extraSourcesChecked': [],
+            'companiesChecked': [],
+            'atsChecked': [],
+            'queriesRun': 0,
+            'newJobs': 0,
+            'activeJobs': active_jobs,
+            'layersCompleted': [],
+            'secondPassSources': [],
+            'coverageDiagnostics': {
+              'indeedQueries': 0,
+              'linkedinQueries': 0,
+              'portalQueryCount': 0,
+              'careerPagesOpened': 0,
+              'careerSearchesRun': 0,
+              'atsSearchesRun': 0,
+              'fallbackSearchesRun': 0,
+              'sourcesPartiallyCovered': [],
+              'companiesPartiallyCovered': []
+            },
+            'notes': [
+              'Checkpoint tecnico inserito per correggere il run 15:00 del 5 ottobre rimasto assente dal JSON.',
+              'Nessuna candidatura, email o comunicazione inviata.',
+              'La scansione automatica ordinaria resta pianificata ogni giorno alle 08:00 e alle 15:00.'
+            ]
+          }
+
+          path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+      - name: Commit fix
+        run: |
+          git config user.name "MarcoVeneri"
+          git config user.email "30596631+MarcoVeneri@users.noreply.github.com"
+          git add data/jobs.json
+          git commit -m "Fix Alice 15:00 audit checkpoint" || exit 0
+          git push
