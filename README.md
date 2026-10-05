@@ -2,25 +2,24 @@
 
 PWA collegata alla ricerca automatica delle 08:00 e delle 15:00.
 
-La ricerca aggiorna `data/jobs.json`. Gli stati personali delle offerte (Salvata, Candidata, Eliminata e stato candidatura) possono essere sincronizzati tra dispositivi tramite Supabase.
+La ricerca aggiorna `data/jobs.json`; la PWA continua a funzionare normalmente anche prima dell'attivazione del database condiviso.
 
-## Sicurezza della sincronizzazione
+## Sincronizzazione condivisa
 
-La publishable key Supabase presente nel frontend è pubblica per definizione e non costituisce un segreto.
+La versione 6.21 è predisposta per sincronizzare tra tutti i dispositivi:
+- stato dell'offerta
+- Salvata
+- Candidata
+- Eliminata
 
-L'accesso a `job_state` è invece protetto da un token privato ad alta entropia. La PWA:
+La sincronizzazione resta disattivata finché il database non è configurato.
 
-- riutilizza automaticamente il token privato già usato dalla PWA Lista Spesa quando disponibile sul dispositivo;
-- può importare lo stesso token tramite un link con `#key=...`, che viene subito salvato in `localStorage` e rimosso dall'URL;
-- usa RPC protette (`alice_get_state` e `alice_upsert_state`) per leggere e modificare gli stati;
-- mantiene il `localStorage` come fallback se il token non è disponibile.
+### Migrazione senza perdita dati
 
-Le policy RLS di `job_state` **non devono mai** essere sostituite con policy permissive tipo `USING (true)` o `WITH CHECK (true)`.
+Il database può essere inizializzato soltanto da un link master. Quel link va aperto per la prima volta sul telefono di Alice. Prima di leggere il database, la PWA carica gli stati locali già presenti sul suo telefono e crea il riferimento di inizializzazione. Solo dopo gli altri dispositivi iniziano a leggere lo stato condiviso.
 
-## Dati pubblici e privati
+Quindi un altro iPhone, iPad o computer non può inizializzare accidentalmente il database vuoto e cancellare le selezioni locali di Alice.
 
-`data/jobs.json` contiene le offerte raccolte dal radar e viene servito dalla PWA pubblica.
-
-Gli stati personali delle candidature sono invece nel database protetto e non sono leggibili o modificabili da un visitatore anonimo senza il token privato.
+Il `localStorage` resta anche come copia locale/fallback.
 
 URL PWA: `https://marcoveneri.github.io/Alice-Job-Radar/`
