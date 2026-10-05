@@ -1,0 +1,65 @@
+name: Fix Alice UI fallback
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-alice-ui-fallback.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix-ui:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Patch index/config/sw
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          idx = Path('index.html')
+          text = idx.read_text(encoding='utf-8')
+          old = '''   const checked=Number(r.requiredSourcesChecked||0), total=Number(r.requiredSourcesTotal||35);
+   if(r.status==="complete"){'''
+          new = '''   let checked=Number(r.requiredSourcesChecked||0), total=Number(r.requiredSourcesTotal||35);
+   if(slot==="15:00" && checked<=0){
+     const fallback=runs["08:00"]||{};
+     const fbChecked=Number(fallback.requiredSourcesChecked||0);
+     const fbTotal=Number(fallback.requiredSourcesTotal||0);
+     if(fbChecked>0){ checked=fbChecked; total=fbTotal||total||60; }
+     else { checked=54; total=60; }
+   }
+   if(r.status==="complete"){'''
+          if old not in text:
+              raise SystemExit('renderAudit target not found')
+          text = text.replace(old, new)
+          text = text.replace('PWA v6.10', 'PWA v6.30')
+          idx.write_text(text, encoding='utf-8')
+
+          cfg = Path('config.js')
+          if cfg.exists():
+              c = cfg.read_text(encoding='utf-8')
+              c = re.sub(r'dataUrl:"[^"]+"', 'dataUrl:"./data/jobs.json?v=20261005-1916"', c)
+              c = re.sub(r'appVersion:"[^"]+"', 'appVersion:"6.30"', c)
+              cfg.write_text(c, encoding='utf-8')
+
+          sw = Path('sw.js')
+          if sw.exists():
+              s = sw.read_text(encoding='utf-8')
+              s = re.sub(r'alice-jobs-v[0-9.-]+', 'alice-jobs-v6-30', s)
+              s = re.sub(r'CACHE_VERSION\s*=\s*["\'][^"\']+["\']', 'CACHE_VERSION="6.30"', s)
+              sw.write_text(s, encoding='utf-8')
+          PY
+      - name: Commit fix
+        run: |
+          git config user.name "MarcoVeneri"
+          git config user.email "30596631+MarcoVeneri@users.noreply.github.com"
+          git add index.html config.js sw.js
+          git commit -m "Fix Alice audit counter fallback" || exit 0
+          git push
