@@ -1,88 +1,37 @@
-name: Fix Alice 15 audit
+name: Fix Alice audit now
 
-on:
+"on":
   push:
     paths:
-      - '.github/workflows/fix-alice-1510.yml'
+      - ".github/workflows/fix-alice-1510.yml"
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  fix-audit:
+  fix:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Repair audit counter and UI
+      - uses: actions/checkout@v4
+      - name: Repair JSON counter
         run: |
           python3 - <<'PY'
-          import json, re
+          import json
           from pathlib import Path
-
-          # Repair the CURRENT 15:00 audit without inventing a new scan.
           p = Path('data/jobs.json')
           data = json.loads(p.read_text(encoding='utf-8'))
-          audit = data.get('audit') or {}
-          runs = audit.get('runs') or {}
-          r15 = runs.get('15:00') or {}
-          total = int(r15.get('requiredSourcesTotal') or 60)
-          checked = int(r15.get('requiredSourcesChecked') or 0)
-          second = [str(x).strip() for x in (r15.get('secondPassSources') or []) if str(x).strip()]
-          sources = [str(x).strip() for x in (r15.get('sourcesChecked') or []) if str(x).strip()]
-          derived = min(total, len(dict.fromkeys(second or sources)))
-          if checked <= 0 and derived > 0:
-              r15['requiredSourcesChecked'] = derived
-              notes = r15.setdefault('notes', [])
-              msg = f'Contatore requiredSourcesChecked riparato automaticamente da 0 a {derived} usando le fonti realmente registrate in secondPassSources/sourcesChecked; nessuna nuova scansione simulata.'
-              if msg not in notes:
-                  notes.append(msg)
-              runs['15:00'] = r15
-              audit['runs'] = runs
-              data['audit'] = audit
-              p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-
-          # Defensive UI: if a future writer accidentally persists 0 again, derive the display
-          # from the same run's actual source arrays before falling back to the 08:00 run.
-          idx = Path('index.html')
-          s = idx.read_text(encoding='utf-8')
-          old = '   const checked=Number(r.requiredSourcesChecked||0), total=Number(r.requiredSourcesTotal||35);'
-          new = '''   let checked=Number(r.requiredSourcesChecked||0), total=Number(r.requiredSourcesTotal||35);
-   if(checked<=0 && Array.isArray(r.secondPassSources) && r.secondPassSources.length) checked=Math.min(total,r.secondPassSources.length);
-   if(checked<=0 && Array.isArray(r.sourcesChecked) && r.sourcesChecked.length) checked=Math.min(total,r.sourcesChecked.length);
-   if(checked<=0 && slot==="15:00" && runs["08:00"]){
-     const p=runs["08:00"];
-     checked=Number(p.requiredSourcesChecked||0);
-     if(checked<=0 && Array.isArray(p.secondPassSources)) checked=Math.min(Number(p.requiredSourcesTotal||total),p.secondPassSources.length);
-     total=Number(r.requiredSourcesTotal||p.requiredSourcesTotal||60);
-   }'''
-          if old in s:
-              s = s.replace(old, new)
-          s = s.replace('PWA v6.10', 'PWA v6.31').replace('PWA v6.29', 'PWA v6.31').replace('PWA v6.30', 'PWA v6.31')
-          idx.write_text(s, encoding='utf-8')
-
-          cfg = Path('config.js')
-          if cfg.exists():
-              c = cfg.read_text(encoding='utf-8')
-              c = re.sub(r'dataUrl:"[^"]+"', 'dataUrl:"./data/jobs.json?v=20261005-1916-fixed"', c)
-              c = re.sub(r'appVersion:"[^"]+"', 'appVersion:"6.31"', c)
-              cfg.write_text(c, encoding='utf-8')
-
-          sw = Path('sw.js')
-          if sw.exists():
-              w = sw.read_text(encoding='utf-8')
-              w = re.sub(r'alice-job-radar-v6-\d+', 'alice-job-radar-v6-31', w)
-              w = re.sub(r'alice-jobs-v6-\d+', 'alice-jobs-v6-31', w)
-              w = re.sub(r'CACHE_VERSION\s*=\s*["\'][^"\']+["\']', 'CACHE_VERSION="6.31"', w)
-              sw.write_text(w, encoding='utf-8')
+          r = data['audit']['runs']['15:00']
+          total = int(r.get('requiredSourcesTotal') or 60)
+          actual = len(dict.fromkeys(r.get('secondPassSources') or r.get('sourcesChecked') or []))
+          if int(r.get('requiredSourcesChecked') or 0) == 0 and actual > 0:
+              r['requiredSourcesChecked'] = min(total, actual)
+              r.setdefault('notes', []).append('Contatore corretto automaticamente usando le fonti realmente registrate nel run delle 15:00.')
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
-      - name: Commit repair
+      - name: Commit
         run: |
           git config user.name "MarcoVeneri"
           git config user.email "30596631+MarcoVeneri@users.noreply.github.com"
-          git add data/jobs.json index.html config.js sw.js
-          git commit -m "Repair Alice 15 audit counter and defensive UI" || exit 0
+          git add data/jobs.json
+          git commit -m "Fix Alice 15 audit counter" || exit 0
           git push
