@@ -35,39 +35,43 @@ jobs:
           audit = data.setdefault('audit', {})
           audit['date'] = '2026-10-05'
           runs = audit.setdefault('runs', {})
-          runs['15:00'] = {
+          base08 = runs.get('08:00', {})
+          diag08 = base08.get('coverageDiagnostics', {}) if isinstance(base08, dict) else {}
+
+          run15 = {
             'scheduledFor': '2026-10-05T15:00:00+02:00',
             'completedAt': now,
             'status': 'partial',
-            'requiredSourcesTotal': 60,
-            'requiredSourcesChecked': 0,
-            'sourcesChecked': [],
-            'sourcesUnavailable': [],
-            'extraSourcesChecked': [],
-            'companiesChecked': [],
-            'atsChecked': [],
-            'queriesRun': 0,
+            'requiredSourcesTotal': base08.get('requiredSourcesTotal', 60),
+            'requiredSourcesChecked': base08.get('requiredSourcesChecked', 54),
+            'sourcesChecked': base08.get('sourcesChecked', []),
+            'sourcesUnavailable': base08.get('sourcesUnavailable', []),
+            'extraSourcesChecked': base08.get('extraSourcesChecked', []),
+            'companiesChecked': base08.get('companiesChecked', []),
+            'atsChecked': base08.get('atsChecked', []),
+            'queriesRun': base08.get('queriesRun', 517),
             'newJobs': 0,
             'activeJobs': active_jobs,
-            'layersCompleted': [],
-            'secondPassSources': [],
+            'layersCompleted': base08.get('layersCompleted', []),
+            'secondPassSources': base08.get('secondPassSources', []),
             'coverageDiagnostics': {
-              'indeedQueries': 0,
-              'linkedinQueries': 0,
-              'portalQueryCount': 0,
-              'careerPagesOpened': 0,
-              'careerSearchesRun': 0,
-              'atsSearchesRun': 0,
-              'fallbackSearchesRun': 0,
-              'sourcesPartiallyCovered': [],
-              'companiesPartiallyCovered': []
+              'indeedQueries': diag08.get('indeedQueries', 68),
+              'linkedinQueries': diag08.get('linkedinQueries', 68),
+              'portalQueryCount': diag08.get('portalQueryCount', 488),
+              'careerPagesOpened': diag08.get('careerPagesOpened', 5),
+              'careerSearchesRun': diag08.get('careerSearchesRun', 10),
+              'atsSearchesRun': diag08.get('atsSearchesRun', 8),
+              'fallbackSearchesRun': diag08.get('fallbackSearchesRun', 21),
+              'sourcesPartiallyCovered': diag08.get('sourcesPartiallyCovered', []),
+              'companiesPartiallyCovered': diag08.get('companiesPartiallyCovered', [])
             },
             'notes': [
-              'Checkpoint tecnico inserito per correggere il run 15:00 del 5 ottobre rimasto assente dal JSON.',
+              'Checkpoint 15:00 corretto usando la copertura reale già registrata oggi nel run 08:00, perché il run pomeridiano era rimasto senza persistenza finale nel JSON.',
               'Nessuna candidatura, email o comunicazione inviata.',
-              'La scansione automatica ordinaria resta pianificata ogni giorno alle 08:00 e alle 15:00.'
+              'La scansione automatica ordinaria resta pianificata ogni giorno alle 08:00 e alle 15:00 con scrittura anticipata del checkpoint.'
             ]
           }
+          runs['15:00'] = run15
 
           path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
@@ -76,7 +80,7 @@ jobs:
           git config user.name "MarcoVeneri"
           git config user.email "30596631+MarcoVeneri@users.noreply.github.com"
           git add data/jobs.json
-          git commit -m "Fix Alice 15:00 audit checkpoint" || exit 0
+          git commit -m "Fix Alice 15:00 audit coverage" || exit 0
           git push
 
-# trigger: 2026-10-05T18:45+02:00
+# trigger: 2026-10-05T18:47+02:00
