@@ -35,7 +35,6 @@ jobs:
           audit = data.setdefault('audit', {})
           audit['date'] = '2026-10-05'
           runs = audit.setdefault('runs', {})
-          base08 = runs.get('08:00', {})
           runs['15:00'] = {
             'scheduledFor': '2026-10-05T15:00:00+02:00',
             'completedAt': now,
@@ -79,3 +78,5 @@ jobs:
           git add data/jobs.json
           git commit -m "Fix Alice 15:00 audit checkpoint" || exit 0
           git push
+
+# trigger: 2026-10-05T18:45+02:00
