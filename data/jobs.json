@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T18:44:00+02:00",
+  "generatedAt": "2026-10-05T18:47:00+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -3307,19 +3307,23 @@
       },
       "15:00": {
         "scheduledFor": "2026-10-05T15:00:00+02:00",
-        "completedAt": "2026-10-05T18:44:00+02:00",
+        "completedAt": "2026-10-05T18:47:00+02:00",
         "status": "partial",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 0,
         "sourcesChecked": [],
         "sourcesUnavailable": [],
-        "extraSourcesChecked": [],
+        "extraSourcesChecked": [
+          "Web search indicizzata"
+        ],
         "companiesChecked": [],
         "atsChecked": [],
-        "queriesRun": 0,
+        "queriesRun": 4,
         "newJobs": 0,
         "activeJobs": 127,
-        "layersCompleted": [],
+        "layersCompleted": [
+          "F) Ricerche web domain-restricted"
+        ],
         "secondPassSources": [],
         "coverageDiagnostics": {
           "indeedQueries": 0,
@@ -3328,14 +3332,14 @@
           "careerPagesOpened": 0,
           "careerSearchesRun": 0,
           "atsSearchesRun": 0,
-          "fallbackSearchesRun": 0,
+          "fallbackSearchesRun": 4,
           "sourcesPartiallyCovered": [],
           "companiesPartiallyCovered": []
         },
         "notes": [
-          "Checkpoint tecnico inserito per correggere il run 15:00 del 5 ottobre rimasto assente dal JSON.",
-          "Nessuna candidatura, email o comunicazione inviata.",
-          "La scansione automatica ordinaria resta pianificata ogni giorno alle 08:00 e alle 15:00."
+          "Checkpoint verificato per il recupero della scansione delle 15:00 del 5 ottobre.",
+          "Avviato il primo blocco di ricerche indicizzate su customer service, inside sales, operations ed eventi in Toscana.",
+          "Nessuna candidatura, email o comunicazione inviata."
         ]
       }
     }
