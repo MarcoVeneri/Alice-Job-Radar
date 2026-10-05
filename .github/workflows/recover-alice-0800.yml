@@ -1,0 +1,169 @@
+name: Recupera Alice 08:00
+on:
+  push:
+    branches: ["main"]
+    paths: [".github/workflows/recover-alice-0800.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Aggiorna jobs e audit 08:00
+        shell: python
+        run: |
+          import json
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          from pathlib import Path
+
+          p = Path("data/jobs.json")
+          data = json.loads(p.read_text(encoding="utf-8"))
+          now = datetime.now(ZoneInfo("Europe/Rome")).isoformat(timespec="seconds")
+          jobs = data.setdefault("jobs", [])
+          existing = {j.get("id") for j in jobs}
+
+          candidates = [
+            {
+              "id": "ali-lavoro-back-office-commerciale-pisa-4472588228",
+              "date": "2026-10-03",
+              "company": "Ali Lavoro / azienda cliente metalmeccanica",
+              "title": "Impiegato / Impiegata Back Office Commerciale",
+              "location": "Pisa",
+              "workMode": "Non dichiarato",
+              "contract": "CCNL Metalmeccanica Industria D1 · full time · temporaneo con possibile stabilizzazione",
+              "salary": "1.600–2.000 € lordi/mese (indicazione da mirror; verificare in selezione)",
+              "category": "Sales Support",
+              "score": 9.2,
+              "source": "Ali Lavoro / LinkedIn Jobs",
+              "url": "https://it.linkedin.com/jobs/view/impiegato-impiegata-back-office-commerciale-at-ali-lavoro-4472588228",
+              "summary": "Back office commerciale con preventivi, gestione clienti, avanzamento commesse, acquisti ricambi, gestionale, data entry e flussi documentali: forte sovrapposizione al profilo di Alice.",
+              "checks": ["Sede Pisa", "Modalità ibrida non dichiarata", "Inquadramento D1; verificare RAL effettiva"],
+              "remote": False,
+              "active": True,
+              "firstSeenAt": now,
+              "firstSeenRun": "08:00"
+            },
+            {
+              "id": "randstad-back-office-commerciale-arezzo-47367562",
+              "date": "2026-09-01",
+              "company": "Randstad Italia / azienda cliente",
+              "title": "Back Office Commerciale (M/F/NB)",
+              "location": "Arezzo",
+              "workMode": "Non dichiarato",
+              "contract": "Somministrazione · full time · CCNL Oreficeria",
+              "salary": "21.000–28.000 €",
+              "category": "Sales Support",
+              "score": 9.4,
+              "source": "Randstad",
+              "url": "https://www.randstad.com/jobs/back-office-commerciale-mfnb_arezzo_47367562/",
+              "summary": "Amministrazione vendite, assistenza clienti, SAP/CRM, ordini a fornitori, spedizioni, offerte e supporto a gare d'appalto. Annuncio ancora aperto con chiusura 8 ottobre 2026.",
+              "checks": ["Buon inglese richiesto", "Esperienza import-export e SAP richiesta", "Modalità ibrida non dichiarata"],
+              "remote": False,
+              "active": True,
+              "firstSeenAt": now,
+              "firstSeenRun": "08:00"
+            },
+            {
+              "id": "randstad-back-office-commerciale-estero-sansepolcro-47492862",
+              "date": "2026-09-24",
+              "company": "Randstad Italia / azienda cliente settore tessile",
+              "title": "Back Office Commerciale Estero (F/M/NB)",
+              "location": "Sansepolcro (AR)",
+              "workMode": "Non dichiarato",
+              "contract": "Inserimento diretto · full time; tipologia finale non dichiarata",
+              "salary": "22.000–24.000 €",
+              "category": "Sales Support",
+              "score": 8.7,
+              "source": "Randstad",
+              "url": "https://www.randstad.com/jobs/back-office-commerciale-estero-fmnb_sansepolcro_47492862/",
+              "summary": "Amministrazione vendite, customer service, ordini, scorte, consegne e coordinamento dei tecnici commerciali per offerte e gare d'appalto.",
+              "checks": ["Buon inglese richiesto; tedesco plus", "Richiesti circa 5 anni nel ruolo", "RAL sotto 35k e sede Sansepolcro"],
+              "remote": False,
+              "active": True,
+              "firstSeenAt": now,
+              "firstSeenRun": "08:00"
+            },
+            {
+              "id": "abb-e-mobility-team-lead-order-management-europe-4462935514",
+              "date": "2026-10-05",
+              "company": "ABB E-mobility",
+              "title": "Team Lead Order Management Europe",
+              "location": "San Giovanni Valdarno (AR)",
+              "workMode": "Non dichiarato",
+              "contract": "Full time · tipologia non dichiarata",
+              "salary": "Non dichiarato",
+              "category": "Operations",
+              "score": 7.8,
+              "source": "ABB E-mobility / LinkedIn Jobs",
+              "url": "https://it.linkedin.com/jobs/view/team-lead-order-management-europe-at-abb-e-mobility-4462935514",
+              "summary": "Leadership europea Order-to-Cash e Customer Support: order management, KPI, CRM/ERP, Sales, Logistics, Finance e miglioramento dei processi. Seniority alta ma attività molto vicine all'esperienza di Alice.",
+              "checks": ["Richiesta comprovata esperienza di people leadership", "Inglese fluente richiesto", "Ruolo senior regionale; verificare allineamento di seniority e retribuzione"],
+              "remote": False,
+              "active": True,
+              "firstSeenAt": now,
+              "firstSeenRun": "08:00"
+            }
+          ]
+
+          new_count = 0
+          for job in candidates:
+            if job["id"] not in existing:
+              jobs.append(job)
+              existing.add(job["id"])
+              new_count += 1
+
+          active_count = sum(1 for j in jobs if j.get("active", True))
+          data["generatedAt"] = now
+          data["audit"] = {
+            "date": "2026-10-05",
+            "runs": {
+              "08:00": {
+                "scheduledFor": "2026-10-05T08:00:00+02:00",
+                "completedAt": now,
+                "status": "partial",
+                "requiredSourcesTotal": 60,
+                "requiredSourcesChecked": 4,
+                "sourcesChecked": ["LinkedIn Jobs", "Randstad", "Ali Lavoro", "Openjobmetis"],
+                "sourcesUnavailable": [],
+                "extraSourcesChecked": ["Indeed indexed results", "Trovolavoro", "HelpLavoro", "Jooble", "Lavoro.it", "SimplyHired", "Avanade Careers", "Accenture Careers"],
+                "companiesChecked": ["ABB E-mobility", "Avanade", "Accenture", "GMG", "PVH / Tommy Hilfiger", "AICOM", "PRAXI"],
+                "atsChecked": [],
+                "queriesRun": 30,
+                "newJobs": new_count,
+                "activeJobs": active_count,
+                "layersCompleted": ["A) Portali generalisti - recupero parziale", "B) Agenzie - recupero parziale", "D) Career page target - recupero parziale", "F) Ricerche web domain-restricted", "G) Keyword operative e match semantico"],
+                "secondPassSources": ["LinkedIn Jobs", "Randstad", "Openjobmetis"],
+                "coverageDiagnostics": {
+                  "indeedQueries": 3,
+                  "linkedinQueries": 15,
+                  "portalQueryCount": 30,
+                  "careerPagesOpened": 4,
+                  "careerSearchesRun": 9,
+                  "atsSearchesRun": 0,
+                  "fallbackSearchesRun": 6,
+                  "sourcesPartiallyCovered": ["Indeed", "Avanade Careers", "Accenture Careers", "Trovolavoro", "HelpLavoro", "Jooble", "Lavoro.it", "SimplyHired"],
+                  "companiesPartiallyCovered": ["Avanade", "Accenture", "GMG", "PVH / Tommy Hilfiger", "AICOM", "PRAXI"],
+                  "existingJobPagesRechecked": 0,
+                  "candidatePagesOpened": 11,
+                  "closedJobsRemoved": 0
+                },
+                "notes": [
+                  "Recupero manuale del run 08:00 dopo mancata persistenza del task automatico; marcato partial perché non equivale alla scansione completa delle 60 fonti.",
+                  "Eseguite 30 ricerche/controlli reali mirati su back office, sales support, tender, order management, project/event coordination e aziende prioritarie.",
+                  "Aggiunte solo offerte con pagina specifica verificabile e compatibilità ragionevole; esclusa Openjobmetis Campi Bisenzio per requisito vincolante di ottimo francese e GMG Prato per esperienza automotive obbligatoria.",
+                  "Il run delle 15:00 resta da eseguire secondo la pianificazione ordinaria e dovrà ripartire dalla scansione profonda completa."
+                ]
+              }
+            }
+          }
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+      - name: Commit recupero 08:00
+        run: |
+          git config user.name "MarcoVeneri"
+          git config user.email "30596631+MarcoVeneri@users.noreply.github.com"
+          git add data/jobs.json
+          git commit -m "Recupera Alice Job Radar - 2026-10-05 08:00" || exit 0
+          git push
