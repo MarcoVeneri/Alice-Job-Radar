@@ -1,0 +1,55 @@
+name: Repair Alice audit counter
+
+on:
+  push:
+    paths:
+      - 'data/jobs.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Validate and repair counters
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          p=Path('data/jobs.json')
+          data=json.loads(p.read_text(encoding='utf-8'))
+          changed=False
+          runs=((data.get('audit') or {}).get('runs') or {})
+          for slot,r in runs.items():
+              if not isinstance(r,dict):
+                  continue
+              total=int(r.get('requiredSourcesTotal') or 60)
+              checked=int(r.get('requiredSourcesChecked') or 0)
+              second=[str(x).strip() for x in (r.get('secondPassSources') or []) if str(x).strip()]
+              sources=[str(x).strip() for x in (r.get('sourcesChecked') or []) if str(x).strip()]
+              actual=len(dict.fromkeys(second or sources))
+              if checked<=0 and actual>0:
+                  repaired=min(total,actual)
+                  r['requiredSourcesChecked']=repaired
+                  notes=r.setdefault('notes',[])
+                  note=f'Contatore audit autoriparato: {repaired}/{total} derivato dalle fonti realmente registrate nel run.'
+                  if note not in notes:
+                      notes.append(note)
+                  changed=True
+          if changed:
+              p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+      - name: Commit if repaired
+        run: |
+          git config user.name "MarcoVeneri"
+          git config user.email "30596631+MarcoVeneri@users.noreply.github.com"
+          git add data/jobs.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Auto-repair Alice audit source counters"
+          git push
