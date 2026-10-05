@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T18:43:35+02:00",
+  "generatedAt": "2026-10-05T18:44:00+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -3307,7 +3307,7 @@
       },
       "15:00": {
         "scheduledFor": "2026-10-05T15:00:00+02:00",
-        "completedAt": "2026-10-05T18:43:35+02:00",
+        "completedAt": "2026-10-05T18:44:00+02:00",
         "status": "partial",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 0,
