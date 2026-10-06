@@ -91,7 +91,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 .heroNote::after{content:"";display:block;margin-top:8px;width:28px;height:2px;background:currentColor;opacity:.38;border-radius:3px}
 .runAudit{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 12px}
 .runChip{min-height:50px;padding:9px 13px;border-radius:20px;background:rgba(255,255,255,.52);border:1px solid rgba(255,255,255,.68);box-shadow:var(--shadow-soft);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);display:flex;align-items:center;justify-content:space-between;gap:8px}
-.runChip strong{font-size:13px;letter-spacing:-.01em}.runChip span{font-size:11px;font-weight:800;color:var(--muted);text-align:right}
+.runChip{flex-wrap:wrap;align-content:start}.runChip .runSummary{flex:1;min-width:0;line-height:1.5}.runDetails{width:100%;font-size:11px;line-height:1.5;color:var(--muted);overflow-wrap:anywhere}.runDetails summary{cursor:pointer}.runDetails p{margin:6px 0}.runChip strong{font-size:13px;letter-spacing:-.01em}.runChip span{font-size:11px;font-weight:800;color:var(--muted);text-align:right}
 .runChip.ok span{color:#1f8f5f}.runChip.partial span{color:#c17a18}.runChip.failed span{color:#c95050}
 @media(prefers-color-scheme:dark){.runChip{background:rgba(25,32,47,.62);border-color:rgba(255,255,255,.08)}.runChip.ok span{color:#6ed5a6}.runChip.partial span{color:#f2ba6a}.runChip.failed span{color:#ff8d8d}}
 .tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:3px;background:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.70);padding:6px;border-radius:26px;box-shadow:var(--shadow);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
@@ -371,8 +371,8 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 </header>
 
   <section class="runAudit" aria-label="Stato ricerche di oggi">
-    <div id="run08box" class="runChip"><strong>08:00</strong><span id="run08">In attesa</span></div>
-    <div id="run15box" class="runChip"><strong>15:00</strong><span id="run15">In attesa</span></div>
+    <div id="run08box" class="runChip"><strong>08:00</strong><span class="runSummary" id="run08">In attesa</span></div>
+    <div id="run15box" class="runChip"><strong>15:00</strong><span class="runSummary" id="run15">In attesa</span></div>
 </section>
 
   <section id="filters" class="tabs">
@@ -410,7 +410,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v6.10 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v6.31 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
@@ -557,7 +557,7 @@ async function toggleSaved(id){
 function setNavActive(which){ui.navHome.classList.toggle("active",which==="home");ui.navSearch.classList.toggle("active",which==="search");ui.navSaved.classList.toggle("active",which==="saved")}
 function resetTopFilters(){filter="Tutte";statFilter="";document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("active",x.dataset.filter==="Tutte"));document.querySelectorAll(".stat").forEach(x=>x.classList.remove("active"))}
 function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
-function fmtDateTime(iso){try{return new Intl.DateTimeFormat("it-IT",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"}).format(new Date(iso))}catch(e){return iso}}
+function fmtDateTime(iso){try{return new Intl.DateTimeFormat("it-IT",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit",timeZone:"Europe/Rome"}).format(new Date(iso))}catch(e){return iso}}
 function ageHours(iso){const t=Date.parse(iso);return Number.isFinite(t)?(Date.now()-t)/36e5:Infinity}
 function latestRun(){
  if(!AUDIT||!AUDIT.runs)return null;
@@ -654,6 +654,16 @@ function romeDateKey(d=new Date()){
    return o.year+"-"+o.month+"-"+o.day;
  }catch(e){return new Date().toISOString().slice(0,10)}
 }
+function auditSummary(r){
+ const count=v=>v!==null&&v!==undefined&&v!==""&&Number.isFinite(Number(v))&&Number(v)>=0?Math.floor(Number(v)):null;
+ const names=v=>Array.isArray(v)?[...new Set(v.filter(x=>typeof x==="string"&&x.trim()).map(x=>x.trim()))]:[];
+ const complete=names(r.sourcesChecked), partial=names(r.coverageDiagnostics?.sourcesPartiallyCovered);
+ const explored=[...new Set([...complete,...partial])];
+ const total=count(r.requiredSourcesTotal)??60, checked=count(r.requiredSourcesChecked);
+ const fullyComplete=r.status==="complete"&&checked!==null&&checked>=total;
+ return {total,checked,explored,partial,unavailable:names(r.sourcesUnavailable),
+  queries:count(r.queriesRun),newJobs:count(r.newJobs),fullyComplete};
+}
 function renderAudit(audit){
  const today=romeDateKey();
  const sameDay=audit&&audit.date===today;
@@ -661,21 +671,30 @@ function renderAudit(audit){
  function one(slot,el,box){
    const r=runs[slot];
    box.classList.remove("ok","partial","failed");
+   box.querySelector(".runDetails")?.remove();
    if(!r){
-     el.textContent="Da eseguire";
+     const parts=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Rome",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).format(new Date());
+     el.textContent=parts<slot?"Programmata":"In attesa di aggiornamento";
      return;
    }
-   const checked=Number(r.requiredSourcesChecked||0), total=Number(r.requiredSourcesTotal||35);
-   if(r.status==="complete"){
-     box.classList.add("ok");
-     el.textContent="✓ aggiornata · "+checked+"/"+total;
-   }else if(r.status==="partial"){
-     box.classList.add("partial");
-     el.textContent="⚠ parziale · "+checked+"/"+total;
-   }else{
-     box.classList.add("failed");
-     el.textContent="✕ non completata";
-   }
+   const a=auditSummary(r);
+   const running=r.status==="running"||r.status==="in_progress";
+   const failed=r.status==="failed";
+   box.classList.add(failed?"failed":a.fullyComplete?"ok":"partial");
+   const label=failed?"Non completata":running?"In corso":a.fullyComplete?"Completata":"Ricerca parziale";
+   el.textContent=label+(a.newJobs===null?"":" · "+a.newJobs+" nuove");
+   const details=document.createElement("details");details.className="runDetails";
+   const summary=document.createElement("summary");
+   summary.textContent=a.explored.length?"Fonti esplorate: "+a.explored.length+" · dettagli":"Dettagli della ricerca";
+   details.append(summary);
+   const add=text=>{const p=document.createElement("p");p.textContent=text;details.append(p)};
+   if(r.completedAt)add("Risultati salvati: "+fmtDateTime(r.completedAt));
+   add("Copertura completa: "+(a.checked===null?"non disponibile":a.checked+" su "+a.total+" fonti")+". Le fonti esplorate parzialmente non sono conteggiate come complete.");
+   if(a.queries!==null)add("Query/controlli registrati: "+a.queries);
+   if(a.partial.length)add("Copertura parziale: "+a.partial.join(", "));
+   if(a.unavailable.length)add("Fonti non accessibili: "+a.unavailable.join(", "));
+   if(!Array.isArray(r.searchLog)||!r.searchLog.length)add("Il registro dettagliato delle query non è disponibile per questa scansione.");
+   box.append(details);
  }
  one("08:00",ui.run08,ui.run08box);
  one("15:00",ui.run15,ui.run15box);
