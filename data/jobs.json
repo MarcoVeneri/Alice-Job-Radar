@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T06:37:13.598Z",
+  "generatedAt": "2026-10-06T15:00:30+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -7860,6 +7860,87 @@
         "notes": [
           "Recupero della scansione 08:00 in corso. Controlli documentati separati dalla scansione originale.",
           "Il numero di query non indica fonti completamente enumerate."
+        ]
+      },
+      "15:00": {
+        "scheduledFor": "2026-10-06T15:00:00+02:00",
+        "completedAt": "2026-10-06T15:00:30+02:00",
+        "status": "partial",
+        "requiredSourcesTotal": 60,
+        "requiredSourcesChecked": 0,
+        "sourcesChecked": [],
+        "sourcesVerified": [],
+        "sourcesSearched": [
+          "Indeed",
+          "LinkedIn Jobs",
+          "Randstad",
+          "Ali Lavoro"
+        ],
+        "sourcesUnavailable": [],
+        "extraSourcesChecked": [
+          "Google/Bing indicizzazione"
+        ],
+        "companiesChecked": [],
+        "atsChecked": [],
+        "queriesRun": 4,
+        "newJobs": 0,
+        "activeJobs": 132,
+        "layersCompleted": [
+          "F) Web domain-restricted",
+          "G) Keyword operative"
+        ],
+        "secondPassSources": [],
+        "searchLog": [
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com Toscana \"sales support\" OR \"back office commerciale\" 2026",
+            "checkedAt": "2026-10-06T15:00:30+02:00",
+            "outcome": "risultati",
+            "coverageLimit": "Ricerca indicizzata iniziale; non equivale a enumerazione completa della fonte"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:it.linkedin.com/jobs/view Toscana \"ufficio gare\" OR tender OR proposal",
+            "checkedAt": "2026-10-06T15:00:30+02:00",
+            "outcome": "risultati",
+            "coverageLimit": "Ricerca indicizzata iniziale; non equivale a enumerazione completa della fonte"
+          },
+          {
+            "source": "Randstad",
+            "query": "site:randstad.it OR site:randstad.com/jobs Toscana \"order management\" OR customer service",
+            "checkedAt": "2026-10-06T15:00:30+02:00",
+            "outcome": "risultati",
+            "coverageLimit": "Ricerca indicizzata iniziale; non equivale a enumerazione completa della fonte"
+          },
+          {
+            "source": "Ali Lavoro",
+            "query": "site:careers.alilavoro.it Toscana \"back office commerciale\" OR \"ufficio gare\"",
+            "checkedAt": "2026-10-06T15:00:30+02:00",
+            "outcome": "risultati",
+            "coverageLimit": "Ricerca indicizzata iniziale; non equivale a enumerazione completa della fonte"
+          }
+        ],
+        "sourceVerification": [],
+        "coverageDiagnostics": {
+          "indeedQueries": 1,
+          "linkedinQueries": 1,
+          "portalQueryCount": 4,
+          "careerPagesOpened": 0,
+          "careerSearchesRun": 0,
+          "atsSearchesRun": 0,
+          "fallbackSearchesRun": 4,
+          "sourcesPartiallyCovered": [
+            "Indeed",
+            "LinkedIn Jobs",
+            "Randstad",
+            "Ali Lavoro"
+          ],
+          "companiesPartiallyCovered": []
+        },
+        "notes": [
+          "Checkpoint iniziale delle 15:00 dopo quattro ricerche indicizzate documentate.",
+          "Le fonti risultano solo cercate/parzialmente coperte; nessuna fonte è ancora classificata come verificata direttamente o completamente enumerata.",
+          "Nessuna candidatura, email o comunicazione inviata."
         ]
       }
     },
