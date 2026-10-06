@@ -11,7 +11,6 @@ permissions:
 
 jobs:
   fix:
-    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -71,20 +70,16 @@ jobs:
 '''
           s = s[:start] + new_render + s[end:]
 
-          # Remove the expandable audit-detail styling: the cards are now status-only.
           s = s.replace('.runChip{flex-wrap:wrap;align-content:start}.runChip .runSummary{flex:1;min-width:0;line-height:1.5}.runDetails{width:100%;font-size:11px;line-height:1.5;color:var(--muted);overflow-wrap:anywhere}.runDetails summary{cursor:pointer}.runDetails p{margin:6px 0}.runChip strong{font-size:13px;letter-spacing:-.01em}.runChip span{font-size:11px;font-weight:800;color:var(--muted);text-align:right}', '.runChip .runSummary{flex:1;min-width:0;line-height:1.5}.runChip strong{font-size:13px;letter-spacing:-.01em}.runChip span{font-size:11px;font-weight:800;color:var(--muted);text-align:right}')
-
           s = s.replace('Alice Job Radar · PWA v6.31 · aggiornamento automatico 08:00 / 15:00', 'Alice Job Radar · PWA v6.32 · aggiornamento automatico 08:00 / 15:00')
           s = s.replace('const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.27",sync:{enabled:false}};', 'const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.32",sync:{enabled:false}};')
           p.write_text(s, encoding='utf-8')
 
           sw = Path('sw.js')
-          sws = sw.read_text(encoding='utf-8').replace('alice-job-radar-v6-31','alice-job-radar-v6-32')
-          sw.write_text(sws, encoding='utf-8')
+          sw.write_text(sw.read_text(encoding='utf-8').replace('alice-job-radar-v6-31','alice-job-radar-v6-32'), encoding='utf-8')
 
           cfg = Path('config.js')
-          c = cfg.read_text(encoding='utf-8')
-          c = c.replace('appVersion:"6.28"','appVersion:"6.32"')
+          c = cfg.read_text(encoding='utf-8').replace('appVersion:"6.28"','appVersion:"6.32"')
           cfg.write_text(c, encoding='utf-8')
           PY
 
