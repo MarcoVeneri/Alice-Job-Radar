@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T08:32:00+02:00",
+  "generatedAt": "2026-10-08T15:00:30+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -9378,6 +9378,87 @@
           "Tre fonti verificate direttamente; le altre sono state cercate tramite indice o coperte solo parzialmente.",
           "Gli URL preesistenti non raggiungibili o limitati non sono stati rimossi senza evidenza affidabile di chiusura.",
           "Nessuna delle 60 fonti obbligatorie è certificata come completamente enumerata: requiredSourcesChecked resta 0 e lo stato resta partial."
+        ]
+      },
+      "15:00": {
+        "scheduledFor": "2026-10-08T15:00:00+02:00",
+        "completedAt": "2026-10-08T15:00:30+02:00",
+        "status": "partial",
+        "requiredSourcesTotal": 60,
+        "requiredSourcesChecked": 0,
+        "sourcesChecked": [],
+        "sourcesVerified": [],
+        "sourcesSearched": [
+          "LinkedIn Jobs",
+          "Indeed",
+          "Randstad",
+          "Adecco"
+        ],
+        "sourcesUnavailable": [],
+        "extraSourcesChecked": [
+          "Google/Bing indexed vacancy pages"
+        ],
+        "companiesChecked": [],
+        "atsChecked": [],
+        "queriesRun": 4,
+        "newJobs": 0,
+        "activeJobs": 147,
+        "layersCompleted": [
+          "A) Portali generalisti (avvio)",
+          "F) Web domain-restricted (avvio)"
+        ],
+        "secondPassSources": [],
+        "searchLog": [
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:it.linkedin.com/jobs/view Toscana \"sales support\" OR \"back office commerciale\" \"8 ottobre 2026\"",
+            "checkedAt": "2026-10-08T15:00:30+02:00",
+            "outcome": "nessun risultato utile nel primo blocco",
+            "coverageLimit": "Ricerca indicizzata; fonte non verificata direttamente"
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com Toscana \"ufficio gare\" OR tender OR \"sales operations\"",
+            "checkedAt": "2026-10-08T15:00:30+02:00",
+            "outcome": "risultati generici",
+            "coverageLimit": "Ricerca indicizzata; fonte non verificata direttamente"
+          },
+          {
+            "source": "Randstad",
+            "query": "site:randstad.it/offerte-lavoro Toscana \"customer service\" OR \"back office\"",
+            "checkedAt": "2026-10-08T15:00:30+02:00",
+            "outcome": "risultati indicizzati",
+            "coverageLimit": "Ricerca indicizzata; fonte non verificata direttamente"
+          },
+          {
+            "source": "Adecco",
+            "query": "site:adecco.com/it-it/cerca-lavoro Toscana \"order management\" OR commerciale OR gare",
+            "checkedAt": "2026-10-08T15:00:30+02:00",
+            "outcome": "risultati indicizzati",
+            "coverageLimit": "Ricerca indicizzata; fonte non verificata direttamente"
+          }
+        ],
+        "sourceVerification": [],
+        "coverageDiagnostics": {
+          "indeedQueries": 1,
+          "linkedinQueries": 1,
+          "portalQueryCount": 4,
+          "careerPagesOpened": 0,
+          "careerSearchesRun": 0,
+          "atsSearchesRun": 0,
+          "fallbackSearchesRun": 4,
+          "sourcesPartiallyCovered": [
+            "LinkedIn Jobs",
+            "Indeed",
+            "Randstad",
+            "Adecco"
+          ],
+          "companiesPartiallyCovered": []
+        },
+        "notes": [
+          "Checkpoint iniziale del run reale delle 15:00 dell’8 ottobre 2026.",
+          "Conservato il run delle 08:00 perché appartenente alla stessa data.",
+          "Scansione profonda in corso; stato partial."
         ]
       }
     }
