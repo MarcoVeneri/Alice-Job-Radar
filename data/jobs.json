@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:08:06.890Z",
+  "generatedAt": "2026-10-09T13:10:38.975Z",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -3738,6 +3738,32 @@
       "firstSeenRun": "08:00",
       "verifiedAt": "2026-10-09T08:08:39.675+02:00",
       "verificationUrl": "https://it.linkedin.com/jobs/view/inside-sales-representative-italy-and-mediterranean-at-copeland-4466272851"
+    },
+    {
+      "id": "swpitalia-pmo-project-coordinator-2026-153",
+      "date": "Non dichiarato",
+      "company": "Software Partner Italia",
+      "title": "PMO / Project Coordinator",
+      "location": "Italia · lavorabile dalla Toscana",
+      "workMode": "Full remote dall’Italia",
+      "contract": "Tempo determinato o Partita IVA · 12 mesi · full time",
+      "salary": "Non dichiarato",
+      "category": "Operations",
+      "score": 7,
+      "source": "Software Partner Italia",
+      "url": "https://swpitalia.com/posizioni-aperte/pmo-project-coordinator-remoto/",
+      "summary": "Supporto alla pianificazione, avanzamento, SAL, rischi e report di progetto. Richiede 1–3 anni PMO/coordinamento ed esperienza in progetti Salesforce: requisito da verificare rispetto al percorso di Alice.",
+      "checks": [
+        "Pagina aziendale specifica letta",
+        "Full remote dall’Italia esplicito",
+        "Esperienza in progetti Salesforce richiesta; non dedotta dalla sola conoscenza CRM"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-10-09T13:08:35.585Z",
+      "firstSeenRun": "15:00",
+      "verifiedAt": "2026-10-09T13:08:35.585Z",
+      "verificationUrl": "https://swpitalia.com/posizioni-aperte/pmo-project-coordinator-remoto/"
     }
   ],
   "audit": {
@@ -10870,7 +10896,7 @@
       },
       "15:00": {
         "scheduledFor": "2026-10-09T15:00:00+02:00",
-        "completedAt": "2026-10-09T13:08:06.890Z",
+        "completedAt": "2026-10-09T13:10:38.975Z",
         "status": "partial",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 0,
@@ -10879,13 +10905,17 @@
         "extraSourcesChecked": [],
         "companiesChecked": [],
         "atsChecked": [],
-        "queriesRun": 77,
-        "newJobs": 0,
-        "activeJobs": 153,
+        "queriesRun": 250,
+        "newJobs": 1,
+        "activeJobs": 154,
         "layersCompleted": [],
         "secondPassSources": [],
         "sourcesVerified": [
-          "Manpower"
+          "Manpower",
+          "Experis",
+          "Etjca",
+          "Atempo",
+          "Software Partner Italia"
         ],
         "sourcesSearched": [
           "Ingenium",
@@ -10906,7 +10936,48 @@
           "Glassdoor Jobs",
           "Lavoropiù",
           "Talent.com",
-          "Synergie"
+          "Synergie",
+          "Careerjet",
+          "Experis",
+          "Trovolavoro",
+          "Ali Lavoro",
+          "During",
+          "Bakeca Lavoro",
+          "MAW",
+          "Etjca",
+          "Helplavoro",
+          "Umana",
+          "Software Partner Italia",
+          "Humangest",
+          "ADHR",
+          "Staff",
+          "Atempo",
+          "Toscana Lavoro ARTI",
+          "inPA",
+          "Adzuna",
+          "Jobbydoo",
+          "SimplyHired",
+          "Jobijoba",
+          "Subito Lavoro",
+          "CercoLavoro",
+          "CVing",
+          "Hunters Group",
+          "Wyser",
+          "IQM",
+          "Profili & Carriere",
+          "High Professional",
+          "Knet",
+          "W Executive",
+          "LHH",
+          "Jefferson Wells",
+          "Jobtech",
+          "e-work",
+          "Eurointerim",
+          "Iziwork",
+          "SAPIENS",
+          "QuoJobis",
+          "CPL Taylor",
+          "La Risorsa Umana"
         ],
         "sourceVerification": [
           {
@@ -10918,6 +10989,46 @@
             "outcome": "Annuncio esistente confermato: indeterminato, Siena, presenza, 25–33k; scadenza 30/11/2026.",
             "checkedAt": "2026-10-09T13:07:49.828Z",
             "coverageLimit": "Verifica di una vacancy; enumerazione parziale."
+          },
+          {
+            "source": "Experis",
+            "method": "Lettura pagina originale",
+            "evidenceUrls": [
+              "https://www.experis.it/it/trova-lavoro/ict/specialista-amministrativo-ufficio-gare/1035397"
+            ],
+            "outcome": "Vacancy pertinente letta; requisiti da confrontare con profilo.",
+            "checkedAt": "2026-10-09T13:08:35.124Z",
+            "coverageLimit": "Annuncio singolo, enumerazione incompleta."
+          },
+          {
+            "source": "Etjca",
+            "method": "Lettura pagina originale",
+            "evidenceUrls": [
+              "https://career.etjca.it/job/view-job.php?id=110054-customer-care-sales-full-remote-cernusco-sul-naviglio&language=it"
+            ],
+            "outcome": "Esclusa: teleselling B2C outbound garanzie, scarsa coerenza sales support B2B.",
+            "checkedAt": "2026-10-09T13:08:35.086Z",
+            "coverageLimit": "Annuncio singolo, enumerazione incompleta."
+          },
+          {
+            "source": "Atempo",
+            "method": "Lettura pagina originale",
+            "evidenceUrls": [
+              "https://atempojob.atempospa.it/job/view-job.php?id=17081-impiegato-a-back-office-commerciale-estero-scandicci&language=it"
+            ],
+            "outcome": "Esclusa: francese fluente obbligatorio.",
+            "checkedAt": "2026-10-09T13:08:35.257Z",
+            "coverageLimit": "Annuncio singolo, enumerazione incompleta."
+          },
+          {
+            "source": "Software Partner Italia",
+            "method": "Lettura pagina originale",
+            "evidenceUrls": [
+              "https://swpitalia.com/posizioni-aperte/pmo-project-coordinator-remoto/"
+            ],
+            "outcome": "Vacancy pertinente letta; requisiti da confrontare con profilo.",
+            "checkedAt": "2026-10-09T13:08:35.585Z",
+            "coverageLimit": "Annuncio singolo, enumerazione incompleta."
           }
         ],
         "searchLog": [
@@ -11535,16 +11646,1400 @@
             "checkedAt": "2026-10-09T13:07:54.022Z",
             "outcome": "risultati",
             "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Careerjet",
+            "query": "Careerjet project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:18.007Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Experis",
+            "query": "Experis back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:18.274Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Trovolavoro",
+            "query": "Trovolavoro project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:18.303Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Ali Lavoro",
+            "query": "Ali Lavoro project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:18.416Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Ali Lavoro",
+            "query": "Ali Lavoro customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:18.460Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "During",
+            "query": "During ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:18.533Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Bakeca Lavoro",
+            "query": "Bakeca Lavoro project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:18.536Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "During",
+            "query": "During customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:18.685Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "During",
+            "query": "During back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:18.995Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Careerjet",
+            "query": "Careerjet customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:19.134Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Trovolavoro",
+            "query": "Trovolavoro ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:19.205Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Experis",
+            "query": "Experis project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:19.234Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "MAW",
+            "query": "MAW project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:19.305Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Etjca",
+            "query": "Etjca customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:19.440Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "MAW",
+            "query": "MAW ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:19.446Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "During",
+            "query": "During project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:19.506Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Helplavoro",
+            "query": "Helplavoro ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:19.634Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Helplavoro",
+            "query": "Helplavoro back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:19.704Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Umana",
+            "query": "Umana back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:19.852Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "MAW",
+            "query": "MAW customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:19.896Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Ali Lavoro",
+            "query": "Ali Lavoro ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:19.937Z",
+            "outcome": "bloccata",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Careerjet",
+            "query": "Careerjet back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:20.060Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Etjca",
+            "query": "Etjca ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:20.109Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Umana",
+            "query": "Umana ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:20.201Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Umana",
+            "query": "Umana customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:20.275Z",
+            "outcome": "bloccata",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Bakeca Lavoro",
+            "query": "Bakeca Lavoro customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:20.389Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Helplavoro",
+            "query": "Helplavoro project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:20.393Z",
+            "outcome": "bloccata",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Helplavoro",
+            "query": "Helplavoro customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:20.471Z",
+            "outcome": "bloccata",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Experis",
+            "query": "Experis customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:20.538Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Umana",
+            "query": "Umana project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:20.568Z",
+            "outcome": "bloccata",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Careerjet",
+            "query": "Careerjet ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:20.580Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Trovolavoro",
+            "query": "Trovolavoro customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:20.584Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Bakeca Lavoro",
+            "query": "Bakeca Lavoro back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:20.598Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Bakeca Lavoro",
+            "query": "Bakeca Lavoro ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:20.644Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Etjca",
+            "query": "Etjca project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:20.897Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Etjca",
+            "query": "Etjca back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:20.905Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "MAW",
+            "query": "MAW back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:21.028Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Trovolavoro",
+            "query": "Trovolavoro back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:21.165Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Experis",
+            "query": "Experis ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:21.182Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Ali Lavoro",
+            "query": "Ali Lavoro back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:08:21.344Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Umana",
+            "url": "https://www.umana.it/per-le-persone/offerte-di-lavoro/impiegato-ufficio-gare/314240/",
+            "kind": "open",
+            "checkedAt": "2026-10-09T13:08:34.767Z",
+            "outcome": "bloccata",
+            "limits": "Pagina specifica; enumerazione parziale."
+          },
+          {
+            "source": "Etjca",
+            "url": "https://career.etjca.it/job/view-job.php?id=110054-customer-care-sales-full-remote-cernusco-sul-naviglio&language=it",
+            "kind": "open",
+            "checkedAt": "2026-10-09T13:08:35.086Z",
+            "outcome": "risultati",
+            "limits": "Pagina specifica; enumerazione parziale."
+          },
+          {
+            "source": "Experis",
+            "url": "https://www.experis.it/it/trova-lavoro/ict/specialista-amministrativo-ufficio-gare/1035397",
+            "kind": "open",
+            "checkedAt": "2026-10-09T13:08:35.124Z",
+            "outcome": "risultati",
+            "limits": "Pagina specifica; enumerazione parziale."
+          },
+          {
+            "source": "Atempo",
+            "url": "https://atempojob.atempospa.it/job/view-job.php?id=17081-impiegato-a-back-office-commerciale-estero-scandicci&language=it",
+            "kind": "open",
+            "checkedAt": "2026-10-09T13:08:35.257Z",
+            "outcome": "risultati",
+            "limits": "Pagina specifica; enumerazione parziale."
+          },
+          {
+            "source": "Software Partner Italia",
+            "url": "https://swpitalia.com/posizioni-aperte/pmo-project-coordinator-remoto/",
+            "kind": "open",
+            "checkedAt": "2026-10-09T13:08:35.585Z",
+            "outcome": "risultati",
+            "limits": "Pagina specifica; enumerazione parziale."
+          },
+          {
+            "source": "Ingenium",
+            "query": "Ingenium \"lavora con noi\" gare",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:09:02.154Z",
+            "outcome": "risultati",
+            "limits": "Discovery indice; risultati riportati anche senza match, enumerazione non completa."
+          },
+          {
+            "source": "Ingenium",
+            "query": "Ingenium Toscana sales support careers",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:09:02.154Z",
+            "outcome": "risultati",
+            "limits": "Discovery indice; risultati riportati anche senza match, enumerazione non completa."
+          },
+          {
+            "source": "Software Partner Italia",
+            "query": "site:swpitalia.com/posizioni-aperte/ PMO",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:09:02.154Z",
+            "outcome": "risultati",
+            "limits": "Discovery indice; risultati riportati anche senza match, enumerazione non completa."
+          },
+          {
+            "source": "Software Partner Italia",
+            "query": "site:swpitalia.com/posizioni-aperte/ support coordinator",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:09:02.154Z",
+            "outcome": "risultati",
+            "limits": "Discovery indice; risultati riportati anche senza match, enumerazione non completa."
+          },
+          {
+            "source": "Humangest",
+            "query": "Humangest customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:18.991Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Humangest",
+            "query": "Humangest back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:19.292Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "ADHR",
+            "query": "ADHR customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:19.531Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Humangest",
+            "query": "Humangest project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:19.776Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Humangest",
+            "query": "Humangest ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:19.790Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "ADHR",
+            "query": "ADHR ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:19.876Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "ADHR",
+            "query": "ADHR project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:20.324Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "ADHR",
+            "query": "ADHR back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:20.372Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Staff",
+            "query": "Staff project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:21.443Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Staff",
+            "query": "Staff ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:21.678Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Atempo",
+            "query": "Atempo ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:21.935Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Atempo",
+            "query": "Atempo back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:22.116Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Atempo",
+            "query": "Atempo customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:22.353Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Staff",
+            "query": "Staff customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:22.392Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Atempo",
+            "query": "Atempo project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:22.640Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Staff",
+            "query": "Staff back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:22.655Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Toscana Lavoro ARTI",
+            "query": "Toscana Lavoro ARTI project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:23.583Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "inPA",
+            "query": "inPA customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:23.823Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Toscana Lavoro ARTI",
+            "query": "Toscana Lavoro ARTI ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:24.027Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Toscana Lavoro ARTI",
+            "query": "Toscana Lavoro ARTI back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:24.119Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "inPA",
+            "query": "inPA back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:24.148Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "inPA",
+            "query": "inPA ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:24.415Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Toscana Lavoro ARTI",
+            "query": "Toscana Lavoro ARTI customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:24.755Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "inPA",
+            "query": "inPA project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:24.979Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Adzuna",
+            "query": "Adzuna customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:25.957Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Jobbydoo",
+            "query": "Jobbydoo back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:26.138Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Adzuna",
+            "query": "Adzuna back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:26.259Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Jobbydoo",
+            "query": "Jobbydoo customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:26.288Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Adzuna",
+            "query": "Adzuna project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:26.539Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Jobbydoo",
+            "query": "Jobbydoo ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:26.725Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Jobbydoo",
+            "query": "Jobbydoo project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:26.826Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Adzuna",
+            "query": "Adzuna ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:27.014Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "SimplyHired",
+            "query": "SimplyHired customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:27.963Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "SimplyHired",
+            "query": "SimplyHired back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:28.106Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Jobijoba",
+            "query": "Jobijoba customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:28.321Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "SimplyHired",
+            "query": "SimplyHired ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:28.535Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "SimplyHired",
+            "query": "SimplyHired project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:28.625Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Jobijoba",
+            "query": "Jobijoba project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:28.813Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Jobijoba",
+            "query": "Jobijoba ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:29.030Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Jobijoba",
+            "query": "Jobijoba back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:29.129Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Subito Lavoro",
+            "query": "Subito Lavoro customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:38.955Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "CercoLavoro",
+            "query": "CercoLavoro ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:39.187Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "CercoLavoro",
+            "query": "CercoLavoro customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:39.340Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Subito Lavoro",
+            "query": "Subito Lavoro back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:39.384Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Subito Lavoro",
+            "query": "Subito Lavoro project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:39.550Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "CercoLavoro",
+            "query": "CercoLavoro project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:39.687Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Subito Lavoro",
+            "query": "Subito Lavoro ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:39.840Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "CercoLavoro",
+            "query": "CercoLavoro back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:40.127Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "CVing",
+            "query": "CVing ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:41.025Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "CVing",
+            "query": "CVing project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:41.206Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Hunters Group",
+            "query": "Hunters Group ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:41.382Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Hunters Group",
+            "query": "Hunters Group project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:41.557Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "CVing",
+            "query": "CVing customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:41.573Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Hunters Group",
+            "query": "Hunters Group back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:41.623Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Hunters Group",
+            "query": "Hunters Group customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:41.779Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "CVing",
+            "query": "CVing back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:42.146Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Wyser",
+            "query": "Wyser customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:43.066Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Wyser",
+            "query": "Wyser ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:43.174Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Wyser",
+            "query": "Wyser project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:43.379Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "IQM",
+            "query": "IQM ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:43.574Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "IQM",
+            "query": "IQM back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:43.922Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "IQM",
+            "query": "IQM customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:44.173Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "IQM",
+            "query": "IQM project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:44.217Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Wyser",
+            "query": "Wyser back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:44.648Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Profili & Carriere",
+            "query": "Profili & Carriere back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:45.620Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "High Professional",
+            "query": "High Professional back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:45.809Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "High Professional",
+            "query": "High Professional project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:45.954Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Profili & Carriere",
+            "query": "Profili & Carriere ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:46.237Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Profili & Carriere",
+            "query": "Profili & Carriere project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:46.453Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Profili & Carriere",
+            "query": "Profili & Carriere customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:46.551Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "High Professional",
+            "query": "High Professional customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:46.772Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "High Professional",
+            "query": "High Professional ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:46.788Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Knet",
+            "query": "Knet ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:47.749Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Knet",
+            "query": "Knet customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:47.978Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "W Executive",
+            "query": "W Executive project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:48.119Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "W Executive",
+            "query": "W Executive ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:48.304Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Knet",
+            "query": "Knet project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:48.455Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "W Executive",
+            "query": "W Executive back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:48.596Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "W Executive",
+            "query": "W Executive customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:48.740Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Knet",
+            "query": "Knet back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:48.844Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "LHH",
+            "query": "LHH ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:57.847Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "LHH",
+            "query": "LHH customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:57.998Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Jefferson Wells",
+            "query": "Jefferson Wells project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:58.238Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "LHH",
+            "query": "LHH back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:58.334Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Jefferson Wells",
+            "query": "Jefferson Wells back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:58.387Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Jefferson Wells",
+            "query": "Jefferson Wells customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:58.515Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Jefferson Wells",
+            "query": "Jefferson Wells ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:58.866Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "LHH",
+            "query": "LHH project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:09:59.077Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Jobtech",
+            "query": "Jobtech project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:00.015Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Jobtech",
+            "query": "Jobtech ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:00.155Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Jobtech",
+            "query": "Jobtech back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:00.358Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Jobtech",
+            "query": "Jobtech customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:00.361Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "e-work",
+            "query": "e-work project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:00.679Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "e-work",
+            "query": "e-work back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:00.856Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "e-work",
+            "query": "e-work customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:01.074Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "e-work",
+            "query": "e-work ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:01.306Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Eurointerim",
+            "query": "Eurointerim customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:02.193Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Eurointerim",
+            "query": "Eurointerim project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:02.435Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Iziwork",
+            "query": "Iziwork ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:02.693Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Eurointerim",
+            "query": "Eurointerim back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:02.702Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Eurointerim",
+            "query": "Eurointerim ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:02.919Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Iziwork",
+            "query": "Iziwork back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:03.125Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Iziwork",
+            "query": "Iziwork project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:03.174Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Iziwork",
+            "query": "Iziwork customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:03.397Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "SAPIENS",
+            "query": "SAPIENS ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:04.343Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "SAPIENS",
+            "query": "SAPIENS customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:04.688Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "SAPIENS",
+            "query": "SAPIENS back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:04.984Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "QuoJobis",
+            "query": "QuoJobis customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:04.987Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "SAPIENS",
+            "query": "SAPIENS project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:05.020Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "QuoJobis",
+            "query": "QuoJobis ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:05.361Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "QuoJobis",
+            "query": "QuoJobis project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:05.669Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "QuoJobis",
+            "query": "QuoJobis back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:05.703Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "CPL Taylor",
+            "query": "CPL Taylor back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:06.778Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "CPL Taylor",
+            "query": "CPL Taylor ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:07.037Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "La Risorsa Umana",
+            "query": "La Risorsa Umana project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:07.239Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "CPL Taylor",
+            "query": "CPL Taylor project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:07.262Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "La Risorsa Umana",
+            "query": "La Risorsa Umana back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:07.428Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "CPL Taylor",
+            "query": "CPL Taylor customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:07.501Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "La Risorsa Umana",
+            "query": "La Risorsa Umana customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:07.713Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "La Risorsa Umana",
+            "query": "La Risorsa Umana ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:10:07.897Z",
+            "outcome": "risultati",
+            "limits": "Indice; copertura parziale."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"sales support\" \"Toscana\"",
+            "kind": "fallback",
+            "checkedAt": "2026-10-09T13:10:18.477Z",
+            "outcome": "risultati",
+            "limits": "Secondo motore; risultati da indice, copertura non esaustiva."
+          },
+          {
+            "source": "Ingenium",
+            "query": "Ingenium Italia informatica lavora con noi",
+            "kind": "fallback",
+            "checkedAt": "2026-10-09T13:10:18.670Z",
+            "outcome": "risultati",
+            "limits": "Secondo motore; risultati da indice, copertura non esaustiva."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:it.linkedin.com/jobs/view \"sales support\" \"Firenze\"",
+            "kind": "fallback",
+            "checkedAt": "2026-10-09T13:10:18.700Z",
+            "outcome": "risultati",
+            "limits": "Secondo motore; risultati da indice, copertura non esaustiva."
+          },
+          {
+            "source": "Monster",
+            "query": "site:monster.it \"back office\" \"Toscana\"",
+            "kind": "fallback",
+            "checkedAt": "2026-10-09T13:10:20.029Z",
+            "outcome": "nessun risultato",
+            "limits": "Secondo motore; risultati da indice, copertura non esaustiva."
           }
         ],
         "coverageDiagnostics": {
           "indeedQueries": 4,
           "linkedinQueries": 4,
-          "portalQueryCount": 72,
+          "portalQueryCount": 232,
           "careerPagesOpened": 0,
-          "careerSearchesRun": 1,
+          "careerSearchesRun": 5,
           "atsSearchesRun": 0,
-          "fallbackSearchesRun": 0,
+          "fallbackSearchesRun": 4,
           "sourcesPartiallyCovered": [
             "Ingenium",
             "Monster",
@@ -11564,13 +13059,54 @@
             "Glassdoor Jobs",
             "Lavoropiù",
             "Talent.com",
-            "Synergie"
+            "Synergie",
+            "Careerjet",
+            "Experis",
+            "Trovolavoro",
+            "Ali Lavoro",
+            "During",
+            "Bakeca Lavoro",
+            "MAW",
+            "Etjca",
+            "Helplavoro",
+            "Umana",
+            "Atempo",
+            "Software Partner Italia",
+            "Humangest",
+            "ADHR",
+            "Staff",
+            "Toscana Lavoro ARTI",
+            "inPA",
+            "Adzuna",
+            "Jobbydoo",
+            "SimplyHired",
+            "Jobijoba",
+            "Subito Lavoro",
+            "CercoLavoro",
+            "CVing",
+            "Hunters Group",
+            "Wyser",
+            "IQM",
+            "Profili & Carriere",
+            "High Professional",
+            "Knet",
+            "W Executive",
+            "LHH",
+            "Jefferson Wells",
+            "Jobtech",
+            "e-work",
+            "Eurointerim",
+            "Iziwork",
+            "SAPIENS",
+            "QuoJobis",
+            "CPL Taylor",
+            "La Risorsa Umana"
           ],
           "companiesPartiallyCovered": [
             "Ingenium"
           ]
         },
-        "notes": "Checkpoint: discovery indicizzata ancora parziale. Manpower Siena 1043365 verificato e già presente. Tre pagine MAW/Randstad/Adecco non leggibili (404/410), offerte conservate senza dedurre automaticamente la chiusura. Alcune ricerche hanno restituito errore temporaneo 503 o risultati generici; necessari ulteriori passaggi."
+        "notes": "Checkpoint parziale: una nuova opportunità PMO full remote verificata; richiesti progetti Salesforce. Discovery estesa sui portali con risultati spesso generici: non costituisce enumerazione completa. Pagine specifiche lette presso Manpower, Experis, Etjca, Atempo e Software Partner Italia; Esclusi Atempo per francese obbligatorio e Etjca per teleselling B2C. Restano aziende/ATS, matrice Indeed e ricontrollo sistematico esistenti."
       }
     }
   },
