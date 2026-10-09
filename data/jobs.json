@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T08:08:39.675+02:00",
+  "generatedAt": "2026-10-09T13:05:32.806Z",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -10867,6 +10867,53 @@
           "companiesPartiallyCovered": []
         },
         "notes": "Scansione estesa documentata con matrice multi-fonte, aziende, ATS, geografie, passaggi mirati e rilettura degli annunci esistenti. Due nuove offerte verificate e aggiunte. Un risultato INDOVINO SRL è stato escluso perché la pagina specifica risulta non disponibile. Nessuna delle 60 fonti è certificata come enumerata integralmente: requiredSourcesChecked resta 0 e lo stato resta partial. Le ricerche indicizzate sono distinte dalle pagine direttamente lette."
+      },
+      "15:00": {
+        "scheduledFor": "2026-10-09T15:00:00+02:00",
+        "completedAt": "2026-10-09T13:05:32.806Z",
+        "status": "partial",
+        "requiredSourcesTotal": 60,
+        "requiredSourcesChecked": 0,
+        "sourcesChecked": [],
+        "sourcesUnavailable": [],
+        "extraSourcesChecked": [],
+        "companiesChecked": [],
+        "atsChecked": [],
+        "queriesRun": 1,
+        "newJobs": 0,
+        "activeJobs": 153,
+        "layersCompleted": [],
+        "secondPassSources": [],
+        "sourcesVerified": [],
+        "sourcesSearched": [
+          "Ingenium"
+        ],
+        "sourceVerification": [],
+        "searchLog": [
+          {
+            "source": "Ingenium",
+            "query": "Ingenium Toscana lavora con noi ufficio gare commerciale",
+            "checkedAt": "2026-10-09T13:05:21.541Z",
+            "outcome": "risultati",
+            "limits": "Discovery indicizzata; contenuti e copertura da approfondire."
+          }
+        ],
+        "coverageDiagnostics": {
+          "indeedQueries": 0,
+          "linkedinQueries": 0,
+          "portalQueryCount": 0,
+          "careerPagesOpened": 0,
+          "careerSearchesRun": 1,
+          "atsSearchesRun": 0,
+          "fallbackSearchesRun": 0,
+          "sourcesPartiallyCovered": [
+            "Ingenium"
+          ],
+          "companiesPartiallyCovered": [
+            "Ingenium"
+          ]
+        },
+        "notes": "Checkpoint iniziale. La prima ricerca Ingenium restituisce soprattutto Enginium: identità da disambiguare, nessuna verifica aziendale certificata."
       }
     }
   },
