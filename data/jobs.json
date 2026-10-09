@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:10:38.975Z",
+  "generatedAt": "2026-10-09T13:16:11.561Z",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -3764,6 +3764,58 @@
       "firstSeenRun": "15:00",
       "verifiedAt": "2026-10-09T13:08:35.585Z",
       "verificationUrl": "https://swpitalia.com/posizioni-aperte/pmo-project-coordinator-remoto/"
+    },
+    {
+      "id": "swpitalia-pmo-2025-392",
+      "date": "Non dichiarato",
+      "company": "Software Partner Italia",
+      "title": "PMO – governance PSN",
+      "location": "Italia · lavorabile dalla Toscana",
+      "workMode": "Full remote dall’Italia",
+      "contract": "Tempo determinato/indeterminato o Partita IVA · 12 mesi più rinnovi · full time",
+      "salary": "Non dichiarato",
+      "category": "Operations",
+      "score": 8.3,
+      "source": "Software Partner Italia",
+      "url": "https://swpitalia.com/posizioni-aperte/pmo-full-remote/",
+      "summary": "Governance ICT: scadenze, verbali, piani operativi, offerte economiche e consuntivazione. Richiesti background IT/Cloud e strumenti di project management.",
+      "checks": [
+        "Full remote dall’Italia esplicito",
+        "Codice 2025-392-XX-PM; data di pubblicazione non dichiarata",
+        "Pagina specifica e modulo candidatura presenti; seniority junior"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-10-09T13:13:30.327Z",
+      "firstSeenRun": "15:00",
+      "verifiedAt": "2026-10-09T13:13:30.327Z",
+      "verificationUrl": "https://swpitalia.com/posizioni-aperte/pmo-full-remote/"
+    },
+    {
+      "id": "michael-page-inside-sales-fiere-prato-7104252",
+      "date": "2026-09-15",
+      "company": "Michael Page / azienda cliente spedizioni internazionali",
+      "title": "Inside Sales Fiere",
+      "location": "Prato, Toscana",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo indeterminato",
+      "salary": "25.200–30.800 € RAL",
+      "category": "Sales Support",
+      "score": 8.5,
+      "source": "Michael Page",
+      "url": "https://www.michaelpage.it/job-detail/inside-sales-fiere-prato/ref/jn-092026-7104252",
+      "summary": "Offerte commerciali per clienti del settore fieristico, supporto clienti, coordinamento con logistica e reporting vendite. Richiesti inglese, Office e capacità relazionali.",
+      "checks": [
+        "Sede Prato",
+        "Contratto e RAL dichiarati",
+        "Attività di sviluppo commerciale oltre al supporto clienti"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-09T13:13:30.327Z",
+      "firstSeenRun": "15:00",
+      "verifiedAt": "2026-10-09T13:13:30.327Z",
+      "verificationUrl": "https://www.michaelpage.it/job-detail/inside-sales-fiere-prato/ref/jn-092026-7104252"
     }
   ],
   "audit": {
@@ -10896,7 +10948,7 @@
       },
       "15:00": {
         "scheduledFor": "2026-10-09T15:00:00+02:00",
-        "completedAt": "2026-10-09T13:10:38.975Z",
+        "completedAt": "2026-10-09T13:16:11.561Z",
         "status": "partial",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 0,
@@ -10905,9 +10957,9 @@
         "extraSourcesChecked": [],
         "companiesChecked": [],
         "atsChecked": [],
-        "queriesRun": 250,
-        "newJobs": 1,
-        "activeJobs": 154,
+        "queriesRun": 405,
+        "newJobs": 3,
+        "activeJobs": 156,
         "layersCompleted": [],
         "secondPassSources": [],
         "sourcesVerified": [
@@ -10915,7 +10967,11 @@
           "Experis",
           "Etjca",
           "Atempo",
-          "Software Partner Italia"
+          "Software Partner Italia",
+          "Ingenium",
+          "Aruba",
+          "Michael Page",
+          "Indeed"
         ],
         "sourcesSearched": [
           "Ingenium",
@@ -10977,7 +11033,54 @@
           "SAPIENS",
           "QuoJobis",
           "CPL Taylor",
-          "La Risorsa Umana"
+          "La Risorsa Umana",
+          "Reply",
+          "Engineering",
+          "Accenture",
+          "Avanade",
+          "DXC",
+          "NTT DATA",
+          "Capgemini",
+          "Deloitte",
+          "Almaviva",
+          "EY",
+          "KPMG",
+          "PwC",
+          "Dedalus",
+          "GPI",
+          "Var Group",
+          "Lutech",
+          "Zucchetti",
+          "Esprinet",
+          "TD SYNNEX",
+          "TeamSystem",
+          "Salesforce",
+          "Microsoft",
+          "Lenovo",
+          "Cisco",
+          "IBM",
+          "Siemens",
+          "SAP",
+          "Oracle",
+          "Vodafone",
+          "Fastweb",
+          "Aruba",
+          "Baker Hughes",
+          "Ericsson",
+          "TIM",
+          "Fortinet",
+          "Nokia",
+          "AWS",
+          "ServiceNow",
+          "Google Cloud",
+          "Palo Alto Networks",
+          "Dell",
+          "HPE",
+          "Canonical",
+          "Wolters Kluwer",
+          "RINA",
+          "Bureau Veritas",
+          "TÜV"
         ],
         "sourceVerification": [
           {
@@ -11029,6 +11132,86 @@
             "outcome": "Vacancy pertinente letta; requisiti da confrontare con profilo.",
             "checkedAt": "2026-10-09T13:08:35.585Z",
             "coverageLimit": "Annuncio singolo, enumerazione incompleta."
+          },
+          {
+            "source": "Ingenium",
+            "method": "Lettura elenco/annuncio career",
+            "evidenceUrls": [
+              "https://ingeniumren.com/it/talento/"
+            ],
+            "outcome": "Ingenium Renewables: due ruoli tecnici Roma; identità diversa dalla piattaforma Made in Italy.",
+            "checkedAt": "2026-10-09T13:12:27.350Z",
+            "coverageLimit": "Copertura parziale; eventuale elenco dinamico o indicizzazione non completa."
+          },
+          {
+            "source": "Software Partner Italia",
+            "method": "Lettura elenco/annuncio career",
+            "evidenceUrls": [
+              "https://swpitalia.com/posizioni-aperte/pmo-full-remote/"
+            ],
+            "outcome": "Elenco reale letto e risultati pertinenti approfonditi.",
+            "checkedAt": "2026-10-09T13:12:26.478Z",
+            "coverageLimit": "Copertura parziale; eventuale elenco dinamico o indicizzazione non completa."
+          },
+          {
+            "source": "Software Partner Italia",
+            "method": "Lettura elenco/annuncio career",
+            "evidenceUrls": [
+              "https://swpitalia.com/posizioni-aperte/"
+            ],
+            "outcome": "Elenco reale letto e risultati pertinenti approfonditi.",
+            "checkedAt": "2026-10-09T13:12:27.245Z",
+            "coverageLimit": "Copertura parziale; eventuale elenco dinamico o indicizzazione non completa."
+          },
+          {
+            "source": "Aruba",
+            "method": "Lettura elenco/annuncio career",
+            "evidenceUrls": [
+              "https://www.aruba.it/lavora-con-noi.aspx"
+            ],
+            "outcome": "Sales Operation Specialist escluso: BG ibrido.",
+            "checkedAt": "2026-10-09T13:12:26.243Z",
+            "coverageLimit": "Copertura parziale; eventuale elenco dinamico o indicizzazione non completa."
+          },
+          {
+            "source": "Michael Page",
+            "method": "Lettura elenco/annuncio career",
+            "evidenceUrls": [
+              "https://www.michaelpage.it/jobs/toscana"
+            ],
+            "outcome": "Elenco reale letto e risultati pertinenti approfonditi.",
+            "checkedAt": "2026-10-09T13:12:27.041Z",
+            "coverageLimit": "Copertura parziale; eventuale elenco dinamico o indicizzazione non completa."
+          },
+          {
+            "source": "Indeed",
+            "method": "Lettura elenco/annuncio career",
+            "evidenceUrls": [
+              "https://it.indeed.com/q-ufficio-gare-l-toscana-offerte-lavoro.html"
+            ],
+            "outcome": "Elenco reale letto e risultati pertinenti approfonditi.",
+            "checkedAt": "2026-10-09T13:12:27.152Z",
+            "coverageLimit": "Copertura parziale; eventuale elenco dinamico o indicizzazione non completa."
+          },
+          {
+            "source": "Indeed",
+            "method": "Lettura elenco/annuncio career",
+            "evidenceUrls": [
+              "https://it.indeed.com/q-back-office-commerciale-l-toscana-offerte-lavoro.html"
+            ],
+            "outcome": "Elenco reale letto e risultati pertinenti approfonditi.",
+            "checkedAt": "2026-10-09T13:12:27.536Z",
+            "coverageLimit": "Copertura parziale; eventuale elenco dinamico o indicizzazione non completa."
+          },
+          {
+            "source": "Indeed",
+            "method": "Lettura elenco/annuncio career",
+            "evidenceUrls": [
+              "https://it.indeed.com/cmp/Rotork-2/jobs"
+            ],
+            "outcome": "Elenco reale letto e risultati pertinenti approfonditi.",
+            "checkedAt": "2026-10-09T13:12:26.779Z",
+            "coverageLimit": "Copertura parziale; eventuale elenco dinamico o indicizzazione non completa."
           }
         ],
         "searchLog": [
@@ -13028,16 +13211,1256 @@
             "query": "site:monster.it \"back office\" \"Toscana\"",
             "kind": "fallback",
             "checkedAt": "2026-10-09T13:10:20.029Z",
-            "outcome": "nessun risultato",
+            "outcome": "risultati",
             "limits": "Secondo motore; risultati da indice, copertura non esaustiva."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"sales support\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:00.509Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"commercial operations\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:00.655Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"back office commerciale\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:00.808Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"commercial operations\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:00.863Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"sales operations\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:01.150Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"sales support\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:01.341Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"back office commerciale\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:01.654Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"sales operations\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:01.682Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"customer operations\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:02.571Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"ufficio gare\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:02.765Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"ufficio gare\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:02.992Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"customer service B2B\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:03.174Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"order management\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:03.214Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"order management\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:03.464Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"customer service B2B\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:03.498Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"customer operations\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:03.553Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"proposal\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:04.456Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"RFP\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:04.657Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"RFP\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:04.797Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"bid\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:04.853Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"bid\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:04.982Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"tender\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:05.009Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"proposal\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:05.214Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"tender\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:05.354Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"PMO\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:06.360Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"RFQ\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:06.567Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"project coordinator\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:06.723Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"RFQ\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:06.833Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"PMO\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:07.052Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"project support\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:07.281Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"project coordinator\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:07.377Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"project support\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:07.564Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"inside sales\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:08.745Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"event coordinator\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:08.881Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"lead management\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:09.123Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"revenue operations\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:09.130Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"inside sales\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:09.173Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"lead management\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:09.313Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"event coordinator\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:09.516Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"revenue operations\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:09.602Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"channel support\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:10.516Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"partner support\" \"Toscana\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:10.804Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"partner support\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:10.917Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"channel support\" \"Firenze\"",
+            "kind": "indeed",
+            "checkedAt": "2026-10-09T13:11:10.993Z",
+            "outcome": "risultati",
+            "limits": "Query site-restricted; non enumerazione diretta."
+          },
+          {
+            "source": "Reply",
+            "query": "site:reply.com Reply careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:30.692Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Engineering",
+            "query": "site:eng.it Engineering careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:30.958Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Accenture",
+            "query": "site:accenture.com Accenture careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:31.245Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Accenture",
+            "query": "site:accenture.com Accenture careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:31.275Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Engineering",
+            "query": "site:eng.it Engineering careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:31.508Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Reply",
+            "query": "site:reply.com Reply careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:31.751Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Avanade",
+            "query": "site:avanade.com Avanade careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:31.801Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Avanade",
+            "query": "site:avanade.com Avanade careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:31.801Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "DXC",
+            "query": "site:dxc.com DXC careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:32.849Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "NTT DATA",
+            "query": "site:nttdata.com NTT DATA careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:33.042Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Capgemini",
+            "query": "site:capgemini.com Capgemini careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:33.247Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Capgemini",
+            "query": "site:capgemini.com Capgemini careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:33.412Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Deloitte",
+            "query": "site:deloitte.com Deloitte careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:33.441Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Deloitte",
+            "query": "site:deloitte.com Deloitte careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:33.581Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "NTT DATA",
+            "query": "site:nttdata.com NTT DATA careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:33.855Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "DXC",
+            "query": "site:dxc.com DXC careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:34.672Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Almaviva",
+            "query": "site:almaviva.it Almaviva careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:35.688Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "EY",
+            "query": "site:ey.com EY careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:35.948Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Almaviva",
+            "query": "site:almaviva.it Almaviva careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:36.133Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "KPMG",
+            "query": "site:kpmg.com KPMG careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:36.137Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "EY",
+            "query": "site:ey.com EY careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:36.167Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "PwC",
+            "query": "site:pwc.com PwC careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:36.392Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "PwC",
+            "query": "site:pwc.com PwC careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:36.470Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "KPMG",
+            "query": "site:kpmg.com KPMG careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:36.683Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Dedalus",
+            "query": "site:myworkdayjobs.com Dedalus careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:37.551Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "GPI",
+            "query": "site:gpi.it GPI careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:37.703Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Var Group",
+            "query": "site:vargroup.it Var Group careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:37.866Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Lutech",
+            "query": "site:lutech.group Lutech careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:38.093Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "GPI",
+            "query": "site:gpi.it GPI careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:38.387Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Var Group",
+            "query": "site:vargroup.it Var Group careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:38.578Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Lutech",
+            "query": "site:lutech.group Lutech careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:38.828Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Dedalus",
+            "query": "site:myworkdayjobs.com Dedalus careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:39.307Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Zucchetti",
+            "query": "site:zucchetti.it Zucchetti careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:40.289Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Zucchetti",
+            "query": "site:zucchetti.it Zucchetti careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:40.502Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Esprinet",
+            "query": "site:esprinet.com Esprinet careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:40.750Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Esprinet",
+            "query": "site:esprinet.com Esprinet careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:40.993Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "TD SYNNEX",
+            "query": "site:myworkdayjobs.com TD SYNNEX careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:41.005Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "TeamSystem",
+            "query": "site:teamsystem.com TeamSystem careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:41.028Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "TD SYNNEX",
+            "query": "site:myworkdayjobs.com TD SYNNEX careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:41.195Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "TeamSystem",
+            "query": "site:teamsystem.com TeamSystem careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:41.249Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Salesforce",
+            "query": "site:myworkdayjobs.com Salesforce careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:42.221Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Microsoft",
+            "query": "site:microsoft.com Microsoft careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:42.408Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Lenovo",
+            "query": "site:lenovo.com Lenovo careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:42.587Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Salesforce",
+            "query": "site:myworkdayjobs.com Salesforce careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:42.646Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Lenovo",
+            "query": "site:lenovo.com Lenovo careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:42.689Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Microsoft",
+            "query": "site:microsoft.com Microsoft careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:42.758Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Cisco",
+            "query": "site:cisco.com Cisco careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:42.970Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Cisco",
+            "query": "site:cisco.com Cisco careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:11:43.017Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "IBM",
+            "query": "site:ibm.com IBM careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:00.468Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Siemens",
+            "query": "site:siemens.com Siemens careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:00.813Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "SAP",
+            "query": "site:sap.com SAP careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:00.983Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Oracle",
+            "query": "site:oraclecloud.com Oracle careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:00.990Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Oracle",
+            "query": "site:oraclecloud.com Oracle careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:01.328Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "SAP",
+            "query": "site:sap.com SAP careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:01.356Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "IBM",
+            "query": "site:ibm.com IBM careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:01.638Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Siemens",
+            "query": "site:siemens.com Siemens careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:01.665Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Vodafone",
+            "query": "site:vodafone.com Vodafone careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:02.566Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Fastweb",
+            "query": "site:fastweb.it Fastweb careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:02.933Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Aruba",
+            "query": "site:aruba.it Aruba careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:03.153Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Fastweb",
+            "query": "site:fastweb.it Fastweb careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:03.419Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Baker Hughes",
+            "query": "site:bakerhughes.com Baker Hughes careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:03.455Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Vodafone",
+            "query": "site:vodafone.com Vodafone careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:03.648Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Baker Hughes",
+            "query": "site:bakerhughes.com Baker Hughes careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:03.941Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Aruba",
+            "query": "site:aruba.it Aruba careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:04.417Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Ericsson",
+            "query": "site:ericsson.com Ericsson careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:05.368Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "TIM",
+            "query": "site:gruppotim.it TIM careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:05.511Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Fortinet",
+            "query": "site:oraclecloud.com Fortinet careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:05.678Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Fortinet",
+            "query": "site:oraclecloud.com Fortinet careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:05.957Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Ericsson",
+            "query": "site:ericsson.com Ericsson careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:06.128Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Nokia",
+            "query": "site:nokia.com Nokia careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:06.206Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "TIM",
+            "query": "site:gruppotim.it TIM careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:06.320Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Nokia",
+            "query": "site:nokia.com Nokia careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:06.369Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "AWS",
+            "query": "site:amazon.jobs AWS careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:07.433Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "ServiceNow",
+            "query": "site:servicenow.com ServiceNow careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:07.603Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "AWS",
+            "query": "site:amazon.jobs AWS careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:07.787Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Google Cloud",
+            "query": "site:google.com Google Cloud careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:07.889Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Palo Alto Networks",
+            "query": "site:paloaltonetworks.com Palo Alto Networks careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:07.909Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Palo Alto Networks",
+            "query": "site:paloaltonetworks.com Palo Alto Networks careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:08.154Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Google Cloud",
+            "query": "site:google.com Google Cloud careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:08.161Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "ServiceNow",
+            "query": "site:servicenow.com ServiceNow careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:08.222Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Dell",
+            "query": "site:dell.com Dell careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:09.216Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "HPE",
+            "query": "site:myworkdayjobs.com HPE careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:09.416Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "HPE",
+            "query": "site:myworkdayjobs.com HPE careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:09.684Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Canonical",
+            "query": "site:canonical.com Canonical careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:09.756Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Dell",
+            "query": "site:dell.com Dell careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:09.903Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Wolters Kluwer",
+            "query": "site:myworkdayjobs.com Wolters Kluwer careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:10.002Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Wolters Kluwer",
+            "query": "site:myworkdayjobs.com Wolters Kluwer careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:10.226Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Canonical",
+            "query": "site:canonical.com Canonical careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:10.506Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "RINA",
+            "query": "site:rina.org RINA careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:11.451Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Bureau Veritas",
+            "query": "site:bureauveritas.com Bureau Veritas careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:11.649Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "TÜV",
+            "query": "site:tuvsud.com TÜV careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:11.895Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "TÜV",
+            "query": "site:tuvsud.com TÜV careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:12.020Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Bureau Veritas",
+            "query": "site:bureauveritas.com Bureau Veritas careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:12.054Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "RINA",
+            "query": "site:rina.org RINA careers gare Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-09T13:12:12.382Z",
+            "outcome": "risultati",
+            "limits": "Discovery career/ATS tramite indice; società non enumerata."
+          },
+          {
+            "source": "Aruba",
+            "url": "https://www.aruba.it/lavora-con-noi.aspx",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-09T13:12:26.243Z",
+            "outcome": "risultati",
+            "limits": "Lettura pagina; paginazione e filtri da approfondire."
+          },
+          {
+            "source": "Software Partner Italia",
+            "url": "https://swpitalia.com/posizioni-aperte/pmo-full-remote/",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-09T13:12:26.478Z",
+            "outcome": "risultati",
+            "limits": "Lettura pagina; paginazione e filtri da approfondire."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/cmp/Rotork-2/jobs",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-09T13:12:26.779Z",
+            "outcome": "risultati",
+            "limits": "Lettura pagina; paginazione e filtri da approfondire."
+          },
+          {
+            "source": "ServiceNow",
+            "url": "https://careers.servicenow.com/locations/emea/italy/",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-09T13:12:26.784Z",
+            "outcome": "risultati",
+            "limits": "Lettura pagina; paginazione e filtri da approfondire."
+          },
+          {
+            "source": "Michael Page",
+            "url": "https://www.michaelpage.it/jobs/toscana",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-09T13:12:27.041Z",
+            "outcome": "risultati",
+            "limits": "Lettura pagina; paginazione e filtri da approfondire."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/q-ufficio-gare-l-toscana-offerte-lavoro.html",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-09T13:12:27.152Z",
+            "outcome": "risultati",
+            "limits": "Lettura pagina; paginazione e filtri da approfondire."
+          },
+          {
+            "source": "Canonical",
+            "url": "https://canonical.com/careers/all",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-09T13:12:27.171Z",
+            "outcome": "risultati",
+            "limits": "Lettura pagina; paginazione e filtri da approfondire."
+          },
+          {
+            "source": "Software Partner Italia",
+            "url": "https://swpitalia.com/posizioni-aperte/",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-09T13:12:27.245Z",
+            "outcome": "risultati",
+            "limits": "Lettura pagina; paginazione e filtri da approfondire."
+          },
+          {
+            "source": "Ingenium",
+            "url": "https://ingeniumren.com/it/talento/",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-09T13:12:27.350Z",
+            "outcome": "risultati",
+            "limits": "Lettura pagina; paginazione e filtri da approfondire."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/q-back-office-commerciale-l-toscana-offerte-lavoro.html",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-09T13:12:27.536Z",
+            "outcome": "risultati",
+            "limits": "Lettura pagina; paginazione e filtri da approfondire."
+          },
+          {
+            "source": "Michael Page",
+            "url": "https://www.michaelpage.it/job-detail/inside-sales-fiere-prato/ref/jn-092026-7104252",
+            "outcome": "risultati",
+            "limits": "Indeterminato, Prato, RAL 25.200–30.800; inside sales fiere.",
+            "kind": "open",
+            "checkedAt": "2026-10-09T13:13:05.351Z"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/q-back-office-commerciale-l-toscana-offerte-lavoro.html#link-34",
+            "outcome": "bloccata",
+            "limits": "Click annuncio PMR: redirect pubblicitario non leggibile.",
+            "kind": "open",
+            "checkedAt": "2026-10-09T13:13:05.351Z"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/q-ufficio-gare-l-toscana-offerte-lavoro.html#link-14",
+            "outcome": "bloccata",
+            "limits": "Click annuncio Indovino: redirect pubblicitario non leggibile.",
+            "kind": "open",
+            "checkedAt": "2026-10-09T13:13:05.351Z"
+          },
+          {
+            "source": "Aruba",
+            "url": "https://www.aruba.it/lavora-con-noi.aspx",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-09T13:13:30.327Z",
+            "outcome": "risultati",
+            "limits": "Lettura seconda parte: Sales Operation BG ibrido, escluso geograficamente."
+          },
+          {
+            "source": "Canonical",
+            "url": "https://canonical.com/careers/all",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-09T13:13:30.327Z",
+            "outcome": "risultati",
+            "limits": "Lettura seconda parte: contenitore dinamico senza vacancy enumerabili."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/event-coordinator-specialist-at-ingenium-made-in-italy-innovation-platform-4467209845",
+            "checkedAt": "2026-10-09T13:15:58.619Z",
+            "outcome": "risultati",
+            "limits": "Reindirizzamento a elenco generico eventi; vacancy Ingenium non confermata",
+            "kind": "existingOpen"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/inside-sales-representative-italy-and-mediterranean-at-copeland-4466272851",
+            "checkedAt": "2026-10-09T13:15:58.619Z",
+            "outcome": "risultati",
+            "limits": "Pagina specifica aperta; lettura descrizione da completare",
+            "kind": "existingOpen"
           }
         ],
         "coverageDiagnostics": {
-          "indeedQueries": 4,
-          "linkedinQueries": 4,
+          "indeedQueries": 49,
+          "linkedinQueries": 5,
           "portalQueryCount": 232,
-          "careerPagesOpened": 0,
-          "careerSearchesRun": 5,
+          "careerPagesOpened": 12,
+          "careerSearchesRun": 98,
           "atsSearchesRun": 0,
           "fallbackSearchesRun": 4,
           "sourcesPartiallyCovered": [
@@ -13100,13 +14523,60 @@
             "SAPIENS",
             "QuoJobis",
             "CPL Taylor",
-            "La Risorsa Umana"
+            "La Risorsa Umana",
+            "Reply",
+            "Engineering",
+            "Accenture",
+            "Avanade",
+            "DXC",
+            "NTT DATA",
+            "Capgemini",
+            "Deloitte",
+            "Almaviva",
+            "EY",
+            "KPMG",
+            "PwC",
+            "Dedalus",
+            "GPI",
+            "Var Group",
+            "Lutech",
+            "Zucchetti",
+            "Esprinet",
+            "TD SYNNEX",
+            "TeamSystem",
+            "Salesforce",
+            "Microsoft",
+            "Lenovo",
+            "Cisco",
+            "IBM",
+            "Siemens",
+            "SAP",
+            "Oracle",
+            "Vodafone",
+            "Fastweb",
+            "Aruba",
+            "Baker Hughes",
+            "Ericsson",
+            "TIM",
+            "Fortinet",
+            "Nokia",
+            "AWS",
+            "ServiceNow",
+            "Google Cloud",
+            "Palo Alto Networks",
+            "Dell",
+            "HPE",
+            "Canonical",
+            "Wolters Kluwer",
+            "RINA",
+            "Bureau Veritas",
+            "TÜV"
           ],
           "companiesPartiallyCovered": [
             "Ingenium"
           ]
         },
-        "notes": "Checkpoint parziale: una nuova opportunità PMO full remote verificata; richiesti progetti Salesforce. Discovery estesa sui portali con risultati spesso generici: non costituisce enumerazione completa. Pagine specifiche lette presso Manpower, Experis, Etjca, Atempo e Software Partner Italia; Esclusi Atempo per francese obbligatorio e Etjca per teleselling B2C. Restano aziende/ATS, matrice Indeed e ricontrollo sistematico esistenti."
+        "notes": "Checkpoint parziale: 3 nuove offerte verificate. Discovery estesa su portali e aziende; enumerazione non completa. Restano approfondimento ATS, career page, territori e ricontrollo sistematico degli annunci esistenti. Contatori distinguono ricerca indicizzata da lettura diretta."
       }
     }
   },
