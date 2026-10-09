@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:05:32.806Z",
+  "generatedAt": "2026-10-09T13:08:06.890Z",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -10870,7 +10870,7 @@
       },
       "15:00": {
         "scheduledFor": "2026-10-09T15:00:00+02:00",
-        "completedAt": "2026-10-09T13:05:32.806Z",
+        "completedAt": "2026-10-09T13:08:06.890Z",
         "status": "partial",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 0,
@@ -10879,16 +10879,47 @@
         "extraSourcesChecked": [],
         "companiesChecked": [],
         "atsChecked": [],
-        "queriesRun": 1,
+        "queriesRun": 77,
         "newJobs": 0,
         "activeJobs": 153,
         "layersCompleted": [],
         "secondPassSources": [],
-        "sourcesVerified": [],
-        "sourcesSearched": [
-          "Ingenium"
+        "sourcesVerified": [
+          "Manpower"
         ],
-        "sourceVerification": [],
+        "sourcesSearched": [
+          "Ingenium",
+          "Monster",
+          "Manpower",
+          "Randstad",
+          "Adecco",
+          "Indeed",
+          "Hays",
+          "LinkedIn Jobs",
+          "Gi Group Grafton",
+          "Michael Page",
+          "Jobrapido",
+          "Jooble",
+          "Page Personnel",
+          "Openjobmetis",
+          "Orienta",
+          "Glassdoor Jobs",
+          "Lavoropiù",
+          "Talent.com",
+          "Synergie"
+        ],
+        "sourceVerification": [
+          {
+            "source": "Manpower",
+            "method": "Lettura annuncio originale",
+            "evidenceUrls": [
+              "https://www.manpower.it/it/annuncio-lavoro/consumer-products/logistica/back-office-commerciale/1043365"
+            ],
+            "outcome": "Annuncio esistente confermato: indeterminato, Siena, presenza, 25–33k; scadenza 30/11/2026.",
+            "checkedAt": "2026-10-09T13:07:49.828Z",
+            "coverageLimit": "Verifica di una vacancy; enumerazione parziale."
+          }
+        ],
         "searchLog": [
           {
             "source": "Ingenium",
@@ -10896,24 +10927,650 @@
             "checkedAt": "2026-10-09T13:05:21.541Z",
             "outcome": "risultati",
             "limits": "Discovery indicizzata; contenuti e copertura da approfondire."
+          },
+          {
+            "source": "Monster",
+            "query": "Monster project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:57.450Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Manpower",
+            "query": "Manpower customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:57.595Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Randstad",
+            "query": "Randstad back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:57.742Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Randstad",
+            "query": "Randstad project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:57.801Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Adecco",
+            "query": "Adecco back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:57.860Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Monster",
+            "query": "Monster customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:58.005Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Manpower",
+            "query": "Manpower project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:58.094Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Indeed",
+            "query": "Indeed back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:58.370Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Adecco",
+            "query": "Adecco project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:58.527Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Hays",
+            "query": "Hays customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:58.530Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Monster",
+            "query": "Monster ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:58.556Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Adecco",
+            "query": "Adecco customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:58.610Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Adecco",
+            "query": "Adecco ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:58.760Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Randstad",
+            "query": "Randstad customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:58.775Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Indeed",
+            "query": "Indeed ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:58.783Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "LinkedIn Jobs project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:59.076Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Gi Group Grafton",
+            "query": "Gi Group Grafton ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:59.103Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Hays",
+            "query": "Hays project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:59.105Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Gi Group Grafton",
+            "query": "Gi Group Grafton customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:59.283Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "LinkedIn Jobs customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:59.415Z",
+            "outcome": "bloccata",
+            "limits": "Errore temporaneo del motore (503); nessun riscontro."
+          },
+          {
+            "source": "Randstad",
+            "query": "Randstad ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:59.513Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Indeed",
+            "query": "Indeed customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:59.516Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "LinkedIn Jobs ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:59.548Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Manpower",
+            "query": "Manpower ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:59.589Z",
+            "outcome": "bloccata",
+            "limits": "Errore temporaneo del motore (503); nessun riscontro."
+          },
+          {
+            "source": "Hays",
+            "query": "Hays ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:59.642Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Gi Group Grafton",
+            "query": "Gi Group Grafton back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:59.775Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Gi Group Grafton",
+            "query": "Gi Group Grafton project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:59.827Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Manpower",
+            "query": "Manpower back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:59.833Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Hays",
+            "query": "Hays back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:05:59.926Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Indeed",
+            "query": "Indeed project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:06:00.065Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "LinkedIn Jobs back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:06:00.184Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "Monster",
+            "query": "Monster back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:06:00.396Z",
+            "outcome": "risultati",
+            "limits": "Risultati da indice, non enumerazione completa."
+          },
+          {
+            "source": "MAW",
+            "url": "https://www.maw.it/offerte-di-lavoro/si-monteriggioni-196767",
+            "outcome": "bloccata",
+            "limits": "404; non basta per certificare chiusura.",
+            "kind": "open",
+            "checkedAt": "2026-10-09T13:07:49.828Z"
+          },
+          {
+            "source": "Randstad",
+            "url": "https://www.randstad.com/jobs/back-office-commerciale-mfnb_arezzo_47367562/",
+            "outcome": "bloccata",
+            "limits": "410 Gone; annuncio non leggibile.",
+            "kind": "open",
+            "checkedAt": "2026-10-09T13:07:49.828Z"
+          },
+          {
+            "source": "Manpower",
+            "url": "https://www.manpower.it/it/annuncio-lavoro/consumer-products/logistica/back-office-commerciale/1043365",
+            "outcome": "risultati",
+            "limits": "Annuncio esistente confermato: indeterminato, Siena, presenza, 25–33k; scadenza 30/11/2026.",
+            "kind": "open",
+            "checkedAt": "2026-10-09T13:07:49.828Z"
+          },
+          {
+            "source": "Adecco",
+            "url": "https://www.adecco.com/it-it/cerca-lavoro/impiegato-a-budget-control-ufficio-vendite-fiesole-firenze/0301-4001",
+            "outcome": "bloccata",
+            "limits": "410 Gone; annuncio non leggibile.",
+            "kind": "open",
+            "checkedAt": "2026-10-09T13:07:49.828Z"
+          },
+          {
+            "source": "Michael Page",
+            "query": "Michael Page project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:50.850Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Jobrapido",
+            "query": "Jobrapido customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:50.976Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Jobrapido",
+            "query": "Jobrapido project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:51.206Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Jooble",
+            "query": "Jooble customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:51.306Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Page Personnel",
+            "query": "Page Personnel ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:51.414Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Openjobmetis",
+            "query": "Openjobmetis customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:51.474Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Orienta",
+            "query": "Orienta project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:51.522Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Glassdoor Jobs",
+            "query": "Glassdoor Jobs back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:51.568Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Openjobmetis",
+            "query": "Openjobmetis back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:51.655Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Michael Page",
+            "query": "Michael Page back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:51.859Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Lavoropiù",
+            "query": "Lavoropiù back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:51.907Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Orienta",
+            "query": "Orienta customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:52.037Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Glassdoor Jobs",
+            "query": "Glassdoor Jobs ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:52.147Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Talent.com",
+            "query": "Talent.com customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:52.180Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Page Personnel",
+            "query": "Page Personnel customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:52.214Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Lavoropiù",
+            "query": "Lavoropiù ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:52.235Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Michael Page",
+            "query": "Michael Page customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:52.359Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Talent.com",
+            "query": "Talent.com ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:52.368Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Talent.com",
+            "query": "Talent.com project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:52.492Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Synergie",
+            "query": "Synergie ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:52.526Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Jooble",
+            "query": "Jooble ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:52.714Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Jobrapido",
+            "query": "Jobrapido back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:52.739Z",
+            "outcome": "bloccata",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Talent.com",
+            "query": "Talent.com back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:52.764Z",
+            "outcome": "bloccata",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Synergie",
+            "query": "Synergie back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:52.782Z",
+            "outcome": "bloccata",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Lavoropiù",
+            "query": "Lavoropiù project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:52.793Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Orienta",
+            "query": "Orienta back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:52.925Z",
+            "outcome": "bloccata",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Page Personnel",
+            "query": "Page Personnel project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:52.938Z",
+            "outcome": "bloccata",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Page Personnel",
+            "query": "Page Personnel back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:52.949Z",
+            "outcome": "bloccata",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Orienta",
+            "query": "Orienta ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:52.951Z",
+            "outcome": "bloccata",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Glassdoor Jobs",
+            "query": "Glassdoor Jobs customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:53.024Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Jobrapido",
+            "query": "Jobrapido ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:53.075Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Openjobmetis",
+            "query": "Openjobmetis ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:53.233Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Glassdoor Jobs",
+            "query": "Glassdoor Jobs project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:53.284Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Synergie",
+            "query": "Synergie project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:53.439Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Michael Page",
+            "query": "Michael Page ufficio gare Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:53.563Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Synergie",
+            "query": "Synergie customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:53.575Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Openjobmetis",
+            "query": "Openjobmetis project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:53.581Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Jooble",
+            "query": "Jooble project support remote Italy lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:53.738Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Jooble",
+            "query": "Jooble back office commerciale Toscana lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:54.021Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
+          },
+          {
+            "source": "Lavoropiù",
+            "query": "Lavoropiù customer service Firenze Pisa Lucca lavoro",
+            "kind": "portal",
+            "checkedAt": "2026-10-09T13:07:54.022Z",
+            "outcome": "risultati",
+            "limits": "Indice; nessuna certificazione di enumerazione completa."
           }
         ],
         "coverageDiagnostics": {
-          "indeedQueries": 0,
-          "linkedinQueries": 0,
-          "portalQueryCount": 0,
+          "indeedQueries": 4,
+          "linkedinQueries": 4,
+          "portalQueryCount": 72,
           "careerPagesOpened": 0,
           "careerSearchesRun": 1,
           "atsSearchesRun": 0,
           "fallbackSearchesRun": 0,
           "sourcesPartiallyCovered": [
-            "Ingenium"
+            "Ingenium",
+            "Monster",
+            "Manpower",
+            "Randstad",
+            "Adecco",
+            "Indeed",
+            "Hays",
+            "LinkedIn Jobs",
+            "Gi Group Grafton",
+            "Michael Page",
+            "Jobrapido",
+            "Jooble",
+            "Page Personnel",
+            "Openjobmetis",
+            "Orienta",
+            "Glassdoor Jobs",
+            "Lavoropiù",
+            "Talent.com",
+            "Synergie"
           ],
           "companiesPartiallyCovered": [
             "Ingenium"
           ]
         },
-        "notes": "Checkpoint iniziale. La prima ricerca Ingenium restituisce soprattutto Enginium: identità da disambiguare, nessuna verifica aziendale certificata."
+        "notes": "Checkpoint: discovery indicizzata ancora parziale. Manpower Siena 1043365 verificato e già presente. Tre pagine MAW/Randstad/Adecco non leggibili (404/410), offerte conservate senza dedurre automaticamente la chiusura. Alcune ricerche hanno restituito errore temporaneo 503 o risultati generici; necessari ulteriori passaggi."
       }
     }
   },
