@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T08:09:30+02:00",
+  "generatedAt": "2026-10-09T08:08:39.675+02:00",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -3685,6 +3685,59 @@
       "firstSeenRun": "15:00",
       "verifiedAt": "2026-10-08T15:24:00+02:00",
       "verificationUrl": "https://it.linkedin.com/jobs/view/impiegata-back-office-at-birindelli-co-s-r-l-gruppo-gmg-spa-4449424276"
+    },
+    {
+      "id": "costruire-addetto-ufficio-gare-altopascio-20261009",
+      "date": "Non dichiarato",
+      "company": "Costruire Srl",
+      "title": "Addetto ufficio gare",
+      "location": "Altopascio (LU)",
+      "workMode": "In presenza",
+      "contract": "Tempo pieno · tipologia non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Tender",
+      "score": 9.6,
+      "source": "BeBee / annuncio Costruire Srl",
+      "url": "https://bebee.com/it/jobs/addetto-ufficio-gare-costruire-srl-altopascio-toscana--t7xk-824969435",
+      "summary": "Gestione end-to-end di gare pubbliche e private: monitoraggio bandi, documentazione amministrativa e tecnica, MEPA/Sintel, caricamento offerte, post-aggiudicazione, albi fornitori e certificazioni.",
+      "checks": [
+        "Minimo 2 anni in ufficio gare",
+        "Conoscenza Codice dei Contratti Pubblici",
+        "MEPA/Sintel richiesti",
+        "Annuncio indicato attivo fino al 31/10/2026"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-09T08:08:39.675+02:00",
+      "firstSeenRun": "08:00",
+      "verifiedAt": "2026-10-09T08:08:39.675+02:00",
+      "verificationUrl": "https://bebee.com/it/jobs/addetto-ufficio-gare-costruire-srl-altopascio-toscana--t7xk-824969435"
+    },
+    {
+      "id": "copeland-inside-sales-italy-mediterranean-4466272851",
+      "date": "Non dichiarato",
+      "company": "Copeland",
+      "title": "Inside Sales Representative - Italy and Mediterranean",
+      "location": "Italia (collegamenti territoriali a Siena)",
+      "workMode": "Ibrido",
+      "contract": "Tempo pieno · tipologia non dichiarata",
+      "salary": "Non dichiarato",
+      "category": "Sales Support",
+      "score": 8.2,
+      "source": "LinkedIn Jobs / Copeland",
+      "url": "https://it.linkedin.com/jobs/view/inside-sales-representative-italy-and-mediterranean-at-copeland-4466272851",
+      "summary": "Inside sales B2B per Italia e Mediterraneo: lead generation via telefono/email, coordinamento incontri e demo, gestione accurata di clienti e opportunità nel CRM, sales enablement e prospecting.",
+      "checks": [
+        "Circa 2 anni in inside sales/lead generation",
+        "Inglese professionale e italiano fluente",
+        "Ambiente ibrido dichiarato; frequenza in sede non specificata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-09T08:08:39.675+02:00",
+      "firstSeenRun": "08:00",
+      "verifiedAt": "2026-10-09T08:08:39.675+02:00",
+      "verificationUrl": "https://it.linkedin.com/jobs/view/inside-sales-representative-italy-and-mediterranean-at-copeland-4466272851"
     }
   ],
   "audit": {
@@ -3692,170 +3745,1211 @@
     "runs": {
       "08:00": {
         "scheduledFor": "2026-10-09T08:00:00+02:00",
-        "completedAt": "2026-10-09T08:09:30+02:00",
+        "completedAt": "2026-10-09T08:08:39.675+02:00",
         "status": "partial",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 0,
         "sourcesChecked": [],
-        "sourcesUnavailable": [],
+        "sourcesUnavailable": [
+          "SimplyHired"
+        ],
         "extraSourcesChecked": [],
         "companiesChecked": [],
         "atsChecked": [],
-        "queriesRun": 508,
-        "newJobs": 0,
-        "activeJobs": 151,
+        "queriesRun": 693,
+        "newJobs": 2,
+        "activeJobs": 153,
         "layersCompleted": [
-          "A) portali generalisti (indice)",
-          "B) agenzie (indice)",
-          "C) aggregatori (indice)",
-          "D) career page target (discovery)",
-          "E) ATS (discovery)",
-          "F) web domain-restricted",
-          "G) keyword operative",
-          "H) aziende toscane nuove",
-          "I) nazionale remote-first"
+          "A-portali generalisti",
+          "B-agenzie",
+          "C-aggregatori",
+          "D-career page target via indice",
+          "E-ATS via indice",
+          "F-web domain-restricted",
+          "G-keyword operative",
+          "H-aziende toscane nuove",
+          "I-nazionale remote-first",
+          "L-ricontrollo offerte esistenti",
+          "M-secondo passaggio",
+          "N-terzo passaggio cluster promettenti"
         ],
-        "secondPassSources": [],
-        "sourcesVerified": [],
-        "sourcesSearched": [
-          "Web indexed discovery",
-          "LinkedIn/Indeed indexed discovery",
+        "secondPassSources": [
+          "Google/Bing indexed vacancy pages",
           "Indeed",
-          "Randstad",
           "LinkedIn Jobs",
-          "Monster",
-          "Manpower",
+          "SimplyHired",
+          "BeBee"
+        ],
+        "sourcesVerified": [
+          "ABB E-mobility / LinkedIn Jobs",
+          "ANAS Careers",
+          "ATI Project Careers",
           "Adecco",
-          "Hays",
+          "Akkodis Careers",
+          "Ali Lavoro",
+          "Ali Lavoro - annuncio originale",
+          "Annuncio Grafton Recruitment su LinkedIn Jobs",
+          "Archimede / annuncio indicizzato",
+          "Atempo",
+          "Backroads Careers / Workday",
+          "BeBee",
+          "Burberry Careers (SuccessFactors)",
+          "Castelfalfi Careers",
+          "Direzione Lavoro Group",
+          "During (annuncio originale indicizzato)",
+          "Expeditors / SmartRecruiters",
+          "Experis",
+          "Gi Group",
+          "Gi Group / Grafton Office",
           "Gi Group/Grafton",
-          "Synergie",
+          "Grafton",
+          "Imagicle Careers / Trakstar Hire",
+          "Indeed",
+          "Indeed / Betamotor",
+          "Indeed / Edison",
+          "Indeed / LinkedIn",
+          "Indeed / MENARINI Group",
+          "Indeed / PR Industrial",
+          "Indeed / TÜV SÜD",
+          "Jobijoba",
+          "Lavoropiù / Bakeca / Lavoro.it",
+          "LinkedIn",
+          "LinkedIn / Made in Bit",
+          "LinkedIn / Valmet",
+          "LinkedIn / bioMérieux",
+          "LinkedIn Jobs",
+          "LinkedIn Jobs (annuncio Castelfalfi)",
+          "LinkedIn Jobs (annuncio MisterTemp; confronto Jooble)",
+          "LinkedIn Jobs (annuncio SECO)",
+          "LinkedIn Jobs (annuncio TÜV SÜD; ATS aziendale consultato)",
+          "LinkedIn Jobs (annuncio aziendale)",
+          "LinkedIn Jobs / Ali Lavoro",
+          "LinkedIn Jobs / Ali Professional",
+          "LinkedIn Jobs / Baker Hughes",
+          "LinkedIn Jobs / Cognita Schools",
+          "LinkedIn Jobs / GM Pack",
+          "LinkedIn Jobs / Grafton Recruitment",
+          "LinkedIn Jobs / Icon Collection",
+          "LinkedIn Jobs / LHH",
+          "LinkedIn Jobs / MAW",
+          "LinkedIn Jobs / Randstad",
+          "LinkedIn Jobs / Smart Skills Center",
+          "LinkedIn Jobs / TK Elevator",
+          "LinkedIn Jobs / Yolo Tech Insurance",
+          "LinkedIn Jobs · annuncio Gruppo Brandini",
+          "LinkedIn Jobs · annuncio Kering",
+          "LinkedIn Jobs · annuncio La Marzocco",
+          "LinkedIn Jobs · annuncio Sinerbit",
+          "MADx Careers / Factorial",
+          "MAW",
+          "MAW - annuncio originale",
+          "Manpower",
+          "Marriott Careers",
           "Michael Page",
-          "Page Personnel",
           "Openjobmetis",
           "Orienta",
-          "Lavoropiù",
-          "Jooble",
-          "Jobrapido",
-          "Careerjet",
-          "Trovolavoro",
-          "Talent.com",
-          "Glassdoor Jobs",
-          "Experis",
-          "Umana",
-          "Bakeca Lavoro",
-          "Helplavoro",
-          "Etjca",
-          "Ali Lavoro",
-          "During",
-          "MAW",
-          "Humangest",
-          "Staff",
-          "Atempo",
-          "ADHR",
-          "Adzuna",
-          "Toscana Lavoro/ARTI",
-          "Jobbydoo",
-          "inPA",
-          "Subito Lavoro",
-          "SimplyHired",
-          "CercoLavoro",
-          "Jobijoba",
-          "CVing",
-          "Hunters Group",
-          "IQM",
-          "Wyser",
-          "Profili & Carriere",
-          "High Professional",
-          "Knet",
-          "W Executive",
-          "Jefferson Wells",
-          "LHH",
-          "Jobtech",
-          "e-work",
-          "QuoJobis",
-          "Iziwork",
-          "SAPIENS",
-          "Eurointerim",
-          "Bing indexed vacancy pages",
-          "La Risorsa Umana",
-          "CPL Taylor",
-          "Google indexed vacancy pages",
-          "Avanade",
-          "Engineering",
-          "Reply",
-          "Accenture",
-          "NTT DATA",
-          "DXC Technology",
-          "PwC",
-          "EY",
-          "Capgemini",
-          "Deloitte",
-          "KPMG",
-          "Dedalus",
-          "GPI",
-          "Almaviva",
-          "Lutech",
-          "Var Group",
-          "Esprinet",
-          "TD SYNNEX",
-          "Zucchetti",
-          "TeamSystem",
-          "Lenovo",
-          "Microsoft",
-          "Cisco",
-          "Salesforce",
-          "SAP",
-          "Oracle",
-          "IBM",
-          "Baker Hughes",
-          "Aruba",
-          "Fastweb",
-          "Vodafone",
-          "Siemens",
-          "Ericsson",
-          "Nokia",
-          "TIM",
-          "Palo Alto Networks",
-          "ServiceNow",
-          "Fortinet",
-          "HPE",
-          "Dell Technologies",
-          "AWS",
-          "Google Cloud",
-          "Canonical",
-          "Wolters Kluwer",
-          "Bureau Veritas",
-          "TÜV SÜD",
-          "Ingenium",
-          "RINA",
-          "Castelfalfi",
-          "Sammontana",
-          "Techniconsult Group",
-          "TK Elevator",
-          "Kering",
-          "Valmet",
-          "bioMérieux",
-          "ABB E-mobility",
-          "PharmaNutra",
-          "Thales",
-          "SECO",
-          "Consiag Servizi Comuni",
-          "Greenhouse",
-          "SuccessFactors",
-          "Workday/MyWorkdayJobs",
-          "Taleo",
-          "Lever",
-          "SmartRecruiters",
-          "Recruitee",
-          "iCIMS",
-          "Ashby",
-          "Teamtailor",
-          "Workable",
-          "Web geographic search",
-          "Other ATS",
-          "Jobvite"
+          "Orienta - annuncio originale",
+          "Orienta / LinkedIn Jobs",
+          "PharmaNutra / Expertini",
+          "Qboxmail Careers / Indeed",
+          "Randstad",
+          "Randstad (annuncio originale)",
+          "SECO Careers",
+          "Sammontana / LinkedIn Jobs",
+          "Solventum / LinkedIn Jobs",
+          "Staff S.p.A.",
+          "Synergie - annuncio originale",
+          "Tenuta Toscana / LinkedIn Jobs",
+          "Tenuta Toscana Careers / LinkedIn",
+          "TerraEvents Careers",
+          "Trabajo.org / Studio Bianchi Selezione",
+          "Uvet / LinkedIn Jobs",
+          "VetPartners Careers / LinkedIn"
         ],
-        "sourceVerification": [],
+        "sourcesSearched": [
+          "ABB E-mobility",
+          "ABB E-mobility / LinkedIn Jobs",
+          "ADHR",
+          "ANAS Careers",
+          "ATI Project Careers",
+          "AWS",
+          "Accenture",
+          "Adecco",
+          "Adzuna",
+          "Akkodis Careers",
+          "Ali Lavoro",
+          "Ali Lavoro - annuncio originale",
+          "Almaviva",
+          "Annuncio Grafton Recruitment su LinkedIn Jobs",
+          "Archimede / annuncio indicizzato",
+          "Aruba",
+          "Ashby",
+          "Atempo",
+          "Avanade",
+          "Backroads Careers / Workday",
+          "Bakeca Lavoro",
+          "Baker Hughes",
+          "BeBee",
+          "Bing indexed vacancy pages",
+          "Burberry Careers (SuccessFactors)",
+          "Bureau Veritas",
+          "CPL Taylor",
+          "CVing",
+          "Canonical",
+          "Capgemini",
+          "Careerjet",
+          "Castelfalfi",
+          "Castelfalfi Careers",
+          "CercoLavoro",
+          "Cisco",
+          "Consiag Servizi Comuni",
+          "DXC Technology",
+          "Dedalus",
+          "Dell Technologies",
+          "Deloitte",
+          "Direzione Lavoro Group",
+          "During",
+          "During (annuncio originale indicizzato)",
+          "EY",
+          "Engineering",
+          "Ericsson",
+          "Esprinet",
+          "Etjca",
+          "Eurointerim",
+          "Expeditors / SmartRecruiters",
+          "Experis",
+          "Fastweb",
+          "Fortinet",
+          "GPI",
+          "Gi Group",
+          "Gi Group / Grafton Office",
+          "Gi Group/Grafton",
+          "Glassdoor Jobs",
+          "Google Cloud",
+          "Google indexed vacancy pages",
+          "Google/Bing indexed vacancy pages",
+          "Grafton",
+          "Greenhouse",
+          "HPE",
+          "Hays",
+          "Helplavoro",
+          "High Professional",
+          "Humangest",
+          "Hunters Group",
+          "IBM",
+          "IQM",
+          "Imagicle Careers / Trakstar Hire",
+          "Indeed",
+          "Indeed / Betamotor",
+          "Indeed / Edison",
+          "Indeed / LinkedIn",
+          "Indeed / MENARINI Group",
+          "Indeed / PR Industrial",
+          "Indeed / TÜV SÜD",
+          "Ingenium",
+          "Iziwork",
+          "Jefferson Wells",
+          "Jobbydoo",
+          "Jobijoba",
+          "Jobrapido",
+          "Jobtech",
+          "Jobvite",
+          "Jooble",
+          "KPMG",
+          "Kering",
+          "Knet",
+          "LHH",
+          "La Risorsa Umana",
+          "Lavoropiù",
+          "Lavoropiù / Bakeca / Lavoro.it",
+          "Lenovo",
+          "Lever",
+          "LinkedIn",
+          "LinkedIn / Made in Bit",
+          "LinkedIn / Valmet",
+          "LinkedIn / bioMérieux",
+          "LinkedIn Jobs",
+          "LinkedIn Jobs (annuncio Castelfalfi)",
+          "LinkedIn Jobs (annuncio MisterTemp; confronto Jooble)",
+          "LinkedIn Jobs (annuncio SECO)",
+          "LinkedIn Jobs (annuncio TÜV SÜD; ATS aziendale consultato)",
+          "LinkedIn Jobs (annuncio aziendale)",
+          "LinkedIn Jobs / Ali Lavoro",
+          "LinkedIn Jobs / Ali Professional",
+          "LinkedIn Jobs / Baker Hughes",
+          "LinkedIn Jobs / Cognita Schools",
+          "LinkedIn Jobs / GM Pack",
+          "LinkedIn Jobs / Grafton Recruitment",
+          "LinkedIn Jobs / Icon Collection",
+          "LinkedIn Jobs / LHH",
+          "LinkedIn Jobs / MAW",
+          "LinkedIn Jobs / Randstad",
+          "LinkedIn Jobs / Smart Skills Center",
+          "LinkedIn Jobs / TK Elevator",
+          "LinkedIn Jobs / Yolo Tech Insurance",
+          "LinkedIn Jobs · annuncio Gruppo Brandini",
+          "LinkedIn Jobs · annuncio Kering",
+          "LinkedIn Jobs · annuncio La Marzocco",
+          "LinkedIn Jobs · annuncio Sinerbit",
+          "LinkedIn/Indeed indexed discovery",
+          "Lutech",
+          "MADx Careers / Factorial",
+          "MAW",
+          "MAW - annuncio originale",
+          "Manpower",
+          "Marriott Careers",
+          "Michael Page",
+          "Microsoft",
+          "Monster",
+          "NTT DATA",
+          "Nokia",
+          "Openjobmetis",
+          "Oracle",
+          "Orienta",
+          "Orienta - annuncio originale",
+          "Orienta / LinkedIn Jobs",
+          "Other ATS",
+          "Page Personnel",
+          "Palo Alto Networks",
+          "PharmaNutra",
+          "PharmaNutra / Expertini",
+          "Profili & Carriere",
+          "PwC",
+          "Qboxmail Careers / Indeed",
+          "QuoJobis",
+          "RINA",
+          "Randstad",
+          "Randstad (annuncio originale)",
+          "Recruitee",
+          "Reply",
+          "SAP",
+          "SAPIENS",
+          "SECO",
+          "SECO Careers",
+          "Salesforce",
+          "Sammontana",
+          "Sammontana / LinkedIn Jobs",
+          "ServiceNow",
+          "Siemens",
+          "SimplyHired",
+          "SmartRecruiters",
+          "Solventum / LinkedIn Jobs",
+          "Staff",
+          "Staff S.p.A.",
+          "Subito Lavoro",
+          "SuccessFactors",
+          "Synergie",
+          "Synergie - annuncio originale",
+          "TD SYNNEX",
+          "TIM",
+          "TK Elevator",
+          "Talent.com",
+          "Taleo",
+          "TeamSystem",
+          "Teamtailor",
+          "Techniconsult Group",
+          "Tenuta Toscana / LinkedIn Jobs",
+          "Tenuta Toscana Careers / LinkedIn",
+          "TerraEvents Careers",
+          "Thales",
+          "Toscana Lavoro/ARTI",
+          "Trabajo.org / Studio Bianchi Selezione",
+          "Trovolavoro",
+          "TÜV SÜD",
+          "Umana",
+          "Uvet / LinkedIn Jobs",
+          "Valmet",
+          "Var Group",
+          "VetPartners Careers / LinkedIn",
+          "Vodafone",
+          "W Executive",
+          "Web geographic search",
+          "Web indexed discovery",
+          "Wolters Kluwer",
+          "Workable",
+          "Workday/MyWorkdayJobs",
+          "Wyser",
+          "Zucchetti",
+          "bioMérieux",
+          "e-work",
+          "iCIMS",
+          "inPA"
+        ],
+        "sourceVerification": [
+          {
+            "source": "BeBee",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://bebee.com/it/jobs/addetto-ufficio-gare-costruire-srl-altopascio-toscana--t7xk-824969435"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/inside-sales-representative-italy-and-mediterranean-at-copeland-4466272851",
+              "https://it.linkedin.com/jobs/view/event-assistant-at-lattanzio-kibs-benefit-corporation-4470139426",
+              "https://it.linkedin.com/jobs/view/tender-buyer-specialist-at-exa-group-4462762678",
+              "https://it.linkedin.com/jobs/view/tecnico-ufficio-gare-senior-at-universo-4469712984",
+              "https://it.linkedin.com/jobs/view/inside-sales-toscana-firenze-at-brt-corriere-espresso-4394694693"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Indeed",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.indeed.com/viewjob?jk=9f2fecc21daa3a8b",
+              "https://it.indeed.com/viewjob?jk=42fc4d0779ad8ca1",
+              "https://it.indeed.com/viewjob?jk=a590ce57185c15ec",
+              "https://it.indeed.com/viewjob?jk=06684473886b3864",
+              "https://it.indeed.com/viewjob?jk=013472222e6deac0"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Gi Group / Grafton Office",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.gigroup.it/offerte-lavoro-dettaglio/firenze-sales-proposals-ito-support-booking-expert/1368491/"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Randstad",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.randstad.com/jobs/impiegato-customer-service_firenze_47368852/",
+              "https://www.randstad.com/jobs/procurement-initiatives-specialist-specialista-iniziative-acquisti_firenze_47405449/",
+              "https://www.randstad.it/offerte-lavoro/sales-specialist-sales-operation_firenze_fc90f805-f6f8-41ed-9a79-ab6a5eb16506/",
+              "https://www.randstad.com/jobs/back-office-commerciale-mfnb_pisa_47414062/",
+              "https://www.randstad.com/jobs/back-office-commerciale-mfnb_arezzo_47367562/"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Indeed / LinkedIn",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.indeed.com/viewjob?jk=c1aa369eca54a8ca"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Adecco",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.adecco.com/it-it/cerca-lavoro/impiegato-a-budget-control-ufficio-vendite-fiesole-firenze/0301-4001",
+              "https://www.adecco.com/it-it/cerca-lavoro/customer-service-specialist-campi-bisenzio-firenze/f1fffcb8-8d5d-4cef-b00a-4391096ce85c",
+              "https://www.adecco.com/it-it/cerca-lavoro/addetto-a-gestione-ordini-ricambi-campi-bisenzio-firenze/0301-4030"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Grafton",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.grafton.com/offerte-lavoro-dettaglio/lavoro-fiesole-firenze-commercial-executive-assistant-fashion-luxury/1364581/"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/member-programme-coordinator-at-the-social-hub-b-corp%E2%84%A2-4458276246",
+              "https://it.linkedin.com/jobs/view/member-experience-coordinator-at-tenuta-toscana-golf-field-club-4461214047"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Marriott Careers",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://careers.marriott.com/it/marketing-communication-coordinator/job/5771318D855673E3F625D6D5BD81AD82__it"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs (annuncio aziendale)",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/tender-specialist-at-gruppo-cooperativo-colser-auroradomus-4468653225",
+              "https://it.linkedin.com/jobs/view/congress-project-manager-at-bcd-meetings-events-4469203934",
+              "https://it.linkedin.com/jobs/view/specialista-addetto-a-ufficio-gare-e-appalti-at-vega-engineering-srl-4475818084",
+              "https://it.linkedin.com/jobs/view/customer-service-specialist-at-giovanni-raspini-4446658719",
+              "https://it.linkedin.com/jobs/view/impiegata-back-office-at-birindelli-co-s-r-l-gruppo-gmg-spa-4449424276"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Randstad (annuncio originale)",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.randstad.com/jobs/service-specialist_firenze_47390191/"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Atempo",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://atempojob.atempospa.it/job/view-job.php?id=16913-addetto-a-front-office-back-office-amministrativo-scandicci&language=it"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs / Cognita Schools",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/eca-coordinator-at-cognita-schools-4468814703"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Archimede / annuncio indicizzato",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.recruit.net/job/addetto-back-office-settore-ambiente-jobs/EDC854D00E0288C9"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs (annuncio MisterTemp; confronto Jooble)",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/impiegato-del-back-office-at-mistertemp-%E2%80%8B-italia-4469886231"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs (annuncio Castelfalfi)",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/back-office-coordinator-landscape-at-castelfalfi-4469188591"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs (annuncio TÜV SÜD; ATS aziendale consultato)",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/addetto-a-al-customer-service-m-f-d-at-t%C3%BCv-s%C3%BCd-4439828227"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs · annuncio Gruppo Brandini",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/impiegato-del-back-office-at-gruppo-brandini-4458737565"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs · annuncio Kering",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/kering-after-sales-and-front-office-support-fixed-term-at-kering-4461042999"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs · annuncio La Marzocco",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/shipping-assistant-at-la-marzocco-4450243054"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs · annuncio Sinerbit",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/impiegato-a-amministrativo-a-%E2%80%93-supporto-cfo-welcome-desk-e-office-management-at-sinerbit-s-r-l-4299229672"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Annuncio Grafton Recruitment su LinkedIn Jobs",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/compliance-documentation-specialist-at-grafton-recruitment-4465998913"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "ABB E-mobility / LinkedIn Jobs",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/spare-parts-business-support-specialist-temporary-at-abb-e-mobility-4445737716",
+              "https://it.linkedin.com/jobs/view/service-warehouse-back-office-specialist-temporary-at-abb-e-mobility-4439163143",
+              "https://it.linkedin.com/jobs/view/team-lead-order-management-europe-at-abb-e-mobility-4462935514"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Qboxmail Careers / Indeed",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.qboxmail.it/lavora-con-noi/"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Solventum / LinkedIn Jobs",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/emea-marketing-assistant-and-event-coordinator-his-at-solventum-4470447418"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Uvet / LinkedIn Jobs",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/project-leader-eventi-pharma-and-m-e-at-uvet-4469427457"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "MADx Careers / Factorial",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://madx.factorialhr.com/job_posting/sales-support-tender-specialist-f-m-x-italy-301551"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "MAW - annuncio originale",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.maw.it/offerte-di-lavoro/si-monteriggioni-196767"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Ali Lavoro - annuncio originale",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://careers.alilavoro.it/job/view-job.php?id=88718-back-office-commerciale-scandicci&language=it"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Lavoropiù / Bakeca / Lavoro.it",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://pistoia.bakeca.it/dettaglio/sales-agenti-promoter-commerciali/addetto-o-addetta-back-office-commerciale-rvgc299528682"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Synergie - annuncio originale",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://synergie.intervieweb.it/app.php?IdAnnuncio=353296&act1=1&back=0&d=&gim=fp&h=&k=11912908b24b381c22aff85bd8a90788&lang=it&module=iframeAnnunci&opmode=guest"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Tenuta Toscana Careers / LinkedIn",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://tenutatoscana.com/careers"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Orienta - annuncio originale",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.orientajob.com/job/view-job.php?id=162370-impiegato-a-commerciale-sesto-fiorentino&language=it"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "ATI Project Careers",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://atiproject.com/careers/posizioni-aperte/?single=tender-manager",
+              "https://atiproject.com/careers/posizioni-aperte/?single=tender-specialist"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Indeed / Betamotor",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.indeed.com/viewjob?jk=527ad72fe41afc8e"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Gi Group",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.gigroup.it/offerte-lavoro-dettaglio/monteroni-darbia-siena-back-office-commerciale/1368611/",
+              "https://www.gigroup.it/offerte-lavoro-dettaglio/monteroni-darbia-siena-back-office-commerciale/1368605/"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Imagicle Careers / Trakstar Hire",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://imagicle.hire.trakstar.com/jobs/fk0zdl7/"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "TerraEvents Careers",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.terraevents.com/work-with-us/business-development-project-event-manager"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Experis",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.experis.it/it/trova-lavoro/ict/specialista-amministrativo-ufficio-gare/1035397"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Gi Group/Grafton",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.grafton.com/offerte-lavoro/back-office-amministrazione-ap/toscana-re/firenze-pr/"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Manpower",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.manpower.it/it/annuncio-lavoro/pubblica-amministrazione/amministrazione/addetto-e-addetta-supporto-amministrativo-gare-e-appalti-firenze/1009097",
+              "https://www.manpower.it/it/annuncio-lavoro/consumer-products/logistica/back-office-commerciale/1043365"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Indeed / Edison",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.indeed.com/viewjob?jk=a526dbf54cae5c0f"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs / Randstad",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/impiegato-ufficio-gare-f-m-nb-at-randstad-italia-4462228124"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Backroads Careers / Workday",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://backroads.wd1.myworkdayjobs.com/en-US/BR/job/Operations-Coordinator--Facility---Fleet-Support---Tuscany-Hub-_JR100897-2"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs / Baker Hughes",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/sales-specialist-proposals-m-f-d-at-baker-hughes-4462851479"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs / Icon Collection",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/mice-groups-wedding-sales-coordinator-at-icon-collection-4441622227"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Expeditors / SmartRecruiters",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://jobs.smartrecruiters.com/expeditors/744000151403569"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "VetPartners Careers / LinkedIn",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.vetpartnersitalia.it/offerte-lavoro-veterinario-firenze-clinica-europa/"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Jobijoba",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.jobijoba.it/annunci-di-lavoro/13/7f39cd88e54c75400af5ff75f1e53893"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Castelfalfi Careers",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.castelfalfi.com/it/capex-tender-cost-control-manager"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs / MAW",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/back-office-commerciale-e-gare-at-maw-4462281447"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs / TK Elevator",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/custome-care-spare-parts-at-tk-elevator-4465769275",
+              "https://it.linkedin.com/jobs/view/back-office-tecnico-amministrativo-at-tk-elevator-4460615736"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs / GM Pack",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/impiegato-a-operations-back-office-%E2%80%93-acquisti-logistica-e-amministrazione-at-gm-pack-4468994603"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs / Grafton Recruitment",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/addett-customer-service-spare-parts-spagnolo-e-inglese-at-grafton-recruitment-4470149554"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs / Smart Skills Center",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/addetto-ufficio-commerciale-at-smart-skills-center-agenzia-per-il-lavoro-srl-4449481234"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs / Yolo Tech Insurance",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/impiegato-commerciale-amministrativo-at-yolo-tech-insurance-4469134641"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "SECO Careers",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.seco.com/company/work-with-us/details/event-trade-shows-specialist",
+              "https://www.seco.com/company/work-with-us/details/marketing-lead-management-specialist"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Akkodis Careers",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.akkodis.com/it-it/lavora-con-noi/jobs/pmo-/2026-34948"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Direzione Lavoro Group",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://careers.direzionelavorogroup.it/job/view-job.php?id=18185-1-addetto-a-back-office-commerciale-campi-bisenzio&language=it"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs / Ali Lavoro",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/impiegato-impiegata-back-office-commerciale-at-ali-lavoro-4472588228"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs / LHH",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/senior-sales-administration-specialist-at-lhh-4472757616"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Staff S.p.A.",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://careers.staff.it/job/view-job.php?id=67312-back-office-commerciale-lucca&language=it"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Openjobmetis",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.openjobmetis.it/it/candidati/offerte-di-lavoro/back-office-commerciale-otiimo-inglese-e-spagnolo-137506",
+              "https://openjobmetis.it/it/candidati/offerte-di-lavoro/impiegatoa-back-office-136302",
+              "https://www.openjobmetis.it/it/candidati/offerte-di-lavoro/impiegataimpiegato-back-office-e-gestione-ordini-137097"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs / Ali Professional",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/impiegato-a-ufficio-gare-at-ali-professional-4471287088"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Ali Lavoro",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://careers.alilavoro.it/job/view-job.php?id=89459-addetto-a-back-office-commerciale-livorno&language=it",
+              "https://careers.alilavoro.it/job/view-job.php?id=89468-back-office-commerciale-italia-m-f-prato&language=it",
+              "https://careers.alilavoro.it/job/view-job.php?id=88138-back-office-commerciale-pistoia&language=it"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Indeed / MENARINI Group",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.indeed.com/viewjob?jk=f66215ba3d07865b"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Burberry Careers (SuccessFactors)",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://burberrycareers.com/job/Florence-Logistic-Admin-Not/1434709600/"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn Jobs (annuncio SECO)",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/project-manager-at-seco-4465032279"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Indeed / PR Industrial",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.indeed.com/viewjob?jk=063365fd16dcf364"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Indeed / TÜV SÜD",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.indeed.com/viewjob?jk=77bfde026bee2895"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn / Valmet",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/customer-service-inside-sales-specialist-at-valmet-4475026814"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn / bioMérieux",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/customer-support-specialist-as-at-biom%C3%A9rieux-4475006447"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "PharmaNutra / Expertini",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://pisa.it.expertini.com/job/international-customer-service-pisa-pharmanutra-spa-636510693949113924/amp/"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "LinkedIn / Made in Bit",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/assistenza-e-formazione-software-gestionale-mexal-at-made-in-bit-4473774101"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "ANAS Careers",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://careers.stradeanas.it/job/Magliano-in-Toscana-Specialist-Amministrazione-ST-Toscana-Tosc/1369212755/"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Orienta / LinkedIn Jobs",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/back-office-commerciale-estero-162969-at-orienta-agenzia-per-il-lavoro-4473628726"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Sammontana / LinkedIn Jobs",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/return-complaints-specialist-at-sammontana-s-p-a-4472707475"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Michael Page",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.michaelpage.it/job-detail/customer-service-wholesale-specialist-firenze/ref/jn-102026-7116670",
+              "https://www.michaelpage.it/job-detail/impiegato-amministrativo-settore-energia/ref/jn-072026-7070173?jaj=solr-similar-jobs&ng-jn=job-detail&ng-src=other-users-applied&trk=public_post_comment-text"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "MAW",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.maw.it/offerte-di-lavoro/fi-calenzano-198762"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Orienta",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://www.orientajob.com/job/view-job.php?id=161564-un-una-addetto-a-back-office-customer-care%C2%A0-pisa&language=it",
+              "https://www.orientajob.com/job/view-job.php?id=161390-impiegato-a-back-office-massarosa&language=it"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Trabajo.org / Studio Bianchi Selezione",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.trabajo.org/offerta-5270-b0ae68af98b0fe1389ba5a273903c58a"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "During (annuncio originale indicizzato)",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://portale.during.it/lavoro-offerta/impiegato-impiegata-commerciale-estero-social-media-pistoia-pt-88113-1-1933649"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          },
+          {
+            "source": "Tenuta Toscana / LinkedIn Jobs",
+            "method": "Lettura diretta di pagina specifica o URL annuncio già registrato",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/member-service-coordinator-at-tenuta-toscana-golf-field-club-4427956417",
+              "https://it.linkedin.com/jobs/view/member-service-coordinator-transportation-at-tenuta-toscana-golf-field-club-4472484995"
+            ],
+            "outcome": "risultati",
+            "checkedAt": "2026-10-09T08:08:39.675+02:00",
+            "coverageLimit": "Verifica puntuale di pagine; non certifica l'enumerazione completa della fonte."
+          }
+        ],
         "searchLog": [
           {
             "source": "Web indexed discovery",
@@ -7920,218 +9014,1859 @@
             "outcome": "risultati",
             "limits": "Ricerca indicizzata; enumerazione diretta non completa",
             "kind": "geography"
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"back office commerciale\" Toscana offerte lavoro \"9 ottobre 2026\"",
+            "kind": "focused-pass",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"sales support\" Firenze Toscana lavoro \"9 ottobre 2026\"",
+            "kind": "focused-pass",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"ufficio gare\" Toscana lavoro ottobre 2026",
+            "kind": "focused-pass",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"order management\" Toscana lavoro ottobre 2026",
+            "kind": "focused-pass",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"customer service B2B\" Toscana lavoro ottobre 2026",
+            "kind": "focused-pass",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"sales operations\" Toscana Italy jobs October 2026",
+            "kind": "focused-pass",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"project coordinator\" Toscana lavoro October 2026",
+            "kind": "focused-pass",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"event coordinator\" Firenze Toscana lavoro ottobre 2026",
+            "kind": "focused-pass",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"inside sales\" Toscana lavoro ottobre 2026",
+            "kind": "focused-pass",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"commercial operations\" remote Italy jobs October 2026",
+            "kind": "focused-pass",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"tender specialist\" remote Italy jobs October 2026",
+            "kind": "focused-pass",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"sales enablement\" remote Italy jobs October 2026",
+            "kind": "focused-pass",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"partner support\" remote Italy jobs October 2026",
+            "kind": "focused-pass",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"PMO\" Toscana offerte lavoro ottobre 2026",
+            "kind": "focused-pass",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"gestione ordini\" Firenze Prato Pistoia lavoro ottobre 2026",
+            "kind": "focused-pass",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"preventivi CRM ERP\" Toscana impiegata commerciale lavoro 2026",
+            "kind": "focused-pass",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"Costruire Srl\" \"Addetto ufficio gare\" Altopascio",
+            "kind": "candidate-verification",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"INDOVINO SRL\" \"UFFICIO GARE IMPRESA COSTRUZIONI\" Pistoia",
+            "kind": "candidate-verification",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"Copeland\" \"Inside Sales Representative - Italy and Mediterranean\" Siena",
+            "kind": "candidate-verification",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"WEMAY SRL\" \"Inside Sales\" Firenze",
+            "kind": "candidate-verification",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "site:indeed.com \"Costruire Srl\" \"Addetto ufficio gare\"",
+            "kind": "domain-restricted",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "site:simplyhired.it \"INDOVINO SRL\" \"UFFICIO GARE IMPRESA COSTRUZIONI\"",
+            "kind": "domain-restricted",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "site:copeland.com \"Inside Sales Representative\" \"Italy and Mediterranean\"",
+            "kind": "domain-restricted",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "site:linkedin.com/jobs \"Inside Sales Representative - Italy and Mediterranean\" Copeland",
+            "kind": "domain-restricted",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"Fabbricadigitale\" \"Tender Specialist\" remote",
+            "kind": "official-fallback",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "site:copeland.com careers \"Inside Sales Representative\" \"Italy and Mediterranean\"",
+            "kind": "official-fallback",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"INDOVINO SRL\" \"UFFICIO GARE IMPRESA COSTRUZIONI\" Pistoia",
+            "kind": "second-pass",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"Costruire Srl\" \"Addetto ufficio gare\" Altopascio",
+            "kind": "second-pass",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "\"Inside Sales Representative - Italy and Mediterranean\" Copeland Siena",
+            "kind": "second-pass",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "Google/Bing indexed vacancy pages",
+            "query": "site:copeland.com/en-us/careers \"Italy and Mediterranean\" \"Inside Sales\"",
+            "kind": "second-pass",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; copertura parziale."
+          },
+          {
+            "source": "SimplyHired",
+            "url": "https://www.simplyhired.it/job/hn25idoAGK3mldhbkJG-8SATIkQVWyZhitJg-YgXNUdOeScU-5HYYQ",
+            "kind": "candidate-open",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "bloccata",
+            "limits": "Pagina specifica dichiara che l'annuncio non è disponibile; offerta esclusa."
+          },
+          {
+            "source": "BeBee",
+            "url": "https://bebee.com/it/jobs/addetto-ufficio-gare-costruire-srl-altopascio-toscana--t7xk-824969435",
+            "kind": "candidate-open",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Pagina specifica letta integralmente; aggregatore, ma annuncio attivo fino al 31/10/2026."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/inside-sales-representative-italy-and-mediterranean-at-copeland-4466272851",
+            "kind": "candidate-open",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Pagina specifica letta integralmente; località dichiarata Italia e ambiente ibrido."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=9f2fecc21daa3a8b",
+            "kind": "existing-open",
+            "checkedAt": "2026-10-09T06:08:39.675Z",
+            "outcome": "risultati",
+            "limits": "Pagina specifica Fabbricadigitale riletta; offerta già presente, non conteggiata come nuova."
+          },
+          {
+            "source": "Gi Group / Grafton Office",
+            "url": "https://www.gigroup.it/offerte-lavoro-dettaglio/firenze-sales-proposals-ito-support-booking-expert/1368491/",
+            "checkedAt": "2026-10-09T06:06:39.077Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "grafton-sales-proposals-ito-20260919"
+          },
+          {
+            "source": "Randstad",
+            "url": "https://www.randstad.com/jobs/impiegato-customer-service_firenze_47368852/",
+            "checkedAt": "2026-10-09T06:06:39.077Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "randstad-customer-service-20260916"
+          },
+          {
+            "source": "Randstad",
+            "url": "https://www.randstad.com/jobs/procurement-initiatives-specialist-specialista-iniziative-acquisti_firenze_47405449/",
+            "checkedAt": "2026-10-09T06:06:39.077Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "randstad-procurement-initiatives-20260916"
+          },
+          {
+            "source": "Randstad",
+            "url": "https://www.randstad.it/offerte-lavoro/sales-specialist-sales-operation_firenze_fc90f805-f6f8-41ed-9a79-ab6a5eb16506/",
+            "checkedAt": "2026-10-09T06:06:39.077Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "randstad-vendor-qualification-tender-20260727"
+          },
+          {
+            "source": "Indeed / LinkedIn",
+            "url": "https://it.indeed.com/viewjob?jk=c1aa369eca54a8ca",
+            "checkedAt": "2026-10-09T06:06:39.077Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "ali-professional-ufficio-gare-arezzo-20260920"
+          },
+          {
+            "source": "Adecco",
+            "url": "https://www.adecco.com/it-it/cerca-lavoro/impiegato-a-budget-control-ufficio-vendite-fiesole-firenze/0301-4001",
+            "checkedAt": "2026-10-09T06:06:39.077Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "adecco-budget-control-ufficio-vendite-20260920"
+          },
+          {
+            "source": "Grafton",
+            "url": "https://it.grafton.com/offerte-lavoro-dettaglio/lavoro-fiesole-firenze-commercial-executive-assistant-fashion-luxury/1364581/",
+            "checkedAt": "2026-10-09T06:06:39.077Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "grafton-commercial-executive-assistant-20260911"
+          },
+          {
+            "source": "LinkedIn",
+            "url": "https://it.linkedin.com/jobs/view/member-programme-coordinator-at-the-social-hub-b-corp%E2%84%A2-4458276246",
+            "checkedAt": "2026-10-09T06:06:39.077Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "social-hub-member-programme-coordinator-20260920"
+          },
+          {
+            "source": "Marriott Careers",
+            "url": "https://careers.marriott.com/it/marketing-communication-coordinator/job/5771318D855673E3F625D6D5BD81AD82__it",
+            "checkedAt": "2026-10-09T06:06:39.077Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "w-hotels-marketing-communication-coordinator-26110809"
+          },
+          {
+            "source": "LinkedIn",
+            "url": "https://it.linkedin.com/jobs/view/member-experience-coordinator-at-tenuta-toscana-golf-field-club-4461214047",
+            "checkedAt": "2026-10-09T06:06:39.077Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "tenuta-toscana-member-experience-coordinator-20260920"
+          },
+          {
+            "source": "LinkedIn Jobs (annuncio aziendale)",
+            "url": "https://it.linkedin.com/jobs/view/tender-specialist-at-gruppo-cooperativo-colser-auroradomus-4468653225",
+            "checkedAt": "2026-10-09T06:06:39.077Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "colser-tender-specialist-4468653225"
+          },
+          {
+            "source": "LinkedIn Jobs (annuncio aziendale)",
+            "url": "https://it.linkedin.com/jobs/view/congress-project-manager-at-bcd-meetings-events-4469203934",
+            "checkedAt": "2026-10-09T06:06:39.077Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "bcd-congress-project-manager-4469203934"
+          },
+          {
+            "source": "Randstad (annuncio originale)",
+            "url": "https://www.randstad.com/jobs/service-specialist_firenze_47390191/",
+            "checkedAt": "2026-10-09T06:06:39.077Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "randstad-service-specialist-47390191"
+          },
+          {
+            "source": "Adecco",
+            "url": "https://www.adecco.com/it-it/cerca-lavoro/customer-service-specialist-campi-bisenzio-firenze/f1fffcb8-8d5d-4cef-b00a-4391096ce85c",
+            "checkedAt": "2026-10-09T06:06:39.077Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "adecco-customer-service-specialist-campi-20260921"
+          },
+          {
+            "source": "Atempo",
+            "url": "https://atempojob.atempospa.it/job/view-job.php?id=16913-addetto-a-front-office-back-office-amministrativo-scandicci&language=it",
+            "checkedAt": "2026-10-09T06:06:39.077Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "atempo-front-back-office-scandicci-16913"
+          },
+          {
+            "source": "LinkedIn Jobs / Cognita Schools",
+            "url": "https://it.linkedin.com/jobs/view/eca-coordinator-at-cognita-schools-4468814703",
+            "checkedAt": "2026-10-09T06:06:39.077Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "cognita-eca-coordinator-4468814703"
+          },
+          {
+            "source": "Archimede / annuncio indicizzato",
+            "url": "https://www.recruit.net/job/addetto-back-office-settore-ambiente-jobs/EDC854D00E0288C9",
+            "checkedAt": "2026-10-09T06:06:40.142Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "archimede-back-office-ambiente-scandicci-20260921"
+          },
+          {
+            "source": "LinkedIn Jobs (annuncio MisterTemp; confronto Jooble)",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-del-back-office-at-mistertemp-%E2%80%8B-italia-4469886231",
+            "checkedAt": "2026-10-09T06:06:40.142Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "mistertemp-back-office-inglese-firenze-4469886231"
+          },
+          {
+            "source": "LinkedIn Jobs (annuncio Castelfalfi)",
+            "url": "https://it.linkedin.com/jobs/view/back-office-coordinator-landscape-at-castelfalfi-4469188591",
+            "checkedAt": "2026-10-09T06:06:40.142Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "castelfalfi-back-office-coordinator-landscape-4469188591"
+          },
+          {
+            "source": "LinkedIn Jobs (annuncio TÜV SÜD; ATS aziendale consultato)",
+            "url": "https://it.linkedin.com/jobs/view/addetto-a-al-customer-service-m-f-d-at-t%C3%BCv-s%C3%BCd-4439828227",
+            "checkedAt": "2026-10-09T06:06:40.142Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "tuvsud-customer-service-tavarnelle-4439828227"
+          },
+          {
+            "source": "LinkedIn Jobs · annuncio Gruppo Brandini",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-del-back-office-at-gruppo-brandini-4458737565",
+            "checkedAt": "2026-10-09T06:06:40.142Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "brandini-back-office-sesto-4458737565"
+          },
+          {
+            "source": "LinkedIn Jobs · annuncio Kering",
+            "url": "https://it.linkedin.com/jobs/view/kering-after-sales-and-front-office-support-fixed-term-at-kering-4461042999",
+            "checkedAt": "2026-10-09T06:06:40.142Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "kering-after-sales-front-office-scandicci-4461042999"
+          },
+          {
+            "source": "LinkedIn Jobs · annuncio La Marzocco",
+            "url": "https://it.linkedin.com/jobs/view/shipping-assistant-at-la-marzocco-4450243054",
+            "checkedAt": "2026-10-09T06:06:40.142Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "lamarzocco-shipping-assistant-scarperia-4450243054"
+          },
+          {
+            "source": "LinkedIn Jobs · annuncio Sinerbit",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-a-amministrativo-a-%E2%80%93-supporto-cfo-welcome-desk-e-office-management-at-sinerbit-s-r-l-4299229672",
+            "checkedAt": "2026-10-09T06:06:40.142Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "sinerbit-office-management-4299229672"
+          },
+          {
+            "source": "Annuncio Grafton Recruitment su LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/compliance-documentation-specialist-at-grafton-recruitment-4465998913",
+            "checkedAt": "2026-10-09T06:06:40.142Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "grafton-compliance-documentation-specialist-fiesole-4465998913"
+          },
+          {
+            "source": "ABB E-mobility / LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/spare-parts-business-support-specialist-temporary-at-abb-e-mobility-4445737716",
+            "checkedAt": "2026-10-09T06:06:40.142Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "abb-spare-parts-business-support-specialist-4445737716"
+          },
+          {
+            "source": "ABB E-mobility / LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/service-warehouse-back-office-specialist-temporary-at-abb-e-mobility-4439163143",
+            "checkedAt": "2026-10-09T06:06:40.142Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "abb-service-warehouse-back-office-specialist-4439163143"
+          },
+          {
+            "source": "Qboxmail Careers / Indeed",
+            "url": "https://www.qboxmail.it/lavora-con-noi/",
+            "checkedAt": "2026-10-09T06:06:40.142Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "qboxmail-sales-specialist-prato-20260923"
+          },
+          {
+            "source": "Solventum / LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/emea-marketing-assistant-and-event-coordinator-his-at-solventum-4470447418",
+            "checkedAt": "2026-10-09T06:06:40.142Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "solventum-emea-marketing-event-coordinator-4470447418"
+          },
+          {
+            "source": "Uvet / LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/project-leader-eventi-pharma-and-m-e-at-uvet-4469427457",
+            "checkedAt": "2026-10-09T06:06:40.142Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "uvet-project-leader-eventi-pharma-4469427457"
+          },
+          {
+            "source": "MADx Careers / Factorial",
+            "url": "https://madx.factorialhr.com/job_posting/sales-support-tender-specialist-f-m-x-italy-301551",
+            "checkedAt": "2026-10-09T06:06:40.142Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "madx-sales-support-tender-specialist-301551"
+          },
+          {
+            "source": "MAW - annuncio originale",
+            "url": "https://www.maw.it/offerte-di-lavoro/si-monteriggioni-196767",
+            "checkedAt": "2026-10-09T06:06:40.142Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "maw-back-office-commerciale-gare-monteriggioni-196767"
+          },
+          {
+            "source": "Ali Lavoro - annuncio originale",
+            "url": "https://careers.alilavoro.it/job/view-job.php?id=88718-back-office-commerciale-scandicci&language=it",
+            "checkedAt": "2026-10-09T06:06:41.135Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "ali-back-office-commerciale-scandicci-88718"
+          },
+          {
+            "source": "Lavoropiù / Bakeca / Lavoro.it",
+            "url": "https://pistoia.bakeca.it/dettaglio/sales-agenti-promoter-commerciali/addetto-o-addetta-back-office-commerciale-rvgc299528682",
+            "checkedAt": "2026-10-09T06:06:41.135Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "lavoropiu-back-office-commerciale-larciano-20260923"
+          },
+          {
+            "source": "Synergie - annuncio originale",
+            "url": "https://synergie.intervieweb.it/app.php?IdAnnuncio=353296&act1=1&back=0&d=&gim=fp&h=&k=11912908b24b381c22aff85bd8a90788&lang=it&module=iframeAnnunci&opmode=guest",
+            "checkedAt": "2026-10-09T06:06:41.135Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "synergie-back-office-monteriggioni-353296"
+          },
+          {
+            "source": "Tenuta Toscana Careers / LinkedIn",
+            "url": "https://tenutatoscana.com/careers",
+            "checkedAt": "2026-10-09T06:06:41.135Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "tenuta-toscana-sales-coordinator-20260920"
+          },
+          {
+            "source": "Orienta - annuncio originale",
+            "url": "https://www.orientajob.com/job/view-job.php?id=162370-impiegato-a-commerciale-sesto-fiorentino&language=it",
+            "checkedAt": "2026-10-09T06:06:41.135Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "orienta-impiegato-commerciale-sesto-fiorentino-162370"
+          },
+          {
+            "source": "ATI Project Careers",
+            "url": "https://atiproject.com/careers/posizioni-aperte/?single=tender-manager",
+            "checkedAt": "2026-10-09T06:06:41.135Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "ati-project-tender-manager-pisa-20260927"
+          },
+          {
+            "source": "ATI Project Careers",
+            "url": "https://atiproject.com/careers/posizioni-aperte/?single=tender-specialist",
+            "checkedAt": "2026-10-09T06:06:41.135Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "ati-project-tender-specialist-pisa-4432966405"
+          },
+          {
+            "source": "Indeed / Betamotor",
+            "url": "https://it.indeed.com/viewjob?jk=527ad72fe41afc8e",
+            "checkedAt": "2026-10-09T06:06:41.135Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "betamotor-addetto-backoffice-commerciale-rignano-527ad72fe41afc8e"
+          },
+          {
+            "source": "Gi Group",
+            "url": "https://www.gigroup.it/offerte-lavoro-dettaglio/monteroni-darbia-siena-back-office-commerciale/1368611/",
+            "checkedAt": "2026-10-09T06:06:41.135Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "gigroup-back-office-commerciale-monteroni-1368611"
+          },
+          {
+            "source": "Imagicle Careers / Trakstar Hire",
+            "url": "https://imagicle.hire.trakstar.com/jobs/fk0zdl7/",
+            "checkedAt": "2026-10-09T06:06:41.135Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "imagicle-sdr-europe-massarosa-fk0zdl7"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=42fc4d0779ad8ca1",
+            "checkedAt": "2026-10-09T06:06:41.135Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "felsina-junior-back-office-estero-42fc4d0779ad8ca1"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=a590ce57185c15ec",
+            "checkedAt": "2026-10-09T06:06:41.135Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "poggio-ai-laghi-commercial-event-manager-a590ce57185c15ec"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/event-assistant-at-lattanzio-kibs-benefit-corporation-4470139426",
+            "checkedAt": "2026-10-09T06:06:41.135Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "lattanzio-kibs-event-assistant-firenze-4470139426"
+          },
+          {
+            "source": "TerraEvents Careers",
+            "url": "https://www.terraevents.com/work-with-us/business-development-project-event-manager",
+            "checkedAt": "2026-10-09T06:06:41.135Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "terraevents-business-development-project-event-manager-firenze"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/tender-buyer-specialist-at-exa-group-4462762678",
+            "checkedAt": "2026-10-09T06:06:41.135Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "exa-group-tender-buyer-specialist-4462762678"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/tecnico-ufficio-gare-senior-at-universo-4469712984",
+            "checkedAt": "2026-10-09T06:06:41.135Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "universo-tecnico-ufficio-gare-senior-4469712984"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/inside-sales-toscana-firenze-at-brt-corriere-espresso-4394694693",
+            "checkedAt": "2026-10-09T06:06:42.591Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "brt-inside-sales-toscana-firenze-4394694693"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/technical-sales-support-at-engie-italia-4450127454",
+            "checkedAt": "2026-10-09T06:06:42.591Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "engie-technical-sales-support-4450127454"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/contract-manager-at-modaxo-4470920413",
+            "checkedAt": "2026-10-09T06:06:42.591Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "modaxo-contract-manager-4470920413"
+          },
+          {
+            "source": "Experis",
+            "url": "https://www.experis.it/it/trova-lavoro/ict/specialista-amministrativo-ufficio-gare/1035397",
+            "checkedAt": "2026-10-09T06:06:42.591Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "experis-specialista-amministrativo-ufficio-gare-1035397"
+          },
+          {
+            "source": "Gi Group/Grafton",
+            "url": "https://it.grafton.com/offerte-lavoro/back-office-amministrazione-ap/toscana-re/firenze-pr/",
+            "checkedAt": "2026-10-09T06:06:42.591Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "grafton-customers-qualifications-specialist-firenze-20260929"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/tender-specialist-junior-at-orologio-2-0-network-4461083042",
+            "checkedAt": "2026-10-09T06:06:42.591Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "orologio-tender-specialist-junior-pontassieve-4461083042"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-a-back-office-commerciale-at-aec-illuminazione-srl-4472707373",
+            "checkedAt": "2026-10-09T06:06:42.591Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "aec-back-office-commerciale-subbiano-4472707373"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/responsabile-ufficio-gare-d-appalto-at-asso-costruzioni-4459296968",
+            "checkedAt": "2026-10-09T06:06:42.591Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "asso-costruzioni-responsabile-ufficio-gare-pisa-4459296968"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-del-back-office-at-etrurialucegas-4452428050",
+            "checkedAt": "2026-10-09T06:06:42.591Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "etrurialucegas-addetto-logistica-back-office-firenze-4452428050"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/program-coordinator-at-breyer-center-for-overseas-studies-bing-overseas-studies-program-stanford-university-4470879155",
+            "checkedAt": "2026-10-09T06:06:42.591Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "stanford-program-coordinator-florence-4470879155"
+          },
+          {
+            "source": "Manpower",
+            "url": "https://www.manpower.it/it/annuncio-lavoro/pubblica-amministrazione/amministrazione/addetto-e-addetta-supporto-amministrativo-gare-e-appalti-firenze/1009097",
+            "checkedAt": "2026-10-09T06:06:42.591Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "manpower-supporto-amministrativo-gare-appalti-firenze-1009097"
+          },
+          {
+            "source": "Indeed / Edison",
+            "url": "https://it.indeed.com/viewjob?jk=a526dbf54cae5c0f",
+            "checkedAt": "2026-10-09T06:06:42.591Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "edison-contract-coordinator-toscana-a526dbf54cae5c0f"
+          },
+          {
+            "source": "LinkedIn Jobs / Randstad",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-ufficio-gare-f-m-nb-at-randstad-italia-4462228124",
+            "checkedAt": "2026-10-09T06:06:42.591Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "randstad-impiegato-ufficio-gare-firenze-4462228124"
+          },
+          {
+            "source": "Backroads Careers / Workday",
+            "url": "https://backroads.wd1.myworkdayjobs.com/en-US/BR/job/Operations-Coordinator--Facility---Fleet-Support---Tuscany-Hub-_JR100897-2",
+            "checkedAt": "2026-10-09T06:06:42.591Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "backroads-operations-coordinator-tuscany-hub-jr100897"
+          },
+          {
+            "source": "LinkedIn Jobs / Baker Hughes",
+            "url": "https://it.linkedin.com/jobs/view/sales-specialist-proposals-m-f-d-at-baker-hughes-4462851479",
+            "checkedAt": "2026-10-09T06:06:42.591Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "baker-hughes-sales-specialist-proposals-4462851479"
+          },
+          {
+            "source": "LinkedIn Jobs / Icon Collection",
+            "url": "https://it.linkedin.com/jobs/view/mice-groups-wedding-sales-coordinator-at-icon-collection-4441622227",
+            "checkedAt": "2026-10-09T06:06:42.591Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "icon-collection-mice-groups-wedding-sales-coordinator-4441622227"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/event-coordinator-specialist-at-ingenium-made-in-italy-innovation-platform-4467209845",
+            "checkedAt": "2026-10-09T06:06:43.779Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "ingenium-event-coordinator-specialist-4467209845"
+          },
+          {
+            "source": "Expeditors / SmartRecruiters",
+            "url": "https://jobs.smartrecruiters.com/expeditors/744000151403569",
+            "checkedAt": "2026-10-09T06:06:43.779Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "expeditors-order-management-sesto-744000151403569"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/event-transportation-coordinator-at-road-trippin-%E2%80%8B-italy-4472180177",
+            "checkedAt": "2026-10-09T06:06:43.779Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "roadtrippin-event-transportation-coordinator-4472180177"
+          },
+          {
+            "source": "VetPartners Careers / LinkedIn",
+            "url": "https://www.vetpartnersitalia.it/offerte-lavoro-veterinario-firenze-clinica-europa/",
+            "checkedAt": "2026-10-09T06:06:43.779Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "vetpartners-front-office-firenze-4466351538"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-per-ufficio-gare-e-appalti-at-consiag-servizi-comuni-srl-4473215687",
+            "checkedAt": "2026-10-09T06:06:43.779Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "consiag-servizi-comuni-ufficio-gare-appalti-4473215687"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=06684473886b3864",
+            "checkedAt": "2026-10-09T06:06:43.779Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "ekonore-impiegato-ufficio-gare-06684473886b3864"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=013472222e6deac0",
+            "checkedAt": "2026-10-09T06:06:43.779Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "zainetto-verde-addetto-ufficio-gare-013472222e6deac0"
+          },
+          {
+            "source": "Jobijoba",
+            "url": "https://www.jobijoba.it/annunci-di-lavoro/13/7f39cd88e54c75400af5ff75f1e53893",
+            "checkedAt": "2026-10-09T06:06:43.779Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "siemens-energy-sales-support-strategic-projects-arezzo-20261001"
+          },
+          {
+            "source": "Castelfalfi Careers",
+            "url": "https://www.castelfalfi.com/it/capex-tender-cost-control-manager",
+            "checkedAt": "2026-10-09T06:06:43.779Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "castelfalfi-capex-tender-cost-control-manager-20261002"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=cccd8e30c6312019",
+            "checkedAt": "2026-10-09T06:06:43.779Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "stosa-impiegato-back-office-radicofani-20261002"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=3136c5425a64ae4d",
+            "checkedAt": "2026-10-09T06:06:43.779Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "par-group-back-office-verifica-qualita-firenze-20261002"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=5eaaa0ded74c8fea",
+            "checkedAt": "2026-10-09T06:06:43.779Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "world-recycling-back-office-commerciale-lucca-20261002"
+          },
+          {
+            "source": "LinkedIn Jobs / MAW",
+            "url": "https://it.linkedin.com/jobs/view/back-office-commerciale-e-gare-at-maw-4462281447",
+            "checkedAt": "2026-10-09T06:06:43.779Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "maw-back-office-commerciale-gare-monteriggioni-4462281447"
+          },
+          {
+            "source": "LinkedIn Jobs / TK Elevator",
+            "url": "https://it.linkedin.com/jobs/view/custome-care-spare-parts-at-tk-elevator-4465769275",
+            "checkedAt": "2026-10-09T06:06:43.779Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "tk-elevator-customer-care-spare-parts-pisa-4465769275"
+          },
+          {
+            "source": "LinkedIn Jobs / TK Elevator",
+            "url": "https://it.linkedin.com/jobs/view/back-office-tecnico-amministrativo-at-tk-elevator-4460615736",
+            "checkedAt": "2026-10-09T06:06:43.779Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "tk-elevator-back-office-tecnico-amministrativo-pisa-4460615736"
+          },
+          {
+            "source": "LinkedIn Jobs / GM Pack",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-a-operations-back-office-%E2%80%93-acquisti-logistica-e-amministrazione-at-gm-pack-4468994603",
+            "checkedAt": "2026-10-09T06:06:43.779Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "gm-pack-operations-back-office-vinci-4468994603"
+          },
+          {
+            "source": "LinkedIn Jobs / Grafton Recruitment",
+            "url": "https://it.linkedin.com/jobs/view/addett-customer-service-spare-parts-spagnolo-e-inglese-at-grafton-recruitment-4470149554",
+            "checkedAt": "2026-10-09T06:06:44.666Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "grafton-customer-service-spare-parts-uzzano-4470149554"
+          },
+          {
+            "source": "LinkedIn Jobs / Smart Skills Center",
+            "url": "https://it.linkedin.com/jobs/view/addetto-ufficio-commerciale-at-smart-skills-center-agenzia-per-il-lavoro-srl-4449481234",
+            "checkedAt": "2026-10-09T06:06:44.666Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "smart-skills-addetto-ufficio-commerciale-firenze-4449481234"
+          },
+          {
+            "source": "LinkedIn Jobs / Yolo Tech Insurance",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-commerciale-amministrativo-at-yolo-tech-insurance-4469134641",
+            "checkedAt": "2026-10-09T06:06:44.666Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "yolo-tech-insurance-commerciale-amministrativo-lamporecchio-4469134641"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=9f2fecc21daa3a8b",
+            "checkedAt": "2026-10-09T06:06:44.666Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "fabbricadigitale-tender-specialist-20261003"
+          },
+          {
+            "source": "SECO Careers",
+            "url": "https://www.seco.com/company/work-with-us/details/event-trade-shows-specialist",
+            "checkedAt": "2026-10-09T06:06:44.666Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "seco-event-trade-shows-specialist-20261003"
+          },
+          {
+            "source": "Akkodis Careers",
+            "url": "https://www.akkodis.com/it-it/lavora-con-noi/jobs/pmo-/2026-34948",
+            "checkedAt": "2026-10-09T06:06:44.666Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "akkodis-pmo-railway-pistoia-20261003"
+          },
+          {
+            "source": "Randstad",
+            "url": "https://www.randstad.com/jobs/back-office-commerciale-mfnb_pisa_47414062/",
+            "checkedAt": "2026-10-09T06:06:44.666Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "randstad-back-office-commerciale-pisa-47414062"
+          },
+          {
+            "source": "Direzione Lavoro Group",
+            "url": "https://careers.direzionelavorogroup.it/job/view-job.php?id=18185-1-addetto-a-back-office-commerciale-campi-bisenzio&language=it",
+            "checkedAt": "2026-10-09T06:06:44.666Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "direzione-lavoro-back-office-campi-bisenzio-18185"
+          },
+          {
+            "source": "LinkedIn Jobs / Ali Lavoro",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-impiegata-back-office-commerciale-at-ali-lavoro-4472588228",
+            "checkedAt": "2026-10-09T06:06:44.666Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "ali-lavoro-back-office-commerciale-pisa-4472588228"
+          },
+          {
+            "source": "Manpower",
+            "url": "https://www.manpower.it/it/annuncio-lavoro/consumer-products/logistica/back-office-commerciale/1043365",
+            "checkedAt": "2026-10-09T06:06:44.666Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "manpower-back-office-commerciale-siena-1043365"
+          },
+          {
+            "source": "LinkedIn Jobs / LHH",
+            "url": "https://it.linkedin.com/jobs/view/senior-sales-administration-specialist-at-lhh-4472757616",
+            "checkedAt": "2026-10-09T06:06:44.666Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "lhh-senior-sales-administration-lucca-4472757616"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/order-management-om-agent-specialista-gestione-ordini-spedizioni-internazionali-sesto-fiorentino-at-expeditors-4469326260",
+            "checkedAt": "2026-10-09T06:06:44.666Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "expeditors-order-management-sesto-fiorentino-4469326260"
+          },
+          {
+            "source": "Staff S.p.A.",
+            "url": "https://careers.staff.it/job/view-job.php?id=67312-back-office-commerciale-lucca&language=it",
+            "checkedAt": "2026-10-09T06:06:44.666Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "staff-back-office-commerciale-lucca-67312"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=0c37dd1163b17d08",
+            "checkedAt": "2026-10-09T06:06:44.666Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "villa-fasola-back-office-spedizioni-firenze-0c37dd1163b17d08"
+          },
+          {
+            "source": "Openjobmetis",
+            "url": "https://www.openjobmetis.it/it/candidati/offerte-di-lavoro/back-office-commerciale-otiimo-inglese-e-spagnolo-137506",
+            "checkedAt": "2026-10-09T06:06:44.666Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "openjobmetis-back-office-commerciale-prato-137506"
+          },
+          {
+            "source": "Openjobmetis",
+            "url": "https://openjobmetis.it/it/candidati/offerte-di-lavoro/impiegatoa-back-office-136302",
+            "checkedAt": "2026-10-09T06:06:44.666Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "openjobmetis-back-office-scandicci-136302"
+          },
+          {
+            "source": "Openjobmetis",
+            "url": "https://www.openjobmetis.it/it/candidati/offerte-di-lavoro/impiegataimpiegato-back-office-e-gestione-ordini-137097",
+            "checkedAt": "2026-10-09T06:06:45.889Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "openjobmetis-commerciale-logistica-rignano-137097"
+          },
+          {
+            "source": "SECO Careers",
+            "url": "https://www.seco.com/company/work-with-us/details/marketing-lead-management-specialist",
+            "checkedAt": "2026-10-09T06:06:45.889Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "seco-marketing-lead-management-20261003"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/sales-back-office-sostituzione-maternit%C3%A0-at-techniconsult-group-4473765228",
+            "checkedAt": "2026-10-09T06:06:45.889Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "techniconsult-sales-back-office-firenze-4473765228"
+          },
+          {
+            "source": "Gi Group",
+            "url": "https://www.gigroup.it/offerte-lavoro-dettaglio/monteroni-darbia-siena-back-office-commerciale/1368605/",
+            "checkedAt": "2026-10-09T06:06:45.889Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "gigroup-back-office-commerciale-monteroni-1368605"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/back-office-operativo-at-cacciatori-di-talenti-4467776163",
+            "checkedAt": "2026-10-09T06:06:45.889Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "cacciatori-talenti-back-office-operativo-cecina-4467776163"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/back-office-commerciale-at-luce-di-carrara-4464451710",
+            "checkedAt": "2026-10-09T06:06:45.889Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "luce-carrara-back-office-commerciale-4464451710"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/order-management-contracts-lead-9-months-contract-at-rotork-4471334899",
+            "checkedAt": "2026-10-09T06:06:45.889Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "rotork-order-management-contracts-lead-4471334899"
+          },
+          {
+            "source": "LinkedIn Jobs / Ali Professional",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-a-ufficio-gare-at-ali-professional-4471287088",
+            "checkedAt": "2026-10-09T06:06:45.889Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "ali-professional-ufficio-gare-arezzo-4471287088"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/responsabile-ufficio-gare-d-appalto-4459296968",
+            "checkedAt": "2026-10-09T06:06:45.889Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "asso-costruzioni-responsabile-gare-pisa-4459296968"
+          },
+          {
+            "source": "Ali Lavoro",
+            "url": "https://careers.alilavoro.it/job/view-job.php?id=89459-addetto-a-back-office-commerciale-livorno&language=it",
+            "checkedAt": "2026-10-09T06:06:45.889Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "ali-back-office-commerciale-livorno-89459"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=6f86d7404a6b16d6",
+            "checkedAt": "2026-10-09T06:06:45.889Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "engie-technical-sales-support-sesto-fiorentino-6f86d7404a6b16d6"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=a6346e6341006c2f",
+            "checkedAt": "2026-10-09T06:06:45.889Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "link-mobility-sales-support-stage-arezzo-a6346e6341006c2f"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=91e4efe70ca57dc4",
+            "checkedAt": "2026-10-09T06:06:45.889Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "social-hub-meeting-events-intern-firenze-91e4efe70ca57dc4"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=66f1e6fcefb1de81",
+            "checkedAt": "2026-10-09T06:06:45.889Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "lifeenergy-order-management-grosseto-66f1e6fcefb1de81"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=d2a0612f76ac3e42",
+            "checkedAt": "2026-10-09T06:06:45.889Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "montblanc-material-purchaser-scandicci-d2a0612f76ac3e42"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=d4ffb00492d8c391",
+            "checkedAt": "2026-10-09T06:06:45.889Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "andritz-customer-care-sales-engineer-lucca-d4ffb00492d8c391"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=97e07e22b529aeb6",
+            "checkedAt": "2026-10-09T06:06:47.187Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "start-attractor-junior-business-developer-pisa-97e07e22b529aeb6"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=3e01b9c5739c3d6c",
+            "checkedAt": "2026-10-09T06:06:47.187Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "pramac-junior-engineering-project-manager-siena-3e01b9c5739c3d6c"
+          },
+          {
+            "source": "Indeed / MENARINI Group",
+            "url": "https://it.indeed.com/viewjob?jk=f66215ba3d07865b",
+            "checkedAt": "2026-10-09T06:06:47.187Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "menarini-grant-associate-firenze-f66215ba3d07865b"
+          },
+          {
+            "source": "Burberry Careers (SuccessFactors)",
+            "url": "https://burberrycareers.com/job/Florence-Logistic-Admin-Not/1434709600/",
+            "checkedAt": "2026-10-09T06:06:47.187Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "burberry-logistic-admin-scandicci-1434709600"
+          },
+          {
+            "source": "LinkedIn Jobs (annuncio SECO)",
+            "url": "https://it.linkedin.com/jobs/view/project-manager-at-seco-4465032279",
+            "checkedAt": "2026-10-09T06:06:47.187Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "seco-project-manager-arezzo-4465032279"
+          },
+          {
+            "source": "Indeed / PR Industrial",
+            "url": "https://it.indeed.com/viewjob?jk=063365fd16dcf364",
+            "checkedAt": "2026-10-09T06:06:47.187Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "pramac-service-parts-jr-product-manager-siena-063365fd16dcf364"
+          },
+          {
+            "source": "Randstad",
+            "url": "https://www.randstad.com/jobs/back-office-commerciale-mfnb_arezzo_47367562/",
+            "checkedAt": "2026-10-09T06:06:47.187Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "randstad-back-office-commerciale-arezzo-47367562"
+          },
+          {
+            "source": "Randstad",
+            "url": "https://www.randstad.com/jobs/back-office-commerciale-estero-fmnb_sansepolcro_47492862/",
+            "checkedAt": "2026-10-09T06:06:47.187Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "randstad-back-office-commerciale-estero-sansepolcro-47492862"
+          },
+          {
+            "source": "ABB E-mobility / LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/team-lead-order-management-europe-at-abb-e-mobility-4462935514",
+            "checkedAt": "2026-10-09T06:06:47.187Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "abb-e-mobility-team-lead-order-management-europe-4462935514"
+          },
+          {
+            "source": "Ali Lavoro",
+            "url": "https://careers.alilavoro.it/job/view-job.php?id=89468-back-office-commerciale-italia-m-f-prato&language=it",
+            "checkedAt": "2026-10-09T06:06:47.187Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "ali-back-office-commerciale-italia-campi-bisenzio-89468"
+          },
+          {
+            "source": "Adecco",
+            "url": "https://www.adecco.com/it-it/cerca-lavoro/addetto-a-gestione-ordini-ricambi-campi-bisenzio-firenze/0301-4030",
+            "checkedAt": "2026-10-09T06:06:47.187Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "adecco-gestione-ordini-ricambi-campi-bisenzio-0301-4030"
+          },
+          {
+            "source": "Ali Lavoro",
+            "url": "https://careers.alilavoro.it/job/view-job.php?id=88138-back-office-commerciale-pistoia&language=it",
+            "checkedAt": "2026-10-09T06:06:47.187Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "ali-back-office-commerciale-pistoia-88138"
+          },
+          {
+            "source": "Indeed / TÜV SÜD",
+            "url": "https://it.indeed.com/viewjob?jk=77bfde026bee2895",
+            "checkedAt": "2026-10-09T06:06:47.187Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "tuv-sud-customer-service-tavarnelle-77bfde026bee2895"
+          },
+          {
+            "source": "LinkedIn / Valmet",
+            "url": "https://it.linkedin.com/jobs/view/customer-service-inside-sales-specialist-at-valmet-4475026814",
+            "checkedAt": "2026-10-09T06:06:47.187Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "valmet-customer-service-inside-sales-lucca-4475026814"
+          },
+          {
+            "source": "LinkedIn / bioMérieux",
+            "url": "https://it.linkedin.com/jobs/view/customer-support-specialist-as-at-biom%C3%A9rieux-4475006447",
+            "checkedAt": "2026-10-09T06:06:47.187Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "biomerieux-customer-support-specialist-firenze-4475006447"
+          },
+          {
+            "source": "PharmaNutra / Expertini",
+            "url": "https://pisa.it.expertini.com/job/international-customer-service-pisa-pharmanutra-spa-636510693949113924/amp/",
+            "checkedAt": "2026-10-09T06:06:47.187Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "pharmanutra-international-customer-service-pisa-20261002"
+          },
+          {
+            "source": "LinkedIn / Made in Bit",
+            "url": "https://it.linkedin.com/jobs/view/assistenza-e-formazione-software-gestionale-mexal-at-made-in-bit-4473774101",
+            "checkedAt": "2026-10-09T06:06:48.259Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "made-in-bit-assistenza-formazione-mexal-4473774101"
+          },
+          {
+            "source": "ANAS Careers",
+            "url": "https://careers.stradeanas.it/job/Magliano-in-Toscana-Specialist-Amministrazione-ST-Toscana-Tosc/1369212755/",
+            "checkedAt": "2026-10-09T06:06:48.259Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "anas-specialist-amministrazione-st-toscana-1369212755"
+          },
+          {
+            "source": "Orienta / LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/back-office-commerciale-estero-162969-at-orienta-agenzia-per-il-lavoro-4473628726",
+            "checkedAt": "2026-10-09T06:06:48.259Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "orienta-back-office-commerciale-estero-bagno-ripoli-4473628726"
+          },
+          {
+            "source": "Sammontana / LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/return-complaints-specialist-at-sammontana-s-p-a-4472707475",
+            "checkedAt": "2026-10-09T06:06:48.259Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "sammontana-return-complaints-specialist-montelupo-4472707475"
+          },
+          {
+            "source": "Michael Page",
+            "url": "https://www.michaelpage.it/job-detail/customer-service-wholesale-specialist-firenze/ref/jn-102026-7116670",
+            "checkedAt": "2026-10-09T06:06:48.259Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "michael-page-customer-service-wholesale-firenze-7116670"
+          },
+          {
+            "source": "MAW",
+            "url": "https://www.maw.it/offerte-di-lavoro/fi-calenzano-198762",
+            "checkedAt": "2026-10-09T06:06:48.259Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "maw-amministrazione-acquisti-back-office-calenzano-198762"
+          },
+          {
+            "source": "LinkedIn Jobs (annuncio aziendale)",
+            "url": "https://it.linkedin.com/jobs/view/specialista-addetto-a-ufficio-gare-e-appalti-at-vega-engineering-srl-4475818084",
+            "checkedAt": "2026-10-09T06:06:48.259Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "vega-engineering-ufficio-gare-appalti-lucca-4475818084"
+          },
+          {
+            "source": "LinkedIn Jobs (annuncio aziendale)",
+            "url": "https://it.linkedin.com/jobs/view/customer-service-specialist-at-giovanni-raspini-4446658719",
+            "checkedAt": "2026-10-09T06:06:48.259Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "giovanni-raspini-customer-service-specialist-arezzo-4446658719"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/customer-care-specialist%E2%80%93-natale-2026-full-remote-at-twinkly-4476314317",
+            "checkedAt": "2026-10-09T06:06:48.259Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "twinkly-customer-care-natale-full-remote-4476314317"
+          },
+          {
+            "source": "Orienta",
+            "url": "https://www.orientajob.com/job/view-job.php?id=161564-un-una-addetto-a-back-office-customer-care%C2%A0-pisa&language=it",
+            "checkedAt": "2026-10-09T06:06:48.259Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "orienta-back-office-customer-care-pisa-161564"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/addetto-a-segreteria-commerciale-at-finomnia-4435653422",
+            "checkedAt": "2026-10-09T06:06:48.259Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "finomnia-segreteria-commerciale-4435653422"
+          },
+          {
+            "source": "Orienta",
+            "url": "https://www.orientajob.com/job/view-job.php?id=161390-impiegato-a-back-office-massarosa&language=it",
+            "checkedAt": "2026-10-09T06:06:48.259Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "orienta-back-office-massarosa-161390"
+          },
+          {
+            "source": "Michael Page",
+            "url": "https://www.michaelpage.it/job-detail/impiegato-amministrativo-settore-energia/ref/jn-072026-7070173?jaj=solr-similar-jobs&ng-jn=job-detail&ng-src=other-users-applied&trk=public_post_comment-text",
+            "checkedAt": "2026-10-09T06:06:48.259Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "michael-page-impiegato-amministrativo-energia-lucca-7070173"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/customer-care-operations-%E2%80%93-e-commerce-showroom-magazzino-leggero-at-classe-srl-4474057764",
+            "checkedAt": "2026-10-09T06:06:48.259Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "classe-customer-care-operations-empoli-4474057764"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=bfdf6f31ae1c239e",
+            "checkedAt": "2026-10-09T06:06:48.259Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "lifeenergy-segreteria-commerciale-ingrosso-follonica-bfdf6f31"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=c857a6bc04f4aa6f",
+            "checkedAt": "2026-10-09T06:06:48.259Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "lifeenergy-segreteria-commerciale-ordini-grosseto-c857a6bc"
+          },
+          {
+            "source": "Trabajo.org / Studio Bianchi Selezione",
+            "url": "https://it.trabajo.org/offerta-5270-b0ae68af98b0fe1389ba5a273903c58a",
+            "checkedAt": "2026-10-09T06:06:49.499Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "studio-bianchi-inside-ecommerce-sales-castelfiorentino-20261004"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=b0293d29ce4ae7aa",
+            "checkedAt": "2026-10-09T06:06:49.499Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "one-back-office-amministrativo-retail-orbetello-b0293d29"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=137638f47a70cceb",
+            "checkedAt": "2026-10-09T06:06:49.499Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "one-assistente-commerciale-rete-gdo-grosseto-137638f4"
+          },
+          {
+            "source": "During (annuncio originale indicizzato)",
+            "url": "https://portale.during.it/lavoro-offerta/impiegato-impiegata-commerciale-estero-social-media-pistoia-pt-88113-1-1933649",
+            "checkedAt": "2026-10-09T06:06:49.499Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "during-commerciale-estero-social-pistoia-1933649"
+          },
+          {
+            "source": "Tenuta Toscana / LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/member-service-coordinator-at-tenuta-toscana-golf-field-club-4427956417",
+            "checkedAt": "2026-10-09T06:06:49.499Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "tenuta-toscana-member-service-coordinator-4427956417"
+          },
+          {
+            "source": "Tenuta Toscana / LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/member-service-coordinator-transportation-at-tenuta-toscana-golf-field-club-4472484995",
+            "checkedAt": "2026-10-09T06:06:49.499Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "tenuta-toscana-member-service-transportation-4472484995"
+          },
+          {
+            "source": "LinkedIn Jobs (annuncio aziendale)",
+            "url": "https://it.linkedin.com/jobs/view/impiegata-back-office-at-birindelli-co-s-r-l-gruppo-gmg-spa-4449424276",
+            "checkedAt": "2026-10-09T06:06:49.499Z",
+            "outcome": "risultati",
+            "limits": "Rilettura disponibilità URL esistente; non equivale a riesame completo della fonte.",
+            "kind": "existing-recheck",
+            "jobId": "gmg-back-office-commerciale-prato-4449424276"
           }
         ],
         "coverageDiagnostics": {
-          "indeedQueries": 5,
-          "linkedinQueries": 4,
-          "portalQueryCount": 244,
-          "careerPagesOpened": 0,
-          "careerSearchesRun": 180,
+          "indeedQueries": 27,
+          "linkedinQueries": 28,
+          "portalQueryCount": 260,
+          "careerPagesOpened": 154,
+          "careerSearchesRun": 0,
           "atsSearchesRun": 52,
-          "fallbackSearchesRun": 36,
+          "fallbackSearchesRun": 10,
           "sourcesPartiallyCovered": [
-            "Web indexed discovery",
-            "LinkedIn/Indeed indexed discovery",
-            "Indeed",
-            "Randstad",
-            "LinkedIn Jobs",
-            "Monster",
-            "Manpower",
-            "Adecco",
-            "Hays",
-            "Gi Group/Grafton",
-            "Synergie",
-            "Michael Page",
-            "Page Personnel",
-            "Openjobmetis",
-            "Orienta",
-            "Lavoropiù",
-            "Jooble",
-            "Jobrapido",
-            "Careerjet",
-            "Trovolavoro",
-            "Talent.com",
-            "Glassdoor Jobs",
-            "Experis",
-            "Umana",
-            "Bakeca Lavoro",
-            "Helplavoro",
-            "Etjca",
-            "Ali Lavoro",
-            "During",
-            "MAW",
-            "Humangest",
-            "Staff",
-            "Atempo",
+            "ABB E-mobility",
+            "ABB E-mobility / LinkedIn Jobs",
             "ADHR",
+            "ANAS Careers",
+            "ATI Project Careers",
+            "AWS",
+            "Accenture",
+            "Adecco",
             "Adzuna",
-            "Toscana Lavoro/ARTI",
-            "Jobbydoo",
-            "inPA",
-            "Subito Lavoro",
-            "SimplyHired",
-            "CercoLavoro",
-            "Jobijoba",
-            "CVing",
-            "Hunters Group",
-            "IQM",
-            "Wyser",
-            "Profili & Carriere",
-            "High Professional",
-            "Knet",
-            "W Executive",
-            "Jefferson Wells",
-            "LHH",
-            "Jobtech",
-            "e-work",
-            "QuoJobis",
-            "Iziwork",
-            "SAPIENS",
-            "Eurointerim",
-            "Bing indexed vacancy pages",
-            "La Risorsa Umana",
-            "CPL Taylor",
-            "Google indexed vacancy pages",
-            "Avanade",
-            "Engineering",
-            "Reply",
-            "Accenture",
-            "NTT DATA",
-            "DXC Technology",
-            "PwC",
-            "EY",
-            "Capgemini",
-            "Deloitte",
-            "KPMG",
-            "Dedalus",
-            "GPI",
+            "Akkodis Careers",
+            "Ali Lavoro",
+            "Ali Lavoro - annuncio originale",
             "Almaviva",
-            "Lutech",
-            "Var Group",
-            "Esprinet",
-            "TD SYNNEX",
-            "Zucchetti",
-            "TeamSystem",
-            "Lenovo",
-            "Microsoft",
-            "Cisco",
-            "Salesforce",
-            "SAP",
-            "Oracle",
-            "IBM",
-            "Baker Hughes",
+            "Annuncio Grafton Recruitment su LinkedIn Jobs",
+            "Archimede / annuncio indicizzato",
             "Aruba",
-            "Fastweb",
-            "Vodafone",
-            "Siemens",
-            "Ericsson",
-            "Nokia",
-            "TIM",
-            "Palo Alto Networks",
-            "ServiceNow",
-            "Fortinet",
-            "HPE",
-            "Dell Technologies",
-            "AWS",
-            "Google Cloud",
-            "Canonical",
-            "Wolters Kluwer",
-            "Bureau Veritas",
-            "TÜV SÜD",
-            "Ingenium",
-            "RINA",
-            "Castelfalfi",
-            "Sammontana",
-            "Techniconsult Group",
-            "TK Elevator",
-            "Kering",
-            "Valmet",
-            "bioMérieux",
-            "ABB E-mobility",
-            "PharmaNutra",
-            "Thales",
-            "SECO",
-            "Consiag Servizi Comuni",
-            "Greenhouse",
-            "SuccessFactors",
-            "Workday/MyWorkdayJobs",
-            "Taleo",
-            "Lever",
-            "SmartRecruiters",
-            "Recruitee",
-            "iCIMS",
             "Ashby",
-            "Teamtailor",
-            "Workable",
-            "Web geographic search",
-            "Other ATS",
-            "Jobvite"
-          ],
-          "companiesPartiallyCovered": [
+            "Atempo",
             "Avanade",
-            "Engineering",
-            "Reply",
-            "Accenture",
-            "NTT DATA",
-            "DXC Technology",
-            "PwC",
-            "EY",
-            "Capgemini",
-            "Deloitte",
-            "KPMG",
-            "Dedalus",
-            "GPI",
-            "Almaviva",
-            "Lutech",
-            "Var Group",
-            "Esprinet",
-            "TD SYNNEX",
-            "Zucchetti",
-            "TeamSystem",
-            "Lenovo",
-            "Microsoft",
-            "Cisco",
-            "Salesforce",
-            "SAP",
-            "Oracle",
-            "IBM",
+            "Backroads Careers / Workday",
+            "Bakeca Lavoro",
             "Baker Hughes",
-            "Aruba",
-            "Fastweb",
-            "Vodafone",
-            "Siemens",
-            "Ericsson",
-            "Nokia",
-            "TIM",
-            "Palo Alto Networks",
-            "ServiceNow",
-            "Fortinet",
-            "HPE",
-            "Dell Technologies",
-            "AWS",
-            "Google Cloud",
-            "Canonical",
-            "Wolters Kluwer",
+            "BeBee",
+            "Bing indexed vacancy pages",
+            "Burberry Careers (SuccessFactors)",
             "Bureau Veritas",
-            "TÜV SÜD",
-            "Ingenium",
-            "RINA",
+            "CPL Taylor",
+            "CVing",
+            "Canonical",
+            "Capgemini",
+            "Careerjet",
             "Castelfalfi",
-            "Sammontana",
-            "Techniconsult Group",
-            "TK Elevator",
+            "Castelfalfi Careers",
+            "CercoLavoro",
+            "Cisco",
+            "Consiag Servizi Comuni",
+            "DXC Technology",
+            "Dedalus",
+            "Dell Technologies",
+            "Deloitte",
+            "Direzione Lavoro Group",
+            "During",
+            "During (annuncio originale indicizzato)",
+            "EY",
+            "Engineering",
+            "Ericsson",
+            "Esprinet",
+            "Etjca",
+            "Eurointerim",
+            "Expeditors / SmartRecruiters",
+            "Experis",
+            "Fastweb",
+            "Fortinet",
+            "GPI",
+            "Gi Group",
+            "Gi Group / Grafton Office",
+            "Gi Group/Grafton",
+            "Glassdoor Jobs",
+            "Google Cloud",
+            "Google indexed vacancy pages",
+            "Google/Bing indexed vacancy pages",
+            "Grafton",
+            "Greenhouse",
+            "HPE",
+            "Hays",
+            "Helplavoro",
+            "High Professional",
+            "Humangest",
+            "Hunters Group",
+            "IBM",
+            "IQM",
+            "Imagicle Careers / Trakstar Hire",
+            "Indeed",
+            "Indeed / Betamotor",
+            "Indeed / Edison",
+            "Indeed / LinkedIn",
+            "Indeed / MENARINI Group",
+            "Indeed / PR Industrial",
+            "Indeed / TÜV SÜD",
+            "Ingenium",
+            "Iziwork",
+            "Jefferson Wells",
+            "Jobbydoo",
+            "Jobijoba",
+            "Jobrapido",
+            "Jobtech",
+            "Jobvite",
+            "Jooble",
+            "KPMG",
             "Kering",
-            "Valmet",
-            "bioMérieux",
-            "ABB E-mobility",
+            "Knet",
+            "LHH",
+            "La Risorsa Umana",
+            "Lavoropiù",
+            "Lavoropiù / Bakeca / Lavoro.it",
+            "Lenovo",
+            "Lever",
+            "LinkedIn",
+            "LinkedIn / Made in Bit",
+            "LinkedIn / Valmet",
+            "LinkedIn / bioMérieux",
+            "LinkedIn Jobs",
+            "LinkedIn Jobs (annuncio Castelfalfi)",
+            "LinkedIn Jobs (annuncio MisterTemp; confronto Jooble)",
+            "LinkedIn Jobs (annuncio SECO)",
+            "LinkedIn Jobs (annuncio TÜV SÜD; ATS aziendale consultato)",
+            "LinkedIn Jobs (annuncio aziendale)",
+            "LinkedIn Jobs / Ali Lavoro",
+            "LinkedIn Jobs / Ali Professional",
+            "LinkedIn Jobs / Baker Hughes",
+            "LinkedIn Jobs / Cognita Schools",
+            "LinkedIn Jobs / GM Pack",
+            "LinkedIn Jobs / Grafton Recruitment",
+            "LinkedIn Jobs / Icon Collection",
+            "LinkedIn Jobs / LHH",
+            "LinkedIn Jobs / MAW",
+            "LinkedIn Jobs / Randstad",
+            "LinkedIn Jobs / Smart Skills Center",
+            "LinkedIn Jobs / TK Elevator",
+            "LinkedIn Jobs / Yolo Tech Insurance",
+            "LinkedIn Jobs · annuncio Gruppo Brandini",
+            "LinkedIn Jobs · annuncio Kering",
+            "LinkedIn Jobs · annuncio La Marzocco",
+            "LinkedIn Jobs · annuncio Sinerbit",
+            "LinkedIn/Indeed indexed discovery",
+            "Lutech",
+            "MADx Careers / Factorial",
+            "MAW",
+            "MAW - annuncio originale",
+            "Manpower",
+            "Marriott Careers",
+            "Michael Page",
+            "Microsoft",
+            "Monster",
+            "NTT DATA",
+            "Nokia",
+            "Openjobmetis",
+            "Oracle",
+            "Orienta",
+            "Orienta - annuncio originale",
+            "Orienta / LinkedIn Jobs",
+            "Other ATS",
+            "Page Personnel",
+            "Palo Alto Networks",
             "PharmaNutra",
-            "Thales",
+            "PharmaNutra / Expertini",
+            "Profili & Carriere",
+            "PwC",
+            "Qboxmail Careers / Indeed",
+            "QuoJobis",
+            "RINA",
+            "Randstad",
+            "Randstad (annuncio originale)",
+            "Recruitee",
+            "Reply",
+            "SAP",
+            "SAPIENS",
             "SECO",
-            "Consiag Servizi Comuni"
-          ]
+            "SECO Careers",
+            "Salesforce",
+            "Sammontana",
+            "Sammontana / LinkedIn Jobs",
+            "ServiceNow",
+            "Siemens",
+            "SimplyHired",
+            "SmartRecruiters",
+            "Solventum / LinkedIn Jobs",
+            "Staff",
+            "Staff S.p.A.",
+            "Subito Lavoro",
+            "SuccessFactors",
+            "Synergie",
+            "Synergie - annuncio originale",
+            "TD SYNNEX",
+            "TIM",
+            "TK Elevator",
+            "Talent.com",
+            "Taleo",
+            "TeamSystem",
+            "Teamtailor",
+            "Techniconsult Group",
+            "Tenuta Toscana / LinkedIn Jobs",
+            "Tenuta Toscana Careers / LinkedIn",
+            "TerraEvents Careers",
+            "Thales",
+            "Toscana Lavoro/ARTI",
+            "Trabajo.org / Studio Bianchi Selezione",
+            "Trovolavoro",
+            "TÜV SÜD",
+            "Umana",
+            "Uvet / LinkedIn Jobs",
+            "Valmet",
+            "Var Group",
+            "VetPartners Careers / LinkedIn",
+            "Vodafone",
+            "W Executive",
+            "Web geographic search",
+            "Web indexed discovery",
+            "Wolters Kluwer",
+            "Workable",
+            "Workday/MyWorkdayJobs",
+            "Wyser",
+            "Zucchetti",
+            "bioMérieux",
+            "e-work",
+            "iCIMS",
+            "inPA"
+          ],
+          "companiesPartiallyCovered": []
         },
-        "notes": "Checkpoint dopo matrice estesa: 508 controlli documentati. Nessuna fonte è conteggiata come integralmente coperta; prosegue la verifica diretta e il ricontrollo degli annunci."
+        "notes": "Scansione estesa documentata con matrice multi-fonte, aziende, ATS, geografie, passaggi mirati e rilettura degli annunci esistenti. Due nuove offerte verificate e aggiunte. Un risultato INDOVINO SRL è stato escluso perché la pagina specifica risulta non disponibile. Nessuna delle 60 fonti è certificata come enumerata integralmente: requiredSourcesChecked resta 0 e lo stato resta partial. Le ricerche indicizzate sono distinte dalle pagine direttamente lette."
       }
     }
   },
