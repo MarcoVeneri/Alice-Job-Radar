@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T06:04:55.821Z",
+  "generatedAt": "2026-10-10T06:08:41Z",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -3816,6 +3816,84 @@
       "firstSeenRun": "15:00",
       "verifiedAt": "2026-10-09T13:13:30.327Z",
       "verificationUrl": "https://www.michaelpage.it/job-detail/inside-sales-fiere-prato/ref/jn-092026-7104252"
+    },
+    {
+      "date": "Non dichiarato",
+      "id": "lhh-document-controller-1170249",
+      "company": "LHH — cliente energie rinnovabili",
+      "title": "Technical Document Controller",
+      "location": "Full remote dall’Italia; Roma una volta al mese",
+      "workMode": "Full remote con presenza a Roma una volta al mese",
+      "contract": "Non dichiarato",
+      "salary": "RAL 35.000 €; CCNL Commercio livello 3 o 4",
+      "category": "Operations",
+      "score": 8.7,
+      "source": "LHH",
+      "url": "https://www.lhh.com/it-it/cerca-lavoro/technical-document-controller-roma-roma/jn-092026-1170249",
+      "summary": "Gestione di documentazione tecnica, revisioni, registri e flussi tra project manager, fornitori e team. Buona corrispondenza con organizzazione documentale, Excel e scadenze.",
+      "checks": [
+        "Richiesto diploma tecnico oppure laurea tecnica: titolo di Alice da confermare.",
+        "Presenza a Roma una volta al mese esplicitamente dichiarata.",
+        "Esperienza document control preferenziale."
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-10-10T06:06:52.773Z",
+      "firstSeenRun": "08:00",
+      "verifiedAt": "2026-10-10T06:06:52.773Z",
+      "verificationUrl": "https://www.lhh.com/it-it/cerca-lavoro/technical-document-controller-roma-roma/jn-092026-1170249"
+    },
+    {
+      "date": "2026-09-01",
+      "id": "randstad-back-office-campi-47368847",
+      "company": "Randstad — azienda cliente",
+      "title": "Back Office Commerciale",
+      "location": "Campi Bisenzio (FI)",
+      "workMode": "In presenza",
+      "contract": "Somministrazione iniziale a tempo determinato, full time",
+      "salary": "RAL 25.000–30.000 €",
+      "category": "Sales Support",
+      "score": 8.4,
+      "source": "Randstad",
+      "url": "https://www.randstad.com/jobs/back-office-commerciale_campi-bisenzio_47368847/",
+      "summary": "Gestione ordini, preventivi, contratti e assistenza clienti; coordinamento con produzione e logistica, conferme ordine e listini.",
+      "checks": [
+        "Richiesti 2 anni di esperienza e ottimo inglese.",
+        "Brevi visite presso clienti; orario 8–12 e 13–17.",
+        "Scadenza dichiarata: 31 ottobre 2026."
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-10T06:06:52.773Z",
+      "firstSeenRun": "08:00",
+      "verifiedAt": "2026-10-10T06:06:52.773Z",
+      "verificationUrl": "https://www.randstad.com/jobs/back-office-commerciale_campi-bisenzio_47368847/"
+    },
+    {
+      "date": "Non dichiarato",
+      "id": "villa-la-massa-events-4474691366",
+      "company": "Villa La Massa",
+      "title": "Groups & Events Manager",
+      "location": "Bagno a Ripoli (FI)",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo determinato finalizzato a indeterminato; full time",
+      "salary": "RAL 38.000–40.000 € + MBO",
+      "category": "Eventi",
+      "score": 6.8,
+      "source": "LinkedIn Jobs",
+      "url": "https://it.linkedin.com/jobs/view/groups-events-manager-at-villa-la-massa-4474691366",
+      "summary": "Proposte commerciali per gruppi ed eventi, coordinamento operativo, CRM e lead. Possibile transizione verso eventi, subordinata al requisito di esperienza luxury.",
+      "checks": [
+        "Richiesti almeno 3 anni nello stesso ruolo in contesti luxury: requisito non confermato.",
+        "Ottimo italiano e inglese.",
+        "Data assoluta non dichiarata."
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-10T06:06:52.773Z",
+      "firstSeenRun": "08:00",
+      "verifiedAt": "2026-10-10T06:06:52.773Z",
+      "verificationUrl": "https://it.linkedin.com/jobs/view/groups-events-manager-at-villa-la-massa-4474691366"
     }
   ],
   "audit": {
@@ -3823,7 +3901,7 @@
     "runs": {
       "08:00": {
         "scheduledFor": "2026-10-10T08:00:00+02:00",
-        "completedAt": "2026-10-10T06:04:55.821Z",
+        "completedAt": "2026-10-10T06:08:41Z",
         "status": "partial",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 0,
@@ -3832,12 +3910,12 @@
         "extraSourcesChecked": [],
         "companiesChecked": [],
         "atsChecked": [],
-        "queriesRun": 4,
-        "newJobs": 0,
-        "activeJobs": 156,
+        "queriesRun": 252,
+        "newJobs": 3,
+        "activeJobs": 159,
         "layersCompleted": [],
         "secondPassSources": [],
-        "notes": "Checkpoint iniziale: quattro ricerche indicizzate. Verifica pagine e scansione estesa in corso.",
+        "notes": "Checkpoint: ricerca tramite indice su 60 portali; copertura non esaustiva, alcuni risultati irrilevanti/errori temporanei. Verificate tre nuove offerte. Ricontrollo esistenti, aziende e ATS ancora in corso.",
         "searchLog": [
           {
             "source": "Ingenium",
@@ -3870,29 +3948,2167 @@
             "outcome": "risultati",
             "kind": "search",
             "limits": "Discovery indicizzata; non enumerazione completa."
+          },
+          {
+            "source": "Monster",
+            "query": "Monster customer service Pisa Lucca",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:15.213Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "LinkedIn Jobs ufficio gare Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:15.402Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Indeed",
+            "query": "Indeed back office commerciale Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:15.440Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Monster",
+            "query": "Monster ufficio gare Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:15.545Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Manpower",
+            "query": "Manpower back office commerciale Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:15.618Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Adecco",
+            "query": "Adecco ufficio gare Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:15.733Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Hays",
+            "query": "Hays ufficio gare Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:15.908Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Indeed",
+            "query": "Indeed ufficio gare Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:15.989Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Page Personnel",
+            "query": "Page Personnel ufficio gare Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.013Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Randstad",
+            "query": "Randstad customer service Pisa Lucca",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.050Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "LinkedIn Jobs back office commerciale Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.131Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Michael Page",
+            "query": "Michael Page project support remote Italy",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.226Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Michael Page",
+            "query": "Michael Page back office commerciale Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.258Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Monster",
+            "query": "Monster back office commerciale Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.313Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Manpower",
+            "query": "Manpower customer service Pisa Lucca",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.424Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Gi Group Grafton",
+            "query": "Gi Group Grafton ufficio gare Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.490Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "LinkedIn Jobs customer service Pisa Lucca",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.513Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "LinkedIn Jobs project support remote Italy",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.600Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Adecco",
+            "query": "Adecco customer service Pisa Lucca",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.669Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Michael Page",
+            "query": "Michael Page ufficio gare Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.695Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Monster",
+            "query": "Monster project support remote Italy",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.731Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Randstad",
+            "query": "Randstad ufficio gare Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.787Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Randstad",
+            "query": "Randstad back office commerciale Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.802Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Adecco",
+            "query": "Adecco project support remote Italy",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.831Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Gi Group Grafton",
+            "query": "Gi Group Grafton project support remote Italy",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.839Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Gi Group Grafton",
+            "query": "Gi Group Grafton customer service Pisa Lucca",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.874Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Randstad",
+            "query": "Randstad project support remote Italy",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.878Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Michael Page",
+            "query": "Michael Page customer service Pisa Lucca",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.881Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Manpower",
+            "query": "Manpower project support remote Italy",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:16.934Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Indeed",
+            "query": "Indeed customer service Pisa Lucca",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:17.025Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Gi Group Grafton",
+            "query": "Gi Group Grafton back office commerciale Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:17.073Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Hays",
+            "query": "Hays project support remote Italy",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:17.122Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Page Personnel",
+            "query": "Page Personnel project support remote Italy",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:17.154Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Indeed",
+            "query": "Indeed project support remote Italy",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:17.229Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Hays",
+            "query": "Hays back office commerciale Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:17.354Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Manpower",
+            "query": "Manpower ufficio gare Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:17.502Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Hays",
+            "query": "Hays customer service Pisa Lucca",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:17.694Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Adecco",
+            "query": "Adecco back office commerciale Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:17.758Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Page Personnel",
+            "query": "Page Personnel customer service Pisa Lucca",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:17.904Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Page Personnel",
+            "query": "Page Personnel back office commerciale Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:18.198Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Talent.com",
+            "query": "Talent.com customer service Pisa Lucca",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:22.987Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Talent.com",
+            "query": "Talent.com back office commerciale Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:23.180Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Synergie",
+            "query": "Synergie ufficio gare Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:23.267Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Openjobmetis",
+            "query": "Openjobmetis project support remote Italy",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:23.396Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Trovolavoro",
+            "query": "Trovolavoro back office commerciale Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:23.403Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Talent.com",
+            "query": "Talent.com ufficio gare Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:23.411Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jobrapido",
+            "query": "Jobrapido ufficio gare Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:23.425Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Synergie",
+            "query": "Synergie project support remote Italy",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:23.449Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Careerjet",
+            "query": "Careerjet customer service Pisa Lucca",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:23.454Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Synergie",
+            "query": "Synergie back office commerciale Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:23.495Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Trovolavoro",
+            "query": "Trovolavoro customer service Pisa Lucca",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:23.530Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jobrapido",
+            "query": "Jobrapido customer service Pisa Lucca",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:23.587Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Careerjet",
+            "query": "Careerjet ufficio gare Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:23.610Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Lavoropiù",
+            "query": "Lavoropiù back office commerciale Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:23.614Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Lavoropiù",
+            "query": "Lavoropiù customer service Pisa Lucca",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:23.632Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Synergie",
+            "query": "Synergie customer service Pisa Lucca",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:23.743Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jooble",
+            "query": "Jooble project support remote Italy",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:23.908Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jobrapido",
+            "query": "Jobrapido back office commerciale Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:23.937Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jobrapido",
+            "query": "Jobrapido project support remote Italy",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:23.944Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Lavoropiù",
+            "query": "Lavoropiù ufficio gare Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:23.951Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Glassdoor Jobs",
+            "query": "Glassdoor Jobs project support remote Italy",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:24.022Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Careerjet",
+            "query": "Careerjet project support remote Italy",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:24.142Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Trovolavoro",
+            "query": "Trovolavoro ufficio gare Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:24.208Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Orienta",
+            "query": "Orienta customer service Pisa Lucca",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:24.242Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Openjobmetis",
+            "query": "Openjobmetis ufficio gare Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:24.252Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Lavoropiù",
+            "query": "Lavoropiù project support remote Italy",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:24.318Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Glassdoor Jobs",
+            "query": "Glassdoor Jobs back office commerciale Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:24.409Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jooble",
+            "query": "Jooble customer service Pisa Lucca",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:24.416Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Glassdoor Jobs",
+            "query": "Glassdoor Jobs customer service Pisa Lucca",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:24.584Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Orienta",
+            "query": "Orienta project support remote Italy",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:24.691Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Openjobmetis",
+            "query": "Openjobmetis customer service Pisa Lucca",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:24.771Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Talent.com",
+            "query": "Talent.com project support remote Italy",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:24.859Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Careerjet",
+            "query": "Careerjet back office commerciale Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:24.868Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Glassdoor Jobs",
+            "query": "Glassdoor Jobs ufficio gare Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:25.034Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Trovolavoro",
+            "query": "Trovolavoro project support remote Italy",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:25.099Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jooble",
+            "query": "Jooble back office commerciale Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:25.312Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jooble",
+            "query": "Jooble ufficio gare Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:25.417Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Openjobmetis",
+            "query": "Openjobmetis back office commerciale Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:25.427Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Orienta",
+            "query": "Orienta back office commerciale Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:25.458Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Orienta",
+            "query": "Orienta ufficio gare Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:26.031Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/q-back-office-commerciale-l-toscana-offerte-lavoro.html",
+            "kind": "open",
+            "checkedAt": "2026-10-10T06:05:40.412Z",
+            "outcome": "risultati",
+            "limits": "Lettura da valutare; enumerazione parziale."
+          },
+          {
+            "source": "Gi Group Grafton",
+            "url": "https://www.gigroup.it/offerte-lavoro/back-office-amministrazione-ap/toscana-re/",
+            "kind": "open",
+            "checkedAt": "2026-10-10T06:05:40.412Z",
+            "outcome": "risultati",
+            "limits": "Lettura da valutare; enumerazione parziale."
+          },
+          {
+            "source": "Ingenium",
+            "url": "https://it.linkedin.com/jobs/view/event-coordinator-specialist-at-ingenium-made-in-italy-innovation-platform-4467209845",
+            "kind": "open",
+            "checkedAt": "2026-10-10T06:05:40.412Z",
+            "outcome": "risultati",
+            "limits": "Lettura da valutare; enumerazione parziale."
+          },
+          {
+            "source": "Michael Page",
+            "url": "https://www.michaelpage.it/jobs/toscana",
+            "kind": "open",
+            "checkedAt": "2026-10-10T06:05:40.412Z",
+            "outcome": "risultati",
+            "limits": "Lettura da valutare; enumerazione parziale."
+          },
+          {
+            "source": "Umana",
+            "query": "site:umana.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:55.434Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "MAW",
+            "query": "site:maw.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:55.599Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "ADHR",
+            "query": "site:adhr.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:55.770Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "MAW",
+            "query": "site:maw.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:55.883Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Ali Lavoro",
+            "query": "site:alilavoro.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:55.899Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Helplavoro",
+            "query": "site:helplavoro.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:55.920Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Experis",
+            "query": "site:experis.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:56.048Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Etjca",
+            "query": "site:etjca.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:56.060Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Bakeca Lavoro",
+            "query": "site:bakeca.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:56.151Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Experis",
+            "query": "site:experis.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:56.240Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Bakeca Lavoro",
+            "query": "site:bakeca.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:56.307Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Experis",
+            "query": "site:experis.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:56.317Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Umana",
+            "query": "site:umana.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:56.411Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "During",
+            "query": "site:during.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:56.564Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Umana",
+            "query": "site:umana.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:56.583Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Bakeca Lavoro",
+            "query": "site:bakeca.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:56.609Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Humangest",
+            "query": "site:humangest.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:56.781Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "ADHR",
+            "query": "site:adhr.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:56.792Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Humangest",
+            "query": "site:humangest.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:56.822Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "During",
+            "query": "site:during.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:56.917Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Umana",
+            "query": "site:umana.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:56.955Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Helplavoro",
+            "query": "site:helplavoro.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:56.967Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Humangest",
+            "query": "site:humangest.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:56.983Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Etjca",
+            "query": "site:etjca.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:56.994Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Ali Lavoro",
+            "query": "site:alilavoro.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:57.005Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Ali Lavoro",
+            "query": "site:alilavoro.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:57.073Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "ADHR",
+            "query": "site:adhr.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:57.086Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "ADHR",
+            "query": "site:adhr.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:57.099Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "MAW",
+            "query": "site:maw.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:57.112Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Helplavoro",
+            "query": "site:helplavoro.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:57.132Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "During",
+            "query": "site:during.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:57.144Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Bakeca Lavoro",
+            "query": "site:bakeca.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:57.157Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Helplavoro",
+            "query": "site:helplavoro.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:57.221Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "During",
+            "query": "site:during.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:57.325Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Experis",
+            "query": "site:experis.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:57.427Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Humangest",
+            "query": "site:humangest.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:57.456Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Etjca",
+            "query": "site:etjca.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:57.615Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "MAW",
+            "query": "site:maw.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:57.778Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Etjca",
+            "query": "site:etjca.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:57.793Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Ali Lavoro",
+            "query": "site:alilavoro.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:05:57.938Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Staff",
+            "query": "site:staff.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:02.176Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jobbydoo",
+            "query": "site:jobbydoo.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:02.317Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Toscana Lavoro ARTI",
+            "query": "site:lavoro.regione.toscana.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:02.439Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Adzuna",
+            "query": "site:adzuna.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:02.590Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "CercoLavoro",
+            "query": "site:cercolavoro.com \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:02.694Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Atempo",
+            "query": "site:atempospa.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:02.705Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "CercoLavoro",
+            "query": "site:cercolavoro.com \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:02.816Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "inPA",
+            "query": "site:inpa.gov.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:02.840Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Adzuna",
+            "query": "site:adzuna.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:02.966Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Subito Lavoro",
+            "query": "site:subito.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:03.076Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Atempo",
+            "query": "site:atempospa.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:03.093Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Adzuna",
+            "query": "site:adzuna.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:03.155Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Subito Lavoro",
+            "query": "site:subito.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:03.175Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "inPA",
+            "query": "site:inpa.gov.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:03.314Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Atempo",
+            "query": "site:atempospa.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:03.332Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "SimplyHired",
+            "query": "site:simplyhired.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:03.361Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jobbydoo",
+            "query": "site:jobbydoo.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:03.494Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jobbydoo",
+            "query": "site:jobbydoo.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:03.535Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "SimplyHired",
+            "query": "site:simplyhired.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:03.633Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jobijoba",
+            "query": "site:jobijoba.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:03.656Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "inPA",
+            "query": "site:inpa.gov.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:03.770Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Staff",
+            "query": "site:staff.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:03.784Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jobbydoo",
+            "query": "site:jobbydoo.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:03.797Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jobijoba",
+            "query": "site:jobijoba.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:03.812Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jobijoba",
+            "query": "site:jobijoba.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:03.858Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Toscana Lavoro ARTI",
+            "query": "site:lavoro.regione.toscana.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:03.892Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "SimplyHired",
+            "query": "site:simplyhired.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:03.906Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Subito Lavoro",
+            "query": "site:subito.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:04.005Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Staff",
+            "query": "site:staff.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:04.025Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Atempo",
+            "query": "site:atempospa.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:04.072Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "CercoLavoro",
+            "query": "site:cercolavoro.com \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:04.095Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "CercoLavoro",
+            "query": "site:cercolavoro.com \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:04.111Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Toscana Lavoro ARTI",
+            "query": "site:lavoro.regione.toscana.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:04.133Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "SimplyHired",
+            "query": "site:simplyhired.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:04.167Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Subito Lavoro",
+            "query": "site:subito.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:04.262Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Adzuna",
+            "query": "site:adzuna.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:04.307Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "inPA",
+            "query": "site:inpa.gov.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:04.350Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Staff",
+            "query": "site:staff.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:04.375Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jobijoba",
+            "query": "site:jobijoba.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:04.399Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Toscana Lavoro ARTI",
+            "query": "site:lavoro.regione.toscana.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:04.645Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Profili & Carriere",
+            "query": "site:profiliecarriere.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:09.592Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "High Professional",
+            "query": "site:highprofessional.com \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:09.729Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "CVing",
+            "query": "site:cving.com \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:09.854Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jefferson Wells",
+            "query": "site:jeffersonwells.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:09.910Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jobtech",
+            "query": "site:jobtech.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:10.045Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "LHH",
+            "query": "site:lhh.com \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:10.131Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Knet",
+            "query": "site:knethr.com \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:10.199Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "e-work",
+            "query": "site:e-workspa.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:10.293Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "W Executive",
+            "query": "site:wexecutive.eu \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:10.390Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Job in Tuscany",
+            "query": "site:jobintuscany.com \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:10.414Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "SAPIENS",
+            "query": "site:sapienslavoro.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:10.451Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "QuoJobis",
+            "query": "site:quojobis.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:10.504Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "High Professional",
+            "query": "site:highprofessional.com \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:10.540Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Job in Tuscany",
+            "query": "site:jobintuscany.com \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:10.693Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "QuoJobis",
+            "query": "site:quojobis.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:10.750Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "QuoJobis",
+            "query": "site:quojobis.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:10.809Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jobtech",
+            "query": "site:jobtech.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:10.929Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "SAPIENS",
+            "query": "site:sapienslavoro.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:10.945Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "LHH",
+            "query": "site:lhh.com \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:10.963Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Eurointerim",
+            "query": "site:eurointerim.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:10.982Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Profili & Carriere",
+            "query": "site:profiliecarriere.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.009Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "IQM",
+            "query": "site:iqmselezione.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.039Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Hunters Group",
+            "query": "site:huntersgroup.com \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.056Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Wyser",
+            "query": "site:wyser-search.com \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.077Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "e-work",
+            "query": "site:e-workspa.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.106Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "CVing",
+            "query": "site:cving.com \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.136Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Profili & Carriere",
+            "query": "site:profiliecarriere.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.156Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Wyser",
+            "query": "site:wyser-search.com \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.175Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Hunters Group",
+            "query": "site:huntersgroup.com \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.194Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Wyser",
+            "query": "site:wyser-search.com \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.216Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "IQM",
+            "query": "site:iqmselezione.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.235Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "SAPIENS",
+            "query": "site:sapienslavoro.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.253Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Wyser",
+            "query": "site:wyser-search.com \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.271Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "InfoJobs",
+            "query": "site:infojobs.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.327Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Iziwork",
+            "query": "site:iziwork.com \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.347Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "InfoJobs",
+            "query": "site:infojobs.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.366Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Knet",
+            "query": "site:knethr.com \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.387Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "SAPIENS",
+            "query": "site:sapienslavoro.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.409Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Iziwork",
+            "query": "site:iziwork.com \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.426Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "LHH",
+            "query": "site:lhh.com \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.443Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "CPL Taylor",
+            "query": "site:cpltaylor.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.460Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Knet",
+            "query": "site:knethr.com \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.480Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Knet",
+            "query": "site:knethr.com \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.496Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "CPL Taylor",
+            "query": "site:cpltaylor.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.514Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "High Professional",
+            "query": "site:highprofessional.com \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.531Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "W Executive",
+            "query": "site:wexecutive.eu \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.553Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "QuoJobis",
+            "query": "site:quojobis.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.571Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jobtech",
+            "query": "site:jobtech.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.588Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "LHH",
+            "query": "site:lhh.com \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.605Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Eurointerim",
+            "query": "site:eurointerim.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.625Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "CVing",
+            "query": "site:cving.com \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.642Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Profili & Carriere",
+            "query": "site:profiliecarriere.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.666Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "IQM",
+            "query": "site:iqmselezione.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.689Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "CPL Taylor",
+            "query": "site:cpltaylor.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.712Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "CPL Taylor",
+            "query": "site:cpltaylor.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.733Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "High Professional",
+            "query": "site:highprofessional.com \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.751Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jefferson Wells",
+            "query": "site:jeffersonwells.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.769Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "W Executive",
+            "query": "site:wexecutive.eu \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.790Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Iziwork",
+            "query": "site:iziwork.com \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.811Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Iziwork",
+            "query": "site:iziwork.com \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.830Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "W Executive",
+            "query": "site:wexecutive.eu \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.847Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Eurointerim",
+            "query": "site:eurointerim.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.870Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jefferson Wells",
+            "query": "site:jeffersonwells.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.888Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "La Risorsa Umana",
+            "query": "site:larisorsaumana.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.906Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Job in Tuscany",
+            "query": "site:jobintuscany.com \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.924Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "La Risorsa Umana",
+            "query": "site:larisorsaumana.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.945Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "CVing",
+            "query": "site:cving.com \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.962Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "InfoJobs",
+            "query": "site:infojobs.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:11.980Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Hunters Group",
+            "query": "site:huntersgroup.com \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:12.000Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Hunters Group",
+            "query": "site:huntersgroup.com \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:12.023Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "e-work",
+            "query": "site:e-workspa.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:12.040Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "La Risorsa Umana",
+            "query": "site:larisorsaumana.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:12.058Z",
+            "outcome": "bloccata",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jobtech",
+            "query": "site:jobtech.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:12.077Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "La Risorsa Umana",
+            "query": "site:larisorsaumana.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:12.102Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Job in Tuscany",
+            "query": "site:jobintuscany.com \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:12.122Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "InfoJobs",
+            "query": "site:infojobs.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:12.140Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Eurointerim",
+            "query": "site:eurointerim.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:12.160Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Jefferson Wells",
+            "query": "site:jeffersonwells.it \"project support\" Italia remoto",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:12.185Z",
+            "outcome": "nessun risultato",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "e-work",
+            "query": "site:e-workspa.it \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:12.205Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "IQM",
+            "query": "site:iqmselezione.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-10T06:06:12.379Z",
+            "outcome": "risultati",
+            "limits": "Riscontri indicizzati; copertura parziale, originali da verificare."
+          },
+          {
+            "source": "Orienta",
+            "kind": "open",
+            "url": "https://www.helplavoro.it/offerta-di-lavoro-a-sesto-fiorentino-cercasi-addetto-a-logistica-e-back-office/6919539.html",
+            "checkedAt": "2026-10-10T06:06:26.803Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL; errori o redirect non provano cessazione."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "kind": "open",
+            "url": "https://it.linkedin.com/jobs/view/groups-events-manager-at-villa-la-massa-4474691366",
+            "checkedAt": "2026-10-10T06:06:26.898Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL; errori o redirect non provano cessazione."
+          },
+          {
+            "source": "LHH",
+            "kind": "open",
+            "url": "https://www.lhh.com/it-it/cerca-lavoro/technical-document-controller-roma-roma/jn-092026-1170249",
+            "checkedAt": "2026-10-10T06:06:26.988Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL; errori o redirect non provano cessazione."
+          },
+          {
+            "source": "Randstad",
+            "kind": "open",
+            "url": "https://www.randstad.com/jobs/back-office-commerciale_campi-bisenzio_47368847/",
+            "checkedAt": "2026-10-10T06:06:27.138Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL; errori o redirect non provano cessazione."
           }
         ],
-        "sourceVerification": [],
-        "sourcesVerified": [],
+        "sourceVerification": [
+          {
+            "source": "LHH",
+            "method": "Lettura annuncio specifico",
+            "evidenceUrls": [
+              "https://www.lhh.com/it-it/cerca-lavoro/technical-document-controller-roma-roma/jn-092026-1170249"
+            ],
+            "outcome": "Annuncio attivo letto; mansioni, sede e requisiti registrati.",
+            "checkedAt": "2026-10-10T06:06:52.776Z",
+            "coverageLimit": "Singola vacancy; enumerazione della fonte incompleta."
+          },
+          {
+            "source": "Randstad",
+            "method": "Lettura annuncio specifico",
+            "evidenceUrls": [
+              "https://www.randstad.com/jobs/back-office-commerciale_campi-bisenzio_47368847/"
+            ],
+            "outcome": "Annuncio attivo letto; mansioni, sede e requisiti registrati.",
+            "checkedAt": "2026-10-10T06:06:52.776Z",
+            "coverageLimit": "Singola vacancy; enumerazione della fonte incompleta."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "method": "Lettura annuncio specifico",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/groups-events-manager-at-villa-la-massa-4474691366"
+            ],
+            "outcome": "Annuncio attivo letto; mansioni, sede e requisiti registrati.",
+            "checkedAt": "2026-10-10T06:06:52.776Z",
+            "coverageLimit": "Singola vacancy; enumerazione della fonte incompleta."
+          },
+          {
+            "source": "Indeed",
+            "method": "Lettura elenco pertinente",
+            "evidenceUrls": [
+              "https://it.indeed.com/q-back-office-commerciale-l-toscana-offerte-lavoro.html"
+            ],
+            "outcome": "Letti risultati back office Toscana; annunci noti e candidati da approfondire.",
+            "checkedAt": "2026-10-10T06:06:52.776Z",
+            "coverageLimit": "Una pagina, copertura incompleta."
+          }
+        ],
+        "sourcesVerified": [
+          "LHH",
+          "Randstad",
+          "LinkedIn Jobs",
+          "Indeed"
+        ],
         "sourcesSearched": [
           "Ingenium",
           "Indeed",
           "Randstad",
-          "Manpower"
+          "Manpower",
+          "Monster",
+          "LinkedIn Jobs",
+          "Adecco",
+          "Hays",
+          "Page Personnel",
+          "Michael Page",
+          "Gi Group Grafton",
+          "Talent.com",
+          "Synergie",
+          "Openjobmetis",
+          "Trovolavoro",
+          "Jobrapido",
+          "Careerjet",
+          "Lavoropiù",
+          "Jooble",
+          "Glassdoor Jobs",
+          "Orienta",
+          "Umana",
+          "MAW",
+          "ADHR",
+          "Ali Lavoro",
+          "Helplavoro",
+          "Experis",
+          "Etjca",
+          "Bakeca Lavoro",
+          "During",
+          "Humangest",
+          "Staff",
+          "Jobbydoo",
+          "Toscana Lavoro ARTI",
+          "Adzuna",
+          "CercoLavoro",
+          "Atempo",
+          "inPA",
+          "Subito Lavoro",
+          "SimplyHired",
+          "Jobijoba",
+          "Profili & Carriere",
+          "High Professional",
+          "CVing",
+          "Jefferson Wells",
+          "Jobtech",
+          "LHH",
+          "Knet",
+          "e-work",
+          "W Executive",
+          "Job in Tuscany",
+          "SAPIENS",
+          "QuoJobis",
+          "Eurointerim",
+          "IQM",
+          "Hunters Group",
+          "Wyser",
+          "InfoJobs",
+          "Iziwork",
+          "CPL Taylor",
+          "La Risorsa Umana"
         ],
         "coverageDiagnostics": {
-          "indeedQueries": 1,
-          "linkedinQueries": 0,
-          "portalQueryCount": 3,
+          "indeedQueries": 5,
+          "linkedinQueries": 4,
+          "portalQueryCount": 243,
           "careerPagesOpened": 0,
           "careerSearchesRun": 1,
           "atsSearchesRun": 0,
-          "fallbackSearchesRun": 0,
+          "fallbackSearchesRun": 244,
           "sourcesPartiallyCovered": [
             "Ingenium",
             "Indeed",
             "Randstad",
-            "Manpower"
+            "Manpower",
+            "Monster",
+            "LinkedIn Jobs",
+            "Adecco",
+            "Hays",
+            "Page Personnel",
+            "Michael Page",
+            "Gi Group Grafton",
+            "Talent.com",
+            "Openjobmetis",
+            "Jobrapido",
+            "Careerjet",
+            "Lavoropiù",
+            "Synergie",
+            "Jooble",
+            "Glassdoor Jobs",
+            "Trovolavoro",
+            "Orienta",
+            "MAW",
+            "ADHR",
+            "Helplavoro",
+            "Experis",
+            "Etjca",
+            "Bakeca Lavoro",
+            "Umana",
+            "During",
+            "Humangest",
+            "Ali Lavoro",
+            "Jobbydoo",
+            "Toscana Lavoro ARTI",
+            "Adzuna",
+            "CercoLavoro",
+            "Atempo",
+            "inPA",
+            "Subito Lavoro",
+            "SimplyHired",
+            "Jobijoba",
+            "Staff",
+            "High Professional",
+            "CVing",
+            "Jefferson Wells",
+            "Jobtech",
+            "LHH",
+            "e-work",
+            "QuoJobis",
+            "Profili & Carriere",
+            "IQM",
+            "Wyser",
+            "Iziwork",
+            "Hunters Group",
+            "La Risorsa Umana",
+            "Eurointerim"
           ],
           "companiesPartiallyCovered": [
             "Ingenium"
