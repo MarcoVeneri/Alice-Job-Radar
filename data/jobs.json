@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T13:05:28.358Z",
+  "generatedAt": "2026-10-10T13:09:48.616Z",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -1012,31 +1012,6 @@
       "firstSeenRun": "15:00"
     },
     {
-      "id": "poggio-ai-laghi-commercial-event-manager-a590ce57185c15ec",
-      "date": "2026-09-26",
-      "company": "Società Agricola Poggio ai Laghi",
-      "title": "Commercial & Event Manager",
-      "location": "Monteriggioni (SI)",
-      "workMode": "In presenza",
-      "contract": "Full time · durata non dichiarata",
-      "salary": "30.000–34.000 €",
-      "category": "Eventi",
-      "score": 7.8,
-      "source": "Indeed",
-      "url": "https://it.indeed.com/viewjob?jk=a590ce57185c15ec",
-      "summary": "Sviluppo di proposte e pacchetti, gestione clienti e partner e coordinamento di eventi privati, corporate e degustazioni, inclusi fornitori e attività operative.",
-      "checks": [
-        "Richiesti 3–4 anni in commerciale, turismo, hospitality o eventi",
-        "Ottimo inglese",
-        "Componente di acquisizione clienti rilevante",
-        "Disponibilità occasionale serale e nei weekend"
-      ],
-      "remote": false,
-      "active": true,
-      "firstSeenAt": "2026-09-28T15:05:08+02:00",
-      "firstSeenRun": "15:00"
-    },
-    {
       "id": "lattanzio-kibs-event-assistant-firenze-4470139426",
       "date": "2026-09-25",
       "company": "Lattanzio KIBS Benefit Corporation",
@@ -1102,30 +1077,6 @@
         "Candidatura per la sede di Arezzo",
         "Richiesti almeno 4 anni in edilizia/general contracting",
         "Richiesto inglese ottimo"
-      ],
-      "remote": false,
-      "active": true,
-      "firstSeenAt": "2026-09-29T08:08:09+02:00",
-      "firstSeenRun": "08:00"
-    },
-    {
-      "id": "universo-tecnico-ufficio-gare-senior-4469712984",
-      "date": "2026-09-26",
-      "company": "Universo / azienda cliente",
-      "title": "Tecnico Ufficio Gare Senior",
-      "location": "Firenze",
-      "workMode": "In presenza",
-      "contract": "Tempo indeterminato · full time",
-      "salary": "Fino a 70.000 €",
-      "category": "Tender",
-      "score": 8.7,
-      "source": "LinkedIn Jobs",
-      "url": "https://it.linkedin.com/jobs/view/tecnico-ufficio-gare-senior-at-universo-4469712984",
-      "summary": "Progettazione e redazione di offerte tecniche per gare pubbliche e private, analisi di capitolati, verifica requisiti, preventivazione e coordinamento con fornitori.",
-      "checks": [
-        "Richiesti almeno 5 anni nella progettazione gare di Soft Facility Management",
-        "Conoscenza del Codice Appalti",
-        "Orario dichiarato 9:00–18:00 dal lunedì al venerdì"
       ],
       "remote": false,
       "active": true,
@@ -1617,31 +1568,6 @@
       "firstSeenRun": "15:00"
     },
     {
-      "id": "consiag-servizi-comuni-ufficio-gare-appalti-4473215687",
-      "date": "2026-09-29",
-      "company": "CONSIAG SERVIZI COMUNI SRL",
-      "title": "Impiegato per ufficio gare e appalti",
-      "location": "Prato",
-      "workMode": "Non dichiarato",
-      "contract": "Tempo indeterminato · full time · 5° livello CCNL Gas Acqua",
-      "salary": "Importo non dichiarato",
-      "category": "Tender",
-      "score": 10,
-      "source": "LinkedIn Jobs",
-      "url": "https://it.linkedin.com/jobs/view/impiegato-per-ufficio-gare-e-appalti-at-consiag-servizi-comuni-srl-4473215687",
-      "summary": "Gestione di procedure di affidamento e appalti pubblici, predisposizione e controllo documentale, adempimenti, scadenze e supporto amministrativo. Profilo molto vicino all’esperienza di Alice; candidatura indicata entro il 18 ottobre 2026.",
-      "checks": [
-        "Annuncio specifico aperto e verificato",
-        "Sede in Toscana",
-        "Tempo indeterminato dichiarato",
-        "Requisito di esperienza negli appalti da verificare sul CV"
-      ],
-      "remote": false,
-      "active": true,
-      "firstSeenAt": "2026-10-01T15:08:25+02:00",
-      "firstSeenRun": "15:00"
-    },
-    {
       "id": "ekonore-impiegato-ufficio-gare-06684473886b3864",
       "date": "2026-09-30",
       "company": "Ekonore srl",
@@ -1854,30 +1780,6 @@
         "Pagina LinkedIn specifica verificata nel run",
         "Tempo indeterminato e RAL 30.000–35.000 € dichiarati",
         "Da valutare: inglese C1 o superiore e una seconda lingua tra francese, tedesco e spagnolo"
-      ],
-      "remote": false,
-      "active": true,
-      "firstSeenAt": "2026-10-02T15:11:46+02:00",
-      "firstSeenRun": "15:00"
-    },
-    {
-      "id": "tk-elevator-back-office-tecnico-amministrativo-pisa-4460615736",
-      "date": "2026-10-02",
-      "company": "TK Elevator",
-      "title": "Back Office Tecnico-Amministrativo",
-      "location": "Pisa",
-      "workMode": "Non dichiarato",
-      "contract": "Tempo indeterminato · full time",
-      "salary": "RAL 25.000–30.000 €",
-      "category": "Operations",
-      "score": 8.6,
-      "source": "LinkedIn Jobs / TK Elevator",
-      "url": "https://it.linkedin.com/jobs/view/back-office-tecnico-amministrativo-at-tk-elevator-4460615736",
-      "summary": "Gestione ordini e documentazione tecnico-amministrativa, rapporti con clienti e fornitori, preparazione documenti commerciali, reportistica e coordinamento delle attività di back office.",
-      "checks": [
-        "Pagina LinkedIn specifica verificata nel run",
-        "Tempo indeterminato e RAL 25.000–30.000 € dichiarati",
-        "Da valutare: diploma tecnico e conoscenza di CAD/AutoCAD richiesti"
       ],
       "remote": false,
       "active": true,
@@ -2431,31 +2333,6 @@
       "firstSeenRun": "15:00"
     },
     {
-      "id": "luce-carrara-back-office-commerciale-4464451710",
-      "date": "2026-10-03",
-      "company": "Luce di Carrara",
-      "title": "Back Office Commerciale",
-      "location": "Seravezza (LU)",
-      "workMode": "Non dichiarato",
-      "contract": "Non dichiarato",
-      "salary": "Non dichiarato",
-      "category": "Sales Support",
-      "score": 9.7,
-      "source": "LinkedIn Jobs",
-      "url": "https://it.linkedin.com/jobs/view/back-office-commerciale-at-luce-di-carrara-4464451710",
-      "summary": "Gestione e inserimento ordini, offerte e proforma, documentazione commerciale, supporto alla rete vendita, spedizioni, consegne e follow-up clienti internazionali.",
-      "checks": [
-        "Sede Seravezza",
-        "Inglese ottimo richiesto",
-        "Seconda lingua preferenziale",
-        "Contratto e RAL non dichiarati"
-      ],
-      "remote": false,
-      "active": true,
-      "firstSeenAt": "2026-10-03T15:11:09+02:00",
-      "firstSeenRun": "15:00"
-    },
-    {
       "id": "rotork-order-management-contracts-lead-4471334899",
       "date": "2026-10-03",
       "company": "Rotork",
@@ -2629,30 +2506,6 @@
       "active": true,
       "firstSeenAt": "2026-10-03T15:11:09+02:00",
       "firstSeenRun": "15:00"
-    },
-    {
-      "id": "lifeenergy-order-management-grosseto-66f1e6fcefb1de81",
-      "date": "2026-10-04",
-      "company": "LifeEnergy",
-      "title": "Addetto/a Order Management Junior",
-      "location": "Grosseto",
-      "workMode": "Non dichiarato",
-      "contract": "Tempo determinato 6 mesi · possibile proroga · full time",
-      "salary": "1.400–1.650 € lordi/mese",
-      "category": "Operations",
-      "score": 7.8,
-      "source": "Indeed",
-      "url": "https://it.indeed.com/viewjob?jk=66f1e6fcefb1de81",
-      "summary": "Inserimento e tracciamento ordini, controllo anagrafiche e disponibilità, monitoraggio scadenze, aggiornamento clienti, DDT e coordinamento con il magazzino.",
-      "checks": [
-        "Ruolo junior rispetto alla seniority di Alice",
-        "Data di pubblicazione non indicata nella pagina",
-        "Modalità di lavoro non dichiarata"
-      ],
-      "remote": false,
-      "active": true,
-      "firstSeenAt": "2026-10-04T08:09:16+02:00",
-      "firstSeenRun": "08:00"
     },
     {
       "id": "montblanc-material-purchaser-scandicci-d2a0612f76ac3e42",
@@ -3297,32 +3150,6 @@
       "verificationUrl": "https://it.linkedin.com/jobs/view/customer-service-specialist-at-giovanni-raspini-4446658719"
     },
     {
-      "id": "twinkly-customer-care-natale-full-remote-4476314317",
-      "date": "2026-10-07",
-      "company": "Twinkly",
-      "title": "Customer Care Specialist – Natale 2026 | Full remote",
-      "location": "Italia (formazione iniziale a Mestrino, PD)",
-      "workMode": "Full remote dopo una giornata di formazione in sede",
-      "contract": "Tempo determinato novembre–dicembre 2026 · full time · possibile proroga",
-      "salary": "Non dichiarato",
-      "category": "Sales Support",
-      "score": 8.3,
-      "source": "LinkedIn Jobs",
-      "url": "https://it.linkedin.com/jobs/view/customer-care-specialist%E2%80%93-natale-2026-full-remote-at-twinkly-4476314317",
-      "summary": "Customer care via Zendesk, assistenza su prodotti, ordini e post-vendita. Lavoro 100% remoto dopo una giornata di formazione in sede con spese coperte.",
-      "checks": [
-        "Contratto stagionale novembre–dicembre 2026",
-        "Turni con alcuni weekend",
-        "Verificare possibilità concreta di proroga"
-      ],
-      "remote": true,
-      "active": true,
-      "firstSeenAt": "2026-10-07T15:24:04+02:00",
-      "firstSeenRun": "15:00",
-      "verifiedAt": "2026-10-07T15:24:04+02:00",
-      "verificationUrl": "https://it.linkedin.com/jobs/view/customer-care-specialist%E2%80%93-natale-2026-full-remote-at-twinkly-4476314317"
-    },
-    {
       "id": "orienta-back-office-customer-care-pisa-161564",
       "date": "2026-09-15",
       "company": "Azienda cliente Orienta",
@@ -3894,6 +3721,31 @@
       "firstSeenRun": "08:00",
       "verifiedAt": "2026-10-10T06:06:52.773Z",
       "verificationUrl": "https://it.linkedin.com/jobs/view/groups-events-manager-at-villa-la-massa-4474691366"
+    },
+    {
+      "id": "ali-sviluppo-commerciale-clienti-pisa-89832",
+      "date": "2026-10-08",
+      "company": "Ali Lavoro / azienda cliente",
+      "title": "Addetto/a Sviluppo Commerciale e Gestione Clienti",
+      "location": "Ospedaletto, Pisa",
+      "workMode": "In sede, con visite clienti e fiere",
+      "contract": "Lavoro temporaneo a scopo assunzione; full time",
+      "salary": "2.000–2.800 € lordi mensili; CCNL Commercio, 3°/4° livello",
+      "category": "Sales Support",
+      "score": 7.3,
+      "source": "Ali Lavoro",
+      "url": "https://careers.alilavoro.it/job/view-job.php?id=89832-addetto-a-sviluppo-commerciale-e-gestione-clienti-pisa&language=it",
+      "summary": "Gestione lead e clienti, back office vendite, offerte e preventivi, monitoraggio trattative. Previste visite commerciali e 4–5 fiere annue.",
+      "checks": [
+        "Componente di acquisizione commerciale e trasferte sul territorio",
+        "RAL annua non dichiarata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-10T13:09:45.148Z",
+      "firstSeenRun": "2026-10-10 15:00",
+      "verifiedAt": "2026-10-10T13:09:45.148Z",
+      "verificationUrl": "https://careers.alilavoro.it/job/view-job.php?id=89832-addetto-a-sviluppo-commerciale-e-gestione-clienti-pisa&language=it"
     }
   ],
   "audit": {
@@ -6117,21 +5969,35 @@
       },
       "15:00": {
         "scheduledFor": "2026-10-10T15:00:00+02:00",
-        "completedAt": "2026-10-10T13:05:28.358Z",
+        "completedAt": "2026-10-10T13:09:48.616Z",
         "status": "partial",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 0,
         "sourcesChecked": [],
-        "sourcesUnavailable": [],
+        "sourcesUnavailable": [
+          "Marriott Careers",
+          "Archimede",
+          "Ali Lavoro - annuncio",
+          "Imagicle Careers",
+          "MAW - annuncio",
+          "Synergie - annuncio",
+          "Staff S.p.A.",
+          "Castelfalfi Careers",
+          "Backroads Careers",
+          "PharmaNutra",
+          "BeBee",
+          "Trabajo.org",
+          "During (annuncio"
+        ],
         "extraSourcesChecked": [],
         "companiesChecked": [],
         "atsChecked": [],
-        "queriesRun": 4,
-        "newJobs": 0,
-        "activeJobs": 159,
+        "queriesRun": 413,
+        "newJobs": 1,
+        "activeJobs": 153,
         "layersCompleted": [],
         "secondPassSources": [],
-        "notes": "Checkpoint iniziale: ricerca in corso, copertura incompleta.",
+        "notes": "Checkpoint intermedio. Ricontrollo dei 159 URL esistenti tentato; 7 chiusure esplicite rimosse. Ricerca tramite indice su 60 portali; copertura non esaustiva. ATS, aziende e ulteriori famiglie in corso.",
         "searchLog": [
           {
             "source": "Indeed",
@@ -6160,34 +6026,3946 @@
             "checkedAt": "2026-10-10T13:05:13.707Z",
             "outcome": "risultati",
             "limits": "Ricerca tramite indice; copertura non esaustiva."
+          },
+          {
+            "source": "Marriott Careers",
+            "url": "https://careers.marriott.com/it/marketing-communication-coordinator/job/5771318D855673E3F625D6D5BD81AD82__it",
+            "kind": "existingOpen",
+            "id": "w-hotels-marketing-communication-coordinator-26110809",
+            "checkedAt": "2026-10-10T13:05:40.152Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-del-back-office-at-mistertemp-%E2%80%8B-italia-4469886231",
+            "kind": "existingOpen",
+            "id": "mistertemp-back-office-inglese-firenze-4469886231",
+            "checkedAt": "2026-10-10T13:05:40.420Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Randstad",
+            "url": "https://www.randstad.com/jobs/procurement-initiatives-specialist-specialista-iniziative-acquisti_firenze_47405449/",
+            "kind": "existingOpen",
+            "id": "randstad-procurement-initiatives-20260916",
+            "checkedAt": "2026-10-10T13:05:40.607Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/addetto-a-al-customer-service-m-f-d-at-t%C3%BCv-s%C3%BCd-4439828227",
+            "kind": "existingOpen",
+            "id": "tuvsud-customer-service-tavarnelle-4439828227",
+            "checkedAt": "2026-10-10T13:05:40.627Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Randstad",
+            "url": "https://www.randstad.com/jobs/impiegato-customer-service_firenze_47368852/",
+            "kind": "existingOpen",
+            "id": "randstad-customer-service-20260916",
+            "checkedAt": "2026-10-10T13:05:40.631Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/member-programme-coordinator-at-the-social-hub-b-corp%E2%84%A2-4458276246",
+            "kind": "existingOpen",
+            "id": "social-hub-member-programme-coordinator-20260920",
+            "checkedAt": "2026-10-10T13:05:40.688Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/back-office-coordinator-landscape-at-castelfalfi-4469188591",
+            "kind": "existingOpen",
+            "id": "castelfalfi-back-office-coordinator-landscape-4469188591",
+            "checkedAt": "2026-10-10T13:05:40.800Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-del-back-office-at-gruppo-brandini-4458737565",
+            "kind": "existingOpen",
+            "id": "brandini-back-office-sesto-4458737565",
+            "checkedAt": "2026-10-10T13:05:40.985Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/kering-after-sales-and-front-office-support-fixed-term-at-kering-4461042999",
+            "kind": "existingOpen",
+            "id": "kering-after-sales-front-office-scandicci-4461042999",
+            "checkedAt": "2026-10-10T13:05:41.168Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/congress-project-manager-at-bcd-meetings-events-4469203934",
+            "kind": "existingOpen",
+            "id": "bcd-congress-project-manager-4469203934",
+            "checkedAt": "2026-10-10T13:05:41.213Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Archimede",
+            "url": "https://www.recruit.net/job/addetto-back-office-settore-ambiente-jobs/EDC854D00E0288C9",
+            "kind": "existingOpen",
+            "id": "archimede-back-office-ambiente-scandicci-20260921",
+            "checkedAt": "2026-10-10T13:05:41.215Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Adecco",
+            "url": "https://www.adecco.com/it-it/cerca-lavoro/impiegato-a-budget-control-ufficio-vendite-fiesole-firenze/0301-4001",
+            "kind": "existingOpen",
+            "id": "adecco-budget-control-ufficio-vendite-20260920",
+            "checkedAt": "2026-10-10T13:05:41.303Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/compliance-documentation-specialist-at-grafton-recruitment-4465998913",
+            "kind": "existingOpen",
+            "id": "grafton-compliance-documentation-specialist-fiesole-4465998913",
+            "checkedAt": "2026-10-10T13:05:41.467Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/project-leader-eventi-pharma-and-m-e-at-uvet-4469427457",
+            "kind": "existingOpen",
+            "id": "uvet-project-leader-eventi-pharma-4469427457",
+            "checkedAt": "2026-10-10T13:05:41.499Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/eca-coordinator-at-cognita-schools-4468814703",
+            "kind": "existingOpen",
+            "id": "cognita-eca-coordinator-4468814703",
+            "checkedAt": "2026-10-10T13:05:41.510Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Randstad (annuncio originale)",
+            "url": "https://www.randstad.com/jobs/service-specialist_firenze_47390191/",
+            "kind": "existingOpen",
+            "id": "randstad-service-specialist-47390191",
+            "checkedAt": "2026-10-10T13:05:41.519Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Adecco",
+            "url": "https://www.adecco.com/it-it/cerca-lavoro/customer-service-specialist-campi-bisenzio-firenze/f1fffcb8-8d5d-4cef-b00a-4391096ce85c",
+            "kind": "existingOpen",
+            "id": "adecco-customer-service-specialist-campi-20260921",
+            "checkedAt": "2026-10-10T13:05:41.573Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/shipping-assistant-at-la-marzocco-4450243054",
+            "kind": "existingOpen",
+            "id": "lamarzocco-shipping-assistant-scarperia-4450243054",
+            "checkedAt": "2026-10-10T13:05:41.588Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/emea-marketing-assistant-and-event-coordinator-his-at-solventum-4470447418",
+            "kind": "existingOpen",
+            "id": "solventum-emea-marketing-event-coordinator-4470447418",
+            "checkedAt": "2026-10-10T13:05:41.704Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Grafton",
+            "url": "https://it.grafton.com/offerte-lavoro-dettaglio/lavoro-fiesole-firenze-commercial-executive-assistant-fashion-luxury/1364581/",
+            "kind": "existingOpen",
+            "id": "grafton-commercial-executive-assistant-20260911",
+            "checkedAt": "2026-10-10T13:05:41.912Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=c1aa369eca54a8ca",
+            "kind": "existingOpen",
+            "id": "ali-professional-ufficio-gare-arezzo-20260920",
+            "checkedAt": "2026-10-10T13:05:42.031Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-a-amministrativo-a-%E2%80%93-supporto-cfo-welcome-desk-e-office-management-at-sinerbit-s-r-l-4299229672",
+            "kind": "existingOpen",
+            "id": "sinerbit-office-management-4299229672",
+            "checkedAt": "2026-10-10T13:05:42.369Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Atempo",
+            "url": "https://atempojob.atempospa.it/job/view-job.php?id=16913-addetto-a-front-office-back-office-amministrativo-scandicci&language=it",
+            "kind": "existingOpen",
+            "id": "atempo-front-back-office-scandicci-16913",
+            "checkedAt": "2026-10-10T13:05:42.373Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Gi Group",
+            "url": "https://www.gigroup.it/offerte-lavoro-dettaglio/firenze-sales-proposals-ito-support-booking-expert/1368491/",
+            "kind": "existingOpen",
+            "id": "grafton-sales-proposals-ito-20260919",
+            "checkedAt": "2026-10-10T13:05:42.481Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/tender-specialist-at-gruppo-cooperativo-colser-auroradomus-4468653225",
+            "kind": "existingOpen",
+            "id": "colser-tender-specialist-4468653225",
+            "checkedAt": "2026-10-10T13:05:42.490Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/service-warehouse-back-office-specialist-temporary-at-abb-e-mobility-4439163143",
+            "kind": "existingOpen",
+            "id": "abb-service-warehouse-back-office-specialist-4439163143",
+            "checkedAt": "2026-10-10T13:05:42.517Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Qboxmail Careers",
+            "url": "https://www.qboxmail.it/lavora-con-noi/",
+            "kind": "existingOpen",
+            "id": "qboxmail-sales-specialist-prato-20260923",
+            "checkedAt": "2026-10-10T13:05:42.781Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/member-experience-coordinator-at-tenuta-toscana-golf-field-club-4461214047",
+            "kind": "existingOpen",
+            "id": "tenuta-toscana-member-experience-coordinator-20260920",
+            "checkedAt": "2026-10-10T13:05:43.034Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Randstad",
+            "url": "https://www.randstad.it/offerte-lavoro/sales-specialist-sales-operation_firenze_fc90f805-f6f8-41ed-9a79-ab6a5eb16506/",
+            "kind": "existingOpen",
+            "id": "randstad-vendor-qualification-tender-20260727",
+            "checkedAt": "2026-10-10T13:05:43.196Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/spare-parts-business-support-specialist-temporary-at-abb-e-mobility-4445737716",
+            "kind": "existingOpen",
+            "id": "abb-spare-parts-business-support-specialist-4445737716",
+            "checkedAt": "2026-10-10T13:05:43.776Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Ali Lavoro - annuncio originale",
+            "url": "https://careers.alilavoro.it/job/view-job.php?id=88718-back-office-commerciale-scandicci&language=it",
+            "kind": "existingOpen",
+            "id": "ali-back-office-commerciale-scandicci-88718",
+            "checkedAt": "2026-10-10T13:05:48.013Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "ATI Project Careers",
+            "url": "https://atiproject.com/careers/posizioni-aperte/?single=tender-manager",
+            "kind": "existingOpen",
+            "id": "ati-project-tender-manager-pisa-20260927",
+            "checkedAt": "2026-10-10T13:05:48.343Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Orienta - annuncio originale",
+            "url": "https://www.orientajob.com/job/view-job.php?id=162370-impiegato-a-commerciale-sesto-fiorentino&language=it",
+            "kind": "existingOpen",
+            "id": "orienta-impiegato-commerciale-sesto-fiorentino-162370",
+            "checkedAt": "2026-10-10T13:05:48.444Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/technical-sales-support-at-engie-italia-4450127454",
+            "kind": "existingOpen",
+            "id": "engie-technical-sales-support-4450127454",
+            "checkedAt": "2026-10-10T13:05:48.528Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=a590ce57185c15ec",
+            "kind": "existingOpen",
+            "id": "poggio-ai-laghi-commercial-event-manager-a590ce57185c15ec",
+            "checkedAt": "2026-10-10T13:05:48.576Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=42fc4d0779ad8ca1",
+            "kind": "existingOpen",
+            "id": "felsina-junior-back-office-estero-42fc4d0779ad8ca1",
+            "checkedAt": "2026-10-10T13:05:48.610Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/contract-manager-at-modaxo-4470920413",
+            "kind": "existingOpen",
+            "id": "modaxo-contract-manager-4470920413",
+            "checkedAt": "2026-10-10T13:05:48.622Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Tenuta Toscana Careers",
+            "url": "https://tenutatoscana.com/careers",
+            "kind": "existingOpen",
+            "id": "tenuta-toscana-sales-coordinator-20260920",
+            "checkedAt": "2026-10-10T13:05:48.737Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Lavoropiù",
+            "url": "https://pistoia.bakeca.it/dettaglio/sales-agenti-promoter-commerciali/addetto-o-addetta-back-office-commerciale-rvgc299528682",
+            "kind": "existingOpen",
+            "id": "lavoropiu-back-office-commerciale-larciano-20260923",
+            "checkedAt": "2026-10-10T13:05:48.852Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Imagicle Careers",
+            "url": "https://imagicle.hire.trakstar.com/jobs/fk0zdl7/",
+            "kind": "existingOpen",
+            "id": "imagicle-sdr-europe-massarosa-fk0zdl7",
+            "checkedAt": "2026-10-10T13:05:48.949Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=527ad72fe41afc8e",
+            "kind": "existingOpen",
+            "id": "betamotor-addetto-backoffice-commerciale-rignano-527ad72fe41afc8e",
+            "checkedAt": "2026-10-10T13:05:49.120Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Gi Group/Grafton",
+            "url": "https://it.grafton.com/offerte-lavoro/back-office-amministrazione-ap/toscana-re/firenze-pr/",
+            "kind": "existingOpen",
+            "id": "grafton-customers-qualifications-specialist-firenze-20260929",
+            "checkedAt": "2026-10-10T13:05:49.145Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "MADx Careers",
+            "url": "https://madx.factorialhr.com/job_posting/sales-support-tender-specialist-f-m-x-italy-301551",
+            "kind": "existingOpen",
+            "id": "madx-sales-support-tender-specialist-301551",
+            "checkedAt": "2026-10-10T13:05:49.157Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "MAW - annuncio originale",
+            "url": "https://www.maw.it/offerte-di-lavoro/si-monteriggioni-196767",
+            "kind": "existingOpen",
+            "id": "maw-back-office-commerciale-gare-monteriggioni-196767",
+            "checkedAt": "2026-10-10T13:05:49.168Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-del-back-office-at-etrurialucegas-4452428050",
+            "kind": "existingOpen",
+            "id": "etrurialucegas-addetto-logistica-back-office-firenze-4452428050",
+            "checkedAt": "2026-10-10T13:05:49.245Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "TerraEvents Careers",
+            "url": "https://www.terraevents.com/work-with-us/business-development-project-event-manager",
+            "kind": "existingOpen",
+            "id": "terraevents-business-development-project-event-manager-firenze",
+            "checkedAt": "2026-10-10T13:05:49.345Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/tender-specialist-junior-at-orologio-2-0-network-4461083042",
+            "kind": "existingOpen",
+            "id": "orologio-tender-specialist-junior-pontassieve-4461083042",
+            "checkedAt": "2026-10-10T13:05:49.400Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/event-assistant-at-lattanzio-kibs-benefit-corporation-4470139426",
+            "kind": "existingOpen",
+            "id": "lattanzio-kibs-event-assistant-firenze-4470139426",
+            "checkedAt": "2026-10-10T13:05:49.614Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=a526dbf54cae5c0f",
+            "kind": "existingOpen",
+            "id": "edison-contract-coordinator-toscana-a526dbf54cae5c0f",
+            "checkedAt": "2026-10-10T13:05:49.800Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/inside-sales-toscana-firenze-at-brt-corriere-espresso-4394694693",
+            "kind": "existingOpen",
+            "id": "brt-inside-sales-toscana-firenze-4394694693",
+            "checkedAt": "2026-10-10T13:05:49.882Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Gi Group",
+            "url": "https://www.gigroup.it/offerte-lavoro-dettaglio/monteroni-darbia-siena-back-office-commerciale/1368611/",
+            "kind": "existingOpen",
+            "id": "gigroup-back-office-commerciale-monteroni-1368611",
+            "checkedAt": "2026-10-10T13:05:49.990Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Synergie - annuncio originale",
+            "url": "https://synergie.intervieweb.it/app.php?IdAnnuncio=353296&act1=1&back=0&d=&gim=fp&h=&k=11912908b24b381c22aff85bd8a90788&lang=it&module=iframeAnnunci&opmode=guest",
+            "kind": "existingOpen",
+            "id": "synergie-back-office-monteriggioni-353296",
+            "checkedAt": "2026-10-10T13:05:49.995Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Experis",
+            "url": "https://www.experis.it/it/trova-lavoro/ict/specialista-amministrativo-ufficio-gare/1035397",
+            "kind": "existingOpen",
+            "id": "experis-specialista-amministrativo-ufficio-gare-1035397",
+            "checkedAt": "2026-10-10T13:05:50.075Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/tender-buyer-specialist-at-exa-group-4462762678",
+            "kind": "existingOpen",
+            "id": "exa-group-tender-buyer-specialist-4462762678",
+            "checkedAt": "2026-10-10T13:05:50.316Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/responsabile-ufficio-gare-d-appalto-at-asso-costruzioni-4459296968",
+            "kind": "existingOpen",
+            "id": "asso-costruzioni-responsabile-ufficio-gare-pisa-4459296968",
+            "checkedAt": "2026-10-10T13:05:50.449Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Manpower",
+            "url": "https://www.manpower.it/it/annuncio-lavoro/pubblica-amministrazione/amministrazione/addetto-e-addetta-supporto-amministrativo-gare-e-appalti-firenze/1009097",
+            "kind": "existingOpen",
+            "id": "manpower-supporto-amministrativo-gare-appalti-firenze-1009097",
+            "checkedAt": "2026-10-10T13:05:50.469Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-a-back-office-commerciale-at-aec-illuminazione-srl-4472707373",
+            "kind": "existingOpen",
+            "id": "aec-back-office-commerciale-subbiano-4472707373",
+            "checkedAt": "2026-10-10T13:05:50.685Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "ATI Project Careers",
+            "url": "https://atiproject.com/careers/posizioni-aperte/?single=tender-specialist",
+            "kind": "existingOpen",
+            "id": "ati-project-tender-specialist-pisa-4432966405",
+            "checkedAt": "2026-10-10T13:05:50.867Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/tecnico-ufficio-gare-senior-at-universo-4469712984",
+            "kind": "existingOpen",
+            "id": "universo-tecnico-ufficio-gare-senior-4469712984",
+            "checkedAt": "2026-10-10T13:05:51.136Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/program-coordinator-at-breyer-center-for-overseas-studies-bing-overseas-studies-program-stanford-university-4470879155",
+            "kind": "existingOpen",
+            "id": "stanford-program-coordinator-florence-4470879155",
+            "checkedAt": "2026-10-10T13:05:51.201Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=9f2fecc21daa3a8b",
+            "kind": "existingOpen",
+            "id": "fabbricadigitale-tender-specialist-20261003",
+            "checkedAt": "2026-10-10T13:05:55.362Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Staff S.p.A.",
+            "url": "https://careers.staff.it/job/view-job.php?id=67312-back-office-commerciale-lucca&language=it",
+            "kind": "existingOpen",
+            "id": "staff-back-office-commerciale-lucca-67312",
+            "checkedAt": "2026-10-10T13:05:55.540Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=0c37dd1163b17d08",
+            "kind": "existingOpen",
+            "id": "villa-fasola-back-office-spedizioni-firenze-0c37dd1163b17d08",
+            "checkedAt": "2026-10-10T13:05:55.650Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/sales-specialist-proposals-m-f-d-at-baker-hughes-4462851479",
+            "kind": "existingOpen",
+            "id": "baker-hughes-sales-specialist-proposals-4462851479",
+            "checkedAt": "2026-10-10T13:05:55.664Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Castelfalfi Careers",
+            "url": "https://www.castelfalfi.com/it/capex-tender-cost-control-manager",
+            "kind": "existingOpen",
+            "id": "castelfalfi-capex-tender-cost-control-manager-20261002",
+            "checkedAt": "2026-10-10T13:05:55.726Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/back-office-tecnico-amministrativo-at-tk-elevator-4460615736",
+            "kind": "existingOpen",
+            "id": "tk-elevator-back-office-tecnico-amministrativo-pisa-4460615736",
+            "checkedAt": "2026-10-10T13:05:55.740Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "VetPartners Careers",
+            "url": "https://www.vetpartnersitalia.it/offerte-lavoro-veterinario-firenze-clinica-europa/",
+            "kind": "existingOpen",
+            "id": "vetpartners-front-office-firenze-4466351538",
+            "checkedAt": "2026-10-10T13:05:55.914Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/addetto-ufficio-commerciale-at-smart-skills-center-agenzia-per-il-lavoro-srl-4449481234",
+            "kind": "existingOpen",
+            "id": "smart-skills-addetto-ufficio-commerciale-firenze-4449481234",
+            "checkedAt": "2026-10-10T13:05:55.926Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=06684473886b3864",
+            "kind": "existingOpen",
+            "id": "ekonore-impiegato-ufficio-gare-06684473886b3864",
+            "checkedAt": "2026-10-10T13:05:55.997Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Manpower",
+            "url": "https://www.manpower.it/it/annuncio-lavoro/consumer-products/logistica/back-office-commerciale/1043365",
+            "kind": "existingOpen",
+            "id": "manpower-back-office-commerciale-siena-1043365",
+            "checkedAt": "2026-10-10T13:05:56.043Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Randstad",
+            "url": "https://www.randstad.com/jobs/back-office-commerciale-mfnb_pisa_47414062/",
+            "kind": "existingOpen",
+            "id": "randstad-back-office-commerciale-pisa-47414062",
+            "checkedAt": "2026-10-10T13:05:56.349Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-a-operations-back-office-%E2%80%93-acquisti-logistica-e-amministrazione-at-gm-pack-4468994603",
+            "kind": "existingOpen",
+            "id": "gm-pack-operations-back-office-vinci-4468994603",
+            "checkedAt": "2026-10-10T13:05:56.404Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Direzione Lavoro Group",
+            "url": "https://careers.direzionelavorogroup.it/job/view-job.php?id=18185-1-addetto-a-back-office-commerciale-campi-bisenzio&language=it",
+            "kind": "existingOpen",
+            "id": "direzione-lavoro-back-office-campi-bisenzio-18185",
+            "checkedAt": "2026-10-10T13:05:56.442Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=013472222e6deac0",
+            "kind": "existingOpen",
+            "id": "zainetto-verde-addetto-ufficio-gare-013472222e6deac0",
+            "checkedAt": "2026-10-10T13:05:56.552Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-commerciale-amministrativo-at-yolo-tech-insurance-4469134641",
+            "kind": "existingOpen",
+            "id": "yolo-tech-insurance-commerciale-amministrativo-lamporecchio-4469134641",
+            "checkedAt": "2026-10-10T13:05:56.647Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Expeditors",
+            "url": "https://jobs.smartrecruiters.com/expeditors/744000151403569",
+            "kind": "existingOpen",
+            "id": "expeditors-order-management-sesto-744000151403569",
+            "checkedAt": "2026-10-10T13:05:56.655Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Backroads Careers",
+            "url": "https://backroads.wd1.myworkdayjobs.com/en-US/BR/job/Operations-Coordinator--Facility---Fleet-Support---Tuscany-Hub-_JR100897-2",
+            "kind": "existingOpen",
+            "id": "backroads-operations-coordinator-tuscany-hub-jr100897",
+            "checkedAt": "2026-10-10T13:05:56.745Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=cccd8e30c6312019",
+            "kind": "existingOpen",
+            "id": "stosa-impiegato-back-office-radicofani-20261002",
+            "checkedAt": "2026-10-10T13:05:56.763Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Openjobmetis",
+            "url": "https://www.openjobmetis.it/it/candidati/offerte-di-lavoro/back-office-commerciale-otiimo-inglese-e-spagnolo-137506",
+            "kind": "existingOpen",
+            "id": "openjobmetis-back-office-commerciale-prato-137506",
+            "checkedAt": "2026-10-10T13:05:56.876Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/mice-groups-wedding-sales-coordinator-at-icon-collection-4441622227",
+            "kind": "existingOpen",
+            "id": "icon-collection-mice-groups-wedding-sales-coordinator-4441622227",
+            "checkedAt": "2026-10-10T13:05:57.048Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=5eaaa0ded74c8fea",
+            "kind": "existingOpen",
+            "id": "world-recycling-back-office-commerciale-lucca-20261002",
+            "checkedAt": "2026-10-10T13:05:57.056Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/event-transportation-coordinator-at-road-trippin-%E2%80%8B-italy-4472180177",
+            "kind": "existingOpen",
+            "id": "roadtrippin-event-transportation-coordinator-4472180177",
+            "checkedAt": "2026-10-10T13:05:57.120Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/addett-customer-service-spare-parts-spagnolo-e-inglese-at-grafton-recruitment-4470149554",
+            "kind": "existingOpen",
+            "id": "grafton-customer-service-spare-parts-uzzano-4470149554",
+            "checkedAt": "2026-10-10T13:05:57.126Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/back-office-commerciale-e-gare-at-maw-4462281447",
+            "kind": "existingOpen",
+            "id": "maw-back-office-commerciale-gare-monteriggioni-4462281447",
+            "checkedAt": "2026-10-10T13:05:57.200Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-ufficio-gare-f-m-nb-at-randstad-italia-4462228124",
+            "kind": "existingOpen",
+            "id": "randstad-impiegato-ufficio-gare-firenze-4462228124",
+            "checkedAt": "2026-10-10T13:05:57.271Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Jobijoba",
+            "url": "https://www.jobijoba.it/annunci-di-lavoro/13/7f39cd88e54c75400af5ff75f1e53893",
+            "kind": "existingOpen",
+            "id": "siemens-energy-sales-support-strategic-projects-arezzo-20261001",
+            "checkedAt": "2026-10-10T13:05:57.283Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-per-ufficio-gare-e-appalti-at-consiag-servizi-comuni-srl-4473215687",
+            "kind": "existingOpen",
+            "id": "consiag-servizi-comuni-ufficio-gare-appalti-4473215687",
+            "checkedAt": "2026-10-10T13:05:57.336Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-impiegata-back-office-commerciale-at-ali-lavoro-4472588228",
+            "kind": "existingOpen",
+            "id": "ali-lavoro-back-office-commerciale-pisa-4472588228",
+            "checkedAt": "2026-10-10T13:05:57.487Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Akkodis Careers",
+            "url": "https://www.akkodis.com/it-it/lavora-con-noi/jobs/pmo-/2026-34948",
+            "kind": "existingOpen",
+            "id": "akkodis-pmo-railway-pistoia-20261003",
+            "checkedAt": "2026-10-10T13:05:57.755Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/custome-care-spare-parts-at-tk-elevator-4465769275",
+            "kind": "existingOpen",
+            "id": "tk-elevator-customer-care-spare-parts-pisa-4465769275",
+            "checkedAt": "2026-10-10T13:05:57.765Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/senior-sales-administration-specialist-at-lhh-4472757616",
+            "kind": "existingOpen",
+            "id": "lhh-senior-sales-administration-lucca-4472757616",
+            "checkedAt": "2026-10-10T13:05:57.846Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/event-coordinator-specialist-at-ingenium-made-in-italy-innovation-platform-4467209845",
+            "kind": "existingOpen",
+            "id": "ingenium-event-coordinator-specialist-4467209845",
+            "checkedAt": "2026-10-10T13:05:57.925Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=3136c5425a64ae4d",
+            "kind": "existingOpen",
+            "id": "par-group-back-office-verifica-qualita-firenze-20261002",
+            "checkedAt": "2026-10-10T13:05:57.935Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "SECO Careers",
+            "url": "https://www.seco.com/company/work-with-us/details/event-trade-shows-specialist",
+            "kind": "existingOpen",
+            "id": "seco-event-trade-shows-specialist-20261003",
+            "checkedAt": "2026-10-10T13:05:57.994Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/order-management-om-agent-specialista-gestione-ordini-spedizioni-internazionali-sesto-fiorentino-at-expeditors-4469326260",
+            "kind": "existingOpen",
+            "id": "expeditors-order-management-sesto-fiorentino-4469326260",
+            "checkedAt": "2026-10-10T13:05:58.634Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Randstad",
+            "url": "https://www.randstad.com/jobs/back-office-commerciale-mfnb_arezzo_47367562/",
+            "kind": "existingOpen",
+            "id": "randstad-back-office-commerciale-arezzo-47367562",
+            "checkedAt": "2026-10-10T13:06:02.279Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=97e07e22b529aeb6",
+            "kind": "existingOpen",
+            "id": "start-attractor-junior-business-developer-pisa-97e07e22b529aeb6",
+            "checkedAt": "2026-10-10T13:06:02.426Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/back-office-operativo-at-cacciatori-di-talenti-4467776163",
+            "kind": "existingOpen",
+            "id": "cacciatori-talenti-back-office-operativo-cecina-4467776163",
+            "checkedAt": "2026-10-10T13:06:02.484Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/order-management-contracts-lead-9-months-contract-at-rotork-4471334899",
+            "kind": "existingOpen",
+            "id": "rotork-order-management-contracts-lead-4471334899",
+            "checkedAt": "2026-10-10T13:06:02.495Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Gi Group",
+            "url": "https://www.gigroup.it/offerte-lavoro-dettaglio/monteroni-darbia-siena-back-office-commerciale/1368605/",
+            "kind": "existingOpen",
+            "id": "gigroup-back-office-commerciale-monteroni-1368605",
+            "checkedAt": "2026-10-10T13:06:02.598Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/customer-service-inside-sales-specialist-at-valmet-4475026814",
+            "kind": "existingOpen",
+            "id": "valmet-customer-service-inside-sales-lucca-4475026814",
+            "checkedAt": "2026-10-10T13:06:02.766Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=063365fd16dcf364",
+            "kind": "existingOpen",
+            "id": "pramac-service-parts-jr-product-manager-siena-063365fd16dcf364",
+            "checkedAt": "2026-10-10T13:06:02.838Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "ANAS Careers",
+            "url": "https://careers.stradeanas.it/job/Magliano-in-Toscana-Specialist-Amministrazione-ST-Toscana-Tosc/1369212755/",
+            "kind": "existingOpen",
+            "id": "anas-specialist-amministrazione-st-toscana-1369212755",
+            "checkedAt": "2026-10-10T13:06:03.025Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/sales-back-office-sostituzione-maternit%C3%A0-at-techniconsult-group-4473765228",
+            "kind": "existingOpen",
+            "id": "techniconsult-sales-back-office-firenze-4473765228",
+            "checkedAt": "2026-10-10T13:06:03.056Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "PharmaNutra",
+            "url": "https://pisa.it.expertini.com/job/international-customer-service-pisa-pharmanutra-spa-636510693949113924/amp/",
+            "kind": "existingOpen",
+            "id": "pharmanutra-international-customer-service-pisa-20261002",
+            "checkedAt": "2026-10-10T13:06:03.068Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Ali Lavoro",
+            "url": "https://careers.alilavoro.it/job/view-job.php?id=89468-back-office-commerciale-italia-m-f-prato&language=it",
+            "kind": "existingOpen",
+            "id": "ali-back-office-commerciale-italia-campi-bisenzio-89468",
+            "checkedAt": "2026-10-10T13:06:03.196Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-a-ufficio-gare-at-ali-professional-4471287088",
+            "kind": "existingOpen",
+            "id": "ali-professional-ufficio-gare-arezzo-4471287088",
+            "checkedAt": "2026-10-10T13:06:03.335Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Adecco",
+            "url": "https://www.adecco.com/it-it/cerca-lavoro/addetto-a-gestione-ordini-ricambi-campi-bisenzio-firenze/0301-4030",
+            "kind": "existingOpen",
+            "id": "adecco-gestione-ordini-ricambi-campi-bisenzio-0301-4030",
+            "checkedAt": "2026-10-10T13:06:03.534Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Openjobmetis",
+            "url": "https://www.openjobmetis.it/it/candidati/offerte-di-lavoro/impiegataimpiegato-back-office-e-gestione-ordini-137097",
+            "kind": "existingOpen",
+            "id": "openjobmetis-commerciale-logistica-rignano-137097",
+            "checkedAt": "2026-10-10T13:06:03.561Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Ali Lavoro",
+            "url": "https://careers.alilavoro.it/job/view-job.php?id=89459-addetto-a-back-office-commerciale-livorno&language=it",
+            "kind": "existingOpen",
+            "id": "ali-back-office-commerciale-livorno-89459",
+            "checkedAt": "2026-10-10T13:06:03.715Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Randstad",
+            "url": "https://www.randstad.com/jobs/back-office-commerciale-estero-fmnb_sansepolcro_47492862/",
+            "kind": "existingOpen",
+            "id": "randstad-back-office-commerciale-estero-sansepolcro-47492862",
+            "checkedAt": "2026-10-10T13:06:03.729Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/customer-support-specialist-as-at-biom%C3%A9rieux-4475006447",
+            "kind": "existingOpen",
+            "id": "biomerieux-customer-support-specialist-firenze-4475006447",
+            "checkedAt": "2026-10-10T13:06:03.891Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "SECO Careers",
+            "url": "https://www.seco.com/company/work-with-us/details/marketing-lead-management-specialist",
+            "kind": "existingOpen",
+            "id": "seco-marketing-lead-management-20261003",
+            "checkedAt": "2026-10-10T13:06:03.951Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=f66215ba3d07865b",
+            "kind": "existingOpen",
+            "id": "menarini-grant-associate-firenze-f66215ba3d07865b",
+            "checkedAt": "2026-10-10T13:06:03.962Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Ali Lavoro",
+            "url": "https://careers.alilavoro.it/job/view-job.php?id=88138-back-office-commerciale-pistoia&language=it",
+            "kind": "existingOpen",
+            "id": "ali-back-office-commerciale-pistoia-88138",
+            "checkedAt": "2026-10-10T13:06:03.980Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/responsabile-ufficio-gare-d-appalto-4459296968",
+            "kind": "existingOpen",
+            "id": "asso-costruzioni-responsabile-gare-pisa-4459296968",
+            "checkedAt": "2026-10-10T13:06:03.990Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Openjobmetis",
+            "url": "https://openjobmetis.it/it/candidati/offerte-di-lavoro/impiegatoa-back-office-136302",
+            "kind": "existingOpen",
+            "id": "openjobmetis-back-office-scandicci-136302",
+            "checkedAt": "2026-10-10T13:06:04.023Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/team-lead-order-management-europe-at-abb-e-mobility-4462935514",
+            "kind": "existingOpen",
+            "id": "abb-e-mobility-team-lead-order-management-europe-4462935514",
+            "checkedAt": "2026-10-10T13:06:04.107Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=66f1e6fcefb1de81",
+            "kind": "existingOpen",
+            "id": "lifeenergy-order-management-grosseto-66f1e6fcefb1de81",
+            "checkedAt": "2026-10-10T13:06:04.154Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/project-manager-at-seco-4465032279",
+            "kind": "existingOpen",
+            "id": "seco-project-manager-arezzo-4465032279",
+            "checkedAt": "2026-10-10T13:06:04.165Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/assistenza-e-formazione-software-gestionale-mexal-at-made-in-bit-4473774101",
+            "kind": "existingOpen",
+            "id": "made-in-bit-assistenza-formazione-mexal-4473774101",
+            "checkedAt": "2026-10-10T13:06:04.292Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Burberry Careers (SuccessFactors)",
+            "url": "https://burberrycareers.com/job/Florence-Logistic-Admin-Not/1434709600/",
+            "kind": "existingOpen",
+            "id": "burberry-logistic-admin-scandicci-1434709600",
+            "checkedAt": "2026-10-10T13:06:04.385Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=a6346e6341006c2f",
+            "kind": "existingOpen",
+            "id": "link-mobility-sales-support-stage-arezzo-a6346e6341006c2f",
+            "checkedAt": "2026-10-10T13:06:04.456Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=77bfde026bee2895",
+            "kind": "existingOpen",
+            "id": "tuv-sud-customer-service-tavarnelle-77bfde026bee2895",
+            "checkedAt": "2026-10-10T13:06:04.468Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=91e4efe70ca57dc4",
+            "kind": "existingOpen",
+            "id": "social-hub-meeting-events-intern-firenze-91e4efe70ca57dc4",
+            "checkedAt": "2026-10-10T13:06:04.482Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=d2a0612f76ac3e42",
+            "kind": "existingOpen",
+            "id": "montblanc-material-purchaser-scandicci-d2a0612f76ac3e42",
+            "checkedAt": "2026-10-10T13:06:04.494Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=3e01b9c5739c3d6c",
+            "kind": "existingOpen",
+            "id": "pramac-junior-engineering-project-manager-siena-3e01b9c5739c3d6c",
+            "checkedAt": "2026-10-10T13:06:04.576Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=6f86d7404a6b16d6",
+            "kind": "existingOpen",
+            "id": "engie-technical-sales-support-sesto-fiorentino-6f86d7404a6b16d6",
+            "checkedAt": "2026-10-10T13:06:04.619Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=d4ffb00492d8c391",
+            "kind": "existingOpen",
+            "id": "andritz-customer-care-sales-engineer-lucca-d4ffb00492d8c391",
+            "checkedAt": "2026-10-10T13:06:04.683Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/back-office-commerciale-at-luce-di-carrara-4464451710",
+            "kind": "existingOpen",
+            "id": "luce-carrara-back-office-commerciale-4464451710",
+            "checkedAt": "2026-10-10T13:06:04.933Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "MAW",
+            "url": "https://www.maw.it/offerte-di-lavoro/fi-calenzano-198762",
+            "kind": "existingOpen",
+            "id": "maw-amministrazione-acquisti-back-office-calenzano-198762",
+            "checkedAt": "2026-10-10T13:06:18.387Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "BeBee",
+            "url": "https://bebee.com/it/jobs/addetto-ufficio-gare-costruire-srl-altopascio-toscana--t7xk-824969435",
+            "kind": "existingOpen",
+            "id": "costruire-addetto-ufficio-gare-altopascio-20261009",
+            "checkedAt": "2026-10-10T13:06:18.606Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Michael Page",
+            "url": "https://www.michaelpage.it/job-detail/customer-service-wholesale-specialist-firenze/ref/jn-102026-7116670",
+            "kind": "existingOpen",
+            "id": "michael-page-customer-service-wholesale-firenze-7116670",
+            "checkedAt": "2026-10-10T13:06:18.963Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Trabajo.org",
+            "url": "https://it.trabajo.org/offerta-5270-b0ae68af98b0fe1389ba5a273903c58a",
+            "kind": "existingOpen",
+            "id": "studio-bianchi-inside-ecommerce-sales-castelfiorentino-20261004",
+            "checkedAt": "2026-10-10T13:06:19.185Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/inside-sales-representative-italy-and-mediterranean-at-copeland-4466272851",
+            "kind": "existingOpen",
+            "id": "copeland-inside-sales-italy-mediterranean-4466272851",
+            "checkedAt": "2026-10-10T13:06:19.207Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/return-complaints-specialist-at-sammontana-s-p-a-4472707475",
+            "kind": "existingOpen",
+            "id": "sammontana-return-complaints-specialist-montelupo-4472707475",
+            "checkedAt": "2026-10-10T13:06:19.294Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/addetto-a-segreteria-commerciale-at-finomnia-4435653422",
+            "kind": "existingOpen",
+            "id": "finomnia-segreteria-commerciale-4435653422",
+            "checkedAt": "2026-10-10T13:06:19.337Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=bfdf6f31ae1c239e",
+            "kind": "existingOpen",
+            "id": "lifeenergy-segreteria-commerciale-ingrosso-follonica-bfdf6f31",
+            "checkedAt": "2026-10-10T13:06:19.457Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LHH",
+            "url": "https://www.lhh.com/it-it/cerca-lavoro/technical-document-controller-roma-roma/jn-092026-1170249",
+            "kind": "existingOpen",
+            "id": "lhh-document-controller-1170249",
+            "checkedAt": "2026-10-10T13:06:19.487Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=b0293d29ce4ae7aa",
+            "kind": "existingOpen",
+            "id": "one-back-office-amministrativo-retail-orbetello-b0293d29",
+            "checkedAt": "2026-10-10T13:06:19.611Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/impiegata-back-office-at-birindelli-co-s-r-l-gruppo-gmg-spa-4449424276",
+            "kind": "existingOpen",
+            "id": "gmg-back-office-commerciale-prato-4449424276",
+            "checkedAt": "2026-10-10T13:06:19.671Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Orienta",
+            "url": "https://www.orientajob.com/job/view-job.php?id=161390-impiegato-a-back-office-massarosa&language=it",
+            "kind": "existingOpen",
+            "id": "orienta-back-office-massarosa-161390",
+            "checkedAt": "2026-10-10T13:06:19.752Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Michael Page",
+            "url": "https://www.michaelpage.it/job-detail/impiegato-amministrativo-settore-energia/ref/jn-072026-7070173?jaj=solr-similar-jobs&ng-jn=job-detail&ng-src=other-users-applied&trk=public_post_comment-text",
+            "kind": "existingOpen",
+            "id": "michael-page-impiegato-amministrativo-energia-lucca-7070173",
+            "checkedAt": "2026-10-10T13:06:19.796Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/customer-care-specialist%E2%80%93-natale-2026-full-remote-at-twinkly-4476314317",
+            "kind": "existingOpen",
+            "id": "twinkly-customer-care-natale-full-remote-4476314317",
+            "checkedAt": "2026-10-10T13:06:19.846Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/member-service-coordinator-transportation-at-tenuta-toscana-golf-field-club-4472484995",
+            "kind": "existingOpen",
+            "id": "tenuta-toscana-member-service-transportation-4472484995",
+            "checkedAt": "2026-10-10T13:06:19.883Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=c857a6bc04f4aa6f",
+            "kind": "existingOpen",
+            "id": "lifeenergy-segreteria-commerciale-ordini-grosseto-c857a6bc",
+            "checkedAt": "2026-10-10T13:06:19.957Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=137638f47a70cceb",
+            "kind": "existingOpen",
+            "id": "one-assistente-commerciale-rete-gdo-grosseto-137638f4",
+            "checkedAt": "2026-10-10T13:06:20.111Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Randstad",
+            "url": "https://www.randstad.com/jobs/back-office-commerciale_campi-bisenzio_47368847/",
+            "kind": "existingOpen",
+            "id": "randstad-back-office-campi-47368847",
+            "checkedAt": "2026-10-10T13:06:20.128Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Software Partner Italia",
+            "url": "https://swpitalia.com/posizioni-aperte/pmo-project-coordinator-remoto/",
+            "kind": "existingOpen",
+            "id": "swpitalia-pmo-project-coordinator-2026-153",
+            "checkedAt": "2026-10-10T13:06:20.212Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "During (annuncio originale indicizzato)",
+            "url": "https://portale.during.it/lavoro-offerta/impiegato-impiegata-commerciale-estero-social-media-pistoia-pt-88113-1-1933649",
+            "kind": "existingOpen",
+            "id": "during-commerciale-estero-social-pistoia-1933649",
+            "checkedAt": "2026-10-10T13:06:20.226Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Orienta",
+            "url": "https://www.orientajob.com/job/view-job.php?id=161564-un-una-addetto-a-back-office-customer-care%C2%A0-pisa&language=it",
+            "kind": "existingOpen",
+            "id": "orienta-back-office-customer-care-pisa-161564",
+            "checkedAt": "2026-10-10T13:06:20.283Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/groups-events-manager-at-villa-la-massa-4474691366",
+            "kind": "existingOpen",
+            "id": "villa-la-massa-events-4474691366",
+            "checkedAt": "2026-10-10T13:06:20.303Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/specialista-addetto-a-ufficio-gare-e-appalti-at-vega-engineering-srl-4475818084",
+            "kind": "existingOpen",
+            "id": "vega-engineering-ufficio-gare-appalti-lucca-4475818084",
+            "checkedAt": "2026-10-10T13:06:20.513Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/customer-care-operations-%E2%80%93-e-commerce-showroom-magazzino-leggero-at-classe-srl-4474057764",
+            "kind": "existingOpen",
+            "id": "classe-customer-care-operations-empoli-4474057764",
+            "checkedAt": "2026-10-10T13:06:20.671Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Software Partner Italia",
+            "url": "https://swpitalia.com/posizioni-aperte/pmo-full-remote/",
+            "kind": "existingOpen",
+            "id": "swpitalia-pmo-2025-392",
+            "checkedAt": "2026-10-10T13:06:20.691Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Michael Page",
+            "url": "https://www.michaelpage.it/job-detail/inside-sales-fiere-prato/ref/jn-092026-7104252",
+            "kind": "existingOpen",
+            "id": "michael-page-inside-sales-fiere-prato-7104252",
+            "checkedAt": "2026-10-10T13:06:20.772Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/member-service-coordinator-at-tenuta-toscana-golf-field-club-4427956417",
+            "kind": "existingOpen",
+            "id": "tenuta-toscana-member-service-coordinator-4427956417",
+            "checkedAt": "2026-10-10T13:06:20.971Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/customer-service-specialist-at-giovanni-raspini-4446658719",
+            "kind": "existingOpen",
+            "id": "giovanni-raspini-customer-service-specialist-arezzo-4446658719",
+            "checkedAt": "2026-10-10T13:06:21.000Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/back-office-commerciale-estero-162969-at-orienta-agenzia-per-il-lavoro-4473628726",
+            "kind": "existingOpen",
+            "id": "orienta-back-office-commerciale-estero-bagno-ripoli-4473628726",
+            "checkedAt": "2026-10-10T13:06:21.113Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Gi Group/Grafton",
+            "query": "site:gigroup.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:25.914Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Michael Page",
+            "query": "site:michaelpage.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:26.056Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:26.098Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Hays",
+            "query": "site:hays.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:26.218Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Hays",
+            "query": "site:hays.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:26.348Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Adecco",
+            "query": "site:adecco.com \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:26.548Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Monster",
+            "query": "site:monster.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:26.566Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Hays",
+            "query": "site:hays.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:26.595Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Michael Page",
+            "query": "site:michaelpage.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:26.655Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Randstad",
+            "query": "site:randstad.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:26.877Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Monster",
+            "query": "site:monster.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:26.914Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.023Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Adecco",
+            "query": "site:adecco.com \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.156Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Adecco",
+            "query": "site:adecco.com \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.191Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Manpower",
+            "query": "site:manpower.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.208Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.290Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Adecco",
+            "query": "site:adecco.com \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.311Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Monster",
+            "query": "site:monster.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.330Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Page Personnel",
+            "query": "site:pagepersonnel.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.348Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Monster",
+            "query": "site:monster.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.367Z",
+            "outcome": "bloccata",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.384Z",
+            "outcome": "bloccata",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Michael Page",
+            "query": "site:michaelpage.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.403Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.434Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Randstad",
+            "query": "site:randstad.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.529Z",
+            "outcome": "bloccata",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Page Personnel",
+            "query": "site:pagepersonnel.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.547Z",
+            "outcome": "bloccata",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Gi Group/Grafton",
+            "query": "site:gigroup.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.577Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Randstad",
+            "query": "site:randstad.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.596Z",
+            "outcome": "bloccata",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Randstad",
+            "query": "site:randstad.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.648Z",
+            "outcome": "bloccata",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Page Personnel",
+            "query": "site:pagepersonnel.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.674Z",
+            "outcome": "bloccata",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Hays",
+            "query": "site:hays.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.733Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Manpower",
+            "query": "site:manpower.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.751Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Gi Group/Grafton",
+            "query": "site:gigroup.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.810Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Michael Page",
+            "query": "site:michaelpage.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.828Z",
+            "outcome": "bloccata",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Manpower",
+            "query": "site:manpower.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.913Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Manpower",
+            "query": "site:manpower.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.952Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:27.973Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Gi Group/Grafton",
+            "query": "site:gigroup.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:28.179Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:28.213Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:28.423Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Page Personnel",
+            "query": "site:pagepersonnel.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:28.486Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Synergie",
+            "query": "site:synergie-italia.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:32.323Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Openjobmetis",
+            "query": "site:openjobmetis.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:32.517Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Openjobmetis",
+            "query": "site:openjobmetis.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:32.623Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Openjobmetis",
+            "query": "site:openjobmetis.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:32.647Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Synergie",
+            "query": "site:synergie-italia.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:32.980Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Synergie",
+            "query": "site:synergie-italia.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:33.005Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Openjobmetis",
+            "query": "site:openjobmetis.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:33.024Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Synergie",
+            "query": "site:synergie-italia.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:33.046Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Orienta",
+            "query": "site:orientajob.com \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:33.193Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Orienta",
+            "query": "site:orientajob.com \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:33.343Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jobrapido",
+            "query": "site:jobrapido.com \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:34.088Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Orienta",
+            "query": "site:orientajob.com \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:34.346Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jobrapido",
+            "query": "site:jobrapido.com \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:34.368Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Lavoropiù",
+            "query": "site:lavoropiu.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:34.501Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jobrapido",
+            "query": "site:jobrapido.com \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:34.521Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Lavoropiù",
+            "query": "site:lavoropiu.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:34.544Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jobrapido",
+            "query": "site:jobrapido.com \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:34.657Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Lavoropiù",
+            "query": "site:lavoropiu.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:34.873Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Orienta",
+            "query": "site:orientajob.com \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:34.985Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Lavoropiù",
+            "query": "site:lavoropiu.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:35.332Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jooble",
+            "query": "site:jooble.org \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:36.131Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Talent.com",
+            "query": "site:talent.com \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:36.349Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jooble",
+            "query": "site:jooble.org \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:36.485Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Glassdoor Jobs",
+            "query": "site:glassdoor.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:36.515Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Glassdoor Jobs",
+            "query": "site:glassdoor.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:36.690Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Talent.com",
+            "query": "site:talent.com \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:36.732Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Talent.com",
+            "query": "site:talent.com \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:36.812Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jooble",
+            "query": "site:jooble.org \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:36.922Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Talent.com",
+            "query": "site:talent.com \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:37.141Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jooble",
+            "query": "site:jooble.org \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:37.164Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Careerjet",
+            "query": "site:careerjet.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:37.883Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Trovolavoro",
+            "query": "site:trovolavoro.com \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:38.069Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Careerjet",
+            "query": "site:careerjet.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:38.245Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Trovolavoro",
+            "query": "site:trovolavoro.com \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:38.363Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Careerjet",
+            "query": "site:careerjet.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:38.435Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Glassdoor Jobs",
+            "query": "site:glassdoor.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:38.474Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Trovolavoro",
+            "query": "site:trovolavoro.com \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:38.622Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Careerjet",
+            "query": "site:careerjet.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:38.756Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Glassdoor Jobs",
+            "query": "site:glassdoor.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:39.013Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Trovolavoro",
+            "query": "site:trovolavoro.com \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:39.301Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Bakeca Lavoro",
+            "query": "site:bakeca.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:42.632Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Bakeca Lavoro",
+            "query": "site:bakeca.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:42.815Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Bakeca Lavoro",
+            "query": "site:bakeca.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:42.999Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Helplavoro",
+            "query": "site:helplavoro.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:43.026Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Experis",
+            "query": "site:experis.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:43.209Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Experis",
+            "query": "site:experis.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:43.279Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Bakeca Lavoro",
+            "query": "site:bakeca.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:43.350Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Helplavoro",
+            "query": "site:helplavoro.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:43.498Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Helplavoro",
+            "query": "site:helplavoro.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:43.583Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Helplavoro",
+            "query": "site:helplavoro.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:43.755Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Experis",
+            "query": "site:experis.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:44.314Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Umana",
+            "query": "site:umana.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:44.466Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Umana",
+            "query": "site:umana.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:44.628Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Ali Lavoro",
+            "query": "site:alilavoro.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:44.849Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Ali Lavoro",
+            "query": "site:alilavoro.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:44.941Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Ali Lavoro",
+            "query": "site:alilavoro.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:45.070Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Ali Lavoro",
+            "query": "site:alilavoro.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:45.132Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Umana",
+            "query": "site:umana.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:45.159Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Umana",
+            "query": "site:umana.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:45.263Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Experis",
+            "query": "site:experis.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:45.462Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "During",
+            "query": "site:during.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:46.066Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Etjca",
+            "query": "site:etjca.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:46.279Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "During",
+            "query": "site:during.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:46.484Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "During",
+            "query": "site:during.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:46.510Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "During",
+            "query": "site:during.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:46.674Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Etjca",
+            "query": "site:etjca.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:46.780Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "MAW",
+            "query": "site:maw.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:46.884Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Etjca",
+            "query": "site:etjca.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:46.916Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Etjca",
+            "query": "site:etjca.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:47.128Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "MAW",
+            "query": "site:maw.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:47.311Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Humangest",
+            "query": "site:humangest.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:47.867Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "MAW",
+            "query": "site:maw.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:48.076Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "ADHR",
+            "query": "site:adhr.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:48.220Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Humangest",
+            "query": "site:humangest.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:48.252Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "ADHR",
+            "query": "site:adhr.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:48.401Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Humangest",
+            "query": "site:humangest.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:48.563Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "MAW",
+            "query": "site:maw.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:48.609Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Humangest",
+            "query": "site:humangest.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:48.730Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "ADHR",
+            "query": "site:adhr.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:48.918Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "ADHR",
+            "query": "site:adhr.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:49.145Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Staff",
+            "query": "site:staff.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:51.968Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Staff",
+            "query": "site:staff.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:52.156Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Toscana Lavoro ARTI",
+            "query": "site:lavoro.regione.toscana.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:52.213Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Atempo",
+            "query": "site:atempospa.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:52.406Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Atempo",
+            "query": "site:atempospa.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:52.582Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Staff",
+            "query": "site:staff.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:52.734Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Atempo",
+            "query": "site:atempospa.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:52.774Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Atempo",
+            "query": "site:atempospa.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:52.832Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Toscana Lavoro ARTI",
+            "query": "site:lavoro.regione.toscana.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:52.911Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Staff",
+            "query": "site:staff.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:53.029Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Adzuna",
+            "query": "site:adzuna.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:53.786Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Toscana Lavoro ARTI",
+            "query": "site:lavoro.regione.toscana.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:53.971Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "inPA",
+            "query": "site:inpa.gov.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:54.082Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Adzuna",
+            "query": "site:adzuna.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:54.113Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Adzuna",
+            "query": "site:adzuna.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:54.221Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "inPA",
+            "query": "site:inpa.gov.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:54.253Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "inPA",
+            "query": "site:inpa.gov.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:54.285Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Adzuna",
+            "query": "site:adzuna.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:54.404Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "inPA",
+            "query": "site:inpa.gov.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:54.688Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Toscana Lavoro ARTI",
+            "query": "site:lavoro.regione.toscana.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:54.861Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jobijoba",
+            "query": "site:jobijoba.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:55.556Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "SimplyHired",
+            "query": "site:simplyhired.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:55.706Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jobijoba",
+            "query": "site:jobijoba.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:55.974Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jobbydoo",
+            "query": "site:jobbydoo.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:56.152Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jobijoba",
+            "query": "site:jobijoba.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:56.186Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jobbydoo",
+            "query": "site:jobbydoo.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:56.301Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jobbydoo",
+            "query": "site:jobbydoo.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:56.338Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jobijoba",
+            "query": "site:jobijoba.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:56.370Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "SimplyHired",
+            "query": "site:simplyhired.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:56.405Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jobbydoo",
+            "query": "site:jobbydoo.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:56.560Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "CercoLavoro",
+            "query": "site:cercolavoro.com \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:57.281Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Subito Lavoro",
+            "query": "site:subito.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:57.477Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "SimplyHired",
+            "query": "site:simplyhired.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:57.675Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Subito Lavoro",
+            "query": "site:subito.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:58.006Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Subito Lavoro",
+            "query": "site:subito.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:58.037Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "CercoLavoro",
+            "query": "site:cercolavoro.com \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:58.071Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "CercoLavoro",
+            "query": "site:cercolavoro.com \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:58.102Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "CercoLavoro",
+            "query": "site:cercolavoro.com \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:58.146Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Subito Lavoro",
+            "query": "site:subito.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:58.177Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "SimplyHired",
+            "query": "site:simplyhired.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:06:58.362Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Hunters Group",
+            "query": "site:huntersgroup.com \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:01.618Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Hunters Group",
+            "query": "site:huntersgroup.com \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:01.801Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Wyser",
+            "query": "site:wyser-search.com \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:01.929Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Hunters Group",
+            "query": "site:huntersgroup.com \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:02.171Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "CVing",
+            "query": "site:cving.com \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:02.281Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Hunters Group",
+            "query": "site:huntersgroup.com \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:02.426Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "CVing",
+            "query": "site:cving.com \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:02.464Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "CVing",
+            "query": "site:cving.com \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:02.700Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "CVing",
+            "query": "site:cving.com \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:02.783Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Wyser",
+            "query": "site:wyser-search.com \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:02.978Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "IQM",
+            "query": "site:iqmselezione.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:03.685Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "High Professional",
+            "query": "site:highprofessional.com \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:03.854Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "IQM",
+            "query": "site:iqmselezione.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:04.003Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "IQM",
+            "query": "site:iqmselezione.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:04.038Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "High Professional",
+            "query": "site:highprofessional.com \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:04.258Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "High Professional",
+            "query": "site:highprofessional.com \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:04.330Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "IQM",
+            "query": "site:iqmselezione.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:04.473Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "High Professional",
+            "query": "site:highprofessional.com \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:04.548Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Wyser",
+            "query": "site:wyser-search.com \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:04.705Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Wyser",
+            "query": "site:wyser-search.com \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:05.499Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Profili & Carriere",
+            "query": "site:profiliecarriere.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:06.163Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "W Executive",
+            "query": "site:wexecutive.com \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:06.281Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "W Executive",
+            "query": "site:wexecutive.com \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:06.458Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Knet",
+            "query": "site:knethr.com \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:06.505Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Profili & Carriere",
+            "query": "site:profiliecarriere.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:06.689Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Knet",
+            "query": "site:knethr.com \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:06.794Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Knet",
+            "query": "site:knethr.com \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:06.851Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Knet",
+            "query": "site:knethr.com \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:06.961Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Profili & Carriere",
+            "query": "site:profiliecarriere.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:07.160Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Profili & Carriere",
+            "query": "site:profiliecarriere.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:07.343Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "LHH",
+            "query": "site:lhh.com \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:08.014Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "LHH",
+            "query": "site:lhh.com \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:08.236Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jefferson Wells",
+            "query": "site:jeffersonwells.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:08.419Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jefferson Wells",
+            "query": "site:jeffersonwells.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:08.573Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jefferson Wells",
+            "query": "site:jeffersonwells.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:08.724Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "W Executive",
+            "query": "site:wexecutive.com \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:08.802Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jefferson Wells",
+            "query": "site:jeffersonwells.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:08.843Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "LHH",
+            "query": "site:lhh.com \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:09.228Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "W Executive",
+            "query": "site:wexecutive.com \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:09.265Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "LHH",
+            "query": "site:lhh.com \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:10.584Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "e-work",
+            "query": "site:e-workspa.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:13.764Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jobtech",
+            "query": "site:jobtech.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:13.976Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jobtech",
+            "query": "site:jobtech.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:14.203Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "e-work",
+            "query": "site:e-workspa.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:14.407Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Iziwork",
+            "query": "site:iziwork.com \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:14.491Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Iziwork",
+            "query": "site:iziwork.com \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:14.526Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jobtech",
+            "query": "site:jobtech.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:14.560Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "e-work",
+            "query": "site:e-workspa.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:14.677Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "e-work",
+            "query": "site:e-workspa.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:14.862Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Jobtech",
+            "query": "site:jobtech.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:14.988Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Iziwork",
+            "query": "site:iziwork.com \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:15.719Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Iziwork",
+            "query": "site:iziwork.com \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:15.943Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Eurointerim",
+            "query": "site:eurointerim.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:16.129Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "QuoJobis",
+            "query": "site:quojobis.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:16.174Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "QuoJobis",
+            "query": "site:quojobis.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:16.214Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "QuoJobis",
+            "query": "site:quojobis.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:16.274Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Eurointerim",
+            "query": "site:eurointerim.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:16.308Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "QuoJobis",
+            "query": "site:quojobis.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:16.512Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Eurointerim",
+            "query": "site:eurointerim.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:16.546Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Eurointerim",
+            "query": "site:eurointerim.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:16.786Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "SAPIENS",
+            "query": "site:sapienslavoro.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:17.376Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "SAPIENS",
+            "query": "site:sapienslavoro.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:17.531Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "CPL Taylor",
+            "query": "site:cpltaylor.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:17.685Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "La Risorsa Umana",
+            "query": "site:larisorsaumana.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:17.725Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "La Risorsa Umana",
+            "query": "site:larisorsaumana.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:17.893Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "SAPIENS",
+            "query": "site:sapienslavoro.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:18.005Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "SAPIENS",
+            "query": "site:sapienslavoro.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:18.072Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "CPL Taylor",
+            "query": "site:cpltaylor.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:18.149Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "La Risorsa Umana",
+            "query": "site:larisorsaumana.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:18.212Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "La Risorsa Umana",
+            "query": "site:larisorsaumana.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:18.451Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "CPL Taylor",
+            "query": "site:cpltaylor.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:19.117Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "InfoJobs",
+            "query": "site:infojobs.it \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:19.239Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "CPL Taylor",
+            "query": "site:cpltaylor.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:19.383Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "InfoJobs",
+            "query": "site:infojobs.it \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:19.449Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "InfoJobs",
+            "query": "site:infojobs.it \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:19.633Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "InfoJobs",
+            "query": "site:infojobs.it \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:19.712Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Job in Tuscany",
+            "query": "site:jobintuscany.com \"project support\" remoto Italia",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:19.767Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Job in Tuscany",
+            "query": "site:jobintuscany.com \"ufficio gare\" Firenze",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:19.939Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Job in Tuscany",
+            "query": "site:jobintuscany.com \"customer service\" Pisa Lucca",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:19.975Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Job in Tuscany",
+            "query": "site:jobintuscany.com \"back office\" Toscana",
+            "kind": "portalSearch",
+            "checkedAt": "2026-10-10T13:07:20.137Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/q-back-office-commerciale-l-toscana-offerte-lavoro.html?sort=date&start=10",
+            "kind": "listing",
+            "checkedAt": "2026-10-10T13:07:28.180Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=dee13ca6f292b3d6",
+            "kind": "newVerification",
+            "checkedAt": "2026-10-10T13:07:28.322Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Humangest",
+            "url": "https://lavoro.humangest.it/job/view-job.php?id=96258-addetto-a-al-back-office-campi-bisenzio&language=it",
+            "kind": "newVerification",
+            "checkedAt": "2026-10-10T13:07:28.433Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Manpower",
+            "url": "https://www.manpower.it/it/annuncio-lavoro/engineering/amministrazione/impiegatoa-back-office-commerciale-italiaestero/1050867",
+            "kind": "newVerification",
+            "checkedAt": "2026-10-10T13:07:28.635Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "LHH",
+            "url": "https://www.lhh.com/it-it/cerca-lavoro/back-office-commerciale-esteroindustria-meccanica-carrara-massa-carrara/jn-052026-1039200",
+            "kind": "newVerification",
+            "checkedAt": "2026-10-10T13:07:28.728Z",
+            "outcome": "bloccata",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Umana",
+            "url": "https://www.umana.it/per-le-persone/offerte-di-lavoro/logistica-trasporto-magazzino/toscana/lucca/",
+            "kind": "newVerification",
+            "checkedAt": "2026-10-10T13:07:30.480Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Ali Lavoro",
+            "url": "https://careers.alilavoro.it/job/view-job.php?id=89832-addetto-a-sviluppo-commerciale-e-gestione-clienti-pisa&language=it",
+            "kind": "newOpen",
+            "checkedAt": "2026-10-10T13:09:08.635Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
+          },
+          {
+            "source": "Staff",
+            "query": "site.staff.it \"Calenzano\" \"30\" \"commerciale\"",
+            "kind": "fallbackSearch",
+            "engine": "system1_search_query",
+            "checkedAt": "2026-10-10T13:09:09.671Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Ingenium",
+            "query": "Ingenium Made in Italy lavora con noi eventi Firenze",
+            "kind": "careerSearch",
+            "engine": "system1_search_query",
+            "checkedAt": "2026-10-10T13:09:09.874Z",
+            "outcome": "risultati",
+            "limits": "Indice web; non prova copertura completa."
+          },
+          {
+            "source": "Umana",
+            "url": "https://www.umana.it/per-le-persone/offerte-di-lavoro/impiegato-back-office-commerciale/314151/",
+            "kind": "newOpen",
+            "checkedAt": "2026-10-10T13:09:10.385Z",
+            "outcome": "risultati",
+            "limits": "Lettura URL: eventuale redirect o pagina vuota non conferma annuncio attivo."
           }
         ],
         "sourcesSearched": [
           "Indeed",
           "Ingenium",
           "Randstad",
-          "Manpower"
+          "Manpower",
+          "Gi Group/Grafton",
+          "Michael Page",
+          "LinkedIn Jobs",
+          "Hays",
+          "Adecco",
+          "Monster",
+          "Page Personnel",
+          "Synergie",
+          "Openjobmetis",
+          "Orienta",
+          "Jobrapido",
+          "Lavoropiù",
+          "Jooble",
+          "Talent.com",
+          "Glassdoor Jobs",
+          "Careerjet",
+          "Trovolavoro",
+          "Bakeca Lavoro",
+          "Helplavoro",
+          "Experis",
+          "Umana",
+          "Ali Lavoro",
+          "During",
+          "Etjca",
+          "MAW",
+          "Humangest",
+          "ADHR",
+          "Staff",
+          "Toscana Lavoro ARTI",
+          "Atempo",
+          "Adzuna",
+          "inPA",
+          "Jobijoba",
+          "SimplyHired",
+          "Jobbydoo",
+          "CercoLavoro",
+          "Subito Lavoro",
+          "Hunters Group",
+          "Wyser",
+          "CVing",
+          "IQM",
+          "High Professional",
+          "Profili & Carriere",
+          "W Executive",
+          "Knet",
+          "LHH",
+          "Jefferson Wells",
+          "e-work",
+          "Jobtech",
+          "Iziwork",
+          "Eurointerim",
+          "QuoJobis",
+          "SAPIENS",
+          "CPL Taylor",
+          "La Risorsa Umana",
+          "InfoJobs",
+          "Job in Tuscany"
         ],
-        "sourcesVerified": [],
-        "sourceVerification": [],
+        "sourcesVerified": [
+          "Randstad",
+          "LinkedIn Jobs",
+          "Randstad (annuncio",
+          "Gi Group/Grafton",
+          "Indeed",
+          "Atempo",
+          "Qboxmail Careers",
+          "ATI Project Careers",
+          "Orienta - annuncio",
+          "MADx Careers",
+          "Experis",
+          "Manpower",
+          "Direzione Lavoro Group",
+          "Expeditors",
+          "SECO Careers",
+          "ANAS Careers",
+          "Ali Lavoro",
+          "Openjobmetis",
+          "Burberry Careers (SuccessFactors)",
+          "LHH",
+          "Orienta",
+          "Umana"
+        ],
+        "sourceVerification": [
+          {
+            "source": "Randstad",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://www.randstad.com/jobs/procurement-initiatives-specialist-specialista-iniziative-acquisti_firenze_47405449/",
+              "https://www.randstad.com/jobs/impiegato-customer-service_firenze_47368852/",
+              "https://www.randstad.com/jobs/back-office-commerciale-mfnb_pisa_47414062/",
+              "https://www.randstad.com/jobs/back-office-commerciale-estero-fmnb_sansepolcro_47492862/",
+              "https://www.randstad.com/jobs/back-office-commerciale_campi-bisenzio_47368847/"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/addetto-a-al-customer-service-m-f-d-at-t%C3%BCv-s%C3%BCd-4439828227",
+              "https://it.linkedin.com/jobs/view/congress-project-manager-at-bcd-meetings-events-4469203934",
+              "https://it.linkedin.com/jobs/view/project-leader-eventi-pharma-and-m-e-at-uvet-4469427457",
+              "https://it.linkedin.com/jobs/view/shipping-assistant-at-la-marzocco-4450243054",
+              "https://it.linkedin.com/jobs/view/tender-specialist-at-gruppo-cooperativo-colser-auroradomus-4468653225",
+              "https://it.linkedin.com/jobs/view/service-warehouse-back-office-specialist-temporary-at-abb-e-mobility-4439163143",
+              "https://it.linkedin.com/jobs/view/member-experience-coordinator-at-tenuta-toscana-golf-field-club-4461214047",
+              "https://it.linkedin.com/jobs/view/spare-parts-business-support-specialist-temporary-at-abb-e-mobility-4445737716",
+              "https://it.linkedin.com/jobs/view/technical-sales-support-at-engie-italia-4450127454",
+              "https://it.linkedin.com/jobs/view/contract-manager-at-modaxo-4470920413",
+              "https://it.linkedin.com/jobs/view/tender-buyer-specialist-at-exa-group-4462762678",
+              "https://it.linkedin.com/jobs/view/impiegato-a-back-office-commerciale-at-aec-illuminazione-srl-4472707373",
+              "https://it.linkedin.com/jobs/view/tecnico-ufficio-gare-senior-at-universo-4469712984",
+              "https://it.linkedin.com/jobs/view/program-coordinator-at-breyer-center-for-overseas-studies-bing-overseas-studies-program-stanford-university-4470879155",
+              "https://it.linkedin.com/jobs/view/back-office-tecnico-amministrativo-at-tk-elevator-4460615736",
+              "https://it.linkedin.com/jobs/view/impiegato-commerciale-amministrativo-at-yolo-tech-insurance-4469134641",
+              "https://it.linkedin.com/jobs/view/mice-groups-wedding-sales-coordinator-at-icon-collection-4441622227",
+              "https://it.linkedin.com/jobs/view/impiegato-per-ufficio-gare-e-appalti-at-consiag-servizi-comuni-srl-4473215687",
+              "https://it.linkedin.com/jobs/view/custome-care-spare-parts-at-tk-elevator-4465769275",
+              "https://it.linkedin.com/jobs/view/senior-sales-administration-specialist-at-lhh-4472757616",
+              "https://it.linkedin.com/jobs/view/order-management-om-agent-specialista-gestione-ordini-spedizioni-internazionali-sesto-fiorentino-at-expeditors-4469326260",
+              "https://it.linkedin.com/jobs/view/order-management-contracts-lead-9-months-contract-at-rotork-4471334899",
+              "https://it.linkedin.com/jobs/view/customer-service-inside-sales-specialist-at-valmet-4475026814",
+              "https://it.linkedin.com/jobs/view/sales-back-office-sostituzione-maternit%C3%A0-at-techniconsult-group-4473765228",
+              "https://it.linkedin.com/jobs/view/impiegato-a-ufficio-gare-at-ali-professional-4471287088",
+              "https://it.linkedin.com/jobs/view/customer-support-specialist-as-at-biom%C3%A9rieux-4475006447",
+              "https://it.linkedin.com/jobs/view/team-lead-order-management-europe-at-abb-e-mobility-4462935514",
+              "https://it.linkedin.com/jobs/view/project-manager-at-seco-4465032279",
+              "https://it.linkedin.com/jobs/view/assistenza-e-formazione-software-gestionale-mexal-at-made-in-bit-4473774101",
+              "https://it.linkedin.com/jobs/view/back-office-commerciale-at-luce-di-carrara-4464451710",
+              "https://it.linkedin.com/jobs/view/inside-sales-representative-italy-and-mediterranean-at-copeland-4466272851",
+              "https://it.linkedin.com/jobs/view/return-complaints-specialist-at-sammontana-s-p-a-4472707475",
+              "https://it.linkedin.com/jobs/view/addetto-a-segreteria-commerciale-at-finomnia-4435653422",
+              "https://it.linkedin.com/jobs/view/impiegata-back-office-at-birindelli-co-s-r-l-gruppo-gmg-spa-4449424276",
+              "https://it.linkedin.com/jobs/view/customer-care-specialist%E2%80%93-natale-2026-full-remote-at-twinkly-4476314317",
+              "https://it.linkedin.com/jobs/view/member-service-coordinator-transportation-at-tenuta-toscana-golf-field-club-4472484995",
+              "https://it.linkedin.com/jobs/view/groups-events-manager-at-villa-la-massa-4474691366",
+              "https://it.linkedin.com/jobs/view/specialista-addetto-a-ufficio-gare-e-appalti-at-vega-engineering-srl-4475818084",
+              "https://it.linkedin.com/jobs/view/customer-care-operations-%E2%80%93-e-commerce-showroom-magazzino-leggero-at-classe-srl-4474057764",
+              "https://it.linkedin.com/jobs/view/member-service-coordinator-at-tenuta-toscana-golf-field-club-4427956417",
+              "https://it.linkedin.com/jobs/view/back-office-commerciale-estero-162969-at-orienta-agenzia-per-il-lavoro-4473628726"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "Randstad (annuncio",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://www.randstad.com/jobs/service-specialist_firenze_47390191/"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "Gi Group/Grafton",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://it.grafton.com/offerte-lavoro-dettaglio/lavoro-fiesole-firenze-commercial-executive-assistant-fashion-luxury/1364581/",
+              "https://www.gigroup.it/offerte-lavoro-dettaglio/firenze-sales-proposals-ito-support-booking-expert/1368491/"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "Indeed",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://it.indeed.com/viewjob?jk=c1aa369eca54a8ca",
+              "https://it.indeed.com/viewjob?jk=a590ce57185c15ec",
+              "https://it.indeed.com/viewjob?jk=42fc4d0779ad8ca1",
+              "https://it.indeed.com/viewjob?jk=527ad72fe41afc8e",
+              "https://it.indeed.com/viewjob?jk=a526dbf54cae5c0f",
+              "https://it.indeed.com/viewjob?jk=9f2fecc21daa3a8b",
+              "https://it.indeed.com/viewjob?jk=0c37dd1163b17d08",
+              "https://it.indeed.com/viewjob?jk=06684473886b3864",
+              "https://it.indeed.com/viewjob?jk=013472222e6deac0",
+              "https://it.indeed.com/viewjob?jk=cccd8e30c6312019",
+              "https://it.indeed.com/viewjob?jk=3136c5425a64ae4d",
+              "https://it.indeed.com/viewjob?jk=97e07e22b529aeb6",
+              "https://it.indeed.com/viewjob?jk=063365fd16dcf364",
+              "https://it.indeed.com/viewjob?jk=66f1e6fcefb1de81",
+              "https://it.indeed.com/viewjob?jk=a6346e6341006c2f",
+              "https://it.indeed.com/viewjob?jk=77bfde026bee2895",
+              "https://it.indeed.com/viewjob?jk=91e4efe70ca57dc4",
+              "https://it.indeed.com/viewjob?jk=d2a0612f76ac3e42",
+              "https://it.indeed.com/viewjob?jk=3e01b9c5739c3d6c",
+              "https://it.indeed.com/viewjob?jk=6f86d7404a6b16d6",
+              "https://it.indeed.com/viewjob?jk=d4ffb00492d8c391",
+              "https://it.indeed.com/viewjob?jk=bfdf6f31ae1c239e",
+              "https://it.indeed.com/viewjob?jk=b0293d29ce4ae7aa",
+              "https://it.indeed.com/viewjob?jk=dee13ca6f292b3d6"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "Atempo",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://atempojob.atempospa.it/job/view-job.php?id=16913-addetto-a-front-office-back-office-amministrativo-scandicci&language=it"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "Qboxmail Careers",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://www.qboxmail.it/lavora-con-noi/"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "ATI Project Careers",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://atiproject.com/careers/posizioni-aperte/?single=tender-manager",
+              "https://atiproject.com/careers/posizioni-aperte/?single=tender-specialist"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "Orienta - annuncio",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://www.orientajob.com/job/view-job.php?id=162370-impiegato-a-commerciale-sesto-fiorentino&language=it"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "MADx Careers",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://madx.factorialhr.com/job_posting/sales-support-tender-specialist-f-m-x-italy-301551"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "Experis",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://www.experis.it/it/trova-lavoro/ict/specialista-amministrativo-ufficio-gare/1035397"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "Manpower",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://www.manpower.it/it/annuncio-lavoro/pubblica-amministrazione/amministrazione/addetto-e-addetta-supporto-amministrativo-gare-e-appalti-firenze/1009097",
+              "https://www.manpower.it/it/annuncio-lavoro/consumer-products/logistica/back-office-commerciale/1043365"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "Direzione Lavoro Group",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://careers.direzionelavorogroup.it/job/view-job.php?id=18185-1-addetto-a-back-office-commerciale-campi-bisenzio&language=it"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "Expeditors",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://jobs.smartrecruiters.com/expeditors/744000151403569"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "SECO Careers",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://www.seco.com/company/work-with-us/details/event-trade-shows-specialist"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "ANAS Careers",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://careers.stradeanas.it/job/Magliano-in-Toscana-Specialist-Amministrazione-ST-Toscana-Tosc/1369212755/"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "Ali Lavoro",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://careers.alilavoro.it/job/view-job.php?id=89468-back-office-commerciale-italia-m-f-prato&language=it",
+              "https://careers.alilavoro.it/job/view-job.php?id=89832-addetto-a-sviluppo-commerciale-e-gestione-clienti-pisa&language=it"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "Openjobmetis",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://www.openjobmetis.it/it/candidati/offerte-di-lavoro/impiegataimpiegato-back-office-e-gestione-ordini-137097"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "Burberry Careers (SuccessFactors)",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://burberrycareers.com/job/Florence-Logistic-Admin-Not/1434709600/"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "LHH",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://www.lhh.com/it-it/cerca-lavoro/technical-document-controller-roma-roma/jn-092026-1170249"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "Orienta",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://www.orientajob.com/job/view-job.php?id=161564-un-una-addetto-a-back-office-customer-care%C2%A0-pisa&language=it"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          },
+          {
+            "source": "Umana",
+            "method": "Lettura pagine specifiche",
+            "evidenceUrls": [
+              "https://www.umana.it/per-le-persone/offerte-di-lavoro/logistica-trasporto-magazzino/toscana/lucca/",
+              "https://www.umana.it/per-le-persone/offerte-di-lavoro/impiegato-back-office-commerciale/314151/"
+            ],
+            "outcome": "Pagine pertinenti lette; non enumerazione completa",
+            "checkedAt": "2026-10-10T13:09:48.616Z",
+            "coverageLimit": "Verifica puntuale; elenco totale delle vacancy non esaurito."
+          }
+        ],
         "coverageDiagnostics": {
-          "indeedQueries": 1,
-          "linkedinQueries": 0,
-          "portalQueryCount": 3,
+          "indeedQueries": 5,
+          "linkedinQueries": 4,
+          "portalQueryCount": 244,
           "careerPagesOpened": 0,
           "careerSearchesRun": 1,
           "atsSearchesRun": 0,
-          "fallbackSearchesRun": 4,
+          "fallbackSearchesRun": 1,
           "sourcesPartiallyCovered": [
             "Indeed",
             "Ingenium",
             "Randstad",
-            "Manpower"
+            "Manpower",
+            "LinkedIn Jobs",
+            "Randstad (annuncio",
+            "Gi Group/Grafton",
+            "Atempo",
+            "Qboxmail Careers",
+            "ATI Project Careers",
+            "Orienta - annuncio",
+            "Tenuta Toscana Careers",
+            "MADx Careers",
+            "TerraEvents Careers",
+            "Experis",
+            "VetPartners Careers",
+            "Direzione Lavoro Group",
+            "Expeditors",
+            "Akkodis Careers",
+            "SECO Careers",
+            "ANAS Careers",
+            "Ali Lavoro",
+            "Openjobmetis",
+            "Burberry Careers (SuccessFactors)",
+            "Michael Page",
+            "LHH",
+            "Orienta",
+            "Software Partner Italia",
+            "Hays",
+            "Adecco",
+            "Monster",
+            "Page Personnel",
+            "Synergie",
+            "Jobrapido",
+            "Lavoropiù",
+            "Jooble",
+            "Talent.com",
+            "Glassdoor Jobs",
+            "Careerjet",
+            "Trovolavoro",
+            "Bakeca Lavoro",
+            "Helplavoro",
+            "Umana",
+            "During",
+            "Etjca",
+            "MAW",
+            "ADHR",
+            "Humangest",
+            "Staff",
+            "Toscana Lavoro ARTI",
+            "Adzuna",
+            "inPA",
+            "Jobijoba",
+            "SimplyHired",
+            "Jobbydoo",
+            "CercoLavoro",
+            "Subito Lavoro",
+            "Hunters Group",
+            "Wyser",
+            "CVing",
+            "IQM",
+            "High Professional",
+            "Profili & Carriere",
+            "Jefferson Wells",
+            "e-work",
+            "Jobtech",
+            "Iziwork",
+            "Eurointerim",
+            "QuoJobis",
+            "La Risorsa Umana",
+            "SAPIENS",
+            "CPL Taylor",
+            "InfoJobs"
           ],
           "companiesPartiallyCovered": [
             "Ingenium"
           ]
-        }
+        },
+        "removedJobs": [
+          {
+            "id": "poggio-ai-laghi-commercial-event-manager-a590ce57185c15ec",
+            "url": "https://it.indeed.com/viewjob?jk=a590ce57185c15ec",
+            "reason": "Annuncio scaduto"
+          },
+          {
+            "id": "universo-tecnico-ufficio-gare-senior-4469712984",
+            "url": "https://it.linkedin.com/jobs/view/tecnico-ufficio-gare-senior-at-universo-4469712984",
+            "reason": "Non accetta più candidature"
+          },
+          {
+            "id": "tk-elevator-back-office-tecnico-amministrativo-pisa-4460615736",
+            "url": "https://it.linkedin.com/jobs/view/back-office-tecnico-amministrativo-at-tk-elevator-4460615736",
+            "reason": "Non accetta più candidature"
+          },
+          {
+            "id": "consiag-servizi-comuni-ufficio-gare-appalti-4473215687",
+            "url": "https://it.linkedin.com/jobs/view/impiegato-per-ufficio-gare-e-appalti-at-consiag-servizi-comuni-srl-4473215687",
+            "reason": "Non accetta più candidature"
+          },
+          {
+            "id": "lifeenergy-order-management-grosseto-66f1e6fcefb1de81",
+            "url": "https://it.indeed.com/viewjob?jk=66f1e6fcefb1de81",
+            "reason": "Annuncio scaduto"
+          },
+          {
+            "id": "luce-carrara-back-office-commerciale-4464451710",
+            "url": "https://it.linkedin.com/jobs/view/back-office-commerciale-at-luce-di-carrara-4464451710",
+            "reason": "Non accetta più candidature"
+          },
+          {
+            "id": "twinkly-customer-care-natale-full-remote-4476314317",
+            "url": "https://it.linkedin.com/jobs/view/customer-care-specialist%E2%80%93-natale-2026-full-remote-at-twinkly-4476314317",
+            "reason": "Non accetta più candidature"
+          }
+        ]
       }
     }
   },
