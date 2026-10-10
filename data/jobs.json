@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T06:08:41Z",
+  "generatedAt": "2026-10-10T13:05:28.358Z",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -6109,6 +6109,80 @@
             "Hunters Group",
             "La Risorsa Umana",
             "Eurointerim"
+          ],
+          "companiesPartiallyCovered": [
+            "Ingenium"
+          ]
+        }
+      },
+      "15:00": {
+        "scheduledFor": "2026-10-10T15:00:00+02:00",
+        "completedAt": "2026-10-10T13:05:28.358Z",
+        "status": "partial",
+        "requiredSourcesTotal": 60,
+        "requiredSourcesChecked": 0,
+        "sourcesChecked": [],
+        "sourcesUnavailable": [],
+        "extraSourcesChecked": [],
+        "companiesChecked": [],
+        "atsChecked": [],
+        "queriesRun": 4,
+        "newJobs": 0,
+        "activeJobs": 159,
+        "layersCompleted": [],
+        "secondPassSources": [],
+        "notes": "Checkpoint iniziale: ricerca in corso, copertura incompleta.",
+        "searchLog": [
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"back office commerciale\" Toscana",
+            "checkedAt": "2026-10-10T13:05:13.706Z",
+            "outcome": "risultati",
+            "limits": "Ricerca tramite indice; copertura non esaustiva."
+          },
+          {
+            "source": "Ingenium",
+            "query": "Ingenium \"Event Coordinator\" lavoro",
+            "checkedAt": "2026-10-10T13:05:13.707Z",
+            "outcome": "risultati",
+            "limits": "Ricerca tramite indice; copertura non esaustiva."
+          },
+          {
+            "source": "Randstad",
+            "query": "site:randstad.it \"ufficio gare\" Toscana",
+            "checkedAt": "2026-10-10T13:05:13.707Z",
+            "outcome": "risultati",
+            "limits": "Ricerca tramite indice; copertura non esaustiva."
+          },
+          {
+            "source": "Manpower",
+            "query": "site:manpower.it \"sales support\" Firenze",
+            "checkedAt": "2026-10-10T13:05:13.707Z",
+            "outcome": "risultati",
+            "limits": "Ricerca tramite indice; copertura non esaustiva."
+          }
+        ],
+        "sourcesSearched": [
+          "Indeed",
+          "Ingenium",
+          "Randstad",
+          "Manpower"
+        ],
+        "sourcesVerified": [],
+        "sourceVerification": [],
+        "coverageDiagnostics": {
+          "indeedQueries": 1,
+          "linkedinQueries": 0,
+          "portalQueryCount": 3,
+          "careerPagesOpened": 0,
+          "careerSearchesRun": 1,
+          "atsSearchesRun": 0,
+          "fallbackSearchesRun": 4,
+          "sourcesPartiallyCovered": [
+            "Indeed",
+            "Ingenium",
+            "Randstad",
+            "Manpower"
           ],
           "companiesPartiallyCovered": [
             "Ingenium"
