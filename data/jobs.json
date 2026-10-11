@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T06:00:23.950Z",
+  "generatedAt": "2026-10-11T06:04:55.904Z",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -3722,6 +3722,61 @@
       "firstSeenRun": "2026-10-10 15:00",
       "verifiedAt": "2026-10-10T13:09:45.148Z",
       "verificationUrl": "https://careers.alilavoro.it/job/view-job.php?id=89832-addetto-a-sviluppo-commerciale-e-gestione-clienti-pisa&language=it"
+    },
+    {
+      "id": "consiag-servizi-comuni-ufficio-gare-appalti-4473215687",
+      "date": "2026-09-29",
+      "company": "CONSIAG SERVIZI COMUNI SRL",
+      "title": "Impiegato per ufficio gare e appalti",
+      "location": "Prato",
+      "workMode": "Non dichiarato",
+      "contract": "Tempo indeterminato · full time · 5° livello CCNL Gas Acqua",
+      "salary": "Importo non dichiarato",
+      "category": "Tender",
+      "score": 10,
+      "source": "CONSIAG – portale ufficiale",
+      "url": "https://consiag.portaleamministrazionetrasparente.it/archivio22_bandi-di-concorso_0_36075_874_1.html",
+      "summary": "Gestione di procedure di affidamento e appalti pubblici, predisposizione e controllo documentale, adempimenti, scadenze e supporto amministrativo. Profilo molto vicino all’esperienza di Alice; candidatura indicata entro il 18 ottobre 2026.",
+      "checks": [
+        "Bando ufficiale e allegato letti: scadenza 18 ottobre 2026",
+        "Prato; tempo indeterminato per il primo classificato",
+        "Richiesti diploma/laurea e specifica esperienza negli appalti pubblici: verificare combinazione prevista dal bando",
+        "Ripristinata offerta già nota; prima scoperta conservata"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-01T15:08:25+02:00",
+      "firstSeenRun": "15:00",
+      "verifiedAt": "2026-10-11T06:02:31.935Z",
+      "verificationUrl": "https://consiag.portaleamministrazionetrasparente.it/archivio22_bandi-di-concorso_0_36075_874_1.html"
+    },
+    {
+      "id": "kodland-internal-sales-manager-italy",
+      "date": "Non dichiarato",
+      "company": "Kodland",
+      "title": "Internal Sales Manager",
+      "location": "Italia",
+      "workMode": "Full remote / remote-first",
+      "contract": "Non dichiarato",
+      "salary": "Fisso 900 €/mese + commissioni fino al 6%; lordo/netto non dichiarato",
+      "category": "Sales Support",
+      "score": 5.5,
+      "source": "Kodland / Recruitee",
+      "url": "https://kodland.recruitee.com/o/internal-sales-manager?lang=it",
+      "summary": "Gestione clienti esistenti, proposte commerciali, rinnovi e aggiornamento CRM in ambito formazione digitale. Ruolo prevalentemente B2C, con vendita e retention a distanza.",
+      "checks": [
+        "Remoto dall’Italia dichiarato",
+        "Inglese B2+ richiesto",
+        "Orario contraddittorio: descrizione 45 ore, scheda 40; da chiarire",
+        "Retribuzione contenuta e contratto non specificato",
+        "Annuncio Customer Service Manager molto simile: non duplicato"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-10-11T06:01:16.976Z",
+      "firstSeenRun": "08:00",
+      "verifiedAt": "2026-10-11T06:01:16.976Z",
+      "verificationUrl": "https://kodland.recruitee.com/o/internal-sales-manager?lang=it"
     }
   ],
   "audit": {
@@ -3729,7 +3784,7 @@
     "runs": {
       "08:00": {
         "scheduledFor": "2026-10-11T08:00:00+02:00",
-        "completedAt": "2026-10-11T06:00:23.950Z",
+        "completedAt": "2026-10-11T06:04:55.904Z",
         "status": "partial",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 0,
@@ -3748,12 +3803,17 @@
         "extraSourcesChecked": [],
         "companiesChecked": [],
         "atsChecked": [],
-        "queriesRun": 480,
-        "newJobs": 0,
-        "activeJobs": 152,
+        "queriesRun": 643,
+        "restoredJobs": 1,
+        "newJobs": 1,
+        "activeJobs": 154,
         "layersCompleted": [],
-        "secondPassSources": [],
-        "notes": "Ricontrollati tutti i 153 URL esistenti; rimossa offerta Grafton Uzzano 4470149554 per dicitura esplicita 'Non accetta più candidature'. Portali e ATS cercati tramite indice: molti risultati irrilevanti o inaccessibili. Copertura incompleta; approfondimento aziende e annunci in corso.",
+        "secondPassSources": [
+          "Etjca",
+          "Staff",
+          "FRI Communication"
+        ],
+        "notes": "Checkpoint: 643 controlli documentati. Ripristinato CONSIAG da bando ufficiale, conservando prima scoperta; aggiunto Kodland remoto con limiti espliciti. Rimossa solo offerta Grafton chiusa. Copertura incompleta: enumerazione portali e ATS non esaustiva; molte pagine bloccate o generiche.",
         "searchLog": [
           {
             "source": "Indeed",
@@ -7747,6 +7807,1311 @@
             "checkedAt": "2026-10-11T05:59:51.030Z",
             "outcome": "risultati",
             "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "KPMG",
+            "query": "KPMG careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:32.486Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "EY",
+            "query": "EY careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:32.685Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Engineering",
+            "query": "Engineering careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:32.796Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "NTT DATA",
+            "query": "NTT DATA careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:32.908Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Var Group",
+            "query": "Var Group careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:33.028Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "GPI",
+            "query": "GPI careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:33.148Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "DXC",
+            "query": "DXC careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:33.269Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Deloitte",
+            "query": "Deloitte careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:33.391Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Almaviva",
+            "query": "Almaviva careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:33.514Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Dedalus",
+            "query": "Dedalus careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:33.636Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Avanade",
+            "query": "Avanade careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:33.758Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Accenture",
+            "query": "Accenture careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:33.880Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Reply",
+            "query": "Reply careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:34.003Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "PwC",
+            "query": "PwC careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:34.126Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Capgemini",
+            "query": "Capgemini careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:34.249Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Lutech",
+            "query": "Lutech careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:34.370Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Salesforce",
+            "query": "Salesforce careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:35.206Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Esprinet",
+            "query": "Esprinet careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:35.344Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "IBM",
+            "query": "IBM careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:35.468Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Oracle",
+            "query": "Oracle careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:35.606Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Siemens",
+            "query": "Siemens careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:35.729Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Microsoft",
+            "query": "Microsoft careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:35.852Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Vodafone",
+            "query": "Vodafone careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:35.963Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "TeamSystem",
+            "query": "TeamSystem careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:36.087Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Lenovo",
+            "query": "Lenovo careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:36.213Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Aruba",
+            "query": "Aruba careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:36.338Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Cisco",
+            "query": "Cisco careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:36.464Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "SAP",
+            "query": "SAP careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:36.590Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Zucchetti",
+            "query": "Zucchetti careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:36.716Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "TD SYNNEX",
+            "query": "TD SYNNEX careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:36.830Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Fastweb",
+            "query": "Fastweb careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:36.958Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Baker Hughes",
+            "query": "Baker Hughes careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:37.083Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "TIM",
+            "query": "TIM careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:37.879Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "HPE",
+            "query": "HPE careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:38.012Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Google Cloud",
+            "query": "Google Cloud careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:38.134Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "TÜV",
+            "query": "TÜV careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:38.261Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Ericsson",
+            "query": "Ericsson careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:38.381Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Canonical",
+            "query": "Canonical careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:38.510Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Fortinet",
+            "query": "Fortinet careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:38.636Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "RINA",
+            "query": "RINA careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:38.762Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "ServiceNow",
+            "query": "ServiceNow careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:38.890Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Wolters Kluwer",
+            "query": "Wolters Kluwer careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:39.018Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Bureau Veritas",
+            "query": "Bureau Veritas careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:39.149Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Palo Alto Networks",
+            "query": "Palo Alto Networks careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:39.277Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Nokia",
+            "query": "Nokia careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:39.410Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "AWS",
+            "query": "AWS careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:39.539Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Dell",
+            "query": "Dell careers Italia posizioni aperte",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:00:39.666Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Web indicizzato",
+            "query": "offerta lavoro \"Scandicci\" \"gestione ordini\"",
+            "kind": "operational",
+            "checkedAt": "2026-10-11T06:00:40.482Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Web indicizzato",
+            "query": "offerta lavoro \"Sesto Fiorentino\" \"back office\"",
+            "kind": "operational",
+            "checkedAt": "2026-10-11T06:00:40.637Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Web indicizzato",
+            "query": "offerta lavoro \"Arezzo\" \"eventi\"",
+            "kind": "operational",
+            "checkedAt": "2026-10-11T06:00:40.778Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Web indicizzato",
+            "query": "offerta lavoro \"Chianti\" \"gestione ordini\"",
+            "kind": "operational",
+            "checkedAt": "2026-10-11T06:00:40.909Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Web indicizzato",
+            "query": "offerta lavoro \"Livorno\" \"ufficio gare\"",
+            "kind": "operational",
+            "checkedAt": "2026-10-11T06:00:41.042Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Web indicizzato",
+            "query": "offerta lavoro \"Prato\" \"ufficio gare\"",
+            "kind": "operational",
+            "checkedAt": "2026-10-11T06:00:41.175Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Web indicizzato",
+            "query": "offerta lavoro \"Bagno a Ripoli\" \"eventi\"",
+            "kind": "operational",
+            "checkedAt": "2026-10-11T06:00:41.309Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Web indicizzato",
+            "query": "offerta lavoro \"Pistoia\" \"gestione ordini\"",
+            "kind": "operational",
+            "checkedAt": "2026-10-11T06:00:41.442Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Web indicizzato",
+            "query": "offerta lavoro \"Campi Bisenzio\" \"ufficio gare\"",
+            "kind": "operational",
+            "checkedAt": "2026-10-11T06:00:41.574Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Web indicizzato",
+            "query": "offerta lavoro \"Grosseto\" \"gestione ordini\"",
+            "kind": "operational",
+            "checkedAt": "2026-10-11T06:00:41.706Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Web indicizzato",
+            "query": "offerta lavoro \"Massa Carrara\" \"eventi\"",
+            "kind": "operational",
+            "checkedAt": "2026-10-11T06:00:41.840Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Web indicizzato",
+            "query": "offerta lavoro \"Valdisieve\" \"eventi\"",
+            "kind": "operational",
+            "checkedAt": "2026-10-11T06:00:41.975Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Web indicizzato",
+            "query": "offerta lavoro \"Figline Incisa Valdarno\" \"ufficio gare\"",
+            "kind": "operational",
+            "checkedAt": "2026-10-11T06:00:42.108Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Web indicizzato",
+            "query": "offerta lavoro \"Empoli\" \"back office\"",
+            "kind": "operational",
+            "checkedAt": "2026-10-11T06:00:42.243Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Web indicizzato",
+            "query": "offerta lavoro \"Pontassieve\" \"back office\"",
+            "kind": "operational",
+            "checkedAt": "2026-10-11T06:00:42.376Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Web indicizzato",
+            "query": "offerta lavoro \"Siena\" \"back office\"",
+            "kind": "operational",
+            "checkedAt": "2026-10-11T06:00:42.510Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Accenture",
+            "url": "https://www.accenture.com/it-it/careers/jobsearch",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:00:52.186Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "GPI",
+            "url": "https://www.gpigroup.com/carriere/",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:00:52.351Z",
+            "outcome": "bloccata",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Var Group",
+            "url": "https://www.careers.vargroup.com/",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:00:52.473Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "DXC",
+            "url": "https://careers.dxc.com/it/",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:00:52.609Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "PwC",
+            "url": "https://jobs-it.pwc.com/it/it",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:00:52.759Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Capgemini",
+            "url": "https://www.capgemini.com/it-it/carriere/entra-in-capgemini/",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:00:52.909Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Reply",
+            "url": "https://www.reply.com/wm-reply/it/careers",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:00:53.059Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Deloitte",
+            "url": "https://www.deloitte.com/it/it/careers.html",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:00:53.209Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Ingenium",
+            "url": "https://it.linkedin.com/jobs/view/event-coordinator-specialist-at-ingenium-made-in-italy-innovation-platform-4467209845",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:00:53.360Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Almaviva",
+            "url": "https://www.almaviva.it/it_IT/",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:00:53.510Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Engineering",
+            "url": "https://www.eng.it/it/careers/join-us",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:00:53.659Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "EY",
+            "url": "https://www.ey.com/it_it/careers",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:00:53.806Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Avanade",
+            "url": "https://www.avanade.com/it-it/career/search-jobs",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:00:53.966Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "KPMG",
+            "url": "https://kpmg.com/it/it/careers.html",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:00:54.116Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "NTT DATA",
+            "url": "https://it.nttdata.com/career/posizioni-aperte",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:00:54.263Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Dedalus",
+            "url": "https://www.dedalus.com/italy/it/lavorare-in-dedalus/le-nostre-offerte-di-lavoro/",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:00:54.409Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Fastweb",
+            "url": "https://www.fastwebvodafone.it/lavora-con-noi/job-opportunities/list/?languageSelect=IT",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:10.065Z",
+            "outcome": "bloccata",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Aruba",
+            "url": "https://www.aruba.it/lavora-con-noi.aspx",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:10.244Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Esprinet",
+            "url": "https://www.esprinet.com/it/careers/",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:10.422Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Vodafone",
+            "url": "https://opportunities.vodafone.com/go/Technology_Italy_Vodafone/4186301/",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:10.580Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "TD SYNNEX",
+            "url": "https://careers.tdsynnex.com/us/en/italy-careers",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:10.717Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Lutech",
+            "url": "https://www.lutech.group/it/careers/search",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:10.858Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Microsoft",
+            "url": "https://careers.microsoft.com/v2/global/en/home.html",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:10.996Z",
+            "outcome": "bloccata",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Cisco",
+            "url": "https://careers.cisco.com/global/en/search-results?from=531&s=1",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:11.116Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Siemens",
+            "url": "https://www.siemens.com/it-it/company/jobs/",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:11.251Z",
+            "outcome": "bloccata",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Zucchetti",
+            "url": "https://www.zucchetti.it/website/cms/zcareers.html",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:11.403Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "TeamSystem",
+            "url": "https://www.teamsystem.com/careers/",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:11.556Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "SAP",
+            "url": "https://careers.sap.com/go/SAP-Jobs-in-Italy/942601/?q=&sortColumn=sort_location&sortDirection=asc",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:11.706Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Lenovo",
+            "url": "https://jobs.lenovo.com/en_US/careers/SearchJobs",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:11.857Z",
+            "outcome": "bloccata",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Oracle",
+            "url": "https://www.oracle.com/it/careers/",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:12.013Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Salesforce",
+            "url": "https://careers.salesforce.com/en/our-locations/europe-middle-east-and-africa/italy/",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:12.173Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "IBM",
+            "url": "https://www.ibm.com/careers/search",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:12.325Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "RINA",
+            "url": "https://www.rina.org/it/carriere/working-in-rina",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:13.256Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "HPE",
+            "url": "https://careers.hpe.com/careers",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:13.442Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Nokia",
+            "url": "https://www.nokia.com/careers/",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:13.596Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Fortinet",
+            "url": "https://www.fortinet.com/it/corporate/careers",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:13.750Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Google Cloud",
+            "url": "https://www.google.com/about/careers/applications/jobs/results/?location=Italy",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:13.907Z",
+            "outcome": "bloccata",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "TIM",
+            "url": "https://www.gruppotim.it/it/lavora-con-noi/candidature-cv.html",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:14.061Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Bureau Veritas",
+            "url": "https://www.bureauveritas.it/careers",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:14.216Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Palo Alto Networks",
+            "url": "https://jobs.paloaltonetworks.com/en/location/italien-jobs/47263/3175395/2",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:14.360Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Dell",
+            "url": "https://jobs.dell.com/en/business/custom_fields.externalreferencecodefacet/r278831/375/5",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:14.501Z",
+            "outcome": "bloccata",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Wolters Kluwer",
+            "url": "https://careers.wolterskluwer.com/it-it",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:14.645Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Canonical",
+            "url": "https://canonical.com/careers/all",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:14.788Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Baker Hughes",
+            "url": "https://careers.bakerhughes.com/it/it/our-career-paths",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:14.934Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "ServiceNow",
+            "url": "https://careers.servicenow.com/locations/emea/italy/",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:15.075Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "TÜV",
+            "url": "https://www.tuv.com/italy/it/carriera/",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:15.214Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Ericsson",
+            "url": "https://www.ericsson.com/en/careers/global-locations/italy",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:15.353Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "AWS",
+            "url": "https://www.amazon.jobs/content/it/locations/italy",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:15.494Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/q-back-office-commerciale-l-toscana-offerte-lavoro.html?start=20&sort=date",
+            "kind": "portalOpen",
+            "checkedAt": "2026-10-11T06:01:16.194Z",
+            "outcome": "bloccata",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/back-office-commerciale-at-fri-communication-group-4432381973",
+            "kind": "new",
+            "checkedAt": "2026-10-11T06:01:16.425Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/cmp/Sibill/jobs",
+            "kind": "portalOpen",
+            "checkedAt": "2026-10-11T06:01:16.570Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Wolters Kluwer",
+            "url": "https://wk.wd3.myworkdayjobs.com/it-IT/External/job/Customer-Operations-Back-Office-Expert_R0057474",
+            "kind": "new",
+            "checkedAt": "2026-10-11T06:01:16.713Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Octopus Energy",
+            "url": "https://jobs.lever.co/octoenergy/15fd74cd-2c09-4d5d-8353-f25b79ae42f6",
+            "kind": "new",
+            "checkedAt": "2026-10-11T06:01:16.839Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Kodland",
+            "url": "https://kodland.recruitee.com/o/internal-sales-manager?lang=it",
+            "kind": "new",
+            "checkedAt": "2026-10-11T06:01:16.976Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/q-back-office-commerciale-l-toscana-offerte-lavoro.html?start=10",
+            "kind": "portalOpen",
+            "checkedAt": "2026-10-11T06:01:19.221Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Accenture",
+            "query": "site:accenture.wd103.myworkdayjobs.com tender Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:34.589Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Var Group",
+            "query": "site:careers.vargroup.com sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:34.791Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Var Group",
+            "query": "site:careers.vargroup.com tender Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:35.012Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "TeamSystem",
+            "query": "site:teamsystem.wd103.myworkdayjobs.com sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:35.138Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "TeamSystem",
+            "query": "site:teamsystem.wd103.myworkdayjobs.com tender Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:35.277Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Zucchetti",
+            "query": "site:zucchetti.intervieweb.it sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:35.435Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Zucchetti",
+            "query": "site:zucchetti.intervieweb.it tender Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:35.596Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Baker Hughes",
+            "query": "site:bakerhughes.wd5.myworkdayjobs.com tender Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:35.756Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Wolters Kluwer",
+            "query": "site:wk.wd3.myworkdayjobs.com sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:35.920Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Dedalus",
+            "query": "site:dedalus.wd3.myworkdayjobs.com sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:36.078Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Lutech",
+            "query": "site:lutech.intervieweb.it tender Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:36.239Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Baker Hughes",
+            "query": "site:bakerhughes.wd5.myworkdayjobs.com sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:36.408Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Lutech",
+            "query": "site:lutech.intervieweb.it sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:36.577Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Accenture",
+            "query": "site:accenture.wd103.myworkdayjobs.com sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:36.737Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Dedalus",
+            "query": "site:dedalus.wd3.myworkdayjobs.com tender Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:36.909Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "KPMG",
+            "query": "site:careers.kpmg.it tender Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:50.579Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Ingenium",
+            "query": "site:ingeniumitaly.com tender Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:50.753Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "RINA",
+            "query": "site:careers.rina.org sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:50.901Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "EY",
+            "query": "site:careers.ey.com sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:51.051Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "RINA",
+            "query": "site:careers.rina.org tender Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:51.200Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "SAP",
+            "query": "site:careers.sap.com tender Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:51.347Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Canonical",
+            "query": "site:canonical.com/careers tender Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:51.492Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Canonical",
+            "query": "site:canonical.com/careers sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:51.637Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "SAP",
+            "query": "site:careers.sap.com sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:51.786Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Wolters Kluwer",
+            "query": "site:wk.wd3.myworkdayjobs.com tender Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:51.932Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Ingenium",
+            "query": "site:ingeniumitaly.com sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:52.079Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "KPMG",
+            "query": "site:careers.kpmg.it sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:52.222Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Bureau Veritas",
+            "query": "site:careers.bureauveritas.com tender Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:52.387Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Bureau Veritas",
+            "query": "site:careers.bureauveritas.com sales support Italy",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:52.533Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "EY",
+            "query": "site:careers.ey.com tender Toscana",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:52.680Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/Toscana-offerte-lavoro-Event-Coordinator",
+            "kind": "portalOpen",
+            "checkedAt": "2026-10-11T06:01:53.426Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Etjca",
+            "query": "\"Buggiano\" \"back office commerciale\" Etjca",
+            "kind": "second",
+            "checkedAt": "2026-10-11T06:01:53.619Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Zucchetti",
+            "url": "https://zucchetti.intervieweb.it/jobs/addettoa-business-contact-center-2159/it/",
+            "kind": "new",
+            "checkedAt": "2026-10-11T06:01:53.779Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "url": "https://it.linkedin.com/jobs/view/impiegati-ufficio-gare-e-appalti-at-consiag-servizi-comuni-srl-4474045247",
+            "kind": "new",
+            "checkedAt": "2026-10-11T06:01:53.981Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Staff",
+            "query": "\"70533\" \"Firenze\"",
+            "kind": "second",
+            "checkedAt": "2026-10-11T06:01:54.145Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Kodland",
+            "url": "https://kodland.recruitee.com/",
+            "kind": "careerOpen",
+            "checkedAt": "2026-10-11T06:01:54.301Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/q-ufficio-gare-l-toscana-offerte-lavoro.html",
+            "kind": "portalOpen",
+            "checkedAt": "2026-10-11T06:01:54.457Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "FRI Communication",
+            "query": "FRI Communication lavora con noi back office Firenze",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:01:54.623Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/q-back-office-commerciale-l-toscana-offerte-lavoro.html?start=20",
+            "kind": "portalOpen",
+            "checkedAt": "2026-10-11T06:01:54.782Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Consiag Servizi Comuni",
+            "url": "https://consiag.portaleamministrazionetrasparente.it/archivio22_bandi-di-concorso_0_36075_874_1.html",
+            "kind": "new",
+            "checkedAt": "2026-10-11T06:02:08.170Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "FRI Communication",
+            "query": "\"FRI\" \"Back-office Commerciale\" Firenze careers",
+            "kind": "second",
+            "checkedAt": "2026-10-11T06:02:08.363Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Etjca",
+            "url": "https://career.etjca.it/job/view-job.php?id=105190&language=it",
+            "kind": "new",
+            "checkedAt": "2026-10-11T06:02:08.517Z",
+            "outcome": "bloccata",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "RINA",
+            "url": "https://careers.rina.org/job/Viareggio-Junior-Marine-Business-Support-Advisor-55049/1364870655/",
+            "kind": "new",
+            "checkedAt": "2026-10-11T06:02:08.693Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Kodland",
+            "url": "https://kodland.recruitee.com/o/customer-service-manager?lang=it",
+            "kind": "new",
+            "checkedAt": "2026-10-11T06:02:08.861Z",
+            "outcome": "risultati",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Consiag Servizi Comuni",
+            "url": "https://consiag.portaleamministrazionetrasparente.it/archivio22_bandi-di-concorso_0_36075_874_1.html",
+            "query": "Apertura allegato avviso selezione (link 5)",
+            "kind": "verification",
+            "checkedAt": "2026-10-11T06:02:31.935Z",
+            "outcome": "risultati",
+            "limits": "Verifica bando originale"
           }
         ],
         "sourceVerification": [
@@ -8081,16 +9446,66 @@
           "icims.com",
           "jobvite.com",
           "ashbyhq.com",
-          "workable.com"
+          "workable.com",
+          "KPMG",
+          "EY",
+          "Engineering",
+          "NTT DATA",
+          "Var Group",
+          "GPI",
+          "DXC",
+          "Deloitte",
+          "Almaviva",
+          "Dedalus",
+          "Avanade",
+          "Accenture",
+          "Reply",
+          "PwC",
+          "Capgemini",
+          "Lutech",
+          "Salesforce",
+          "Esprinet",
+          "IBM",
+          "Oracle",
+          "Siemens",
+          "Microsoft",
+          "Vodafone",
+          "TeamSystem",
+          "Lenovo",
+          "Aruba",
+          "Cisco",
+          "SAP",
+          "Zucchetti",
+          "TD SYNNEX",
+          "Fastweb",
+          "Baker Hughes",
+          "TIM",
+          "HPE",
+          "Google Cloud",
+          "TÜV",
+          "Ericsson",
+          "Canonical",
+          "Fortinet",
+          "RINA",
+          "ServiceNow",
+          "Wolters Kluwer",
+          "Bureau Veritas",
+          "Palo Alto Networks",
+          "Nokia",
+          "AWS",
+          "Dell",
+          "Web indicizzato",
+          "FRI Communication",
+          "Consiag Servizi Comuni"
         ],
         "coverageDiagnostics": {
           "indeedQueries": 27,
           "linkedinQueries": 26,
           "portalQueryCount": 285,
-          "careerPagesOpened": 1,
-          "careerSearchesRun": 1,
+          "careerPagesOpened": 50,
+          "careerSearchesRun": 79,
           "atsSearchesRun": 36,
-          "fallbackSearchesRun": 0,
+          "fallbackSearchesRun": 3,
           "sourcesPartiallyCovered": [
             "Indeed",
             "Ingenium",
@@ -8175,10 +9590,111 @@
             "icims.com",
             "ashbyhq.com",
             "workable.com",
-            "jobvite.com"
+            "jobvite.com",
+            "KPMG",
+            "EY",
+            "Engineering",
+            "NTT DATA",
+            "Var Group",
+            "GPI",
+            "DXC",
+            "Deloitte",
+            "Almaviva",
+            "Dedalus",
+            "Avanade",
+            "Accenture",
+            "Reply",
+            "PwC",
+            "Capgemini",
+            "Lutech",
+            "Salesforce",
+            "Esprinet",
+            "IBM",
+            "Oracle",
+            "Siemens",
+            "Microsoft",
+            "Vodafone",
+            "TeamSystem",
+            "Lenovo",
+            "Aruba",
+            "Cisco",
+            "SAP",
+            "Zucchetti",
+            "TD SYNNEX",
+            "Fastweb",
+            "Baker Hughes",
+            "TIM",
+            "HPE",
+            "Google Cloud",
+            "TÜV",
+            "Ericsson",
+            "Canonical",
+            "Fortinet",
+            "RINA",
+            "ServiceNow",
+            "Wolters Kluwer",
+            "Bureau Veritas",
+            "Palo Alto Networks",
+            "Nokia",
+            "AWS",
+            "Dell",
+            "Web indicizzato",
+            "Octopus Energy",
+            "Kodland",
+            "FRI Communication",
+            "Consiag Servizi Comuni"
           ],
           "companiesPartiallyCovered": [
-            "Ingenium"
+            "Ingenium",
+            "KPMG",
+            "EY",
+            "Engineering",
+            "NTT DATA",
+            "Var Group",
+            "GPI",
+            "DXC",
+            "Deloitte",
+            "Almaviva",
+            "Dedalus",
+            "Avanade",
+            "Accenture",
+            "Reply",
+            "PwC",
+            "Capgemini",
+            "Lutech",
+            "Salesforce",
+            "Esprinet",
+            "IBM",
+            "Oracle",
+            "Siemens",
+            "Microsoft",
+            "Vodafone",
+            "TeamSystem",
+            "Lenovo",
+            "Aruba",
+            "Cisco",
+            "SAP",
+            "Zucchetti",
+            "TD SYNNEX",
+            "Fastweb",
+            "Baker Hughes",
+            "TIM",
+            "HPE",
+            "Google Cloud",
+            "TÜV",
+            "Ericsson",
+            "Canonical",
+            "Fortinet",
+            "RINA",
+            "ServiceNow",
+            "Wolters Kluwer",
+            "Bureau Veritas",
+            "Palo Alto Networks",
+            "Nokia",
+            "AWS",
+            "Dell",
+            "Kodland",
+            "FRI Communication"
           ]
         }
       }
