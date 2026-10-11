@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T06:04:55.904Z",
+  "generatedAt": "2026-10-11T06:06:05.355Z",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -2059,31 +2059,6 @@
       "firstSeenRun": "08:00"
     },
     {
-      "id": "expeditors-order-management-sesto-fiorentino-4469326260",
-      "date": "2026-10-03",
-      "company": "Expeditors",
-      "title": "Order Management (OM) Agent / Specialista Gestione Ordini e Spedizioni Internazionali",
-      "location": "Sesto Fiorentino (FI)",
-      "workMode": "In presenza",
-      "contract": "Full time · durata non dichiarata",
-      "salary": "Non dichiarato",
-      "category": "Operations",
-      "score": 9,
-      "source": "LinkedIn Jobs",
-      "url": "https://it.linkedin.com/jobs/view/order-management-om-agent-specialista-gestione-ordini-spedizioni-internazionali-sesto-fiorentino-at-expeditors-4469326260",
-      "summary": "Gestione ordini e spedizioni internazionali, documentazione, aggiornamenti a clienti e fornitori e coordinamento operativo in ambiente logistico B2B.",
-      "checks": [
-        "Sede Sesto Fiorentino",
-        "Esperienza logistica o spedizioni richiesta",
-        "Inglese richiesto",
-        "RAL visualizzata in formato non affidabile e quindi non registrata"
-      ],
-      "remote": false,
-      "active": true,
-      "firstSeenAt": "2026-10-03T08:09:49+02:00",
-      "firstSeenRun": "08:00"
-    },
-    {
       "id": "staff-back-office-commerciale-lucca-67312",
       "date": "2026-10-03",
       "company": "Azienda cliente Staff S.p.A.",
@@ -2354,31 +2329,6 @@
         "Laurea tecnica ed esperienza in gare di ingegneria richieste"
       ],
       "remote": true,
-      "active": true,
-      "firstSeenAt": "2026-10-03T15:11:09+02:00",
-      "firstSeenRun": "15:00"
-    },
-    {
-      "id": "asso-costruzioni-responsabile-gare-pisa-4459296968",
-      "date": "2026-10-03",
-      "company": "Asso Costruzioni",
-      "title": "Responsabile Ufficio Gare d’Appalto",
-      "location": "Pisa",
-      "workMode": "In presenza",
-      "contract": "Full time · durata non dichiarata",
-      "salary": "Non dichiarato",
-      "category": "Tender",
-      "score": 8.1,
-      "source": "LinkedIn Jobs",
-      "url": "https://it.linkedin.com/jobs/view/responsabile-ufficio-gare-d-appalto-4459296968",
-      "summary": "Gestione autonoma dell’intero processo di partecipazione alle gare d’appalto per impresa di costruzioni.",
-      "checks": [
-        "Sede Pisa",
-        "In presenza",
-        "Seniority medio-alta",
-        "Contratto e RAL non dichiarati"
-      ],
-      "remote": false,
       "active": true,
       "firstSeenAt": "2026-10-03T15:11:09+02:00",
       "firstSeenRun": "15:00"
@@ -3784,7 +3734,7 @@
     "runs": {
       "08:00": {
         "scheduledFor": "2026-10-11T08:00:00+02:00",
-        "completedAt": "2026-10-11T06:04:55.904Z",
+        "completedAt": "2026-10-11T06:06:05.355Z",
         "status": "partial",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 0,
@@ -3803,17 +3753,18 @@
         "extraSourcesChecked": [],
         "companiesChecked": [],
         "atsChecked": [],
-        "queriesRun": 643,
+        "queriesRun": 649,
         "restoredJobs": 1,
         "newJobs": 1,
-        "activeJobs": 154,
+        "activeJobs": 152,
         "layersCompleted": [],
         "secondPassSources": [
           "Etjca",
           "Staff",
-          "FRI Communication"
+          "FRI Communication",
+          "Ingenium"
         ],
-        "notes": "Checkpoint: 643 controlli documentati. Ripristinato CONSIAG da bando ufficiale, conservando prima scoperta; aggiunto Kodland remoto con limiti espliciti. Rimossa solo offerta Grafton chiusa. Copertura incompleta: enumerazione portali e ATS non esaustiva; molte pagine bloccate o generiche.",
+        "notes": "Scansione estesa ma parziale: 60 fonti/portali cercati nell’indice con più famiglie, 153 offerte preesistenti sottoposte a tentativo di lettura, aziende prioritarie/ATS e ricerche territoriali e remote esplorate. Fonti direttamente verificate separate da ricerche indicizzate: non è certificata copertura completa di alcun portale. Restano paginazione, filtri e approfondimenti incompleti, accessi bloccati, pagine JavaScript e risultati irrilevanti anche dopo cambio motore. Conservate offerte inaccessibili senza prova di chiusura. 1 nuova offerta Kodland; 1 ripristino CONSIAG da bando ufficiale (prima scoperta conservata, scadenza 18/10); 1 Grafton chiusa rimossa; 2 duplicati certi consolidati (Asso stesso ID, Expeditors stessa posizione con originale ATS conservato). MU.BA. Seano da approfondire: originale specifico non accessibile, non aggiunto. Nessuna certificazione retroattiva.",
         "searchLog": [
           {
             "source": "Indeed",
@@ -9112,6 +9063,54 @@
             "checkedAt": "2026-10-11T06:02:31.935Z",
             "outcome": "risultati",
             "limits": "Verifica bando originale"
+          },
+          {
+            "source": "Staff",
+            "query": "site:careers.staff.it \"back office\" Firenze",
+            "kind": "second",
+            "checkedAt": "2026-10-11T06:05:13.984Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Etjca",
+            "query": "site.etjca.it \"105190\" \"commerciale\"",
+            "kind": "second",
+            "checkedAt": "2026-10-11T06:05:14.210Z",
+            "outcome": "nessun risultato",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Ingenium",
+            "query": "Ingenium Firenze \"event\" lavoro",
+            "kind": "second",
+            "checkedAt": "2026-10-11T06:05:18.607Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=6ba82ac423db911f",
+            "kind": "new",
+            "checkedAt": "2026-10-11T06:05:30.722Z",
+            "outcome": "bloccata",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "Indeed",
+            "url": "https://it.indeed.com/viewjob?jk=76c851f653fa4324",
+            "kind": "new",
+            "checkedAt": "2026-10-11T06:05:30.932Z",
+            "outcome": "bloccata",
+            "limits": "Verifica puntuale; non copertura completa"
+          },
+          {
+            "source": "MU.BA.",
+            "query": "\"MU.BA.\" \"lavoro\" \"Seano\"",
+            "kind": "career",
+            "checkedAt": "2026-10-11T06:05:31.090Z",
+            "outcome": "risultati",
+            "limits": "Indice web; pertinenza e attività richiedono verifica della pagina"
           }
         ],
         "sourceVerification": [
@@ -9352,6 +9351,122 @@
             "outcome": "Pagine pertinenti lette",
             "checkedAt": "2026-10-11T05:59:28.013Z",
             "coverageLimit": "Verifica puntuale, enumerazione non esaustiva; gli annunci fuori criteri non vengono aggiunti"
+          },
+          {
+            "source": "Manpower",
+            "method": "Lettura diretta pagine specifiche",
+            "evidenceUrls": [
+              "https://www.manpower.it/it/annuncio-lavoro/pubblica-amministrazione/amministrazione/addetto-e-addetta-supporto-amministrativo-gare-e-appalti-firenze/1009097",
+              "https://www.manpower.it/it/annuncio-lavoro/consumer-products/logistica/back-office-commerciale/1043365"
+            ],
+            "outcome": "Pagine pertinenti lette; enumerazione parziale",
+            "checkedAt": "2026-10-11T05:58:09.905Z",
+            "coverageLimit": "Verifica puntuale; non copertura completa della fonte"
+          },
+          {
+            "source": "seco.com",
+            "method": "Lettura diretta pagine specifiche",
+            "evidenceUrls": [
+              "https://www.seco.com/company/work-with-us/details/event-trade-shows-specialist",
+              "https://www.seco.com/company/work-with-us/details/marketing-lead-management-specialist"
+            ],
+            "outcome": "Pagine pertinenti lette; enumerazione parziale",
+            "checkedAt": "2026-10-11T05:58:15.218Z",
+            "coverageLimit": "Verifica puntuale; non copertura completa della fonte"
+          },
+          {
+            "source": "burberrycareers.com",
+            "method": "Lettura diretta pagine specifiche",
+            "evidenceUrls": [
+              "https://burberrycareers.com/job/Florence-Logistic-Admin-Not/1434709600/"
+            ],
+            "outcome": "Pagine pertinenti lette; enumerazione parziale",
+            "checkedAt": "2026-10-11T05:58:22.275Z",
+            "coverageLimit": "Verifica puntuale; non copertura completa della fonte"
+          },
+          {
+            "source": "Michael Page",
+            "method": "Lettura diretta pagine specifiche",
+            "evidenceUrls": [
+              "https://www.michaelpage.it/job-detail/impiegato-amministrativo-settore-energia/ref/jn-072026-7070173?jaj=solr-similar-jobs&ng-jn=job-detail&ng-src=other-users-applied&trk=public_post_comment-text",
+              "https://www.michaelpage.it/job-detail/customer-service-wholesale-specialist-firenze/ref/jn-102026-7116670",
+              "https://www.michaelpage.it/job-detail/inside-sales-fiere-prato/ref/jn-092026-7104252"
+            ],
+            "outcome": "Pagine pertinenti lette; enumerazione parziale",
+            "checkedAt": "2026-10-11T05:58:22.932Z",
+            "coverageLimit": "Verifica puntuale; non copertura completa della fonte"
+          },
+          {
+            "source": "swpitalia.com",
+            "method": "Lettura diretta pagine specifiche",
+            "evidenceUrls": [
+              "https://swpitalia.com/posizioni-aperte/pmo-full-remote/",
+              "https://swpitalia.com/posizioni-aperte/pmo-project-coordinator-remoto/"
+            ],
+            "outcome": "Pagine pertinenti lette; enumerazione parziale",
+            "checkedAt": "2026-10-11T05:58:26.061Z",
+            "coverageLimit": "Verifica puntuale; non copertura completa della fonte"
+          },
+          {
+            "source": "Palo Alto Networks",
+            "method": "Lettura diretta pagine specifiche",
+            "evidenceUrls": [
+              "https://jobs.paloaltonetworks.com/en/location/italien-jobs/47263/3175395/2"
+            ],
+            "outcome": "Pagine pertinenti lette; enumerazione parziale",
+            "checkedAt": "2026-10-11T06:01:14.360Z",
+            "coverageLimit": "Verifica puntuale; non copertura completa della fonte"
+          },
+          {
+            "source": "Kodland",
+            "method": "Lettura diretta pagine specifiche",
+            "evidenceUrls": [
+              "https://kodland.recruitee.com/o/internal-sales-manager?lang=it",
+              "https://kodland.recruitee.com/o/customer-service-manager?lang=it"
+            ],
+            "outcome": "Pagine pertinenti lette; enumerazione parziale",
+            "checkedAt": "2026-10-11T06:01:16.976Z",
+            "coverageLimit": "Verifica puntuale; non copertura completa della fonte"
+          },
+          {
+            "source": "Consiag Servizi Comuni",
+            "method": "Lettura diretta pagine specifiche",
+            "evidenceUrls": [
+              "https://consiag.portaleamministrazionetrasparente.it/archivio22_bandi-di-concorso_0_36075_874_1.html"
+            ],
+            "outcome": "Pagine pertinenti lette; enumerazione parziale",
+            "checkedAt": "2026-10-11T06:02:08.170Z",
+            "coverageLimit": "Verifica puntuale; non copertura completa della fonte"
+          },
+          {
+            "source": "Octopus Energy",
+            "method": "Lettura diretta pagine specifiche",
+            "evidenceUrls": [
+              "https://jobs.lever.co/octoenergy/15fd74cd-2c09-4d5d-8353-f25b79ae42f6"
+            ],
+            "outcome": "Annuncio letto; sede fuori Toscana senza remoto idoneo",
+            "checkedAt": "2026-10-11T06:01:16.839Z",
+            "coverageLimit": "Verifica puntuale; non copertura completa della fonte"
+          },
+          {
+            "source": "Zucchetti",
+            "method": "Lettura diretta pagine specifiche",
+            "evidenceUrls": [
+              "https://zucchetti.intervieweb.it/jobs/addettoa-business-contact-center-2159/it/"
+            ],
+            "outcome": "Annuncio letto; sede fuori Toscana senza remoto idoneo",
+            "checkedAt": "2026-10-11T06:01:53.779Z",
+            "coverageLimit": "Verifica puntuale; non copertura completa della fonte"
+          },
+          {
+            "source": "RINA",
+            "method": "Lettura diretta pagine specifiche",
+            "evidenceUrls": [
+              "https://careers.rina.org/job/Viareggio-Junior-Marine-Business-Support-Advisor-55049/1364870655/"
+            ],
+            "outcome": "Annuncio pertinente ma chiuso",
+            "checkedAt": "2026-10-11T06:02:08.693Z",
+            "coverageLimit": "Verifica puntuale; non copertura completa della fonte"
           }
         ],
         "sourcesVerified": [
@@ -9371,7 +9486,18 @@
           "Ali Lavoro",
           "careers.stradeanas.it",
           "LHH",
-          "SAPIENS"
+          "SAPIENS",
+          "Manpower",
+          "seco.com",
+          "burberrycareers.com",
+          "Michael Page",
+          "swpitalia.com",
+          "Palo Alto Networks",
+          "Kodland",
+          "Consiag Servizi Comuni",
+          "Octopus Energy",
+          "Zucchetti",
+          "RINA"
         ],
         "sourcesSearched": [
           "Indeed",
@@ -9496,16 +9622,17 @@
           "Dell",
           "Web indicizzato",
           "FRI Communication",
-          "Consiag Servizi Comuni"
+          "Consiag Servizi Comuni",
+          "MU.BA."
         ],
         "coverageDiagnostics": {
           "indeedQueries": 27,
           "linkedinQueries": 26,
           "portalQueryCount": 285,
           "careerPagesOpened": 50,
-          "careerSearchesRun": 79,
+          "careerSearchesRun": 80,
           "atsSearchesRun": 36,
-          "fallbackSearchesRun": 3,
+          "fallbackSearchesRun": 6,
           "sourcesPartiallyCovered": [
             "Indeed",
             "Ingenium",
@@ -9642,7 +9769,8 @@
             "Octopus Energy",
             "Kodland",
             "FRI Communication",
-            "Consiag Servizi Comuni"
+            "Consiag Servizi Comuni",
+            "MU.BA."
           ],
           "companiesPartiallyCovered": [
             "Ingenium",
@@ -9694,7 +9822,8 @@
             "AWS",
             "Dell",
             "Kodland",
-            "FRI Communication"
+            "FRI Communication",
+            "MU.BA."
           ]
         }
       }
