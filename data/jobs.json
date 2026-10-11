@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T06:06:05.355Z",
+  "generatedAt": "2026-10-11T13:03:18.737Z",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -9824,6 +9824,243 @@
             "Kodland",
             "FRI Communication",
             "MU.BA."
+          ]
+        }
+      },
+      "15:00": {
+        "scheduledFor": "2026-10-11T15:00:00+02:00",
+        "completedAt": "2026-10-11T13:03:18.737Z",
+        "status": "partial",
+        "requiredSourcesTotal": 60,
+        "requiredSourcesChecked": 0,
+        "sourcesChecked": [],
+        "sourcesUnavailable": [],
+        "extraSourcesChecked": [],
+        "companiesChecked": [],
+        "atsChecked": [],
+        "queriesRun": 20,
+        "newJobs": 0,
+        "activeJobs": 152,
+        "layersCompleted": [],
+        "secondPassSources": [],
+        "notes": "Checkpoint iniziale dopo 20 controlli reali. Copertura ancora parziale; fonti non considerate complete.",
+        "searchLog": [
+          {
+            "source": "Experis",
+            "query": "site:experis.it \"PMO\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-11T13:03:03.740Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; richiede verifica della pagina specifica"
+          },
+          {
+            "source": "SAPIENS",
+            "query": "site:sapienslavoro.it \"eventi\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-11T13:03:03.951Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; richiede verifica della pagina specifica"
+          },
+          {
+            "source": "SmartRecruiters",
+            "query": "site:jobs.smartrecruiters.com \"order management\" Italy remote",
+            "kind": "ats",
+            "checkedAt": "2026-10-11T13:03:04.147Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; richiede verifica della pagina specifica"
+          },
+          {
+            "source": "Lavoropiù",
+            "query": "site:lavoropiu.it \"commerciale\" Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-11T13:03:04.300Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; richiede verifica della pagina specifica"
+          },
+          {
+            "source": "Toscana Lavoro/ARTI",
+            "query": "site:lavoro.regione.toscana.it \"back office\"",
+            "kind": "portal",
+            "checkedAt": "2026-10-11T13:03:04.442Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; richiede verifica della pagina specifica"
+          },
+          {
+            "source": "Openjobmetis",
+            "query": "site:openjobmetis.it \"gestione ordini\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-11T13:03:04.456Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; richiede verifica della pagina specifica"
+          },
+          {
+            "source": "Synergie",
+            "query": "site:synergie-italia.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-11T13:03:04.459Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; richiede verifica della pagina specifica"
+          },
+          {
+            "source": "Ingenium",
+            "query": "Ingenium Firenze Event Coordinator lavoro",
+            "kind": "career",
+            "checkedAt": "2026-10-11T13:03:04.549Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; richiede verifica della pagina specifica"
+          },
+          {
+            "source": "Randstad",
+            "query": "site:randstad.it \"ufficio gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-11T13:03:04.565Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; richiede verifica della pagina specifica"
+          },
+          {
+            "source": "Gi Group/Grafton",
+            "query": "site:gigroup.it \"back office commerciale\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-11T13:03:04.598Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; richiede verifica della pagina specifica"
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com \"back office commerciale\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-11T13:03:04.620Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; richiede verifica della pagina specifica"
+          },
+          {
+            "source": "Michael Page",
+            "query": "site:michaelpage.it \"sales operations\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-11T13:03:04.626Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; richiede verifica della pagina specifica"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:it.linkedin.com/jobs \"sales support\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-11T13:03:04.723Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; richiede verifica della pagina specifica"
+          },
+          {
+            "source": "Adecco",
+            "query": "site:adecco.it \"customer service\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-11T13:03:04.729Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; richiede verifica della pagina specifica"
+          },
+          {
+            "source": "Recruitee",
+            "query": "site:recruitee.com/o \"sales operations\" Italy remote",
+            "kind": "ats",
+            "checkedAt": "2026-10-11T13:03:04.757Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; richiede verifica della pagina specifica"
+          },
+          {
+            "source": "LHH",
+            "query": "site:lhh.com/it-it \"sales support\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-11T13:03:04.881Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; richiede verifica della pagina specifica"
+          },
+          {
+            "source": "Manpower",
+            "query": "site:manpower.it \"gare e appalti\" Firenze",
+            "kind": "portal",
+            "checkedAt": "2026-10-11T13:03:05.036Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; richiede verifica della pagina specifica"
+          },
+          {
+            "source": "Workday",
+            "query": "site:myworkdayjobs.com (\"Toscana\" OR \"Italy Remote\") \"sales support\"",
+            "kind": "ats",
+            "checkedAt": "2026-10-11T13:03:05.044Z",
+            "outcome": "nessun risultato",
+            "limits": "Ricerca indicizzata; richiede verifica della pagina specifica"
+          },
+          {
+            "source": "Orienta",
+            "query": "site:orientajob.com \"back office\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-11T13:03:05.051Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; richiede verifica della pagina specifica"
+          },
+          {
+            "source": "inPA",
+            "query": "site:inpa.gov.it \"gare\" Toscana",
+            "kind": "portal",
+            "checkedAt": "2026-10-11T13:03:05.622Z",
+            "outcome": "risultati",
+            "limits": "Ricerca indicizzata; richiede verifica della pagina specifica"
+          }
+        ],
+        "sourceVerification": [],
+        "sourcesVerified": [],
+        "sourcesSearched": [
+          "Experis",
+          "SAPIENS",
+          "SmartRecruiters",
+          "Lavoropiù",
+          "Toscana Lavoro/ARTI",
+          "Openjobmetis",
+          "Synergie",
+          "Ingenium",
+          "Randstad",
+          "Gi Group/Grafton",
+          "Indeed",
+          "Michael Page",
+          "LinkedIn Jobs",
+          "Adecco",
+          "Recruitee",
+          "LHH",
+          "Manpower",
+          "Workday",
+          "Orienta",
+          "inPA"
+        ],
+        "coverageDiagnostics": {
+          "indeedQueries": 1,
+          "linkedinQueries": 1,
+          "portalQueryCount": 16,
+          "careerPagesOpened": 0,
+          "careerSearchesRun": 1,
+          "atsSearchesRun": 3,
+          "fallbackSearchesRun": 0,
+          "sourcesPartiallyCovered": [
+            "Experis",
+            "SAPIENS",
+            "SmartRecruiters",
+            "Lavoropiù",
+            "Toscana Lavoro/ARTI",
+            "Openjobmetis",
+            "Synergie",
+            "Ingenium",
+            "Randstad",
+            "Gi Group/Grafton",
+            "Indeed",
+            "Michael Page",
+            "LinkedIn Jobs",
+            "Adecco",
+            "Recruitee",
+            "LHH",
+            "Manpower",
+            "Orienta",
+            "inPA"
+          ],
+          "companiesPartiallyCovered": [
+            "Ingenium"
           ]
         }
       }
