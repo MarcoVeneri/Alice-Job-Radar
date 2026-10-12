@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T06:11:43.105Z",
+  "generatedAt": "2026-10-12T06:15:39.751Z",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -3808,6 +3808,33 @@
       "firstSeenRun": "15:00",
       "verifiedAt": "2026-10-11T13:06:34.876Z",
       "verificationUrl": "https://it.linkedin.com/jobs/view/sales-marketing-specialist-at-fh55-hotels-4467811062"
+    },
+    {
+      "id": "baker-hughes-junior-sourcing-professional-r169928",
+      "date": "2026-10-11",
+      "company": "Baker Hughes",
+      "title": "Junior Sourcing Professional – Buying/Procurement",
+      "location": "Firenze",
+      "workMode": "Orario flessibile · presenza/ibrido non dichiarato",
+      "contract": "Tempo pieno · CCNL Industria Metalmeccanica",
+      "salary": "31.494–51.000 €",
+      "category": "Operations",
+      "score": 8.6,
+      "source": "Baker Hughes Workday / InTransparency",
+      "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/IT-FI-FLORENCE-VIA-FELICE-MATTEUCCI-2/Sourcing-Professional---Buying-Procurement_R169928",
+      "summary": "Gestione consegne e certificati dei fornitori, monitoraggio piani di produzione, coordinamento logistica, priorità e performance supplier, supporto Vendor Recovery e fatture; richiesti ERP, Excel, inglese e italiano.",
+      "checks": [
+        "Ruolo junior: possibile sovraqualificazione rispetto alla seniority di Alice",
+        "Laurea o esperienza equivalente in procurement/supply chain/economia",
+        "Trasferte regionali e internazionali fino al 20%",
+        "ATS specifico R169928 risolto; corpo pagina Workday non accessibile al crawler"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-12T06:15:08.729Z",
+      "firstSeenRun": "08:00",
+      "verifiedAt": "2026-10-12T06:15:08.729Z",
+      "verificationUrl": "https://www.in-transparency.com/it/explore/jobs/cmv3shr860009owxy6p8t344m"
     }
   ],
   "audit": {
@@ -3815,7 +3842,7 @@
     "runs": {
       "08:00": {
         "scheduledFor": "2026-10-12T08:00:00+02:00",
-        "completedAt": "2026-10-12T06:11:43.105Z",
+        "completedAt": "2026-10-12T06:15:39.751Z",
         "status": "partial",
         "requiredSourcesTotal": 60,
         "requiredSourcesChecked": 0,
@@ -3862,36 +3889,39 @@
           "CONSIAG – portale ufficiale",
           "Kodland / Recruitee",
           "Merit Medical / Workday",
-          "Fody – career page ufficiale"
+          "Fody – career page ufficiale",
+          "InTransparency"
         ],
         "companiesChecked": [],
         "atsChecked": [],
-        "queriesRun": 690,
-        "newJobs": 0,
-        "activeJobs": 155,
+        "queriesRun": 727,
+        "newJobs": 1,
+        "activeJobs": 156,
         "layersCompleted": [
           "A portali generalisti",
           "B agenzie",
           "C aggregatori",
           "D career page target (parziale)",
-          "E ATS (ricerca indicizzata)",
+          "E ATS (ricerca indicizzata e risoluzione Workday specifica)",
           "F web domain-restricted",
           "G keyword operative",
           "H aziende toscane nuove",
           "I nazionale remote-first",
           "L ricontrollo offerte esistenti",
           "M secondo passaggio fonti inizialmente bloccate",
-          "N verifica cluster promettenti"
+          "N terzo passaggio sui cluster promettenti"
         ],
         "secondPassSources": [
           "Talent.com",
           "Bakeca Lavoro",
           "Indeed",
+          "LinkedIn Jobs",
           "Manpower",
           "LHH",
-          "Randstad"
+          "Randstad",
+          "Baker Hughes Workday"
         ],
-        "notes": "Checkpoint avanzato. Tutte le 60 fonti richieste hanno almeno controlli documentati con risultati, ma nessuna è certificata come enumerata integralmente: restano in copertura parziale. Ricontrollate singolarmente tutte le 155 offerte esistenti; nessuna rimossa senza evidenza affidabile. Candidato LifeEnergy scaduto; pagina LHH rimossa; vacancy Manpower 1050867 deduplicata contro l'annuncio Ali già presente per stessa sede, settore, seniority, RAL e mansioni.",
+        "notes": "Run finale mantenuto partial: tutte le 60 fonti obbligatorie sono state cercate con controlli documentati e hanno restituito almeno un risultato, ma nessuna è certificata come enumerata integralmente tramite tutte le pagine/filtri. Ricontrollate singolarmente tutte le 155 offerte preesistenti; nessuna rimossa senza evidenza affidabile. Aggiunta 1 nuova vacancy Baker Hughes (R169928) dopo lettura della pagina specifica e risoluzione dell'ATS; il corpo Workday resta tecnicamente non accessibile. Candidato LifeEnergy scaduto e pagina LHH rimossa; Manpower 1050867 deduplicata contro l'annuncio Ali già presente.",
         "searchLog": [
           {
             "source": "Indeed",
@@ -8679,6 +8709,269 @@
             "checkedAt": "2026-10-12T06:09:56.694Z",
             "outcome": "risultati",
             "kind": "career_page_open"
+          },
+          {
+            "source": "Web vacancy pages",
+            "query": "\"back office commerciale\" Firenze \"ottobre 2026\"",
+            "checkedAt": "2026-10-12T06:12:26.947Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Web vacancy pages",
+            "query": "\"sales support\" Toscana \"ottobre 2026\"",
+            "checkedAt": "2026-10-12T06:12:26.591Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Web vacancy pages",
+            "query": "\"ufficio gare\" Toscana \"ottobre 2026\"",
+            "checkedAt": "2026-10-12T06:12:27.286Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Web vacancy pages",
+            "query": "\"tender specialist\" Firenze lavoro",
+            "checkedAt": "2026-10-12T06:12:27.071Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Web vacancy pages",
+            "query": "\"order management\" Toscana lavoro",
+            "checkedAt": "2026-10-12T06:12:26.884Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Web vacancy pages",
+            "query": "\"customer service B2B\" Toscana lavoro",
+            "checkedAt": "2026-10-12T06:12:26.452Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Web vacancy pages",
+            "query": "\"project coordinator\" Firenze lavoro",
+            "checkedAt": "2026-10-12T06:12:27.155Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Web vacancy pages",
+            "query": "\"event coordinator\" Toscana lavoro",
+            "checkedAt": "2026-10-12T06:12:27.331Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com/viewjob \"back office commerciale\" \"Campi Bisenzio\"",
+            "checkedAt": "2026-10-12T06:12:27.236Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com/viewjob \"sales support\" \"Sesto Fiorentino\"",
+            "checkedAt": "2026-10-12T06:12:27.206Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com/viewjob \"ufficio gare\" Toscana",
+            "checkedAt": "2026-10-12T06:12:28.527Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com/viewjob \"order management\" Toscana",
+            "checkedAt": "2026-10-12T06:12:28.087Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:it.linkedin.com/jobs/view \"sales administration\" Toscana",
+            "checkedAt": "2026-10-12T06:12:29.059Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:it.linkedin.com/jobs/view \"tender specialist\" Toscana",
+            "checkedAt": "2026-10-12T06:12:29.271Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:it.linkedin.com/jobs/view \"operations coordinator\" Toscana",
+            "checkedAt": "2026-10-12T06:12:28.208Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:it.linkedin.com/jobs/view \"event coordinator\" Toscana",
+            "checkedAt": "2026-10-12T06:12:29.115Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Manpower",
+            "query": "site:manpower.it/it/annuncio-lavoro \"back office commerciale\" Toscana",
+            "checkedAt": "2026-10-12T06:12:28.822Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Gi Group/Grafton",
+            "query": "site:gigroup.it/offerte-lavoro-dettaglio \"back office commerciale\" Toscana",
+            "checkedAt": "2026-10-12T06:12:28.539Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Randstad",
+            "query": "site:randstad.it/offerte-lavoro \"customer service\" Toscana",
+            "checkedAt": "2026-10-12T06:12:28.652Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Adecco",
+            "query": "site:adecco.it/offerte-lavoro \"gestione ordini\" Toscana",
+            "checkedAt": "2026-10-12T06:12:28.417Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Ali Lavoro",
+            "query": "site:careers.alilavoro.it/job/view-job.php commerciale Toscana",
+            "checkedAt": "2026-10-12T06:12:30.484Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Orienta",
+            "query": "site:orientajob.com offerta \"back office commerciale\" Toscana",
+            "checkedAt": "2026-10-12T06:12:31.091Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "LHH",
+            "query": "site:lhh.com/it-it/cerca-lavoro \"sales administration\" Italy",
+            "checkedAt": "2026-10-12T06:12:30.906Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Michael Page",
+            "query": "site:michaelpage.it/job-detail \"sales operations\" Italy",
+            "checkedAt": "2026-10-12T06:12:30.618Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Workday/MyWorkdayJobs",
+            "query": "site:myworkdayjobs.com Italy \"tender coordinator\"",
+            "checkedAt": "2026-10-12T06:12:30.084Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Greenhouse",
+            "query": "site:greenhouse.io Italy \"sales operations specialist\"",
+            "checkedAt": "2026-10-12T06:12:30.757Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Lever",
+            "query": "site:jobs.lever.co Italy \"customer operations\"",
+            "checkedAt": "2026-10-12T06:12:31.116Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Workable",
+            "query": "site:apply.workable.com Italy \"project coordinator\" remote",
+            "checkedAt": "2026-10-12T06:12:29.989Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Web vacancy pages",
+            "query": "\"commercial operations specialist\" remote Italy lavoro",
+            "checkedAt": "2026-10-12T06:12:30.319Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Web vacancy pages",
+            "query": "\"bid coordinator\" remote Italy lavoro",
+            "checkedAt": "2026-10-12T06:12:30.780Z",
+            "outcome": "risultati",
+            "kind": "third_pass_cluster"
+          },
+          {
+            "source": "Baker Hughes",
+            "query": "Baker Hughes \"Sourcing Professional - Buying/Procurement\" Firenze",
+            "checkedAt": "2026-10-12T06:13:40.052Z",
+            "outcome": "risultati",
+            "kind": "promising_cluster_followup"
+          },
+          {
+            "source": "Baker Hughes",
+            "query": "site:bakerhughes.wd5.myworkdayjobs.com \"Sourcing Professional\" Florence",
+            "checkedAt": "2026-10-12T06:13:40.788Z",
+            "outcome": "risultati",
+            "kind": "promising_cluster_followup"
+          },
+          {
+            "source": "Baker Hughes",
+            "query": "site:careers.bakerhughes.com \"Sourcing Professional\" Firenze",
+            "checkedAt": "2026-10-12T06:13:41.714Z",
+            "outcome": "risultati",
+            "kind": "promising_cluster_followup"
+          },
+          {
+            "source": "InTransparency",
+            "url": "https://www.in-transparency.com/it/explore/jobs/cmv3shr860009owxy6p8t344m",
+            "checkedAt": "2026-10-12T06:15:08.729Z",
+            "outcome": "risultati",
+            "kind": "candidate_verification",
+            "limits": "Pagina specifica completa; fonte secondaria con collegamento all'ATS aziendale"
+          },
+          {
+            "source": "Baker Hughes Workday",
+            "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/IT-FI-FLORENCE-VIA-FELICE-MATTEUCCI-2/Sourcing-Professional---Buying-Procurement_R169928",
+            "checkedAt": "2026-10-12T06:15:08.729Z",
+            "outcome": "risultati",
+            "kind": "candidate_original_resolution",
+            "limits": "URL ATS specifico R169928 risolto tramite link di candidatura; risposta senza corpo testuale"
+          },
+          {
+            "source": "Baker Hughes Workday",
+            "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/IT-FI-FLORENCE-VIA-FELICE-MATTEUCCI-2/Sourcing-Professional---Buying-Procurement_R169928",
+            "checkedAt": "2026-10-12T06:15:08.729Z",
+            "outcome": "bloccata",
+            "kind": "candidate_original_open",
+            "limits": "ATS specifico non accessibile al lettore automatico"
+          },
+          {
+            "source": "Web search",
+            "query": "R169928 Baker Hughes",
+            "checkedAt": "2026-10-12T06:15:08.729Z",
+            "outcome": "risultati",
+            "kind": "candidate_fallback",
+            "limits": "Risultati non pertinenti; usata la pagina specifica InTransparency per i dettagli"
           }
         ],
         "sourceVerification": [
@@ -9227,6 +9520,17 @@
             "outcome": "pagine specifiche lette senza evidenza esplicita di chiusura",
             "checkedAt": "2026-10-12T06:11:43.105Z",
             "coverageLimit": "Verifica delle vacancy esistenti raggiungibili; non equivale a enumerazione completa della fonte"
+          },
+          {
+            "source": "InTransparency",
+            "method": "lettura diretta pagina specifica e risoluzione link candidatura ATS",
+            "evidenceUrls": [
+              "https://www.in-transparency.com/it/explore/jobs/cmv3shr860009owxy6p8t344m",
+              "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/IT-FI-FLORENCE-VIA-FELICE-MATTEUCCI-2/Sourcing-Professional---Buying-Procurement_R169928"
+            ],
+            "outcome": "annuncio specifico letto; ATS R169928 risolto ma non testualmente accessibile",
+            "checkedAt": "2026-10-12T06:15:08.729Z",
+            "coverageLimit": "Verifica della singola vacancy tramite pagina specifica secondaria; contenuto ATS non leggibile dal crawler"
           }
         ],
         "sourcesVerified": [
@@ -9280,7 +9584,8 @@
           "CONSIAG – portale ufficiale",
           "Kodland / Recruitee",
           "Merit Medical / Workday",
-          "Fody – career page ufficiale"
+          "Fody – career page ufficiale",
+          "InTransparency"
         ],
         "sourcesSearched": [
           "Indeed",
@@ -9405,16 +9710,18 @@
           "iCIMS",
           "Workable",
           "Jobvite",
-          "Intervieweb"
+          "Intervieweb",
+          "Baker Hughes",
+          "Web search"
         ],
         "coverageDiagnostics": {
-          "indeedQueries": 73,
-          "linkedinQueries": 70,
-          "portalQueryCount": 358,
+          "indeedQueries": 77,
+          "linkedinQueries": 74,
+          "portalQueryCount": 374,
           "careerPagesOpened": 15,
           "careerSearchesRun": 97,
-          "atsSearchesRun": 41,
-          "fallbackSearchesRun": 389,
+          "atsSearchesRun": 45,
+          "fallbackSearchesRun": 412,
           "sourcesPartiallyCovered": [
             "LinkedIn Jobs",
             "Indeed",
