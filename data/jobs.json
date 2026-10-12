@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T06:15:39.751Z",
+  "generatedAt": "2026-10-12T13:23:53.741Z",
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
@@ -9832,6 +9832,196 @@
             "RINA",
             "Bureau Veritas",
             "TÜV",
+            "Ingenium"
+          ]
+        }
+      },
+      "15:00": {
+        "scheduledFor": "2026-10-12T15:00:00+02:00",
+        "completedAt": "2026-10-12T13:23:53.741Z",
+        "status": "partial",
+        "requiredSourcesTotal": 60,
+        "requiredSourcesChecked": 0,
+        "sourcesChecked": [],
+        "sourcesUnavailable": [],
+        "extraSourcesChecked": [],
+        "companiesChecked": [],
+        "atsChecked": [],
+        "queriesRun": 20,
+        "newJobs": 0,
+        "activeJobs": 156,
+        "layersCompleted": [
+          "A (avvio portali generalisti)",
+          "F (web domain-restricted, avvio)",
+          "G (keyword operative, avvio)"
+        ],
+        "secondPassSources": [],
+        "notes": "Checkpoint iniziale pomeridiano verificabile; la scansione estesa indipendente prosegue. Nessuna fonte certificata come esaustivamente enumerata.",
+        "searchLog": [
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com/viewjob \"sales support\" Toscana",
+            "checkedAt": "2026-10-12T13:23:29.249Z",
+            "outcome": "risultati"
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com/viewjob \"back office commerciale\" Firenze",
+            "checkedAt": "2026-10-12T13:23:28.377Z",
+            "outcome": "risultati"
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com/viewjob \"ufficio gare\" Toscana",
+            "checkedAt": "2026-10-12T13:23:28.841Z",
+            "outcome": "risultati"
+          },
+          {
+            "source": "Indeed",
+            "query": "site:it.indeed.com/viewjob \"order management\" Toscana",
+            "checkedAt": "2026-10-12T13:23:31.041Z",
+            "outcome": "risultati"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:it.linkedin.com/jobs/view \"sales operations\" Toscana",
+            "checkedAt": "2026-10-12T13:23:28.726Z",
+            "outcome": "risultati"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:it.linkedin.com/jobs/view \"project coordinator\" Firenze",
+            "checkedAt": "2026-10-12T13:23:28.584Z",
+            "outcome": "risultati"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:it.linkedin.com/jobs/view tender Toscana",
+            "checkedAt": "2026-10-12T13:23:28.376Z",
+            "outcome": "risultati"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:it.linkedin.com/jobs/view \"customer service B2B\" Toscana",
+            "checkedAt": "2026-10-12T13:23:28.199Z",
+            "outcome": "risultati"
+          },
+          {
+            "source": "Randstad",
+            "query": "site:randstad.it/offerte-lavoro back office commerciale Toscana",
+            "checkedAt": "2026-10-12T13:23:30.525Z",
+            "outcome": "risultati"
+          },
+          {
+            "source": "Adecco",
+            "query": "site:adecco.it/offerte-lavoro sales support Toscana",
+            "checkedAt": "2026-10-12T13:23:29.242Z",
+            "outcome": "risultati"
+          },
+          {
+            "source": "Manpower",
+            "query": "site:manpower.it/it/annuncio-lavoro commerciale Toscana",
+            "checkedAt": "2026-10-12T13:23:29.641Z",
+            "outcome": "risultati"
+          },
+          {
+            "source": "Gi Group/Grafton",
+            "query": "site:gigroup.it/offerte-lavoro-dettaglio ufficio gare Toscana",
+            "checkedAt": "2026-10-12T13:23:28.823Z",
+            "outcome": "risultati"
+          },
+          {
+            "source": "Michael Page",
+            "query": "site:michaelpage.it/jobs sales operations Toscana",
+            "checkedAt": "2026-10-12T13:23:28.937Z",
+            "outcome": "risultati"
+          },
+          {
+            "source": "LHH",
+            "query": "site:lhh.com/it-it/cerca-lavoro back office commerciale Toscana",
+            "checkedAt": "2026-10-12T13:23:28.913Z",
+            "outcome": "risultati"
+          },
+          {
+            "source": "Toscana Lavoro/ARTI",
+            "query": "site:lavoro.regione.toscana.it commerciale Firenze",
+            "checkedAt": "2026-10-12T13:23:28.850Z",
+            "outcome": "risultati"
+          },
+          {
+            "source": "inPA",
+            "query": "site:inpa.gov.it gare amministrativo Toscana",
+            "checkedAt": "2026-10-12T13:23:29.168Z",
+            "outcome": "risultati"
+          },
+          {
+            "source": "Workday/MyWorkdayJobs",
+            "query": "site:myworkdayjobs.com \"sales support\" Italy remote",
+            "checkedAt": "2026-10-12T13:23:29.015Z",
+            "outcome": "risultati"
+          },
+          {
+            "source": "Greenhouse",
+            "query": "site:greenhouse.io \"sales operations\" Italy remote",
+            "checkedAt": "2026-10-12T13:23:28.287Z",
+            "outcome": "risultati"
+          },
+          {
+            "source": "Ingenium",
+            "query": "Ingenium careers Firenze event coordinator specialist",
+            "checkedAt": "2026-10-12T13:23:28.610Z",
+            "outcome": "risultati"
+          },
+          {
+            "source": "Web vacancy pages",
+            "query": "(\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro \"12 ottobre 2026\"",
+            "checkedAt": "2026-10-12T13:23:29.538Z",
+            "outcome": "risultati"
+          }
+        ],
+        "sourceVerification": [],
+        "sourcesVerified": [],
+        "sourcesSearched": [
+          "Indeed",
+          "LinkedIn Jobs",
+          "Randstad",
+          "Adecco",
+          "Manpower",
+          "Gi Group/Grafton",
+          "Michael Page",
+          "LHH",
+          "Toscana Lavoro/ARTI",
+          "inPA",
+          "Workday/MyWorkdayJobs",
+          "Greenhouse",
+          "Ingenium",
+          "Web vacancy pages"
+        ],
+        "coverageDiagnostics": {
+          "indeedQueries": 4,
+          "linkedinQueries": 4,
+          "portalQueryCount": 16,
+          "careerPagesOpened": 0,
+          "careerSearchesRun": 1,
+          "atsSearchesRun": 2,
+          "fallbackSearchesRun": 20,
+          "sourcesPartiallyCovered": [
+            "Indeed",
+            "LinkedIn Jobs",
+            "Randstad",
+            "Adecco",
+            "Manpower",
+            "Gi Group/Grafton",
+            "Michael Page",
+            "LHH",
+            "Toscana Lavoro/ARTI",
+            "inPA",
+            "Workday/MyWorkdayJobs",
+            "Greenhouse",
+            "Ingenium",
+            "Web vacancy pages"
+          ],
+          "companiesPartiallyCovered": [
             "Ingenium"
           ]
         }
