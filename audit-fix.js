@@ -16,13 +16,21 @@ function dateKeyFromIso(iso){
   const o=Object.fromEntries(p.map(x=>[x.type,x.value]));
   return `${o.year}-${o.month}-${o.day}`;
 }
-function names(v){return Array.isArray(v)?v.filter(x=>typeof x==="string"&&x.trim()).map(x=>x.trim()):[]}
-function realChecked(r,total){
-  const explicit=Number(r?.requiredSourcesChecked);
-  if(Number.isFinite(explicit)&&explicit>0)return Math.min(total,Math.floor(explicit));
-  const searched=[...names(r?.sourcesSearched),...names(r?.sourcesChecked),...names(r?.sourcesVerified),...names(r?.searchLog).map(()=>"")];
-  if(Array.isArray(r?.searchLog)) for(const x of r.searchLog) if(x&&typeof x.source==="string"&&x.source.trim()) searched.push(x.source.trim());
-  return Math.min(total,new Set(searched.filter(Boolean)).size);
+function names(v){return Array.isArray(v)?[...new Set(v.filter(x=>typeof x==="string"&&x.trim()).map(x=>x.trim()))]:[]}
+function finiteCount(v){
+  if(v===null||v===undefined||v==="")return null;
+  const n=Number(v); return Number.isFinite(n)&&n>=0?Math.floor(n):null;
+}
+function auditNumbers(r){
+  const total=Math.max(1,finiteCount(r?.requiredSourcesTotal)??60);
+  // IMPORTANT: an explicit zero is a real value. Never replace it with the number of log labels.
+  const explicit=finiteCount(r?.requiredSourcesChecked);
+  const checked=explicit===null?names(r?.sourcesChecked).length:Math.min(total,explicit);
+  const partial=names(r?.coverageDiagnostics?.sourcesPartiallyCovered);
+  const complete=names(r?.sourcesChecked);
+  const explored=[...new Set([...complete,...partial])];
+  const queries=finiteCount(r?.queriesRun)??0;
+  return {total,checked,explored:explored.length,queries};
 }
 function validRun(audit,slot){
   if(!audit||audit.date!==todayKey()||!audit.runs)return null;
@@ -40,24 +48,28 @@ function paint(audit){
     box.classList.remove("ok","partial","failed");
     if(now<slotMinutes(slot)){
       el.textContent="Da verificare";
+      el.removeAttribute("title");
       continue;
     }
     const r=validRun(audit,slot);
     if(!r){
       el.textContent="Da verificare";
+      el.removeAttribute("title");
       continue;
     }
-    const total=Math.max(1,Number(r.requiredSourcesTotal)||60);
-    const checked=realChecked(r,total);
+    const a=auditNumbers(r);
+    const detail=`${a.checked}/${a.total} complete · ${a.explored} esplorate`;
+    el.title=`${a.queries} controlli reali eseguiti`;
     if(r.status==="failed"){
       box.classList.add("failed");
-      el.textContent=`Non completata · ${checked}/${total} fonti`;
+      el.textContent=`Non completata · ${detail}`;
     }else if(r.status==="running"||r.status==="in_progress"){
       box.classList.add("partial");
-      el.textContent=`In corso · ${checked}/${total} fonti`;
+      el.textContent=`In corso · ${detail}`;
     }else{
-      box.classList.add(checked>=total?"ok":"partial");
-      el.textContent=`${checked}/${total} fonti controllate`;
+      const trulyComplete=r.status==="complete"&&a.checked>=a.total;
+      box.classList.add(trulyComplete?"ok":"partial");
+      el.textContent=detail;
     }
   }
 }
