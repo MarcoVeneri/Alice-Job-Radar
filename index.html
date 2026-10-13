@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Alice Jobs">
-<link rel="manifest" href="./manifest.webmanifest">
+<link rel="manifest" href="./manifest.webmanifest?v=633">
 <link rel="apple-touch-icon" href="./icon.svg?v=6.10">
 <title>Alice Job Radar</title>
 <script src="./config.js"></script>
@@ -360,6 +360,14 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
   input[type="search"]{font-size:16px!important}
 }
 </style>
+<script id="alice-build-633">
+(function(){
+  try{
+    const u=new URL(location.href);
+    if(u.searchParams.get('ajr')!=='633'){u.searchParams.set('ajr','633');location.replace(u.toString());return;}
+  }catch(e){}
+})();
+</script>
 </head>
 <body>
 <main class="app">
@@ -410,13 +418,13 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v6.32 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v6.33 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.32",sync:{enabled:false}};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.33",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],REMOTE_ROWS=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -691,8 +699,9 @@ function renderAudit(audit){
      el.textContent="In corso · "+checked+"/"+total+" fonti";
      return;
    }
-   box.classList.add(checked>=total?"ok":"partial");
-   el.textContent=checked+"/"+total+" fonti verificate";
+   box.classList.add(a.fullyComplete?"ok":"partial");
+   el.textContent=checked+"/"+total+" complete · "+a.explored.length+" esplorate";
+   el.title=(a.queries||0)+" controlli reali";
  }
  one("08:00",ui.run08,ui.run08box);
  one("15:00",ui.run15,ui.run15box);
@@ -786,8 +795,15 @@ setInterval(watchDayChange,15000);
 setInterval(()=>{if(document.visibilityState==="visible")load()},5*60*1000);
 })();
 </script>
-<script>
-if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}))}
+<script id="alice-sw-633">
+if('serviceWorker' in navigator){
+  window.addEventListener('load',async()=>{
+    try{
+      const r=await navigator.serviceWorker.register('./sw.js?v=633',{updateViaCache:'none'});
+      await r.update();
+    }catch(e){}
+  });
+}
 </script>
 </body>
 </html>

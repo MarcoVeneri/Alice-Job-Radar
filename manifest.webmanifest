@@ -1,7 +1,8 @@
 {
+  "id": "./?ajr=633",
   "name": "Alice Job Radar",
   "short_name": "Alice Jobs",
-  "start_url": "./",
+  "start_url": "./?ajr=633",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f3f5f8",
@@ -9,7 +10,7 @@
   "description": "Dashboard automatica delle opportunità di lavoro per Alice.",
   "icons": [
     {
-      "src": "./icon.svg?v=6.4",
+      "src": "./icon.svg?v=633",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any"

@@ -1,6 +1,6 @@
 window.ALICE_RADAR_CONFIG={
-  dataUrl:"./data/jobs.json?v=20261007-auditfix",
-  appVersion:"6.32",
+  dataUrl:"./data/jobs.json?v=20261013-633",
+  appVersion:"6.33",
   sync:{
     enabled:true,
     url:"https://nlhxjpartgvplythgzrz.supabase.co",
@@ -10,7 +10,7 @@ window.ALICE_RADAR_CONFIG={
 };
 (()=>{
   const s=document.createElement("script");
-  s.src="./audit-fix.js?v=20261007-0850";
+  s.src="./audit-fix.js?v=20261013-633";
   s.async=true;
   document.head.appendChild(s);
 })();

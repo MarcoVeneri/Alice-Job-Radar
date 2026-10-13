@@ -1,5 +1,70 @@
-const CACHE="alice-job-radar-v6-32";
-const SHELL=["./","./index.html","./config.js","./manifest.webmanifest","./icon.svg"];
-self.addEventListener("install",e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)));self.skipWaiting()});
-self.addEventListener("activate",e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim()});
-self.addEventListener("fetch",e=>{if(e.request.method!=="GET")return;const u=new URL(e.request.url);if(u.pathname.endsWith("/data/jobs.json")){e.respondWith(fetch(e.request,{cache:"no-store"}).catch(()=>caches.match(e.request)));return}e.respondWith(fetch(e.request,{cache:"no-store"}).then(r=>{const c=r.clone();caches.open(CACHE).then(x=>x.put(e.request,c));return r}).catch(()=>caches.match(e.request)))});
+const VERSION="633";
+const CACHE=`alice-job-radar-native-v${VERSION}`;
+const SHELL=[
+  "./?ajr=633",
+  "./index.html?ajr=633",
+  "./config.js?v=633",
+  "./audit-fix.js?v=20261013-633",
+  "./manifest.webmanifest?v=633",
+  "./icon.svg?v=633"
+];
+function fresh(url){
+  const u=new URL(url,self.registration.scope);
+  u.searchParams.set("__ajr",VERSION);
+  u.searchParams.set("__t",Date.now().toString());
+  return fetch(u.toString(),{cache:"no-store",credentials:"same-origin"});
+}
+self.addEventListener("install",e=>{
+  e.waitUntil((async()=>{
+    const c=await caches.open(CACHE);
+    for(const key of SHELL){try{const r=await fresh(key);if(r.ok)await c.put(key,r.clone())}catch(_){}}
+    await self.skipWaiting();
+  })());
+});
+self.addEventListener("activate",e=>{
+  e.waitUntil((async()=>{
+    const keys=await caches.keys();
+    await Promise.all(keys.filter(k=>k.startsWith("alice-job-radar")&&k!==CACHE).map(k=>caches.delete(k)));
+    await self.clients.claim();
+    const clients=await self.clients.matchAll({type:"window",includeUncontrolled:true});
+    for(const client of clients){
+      try{
+        const u=new URL(client.url);
+        if(u.origin===self.location.origin&&u.searchParams.get("ajr")!==VERSION){u.searchParams.set("ajr",VERSION);await client.navigate(u.toString())}
+      }catch(_){}
+    }
+  })());
+});
+self.addEventListener("fetch",e=>{
+  if(e.request.method!=="GET")return;
+  const u=new URL(e.request.url);
+  if(u.pathname.endsWith("/data/jobs.json")){
+    e.respondWith((async()=>{
+      try{
+        const r=await fetch(e.request,{cache:"no-store"});
+        if(r.ok){const c=await caches.open(CACHE);c.put("./data/jobs.json",r.clone()).catch(()=>{});}
+        return r;
+      }catch(_){return (await caches.match("./data/jobs.json"))||Response.error()}
+    })());
+    return;
+  }
+  if(e.request.mode==="navigate"){
+    e.respondWith((async()=>{
+      try{
+        const live=new URL(e.request.url);
+        live.searchParams.set("ajr",VERSION);
+        live.searchParams.set("__t",Date.now().toString());
+        const r=await fetch(live.toString(),{cache:"no-store",credentials:"same-origin"});
+        if(r.ok){const c=await caches.open(CACHE);c.put("./index.html?ajr=633",r.clone()).catch(()=>{});return r}
+      }catch(_){}
+      return (await caches.match("./index.html?ajr=633"))||(await caches.match("./?ajr=633"))||Response.error();
+    })());
+    return;
+  }
+  if(u.origin===self.location.origin){
+    e.respondWith((async()=>{
+      try{const r=await fetch(e.request,{cache:"no-store"});if(r.ok){const c=await caches.open(CACHE);c.put(e.request,r.clone()).catch(()=>{})}return r}
+      catch(_){return (await caches.match(e.request,{ignoreSearch:true}))||Response.error()}
+    })());
+  }
+});

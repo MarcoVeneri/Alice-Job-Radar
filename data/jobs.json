@@ -3,6 +3,54 @@
   "source": "Ricerca quotidiana Alice",
   "jobs": [
     {
+      "id": "hiflex-back-office-commerciale-porrena-20261013",
+      "date": "2026-10-13",
+      "company": "HI-flex Italia Srl",
+      "title": "Back Office Commerciale",
+      "location": "Porrena / Poppi (AR)",
+      "workMode": "In presenza",
+      "contract": "Tempo pieno · CCNL Commercio V livello",
+      "salary": "Da 1.660,08 € lordi/mese",
+      "category": "Sales Support",
+      "score": 8.4,
+      "source": "Indeed / HI-flex Italia",
+      "url": "https://www.simplyhired.it/job/na2cHRabiXEZRsY-DBxFJ2WypbyconxCwkJPkVccqUgLvuEhYOhM4Q",
+      "summary": "Supporto clienti e forza vendita, preparazione offerte, gestione ordini, documenti di vendita e reportistica commerciale.",
+      "checks": [
+        "Sede in presenza",
+        "Verificare eventuale flessibilità organizzativa"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-13T08:21:40+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
+      "id": "umana-back-office-commerciale-montopoli-20261013",
+      "date": "2026-10-13",
+      "company": "Umana S.p.A.",
+      "title": "Back Office Commerciale",
+      "location": "Montopoli in Val d'Arno (PI)",
+      "workMode": "In presenza · part-time 20 ore",
+      "contract": "Somministrazione 6 mesi · CCNL Alimentari Artigianato 5° livello",
+      "salary": "21.000–22.000 €",
+      "category": "Sales Support",
+      "score": 7.4,
+      "source": "Indeed / Umana",
+      "url": "https://it.indeed.com/q-impiegato-back-office-commerciale-l-monsummano-terme%2C-toscana-offerte-lavoro.html?l=monsummano+terme%2C+toscana&q=impiegato+back+office+commerciale",
+      "summary": "Gestione ciclo ordine, consegne e anagrafiche clienti, documentazione commerciale e supporto alla rete vendita.",
+      "checks": [
+        "Part-time 20 ore",
+        "Inglese B2",
+        "Francese B1",
+        "RAL 21–22k"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-13T08:21:40+02:00",
+      "firstSeenRun": "08:00"
+    },
+    {
       "id": "grafton-sales-proposals-ito-20260919",
       "date": "2026-09-19",
       "company": "Grafton Office / Gi Group",
@@ -3933,7 +3981,7 @@
         "companiesChecked": [],
         "atsChecked": [],
         "queriesRun": 758,
-        "newJobs": 0,
+        "newJobs": 2,
         "activeJobs": 159,
         "layersCompleted": [
           "A (portali generalisti)",
@@ -3956,7 +4004,7 @@
           "LinkedIn Jobs",
           "Baker Hughes"
         ],
-        "notes": "Scansione indipendente del 13 ottobre documentata con 758 controlli reali. Le 60 fonti obbligatorie sono state interrogate con matrici distinte e follow-up, ma nessuna è certificata come completamente enumerata; requiredSourcesChecked resta 0 e lo stato resta partial. 92 fonti hanno almeno una pagina reale pertinente letta direttamente; 123 fonti, aziende o cluster sono stati cercati tramite indice. Ricontrollate 159 offerte esistenti (130 pagine leggibili); nessuna chiusura affidabile ha giustificato rimozioni. I risultati nuovi del 12 ottobre erano fuori profilo, fuori Toscana senza remoto oppure già presenti: nessuna nuova offerta salvata.",
+        "notes": "Scansione indipendente del 13 ottobre documentata con 758 controlli reali. Le 60 fonti obbligatorie sono state interrogate con matrici distinte e follow-up, ma nessuna è certificata come completamente enumerata; requiredSourcesChecked resta 0 e lo stato resta partial. 92 fonti hanno almeno una pagina reale pertinente letta direttamente; 123 fonti, aziende o cluster sono stati cercati tramite indice. Ricontrollate 159 offerte esistenti (130 pagine leggibili); nessuna chiusura affidabile ha giustificato rimozioni. I risultati nuovi del 12 ottobre erano fuori profilo, fuori Toscana senza remoto oppure già presenti: nessuna nuova offerta salvata. Post-verifica indipendente: individuati e aggiunti 2 annunci pertinenti sfuggiti alla scansione iniziale (HI-flex Porrena e Umana Montopoli in Val d'Arno).",
         "searchLog": [
           {
             "source": "Indeed",
@@ -10596,7 +10644,9 @@
             "TÜV",
             "Ingenium"
           ]
-        }
+        },
+        "postVerificationAt": "2026-10-13T08:21:40+02:00",
+        "postVerificationAdded": 2
       }
     }
   },
