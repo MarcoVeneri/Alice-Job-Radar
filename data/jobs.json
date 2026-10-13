@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T08:46:02+02:00",
+  "generatedAt": "2026-10-13T13:00:23.450Z",
   "source": "Ricerca quotidiana Alice · MAX-COVERAGE DEEP",
   "jobs": [
     {
@@ -244,7 +244,7 @@
       "contract": "Tempo indeterminato · full time",
       "salary": "40.000–50.000 €",
       "category": "Tender",
-      "score": 7.0,
+      "score": 7,
       "source": "Bertolotti Careers / Factorial",
       "url": "https://bertolotti.factorial.it/job_posting/technical-proposal-expert-bertolotti-veichles-323110",
       "summary": "Definizione tecnica delle offerte, coordinamento interfunzionale, documentazione d'offerta, stima costi e supporto alle trattative commerciali.",
@@ -297,7 +297,7 @@
       "contract": "Contratto iniziale a termine con prospettiva di inserimento diretto",
       "salary": "Non dichiarata",
       "category": "Sales Support",
-      "score": 8.0,
+      "score": 8,
       "source": "Openjobmetis / Trovolavoro",
       "url": "https://offerte.trovolavoro.com/it/careers/jobad/1395123-addetto-a-back-office-commerciale-inglese-e-francese",
       "summary": "Ordini, richieste clienti Italia/estero, offerte e preventivi, documentazione, spedizioni e supporto rete commerciale.",
@@ -6970,6 +6970,271 @@
         "tierATotal": 140,
         "tierAExplored": 120,
         "tierACoveragePct": 85.7
+      },
+      "15:00": {
+        "scheduledFor": "2026-10-13T15:00:00+02:00",
+        "completedAt": "2026-10-13T13:00:23.450Z",
+        "status": "partial",
+        "requiredSourcesTotal": 171,
+        "sourceUniverseTotal": 171,
+        "requiredSourcesChecked": 0,
+        "sourcesChecked": [],
+        "sourcesUnavailable": [],
+        "extraSourcesChecked": [],
+        "companiesChecked": [],
+        "atsChecked": [],
+        "queriesRun": 20,
+        "newJobs": 0,
+        "activeJobs": 174,
+        "layersCompleted": [
+          "Breadth pass Tier A (avvio)"
+        ],
+        "secondPassSources": [],
+        "notes": "Checkpoint iniziale MAX-COVERAGE: breadth-first Tier A in corso.",
+        "searchLog": [
+          {
+            "source": "LinkedIn Jobs",
+            "query": "LinkedIn Jobs (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro",
+            "checkedAt": "2026-10-13T13:00:11.926Z",
+            "outcome": "risultati",
+            "evidenceUrls": [],
+            "coverageLimit": "Breadth pass indicizzato; fonte non enumerata integralmente.",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "Indeed Italia (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro",
+            "checkedAt": "2026-10-13T13:00:11.926Z",
+            "outcome": "risultati",
+            "evidenceUrls": [],
+            "coverageLimit": "Breadth pass indicizzato; fonte non enumerata integralmente.",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Monster Italia",
+            "query": "Monster Italia (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro",
+            "checkedAt": "2026-10-13T13:00:11.926Z",
+            "outcome": "risultati",
+            "evidenceUrls": [],
+            "coverageLimit": "Breadth pass indicizzato; fonte non enumerata integralmente.",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Glassdoor Jobs",
+            "query": "Glassdoor Jobs (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro",
+            "checkedAt": "2026-10-13T13:00:11.926Z",
+            "outcome": "risultati",
+            "evidenceUrls": [],
+            "coverageLimit": "Breadth pass indicizzato; fonte non enumerata integralmente.",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Jooble Italia",
+            "query": "Jooble Italia (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro",
+            "checkedAt": "2026-10-13T13:00:11.926Z",
+            "outcome": "risultati",
+            "evidenceUrls": [],
+            "coverageLimit": "Breadth pass indicizzato; fonte non enumerata integralmente.",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Talent.com Italia",
+            "query": "Talent.com Italia (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro",
+            "checkedAt": "2026-10-13T13:00:11.926Z",
+            "outcome": "risultati",
+            "evidenceUrls": [],
+            "coverageLimit": "Breadth pass indicizzato; fonte non enumerata integralmente.",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Careerjet Italia",
+            "query": "Careerjet Italia (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro",
+            "checkedAt": "2026-10-13T13:00:11.926Z",
+            "outcome": "risultati",
+            "evidenceUrls": [],
+            "coverageLimit": "Breadth pass indicizzato; fonte non enumerata integralmente.",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Adzuna Italia",
+            "query": "Adzuna Italia (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro",
+            "checkedAt": "2026-10-13T13:00:11.926Z",
+            "outcome": "risultati",
+            "evidenceUrls": [],
+            "coverageLimit": "Breadth pass indicizzato; fonte non enumerata integralmente.",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Jobrapido",
+            "query": "Jobrapido (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro",
+            "checkedAt": "2026-10-13T13:00:11.926Z",
+            "outcome": "risultati",
+            "evidenceUrls": [],
+            "coverageLimit": "Breadth pass indicizzato; fonte non enumerata integralmente.",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Jobbydoo",
+            "query": "Jobbydoo (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro",
+            "checkedAt": "2026-10-13T13:00:11.926Z",
+            "outcome": "risultati",
+            "evidenceUrls": [],
+            "coverageLimit": "Breadth pass indicizzato; fonte non enumerata integralmente.",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "SimplyHired Italia",
+            "query": "SimplyHired Italia (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro",
+            "checkedAt": "2026-10-13T13:00:11.926Z",
+            "outcome": "risultati",
+            "evidenceUrls": [],
+            "coverageLimit": "Breadth pass indicizzato; fonte non enumerata integralmente.",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Trovolavoro",
+            "query": "Trovolavoro (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro",
+            "checkedAt": "2026-10-13T13:00:11.926Z",
+            "outcome": "risultati",
+            "evidenceUrls": [],
+            "coverageLimit": "Breadth pass indicizzato; fonte non enumerata integralmente.",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Bakeca Lavoro",
+            "query": "Bakeca Lavoro (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro",
+            "checkedAt": "2026-10-13T13:00:11.926Z",
+            "outcome": "risultati",
+            "evidenceUrls": [],
+            "coverageLimit": "Breadth pass indicizzato; fonte non enumerata integralmente.",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Subito Lavoro",
+            "query": "Subito Lavoro (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro",
+            "checkedAt": "2026-10-13T13:00:11.926Z",
+            "outcome": "risultati",
+            "evidenceUrls": [],
+            "coverageLimit": "Breadth pass indicizzato; fonte non enumerata integralmente.",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Helplavoro",
+            "query": "Helplavoro (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro",
+            "checkedAt": "2026-10-13T13:00:11.926Z",
+            "outcome": "risultati",
+            "evidenceUrls": [],
+            "coverageLimit": "Breadth pass indicizzato; fonte non enumerata integralmente.",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "SIISL",
+            "query": "SIISL (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro",
+            "checkedAt": "2026-10-13T13:00:11.926Z",
+            "outcome": "risultati",
+            "evidenceUrls": [],
+            "coverageLimit": "Breadth pass indicizzato; fonte non enumerata integralmente.",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "EURES",
+            "query": "EURES (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro",
+            "checkedAt": "2026-10-13T13:00:11.926Z",
+            "outcome": "risultati",
+            "evidenceUrls": [],
+            "coverageLimit": "Breadth pass indicizzato; fonte non enumerata integralmente.",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "ARTI Toscana / Toscana Lavoro",
+            "query": "ARTI Toscana / Toscana Lavoro (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro",
+            "checkedAt": "2026-10-13T13:00:11.926Z",
+            "outcome": "risultati",
+            "evidenceUrls": [],
+            "coverageLimit": "Breadth pass indicizzato; fonte non enumerata integralmente.",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Cliclavoro / servizi Ministero",
+            "query": "Cliclavoro / servizi Ministero (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro",
+            "checkedAt": "2026-10-13T13:00:11.926Z",
+            "outcome": "risultati",
+            "evidenceUrls": [],
+            "coverageLimit": "Breadth pass indicizzato; fonte non enumerata integralmente.",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "inPA",
+            "query": "inPA (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\") Toscana lavoro",
+            "checkedAt": "2026-10-13T13:00:11.926Z",
+            "outcome": "risultati",
+            "evidenceUrls": [],
+            "coverageLimit": "Breadth pass indicizzato; fonte non enumerata integralmente.",
+            "kind": "breadth_tier_a"
+          }
+        ],
+        "sourceVerification": [],
+        "sourcesVerified": [],
+        "sourcesSearched": [
+          "LinkedIn Jobs",
+          "Indeed Italia",
+          "Monster Italia",
+          "Glassdoor Jobs",
+          "Jooble Italia",
+          "Talent.com Italia",
+          "Careerjet Italia",
+          "Adzuna Italia",
+          "Jobrapido",
+          "Jobbydoo",
+          "SimplyHired Italia",
+          "Trovolavoro",
+          "Bakeca Lavoro",
+          "Subito Lavoro",
+          "Helplavoro",
+          "SIISL",
+          "EURES",
+          "ARTI Toscana / Toscana Lavoro",
+          "Cliclavoro / servizi Ministero",
+          "inPA"
+        ],
+        "sourcesExplored": 20,
+        "breadthCoveragePct": 11.7,
+        "tierACoveragePct": 14.29,
+        "breadthTargetMissed": true,
+        "sourcesRemainingToBreadthTarget": 92,
+        "coverageDiagnostics": {
+          "sourcesPartiallyCovered": [
+            "LinkedIn Jobs",
+            "Indeed Italia",
+            "Monster Italia",
+            "Glassdoor Jobs",
+            "Jooble Italia",
+            "Talent.com Italia",
+            "Careerjet Italia",
+            "Adzuna Italia",
+            "Jobrapido",
+            "Jobbydoo",
+            "SimplyHired Italia",
+            "Trovolavoro",
+            "Bakeca Lavoro",
+            "Subito Lavoro",
+            "Helplavoro",
+            "SIISL",
+            "EURES",
+            "ARTI Toscana / Toscana Lavoro",
+            "Cliclavoro / servizi Ministero",
+            "inPA"
+          ],
+          "companiesPartiallyCovered": [],
+          "careerPagesOpened": 0,
+          "careerSearchesRun": 0,
+          "atsSearchesRun": 0,
+          "fallbackSearchesRun": 20,
+          "indeedQueries": 0,
+          "linkedinQueries": 0,
+          "portalQueryCount": 20
+        },
+        "zeroResultConfidence": "Non applicabile al checkpoint: scansione in corso."
       }
     }
   },
