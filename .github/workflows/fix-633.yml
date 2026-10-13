@@ -1,0 +1,38 @@
+name: Fix Alice Job Radar 6.33
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'fix-633.trigger'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: alice-fix-633
+  cancel-in-progress: true
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply truthful audit, missed jobs and fresh PWA build
+        run: python scripts/fix_633.py
+      - name: Commit fixes
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html config.js audit-fix.js manifest.webmanifest sw.js data/jobs.json
+          if git diff --cached --quiet; then
+            echo "Alice 6.33 already applied"
+            exit 0
+          fi
+          git commit -m "Fix Alice audit truthfulness and recover missed jobs"
+          git push
