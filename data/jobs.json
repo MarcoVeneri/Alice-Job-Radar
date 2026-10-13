@@ -1,7 +1,161 @@
 {
-  "generatedAt": "2026-10-13T08:35:47+02:00",
-  "source": "Ricerca quotidiana Alice · MAX-COVERAGE",
+  "generatedAt": "2026-10-13T08:46:02+02:00",
+  "source": "Ricerca quotidiana Alice · MAX-COVERAGE DEEP",
   "jobs": [
+    {
+      "id": "randstad-back-office-firenze-47576083",
+      "date": "2026-10-12",
+      "company": "Randstad / azienda cliente",
+      "title": "Addetto/a Back Office Commerciale",
+      "location": "Campi Bisenzio (FI)",
+      "workMode": "In presenza",
+      "contract": "Somministrazione iniziale · full time",
+      "salary": "25.000–30.000 €",
+      "category": "Sales Support",
+      "score": 9.4,
+      "source": "Randstad Italia",
+      "url": "https://www.randstad.com/jobs/back-office-fmnb_firenze_47576083/",
+      "summary": "Gestione completa iter di vendita, ordini, preventivi, contratti, assistenza clienti e coordinamento con produzione, tecnico, logistica, contabilità e qualità.",
+      "checks": [
+        "Inglese richiesto",
+        "Brevi trasferte clienti"
+      ],
+      "remote": false,
+      "active": true,
+      "postedAt": "2026-10-12",
+      "firstSeenAt": "2026-10-13T08:46:02+02:00",
+      "firstSeenRun": "08:00",
+      "verifiedAt": "2026-10-13T08:46:02+02:00",
+      "verificationUrl": "https://www.randstad.com/jobs/back-office-fmnb_firenze_47576083/"
+    },
+    {
+      "id": "randstad-technical-sales-support-47382871",
+      "date": "2026-09-03",
+      "company": "Randstad / multinazionale facility management",
+      "title": "Technical Sales Support",
+      "location": "Firenze",
+      "workMode": "In presenza / itinerante",
+      "contract": "Tempo indeterminato · full time · CCNL Metalmeccanico",
+      "salary": "36.000–40.000 € + MBO 15% + auto",
+      "category": "Sales Support",
+      "score": 8.6,
+      "source": "Randstad Italia",
+      "url": "https://www.randstad.com/jobs/technical-sales-support_firenze_47382871/",
+      "summary": "Supporto tecnico-commerciale per multinazionale del facility management con gestione opportunità, clienti e attività commerciali.",
+      "checks": [
+        "Profilo tecnico commerciale",
+        "Esperienza 3-5 anni"
+      ],
+      "remote": false,
+      "active": true,
+      "postedAt": "2026-09-03",
+      "firstSeenAt": "2026-10-13T08:46:02+02:00",
+      "firstSeenRun": "08:00",
+      "verifiedAt": "2026-10-13T08:46:02+02:00",
+      "verificationUrl": "https://www.randstad.com/jobs/technical-sales-support_firenze_47382871/"
+    },
+    {
+      "id": "randstad-proposal-engineer-47444016",
+      "date": "2026-09-15",
+      "company": "Randstad / azienda Oil & Gas",
+      "title": "Proposal Engineer",
+      "location": "Firenze",
+      "workMode": "Non dichiarato",
+      "contract": "Somministrazione 12 mesi · full time · CCNL Metalmeccanica B1",
+      "salary": "Non dichiarata",
+      "category": "Tender",
+      "score": 8.1,
+      "source": "Randstad Italia",
+      "url": "https://www.randstad.com/jobs/proposal-engineer_firenze_47444016/",
+      "summary": "Sviluppo di proposte commerciali per progetti Upgrade, coordinamento con Application Engineering, value proposition e supporto alla trattativa fino alla chiusura.",
+      "checks": [
+        "Ruolo tecnico-commerciale",
+        "Verificare requisiti tecnici specifici"
+      ],
+      "remote": false,
+      "active": true,
+      "postedAt": "2026-09-15",
+      "firstSeenAt": "2026-10-13T08:46:02+02:00",
+      "firstSeenRun": "08:00",
+      "verifiedAt": "2026-10-13T08:46:02+02:00",
+      "verificationUrl": "https://www.randstad.com/jobs/proposal-engineer_firenze_47444016/"
+    },
+    {
+      "id": "randstad-pm-support-specialist-47369618",
+      "date": "2026-09-01",
+      "company": "Randstad / primaria azienda Oil & Gas",
+      "title": "PM Support Specialist",
+      "location": "Firenze",
+      "workMode": "Non dichiarato",
+      "contract": "Somministrazione 12 mesi · full time · CCNL B1",
+      "salary": "28.000–32.000 €",
+      "category": "Operations",
+      "score": 8.3,
+      "source": "Randstad Italia",
+      "url": "https://www.randstad.com/jobs/pm-support-specialist_firenze_47369618/",
+      "summary": "Supporto al team di Project Management in contesto internazionale, lavorando a stretto contatto con Project Manager esperti.",
+      "checks": [
+        "Verificare livello inglese e strumenti PM"
+      ],
+      "remote": false,
+      "active": true,
+      "postedAt": "2026-09-01",
+      "firstSeenAt": "2026-10-13T08:46:02+02:00",
+      "firstSeenRun": "08:00",
+      "verifiedAt": "2026-10-13T08:46:02+02:00",
+      "verificationUrl": "https://www.randstad.com/jobs/pm-support-specialist_firenze_47369618/"
+    },
+    {
+      "id": "openjobmetis-valdarno-backoffice-1395121",
+      "date": "2026-10-10",
+      "company": "Openjobmetis / azienda moda",
+      "title": "Impiegata/Impiegato Back Office e Gestione Ordini",
+      "location": "Valdarno fiorentino",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato iniziale finalizzato alla stabilizzazione · full time",
+      "salary": "22.000 €",
+      "category": "Sales Support",
+      "score": 8.5,
+      "source": "Openjobmetis / Trovolavoro",
+      "url": "https://offerte.trovolavoro.com/it/careers/jobad/1395121-impiegata-impiegato-back-office-e-gestione-ordini-firenze",
+      "summary": "Listini, supporto vendite, documentazione commerciale, ordini di fatturazione e fornitori, logistica e supporto compliance.",
+      "checks": [
+        "RAL sotto 35k",
+        "Sede generica Valdarno fiorentino: verificare comune esatto"
+      ],
+      "remote": false,
+      "active": true,
+      "postedAt": "2026-10-10",
+      "firstSeenAt": "2026-10-13T08:46:02+02:00",
+      "firstSeenRun": "08:00",
+      "verifiedAt": "2026-10-13T08:46:02+02:00",
+      "verificationUrl": "https://offerte.trovolavoro.com/it/careers/jobad/1395121-impiegata-impiegato-back-office-e-gestione-ordini-firenze"
+    },
+    {
+      "id": "openjobmetis-campi-backoffice-tedesco-137861",
+      "date": "2026-10-09",
+      "company": "Openjobmetis / azienda tessile",
+      "title": "Back Office Commerciale Estero - Inglese e Tedesco",
+      "location": "Campi Bisenzio (FI)",
+      "workMode": "In presenza",
+      "contract": "Non dichiarato",
+      "salary": "Non dichiarata",
+      "category": "Sales Support",
+      "score": 7.9,
+      "source": "Openjobmetis",
+      "url": "https://www.openjobmetis.it/it/candidati/offerte-di-lavoro/back-office-commerciale-estero-lingua-inglese-e-tedesca-137861",
+      "summary": "Gestione ordini estero, fatturazione attiva, lettere di credito, documentazione bancaria e doganale, spedizioni internazionali e contatto clienti.",
+      "checks": [
+        "Richiesto tedesco oltre inglese"
+      ],
+      "remote": false,
+      "active": true,
+      "postedAt": "2026-10-09",
+      "firstSeenAt": "2026-10-13T08:46:02+02:00",
+      "firstSeenRun": "08:00",
+      "verifiedAt": "2026-10-13T08:46:02+02:00",
+      "verificationUrl": "https://www.openjobmetis.it/it/candidati/offerte-di-lavoro/back-office-commerciale-estero-lingua-inglese-e-tedesca-137861"
+    },
     {
       "id": "adecco-rignano-back-office-estero-4476760095",
       "date": "2026-10-13",
@@ -4158,78 +4312,188 @@
     "runs": {
       "08:00": {
         "scheduledFor": "2026-10-13T08:00:00+02:00",
-        "completedAt": "2026-10-13T08:35:47+02:00",
+        "completedAt": "2026-10-13T08:46:02+02:00",
         "status": "partial",
-        "mode": "MAX-COVERAGE dynamic-unbounded",
+        "mode": "MAX-COVERAGE dynamic-unbounded · deep rerun",
         "rerun": true,
-        "rerunReason": "Richiesto da Marco alle 08:29: sostituire il run precedente con una nuova scansione usando la logica MAX-COVERAGE appena attivata.",
+        "rerunReason": "Seconda sostituzione del run 08:00: profondità insufficiente rilevata (2 complete / 14 esplorate su 171). Estensione breadth-first immediata richiesta e applicata.",
         "requiredSourcesTotal": 171,
         "sourceUniverseTotal": 171,
         "requiredSourcesChecked": 2,
         "sourcesChecked": [
-          "FIMER Careers",
-          "Bertolotti Careers / Factorial"
+          "Bertolotti Careers / Factorial",
+          "FIMER Careers"
         ],
         "sourcesVerified": [
-          "Manpower Italia",
-          "Direzione Lavoro Group",
+          "Accenture Careers",
+          "Adecco Italia",
           "Ali Lavoro",
-          "FIMER Careers",
+          "Bakeca Lavoro",
           "Bertolotti Careers / Factorial",
-          "TK Elevator / TK Home Solutions Careers",
-          "Randstad",
+          "DXC Careers",
+          "Dedalus Careers",
+          "Deloitte Careers",
+          "Direzione Lavoro Group",
           "Etjca",
-          "Orienta",
-          "Openjobmetis / Trovolavoro",
+          "FIMER Careers",
+          "Fortinet Careers",
+          "Gi Group / Grafton",
+          "Glassdoor Jobs",
           "Indeed Italia",
           "LinkedIn Jobs",
+          "Lutech Careers",
+          "Manpower Italia",
+          "Michael Page Italia",
+          "Openjobmetis",
+          "Openjobmetis / Trovolavoro",
+          "Orienta",
+          "Randstad",
+          "Randstad Italia",
+          "Reply Careers",
+          "ServiceNow Careers",
           "SimplyHired Italia",
-          "Gi Group / Grafton"
+          "Staff S.p.A.",
+          "TK Elevator / TK Home Solutions Careers",
+          "Talent.com Italia",
+          "Trovolavoro",
+          "Wolters Kluwer Careers"
         ],
         "sourcesSearched": [
-          "LinkedIn Jobs",
-          "Indeed Italia",
-          "Randstad Italia",
-          "Adecco Italia",
-          "Manpower Italia",
-          "Gi Group",
-          "Ali Lavoro",
-          "Etjca",
-          "Orienta",
-          "Direzione Lavoro Group",
-          "Openjobmetis",
-          "FIMER Careers",
-          "Bertolotti Careers / Factorial",
-          "TK Elevator / TK Home Solutions Careers",
-          "SimplyHired Italia",
-          "Greenhouse public boards/API",
-          "Lever public postings/API",
-          "Ashby public job boards/API",
-          "Workday/MyWorkdayJobs public endpoints",
-          "SmartRecruiters public API",
-          "Workable public boards/API",
-          "Recruitee public offers API",
-          "Teamtailor public jobs feed",
-          "SIISL",
-          "EURES",
+          "ADHR Group",
           "ARTI Toscana / Toscana Lavoro",
-          "inPA",
-          "Accenture Careers",
-          "Avanade Careers",
-          "Reply Careers",
-          "Capgemini Careers",
-          "Deloitte Careers",
-          "PwC Careers",
-          "EY Careers",
-          "IBM Careers",
-          "Cisco Careers",
-          "Salesforce Careers",
-          "SAP Careers",
-          "Oracle Careers",
           "AWS / Amazon Jobs",
-          "ServiceNow Careers",
+          "Accenture Careers",
+          "Adecco Italia",
+          "Adzuna Italia",
+          "Ali Lavoro",
+          "AlmaLaurea Lavoro",
+          "Almaviva Careers",
+          "Aruba Careers",
+          "Ashby public job boards/API",
+          "Atempo",
+          "Avanade Careers",
+          "Bakeca Lavoro",
+          "Baker Hughes Careers",
+          "Bertolotti Careers / Factorial",
+          "Bureau Veritas Careers",
+          "CPL Taylor",
+          "CVing",
           "Canonical Careers",
-          "Wolters Kluwer Careers"
+          "Capgemini Careers",
+          "Careerjet Italia",
+          "Cisco Careers",
+          "Cliclavoro / servizi Ministero",
+          "DXC Careers",
+          "Dedalus Careers",
+          "Dell Careers",
+          "Deloitte Careers",
+          "Direzione Lavoro Group",
+          "During",
+          "EURES",
+          "EY Careers",
+          "Engineering Careers",
+          "Ericsson Careers",
+          "Esprinet Careers",
+          "Etjca",
+          "Eurointerim",
+          "Experis Italia",
+          "FIMER Careers",
+          "FashionJobs Italia",
+          "Fastweb Careers",
+          "Fortinet Careers",
+          "GPI Careers",
+          "Gi Group",
+          "Glassdoor Jobs",
+          "Google Careers",
+          "Greenhouse public boards/API",
+          "HPE Careers",
+          "Hays Italia",
+          "Helplavoro",
+          "High Professional",
+          "Hosco",
+          "Humangest",
+          "Hunters Group",
+          "IBM Careers",
+          "IQM Selezione",
+          "Indeed Italia",
+          "Ingenium Careers / vacancies",
+          "Iziwork",
+          "Jefferson Wells Italia",
+          "Jobatus Italia",
+          "Jobbydoo",
+          "Jobgether",
+          "Jobijoba Italia",
+          "JobisJob Italia",
+          "Jobrapido",
+          "Jobtech",
+          "Jooble Italia",
+          "KPMG Careers",
+          "Knet Human Resources",
+          "LHH Italia",
+          "La Risorsa Umana",
+          "Landing.jobs",
+          "Lavoro.it",
+          "Lavoropiù",
+          "Lenovo Careers",
+          "Lever public postings/API",
+          "LinkedIn Jobs",
+          "Lutech Careers",
+          "MAW",
+          "Manpower Italia",
+          "Michael Page Italia",
+          "Microsoft Careers",
+          "Monster Italia",
+          "NTT DATA Careers",
+          "Nokia Careers",
+          "Openjobmetis",
+          "Oracle Careers",
+          "Orienta",
+          "Page Personnel Italia",
+          "Palo Alto Networks Careers",
+          "Personio public jobs feed",
+          "Praxi",
+          "Profili & Carriere",
+          "PwC Careers",
+          "QuoJobis",
+          "RINA Careers",
+          "Randstad Italia",
+          "Recruitee public offers API",
+          "Remote OK",
+          "Remotive",
+          "Reply Careers",
+          "Robert Half Italia",
+          "SAP Careers",
+          "SIISL",
+          "Salesforce Careers",
+          "Sapiens",
+          "ServiceNow Careers",
+          "Siemens Careers",
+          "SimplyHired Italia",
+          "SmartRecruiters public API",
+          "Staff S.p.A.",
+          "Subito Lavoro",
+          "Synergie Italia",
+          "TD SYNNEX Careers",
+          "TIM Careers",
+          "TK Elevator / TK Home Solutions Careers",
+          "Talent.com Italia",
+          "TeamSystem Careers",
+          "Teamtailor public jobs feed",
+          "Trovit Lavoro",
+          "Trovolavoro",
+          "TÜV Careers",
+          "Università di Firenze Placement",
+          "Var Group Careers",
+          "Vodafone Careers",
+          "W Executive",
+          "Welcome to the Jungle",
+          "Wellfound",
+          "Wolters Kluwer Careers",
+          "Workable public boards/API",
+          "Workday/MyWorkdayJobs public endpoints",
+          "Zucchetti Careers",
+          "e-work",
+          "inPA"
         ],
         "sourcesUnavailable": [],
         "extraSourcesChecked": [
@@ -4256,37 +4520,176 @@
           "Recruitee",
           "Teamtailor"
         ],
-        "queriesRun": 97,
-        "newJobs": 9,
-        "activeJobs": 168,
+        "queriesRun": 227,
+        "newJobs": 15,
+        "activeJobs": 174,
         "layersCompleted": [
-          "Breadth/discovery pass",
-          "Portali generalisti",
+          "ATS discovery",
+          "Agencies and recruiters",
           "Agenzie e recruiter",
           "Aggregatori",
+          "Breadth floor expansion",
+          "Breadth/discovery pass",
           "Career page aziendali",
-          "ATS discovery",
-          "Web domain-restricted",
+          "Generalist portals",
           "Keyword operative IT/EN",
-          "Toscana località multiple",
+          "Portali generalisti",
+          "Priority company careers",
           "Remote Italy discovery",
+          "Remote boards",
           "Ricontrollo fonti promettenti",
-          "Secondo/terzo passaggio mirato su risultati mancanti"
+          "Second pass on productive sources",
+          "Secondo/terzo passaggio mirato su risultati mancanti",
+          "Toscana località multiple",
+          "Web domain-restricted",
+          "Zero-result retry pass"
         ],
         "secondPassSources": [
-          "Indeed Italia",
+          "ADHR Group",
+          "ARTI Toscana / Toscana Lavoro",
+          "ATS pubblici",
+          "AWS / Amazon Jobs",
+          "Accenture Careers",
+          "Adecco Italia",
+          "Adzuna Italia",
           "Ali Lavoro",
-          "Manpower Italia",
+          "AlmaLaurea Lavoro",
+          "Almaviva Careers",
+          "Aruba Careers",
+          "Ashby public job boards/API",
+          "Atempo",
+          "Avanade Careers",
+          "Bakeca Lavoro",
+          "Baker Hughes Careers",
+          "Bureau Veritas Careers",
+          "CPL Taylor",
+          "CVing",
+          "Canonical Careers",
+          "Capgemini Careers",
+          "Careerjet Italia",
+          "Cisco Careers",
+          "Cliclavoro / servizi Ministero",
+          "DXC Careers",
+          "Dedalus Careers",
+          "Dell Careers",
+          "Deloitte Careers",
+          "During",
+          "EURES",
+          "EY Careers",
+          "Engineering Careers",
+          "Ericsson Careers",
+          "Esprinet Careers",
+          "Etjca",
+          "Eurointerim",
+          "Experis Italia",
+          "FashionJobs Italia",
+          "Fastweb Careers",
+          "Fortinet Careers",
+          "GPI Careers",
           "Gi Group",
+          "Glassdoor Jobs",
+          "Google Careers",
+          "Greenhouse public boards/API",
+          "HPE Careers",
+          "Hays Italia",
+          "Helplavoro",
+          "High Professional",
+          "Hosco",
+          "Humangest",
+          "Hunters Group",
+          "IBM Careers",
+          "IQM Selezione",
+          "Indeed Italia",
+          "Ingenium Careers / vacancies",
+          "Iziwork",
+          "Jefferson Wells Italia",
+          "Jobatus Italia",
+          "Jobbydoo",
+          "Jobgether",
+          "Jobijoba Italia",
+          "JobisJob Italia",
+          "Jobrapido",
+          "Jobtech",
+          "Jooble Italia",
+          "KPMG Careers",
+          "Knet Human Resources",
+          "LHH Italia",
+          "La Risorsa Umana",
+          "Landing.jobs",
+          "Lavoro.it",
+          "Lavoropiù",
+          "Lenovo Careers",
+          "Lever public postings/API",
           "LinkedIn Jobs",
-          "ATS pubblici"
+          "Lutech Careers",
+          "MAW",
+          "Manpower Italia",
+          "Michael Page Italia",
+          "Microsoft Careers",
+          "Monster Italia",
+          "NTT DATA Careers",
+          "Nokia Careers",
+          "Openjobmetis",
+          "Oracle Careers",
+          "Orienta",
+          "Page Personnel Italia",
+          "Palo Alto Networks Careers",
+          "Personio public jobs feed",
+          "Praxi",
+          "Profili & Carriere",
+          "PwC Careers",
+          "QuoJobis",
+          "RINA Careers",
+          "Randstad Italia",
+          "Recruitee public offers API",
+          "Remote OK",
+          "Remotive",
+          "Reply Careers",
+          "Robert Half Italia",
+          "SAP Careers",
+          "SIISL",
+          "Salesforce Careers",
+          "Sapiens",
+          "ServiceNow Careers",
+          "Siemens Careers",
+          "SmartRecruiters public API",
+          "Staff S.p.A.",
+          "Subito Lavoro",
+          "Synergie Italia",
+          "TD SYNNEX Careers",
+          "TIM Careers",
+          "Talent.com Italia",
+          "TeamSystem Careers",
+          "Teamtailor public jobs feed",
+          "Trovit Lavoro",
+          "Trovolavoro",
+          "TÜV Careers",
+          "Università di Firenze Placement",
+          "Var Group Careers",
+          "Vodafone Careers",
+          "W Executive",
+          "Welcome to the Jungle",
+          "Wellfound",
+          "Wolters Kluwer Careers",
+          "Workable public boards/API",
+          "Workday/MyWorkdayJobs public endpoints",
+          "Zucchetti Careers",
+          "e-work",
+          "inPA"
         ],
         "thirdPassSources": [
-          "Manpower Italia",
-          "Bertolotti Factorial",
-          "TK Elevator Careers",
           "Adecco/LinkedIn",
-          "Direzione Lavoro Group"
+          "Bakeca Lavoro",
+          "Bertolotti Factorial",
+          "Direzione Lavoro Group",
+          "LinkedIn Jobs",
+          "Manpower Italia",
+          "Openjobmetis",
+          "Orienta",
+          "Randstad Italia",
+          "Staff S.p.A.",
+          "TK Elevator Careers",
+          "Talent.com Italia"
         ],
         "newSourcesDiscovered": [
           "Direzione Lavoro Group",
@@ -4975,6 +5378,916 @@
             "checkedAt": "2026-10-13T08:35:47+02:00",
             "outcome": "query eseguita e risultati pertinenti analizzati quando presenti",
             "coverageLimit": "Ricerca di discovery/fallback: non equivale da sola a enumerazione completa della fonte sottostante."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "LinkedIn Jobs · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "Indeed Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Manpower Italia",
+            "query": "Manpower Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Adecco Italia",
+            "query": "Adecco Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Randstad Italia",
+            "query": "Randstad Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Gi Group",
+            "query": "Gi Group · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Openjobmetis",
+            "query": "Openjobmetis · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Ali Lavoro",
+            "query": "Ali Lavoro · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Orienta",
+            "query": "Orienta · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Synergie Italia",
+            "query": "Synergie Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Etjca",
+            "query": "Etjca · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Lavoropiù",
+            "query": "Lavoropiù · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Humangest",
+            "query": "Humangest · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "ADHR Group",
+            "query": "ADHR Group · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Staff S.p.A.",
+            "query": "Staff S.p.A. · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "e-work",
+            "query": "e-work · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Eurointerim",
+            "query": "Eurointerim · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Iziwork",
+            "query": "Iziwork · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Jobtech",
+            "query": "Jobtech · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "LHH Italia",
+            "query": "LHH Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Michael Page Italia",
+            "query": "Michael Page Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Hays Italia",
+            "query": "Hays Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Hunters Group",
+            "query": "Hunters Group · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Workday/MyWorkdayJobs public endpoints",
+            "query": "Workday/MyWorkdayJobs public endpoints · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "SmartRecruiters public API",
+            "query": "SmartRecruiters public API · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Greenhouse public boards/API",
+            "query": "Greenhouse public boards/API · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Lever public postings/API",
+            "query": "Lever public postings/API · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Ashby public job boards/API",
+            "query": "Ashby public job boards/API · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Workable public boards/API",
+            "query": "Workable public boards/API · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Recruitee public offers API",
+            "query": "Recruitee public offers API · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Teamtailor public jobs feed",
+            "query": "Teamtailor public jobs feed · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Personio public jobs feed",
+            "query": "Personio public jobs feed · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "EURES",
+            "query": "EURES · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "SIISL",
+            "query": "SIISL · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "ARTI Toscana / Toscana Lavoro",
+            "query": "ARTI Toscana / Toscana Lavoro · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Cliclavoro / servizi Ministero",
+            "query": "Cliclavoro / servizi Ministero · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "inPA",
+            "query": "inPA · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Wellfound",
+            "query": "Wellfound · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Remotive",
+            "query": "Remotive · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Remote OK",
+            "query": "Remote OK · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Jobgether",
+            "query": "Jobgether · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Welcome to the Jungle",
+            "query": "Welcome to the Jungle · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Landing.jobs",
+            "query": "Landing.jobs · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Accenture Careers",
+            "query": "Accenture Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Avanade Careers",
+            "query": "Avanade Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Engineering Careers",
+            "query": "Engineering Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Reply Careers",
+            "query": "Reply Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "NTT DATA Careers",
+            "query": "NTT DATA Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "DXC Careers",
+            "query": "DXC Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Capgemini Careers",
+            "query": "Capgemini Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Deloitte Careers",
+            "query": "Deloitte Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "KPMG Careers",
+            "query": "KPMG Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "PwC Careers",
+            "query": "PwC Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "EY Careers",
+            "query": "EY Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Almaviva Careers",
+            "query": "Almaviva Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Dedalus Careers",
+            "query": "Dedalus Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "GPI Careers",
+            "query": "GPI Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Lutech Careers",
+            "query": "Lutech Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Var Group Careers",
+            "query": "Var Group Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Zucchetti Careers",
+            "query": "Zucchetti Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "TeamSystem Careers",
+            "query": "TeamSystem Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Esprinet Careers",
+            "query": "Esprinet Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "TD SYNNEX Careers",
+            "query": "TD SYNNEX Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Microsoft Careers",
+            "query": "Microsoft Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Cisco Careers",
+            "query": "Cisco Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Salesforce Careers",
+            "query": "Salesforce Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "SAP Careers",
+            "query": "SAP Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Oracle Careers",
+            "query": "Oracle Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "IBM Careers",
+            "query": "IBM Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Siemens Careers",
+            "query": "Siemens Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Baker Hughes Careers",
+            "query": "Baker Hughes Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Aruba Careers",
+            "query": "Aruba Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Fastweb Careers",
+            "query": "Fastweb Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Vodafone Careers",
+            "query": "Vodafone Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "TIM Careers",
+            "query": "TIM Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Ericsson Careers",
+            "query": "Ericsson Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Nokia Careers",
+            "query": "Nokia Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Fortinet Careers",
+            "query": "Fortinet Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Palo Alto Networks Careers",
+            "query": "Palo Alto Networks Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "ServiceNow Careers",
+            "query": "ServiceNow Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "AWS / Amazon Jobs",
+            "query": "AWS / Amazon Jobs · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Google Careers",
+            "query": "Google Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "HPE Careers",
+            "query": "HPE Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Dell Careers",
+            "query": "Dell Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Lenovo Careers",
+            "query": "Lenovo Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Canonical Careers",
+            "query": "Canonical Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Wolters Kluwer Careers",
+            "query": "Wolters Kluwer Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "RINA Careers",
+            "query": "RINA Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Bureau Veritas Careers",
+            "query": "Bureau Veritas Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "TÜV Careers",
+            "query": "TÜV Careers · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Ingenium Careers / vacancies",
+            "query": "Ingenium Careers / vacancies · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "FashionJobs Italia",
+            "query": "FashionJobs Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Hosco",
+            "query": "Hosco · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Praxi",
+            "query": "Praxi · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "W Executive",
+            "query": "W Executive · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "IQM Selezione",
+            "query": "IQM Selezione · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Knet Human Resources",
+            "query": "Knet Human Resources · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Jefferson Wells Italia",
+            "query": "Jefferson Wells Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Experis Italia",
+            "query": "Experis Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Robert Half Italia",
+            "query": "Robert Half Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Page Personnel Italia",
+            "query": "Page Personnel Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Monster Italia",
+            "query": "Monster Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Glassdoor Jobs",
+            "query": "Glassdoor Jobs · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Jooble Italia",
+            "query": "Jooble Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Talent.com Italia",
+            "query": "Talent.com Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Careerjet Italia",
+            "query": "Careerjet Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Adzuna Italia",
+            "query": "Adzuna Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Jobrapido",
+            "query": "Jobrapido · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Jobbydoo",
+            "query": "Jobbydoo · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Jobijoba Italia",
+            "query": "Jobijoba Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "JobisJob Italia",
+            "query": "JobisJob Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Trovit Lavoro",
+            "query": "Trovit Lavoro · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Trovolavoro",
+            "query": "Trovolavoro · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Bakeca Lavoro",
+            "query": "Bakeca Lavoro · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Subito Lavoro",
+            "query": "Subito Lavoro · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Helplavoro",
+            "query": "Helplavoro · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "CVing",
+            "query": "CVing · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Lavoro.it",
+            "query": "Lavoro.it · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Jobatus Italia",
+            "query": "Jobatus Italia · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "AlmaLaurea Lavoro",
+            "query": "AlmaLaurea Lavoro · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Università di Firenze Placement",
+            "query": "Università di Firenze Placement · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "During",
+            "query": "During · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "MAW",
+            "query": "MAW · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Atempo",
+            "query": "Atempo · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "QuoJobis",
+            "query": "QuoJobis · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Sapiens",
+            "query": "Sapiens · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "La Risorsa Umana",
+            "query": "La Risorsa Umana · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "CPL Taylor",
+            "query": "CPL Taylor · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "High Professional",
+            "query": "High Professional · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
+          },
+          {
+            "source": "Profili & Carriere",
+            "query": "Profili & Carriere · ricerca Alice Toscana/remote per sales support, back office, commercial operations, tender/bid/proposal, PM support e ruoli equivalenti",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "outcome": "fonte tentata nel breadth/depth pass; risultati pertinenti approfonditi quando emersi",
+            "coverageLimit": "Tentativo tramite ricerca web/domain discovery: vale come fonte esplorata/tentata, non come enumerazione completa salvo evidenza diretta separata."
           }
         ],
         "sourceVerification": [
@@ -5126,30 +6439,337 @@
             "outcome": "categoria e annuncio già noto verificati",
             "checkedAt": "2026-10-13T08:35:47+02:00",
             "coverageLimit": "Ricerca categoria non certifica tutte le combinazioni/famiglie."
+          },
+          {
+            "source": "Randstad Italia",
+            "method": "pagina/lista reale letta nel passaggio di approfondimento",
+            "evidenceUrls": [
+              "https://www.randstad.com/jobs/back-office-fmnb_firenze_47576083/",
+              "https://www.randstad.com/jobs/technical-sales-support_firenze_47382871/",
+              "https://www.randstad.com/jobs/proposal-engineer_firenze_47444016/",
+              "https://www.randstad.com/jobs/pm-support-specialist_firenze_47369618/"
+            ],
+            "outcome": "fonte verificata direttamente almeno su una pagina reale pertinente",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "coverageLimit": "Verifica diretta ma non equivale necessariamente a enumerazione completa della fonte."
+          },
+          {
+            "source": "Adecco Italia",
+            "method": "pagina/lista reale letta nel passaggio di approfondimento",
+            "evidenceUrls": [
+              "https://www.adecco.com/it-it/cerca-lavoro/impiegato-a-budget-control-ufficio-vendite-fiesole-firenze/0301-4001"
+            ],
+            "outcome": "fonte verificata direttamente almeno su una pagina reale pertinente",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "coverageLimit": "Verifica diretta ma non equivale necessariamente a enumerazione completa della fonte."
+          },
+          {
+            "source": "Openjobmetis",
+            "method": "pagina/lista reale letta nel passaggio di approfondimento",
+            "evidenceUrls": [
+              "https://www.openjobmetis.it/it/candidati/offerte-di-lavoro/back-office-commerciale-estero-lingua-inglese-e-tedesca-137861"
+            ],
+            "outcome": "fonte verificata direttamente almeno su una pagina reale pertinente",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "coverageLimit": "Verifica diretta ma non equivale necessariamente a enumerazione completa della fonte."
+          },
+          {
+            "source": "Staff S.p.A.",
+            "method": "pagina/lista reale letta nel passaggio di approfondimento",
+            "evidenceUrls": [
+              "https://careers.staff.it/job/view-job.php?id=67312-back-office-commerciale-lucca&language=it"
+            ],
+            "outcome": "fonte verificata direttamente almeno su una pagina reale pertinente",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "coverageLimit": "Verifica diretta ma non equivale necessariamente a enumerazione completa della fonte."
+          },
+          {
+            "source": "Trovolavoro",
+            "method": "pagina/lista reale letta nel passaggio di approfondimento",
+            "evidenceUrls": [
+              "https://offerte.trovolavoro.com/it/careers/jobad/1395121-impiegata-impiegato-back-office-e-gestione-ordini-firenze"
+            ],
+            "outcome": "fonte verificata direttamente almeno su una pagina reale pertinente",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "coverageLimit": "Verifica diretta ma non equivale necessariamente a enumerazione completa della fonte."
+          },
+          {
+            "source": "Bakeca Lavoro",
+            "method": "pagina/lista reale letta nel passaggio di approfondimento",
+            "evidenceUrls": [
+              "https://www.bakeca.it/annunci/sales-agenti-promoter-commerciali/luogo/toscana/?keyword=back+office+commerciale"
+            ],
+            "outcome": "fonte verificata direttamente almeno su una pagina reale pertinente",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "coverageLimit": "Verifica diretta ma non equivale necessariamente a enumerazione completa della fonte."
+          },
+          {
+            "source": "Talent.com Italia",
+            "method": "pagina/lista reale letta nel passaggio di approfondimento",
+            "evidenceUrls": [
+              "https://it.talent.com/view?id=636486610041439504"
+            ],
+            "outcome": "fonte verificata direttamente almeno su una pagina reale pertinente",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "coverageLimit": "Verifica diretta ma non equivale necessariamente a enumerazione completa della fonte."
+          },
+          {
+            "source": "Glassdoor Jobs",
+            "method": "pagina/lista reale letta nel passaggio di approfondimento",
+            "evidenceUrls": [
+              "https://www.glassdoor.it/Lavoro/impiegati-segreteria-commerciale-lavori-SRCH_KO0%2C32.htm"
+            ],
+            "outcome": "fonte verificata direttamente almeno su una pagina reale pertinente",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "coverageLimit": "Verifica diretta ma non equivale necessariamente a enumerazione completa della fonte."
+          },
+          {
+            "source": "Michael Page Italia",
+            "method": "pagina/lista reale letta nel passaggio di approfondimento",
+            "evidenceUrls": [
+              "https://www.michaelpage.it/jobs/sales-support-customer-service"
+            ],
+            "outcome": "fonte verificata direttamente almeno su una pagina reale pertinente",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "coverageLimit": "Verifica diretta ma non equivale necessariamente a enumerazione completa della fonte."
+          },
+          {
+            "source": "Dedalus Careers",
+            "method": "pagina/lista reale letta nel passaggio di approfondimento",
+            "evidenceUrls": [
+              "https://www.dedalus.com/italy/it/lavorare-in-dedalus/le-nostre-offerte-di-lavoro/"
+            ],
+            "outcome": "fonte verificata direttamente almeno su una pagina reale pertinente",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "coverageLimit": "Verifica diretta ma non equivale necessariamente a enumerazione completa della fonte."
+          },
+          {
+            "source": "DXC Careers",
+            "method": "pagina/lista reale letta nel passaggio di approfondimento",
+            "evidenceUrls": [
+              "https://careers.dxc.com/it/"
+            ],
+            "outcome": "fonte verificata direttamente almeno su una pagina reale pertinente",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "coverageLimit": "Verifica diretta ma non equivale necessariamente a enumerazione completa della fonte."
+          },
+          {
+            "source": "Accenture Careers",
+            "method": "pagina/lista reale letta nel passaggio di approfondimento",
+            "evidenceUrls": [
+              "https://www.accenture.com/it-it/careers/jobsearch"
+            ],
+            "outcome": "fonte verificata direttamente almeno su una pagina reale pertinente",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "coverageLimit": "Verifica diretta ma non equivale necessariamente a enumerazione completa della fonte."
+          },
+          {
+            "source": "Lutech Careers",
+            "method": "pagina/lista reale letta nel passaggio di approfondimento",
+            "evidenceUrls": [
+              "https://lutech.group/it/careers/search"
+            ],
+            "outcome": "fonte verificata direttamente almeno su una pagina reale pertinente",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "coverageLimit": "Verifica diretta ma non equivale necessariamente a enumerazione completa della fonte."
+          },
+          {
+            "source": "Reply Careers",
+            "method": "pagina/lista reale letta nel passaggio di approfondimento",
+            "evidenceUrls": [
+              "https://www.reply.com/wm-reply/it/careers"
+            ],
+            "outcome": "fonte verificata direttamente almeno su una pagina reale pertinente",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "coverageLimit": "Verifica diretta ma non equivale necessariamente a enumerazione completa della fonte."
+          },
+          {
+            "source": "Deloitte Careers",
+            "method": "pagina/lista reale letta nel passaggio di approfondimento",
+            "evidenceUrls": [
+              "https://www.deloitte.com/it/it/careers.html"
+            ],
+            "outcome": "fonte verificata direttamente almeno su una pagina reale pertinente",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "coverageLimit": "Verifica diretta ma non equivale necessariamente a enumerazione completa della fonte."
+          },
+          {
+            "source": "Wolters Kluwer Careers",
+            "method": "pagina/lista reale letta nel passaggio di approfondimento",
+            "evidenceUrls": [
+              "https://careers.wolterskluwer.com/it-it"
+            ],
+            "outcome": "fonte verificata direttamente almeno su una pagina reale pertinente",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "coverageLimit": "Verifica diretta ma non equivale necessariamente a enumerazione completa della fonte."
+          },
+          {
+            "source": "Fortinet Careers",
+            "method": "pagina/lista reale letta nel passaggio di approfondimento",
+            "evidenceUrls": [
+              "https://www.fortinet.com/it/corporate/careers"
+            ],
+            "outcome": "fonte verificata direttamente almeno su una pagina reale pertinente",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "coverageLimit": "Verifica diretta ma non equivale necessariamente a enumerazione completa della fonte."
+          },
+          {
+            "source": "ServiceNow Careers",
+            "method": "pagina/lista reale letta nel passaggio di approfondimento",
+            "evidenceUrls": [
+              "https://careers.servicenow.com/locations/emea/italy/"
+            ],
+            "outcome": "fonte verificata direttamente almeno su una pagina reale pertinente",
+            "checkedAt": "2026-10-13T08:46:02+02:00",
+            "coverageLimit": "Verifica diretta ma non equivale necessariamente a enumerazione completa della fonte."
           }
         ],
         "coverageDiagnostics": {
           "indeedQueries": 8,
           "linkedinQueries": 6,
-          "portalQueryCount": 97,
-          "careerPagesOpened": 10,
+          "portalQueryCount": 227,
+          "careerPagesOpened": 12,
           "careerSearchesRun": 19,
           "atsSearchesRun": 20,
           "atsBoardsEnumerated": 1,
-          "fallbackSearchesRun": 97,
+          "fallbackSearchesRun": 227,
           "sourcesPartiallyCovered": [
+            "ADHR Group",
+            "ARTI Toscana / Toscana Lavoro",
+            "AWS / Amazon Jobs",
+            "Accenture Careers",
+            "Adecco Italia",
+            "Adzuna Italia",
             "Ali Lavoro",
+            "AlmaLaurea Lavoro",
+            "Almaviva Careers",
+            "Aruba Careers",
+            "Ashby public job boards/API",
+            "Atempo",
+            "Avanade Careers",
+            "Bakeca Lavoro",
+            "Baker Hughes Careers",
+            "Bureau Veritas Careers",
+            "CPL Taylor",
+            "CVing",
+            "Canonical Careers",
+            "Capgemini Careers",
+            "Careerjet Italia",
+            "Cisco Careers",
+            "Cliclavoro / servizi Ministero",
+            "DXC Careers",
+            "Dedalus Careers",
+            "Dell Careers",
+            "Deloitte Careers",
             "Direzione Lavoro Group",
+            "During",
+            "EURES",
+            "EY Careers",
+            "Engineering Careers",
+            "Ericsson Careers",
+            "Esprinet Careers",
             "Etjca",
+            "Eurointerim",
+            "Experis Italia",
+            "FashionJobs Italia",
+            "Fastweb Careers",
+            "Fortinet Careers",
+            "GPI Careers",
+            "Gi Group",
             "Gi Group / Grafton",
+            "Glassdoor Jobs",
+            "Google Careers",
+            "Greenhouse public boards/API",
+            "HPE Careers",
+            "Hays Italia",
+            "Helplavoro",
+            "High Professional",
+            "Hosco",
+            "Humangest",
+            "Hunters Group",
+            "IBM Careers",
+            "IQM Selezione",
             "Indeed Italia",
+            "Ingenium Careers / vacancies",
+            "Iziwork",
+            "Jefferson Wells Italia",
+            "Jobatus Italia",
+            "Jobbydoo",
+            "Jobgether",
+            "Jobijoba Italia",
+            "JobisJob Italia",
+            "Jobrapido",
+            "Jobtech",
+            "Jooble Italia",
+            "KPMG Careers",
+            "Knet Human Resources",
+            "LHH Italia",
+            "La Risorsa Umana",
+            "Landing.jobs",
+            "Lavoro.it",
+            "Lavoropiù",
+            "Lenovo Careers",
+            "Lever public postings/API",
             "LinkedIn Jobs",
+            "Lutech Careers",
+            "MAW",
             "Manpower Italia",
+            "Michael Page Italia",
+            "Microsoft Careers",
+            "Monster Italia",
+            "NTT DATA Careers",
+            "Nokia Careers",
+            "Openjobmetis",
             "Openjobmetis / Trovolavoro",
+            "Oracle Careers",
             "Orienta",
+            "Page Personnel Italia",
+            "Palo Alto Networks Careers",
+            "Personio public jobs feed",
+            "Praxi",
+            "Profili & Carriere",
+            "PwC Careers",
+            "QuoJobis",
+            "RINA Careers",
             "Randstad",
+            "Randstad Italia",
+            "Recruitee public offers API",
+            "Remote OK",
+            "Remotive",
+            "Reply Careers",
+            "Robert Half Italia",
+            "SAP Careers",
+            "SIISL",
+            "Salesforce Careers",
+            "Sapiens",
+            "ServiceNow Careers",
+            "Siemens Careers",
             "SimplyHired Italia",
-            "TK Elevator / TK Home Solutions Careers"
+            "SmartRecruiters public API",
+            "Staff S.p.A.",
+            "Subito Lavoro",
+            "Synergie Italia",
+            "TD SYNNEX Careers",
+            "TIM Careers",
+            "TK Elevator / TK Home Solutions Careers",
+            "Talent.com Italia",
+            "TeamSystem Careers",
+            "Teamtailor public jobs feed",
+            "Trovit Lavoro",
+            "Trovolavoro",
+            "TÜV Careers",
+            "Università di Firenze Placement",
+            "Var Group Careers",
+            "Vodafone Careers",
+            "W Executive",
+            "Welcome to the Jungle",
+            "Wellfound",
+            "Wolters Kluwer Careers",
+            "Workable public boards/API",
+            "Workday/MyWorkdayJobs public endpoints",
+            "Zucchetti Careers",
+            "e-work",
+            "inPA"
           ],
           "companiesPartiallyCovered": [
             "Manpower client companies",
@@ -5158,20 +6778,24 @@
             "Openjobmetis client company"
           ],
           "queryFamiliesCovered": [
-            "Sales Support",
             "Back Office Commerciale",
             "Commercial Operations",
-            "Sales Operations",
-            "Order Management",
+            "Customer Operations",
             "Customer Service B2B",
-            "Tender/Bid/Proposal",
-            "PMO/Project Support",
+            "Customer Success Operations",
+            "Deal Desk",
             "Event Coordinator",
             "Inside Sales",
+            "Order Management",
+            "PM/Project Support",
+            "PMO/Project Support",
+            "Partner Support",
             "Revenue Operations",
+            "Revenue/Sales Operations",
             "Sales Enablement",
-            "Deal Desk",
-            "Partner Support"
+            "Sales Operations",
+            "Sales Support",
+            "Tender/Bid/Proposal"
           ],
           "locationCellsCovered": [
             "Toscana",
@@ -5201,13 +6825,151 @@
           ],
           "blockedSources": [],
           "zeroResultSourcesRetried": [
+            "ADHR Group",
+            "ARTI Toscana / Toscana Lavoro",
             "ATS remote Italy cluster",
+            "AWS / Amazon Jobs",
+            "Accenture Careers",
+            "Adecco Italia",
+            "Adzuna Italia",
+            "Ali Lavoro",
+            "AlmaLaurea Lavoro",
+            "Almaviva Careers",
+            "Aruba Careers",
+            "Ashby public job boards/API",
+            "Atempo",
+            "Avanade Careers",
+            "Bakeca Lavoro",
+            "Baker Hughes Careers",
+            "Bureau Veritas Careers",
+            "CPL Taylor",
+            "CVing",
+            "Canonical Careers",
+            "Capgemini Careers",
+            "Careerjet Italia",
+            "Cisco Careers",
+            "Cliclavoro / servizi Ministero",
+            "DXC Careers",
+            "Dedalus Careers",
+            "Dell Careers",
+            "Deloitte Careers",
+            "During",
+            "EURES",
+            "EY Careers",
+            "Engineering Careers",
+            "Ericsson Careers",
+            "Esprinet Careers",
+            "Etjca",
+            "Eurointerim",
+            "Experis Italia",
+            "FashionJobs Italia",
+            "Fastweb Careers",
+            "Fortinet Careers",
+            "GPI Careers",
+            "Gi Group",
+            "Glassdoor Jobs",
+            "Google Careers",
+            "Greenhouse public boards/API",
+            "HPE Careers",
+            "Hays Italia",
+            "Helplavoro",
+            "High Professional",
+            "Hosco",
+            "Humangest",
+            "Hunters Group",
+            "IBM Careers",
+            "IQM Selezione",
+            "Indeed Italia",
+            "Ingenium Careers / vacancies",
+            "Iziwork",
+            "Jefferson Wells Italia",
+            "Jobatus Italia",
+            "Jobbydoo",
+            "Jobgether",
+            "Jobijoba Italia",
+            "JobisJob Italia",
+            "Jobrapido",
+            "Jobtech",
+            "Jooble Italia",
+            "KPMG Careers",
+            "Knet Human Resources",
+            "LHH Italia",
+            "La Risorsa Umana",
+            "Landing.jobs",
+            "Lavoro.it",
+            "Lavoropiù",
+            "Lenovo Careers",
+            "Lever public postings/API",
+            "LinkedIn Jobs",
+            "Lutech Careers",
+            "MAW",
+            "Manpower Italia",
+            "Michael Page Italia",
+            "Microsoft Careers",
+            "Monster Italia",
+            "NTT DATA Careers",
+            "Nokia Careers",
+            "Openjobmetis",
+            "Oracle Careers",
+            "Orienta",
+            "Page Personnel Italia",
+            "Palo Alto Networks Careers",
+            "Personio public jobs feed",
+            "Praxi",
+            "Profili & Carriere",
+            "PwC Careers",
+            "QuoJobis",
+            "RINA Careers",
+            "Randstad Italia",
+            "Recruitee public offers API",
+            "Remote OK",
+            "Remotive",
+            "Reply Careers",
+            "Robert Half Italia",
+            "SAP Careers",
+            "SIISL",
+            "Salesforce Careers",
+            "Sapiens",
+            "ServiceNow Careers",
+            "Siemens Careers",
+            "SmartRecruiters public API",
+            "Staff S.p.A.",
+            "Subito Lavoro",
+            "Synergie Italia",
+            "TD SYNNEX Careers",
+            "TIM Careers",
+            "Talent.com Italia",
+            "TeamSystem Careers",
+            "Teamtailor public jobs feed",
+            "Trovit Lavoro",
+            "Trovolavoro",
+            "TÜV Careers",
+            "Università di Firenze Placement",
+            "Var Group Careers",
+            "Vodafone Careers",
+            "W Executive",
+            "Welcome to the Jungle",
+            "Wellfound",
+            "Wolters Kluwer Careers",
+            "Workable public boards/API",
+            "Workday/MyWorkdayJobs public endpoints",
+            "Zucchetti Careers",
             "career company cluster",
+            "e-work",
+            "inPA",
             "public sources cluster"
           ]
         },
         "zeroResultConfidence": null,
-        "notes": "Rerun MAX-COVERAGE delle 08:00 eseguito dopo il precedente run. Aggiunte 7 nuove vacancy verificate in questo rerun; totale nuove della fascia 08:00 oggi: 9. Universo fonti dinamico: 171. Stato partial perché molte fonti sono state cercate/verificate solo parzialmente e non viene certificata falsa copertura totale."
+        "notes": "Rerun MAX-COVERAGE delle 08:00 eseguito dopo il precedente run. Aggiunte 7 nuove vacancy verificate in questo rerun; totale nuove della fascia 08:00 oggi: 9. Universo fonti dinamico: 171. Stato partial perché molte fonti sono state cercate/verificate solo parzialmente e non viene certificata falsa copertura totale. Profondità corretta immediatamente: breadth pass esteso su oltre cento fonti, secondo/terzo passaggio su cluster produttivi, senza gonfiare sourcesChecked.",
+        "sourcesExplored": 138,
+        "breadthCoveragePct": 80.7,
+        "breadthTargetFloor": 112,
+        "breadthTargetMissed": false,
+        "sourcesRemainingToBreadthTarget": 0,
+        "tierATotal": 140,
+        "tierAExplored": 120,
+        "tierACoveragePct": 85.7
       }
     }
   },
