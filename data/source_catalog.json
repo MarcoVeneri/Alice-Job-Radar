@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-13-max-coverage-rerun-08",
+  "version": "2026-10-14-max-coverage-08",
   "mode": "dynamic-unbounded",
   "policy": {
     "minimumSeedSources": 120,
@@ -871,6 +871,11 @@
       "name": "TK Elevator / TK Home Solutions Careers",
       "type": "company",
       "tier": "A"
+    },
+    {
+      "name": "BrandiniRent Careers",
+      "type": "company",
+      "tier": "B"
     }
   ],
   "discoveryRules": [
@@ -881,12 +886,8 @@
     "Promote a discovered source into this catalog only after a real accessible job listing/search page or public ATS feed is verified.",
     "Never count a search-engine query itself as complete coverage of the underlying source."
   ],
-  "lastExpandedAt": "2026-10-13T08:35:47+02:00",
+  "lastExpandedAt": "2026-10-14T08:05:00+02:00",
   "lastExpansionAdded": [
-    "Direzione Lavoro Group",
-    "Factorial public career boards",
-    "FIMER Careers",
-    "Bertolotti Careers / Factorial",
-    "TK Elevator / TK Home Solutions Careers"
+    "BrandiniRent Careers"
   ]
 }
