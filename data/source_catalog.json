@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-14-max-coverage-08",
+  "version": "2026-10-15-max-coverage-15",
   "mode": "dynamic-unbounded",
   "policy": {
     "minimumSeedSources": 120,
@@ -876,6 +876,11 @@
       "name": "BrandiniRent Careers",
       "type": "company",
       "tier": "B"
+    },
+    {
+      "name": "Kering Careers",
+      "type": "company",
+      "tier": "A"
     }
   ],
   "discoveryRules": [
@@ -886,8 +891,8 @@
     "Promote a discovered source into this catalog only after a real accessible job listing/search page or public ATS feed is verified.",
     "Never count a search-engine query itself as complete coverage of the underlying source."
   ],
-  "lastExpandedAt": "2026-10-14T08:05:00+02:00",
+  "lastExpandedAt": "2026-10-15T15:11:17.143+02:00",
   "lastExpansionAdded": [
-    "BrandiniRent Careers"
+    "Kering Careers"
   ]
 }
