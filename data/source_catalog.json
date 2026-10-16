@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-15-max-coverage-15",
+  "version": "2026-10-16-max-coverage-08",
   "mode": "dynamic-unbounded",
   "policy": {
     "minimumSeedSources": 120,
@@ -881,6 +881,19 @@
       "name": "Kering Careers",
       "type": "company",
       "tier": "A"
+    },
+    {
+      "name": "AICOM Careers / Teamtailor",
+      "type": "company",
+      "tier": "A",
+      "url": "https://aicomspa-1736851116.teamtailor.com/jobs",
+      "ats": "Teamtailor"
+    },
+    {
+      "name": "Proget Impianti Careers",
+      "type": "company",
+      "tier": "B",
+      "url": "https://www.progetimpianti.it/lavora-con-noi/"
     }
   ],
   "discoveryRules": [
@@ -891,8 +904,9 @@
     "Promote a discovered source into this catalog only after a real accessible job listing/search page or public ATS feed is verified.",
     "Never count a search-engine query itself as complete coverage of the underlying source."
   ],
-  "lastExpandedAt": "2026-10-15T15:11:17.143+02:00",
+  "lastExpandedAt": "2026-10-16T06:12:46.586Z",
   "lastExpansionAdded": [
-    "Kering Careers"
+    "AICOM Careers / Teamtailor",
+    "Proget Impianti Careers"
   ]
 }
