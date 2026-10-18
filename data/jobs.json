@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T08:09:10.294+02:00",
+  "generatedAt": "2026-10-18T15:01:35.623+02:00",
   "source": "Ricerca quotidiana Alice · MAX-COVERAGE DEEP",
   "jobs": [
     {
@@ -16930,6 +16930,351 @@
         ],
         "zeroResultConfidence": "Nessuna nuova vacancy aggiunta dopo 848 controlli documentati: 175 fonti tentate, matrici semantiche e territoriali, 50 aziende prioritarie, 21 famiglie ATS, 186 annunci esistenti riaperti, un secondo passaggio su 60 fonti e un terzo passaggio per attività. Confidenza moderata, non assoluta, perché molte fonti limitano paginazione, rendering o accesso diretto.",
         "notes": "Copertura breadth 175/175 (100%) e Tier A 142/142. Stato partial: nessuna delle 175 fonti è dichiarata completamente enumerata; molte verifiche sono state possibili soltanto via indice o su singole pagine. 107 fonti hanno almeno una pagina reale pertinente letta. Nessuna nuova offerta ha superato verifica e deduplica. La posizione Manifattura Tessile Toscana è stata esclusa perché richiede obbligatoriamente anche francese B2, non coerente con il profilo noto."
+      },
+      "15:00": {
+        "scheduledFor": "2026-10-18T15:00:00+02:00",
+        "completedAt": "2026-10-18T15:01:35.623+02:00",
+        "status": "partial",
+        "requiredSourcesTotal": 175,
+        "sourceUniverseTotal": 175,
+        "requiredSourcesChecked": 0,
+        "sourcesChecked": [],
+        "sourcesUnavailable": [],
+        "extraSourcesChecked": [],
+        "companiesChecked": [],
+        "atsChecked": [],
+        "queriesRun": 20,
+        "newJobs": 0,
+        "activeJobs": 173,
+        "layersCompleted": [
+          "breadth-first iniziale"
+        ],
+        "secondPassSources": [],
+        "sourcesVerified": [],
+        "sourcesSearched": [
+          "LinkedIn Jobs",
+          "Indeed Italia",
+          "Monster Italia",
+          "Glassdoor Jobs",
+          "Jooble Italia",
+          "Talent.com Italia",
+          "Careerjet Italia",
+          "Adzuna Italia",
+          "Jobrapido",
+          "Jobbydoo",
+          "Jobijoba Italia",
+          "JobisJob Italia",
+          "Trovit Lavoro",
+          "SimplyHired Italia",
+          "Jobsora Italia",
+          "Trovolavoro",
+          "Bakeca Lavoro",
+          "Subito Lavoro",
+          "Helplavoro",
+          "CercoLavoro.com"
+        ],
+        "sourcesExplored": 20,
+        "breadthCoveragePct": 11.4,
+        "tierACoveragePct": 10.6,
+        "breadthTargetMissed": true,
+        "sourcesRemainingToBreadthTarget": 94,
+        "coverageDiagnostics": {
+          "indeedQueries": 1,
+          "linkedinQueries": 1,
+          "portalQueryCount": 20,
+          "careerPagesOpened": 0,
+          "careerSearchesRun": 0,
+          "atsSearchesRun": 0,
+          "fallbackSearchesRun": 20,
+          "sourcesPartiallyCovered": [
+            "LinkedIn Jobs",
+            "Indeed Italia",
+            "Monster Italia",
+            "Glassdoor Jobs",
+            "Jooble Italia",
+            "Talent.com Italia",
+            "Careerjet Italia",
+            "Adzuna Italia",
+            "Jobrapido",
+            "Jobbydoo",
+            "Jobijoba Italia",
+            "JobisJob Italia",
+            "Trovit Lavoro",
+            "SimplyHired Italia",
+            "Jobsora Italia",
+            "Trovolavoro",
+            "Bakeca Lavoro",
+            "Subito Lavoro",
+            "Helplavoro",
+            "CercoLavoro.com"
+          ],
+          "companiesPartiallyCovered": []
+        },
+        "sourceVerification": [],
+        "searchLog": [
+          {
+            "source": "LinkedIn Jobs",
+            "query": "\"LinkedIn Jobs\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
+            "checkedAt": "2026-10-18T15:01:25.703+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://it.indeed.com/q-lavoro-ufficio-l-perugia%2C-umbria-offerte-lavoro.html?l=perugia%2C+umbria&q=lavoro+ufficio&vjk=09636b4b296a0f50)",
+              "https://www.glassdoor.co.in/Job/novafeltria-impiegato-jobs-SRCH_IL.0%2C11_IC2782648_KO12%2C21.htm)",
+              "https://www.glassdoor.co.in/Job/villamarzana-impiegato-ufficio-logistica-jobs-SRCH_IL.0%2C12_IC2804963_KO13%2C40.htm)"
+            ],
+            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "\"Indeed Italia\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
+            "checkedAt": "2026-10-18T15:01:25.703+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://it.indeed.com/q-lavoro-ufficio-l-perugia%2C-umbria-offerte-lavoro.html?l=perugia%2C+umbria&q=lavoro+ufficio&vjk=09636b4b296a0f50)",
+              "https://www.glassdoor.co.in/Job/novafeltria-impiegato-jobs-SRCH_IL.0%2C11_IC2782648_KO12%2C21.htm)",
+              "https://www.glassdoor.co.in/Job/villamarzana-impiegato-ufficio-logistica-jobs-SRCH_IL.0%2C12_IC2804963_KO13%2C40.htm)"
+            ],
+            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Monster Italia",
+            "query": "\"Monster Italia\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
+            "checkedAt": "2026-10-18T15:01:25.703+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://it.indeed.com/q-lavoro-ufficio-l-perugia%2C-umbria-offerte-lavoro.html?l=perugia%2C+umbria&q=lavoro+ufficio&vjk=09636b4b296a0f50)",
+              "https://www.glassdoor.co.in/Job/novafeltria-impiegato-jobs-SRCH_IL.0%2C11_IC2782648_KO12%2C21.htm)",
+              "https://www.glassdoor.co.in/Job/villamarzana-impiegato-ufficio-logistica-jobs-SRCH_IL.0%2C12_IC2804963_KO13%2C40.htm)"
+            ],
+            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Glassdoor Jobs",
+            "query": "\"Glassdoor Jobs\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
+            "checkedAt": "2026-10-18T15:01:25.703+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://it.indeed.com/q-lavoro-ufficio-l-perugia%2C-umbria-offerte-lavoro.html?l=perugia%2C+umbria&q=lavoro+ufficio&vjk=09636b4b296a0f50)",
+              "https://www.glassdoor.co.in/Job/novafeltria-impiegato-jobs-SRCH_IL.0%2C11_IC2782648_KO12%2C21.htm)",
+              "https://www.glassdoor.co.in/Job/villamarzana-impiegato-ufficio-logistica-jobs-SRCH_IL.0%2C12_IC2804963_KO13%2C40.htm)"
+            ],
+            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Jooble Italia",
+            "query": "\"Jooble Italia\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
+            "checkedAt": "2026-10-18T15:01:25.703+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.careerjet.it/offerte-lavoro-impiegato-addetto/Rozzano-%28MI%29)",
+              "https://www.portalelavoro.org/offerte-di-lavoro/ceriale)",
+              "https://www.offertedilavororoma.it/stipendi/sanita?page=2)"
+            ],
+            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Talent.com Italia",
+            "query": "\"Talent.com Italia\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
+            "checkedAt": "2026-10-18T15:01:25.703+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.careerjet.it/offerte-lavoro-impiegato-addetto/Rozzano-%28MI%29)",
+              "https://www.portalelavoro.org/offerte-di-lavoro/ceriale)",
+              "https://www.offertedilavororoma.it/stipendi/sanita?page=2)"
+            ],
+            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Careerjet Italia",
+            "query": "\"Careerjet Italia\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
+            "checkedAt": "2026-10-18T15:01:25.703+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.careerjet.it/offerte-lavoro-impiegato-addetto/Rozzano-%28MI%29)",
+              "https://www.portalelavoro.org/offerte-di-lavoro/ceriale)",
+              "https://www.offertedilavororoma.it/stipendi/sanita?page=2)"
+            ],
+            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Adzuna Italia",
+            "query": "\"Adzuna Italia\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
+            "checkedAt": "2026-10-18T15:01:25.703+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.careerjet.it/offerte-lavoro-impiegato-addetto/Rozzano-%28MI%29)",
+              "https://www.portalelavoro.org/offerte-di-lavoro/ceriale)",
+              "https://www.offertedilavororoma.it/stipendi/sanita?page=2)"
+            ],
+            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Jobrapido",
+            "query": "\"Jobrapido\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
+            "checkedAt": "2026-10-18T15:01:25.703+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.jobijoba.it/annunci-di-lavoro/13/526f3d67ec85470fe87831d15951c5f6)",
+              "https://www.jobijoba.it/annunci-di-lavoro/13/537f05a70817960ae55ec420bdc7358d)",
+              "https://www.jobijoba.it/annunci-di-lavoro/13/415665a80a6945bafe699e941a5ca619)"
+            ],
+            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Jobbydoo",
+            "query": "\"Jobbydoo\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
+            "checkedAt": "2026-10-18T15:01:25.703+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.jobijoba.it/annunci-di-lavoro/13/526f3d67ec85470fe87831d15951c5f6)",
+              "https://www.jobijoba.it/annunci-di-lavoro/13/537f05a70817960ae55ec420bdc7358d)",
+              "https://www.jobijoba.it/annunci-di-lavoro/13/415665a80a6945bafe699e941a5ca619)"
+            ],
+            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Jobijoba Italia",
+            "query": "\"Jobijoba Italia\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
+            "checkedAt": "2026-10-18T15:01:25.703+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.jobijoba.it/annunci-di-lavoro/13/526f3d67ec85470fe87831d15951c5f6)",
+              "https://www.jobijoba.it/annunci-di-lavoro/13/537f05a70817960ae55ec420bdc7358d)",
+              "https://www.jobijoba.it/annunci-di-lavoro/13/415665a80a6945bafe699e941a5ca619)"
+            ],
+            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "JobisJob Italia",
+            "query": "\"JobisJob Italia\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
+            "checkedAt": "2026-10-18T15:01:25.703+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.jobijoba.it/annunci-di-lavoro/13/526f3d67ec85470fe87831d15951c5f6)",
+              "https://www.jobijoba.it/annunci-di-lavoro/13/537f05a70817960ae55ec420bdc7358d)",
+              "https://www.jobijoba.it/annunci-di-lavoro/13/415665a80a6945bafe699e941a5ca619)"
+            ],
+            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Trovit Lavoro",
+            "query": "\"Trovit Lavoro\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
+            "checkedAt": "2026-10-18T15:01:25.703+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://offerte.trovolavoro.com/en/careers/jobs_by_keyword/laurea-architettura-cerreto-guidi)",
+              "https://offerte.trovolavoro.com/en/careers/jobs_by_keyword/impiegato-back-office-assicurativo-fiumicino?page=1)",
+              "https://it.jobsora.com/lavoro-ufficio-gare-e-appalti-firenze)"
+            ],
+            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "SimplyHired Italia",
+            "query": "\"SimplyHired Italia\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
+            "checkedAt": "2026-10-18T15:01:25.703+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://offerte.trovolavoro.com/en/careers/jobs_by_keyword/laurea-architettura-cerreto-guidi)",
+              "https://offerte.trovolavoro.com/en/careers/jobs_by_keyword/impiegato-back-office-assicurativo-fiumicino?page=1)",
+              "https://it.jobsora.com/lavoro-ufficio-gare-e-appalti-firenze)"
+            ],
+            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Jobsora Italia",
+            "query": "\"Jobsora Italia\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
+            "checkedAt": "2026-10-18T15:01:25.703+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://offerte.trovolavoro.com/en/careers/jobs_by_keyword/laurea-architettura-cerreto-guidi)",
+              "https://offerte.trovolavoro.com/en/careers/jobs_by_keyword/impiegato-back-office-assicurativo-fiumicino?page=1)",
+              "https://it.jobsora.com/lavoro-ufficio-gare-e-appalti-firenze)"
+            ],
+            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Trovolavoro",
+            "query": "\"Trovolavoro\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
+            "checkedAt": "2026-10-18T15:01:25.703+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://offerte.trovolavoro.com/en/careers/jobs_by_keyword/laurea-architettura-cerreto-guidi)",
+              "https://offerte.trovolavoro.com/en/careers/jobs_by_keyword/impiegato-back-office-assicurativo-fiumicino?page=1)",
+              "https://it.jobsora.com/lavoro-ufficio-gare-e-appalti-firenze)"
+            ],
+            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Bakeca Lavoro",
+            "query": "\"Bakeca Lavoro\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
+            "checkedAt": "2026-10-18T15:01:25.703+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.cercolavoro.com/offerte-lavoro-amministrazione-gestione-legale)",
+              "https://www.cercolavoro.com/offerte-di-lavoro-salo/addetti-videoscrittura-dattilografi-stenografi-professioni-assimilate)",
+              "https://forli.bakeca.it/annunci/amministrazione-contabilita-segreteria/disponibilitalav/fulltime/)"
+            ],
+            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Subito Lavoro",
+            "query": "\"Subito Lavoro\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
+            "checkedAt": "2026-10-18T15:01:25.703+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.cercolavoro.com/offerte-lavoro-amministrazione-gestione-legale)",
+              "https://www.cercolavoro.com/offerte-di-lavoro-salo/addetti-videoscrittura-dattilografi-stenografi-professioni-assimilate)",
+              "https://forli.bakeca.it/annunci/amministrazione-contabilita-segreteria/disponibilitalav/fulltime/)"
+            ],
+            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "Helplavoro",
+            "query": "\"Helplavoro\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
+            "checkedAt": "2026-10-18T15:01:25.703+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.cercolavoro.com/offerte-lavoro-amministrazione-gestione-legale)",
+              "https://www.cercolavoro.com/offerte-di-lavoro-salo/addetti-videoscrittura-dattilografi-stenografi-professioni-assimilate)",
+              "https://forli.bakeca.it/annunci/amministrazione-contabilita-segreteria/disponibilitalav/fulltime/)"
+            ],
+            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
+            "kind": "breadth_tier_a"
+          },
+          {
+            "source": "CercoLavoro.com",
+            "query": "\"CercoLavoro.com\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
+            "checkedAt": "2026-10-18T15:01:25.703+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.cercolavoro.com/offerte-lavoro-amministrazione-gestione-legale)",
+              "https://www.cercolavoro.com/offerte-di-lavoro-salo/addetti-videoscrittura-dattilografi-stenografi-professioni-assimilate)",
+              "https://forli.bakeca.it/annunci/amministrazione-contabilita-segreteria/disponibilitalav/fulltime/)"
+            ],
+            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
+            "kind": "breadth_tier_a"
+          }
+        ],
+        "zeroResultConfidence": "Non applicabile al checkpoint iniziale; scansione in corso.",
+        "notes": "Checkpoint iniziale del run 15:00: breadth-first in corso; nessuna fonte dichiarata completa."
       }
     }
   },
