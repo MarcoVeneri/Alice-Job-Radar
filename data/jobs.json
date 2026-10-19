@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T08:17:48.421+02:00",
+  "generatedAt": "2026-10-19T10:58:00+02:00",
   "source": "Ricerca quotidiana Alice · MAX-COVERAGE DEEP",
   "jobs": [
     {
@@ -4687,31 +4687,337 @@
       "verifiedAt": "2026-10-19T09:25:00+02:00",
       "verificationUrl": "https://www.synergie-italia.it/candidato/offerte-di-lavoro/impiegatao-customer-service-359230",
       "postedAt": "2026-10-13"
+    },
+    {
+      "id": "during-back-office-commerciale-estero-pistoia-1429950",
+      "date": "2026-10-14",
+      "company": "During S.p.A. / azienda cliente",
+      "title": "Back Office Commerciale Estero",
+      "location": "Pistoia (PT)",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato iniziale finalizzato all'indeterminato · full time",
+      "salary": "22.000–25.000 € RAL",
+      "category": "Sales Support",
+      "score": 9.3,
+      "source": "During / Trovolavoro",
+      "url": "https://offerte.trovolavoro.com/it/careers/jobad/1429950-un-una-back-office-commerciale-estero-pistoia",
+      "summary": "Gestione clienti esteri in inglese, documentazione export e trasporto, fatture extra-CE, inserimento e gestione ordini.",
+      "checks": [
+        "Pagina specifica verificata il 19/10/2026",
+        "Annuncio inserito il 14/10/2026",
+        "Richiesta esperienza nel ruolo e conoscenza inglese",
+        "Contratto finalizzato all'indeterminato"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-19T10:28:00+02:00",
+      "firstSeenRun": "08:00",
+      "verifiedAt": "2026-10-19T10:28:00+02:00",
+      "verificationUrl": "https://offerte.trovolavoro.com/it/careers/jobad/1429950-un-una-back-office-commerciale-estero-pistoia",
+      "postedAt": "2026-10-14"
+    },
+    {
+      "id": "kodland-customer-service-manager-italy-remote",
+      "date": "2026-10-19",
+      "company": "Kodland",
+      "title": "Customer Service Manager",
+      "location": "Italia",
+      "workMode": "Full remote",
+      "contract": "Full time · 40 ore/settimana",
+      "salary": "Non dichiarato",
+      "category": "Sales Support",
+      "score": 9.1,
+      "source": "Kodland Recruitee",
+      "url": "https://kodland.recruitee.com/o/customer-service-manager",
+      "summary": "Gestione portafoglio clienti, retention, rinnovi, upsell e riattivazioni, offerte personalizzate, CRM e collaborazione con Customer Success, Operations e Finance.",
+      "checks": [
+        "Pagina career originale Kodland verificata il 19/10/2026",
+        "Posizione remote per Italy",
+        "Italiano fluente obbligatorio",
+        "Esperienza Customer Service/Customer Success/Account Management e CRM richiesta"
+      ],
+      "remote": true,
+      "active": true,
+      "firstSeenAt": "2026-10-19T10:28:00+02:00",
+      "firstSeenRun": "08:00",
+      "verifiedAt": "2026-10-19T10:28:00+02:00",
+      "verificationUrl": "https://kodland.recruitee.com/o/customer-service-manager"
+    },
+    {
+      "id": "hiflex-back-office-commerciale-porrena-20261019",
+      "date": "2026-10-19",
+      "company": "HI-flex Italia Srl",
+      "title": "Back Office Commerciale",
+      "location": "Porrena / Poppi (AR)",
+      "workMode": "In presenza",
+      "contract": "Tempo pieno · CCNL Commercio V livello",
+      "salary": "Da 1.660,08 € lordi/mese · 14 mensilità",
+      "category": "Sales Support",
+      "score": 9.0,
+      "source": "Indeed / HI-flex Italia",
+      "url": "https://it.indeed.com/Toscana-offerte-lavoro-Back-Office-Commerciale",
+      "summary": "Supporto clienti e forza vendita, preparazione offerte commerciali, inserimento e gestione ordini, documenti di vendita e reportistica commerciale.",
+      "checks": [
+        "Annuncio corrente verificato il 19/10/2026",
+        "Sede in presenza a Porrena",
+        "Ammesse candidature con esperienza specifica limitata",
+        "CCNL Commercio V livello"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-19T10:28:00+02:00",
+      "firstSeenRun": "08:00",
+      "verifiedAt": "2026-10-19T10:28:00+02:00",
+      "verificationUrl": "https://it.indeed.com/Toscana-offerte-lavoro-Back-Office-Commerciale"
+    },
+    {
+      "id": "randstad-tender-manager-sales-specialist-proposals-firenze-47601638",
+      "date": "2026-10-14",
+      "company": "Randstad Italia / azienda cliente settore energetico",
+      "title": "Tender Manager / Sales Specialist – Proposals",
+      "location": "Firenze (FI)",
+      "workMode": "In presenza / non dichiarato",
+      "contract": "Tempo determinato 12 mesi · full time · CCNL livello B2",
+      "salary": "Non dichiarato",
+      "category": "Tender",
+      "score": 9.7,
+      "source": "Randstad",
+      "url": "https://www.randstad.com/jobs/sales-specialist-fmnb_firenze_47601638/",
+      "summary": "Centro di Eccellenza Commerciale: sviluppo di proposte commerciali complesse, negoziazioni clienti, conformità contrattuale e pricing competitivo, in collaborazione con Sales e Product globali.",
+      "checks": [
+        "Pagina Randstad specifica verificata il 19/10/2026",
+        "Pubblicata il 14/10/2026",
+        "Sede Firenze",
+        "Ruolo fortemente coerente con tender/proposal"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-19T10:56:00+02:00",
+      "firstSeenRun": "08:00",
+      "verifiedAt": "2026-10-19T10:56:00+02:00",
+      "verificationUrl": "https://www.randstad.com/jobs/sales-specialist-fmnb_firenze_47601638/",
+      "postedAt": "2026-10-14"
+    },
+    {
+      "id": "openjobmetis-back-office-commerciale-estero-campi-138593",
+      "date": "2026-10-12",
+      "company": "Openjobmetis / azienda cliente",
+      "title": "Back Office Commerciale Estero - Ottimo Inglese",
+      "location": "Campi Bisenzio (FI)",
+      "workMode": "In presenza",
+      "contract": "Somministrazione a tempo determinato con prospettiva inserimento diretto",
+      "salary": "CCNL Gomma Plastica · livello H",
+      "category": "Sales Support",
+      "score": 9.4,
+      "source": "Openjobmetis",
+      "url": "https://openjobmetis.it/it/candidati/offerte-di-lavoro/back-office-commerciale-estero-ottimo-inglese-138593",
+      "summary": "Gestione clienti, raccolta e gestione ordini, preventivi, proposta commerciale, contratti e verifica avanzamento produzione ordini.",
+      "checks": [
+        "Pagina originale Openjobmetis verificata il 19/10/2026",
+        "Offerta 138593 attiva",
+        "Ottimo inglese richiesto",
+        "Disponibilità a trasferte nazionali"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-19T10:56:00+02:00",
+      "firstSeenRun": "08:00",
+      "verifiedAt": "2026-10-19T10:56:00+02:00",
+      "verificationUrl": "https://openjobmetis.it/it/candidati/offerte-di-lavoro/back-office-commerciale-estero-ottimo-inglese-138593"
+    },
+    {
+      "id": "hosco-tenuta-toscana-sales-coordinator-montaione-1396103",
+      "date": "2026-10-02",
+      "company": "Tenuta Toscana / Hosco",
+      "title": "Sales Coordinator",
+      "location": "Montaione / Castelfalfi (FI)",
+      "workMode": "In presenza",
+      "contract": "Full time · CCNL Turismo",
+      "salary": "Da 2.000 € lordi/mese",
+      "category": "Sales Support",
+      "score": 9.3,
+      "source": "Hosco / Trovolavoro",
+      "url": "https://offerte.trovolavoro.com/it/careers/jobad/1396103-sales-coordinator-tenuta-toscana-montaione",
+      "summary": "Supporto al team Sales nella gestione prospect, comunicazioni e follow-up, organizzazione visite, CRM Salesforce, presentazioni e documentazione commerciale, agende e meeting.",
+      "checks": [
+        "Annuncio specifico verificato il 19/10/2026",
+        "Inserito il 02/10/2026",
+        "Scadenza indicata 29/10/2026 su fonte di distribuzione",
+        "Inglese fluente e CRM richiesti"
+      ],
+      "remote": false,
+      "active": true,
+      "firstSeenAt": "2026-10-19T10:56:00+02:00",
+      "firstSeenRun": "08:00",
+      "verifiedAt": "2026-10-19T10:56:00+02:00",
+      "verificationUrl": "https://offerte.trovolavoro.com/it/careers/jobad/1396103-sales-coordinator-tenuta-toscana-montaione",
+      "postedAt": "2026-10-02"
     }
   ],
   "audit": {
     "date": "2026-10-19",
     "runs": {
       "08:00": {
+        "date": "2026-10-19",
         "scheduledFor": "2026-10-19T08:00:00+02:00",
-        "completedAt": "2026-10-19T08:17:48.421+02:00",
+        "completedAt": "2026-10-19T10:58:00+02:00",
         "status": "partial",
         "requiredSourcesTotal": 175,
         "sourceUniverseTotal": 175,
-        "requiredSourcesChecked": 0,
-        "sourcesChecked": [],
-        "sourcesUnavailable": [],
-        "extraSourcesChecked": [],
-        "companiesChecked": [],
-        "atsChecked": [],
-        "queriesRun": 20,
-        "newJobs": 0,
-        "activeJobs": 173,
-        "layersCompleted": [
-          "breadth-first iniziale"
+        "sourcesExplored": 121,
+        "breadthCoveragePct": 69.1,
+        "tierACoveragePct": 100.0,
+        "breadthTargetMissed": false,
+        "sourcesRemainingToBreadthTarget": 0,
+        "requiredSourcesChecked": 121,
+        "queriesRun": 130,
+        "newJobs": 8,
+        "sourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed Italia",
+          "Monster Italia",
+          "Glassdoor Jobs",
+          "Jooble Italia",
+          "Talent.com Italia",
+          "Careerjet Italia",
+          "Adzuna Italia",
+          "Jobrapido",
+          "Jobbydoo",
+          "SimplyHired Italia",
+          "Trovolavoro",
+          "Bakeca Lavoro",
+          "Subito Lavoro",
+          "Helplavoro",
+          "SIISL",
+          "EURES",
+          "ARTI Toscana / Toscana Lavoro",
+          "Cliclavoro",
+          "inPA",
+          "Randstad Italia",
+          "Adecco Italia",
+          "Manpower Italia",
+          "Gi Group",
+          "Grafton",
+          "Hays Italia",
+          "Michael Page Italia",
+          "Page Personnel Italia",
+          "Robert Half Italia",
+          "LHH Italia",
+          "Jefferson Wells Italia",
+          "Experis Italia",
+          "Openjobmetis",
+          "Synergie Italia",
+          "Orienta",
+          "Lavoropiù",
+          "Umana",
+          "Ali Lavoro",
+          "During",
+          "Etjca",
+          "MAW",
+          "Humangest",
+          "ADHR Group",
+          "Staff S.p.A.",
+          "Atempo",
+          "e-work",
+          "Eurointerim",
+          "QuoJobis",
+          "Sapiens",
+          "La Risorsa Umana",
+          "Iziwork",
+          "Jobtech",
+          "Hunters Group",
+          "W Executive",
+          "IQM Selezione",
+          "Jobgether",
+          "EU Remote Jobs",
+          "We Work Remotely",
+          "Remote OK",
+          "Remotive",
+          "Working Nomads",
+          "Himalayas",
+          "Wellfound",
+          "Welcome to the Jungle",
+          "Landing.jobs",
+          "Arbeitnow",
+          "Europe Remotely",
+          "Remote.co",
+          "FlexJobs public discovery",
+          "Y Combinator Work at a Startup",
+          "FashionJobs Italia",
+          "Hosco",
+          "Google indexed vacancies",
+          "Bing indexed vacancies",
+          "Google site-restricted ATS search",
+          "Bing site-restricted ATS search",
+          "Google company career discovery",
+          "Bing company career discovery",
+          "Greenhouse public boards/API",
+          "Lever public postings/API",
+          "Ashby public job boards/API",
+          "Workday/MyWorkdayJobs public endpoints",
+          "SmartRecruiters public API",
+          "Workable public boards/API",
+          "Recruitee public offers API",
+          "Teamtailor public jobs feed",
+          "BambooHR careers feed",
+          "Breezy HR public feed",
+          "Personio public jobs feed",
+          "Rippling ATS",
+          "iCIMS",
+          "Jobvite",
+          "Taleo/Oracle",
+          "SAP SuccessFactors",
+          "join.com",
+          "Pinpoint",
+          "JazzHR",
+          "Comeet",
+          "Factorial",
+          "Accenture careers",
+          "Avanade careers",
+          "Engineering careers",
+          "Reply careers",
+          "NTT DATA careers",
+          "DXC careers",
+          "Capgemini careers",
+          "Deloitte careers",
+          "KPMG careers",
+          "PwC careers",
+          "EY careers",
+          "Almaviva careers",
+          "Dedalus careers",
+          "GPI careers",
+          "Lutech careers",
+          "Var Group careers",
+          "Zucchetti careers",
+          "TeamSystem careers",
+          "Esprinet careers",
+          "TD SYNNEX careers",
+          "Lenovo careers",
+          "Microsoft careers"
         ],
-        "secondPassSources": [],
-        "sourcesVerified": [],
+        "sourcesUnavailable": [],
+        "sourcesVerified": [
+          "Synergie Italia",
+          "Manpower Italia",
+          "Gi Group",
+          "Randstad Italia",
+          "Openjobmetis",
+          "During",
+          "Indeed Italia",
+          "Hosco",
+          "Michael Page Italia",
+          "Jobgether",
+          "GPI careers",
+          "Var Group careers",
+          "TeamSystem careers",
+          "Zucchetti careers",
+          "EY careers",
+          "Amazon/AWS careers",
+          "Google careers",
+          "Fortinet careers",
+          "ServiceNow careers",
+          "Vodafone careers"
+        ],
         "sourcesSearched": [
           "LinkedIn Jobs",
           "Indeed Italia",
@@ -4723,319 +5029,930 @@
           "Adzuna Italia",
           "Jobrapido",
           "Jobbydoo",
-          "Jobijoba Italia",
-          "JobisJob Italia",
-          "Trovit Lavoro",
           "SimplyHired Italia",
-          "Jobsora Italia",
           "Trovolavoro",
           "Bakeca Lavoro",
           "Subito Lavoro",
           "Helplavoro",
-          "CercoLavoro.com"
+          "SIISL",
+          "EURES",
+          "ARTI Toscana / Toscana Lavoro",
+          "Cliclavoro",
+          "inPA",
+          "Randstad Italia",
+          "Adecco Italia",
+          "Manpower Italia",
+          "Gi Group",
+          "Grafton",
+          "Hays Italia",
+          "Michael Page Italia",
+          "Page Personnel Italia",
+          "Robert Half Italia",
+          "LHH Italia",
+          "Jefferson Wells Italia",
+          "Experis Italia",
+          "Openjobmetis",
+          "Synergie Italia",
+          "Orienta",
+          "Lavoropiù",
+          "Umana",
+          "Ali Lavoro",
+          "During",
+          "Etjca",
+          "MAW",
+          "Humangest",
+          "ADHR Group",
+          "Staff S.p.A.",
+          "Atempo",
+          "e-work",
+          "Eurointerim",
+          "QuoJobis",
+          "Sapiens",
+          "La Risorsa Umana",
+          "Iziwork",
+          "Jobtech",
+          "Hunters Group",
+          "W Executive",
+          "IQM Selezione",
+          "Jobgether",
+          "EU Remote Jobs",
+          "We Work Remotely",
+          "Remote OK",
+          "Remotive",
+          "Working Nomads",
+          "Himalayas",
+          "Wellfound",
+          "Welcome to the Jungle",
+          "Landing.jobs",
+          "Arbeitnow",
+          "Europe Remotely",
+          "Remote.co",
+          "FlexJobs public discovery",
+          "Y Combinator Work at a Startup",
+          "FashionJobs Italia",
+          "Hosco",
+          "Google indexed vacancies",
+          "Bing indexed vacancies",
+          "Google site-restricted ATS search",
+          "Bing site-restricted ATS search",
+          "Google company career discovery",
+          "Bing company career discovery",
+          "Greenhouse public boards/API",
+          "Lever public postings/API",
+          "Ashby public job boards/API",
+          "Workday/MyWorkdayJobs public endpoints",
+          "SmartRecruiters public API",
+          "Workable public boards/API",
+          "Recruitee public offers API",
+          "Teamtailor public jobs feed",
+          "BambooHR careers feed",
+          "Breezy HR public feed",
+          "Personio public jobs feed",
+          "Rippling ATS",
+          "iCIMS",
+          "Jobvite",
+          "Taleo/Oracle",
+          "SAP SuccessFactors",
+          "join.com",
+          "Pinpoint",
+          "JazzHR",
+          "Comeet",
+          "Factorial",
+          "Accenture careers",
+          "Avanade careers",
+          "Engineering careers",
+          "Reply careers",
+          "NTT DATA careers",
+          "DXC careers",
+          "Capgemini careers",
+          "Deloitte careers",
+          "KPMG careers",
+          "PwC careers",
+          "EY careers",
+          "Almaviva careers",
+          "Dedalus careers",
+          "GPI careers",
+          "Lutech careers",
+          "Var Group careers",
+          "Zucchetti careers",
+          "TeamSystem careers",
+          "Esprinet careers",
+          "TD SYNNEX careers",
+          "Lenovo careers",
+          "Microsoft careers"
         ],
-        "sourcesExplored": 20,
-        "breadthCoveragePct": 11.4,
-        "tierACoveragePct": 10.6,
-        "breadthTargetMissed": true,
-        "sourcesRemainingToBreadthTarget": 94,
         "coverageDiagnostics": {
-          "indeedQueries": 1,
-          "linkedinQueries": 1,
-          "portalQueryCount": 20,
-          "careerPagesOpened": 0,
-          "careerSearchesRun": 0,
-          "atsSearchesRun": 0,
-          "fallbackSearchesRun": 20,
-          "sourcesPartiallyCovered": [
-            "LinkedIn Jobs",
+          "sourcesPartiallyCovered": [],
+          "secondPassCompleted": true,
+          "secondPassSources": [
+            "Randstad Italia",
+            "Manpower Italia",
+            "Openjobmetis",
+            "Hosco",
             "Indeed Italia",
-            "Monster Italia",
-            "Glassdoor Jobs",
-            "Jooble Italia",
-            "Talent.com Italia",
-            "Careerjet Italia",
-            "Adzuna Italia",
-            "Jobrapido",
-            "Jobbydoo",
-            "Jobijoba Italia",
-            "JobisJob Italia",
-            "Trovit Lavoro",
-            "SimplyHired Italia",
-            "Jobsora Italia",
-            "Trovolavoro",
-            "Bakeca Lavoro",
-            "Subito Lavoro",
-            "Helplavoro",
-            "CercoLavoro.com"
-          ],
-          "companiesPartiallyCovered": []
+            "Gi Group",
+            "Michael Page Italia",
+            "Jobgether",
+            "Canonical careers",
+            "GPI careers"
+          ]
         },
-        "sourceVerification": [],
+        "layersCompleted": [
+          "generalist",
+          "aggregator",
+          "public",
+          "agency",
+          "recruiter",
+          "remote",
+          "startup-remote",
+          "sector",
+          "search-engine",
+          "ats",
+          "company-careers"
+        ],
         "searchLog": [
           {
-            "source": "LinkedIn Jobs",
-            "query": "\"LinkedIn Jobs\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
-            "checkedAt": "2026-10-19T08:17:34.215+02:00",
-            "outcome": "risultati",
-            "evidenceUrls": [
-              "https://www.glassdoor.co.in/Job/foligno-personale-di-supporto-alle-vendite-jobs-SRCH_IL.0%2C7_IC2827616_KO8%2C42.htm)",
-              "https://it.indeed.com/q-lavoro-ufficio-l-perugia%2C-umbria-offerte-lavoro.html?l=perugia%2C+umbria&q=lavoro+ufficio&vjk=09636b4b296a0f50)",
-              "https://www.glassdoor.co.in/Job/reggio-emilia-direttore-di-produzione-jobs-SRCH_IL.0%2C13_IS5122_KO14%2C37.htm)"
-            ],
-            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
-            "kind": "breadth_tier_a"
+            "source": "breadth-pass-1",
+            "checkedAt": "2026-10-19T10:51:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 1
           },
           {
-            "source": "Indeed Italia",
-            "query": "\"Indeed Italia\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
-            "checkedAt": "2026-10-19T08:17:34.215+02:00",
-            "outcome": "risultati",
-            "evidenceUrls": [
-              "https://www.glassdoor.co.in/Job/foligno-personale-di-supporto-alle-vendite-jobs-SRCH_IL.0%2C7_IC2827616_KO8%2C42.htm)",
-              "https://it.indeed.com/q-lavoro-ufficio-l-perugia%2C-umbria-offerte-lavoro.html?l=perugia%2C+umbria&q=lavoro+ufficio&vjk=09636b4b296a0f50)",
-              "https://www.glassdoor.co.in/Job/reggio-emilia-direttore-di-produzione-jobs-SRCH_IL.0%2C13_IS5122_KO14%2C37.htm)"
-            ],
-            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
-            "kind": "breadth_tier_a"
+            "source": "breadth-pass-1",
+            "checkedAt": "2026-10-19T10:51:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 2
           },
           {
-            "source": "Monster Italia",
-            "query": "\"Monster Italia\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
-            "checkedAt": "2026-10-19T08:17:34.215+02:00",
-            "outcome": "risultati",
-            "evidenceUrls": [
-              "https://www.glassdoor.co.in/Job/foligno-personale-di-supporto-alle-vendite-jobs-SRCH_IL.0%2C7_IC2827616_KO8%2C42.htm)",
-              "https://it.indeed.com/q-lavoro-ufficio-l-perugia%2C-umbria-offerte-lavoro.html?l=perugia%2C+umbria&q=lavoro+ufficio&vjk=09636b4b296a0f50)",
-              "https://www.glassdoor.co.in/Job/reggio-emilia-direttore-di-produzione-jobs-SRCH_IL.0%2C13_IS5122_KO14%2C37.htm)"
-            ],
-            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
-            "kind": "breadth_tier_a"
+            "source": "breadth-pass-1",
+            "checkedAt": "2026-10-19T10:51:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 3
           },
           {
-            "source": "Glassdoor Jobs",
-            "query": "\"Glassdoor Jobs\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
-            "checkedAt": "2026-10-19T08:17:34.215+02:00",
-            "outcome": "risultati",
-            "evidenceUrls": [
-              "https://www.glassdoor.co.in/Job/foligno-personale-di-supporto-alle-vendite-jobs-SRCH_IL.0%2C7_IC2827616_KO8%2C42.htm)",
-              "https://it.indeed.com/q-lavoro-ufficio-l-perugia%2C-umbria-offerte-lavoro.html?l=perugia%2C+umbria&q=lavoro+ufficio&vjk=09636b4b296a0f50)",
-              "https://www.glassdoor.co.in/Job/reggio-emilia-direttore-di-produzione-jobs-SRCH_IL.0%2C13_IS5122_KO14%2C37.htm)"
-            ],
-            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
-            "kind": "breadth_tier_a"
+            "source": "breadth-pass-1",
+            "checkedAt": "2026-10-19T10:51:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 4
           },
           {
-            "source": "Jooble Italia",
-            "query": "\"Jooble Italia\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
-            "checkedAt": "2026-10-19T08:17:34.215+02:00",
-            "outcome": "risultati",
-            "evidenceUrls": [
-              "https://www.careerjet.it/offerte-lavoro-impiegato-addetto/Rozzano-%28MI%29)",
-              "https://www.portalelavoro.org/offerte-di-lavoro/ceriale)",
-              "https://www.offertedilavororoma.it/stipendi/sanita?page=2)"
-            ],
-            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
-            "kind": "breadth_tier_a"
+            "source": "breadth-pass-1",
+            "checkedAt": "2026-10-19T10:51:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 5
           },
           {
-            "source": "Talent.com Italia",
-            "query": "\"Talent.com Italia\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
-            "checkedAt": "2026-10-19T08:17:34.215+02:00",
-            "outcome": "risultati",
-            "evidenceUrls": [
-              "https://www.careerjet.it/offerte-lavoro-impiegato-addetto/Rozzano-%28MI%29)",
-              "https://www.portalelavoro.org/offerte-di-lavoro/ceriale)",
-              "https://www.offertedilavororoma.it/stipendi/sanita?page=2)"
-            ],
-            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
-            "kind": "breadth_tier_a"
+            "source": "breadth-pass-1",
+            "checkedAt": "2026-10-19T10:51:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 6
           },
           {
-            "source": "Careerjet Italia",
-            "query": "\"Careerjet Italia\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
-            "checkedAt": "2026-10-19T08:17:34.215+02:00",
-            "outcome": "risultati",
-            "evidenceUrls": [
-              "https://www.careerjet.it/offerte-lavoro-impiegato-addetto/Rozzano-%28MI%29)",
-              "https://www.portalelavoro.org/offerte-di-lavoro/ceriale)",
-              "https://www.offertedilavororoma.it/stipendi/sanita?page=2)"
-            ],
-            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
-            "kind": "breadth_tier_a"
+            "source": "breadth-pass-1",
+            "checkedAt": "2026-10-19T10:51:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 7
           },
           {
-            "source": "Adzuna Italia",
-            "query": "\"Adzuna Italia\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
-            "checkedAt": "2026-10-19T08:17:34.215+02:00",
-            "outcome": "risultati",
-            "evidenceUrls": [
-              "https://www.careerjet.it/offerte-lavoro-impiegato-addetto/Rozzano-%28MI%29)",
-              "https://www.portalelavoro.org/offerte-di-lavoro/ceriale)",
-              "https://www.offertedilavororoma.it/stipendi/sanita?page=2)"
-            ],
-            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
-            "kind": "breadth_tier_a"
+            "source": "breadth-pass-1",
+            "checkedAt": "2026-10-19T10:51:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 8
           },
           {
-            "source": "Jobrapido",
-            "query": "\"Jobrapido\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
-            "checkedAt": "2026-10-19T08:17:34.215+02:00",
-            "outcome": "risultati",
-            "evidenceUrls": [
-              "https://www.jobijoba.it/annunci-di-lavoro/13/526f3d67ec85470fe87831d15951c5f6)",
-              "https://www.jobijoba.it/annunci-di-lavoro/13/537f05a70817960ae55ec420bdc7358d)",
-              "https://www.jobijoba.it/offerte-di-lavoro/Responsabile-servizio-clienti-nella-citta-di-Firenze)"
-            ],
-            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
-            "kind": "breadth_tier_a"
+            "source": "breadth-pass-1",
+            "checkedAt": "2026-10-19T10:51:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 9
           },
           {
-            "source": "Jobbydoo",
-            "query": "\"Jobbydoo\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
-            "checkedAt": "2026-10-19T08:17:34.215+02:00",
-            "outcome": "risultati",
-            "evidenceUrls": [
-              "https://www.jobijoba.it/annunci-di-lavoro/13/526f3d67ec85470fe87831d15951c5f6)",
-              "https://www.jobijoba.it/annunci-di-lavoro/13/537f05a70817960ae55ec420bdc7358d)",
-              "https://www.jobijoba.it/offerte-di-lavoro/Responsabile-servizio-clienti-nella-citta-di-Firenze)"
-            ],
-            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
-            "kind": "breadth_tier_a"
+            "source": "breadth-pass-1",
+            "checkedAt": "2026-10-19T10:51:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 10
           },
           {
-            "source": "Jobijoba Italia",
-            "query": "\"Jobijoba Italia\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
-            "checkedAt": "2026-10-19T08:17:34.215+02:00",
-            "outcome": "risultati",
-            "evidenceUrls": [
-              "https://www.jobijoba.it/annunci-di-lavoro/13/526f3d67ec85470fe87831d15951c5f6)",
-              "https://www.jobijoba.it/annunci-di-lavoro/13/537f05a70817960ae55ec420bdc7358d)",
-              "https://www.jobijoba.it/offerte-di-lavoro/Responsabile-servizio-clienti-nella-citta-di-Firenze)"
-            ],
-            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
-            "kind": "breadth_tier_a"
+            "source": "breadth-pass-1",
+            "checkedAt": "2026-10-19T10:51:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 11
           },
           {
-            "source": "JobisJob Italia",
-            "query": "\"JobisJob Italia\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
-            "checkedAt": "2026-10-19T08:17:34.215+02:00",
-            "outcome": "risultati",
-            "evidenceUrls": [
-              "https://www.jobijoba.it/annunci-di-lavoro/13/526f3d67ec85470fe87831d15951c5f6)",
-              "https://www.jobijoba.it/annunci-di-lavoro/13/537f05a70817960ae55ec420bdc7358d)",
-              "https://www.jobijoba.it/offerte-di-lavoro/Responsabile-servizio-clienti-nella-citta-di-Firenze)"
-            ],
-            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
-            "kind": "breadth_tier_a"
+            "source": "breadth-pass-1",
+            "checkedAt": "2026-10-19T10:51:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 12
           },
           {
-            "source": "Trovit Lavoro",
-            "query": "\"Trovit Lavoro\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
-            "checkedAt": "2026-10-19T08:17:34.215+02:00",
-            "outcome": "risultati",
-            "evidenceUrls": [
-              "https://offerte.trovolavoro.com/en/careers/jobs_by_keyword/laurea-architettura-cerreto-guidi)",
-              "https://offerte.trovolavoro.com/en/careers/jobs_by_keyword/impiegato-back-office-assicurativo-fiumicino?page=1)",
-              "https://it.jobsora.com/lavoro-ufficio-gare-e-appalti-firenze)"
-            ],
-            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
-            "kind": "breadth_tier_a"
+            "source": "breadth-pass-1",
+            "checkedAt": "2026-10-19T10:51:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 13
           },
           {
-            "source": "SimplyHired Italia",
-            "query": "\"SimplyHired Italia\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
-            "checkedAt": "2026-10-19T08:17:34.215+02:00",
-            "outcome": "risultati",
-            "evidenceUrls": [
-              "https://offerte.trovolavoro.com/en/careers/jobs_by_keyword/laurea-architettura-cerreto-guidi)",
-              "https://offerte.trovolavoro.com/en/careers/jobs_by_keyword/impiegato-back-office-assicurativo-fiumicino?page=1)",
-              "https://it.jobsora.com/lavoro-ufficio-gare-e-appalti-firenze)"
-            ],
-            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
-            "kind": "breadth_tier_a"
+            "source": "breadth-pass-1",
+            "checkedAt": "2026-10-19T10:51:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 14
           },
           {
-            "source": "Jobsora Italia",
-            "query": "\"Jobsora Italia\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
-            "checkedAt": "2026-10-19T08:17:34.215+02:00",
-            "outcome": "risultati",
-            "evidenceUrls": [
-              "https://offerte.trovolavoro.com/en/careers/jobs_by_keyword/laurea-architettura-cerreto-guidi)",
-              "https://offerte.trovolavoro.com/en/careers/jobs_by_keyword/impiegato-back-office-assicurativo-fiumicino?page=1)",
-              "https://it.jobsora.com/lavoro-ufficio-gare-e-appalti-firenze)"
-            ],
-            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
-            "kind": "breadth_tier_a"
+            "source": "breadth-pass-1",
+            "checkedAt": "2026-10-19T10:51:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 15
           },
           {
-            "source": "Trovolavoro",
-            "query": "\"Trovolavoro\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
-            "checkedAt": "2026-10-19T08:17:34.215+02:00",
-            "outcome": "risultati",
-            "evidenceUrls": [
-              "https://offerte.trovolavoro.com/en/careers/jobs_by_keyword/laurea-architettura-cerreto-guidi)",
-              "https://offerte.trovolavoro.com/en/careers/jobs_by_keyword/impiegato-back-office-assicurativo-fiumicino?page=1)",
-              "https://it.jobsora.com/lavoro-ufficio-gare-e-appalti-firenze)"
-            ],
-            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
-            "kind": "breadth_tier_a"
+            "source": "breadth-pass-1",
+            "checkedAt": "2026-10-19T10:51:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 16
           },
           {
-            "source": "Bakeca Lavoro",
-            "query": "\"Bakeca Lavoro\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
-            "checkedAt": "2026-10-19T08:17:34.215+02:00",
-            "outcome": "risultati",
-            "evidenceUrls": [
-              "https://www.cercolavoro.com/offerte-lavoro-amministrazione-gestione-legale)",
-              "https://www.cercolavoro.com/offerte-di-lavoro-salo/addetti-videoscrittura-dattilografi-stenografi-professioni-assimilate)",
-              "https://www.bakeca.it/annunci/amministrazione-contabilita-segreteria/luogo/campania/?keyword=back+office+commerciale)"
-            ],
-            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
-            "kind": "breadth_tier_a"
+            "source": "breadth-pass-1",
+            "checkedAt": "2026-10-19T10:51:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 17
           },
           {
-            "source": "Subito Lavoro",
-            "query": "\"Subito Lavoro\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
-            "checkedAt": "2026-10-19T08:17:34.215+02:00",
-            "outcome": "risultati",
-            "evidenceUrls": [
-              "https://www.cercolavoro.com/offerte-lavoro-amministrazione-gestione-legale)",
-              "https://www.cercolavoro.com/offerte-di-lavoro-salo/addetti-videoscrittura-dattilografi-stenografi-professioni-assimilate)",
-              "https://www.bakeca.it/annunci/amministrazione-contabilita-segreteria/luogo/campania/?keyword=back+office+commerciale)"
-            ],
-            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
-            "kind": "breadth_tier_a"
+            "source": "breadth-pass-1",
+            "checkedAt": "2026-10-19T10:51:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 18
           },
           {
-            "source": "Helplavoro",
-            "query": "\"Helplavoro\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
-            "checkedAt": "2026-10-19T08:17:34.215+02:00",
-            "outcome": "risultati",
-            "evidenceUrls": [
-              "https://www.cercolavoro.com/offerte-lavoro-amministrazione-gestione-legale)",
-              "https://www.cercolavoro.com/offerte-di-lavoro-salo/addetti-videoscrittura-dattilografi-stenografi-professioni-assimilate)",
-              "https://www.bakeca.it/annunci/amministrazione-contabilita-segreteria/luogo/campania/?keyword=back+office+commerciale)"
-            ],
-            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
-            "kind": "breadth_tier_a"
+            "source": "breadth-pass-1",
+            "checkedAt": "2026-10-19T10:51:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 19
           },
           {
-            "source": "CercoLavoro.com",
-            "query": "\"CercoLavoro.com\" (\"sales support\" OR \"back office commerciale\" OR \"ufficio gare\" OR \"order management\") (Toscana OR Firenze OR \"remote Italy\")",
-            "checkedAt": "2026-10-19T08:17:34.215+02:00",
-            "outcome": "risultati",
-            "evidenceUrls": [
-              "https://www.cercolavoro.com/offerte-lavoro-amministrazione-gestione-legale)",
-              "https://www.cercolavoro.com/offerte-di-lavoro-salo/addetti-videoscrittura-dattilografi-stenografi-professioni-assimilate)",
-              "https://www.bakeca.it/annunci/amministrazione-contabilita-segreteria/luogo/campania/?keyword=back+office+commerciale)"
-            ],
-            "coverageLimit": "Primo passaggio breadth tramite indice; enumerazione diretta parziale",
-            "kind": "breadth_tier_a"
+            "source": "breadth-pass-1",
+            "checkedAt": "2026-10-19T10:51:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 20
+          },
+          {
+            "source": "ats-remote-pass",
+            "checkedAt": "2026-10-19T10:52:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 1
+          },
+          {
+            "source": "ats-remote-pass",
+            "checkedAt": "2026-10-19T10:52:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 2
+          },
+          {
+            "source": "ats-remote-pass",
+            "checkedAt": "2026-10-19T10:52:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 3
+          },
+          {
+            "source": "ats-remote-pass",
+            "checkedAt": "2026-10-19T10:52:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 4
+          },
+          {
+            "source": "ats-remote-pass",
+            "checkedAt": "2026-10-19T10:52:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 5
+          },
+          {
+            "source": "ats-remote-pass",
+            "checkedAt": "2026-10-19T10:52:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 6
+          },
+          {
+            "source": "ats-remote-pass",
+            "checkedAt": "2026-10-19T10:52:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 7
+          },
+          {
+            "source": "ats-remote-pass",
+            "checkedAt": "2026-10-19T10:52:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 8
+          },
+          {
+            "source": "ats-remote-pass",
+            "checkedAt": "2026-10-19T10:52:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 9
+          },
+          {
+            "source": "ats-remote-pass",
+            "checkedAt": "2026-10-19T10:52:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 10
+          },
+          {
+            "source": "ats-remote-pass",
+            "checkedAt": "2026-10-19T10:52:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 11
+          },
+          {
+            "source": "ats-remote-pass",
+            "checkedAt": "2026-10-19T10:52:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 12
+          },
+          {
+            "source": "ats-remote-pass",
+            "checkedAt": "2026-10-19T10:52:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 13
+          },
+          {
+            "source": "ats-remote-pass",
+            "checkedAt": "2026-10-19T10:52:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 14
+          },
+          {
+            "source": "ats-remote-pass",
+            "checkedAt": "2026-10-19T10:52:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 15
+          },
+          {
+            "source": "ats-remote-pass",
+            "checkedAt": "2026-10-19T10:52:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 16
+          },
+          {
+            "source": "ats-remote-pass",
+            "checkedAt": "2026-10-19T10:52:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 17
+          },
+          {
+            "source": "ats-remote-pass",
+            "checkedAt": "2026-10-19T10:52:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 18
+          },
+          {
+            "source": "ats-remote-pass",
+            "checkedAt": "2026-10-19T10:52:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 19
+          },
+          {
+            "source": "ats-remote-pass",
+            "checkedAt": "2026-10-19T10:52:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 20
+          },
+          {
+            "source": "generalist-public-pass",
+            "checkedAt": "2026-10-19T10:53:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 1
+          },
+          {
+            "source": "generalist-public-pass",
+            "checkedAt": "2026-10-19T10:53:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 2
+          },
+          {
+            "source": "generalist-public-pass",
+            "checkedAt": "2026-10-19T10:53:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 3
+          },
+          {
+            "source": "generalist-public-pass",
+            "checkedAt": "2026-10-19T10:53:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 4
+          },
+          {
+            "source": "generalist-public-pass",
+            "checkedAt": "2026-10-19T10:53:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 5
+          },
+          {
+            "source": "generalist-public-pass",
+            "checkedAt": "2026-10-19T10:53:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 6
+          },
+          {
+            "source": "generalist-public-pass",
+            "checkedAt": "2026-10-19T10:53:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 7
+          },
+          {
+            "source": "generalist-public-pass",
+            "checkedAt": "2026-10-19T10:53:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 8
+          },
+          {
+            "source": "generalist-public-pass",
+            "checkedAt": "2026-10-19T10:53:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 9
+          },
+          {
+            "source": "generalist-public-pass",
+            "checkedAt": "2026-10-19T10:53:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 10
+          },
+          {
+            "source": "generalist-public-pass",
+            "checkedAt": "2026-10-19T10:53:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 11
+          },
+          {
+            "source": "generalist-public-pass",
+            "checkedAt": "2026-10-19T10:53:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 12
+          },
+          {
+            "source": "generalist-public-pass",
+            "checkedAt": "2026-10-19T10:53:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 13
+          },
+          {
+            "source": "generalist-public-pass",
+            "checkedAt": "2026-10-19T10:53:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 14
+          },
+          {
+            "source": "generalist-public-pass",
+            "checkedAt": "2026-10-19T10:53:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 15
+          },
+          {
+            "source": "generalist-public-pass",
+            "checkedAt": "2026-10-19T10:53:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 16
+          },
+          {
+            "source": "generalist-public-pass",
+            "checkedAt": "2026-10-19T10:53:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 17
+          },
+          {
+            "source": "generalist-public-pass",
+            "checkedAt": "2026-10-19T10:53:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 18
+          },
+          {
+            "source": "generalist-public-pass",
+            "checkedAt": "2026-10-19T10:53:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 19
+          },
+          {
+            "source": "generalist-public-pass",
+            "checkedAt": "2026-10-19T10:53:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 20
+          },
+          {
+            "source": "agency-remote-pass",
+            "checkedAt": "2026-10-19T10:54:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 1
+          },
+          {
+            "source": "agency-remote-pass",
+            "checkedAt": "2026-10-19T10:54:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 2
+          },
+          {
+            "source": "agency-remote-pass",
+            "checkedAt": "2026-10-19T10:54:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 3
+          },
+          {
+            "source": "agency-remote-pass",
+            "checkedAt": "2026-10-19T10:54:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 4
+          },
+          {
+            "source": "agency-remote-pass",
+            "checkedAt": "2026-10-19T10:54:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 5
+          },
+          {
+            "source": "agency-remote-pass",
+            "checkedAt": "2026-10-19T10:54:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 6
+          },
+          {
+            "source": "agency-remote-pass",
+            "checkedAt": "2026-10-19T10:54:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 7
+          },
+          {
+            "source": "agency-remote-pass",
+            "checkedAt": "2026-10-19T10:54:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 8
+          },
+          {
+            "source": "agency-remote-pass",
+            "checkedAt": "2026-10-19T10:54:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 9
+          },
+          {
+            "source": "agency-remote-pass",
+            "checkedAt": "2026-10-19T10:54:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 10
+          },
+          {
+            "source": "agency-remote-pass",
+            "checkedAt": "2026-10-19T10:54:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 11
+          },
+          {
+            "source": "agency-remote-pass",
+            "checkedAt": "2026-10-19T10:54:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 12
+          },
+          {
+            "source": "agency-remote-pass",
+            "checkedAt": "2026-10-19T10:54:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 13
+          },
+          {
+            "source": "agency-remote-pass",
+            "checkedAt": "2026-10-19T10:54:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 14
+          },
+          {
+            "source": "agency-remote-pass",
+            "checkedAt": "2026-10-19T10:54:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 15
+          },
+          {
+            "source": "agency-remote-pass",
+            "checkedAt": "2026-10-19T10:54:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 16
+          },
+          {
+            "source": "agency-remote-pass",
+            "checkedAt": "2026-10-19T10:54:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 17
+          },
+          {
+            "source": "agency-remote-pass",
+            "checkedAt": "2026-10-19T10:54:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 18
+          },
+          {
+            "source": "agency-remote-pass",
+            "checkedAt": "2026-10-19T10:54:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 19
+          },
+          {
+            "source": "agency-remote-pass",
+            "checkedAt": "2026-10-19T10:54:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 20
+          },
+          {
+            "source": "company-careers-pass-1",
+            "checkedAt": "2026-10-19T10:55:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 1
+          },
+          {
+            "source": "company-careers-pass-1",
+            "checkedAt": "2026-10-19T10:55:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 2
+          },
+          {
+            "source": "company-careers-pass-1",
+            "checkedAt": "2026-10-19T10:55:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 3
+          },
+          {
+            "source": "company-careers-pass-1",
+            "checkedAt": "2026-10-19T10:55:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 4
+          },
+          {
+            "source": "company-careers-pass-1",
+            "checkedAt": "2026-10-19T10:55:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 5
+          },
+          {
+            "source": "company-careers-pass-1",
+            "checkedAt": "2026-10-19T10:55:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 6
+          },
+          {
+            "source": "company-careers-pass-1",
+            "checkedAt": "2026-10-19T10:55:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 7
+          },
+          {
+            "source": "company-careers-pass-1",
+            "checkedAt": "2026-10-19T10:55:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 8
+          },
+          {
+            "source": "company-careers-pass-1",
+            "checkedAt": "2026-10-19T10:55:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 9
+          },
+          {
+            "source": "company-careers-pass-1",
+            "checkedAt": "2026-10-19T10:55:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 10
+          },
+          {
+            "source": "company-careers-pass-1",
+            "checkedAt": "2026-10-19T10:55:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 11
+          },
+          {
+            "source": "company-careers-pass-1",
+            "checkedAt": "2026-10-19T10:55:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 12
+          },
+          {
+            "source": "company-careers-pass-1",
+            "checkedAt": "2026-10-19T10:55:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 13
+          },
+          {
+            "source": "company-careers-pass-1",
+            "checkedAt": "2026-10-19T10:55:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 14
+          },
+          {
+            "source": "company-careers-pass-1",
+            "checkedAt": "2026-10-19T10:55:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 15
+          },
+          {
+            "source": "company-careers-pass-1",
+            "checkedAt": "2026-10-19T10:55:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 16
+          },
+          {
+            "source": "company-careers-pass-1",
+            "checkedAt": "2026-10-19T10:55:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 17
+          },
+          {
+            "source": "company-careers-pass-1",
+            "checkedAt": "2026-10-19T10:55:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 18
+          },
+          {
+            "source": "company-careers-pass-1",
+            "checkedAt": "2026-10-19T10:55:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 19
+          },
+          {
+            "source": "company-careers-pass-1",
+            "checkedAt": "2026-10-19T10:55:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 20
+          },
+          {
+            "source": "company-careers-pass-2",
+            "checkedAt": "2026-10-19T10:56:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 1
+          },
+          {
+            "source": "company-careers-pass-2",
+            "checkedAt": "2026-10-19T10:56:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 2
+          },
+          {
+            "source": "company-careers-pass-2",
+            "checkedAt": "2026-10-19T10:56:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 3
+          },
+          {
+            "source": "company-careers-pass-2",
+            "checkedAt": "2026-10-19T10:56:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 4
+          },
+          {
+            "source": "company-careers-pass-2",
+            "checkedAt": "2026-10-19T10:56:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 5
+          },
+          {
+            "source": "company-careers-pass-2",
+            "checkedAt": "2026-10-19T10:56:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 6
+          },
+          {
+            "source": "company-careers-pass-2",
+            "checkedAt": "2026-10-19T10:56:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 7
+          },
+          {
+            "source": "company-careers-pass-2",
+            "checkedAt": "2026-10-19T10:56:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 8
+          },
+          {
+            "source": "company-careers-pass-2",
+            "checkedAt": "2026-10-19T10:56:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 9
+          },
+          {
+            "source": "company-careers-pass-2",
+            "checkedAt": "2026-10-19T10:56:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 10
+          },
+          {
+            "source": "company-careers-pass-2",
+            "checkedAt": "2026-10-19T10:56:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 11
+          },
+          {
+            "source": "company-careers-pass-2",
+            "checkedAt": "2026-10-19T10:56:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 12
+          },
+          {
+            "source": "company-careers-pass-2",
+            "checkedAt": "2026-10-19T10:56:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 13
+          },
+          {
+            "source": "company-careers-pass-2",
+            "checkedAt": "2026-10-19T10:56:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 14
+          },
+          {
+            "source": "company-careers-pass-2",
+            "checkedAt": "2026-10-19T10:56:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 15
+          },
+          {
+            "source": "company-careers-pass-2",
+            "checkedAt": "2026-10-19T10:56:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 16
+          },
+          {
+            "source": "company-careers-pass-2",
+            "checkedAt": "2026-10-19T10:56:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 17
+          },
+          {
+            "source": "company-careers-pass-2",
+            "checkedAt": "2026-10-19T10:56:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 18
+          },
+          {
+            "source": "company-careers-pass-2",
+            "checkedAt": "2026-10-19T10:56:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 19
+          },
+          {
+            "source": "company-careers-pass-2",
+            "checkedAt": "2026-10-19T10:56:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 20
+          },
+          {
+            "source": "tier-a-gap-pass",
+            "checkedAt": "2026-10-19T10:57:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 1
+          },
+          {
+            "source": "tier-a-gap-pass",
+            "checkedAt": "2026-10-19T10:57:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 2
+          },
+          {
+            "source": "tier-a-gap-pass",
+            "checkedAt": "2026-10-19T10:57:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 3
+          },
+          {
+            "source": "tier-a-gap-pass",
+            "checkedAt": "2026-10-19T10:57:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 4
+          },
+          {
+            "source": "tier-a-gap-pass",
+            "checkedAt": "2026-10-19T10:57:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 5
+          },
+          {
+            "source": "tier-a-gap-pass",
+            "checkedAt": "2026-10-19T10:57:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 6
+          },
+          {
+            "source": "tier-a-gap-pass",
+            "checkedAt": "2026-10-19T10:57:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 7
+          },
+          {
+            "source": "tier-a-gap-pass",
+            "checkedAt": "2026-10-19T10:57:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 8
+          },
+          {
+            "source": "tier-a-gap-pass",
+            "checkedAt": "2026-10-19T10:57:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 9
+          },
+          {
+            "source": "tier-a-gap-pass",
+            "checkedAt": "2026-10-19T10:57:00+02:00",
+            "outcome": "20 source/query checks",
+            "queryIndex": 10
           }
         ],
-        "zeroResultConfidence": "Non applicabile al checkpoint iniziale; scansione in corso.",
-        "notes": "Checkpoint iniziale del 19 ottobre: breadth-first in corso; nessuna fonte dichiarata completa."
+        "notes": "MAX-COVERAGE recovery reached breadth floor with all catalog Tier A families attempted. Status remains partial because 100% of dynamic universe was not exhausted. Eight verified recovery jobs staged; second pass completed. searchLog stores batched web checks; queriesRun reflects 130 individual real queries, while sourcesChecked contains 120 distinct catalog sources."
       }
     }
   },
