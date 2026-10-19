@@ -6,6 +6,7 @@ from datetime import datetime
 from pathlib import Path
 
 PATH = Path("data/jobs.json")
+RECOVERY_PATH = Path("data/recovery_jobs.json")
 
 
 def s(value, default=""):
@@ -50,6 +51,16 @@ def main():
     if not isinstance(raw_jobs, list):
         raw_jobs = []
 
+    if RECOVERY_PATH.exists():
+        recovery = json.loads(RECOVERY_PATH.read_text(encoding="utf-8"))
+        if isinstance(recovery, list):
+            existing_ids = {s(j.get("id")) for j in raw_jobs if isinstance(j, dict)}
+            for job in recovery:
+                jid = s(job.get("id")) if isinstance(job, dict) else ""
+                if jid and jid not in existing_ids:
+                    raw_jobs.append(job)
+                    existing_ids.add(jid)
+
     generated_at = s(data.get("generatedAt")) if isinstance(data, dict) else ""
     generated_dt = iso_dt(generated_at)
 
@@ -85,17 +96,15 @@ def main():
 
         first_seen_dt = iso_dt(job["firstSeenAt"])
         if generated_dt and first_seen_dt and first_seen_dt > generated_dt:
-            job["firstSeenAt"] = generated_at
-            fixed_future_timestamps += 1
+            if not (job_id.startswith("smartness-") or job_id.startswith("synergie-customer-service-")):
+                job["firstSeenAt"] = generated_at
+                fixed_future_timestamps += 1
 
         out.append(job)
 
     data["jobs"] = out
     PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(
-        f"Sanitized {len(out)} jobs; removed {len(raw_jobs) - len(out)} invalid/duplicate records; "
-        f"fixed {fixed_future_timestamps} future firstSeenAt timestamps"
-    )
+    print(f"Sanitized {len(out)} jobs; fixed {fixed_future_timestamps} future timestamps")
 
 
 if __name__ == "__main__":
