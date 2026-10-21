@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T08:05:38+02:00",
+  "generatedAt": "2026-10-21T15:35:05+02:00",
   "source": "Ricerca quotidiana Alice · MAX-COVERAGE DEEP",
   "jobs": [
     {
@@ -13735,6 +13735,307 @@
           }
         ],
         "notes": "Breadth 175/175 e Tier A 142/142 completati nello stesso slot; secondo passaggio su 60 fonti, terzo passaggio semantico, 48 career search, 21 ATS search e ricontrollo di 183 vacancy attive. Stato partial perché molte fonti non sono integralmente enumerabili tramite indice, JavaScript, autenticazione o paginazione. Una nuova vacancy verificata e deduplicata."
+      },
+      "15:30": {
+        "scheduledFor": "2026-10-21T15:30:00+02:00",
+        "completedAt": "2026-10-21T15:35:05+02:00",
+        "status": "partial",
+        "requiredSourcesTotal": 175,
+        "sourceUniverseTotal": 175,
+        "requiredSourcesChecked": 15,
+        "sourcesChecked": [
+          "Kering Careers",
+          "Indeed / Mobile 1",
+          "BrandiniRent",
+          "Randstad Italia",
+          "Openjobmetis / Trovolavoro",
+          "Openjobmetis",
+          "Indeed Italia",
+          "FIMER Careers",
+          "Bertolotti Careers / Factorial",
+          "Etjca",
+          "TK Elevator Careers",
+          "Indeed / HI-flex Italia",
+          "Indeed / Umana",
+          "Gi Group / Grafton Office",
+          "Randstad"
+        ],
+        "sourcesUnavailable": [],
+        "directSourcesChecked": [
+          "Kering Careers",
+          "Indeed / Mobile 1",
+          "BrandiniRent",
+          "Randstad Italia",
+          "Openjobmetis / Trovolavoro",
+          "Openjobmetis",
+          "Indeed Italia",
+          "FIMER Careers",
+          "Bertolotti Careers / Factorial",
+          "Etjca",
+          "TK Elevator Careers",
+          "Indeed / HI-flex Italia",
+          "Indeed / Umana",
+          "Gi Group / Grafton Office",
+          "Randstad"
+        ],
+        "siteRestrictedSourcesChecked": [],
+        "indexedFallbackSourcesChecked": [],
+        "directSourcesCount": 15,
+        "siteRestrictedSourcesCount": 0,
+        "indexedFallbackSourcesCount": 0,
+        "sourcesExplored": 15,
+        "queriesRun": 20,
+        "newJobs": 0,
+        "activeJobs": 183,
+        "searchLog": [
+          {
+            "source": "Kering Careers",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://careers.kering.com/careers/R170153?source=Keringcom_Slots",
+            "checkedAt": "2026-10-21T13:34:54.141Z",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://careers.kering.com/careers/R170153?source=Keringcom_Slots"
+            ],
+            "coverageLimit": "Verifica puntuale pagina specifica; non enumera l’intera fonte"
+          },
+          {
+            "source": "Indeed / Mobile 1",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://it.indeed.com/viewjob?jk=d7ad09683e222dc7",
+            "checkedAt": "2026-10-21T13:34:54.141Z",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://it.indeed.com/viewjob?jk=d7ad09683e222dc7"
+            ],
+            "coverageLimit": "Verifica puntuale pagina specifica; non enumera l’intera fonte"
+          },
+          {
+            "source": "BrandiniRent",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://brandinirent.it/lavora-con-noi/back-office-sales-support",
+            "checkedAt": "2026-10-21T13:34:54.141Z",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://brandinirent.it/lavora-con-noi/back-office-sales-support"
+            ],
+            "coverageLimit": "Verifica puntuale pagina specifica; non enumera l’intera fonte"
+          },
+          {
+            "source": "Randstad Italia",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://www.randstad.com/jobs/back-office-fmnb_firenze_47576083/",
+            "checkedAt": "2026-10-21T13:34:54.141Z",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.randstad.com/jobs/back-office-fmnb_firenze_47576083/"
+            ],
+            "coverageLimit": "Verifica puntuale pagina specifica; non enumera l’intera fonte"
+          },
+          {
+            "source": "Randstad Italia",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://www.randstad.com/jobs/technical-sales-support_firenze_47382871/",
+            "checkedAt": "2026-10-21T13:34:54.141Z",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.randstad.com/jobs/technical-sales-support_firenze_47382871/"
+            ],
+            "coverageLimit": "Verifica puntuale pagina specifica; non enumera l’intera fonte"
+          },
+          {
+            "source": "Randstad Italia",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://www.randstad.com/jobs/proposal-engineer_firenze_47444016/",
+            "checkedAt": "2026-10-21T13:34:54.141Z",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.randstad.com/jobs/proposal-engineer_firenze_47444016/"
+            ],
+            "coverageLimit": "Verifica puntuale pagina specifica; non enumera l’intera fonte"
+          },
+          {
+            "source": "Randstad Italia",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://www.randstad.com/jobs/pm-support-specialist_firenze_47369618/",
+            "checkedAt": "2026-10-21T13:34:54.141Z",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.randstad.com/jobs/pm-support-specialist_firenze_47369618/"
+            ],
+            "coverageLimit": "Verifica puntuale pagina specifica; non enumera l’intera fonte"
+          },
+          {
+            "source": "Openjobmetis / Trovolavoro",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://offerte.trovolavoro.com/it/careers/jobad/1395121-impiegata-impiegato-back-office-e-gestione-ordini-firenze",
+            "checkedAt": "2026-10-21T13:34:54.141Z",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://offerte.trovolavoro.com/it/careers/jobad/1395121-impiegata-impiegato-back-office-e-gestione-ordini-firenze"
+            ],
+            "coverageLimit": "Verifica puntuale pagina specifica; non enumera l’intera fonte"
+          },
+          {
+            "source": "Openjobmetis",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://www.openjobmetis.it/it/candidati/offerte-di-lavoro/back-office-commerciale-estero-lingua-inglese-e-tedesca-137861",
+            "checkedAt": "2026-10-21T13:34:54.141Z",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.openjobmetis.it/it/candidati/offerte-di-lavoro/back-office-commerciale-estero-lingua-inglese-e-tedesca-137861"
+            ],
+            "coverageLimit": "Verifica puntuale pagina specifica; non enumera l’intera fonte"
+          },
+          {
+            "source": "Indeed Italia",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://it.indeed.com/viewjob?jk=bffc46fb02b39076",
+            "checkedAt": "2026-10-21T13:34:54.141Z",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://it.indeed.com/viewjob?jk=bffc46fb02b39076"
+            ],
+            "coverageLimit": "Verifica puntuale pagina specifica; non enumera l’intera fonte"
+          },
+          {
+            "source": "FIMER Careers",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://www.fimer.com/technical-sales-support-specialist",
+            "checkedAt": "2026-10-21T13:34:54.141Z",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.fimer.com/technical-sales-support-specialist"
+            ],
+            "coverageLimit": "Verifica puntuale pagina specifica; non enumera l’intera fonte"
+          },
+          {
+            "source": "Bertolotti Careers / Factorial",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://bertolotti.factorial.it/job_posting/technical-proposal-expert-bertolotti-veichles-323110",
+            "checkedAt": "2026-10-21T13:34:54.141Z",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://bertolotti.factorial.it/job_posting/technical-proposal-expert-bertolotti-veichles-323110"
+            ],
+            "coverageLimit": "Verifica puntuale pagina specifica; non enumera l’intera fonte"
+          },
+          {
+            "source": "Etjca",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://career.etjca.it/job/view-job.php?id=108442-back-office-commerciale-estero-bagno-a-ripoli&language=it",
+            "checkedAt": "2026-10-21T13:34:54.141Z",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://career.etjca.it/job/view-job.php?id=108442-back-office-commerciale-estero-bagno-a-ripoli&language=it"
+            ],
+            "coverageLimit": "Verifica puntuale pagina specifica; non enumera l’intera fonte"
+          },
+          {
+            "source": "Openjobmetis / Trovolavoro",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://offerte.trovolavoro.com/it/careers/jobad/1395123-addetto-a-back-office-commerciale-inglese-e-francese",
+            "checkedAt": "2026-10-21T13:34:54.141Z",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://offerte.trovolavoro.com/it/careers/jobad/1395123-addetto-a-back-office-commerciale-inglese-e-francese"
+            ],
+            "coverageLimit": "Verifica puntuale pagina specifica; non enumera l’intera fonte"
+          },
+          {
+            "source": "TK Elevator Careers",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://jobs.tkelevator.com/en/job/Back-office-tecnico-amministrativo-Pise?id=803",
+            "checkedAt": "2026-10-21T13:34:54.141Z",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://jobs.tkelevator.com/en/job/Back-office-tecnico-amministrativo-Pise?id=803"
+            ],
+            "coverageLimit": "Verifica puntuale pagina specifica; non enumera l’intera fonte"
+          },
+          {
+            "source": "Indeed / HI-flex Italia",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://www.simplyhired.it/job/na2cHRabiXEZRsY-DBxFJ2WypbyconxCwkJPkVccqUgLvuEhYOhM4Q",
+            "checkedAt": "2026-10-21T13:34:54.141Z",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.simplyhired.it/job/na2cHRabiXEZRsY-DBxFJ2WypbyconxCwkJPkVccqUgLvuEhYOhM4Q"
+            ],
+            "coverageLimit": "Verifica puntuale pagina specifica; non enumera l’intera fonte"
+          },
+          {
+            "source": "Indeed / Umana",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://it.indeed.com/q-impiegato-back-office-commerciale-l-monsummano-terme%2C-toscana-offerte-lavoro.html?l=monsummano+terme%2C+toscana&q=impiegato+back+office+commerciale",
+            "checkedAt": "2026-10-21T13:34:54.141Z",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://it.indeed.com/q-impiegato-back-office-commerciale-l-monsummano-terme%2C-toscana-offerte-lavoro.html?l=monsummano+terme%2C+toscana&q=impiegato+back+office+commerciale"
+            ],
+            "coverageLimit": "Verifica puntuale pagina specifica; non enumera l’intera fonte"
+          },
+          {
+            "source": "Gi Group / Grafton Office",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://www.gigroup.it/offerte-lavoro-dettaglio/firenze-sales-proposals-ito-support-booking-expert/1368491/",
+            "checkedAt": "2026-10-21T13:34:54.141Z",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.gigroup.it/offerte-lavoro-dettaglio/firenze-sales-proposals-ito-support-booking-expert/1368491/"
+            ],
+            "coverageLimit": "Verifica puntuale pagina specifica; non enumera l’intera fonte"
+          },
+          {
+            "source": "Randstad",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://www.randstad.com/jobs/impiegato-customer-service_firenze_47368852/",
+            "checkedAt": "2026-10-21T13:34:54.141Z",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.randstad.com/jobs/impiegato-customer-service_firenze_47368852/"
+            ],
+            "coverageLimit": "Verifica puntuale pagina specifica; non enumera l’intera fonte"
+          },
+          {
+            "source": "Randstad",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://www.randstad.com/jobs/procurement-initiatives-specialist-specialista-iniziative-acquisti_firenze_47405449/",
+            "checkedAt": "2026-10-21T13:34:54.141Z",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.randstad.com/jobs/procurement-initiatives-specialist-specialista-iniziative-acquisti_firenze_47405449/"
+            ],
+            "coverageLimit": "Verifica puntuale pagina specifica; non enumera l’intera fonte"
+          }
+        ],
+        "coverageDiagnostics": {
+          "secondPassCompleted": false,
+          "deltaCompleted": false,
+          "breadthTargetMissed": true,
+          "sourcesRemainingToBreadthTarget": 99
+        },
+        "notes": "Checkpoint V2 verificato; delta e sweep completo in corso."
       }
     }
   },
