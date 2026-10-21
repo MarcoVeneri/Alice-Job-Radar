@@ -1,6 +1,6 @@
 window.ALICE_RADAR_CONFIG={
-  dataUrl:"./data/jobs.json?v=20261021-schedule0930",
-  appVersion:"6.33.5",
+  dataUrl:"./data/jobs.json?v=20261021-restore-data",
+  appVersion:"6.33.6",
   sync:{
     enabled:true,
     url:"https://nlhxjpartgvplythgzrz.supabase.co",
@@ -10,13 +10,7 @@ window.ALICE_RADAR_CONFIG={
 };
 (()=>{
   const s=document.createElement("script");
-  s.src="./audit-fix.js?v=20261021-schedule0930";
+  s.src="./audit-fix.js?v=20261021-restore-data";
   s.async=true;
-  s.onload=()=>{
-    const d=document.createElement("script");
-    d.src="./audit-display.js?v=20261021-schedule0930";
-    d.async=true;
-    document.head.appendChild(d);
-  };
   document.head.appendChild(s);
 })();
