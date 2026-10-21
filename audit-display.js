@@ -1,7 +1,7 @@
 (()=>{
 "use strict";
 const TZ="Europe/Rome";
-const SLOTS=["08:00","15:00"];
+const SLOTS=["09:30","15:30"];
 let lastAudit=null;
 let painting=false;
 
@@ -52,15 +52,24 @@ function labelFor(a){
   const jobLabel=a.newJobs===1?"1 nuova":`${a.newJobs} nuove`;
   return `${a.explored}/${a.total} esplorate · ${a.queries} controlli · ${jobLabel}`;
 }
+function syncLabels(){
+  const morning=document.querySelector("#run08box strong");
+  const afternoon=document.querySelector("#run15box strong");
+  if(morning)morning.textContent="09:30";
+  if(afternoon)afternoon.textContent="15:30";
+  const footer=document.querySelector(".footer");
+  if(footer)footer.textContent="Alice Job Radar · PWA v6.33 · aggiornamento automatico 09:30 / 15:30";
+}
 function paint(audit=lastAudit){
   if(painting)return;
   painting=true;
   try{
+    syncLabels();
     const now=nowMinutes();
     for(const slot of SLOTS){
-      const is08=slot==="08:00";
-      const el=document.getElementById(is08?"run08":"run15");
-      const box=document.getElementById(is08?"run08box":"run15box");
+      const isMorning=slot==="09:30";
+      const el=document.getElementById(isMorning?"run08":"run15");
+      const box=document.getElementById(isMorning?"run08box":"run15box");
       if(!el||!box)continue;
       box.classList.remove("ok","partial","failed");
       if(now<slotMinutes(slot)){
@@ -106,6 +115,7 @@ async function refresh(){
   }catch(_){ }
 }
 function start(){
+  syncLabels();
   refresh();
   setTimeout(refresh,700);
   setTimeout(refresh,1800);
