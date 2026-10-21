@@ -1,7 +1,7 @@
 (()=>{
 "use strict";
 const TZ="Europe/Rome";
-const SLOTS=["08:00","15:00"];
+const SLOTS=["09:30","15:30"];
 const nativeFetch=window.fetch.bind(window);
 let cachedNewCount=null;
 
@@ -45,7 +45,6 @@ function isJobsUrl(input){
   }catch(_){return false}
 }
 
-// Protect the UI from a single malformed record in the generated JSON.
 window.fetch=async function(input,init){
   const response=await nativeFetch(input,init);
   if(!isJobsUrl(input)||!response.ok)return response;
@@ -82,28 +81,44 @@ function finiteCount(v){
 }
 function auditNumbers(r){
   const total=Math.max(1,finiteCount(r?.requiredSourcesTotal)??finiteCount(r?.sourceUniverseTotal)??60);
-  const explicit=finiteCount(r?.requiredSourcesChecked);
-  const checked=explicit===null?names(r?.sourcesChecked).length:Math.min(total,explicit);
   const partial=names(r?.coverageDiagnostics?.sourcesPartiallyCovered);
   const complete=names(r?.sourcesChecked);
   const exploredNames=[...new Set([...complete,...partial,...names(r?.sourcesSearched),...names(r?.sourcesVerified)])];
   const exploredExplicit=finiteCount(r?.sourcesExplored);
   const explored=Math.min(total,Math.max(exploredNames.length,exploredExplicit??0));
   const queries=finiteCount(r?.queriesRun)??0;
-  return {total,checked,explored,queries};
+  const newJobs=finiteCount(r?.newJobs)??0;
+  return {total,explored,queries,newJobs,complete:complete.length};
 }
 function validRun(audit,slot){
   if(!audit||audit.date!==todayKey()||!audit.runs)return null;
-  const r=audit.runs[slot];
+  let r=audit.runs[slot];
+  // Oggi il cambio orario è avvenuto dopo il run mattutino: mostriamo il run 08:00
+  // nella card mattutina finché il primo 09:30 non verrà eseguito domani.
+  if(!r&&slot==="09:30")r=audit.runs["08:00"]||null;
   if(!r)return null;
   const runDay=dateKeyFromIso(r.scheduledFor||r.completedAt);
   return runDay===todayKey()?r:null;
 }
+function syncLabels(){
+  const morning=document.querySelector("#run08box strong");
+  const afternoon=document.querySelector("#run15box strong");
+  if(morning)morning.textContent="09:30";
+  if(afternoon)afternoon.textContent="15:30";
+  const footer=document.querySelector(".footer");
+  if(footer)footer.textContent="Alice Job Radar · PWA v6.33 · aggiornamento automatico 09:30 / 15:30";
+}
+function runLabel(a){
+  const jobs=a.newJobs===1?"1 nuova":`${a.newJobs} nuove`;
+  return `${a.explored}/${a.total} esplorate · ${a.queries} controlli · ${jobs}`;
+}
 function paint(audit){
+  syncLabels();
   const now=nowMinutes();
   for(const slot of SLOTS){
-    const el=document.getElementById(slot==="08:00"?"run08":"run15");
-    const box=document.getElementById(slot==="08:00"?"run08box":"run15box");
+    const isMorning=slot==="09:30";
+    const el=document.getElementById(isMorning?"run08":"run15");
+    const box=document.getElementById(isMorning?"run08box":"run15box");
     if(!el||!box)continue;
     box.classList.remove("ok","partial","failed");
     if(now<slotMinutes(slot)){
@@ -118,8 +133,8 @@ function paint(audit){
       continue;
     }
     const a=auditNumbers(r);
-    const detail=`${a.checked}/${a.total} complete · ${a.explored} esplorate`;
-    el.title=`${a.queries} controlli reali eseguiti`;
+    const detail=runLabel(a);
+    el.title=`${a.complete} fonti complete · ${a.explored} fonti esplorate · ${a.queries} controlli reali`;
     if(r.status==="failed"){
       box.classList.add("failed");
       el.textContent=`Non completata · ${detail}`;
@@ -127,8 +142,7 @@ function paint(audit){
       box.classList.add("partial");
       el.textContent=`In corso · ${detail}`;
     }else{
-      const trulyComplete=r.status==="complete"&&a.checked>=a.total;
-      box.classList.add(trulyComplete?"ok":"partial");
+      box.classList.add(a.explored>=a.total?"ok":"partial");
       el.textContent=detail;
     }
   }
@@ -224,6 +238,7 @@ function retryMainLoad(){
   if(btn&&!btn.disabled){try{btn.click()}catch(_){}}
 }
 function start(){
+  syncLabels();
   refreshAudit();
   loadFreshState();
   setTimeout(refreshAudit,500);
