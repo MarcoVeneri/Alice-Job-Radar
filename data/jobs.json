@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T09:32:25+02:00",
+  "generatedAt": "2026-10-22T15:32:00+02:00",
   "source": "Ricerca quotidiana Alice · MAX-COVERAGE DEEP",
   "jobs": [
     {
@@ -17338,6 +17338,245 @@
           ]
         },
         "notes": "Scansione V2 del mattino: breadth-first sul catalogo completo, tutte le Tier A, domini ufficiali site-restricted, discovery recente, secondo passaggio e ricontrollo delle offerte attive. Stato partial perché molte fonti non consentono un'enumerazione diretta completa; fallback indicizzati mantenuti separati. Le opportunità plausibili o geograficamente ambigue sono incluse con Da verificare."
+      },
+      "15:30": {
+        "scheduledFor": "2026-10-22T15:30:00+02:00",
+        "completedAt": "2026-10-22T15:32:00+02:00",
+        "status": "partial",
+        "requiredSourcesTotal": 178,
+        "sourceUniverseTotal": 178,
+        "requiredSourcesChecked": 6,
+        "sourcesChecked": [
+          "Indeed",
+          "Eursap Careers",
+          "Miele Careers",
+          "LinkedIn Jobs",
+          "BrandiniRent Careers",
+          "Randstad"
+        ],
+        "directSourcesChecked": [
+          "Indeed",
+          "Eursap Careers",
+          "Miele Careers",
+          "LinkedIn Jobs",
+          "BrandiniRent Careers",
+          "Randstad"
+        ],
+        "siteRestrictedSourcesChecked": [],
+        "indexedFallbackSourcesChecked": [],
+        "sourcesUnavailable": [
+          "Trabajo.org",
+          "LinkedIn Jobs",
+          "Indeed",
+          "Kering Careers"
+        ],
+        "directSourcesCount": 6,
+        "siteRestrictedSourcesCount": 0,
+        "indexedFallbackSourcesCount": 0,
+        "sourcesExplored": 8,
+        "breadthCoveragePct": 4.5,
+        "tierACoveragePct": 0,
+        "breadthTargetMissed": true,
+        "sourcesRemainingToBreadthTarget": 108,
+        "queriesRun": 17,
+        "newJobs": 0,
+        "activeJobs": 197,
+        "layersCompleted": [
+          "delta iniziale",
+          "ricontrollo pagine specifiche"
+        ],
+        "secondPassSources": [],
+        "searchLog": [
+          {
+            "source": "Indeed",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://it.indeed.com/viewjob?jk=191f72c5ee6511db",
+            "checkedAt": "2026-10-22T15:32:00+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://it.indeed.com/viewjob?jk=191f72c5ee6511db"
+            ],
+            "coverageLimit": "Pagina specifica leggibile e attiva."
+          },
+          {
+            "source": "Eursap Careers",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://eursap.eu/jobs/sap-pmo-IT-36325",
+            "checkedAt": "2026-10-22T15:32:00+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://eursap.eu/jobs/sap-pmo-IT-36325"
+            ],
+            "coverageLimit": "Pagina specifica leggibile e attiva."
+          },
+          {
+            "source": "Trabajo.org",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://it.trabajo.org/offerta-5303-625b5eded5dcb4548cfd38bb76584792",
+            "checkedAt": "2026-10-22T15:32:00+02:00",
+            "outcome": "bloccata",
+            "evidenceUrls": [],
+            "coverageLimit": "Pagina specifica non accessibile; richiede fallback."
+          },
+          {
+            "source": "Miele Careers",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://www.miele.it/varie/872.htm",
+            "checkedAt": "2026-10-22T15:32:00+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.miele.it/varie/872.htm"
+            ],
+            "coverageLimit": "Pagina specifica leggibile e attiva."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://it.linkedin.com/jobs/view/addetto-ufficio-spedizioni-at-devon-devon-4464621916",
+            "checkedAt": "2026-10-22T15:32:00+02:00",
+            "outcome": "bloccata",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/addetto-ufficio-spedizioni-at-devon-devon-4464621916"
+            ],
+            "coverageLimit": "Redirect a elenco generico; verifica diretta incompleta."
+          },
+          {
+            "source": "Indeed",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://it.indeed.com/viewjob?jk=cd6d16b4e99587ae",
+            "checkedAt": "2026-10-22T15:32:00+02:00",
+            "outcome": "bloccata",
+            "evidenceUrls": [],
+            "coverageLimit": "Pagina specifica non accessibile nel controllo corrente."
+          },
+          {
+            "source": "Indeed",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://it.indeed.com/viewjob?jk=ac12f753b46f971e",
+            "checkedAt": "2026-10-22T15:32:00+02:00",
+            "outcome": "bloccata",
+            "evidenceUrls": [],
+            "coverageLimit": "Pagina specifica non accessibile nel controllo corrente."
+          },
+          {
+            "source": "Indeed",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://it.indeed.com/viewjob?jk=00211adb679d4f85",
+            "checkedAt": "2026-10-22T15:32:00+02:00",
+            "outcome": "bloccata",
+            "evidenceUrls": [],
+            "coverageLimit": "Pagina specifica non accessibile nel controllo corrente."
+          },
+          {
+            "source": "Indeed",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://it.indeed.com/viewjob?jk=1a0e4dbd0b40f2d8",
+            "checkedAt": "2026-10-22T15:32:00+02:00",
+            "outcome": "bloccata",
+            "evidenceUrls": [],
+            "coverageLimit": "Pagina specifica non accessibile nel controllo corrente."
+          },
+          {
+            "source": "Indeed",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://it.indeed.com/viewjob?jk=d0a009d161ea81b7",
+            "checkedAt": "2026-10-22T15:32:00+02:00",
+            "outcome": "bloccata",
+            "evidenceUrls": [],
+            "coverageLimit": "Pagina specifica non accessibile nel controllo corrente."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://it.linkedin.com/jobs/view/back-office-estero-at-menichetti-glues-and-adhesives-4464325160",
+            "checkedAt": "2026-10-22T15:32:00+02:00",
+            "outcome": "bloccata",
+            "evidenceUrls": [],
+            "coverageLimit": "Redirect loop; richiede fallback."
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://it.linkedin.com/jobs/view/business-analyst-di-customer-experience-operation-at-plures-4470954309",
+            "checkedAt": "2026-10-22T15:32:00+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/business-analyst-di-customer-experience-operation-at-plures-4470954309"
+            ],
+            "coverageLimit": "Pagina specifica leggibile e annuncio presente."
+          },
+          {
+            "source": "Kering Careers",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://careers.kering.com/careers/R170153?source=Keringcom_Slots",
+            "checkedAt": "2026-10-22T15:32:00+02:00",
+            "outcome": "bloccata",
+            "evidenceUrls": [],
+            "coverageLimit": "Pagina specifica non accessibile nel controllo corrente."
+          },
+          {
+            "source": "BrandiniRent Careers",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://brandinirent.it/lavora-con-noi/back-office-sales-support",
+            "checkedAt": "2026-10-22T15:32:00+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://brandinirent.it/lavora-con-noi/back-office-sales-support"
+            ],
+            "coverageLimit": "Pagina career specifica leggibile e attiva."
+          },
+          {
+            "source": "Randstad",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://www.randstad.com/jobs/back-office-fmnb_firenze_47576083/",
+            "checkedAt": "2026-10-22T15:32:00+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.randstad.com/jobs/back-office-fmnb_firenze_47576083/"
+            ],
+            "coverageLimit": "Pagina specifica raggiunta; contenuto indicizzato parzialmente."
+          },
+          {
+            "source": "Randstad",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://www.randstad.com/jobs/technical-sales-support_firenze_47382871/",
+            "checkedAt": "2026-10-22T15:32:00+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.randstad.com/jobs/technical-sales-support_firenze_47382871/"
+            ],
+            "coverageLimit": "Pagina specifica raggiunta; contenuto indicizzato parzialmente."
+          },
+          {
+            "source": "Randstad",
+            "method": "direct_job_page",
+            "coverageMode": "direct",
+            "url": "https://www.randstad.com/jobs/proposal-engineer_firenze_47444016/",
+            "checkedAt": "2026-10-22T15:32:00+02:00",
+            "outcome": "risultati",
+            "evidenceUrls": [
+              "https://www.randstad.com/jobs/proposal-engineer_firenze_47444016/"
+            ],
+            "coverageLimit": "Pagina specifica raggiunta; contenuto indicizzato parzialmente."
+          }
+        ],
+        "notes": "Checkpoint iniziale verificabile. Sweep Tier A, fonti produttive/zero-result e fallback trasversale in corso."
       }
     }
   },
