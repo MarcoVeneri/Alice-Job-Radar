@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T09:56:00+02:00",
+  "generatedAt": "2026-10-24T15:36:00+02:00",
   "source": "Ricerca quotidiana Alice · MAX-COVERAGE DEEP",
   "jobs": [
     {
@@ -10685,6 +10685,105 @@
           "fallbackSearchesRun": 330
         },
         "notes": "Catalogo esplorato al 100% tramite sweep indicizzato coerente per fonte; tutte le Tier A tentate e secondo passaggio completato. Stato partial perché molte fonti restano coperte tramite indice/site search e non tramite enumerazione diretta completa. Cinque nuove vacancy verificate e aggiunte; due chiuse escluse; una multiposizione generica usata solo per discovery."
+      },
+      "15:30": {
+        "scheduledFor": "2026-10-24T15:30:00+02:00",
+        "completedAt": "2026-10-24T15:36:00+02:00",
+        "status": "partial",
+        "requiredSourcesTotal": 182,
+        "sourceUniverseTotal": 182,
+        "requiredSourcesChecked": 4,
+        "sourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed Italia",
+          "Adecco Italia",
+          "Remote boards trasversali"
+        ],
+        "directSourcesChecked": [],
+        "siteRestrictedSourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed Italia",
+          "Adecco Italia"
+        ],
+        "indexedFallbackSourcesChecked": [
+          "Remote boards trasversali"
+        ],
+        "sourcesUnavailable": [],
+        "directSourcesCount": 0,
+        "siteRestrictedSourcesCount": 3,
+        "indexedFallbackSourcesCount": 1,
+        "sourcesVerified": [],
+        "sourcesSearched": [
+          "LinkedIn Jobs",
+          "Indeed Italia",
+          "Adecco Italia",
+          "Remote boards trasversali"
+        ],
+        "sourcesExplored": 4,
+        "breadthCoveragePct": 2.2,
+        "tierACoveragePct": 0,
+        "breadthTargetMissed": true,
+        "sourcesRemainingToBreadthTarget": 115,
+        "queriesRun": 4,
+        "newJobs": 0,
+        "activeJobs": 210,
+        "searchLog": [
+          {
+            "source": "LinkedIn Jobs",
+            "method": "delta site search",
+            "coverageMode": "site_restricted",
+            "query": "site:it.linkedin.com/jobs/view back office commerciale/sales support/sales operations/gestione ordini Toscana",
+            "checkedAt": "2026-10-24T15:35:00+02:00",
+            "outcome": "risultati recenti esaminati",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/back-office-commerciale-l-68-99-at-adhr-group-4477081419"
+            ]
+          },
+          {
+            "source": "Indeed Italia",
+            "method": "delta site search",
+            "coverageMode": "site_restricted",
+            "query": "site:it.indeed.com/viewjob back office/customer service/ufficio gare/project coordinator Toscana",
+            "checkedAt": "2026-10-24T15:35:00+02:00",
+            "outcome": "nessun nuovo risultato distinto nel primo delta",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Adecco Italia",
+            "method": "cross-agency delta search",
+            "coverageMode": "site_restricted",
+            "query": "site:adecco.com OR site:randstad.it OR site:gigroup.it commerciale/ordini/gare/operations Toscana",
+            "checkedAt": "2026-10-24T15:35:00+02:00",
+            "outcome": "risultati esaminati; nessun nuovo match verificato",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Remote boards trasversali",
+            "method": "indexed remote delta",
+            "coverageMode": "indexed_fallback",
+            "query": "sales operations/deal desk/tender specialist/customer operations remote Italy",
+            "checkedAt": "2026-10-24T15:35:00+02:00",
+            "outcome": "nessun nuovo match remoto verificato nel primo delta",
+            "evidenceUrls": []
+          }
+        ],
+        "layersCompleted": [
+          "delta iniziale"
+        ],
+        "secondPassSources": [],
+        "coverageDiagnostics": {
+          "sourcesPartiallyCovered": [
+            "LinkedIn Jobs",
+            "Indeed Italia",
+            "Adecco Italia",
+            "Remote boards trasversali"
+          ],
+          "careerPagesOpened": 0,
+          "careerSearchesRun": 3,
+          "atsSearchesRun": 0,
+          "fallbackSearchesRun": 1
+        },
+        "notes": "Checkpoint delta iniziale; sweep Tier A, produttive, zero-result e fallback trasversale in corso."
       }
     }
   },
