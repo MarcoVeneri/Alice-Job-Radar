@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T09:56:00+01:00",
+  "generatedAt": "2026-10-25T15:34:00+01:00",
   "source": "Ricerca quotidiana Alice · MAX-COVERAGE DEEP",
   "jobs": [
     {
@@ -14364,6 +14364,114 @@
           "fallbackSearchesRun": 373
         },
         "notes": "Copertura nominale del 100% del catalogo con due passaggi. Stato partial perché molte fonti sono state coperte tramite fallback indicizzato e non tutte direttamente; tutti i 215 annunci attivi preesistenti sono stati riaperti. Nessun blocco tecnico persistente."
+      },
+      "15:30": {
+        "scheduledFor": "2026-10-25T15:30:00+01:00",
+        "completedAt": "2026-10-25T15:34:00+01:00",
+        "status": "partial",
+        "requiredSourcesTotal": 184,
+        "sourceUniverseTotal": 184,
+        "requiredSourcesChecked": 4,
+        "sourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed Italia",
+          "Agenzie per il lavoro",
+          "ATS public boards"
+        ],
+        "directSourcesChecked": [],
+        "siteRestrictedSourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed Italia",
+          "Agenzie per il lavoro",
+          "ATS public boards"
+        ],
+        "indexedFallbackSourcesChecked": [],
+        "sourcesUnavailable": [
+          "Cross-profile delta search"
+        ],
+        "directSourcesCount": 0,
+        "siteRestrictedSourcesCount": 4,
+        "indexedFallbackSourcesCount": 0,
+        "sourcesVerified": [],
+        "sourcesSearched": [
+          "LinkedIn Jobs",
+          "Indeed Italia",
+          "Agenzie per il lavoro",
+          "ATS public boards",
+          "Cross-profile delta search"
+        ],
+        "sourcesExplored": 5,
+        "breadthCoveragePct": 2.7,
+        "tierACoveragePct": 0,
+        "breadthTargetMissed": true,
+        "sourcesRemainingToBreadthTarget": 115,
+        "queriesRun": 5,
+        "newJobs": 0,
+        "activeJobs": 226,
+        "searchLog": [
+          {
+            "source": "Cross-profile delta search",
+            "method": "indexed_fallback",
+            "coverageMode": "blocked_or_unavailable",
+            "query": "Initial four-query delta attempt",
+            "checkedAt": "2026-10-25T15:34:00+01:00",
+            "outcome": "transient search service error; retried immediately",
+            "evidenceUrls": []
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "method": "site-restricted delta",
+            "coverageMode": "site_restricted",
+            "query": "site:it.linkedin.com/jobs/view sales support/sales operations/commercial operations/order management/tender/proposal Toscana o remoto Italia",
+            "checkedAt": "2026-10-25T15:34:00+01:00",
+            "outcome": "nessun nuovo risultato nell'indice recente",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Indeed Italia",
+            "method": "site-restricted delta",
+            "coverageMode": "site_restricted",
+            "query": "site:it.indeed.com/viewjob back office commerciale/gestione ordini/assistente commerciale/ufficio gare Toscana",
+            "checkedAt": "2026-10-25T15:34:00+01:00",
+            "outcome": "nessun nuovo risultato nell'indice recente",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Agenzie per il lavoro",
+            "method": "site-restricted delta",
+            "coverageMode": "site_restricted",
+            "query": "Adecco/Grafton/Randstad/Gi Group/Manpower Toscana",
+            "checkedAt": "2026-10-25T15:34:00+01:00",
+            "outcome": "nessun nuovo risultato nell'indice recente",
+            "evidenceUrls": []
+          },
+          {
+            "source": "ATS public boards",
+            "method": "site-restricted delta",
+            "coverageMode": "site_restricted",
+            "query": "Greenhouse/Lever/Ashby/SmartRecruiters Italy remote sales operations/deal desk/customer success operations/proposal",
+            "checkedAt": "2026-10-25T15:34:00+01:00",
+            "outcome": "nessun nuovo risultato nell'indice recente",
+            "evidenceUrls": []
+          }
+        ],
+        "layersCompleted": [
+          "delta iniziale ATS/generalisti/agenzie"
+        ],
+        "secondPassSources": [],
+        "coverageDiagnostics": {
+          "sourcesPartiallyCovered": [
+            "LinkedIn Jobs",
+            "Indeed Italia",
+            "Agenzie per il lavoro",
+            "ATS public boards"
+          ],
+          "careerPagesOpened": 0,
+          "careerSearchesRun": 4,
+          "atsSearchesRun": 1,
+          "fallbackSearchesRun": 1
+        },
+        "notes": "Checkpoint iniziale del delta pomeridiano; sweep Tier A e breadth completo in corso."
       }
     }
   },
