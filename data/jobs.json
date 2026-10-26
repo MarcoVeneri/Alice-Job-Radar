@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T10:55:00+01:00",
+  "generatedAt": "2026-10-26T15:37:00+01:00",
   "source": "Ricerca quotidiana Alice · MAX-COVERAGE DEEP",
   "jobs": [
     {
@@ -15038,6 +15038,102 @@
           "fallbackSearchesRun": 396
         },
         "notes": "Copertura 100% del catalogo aggiornato e Tier A. Stato partial perché molte fonti sono state coperte mediante ricerca site-restricted o fallback indicizzato senza enumerazione diretta integrale."
+      },
+      "15:30": {
+        "scheduledFor": "2026-10-26T15:30:00+01:00",
+        "completedAt": null,
+        "status": "partial",
+        "requiredSourcesTotal": 142,
+        "sourceUniverseTotal": 189,
+        "requiredSourcesChecked": 0,
+        "sourcesChecked": [],
+        "directSourcesChecked": [],
+        "siteRestrictedSourcesChecked": [],
+        "indexedFallbackSourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed Italia",
+          "Google indexed vacancies"
+        ],
+        "sourcesUnavailable": [],
+        "directSourcesCount": 0,
+        "siteRestrictedSourcesCount": 0,
+        "indexedFallbackSourcesCount": 3,
+        "sourcesVerified": [],
+        "sourcesSearched": [
+          "LinkedIn Jobs",
+          "Indeed Italia",
+          "Google indexed vacancies"
+        ],
+        "sourcesExplored": 3,
+        "breadthCoveragePct": 1.59,
+        "tierACoveragePct": 0,
+        "breadthTargetMissed": true,
+        "sourcesRemainingToBreadthTarget": 120,
+        "queriesRun": 4,
+        "newJobs": 0,
+        "activeJobs": 231,
+        "searchLog": [
+          {
+            "source": "LinkedIn Jobs",
+            "method": "delta indexed search",
+            "coverageMode": "indexed_fallback",
+            "query": "fresh sales operations/support/order management/client operations Toscana",
+            "checkedAt": "2026-10-26T15:37:00+01:00",
+            "outcome": "results reviewed; duplicates or non-matching",
+            "evidenceUrls": [],
+            "coverageLimit": "indexed delta"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "method": "delta indexed search",
+            "coverageMode": "indexed_fallback",
+            "query": "fresh tender/proposal/bid/project coordinator/PMO Toscana",
+            "checkedAt": "2026-10-26T15:37:00+01:00",
+            "outcome": "results reviewed; duplicate Baker Hughes",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/sales-specialist-proposals-m-f-d-at-baker-hughes-4462851479"
+            ],
+            "coverageLimit": "indexed delta"
+          },
+          {
+            "source": "Indeed Italia",
+            "method": "delta indexed search",
+            "coverageMode": "indexed_fallback",
+            "query": "back office/customer support/operations coordinator Toscana",
+            "checkedAt": "2026-10-26T15:37:00+01:00",
+            "outcome": "duplicate Numa role",
+            "evidenceUrls": [
+              "https://it.indeed.com/viewjob?jk=65199f4ef4a50230"
+            ],
+            "coverageLimit": "indexed delta"
+          },
+          {
+            "source": "Google indexed vacancies",
+            "method": "remote profile sweep",
+            "coverageMode": "indexed_fallback",
+            "query": "Italy full remote commercial/customer/sales/renewal operations",
+            "checkedAt": "2026-10-26T15:37:00+01:00",
+            "outcome": "no suitable Italy-workable vacancy verified",
+            "evidenceUrls": [],
+            "coverageLimit": "global indexed results"
+          }
+        ],
+        "layersCompleted": [
+          "delta dalle 09:30"
+        ],
+        "secondPassSources": [],
+        "coverageDiagnostics": {
+          "sourcesPartiallyCovered": [
+            "LinkedIn Jobs",
+            "Indeed Italia",
+            "Google indexed vacancies"
+          ],
+          "careerPagesOpened": 0,
+          "careerSearchesRun": 0,
+          "atsSearchesRun": 0,
+          "fallbackSearchesRun": 4
+        },
+        "notes": "Checkpoint iniziale del delta; sweep obbligatorio in corso."
       }
     }
   },
