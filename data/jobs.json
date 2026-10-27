@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T10:18:00+01:00",
+  "generatedAt": "2026-10-27T15:31:00+01:00",
   "source": "Ricerca quotidiana Alice · MAX-COVERAGE DEEP",
   "jobs": [
     {
@@ -6934,13 +6934,14 @@
         "Pagina specifica in timeout: dettagli da verificare",
         "Possibile somiglianza con altri annunci della stessa area, mantenuta separata perché l'ID fonte è distinto",
         "Modalità, contratto e attività puntuali da verificare",
-        "Inclusa per principio di recall V2"
+        "Inclusa per principio di recall V2",
+        "Disattivata il 27/10/2026: annuncio segnalato come inesistente e pagina specifica non raggiungibile"
       ],
       "remote": false,
-      "active": true,
+      "active": false,
       "firstSeenAt": "2026-10-27T10:12:00+01:00",
       "firstSeenRun": "09:30",
-      "verifiedAt": "2026-10-27T10:12:00+01:00",
+      "verifiedAt": "2026-10-27T15:31:00+01:00",
       "verificationUrl": "https://it.grafton.com/offerte-lavoro-dettaglio/lavoro-campi-bisenzio-firenze-back-office-commerciale-italia/1346659/",
       "postedAt": "2026-08-04"
     }
@@ -14558,6 +14559,67 @@
           "fallbackSearchesRun": 388
         },
         "notes": "Copertura del catalogo completata al 100% tramite tentativi source-specific; stato partial perché la maggioranza delle fonti è stata coperta tramite fallback indicizzato e non enumerazione diretta. Secondo passaggio completato su tutte le fonti. Nessuna chiusura applicata senza evidenza specifica."
+      },
+      "15:30": {
+        "scheduledFor": "2026-10-27T15:30:00+01:00",
+        "completedAt": null,
+        "status": "partial",
+        "requiredSourcesTotal": 142,
+        "sourceUniverseTotal": 193,
+        "requiredSourcesChecked": 0,
+        "sourcesChecked": [],
+        "directSourcesChecked": [],
+        "siteRestrictedSourcesChecked": [],
+        "indexedFallbackSourcesChecked": [
+          "Grafton"
+        ],
+        "sourcesUnavailable": [
+          "Grafton vacancy 1346659"
+        ],
+        "directSourcesCount": 0,
+        "siteRestrictedSourcesCount": 0,
+        "indexedFallbackSourcesCount": 1,
+        "sourcesVerified": [],
+        "sourcesSearched": [
+          "Grafton"
+        ],
+        "sourcesExplored": 1,
+        "breadthCoveragePct": 0.52,
+        "tierACoveragePct": 0,
+        "breadthTargetMissed": true,
+        "sourcesRemainingToBreadthTarget": 125,
+        "queriesRun": 1,
+        "newJobs": 0,
+        "activeJobs": 239,
+        "searchLog": [
+          {
+            "source": "Grafton",
+            "method": "specific vacancy recheck",
+            "coverageMode": "blocked_or_unavailable",
+            "query": "https://it.grafton.com/offerte-lavoro-dettaglio/lavoro-campi-bisenzio-firenze-back-office-commerciale-italia/1346659/",
+            "checkedAt": "2026-10-27T15:31:00+01:00",
+            "outcome": "specific page unreachable; user-confirmed nonexistent listing deactivated",
+            "evidenceUrls": [
+              "https://it.grafton.com/offerte-lavoro-dettaglio/lavoro-campi-bisenzio-firenze-back-office-commerciale-italia/1346659/"
+            ],
+            "coverageLimit": "page timeout; direct user verification available"
+          }
+        ],
+        "layersCompleted": [
+          "morning delta initialization",
+          "known invalid vacancy cleanup"
+        ],
+        "secondPassSources": [],
+        "coverageDiagnostics": {
+          "sourcesPartiallyCovered": [
+            "Grafton"
+          ],
+          "careerPagesOpened": 1,
+          "careerSearchesRun": 0,
+          "atsSearchesRun": 0,
+          "fallbackSearchesRun": 0
+        },
+        "notes": "Checkpoint pomeridiano verificato; delta e sweep completi in corso."
       }
     }
   },
