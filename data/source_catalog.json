@@ -21,133 +21,155 @@
       "name": "LinkedIn Jobs",
       "type": "generalist",
       "tier": "A",
-      "attempts": 132,
+      "attempts": 134,
       "directAttempts": 120,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "validVacancies": 17,
       "newVacancies": 17,
-      "zeroResultStreak": 0,
+      "zeroResultStreak": 1,
       "lastProductiveAt": "2026-10-26T16:05:00+01:00"
     },
     {
       "name": "Indeed Italia",
       "type": "generalist",
       "tier": "A",
-      "attempts": 46,
+      "attempts": 48,
       "directAttempts": 27,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "validVacancies": 19,
       "newVacancies": 19,
-      "zeroResultStreak": 1,
+      "zeroResultStreak": 2,
       "lastProductiveAt": "2026-10-26T10:55:00+01:00"
     },
     {
       "name": "Monster Italia",
       "type": "generalist",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Glassdoor Jobs",
       "type": "generalist",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Jooble Italia",
       "type": "aggregator",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Talent.com Italia",
       "type": "aggregator",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Careerjet Italia",
       "type": "aggregator",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Adzuna Italia",
       "type": "aggregator",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Jobrapido",
       "type": "aggregator",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Jobbydoo",
       "type": "aggregator",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Jobijoba Italia",
       "type": "aggregator",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "JobisJob Italia",
       "type": "aggregator",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Trovit Lavoro",
       "type": "aggregator",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "SimplyHired Italia",
       "type": "aggregator",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 4,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 5,
       "validVacancies": 1,
       "newVacancies": 1,
       "lastProductiveAt": "2026-10-24T15:49:00+02:00"
@@ -156,163 +178,197 @@
       "name": "Jobsora Italia",
       "type": "aggregator",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Trovolavoro",
       "type": "generalist",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Bakeca Lavoro",
       "type": "generalist",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Subito Lavoro",
       "type": "generalist",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Helplavoro",
       "type": "aggregator",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "CercoLavoro.com",
       "type": "generalist",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "CVing",
       "type": "generalist",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Lavoro.it",
       "type": "generalist",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Jobatus Italia",
       "type": "aggregator",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "SIISL",
       "type": "public",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "EURES",
       "type": "public",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "ARTI Toscana / Toscana Lavoro",
       "type": "public",
       "tier": "A",
-      "attempts": 25,
+      "attempts": 27,
       "directAttempts": 6,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Cliclavoro / servizi Ministero",
       "type": "public",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "inPA",
       "type": "public",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "AlmaLaurea Lavoro",
       "type": "public-private",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Università di Firenze Placement",
       "type": "local-placement",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Randstad Italia",
       "type": "agency",
       "tier": "A",
-      "attempts": 50,
+      "attempts": 52,
       "directAttempts": 31,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Adecco Italia",
       "type": "agency",
       "tier": "A",
-      "attempts": 23,
+      "attempts": 25,
       "directAttempts": 2,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
       "validVacancies": 2,
       "newVacancies": 2,
       "lastProductiveAt": "2026-10-23T15:34:28+02:00"
@@ -321,10 +377,10 @@
       "name": "Manpower Italia",
       "type": "agency",
       "tier": "A",
-      "attempts": 24,
+      "attempts": 26,
       "directAttempts": 3,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 3,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 4,
       "validVacancies": 1,
       "newVacancies": 1,
       "lastProductiveAt": "2026-10-25T09:56:00+01:00"
@@ -333,10 +389,10 @@
       "name": "Gi Group",
       "type": "agency",
       "tier": "A",
-      "attempts": 33,
+      "attempts": 35,
       "directAttempts": 14,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 5,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 6,
       "validVacancies": 1,
       "newVacancies": 1,
       "lastProductiveAt": "2026-10-24T09:56:00+02:00"
@@ -345,58 +401,66 @@
       "name": "Grafton",
       "type": "agency",
       "tier": "A",
-      "attempts": 31,
+      "attempts": 35,
       "directAttempts": 13,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "zeroResultStreak": 0,
-      "validVacancies": 3,
-      "newVacancies": 3,
-      "lastProductiveAt": "2026-10-26T16:05:00+01:00"
+      "validVacancies": 4,
+      "newVacancies": 4,
+      "lastProductiveAt": "2026-10-27T10:20:00+01:00"
     },
     {
       "name": "Hays Italia",
       "type": "agency",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Michael Page Italia",
       "type": "agency",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Page Personnel Italia",
       "type": "agency",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Robert Half Italia",
       "type": "agency",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "LHH Italia",
       "type": "agency",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 0,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 1,
       "validVacancies": 1,
       "newVacancies": 1,
       "lastProductiveAt": "2026-10-26T16:05:00+01:00"
@@ -405,28 +469,32 @@
       "name": "Jefferson Wells Italia",
       "type": "agency",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Experis Italia",
       "type": "agency",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Openjobmetis",
       "type": "agency",
       "tier": "A",
-      "attempts": 49,
+      "attempts": 51,
       "directAttempts": 29,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 5,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 6,
       "validVacancies": 1,
       "newVacancies": 1,
       "lastProductiveAt": "2026-10-24T09:56:00+02:00"
@@ -435,22 +503,22 @@
       "name": "Synergie Italia",
       "type": "agency",
       "tier": "A",
-      "attempts": 27,
+      "attempts": 29,
       "directAttempts": 6,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "validVacancies": 1,
       "newVacancies": 1,
-      "zeroResultStreak": 7,
+      "zeroResultStreak": 8,
       "lastProductiveAt": "2026-10-21T15:40:58+02:00"
     },
     {
       "name": "Orienta",
       "type": "agency",
       "tier": "A",
-      "attempts": 34,
+      "attempts": 36,
       "directAttempts": 16,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 0,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 1,
       "validVacancies": 2,
       "newVacancies": 2,
       "lastProductiveAt": "2026-10-26T16:05:00+01:00"
@@ -459,820 +527,993 @@
       "name": "Lavoropiù",
       "type": "agency",
       "tier": "A",
-      "attempts": 22,
+      "attempts": 24,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Umana",
       "type": "agency",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Ali Lavoro",
       "type": "agency",
       "tier": "A",
-      "attempts": 43,
+      "attempts": 45,
       "directAttempts": 22,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "validVacancies": 1,
       "newVacancies": 1,
-      "zeroResultStreak": 7,
+      "zeroResultStreak": 8,
       "lastProductiveAt": "2026-10-21T15:40:58+02:00"
     },
     {
       "name": "During",
       "type": "agency",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Etjca",
       "type": "agency",
       "tier": "A",
-      "attempts": 28,
+      "attempts": 30,
       "directAttempts": 7,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "MAW",
       "type": "agency",
       "tier": "A",
-      "attempts": 26,
+      "attempts": 28,
       "directAttempts": 6,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Humangest",
       "type": "agency",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "ADHR Group",
       "type": "agency",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 25,
       "directAttempts": 2,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 4,
-      "validVacancies": 1,
-      "newVacancies": 1,
-      "lastProductiveAt": "2026-10-24T15:49:00+02:00"
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 0,
+      "validVacancies": 2,
+      "newVacancies": 2,
+      "lastProductiveAt": "2026-10-27T10:20:00+01:00"
     },
     {
       "name": "Staff S.p.A.",
       "type": "agency",
       "tier": "A",
-      "attempts": 27,
+      "attempts": 29,
       "directAttempts": 6,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "validVacancies": 1,
       "newVacancies": 1,
-      "zeroResultStreak": 7,
+      "zeroResultStreak": 8,
       "lastProductiveAt": "2026-10-21T15:40:58+02:00"
     },
     {
       "name": "Atempo",
       "type": "agency",
       "tier": "A",
-      "attempts": 31,
+      "attempts": 33,
       "directAttempts": 10,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "e-work",
       "type": "agency",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Eurointerim",
       "type": "agency",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "QuoJobis",
       "type": "agency",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Sapiens",
       "type": "agency",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "La Risorsa Umana",
       "type": "agency",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Iziwork",
       "type": "agency",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Jobtech",
       "type": "agency",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "CPL Taylor",
       "type": "recruiter",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Hunters Group",
       "type": "recruiter",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "W Executive",
       "type": "recruiter",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "IQM Selezione",
       "type": "recruiter",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Knet Human Resources",
       "type": "recruiter",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Profili & Carriere",
       "type": "recruiter",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "High Professional",
       "type": "recruiter",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Praxi",
       "type": "recruiter",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Wyser / executive search network",
       "type": "recruiter",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Jobgether",
       "type": "remote",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "EU Remote Jobs",
       "type": "remote",
       "tier": "A",
-      "attempts": 18,
+      "attempts": 20,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "We Work Remotely",
       "type": "remote",
       "tier": "A",
-      "attempts": 18,
+      "attempts": 20,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Remote OK",
       "type": "remote",
       "tier": "A",
-      "attempts": 18,
+      "attempts": 20,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Remotive",
       "type": "remote",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Working Nomads",
       "type": "remote",
       "tier": "A",
-      "attempts": 18,
+      "attempts": 20,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Himalayas",
       "type": "remote",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Wellfound",
       "type": "startup-remote",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Welcome to the Jungle",
       "type": "startup-remote",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Landing.jobs",
       "type": "tech-remote",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Arbeitnow",
       "type": "remote-europe",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Europe Remotely",
       "type": "remote-europe",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Remote.co",
       "type": "remote",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "FlexJobs public discovery",
       "type": "remote",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Y Combinator Work at a Startup",
       "type": "startup",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "The Hub / Nordic startups",
       "type": "startup-remote",
       "tier": "C",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "FashionJobs Italia",
       "type": "sector-luxury",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Hosco",
       "type": "sector-hospitality-events",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "EventJob / event-sector boards discovered via web",
       "type": "sector-events",
       "tier": "C",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Google indexed vacancies",
       "type": "search-engine",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Bing indexed vacancies",
       "type": "search-engine",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "DuckDuckGo indexed vacancies",
       "type": "search-engine",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Google site-restricted ATS search",
       "type": "search-engine",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Bing site-restricted ATS search",
       "type": "search-engine",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Google company career discovery",
       "type": "search-engine",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Bing company career discovery",
       "type": "search-engine",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Greenhouse public boards/API",
       "type": "ats",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Lever public postings/API",
       "type": "ats",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Ashby public job boards/API",
       "type": "ats",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Workday/MyWorkdayJobs public endpoints",
       "type": "ats",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "SmartRecruiters public API",
       "type": "ats",
       "tier": "A",
-      "attempts": 21,
-      "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "attempts": 24,
+      "directAttempts": 1,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 0,
+      "validVacancies": 1,
+      "newVacancies": 1,
+      "lastProductiveAt": "2026-10-27T10:20:00+01:00"
     },
     {
       "name": "Workable public boards/API",
       "type": "ats",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Recruitee public offers API",
       "type": "ats",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Teamtailor public jobs feed",
       "type": "ats",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "BambooHR careers feed",
       "type": "ats",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Breezy HR public feed",
       "type": "ats",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Personio public jobs feed",
       "type": "ats",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Rippling ATS public boards",
       "type": "ats",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "iCIMS job boards",
       "type": "ats",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Jobvite job boards",
       "type": "ats",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Taleo / Oracle Recruiting boards",
       "type": "ats",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "SAP SuccessFactors career boards",
       "type": "ats",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "join.com company boards",
       "type": "ats-board",
       "tier": "B",
-      "attempts": 14,
+      "attempts": 16,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Pinpoint ATS boards",
       "type": "ats",
       "tier": "B",
-      "attempts": 14,
+      "attempts": 16,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "JazzHR boards",
       "type": "ats",
       "tier": "C",
-      "attempts": 14,
+      "attempts": 16,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Comeet boards",
       "type": "ats",
       "tier": "C",
-      "attempts": 14,
+      "attempts": 16,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Workstream / other public ATS discovered",
       "type": "ats",
       "tier": "C",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Accenture Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Avanade Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Engineering Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Reply Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "NTT DATA Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "DXC Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 18,
+      "attempts": 20,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Capgemini Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Deloitte Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "KPMG Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "PwC Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "EY Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 21,
+      "attempts": 23,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Almaviva Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Dedalus Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "GPI Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Lutech Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Var Group Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Zucchetti Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 2,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 4,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 5,
       "validVacancies": 1,
       "newVacancies": 1,
       "lastProductiveAt": "2026-10-24T15:49:00+02:00"
@@ -1281,145 +1522,175 @@
       "name": "TeamSystem Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Esprinet Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "TD SYNNEX Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Microsoft Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Cisco Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Salesforce Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "SAP Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Oracle Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "IBM Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "AWS / Amazon Jobs",
       "type": "company",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Google Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "HPE Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Dell Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Lenovo Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Siemens Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Baker Hughes Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 24,
+      "attempts": 26,
       "directAttempts": 5,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 3,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 4,
       "validVacancies": 2,
       "newVacancies": 2,
       "lastProductiveAt": "2026-10-25T09:56:00+01:00"
@@ -1428,181 +1699,219 @@
       "name": "Aruba Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Fastweb Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Vodafone Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "TIM Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Ericsson Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Nokia Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Fortinet Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Palo Alto Networks Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "ServiceNow Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Canonical Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Wolters Kluwer Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "RINA Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Bureau Veritas Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "TÜV Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Ingenium Careers / vacancies",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Direzione Lavoro Group",
       "type": "agency",
       "tier": "A",
-      "attempts": 25,
+      "attempts": 27,
       "directAttempts": 6,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Factorial public career boards",
       "type": "ats",
       "tier": "A",
-      "attempts": 20,
+      "attempts": 22,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "FIMER Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 25,
+      "attempts": 27,
       "directAttempts": 6,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Bertolotti Careers / Factorial",
       "type": "company",
       "tier": "A",
-      "attempts": 25,
+      "attempts": 27,
       "directAttempts": 6,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "TK Elevator / TK Home Solutions Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 19,
+      "attempts": 21,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 4,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 5,
       "validVacancies": 1,
       "newVacancies": 1,
       "lastProductiveAt": "2026-10-24T15:49:00+02:00"
@@ -1611,19 +1920,23 @@
       "name": "BrandiniRent Careers",
       "type": "company",
       "tier": "B",
-      "attempts": 13,
+      "attempts": 15,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Kering Careers",
       "type": "company",
       "tier": "A",
-      "attempts": 27,
+      "attempts": 29,
       "directAttempts": 9,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 8
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 9,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "AICOM Careers / Teamtailor",
@@ -1631,102 +1944,106 @@
       "tier": "A",
       "url": "https://aicomspa-1736851116.teamtailor.com/jobs",
       "ats": "Teamtailor",
-      "attempts": 34,
+      "attempts": 36,
       "directAttempts": 15,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 7
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 8,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Proget Impianti Careers",
       "type": "company",
       "tier": "B",
       "url": "https://www.progetimpianti.it/lavora-con-noi/",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
-      "zeroResultStreak": 6
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "zeroResultStreak": 7,
+      "validVacancies": 0,
+      "newVacancies": 0
     },
     {
       "name": "Miele Careers",
       "type": "company",
       "tier": "B",
-      "attempts": 18,
+      "attempts": 20,
       "directAttempts": 8,
       "validVacancies": 1,
       "newVacancies": 1,
-      "zeroResultStreak": 6,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "zeroResultStreak": 7,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "lastProductiveAt": "2026-10-22T09:32:25+02:00"
     },
     {
       "name": "Eursap Careers",
       "type": "remote-recruiter",
       "tier": "B",
-      "attempts": 18,
+      "attempts": 20,
       "directAttempts": 7,
       "validVacancies": 1,
       "newVacancies": 1,
-      "zeroResultStreak": 6,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "zeroResultStreak": 7,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "lastProductiveAt": "2026-10-22T09:32:25+02:00"
     },
     {
       "name": "Trabajo.org / Tailor&Fox",
       "type": "aggregator-recruiter",
       "tier": "B",
-      "attempts": 17,
+      "attempts": 19,
       "directAttempts": 5,
       "validVacancies": 1,
       "newVacancies": 1,
-      "zeroResultStreak": 6,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "zeroResultStreak": 7,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "lastProductiveAt": "2026-10-22T09:32:25+02:00"
     },
     {
       "name": "Tenuta Toscana Golf & Field Club",
       "type": "company_career",
       "tier": "B",
-      "attempts": 13,
+      "attempts": 15,
       "directAttempts": 1,
       "validVacancies": 1,
       "newVacancies": 1,
-      "zeroResultStreak": 6,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "zeroResultStreak": 7,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "lastProductiveAt": "2026-10-22T15:37:44+02:00"
     },
     {
       "name": "LUXENTA",
       "type": "company_career",
       "tier": "B",
-      "attempts": 13,
+      "attempts": 15,
       "directAttempts": 1,
       "validVacancies": 1,
       "newVacancies": 1,
-      "zeroResultStreak": 6,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "zeroResultStreak": 7,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "lastProductiveAt": "2026-10-22T15:37:44+02:00"
     },
     {
       "name": "VEGA Engineering",
       "type": "company_career",
       "tier": "B",
-      "attempts": 12,
+      "attempts": 14,
       "directAttempts": 0,
       "validVacancies": 0,
       "newVacancies": 0,
-      "zeroResultStreak": 6,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00"
+      "zeroResultStreak": 7,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00"
     },
     {
       "name": "Cronos Europa",
       "type": "company_career",
       "tier": "B",
-      "attempts": 14,
+      "attempts": 16,
       "directAttempts": 1,
       "validVacancies": 1,
       "newVacancies": 1,
-      "zeroResultStreak": 6,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "zeroResultStreak": 7,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "lastProductiveAt": "2026-10-22T15:37:44+02:00"
     },
     {
@@ -1734,12 +2051,12 @@
       "type": "company_career",
       "tier": "B",
       "url": "https://it.linkedin.com/jobs/view/customer-service-specialist-at-raben-italy-4481210596",
-      "attempts": 9,
+      "attempts": 11,
       "directAttempts": 2,
       "validVacancies": 1,
       "newVacancies": 1,
-      "zeroResultStreak": 4,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "zeroResultStreak": 5,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "lastProductiveAt": "2026-10-24T15:49:00+02:00"
     },
     {
@@ -1747,24 +2064,24 @@
       "type": "company_career",
       "tier": "B",
       "url": "https://www.terrecablate.it/terrecablate-cerca-addetto-commerciale-siena/",
-      "attempts": 9,
+      "attempts": 11,
       "directAttempts": 2,
       "validVacancies": 1,
       "newVacancies": 1,
-      "zeroResultStreak": 4,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "zeroResultStreak": 5,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "lastProductiveAt": "2026-10-24T15:49:00+02:00"
     },
     {
       "name": "LIONARD Careers",
       "type": "company-career",
       "tier": "B",
-      "attempts": 4,
+      "attempts": 6,
       "directAttempts": 2,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "validVacancies": 1,
       "newVacancies": 1,
-      "zeroResultStreak": 1,
+      "zeroResultStreak": 2,
       "lastProductiveAt": "2026-10-26T10:55:00+01:00",
       "host": "careers.lionard.com"
     },
@@ -1772,12 +2089,12 @@
       "name": "La Marzocco Careers",
       "type": "company-career",
       "tier": "B",
-      "attempts": 4,
+      "attempts": 6,
       "directAttempts": 2,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "validVacancies": 1,
       "newVacancies": 1,
-      "zeroResultStreak": 1,
+      "zeroResultStreak": 2,
       "lastProductiveAt": "2026-10-26T10:55:00+01:00",
       "host": "lamarzocco.com"
     },
@@ -1785,12 +2102,12 @@
       "name": "Giunti Psychometrics Careers",
       "type": "company-career",
       "tier": "B",
-      "attempts": 4,
+      "attempts": 6,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "validVacancies": 1,
       "newVacancies": 1,
-      "zeroResultStreak": 1,
+      "zeroResultStreak": 2,
       "lastProductiveAt": "2026-10-26T10:55:00+01:00",
       "host": "giuntipsy.com"
     },
@@ -1798,12 +2115,12 @@
       "name": "Numa Careers",
       "type": "company-career",
       "tier": "B",
-      "attempts": 3,
+      "attempts": 5,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "validVacancies": 1,
       "newVacancies": 1,
-      "zeroResultStreak": 1,
+      "zeroResultStreak": 2,
       "lastProductiveAt": "2026-10-26T10:55:00+01:00",
       "host": "numastays.com"
     },
@@ -1811,12 +2128,12 @@
       "name": "D.B. Group Careers",
       "type": "company-career",
       "tier": "B",
-      "attempts": 3,
+      "attempts": 5,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "validVacancies": 1,
       "newVacancies": 1,
-      "zeroResultStreak": 1,
+      "zeroResultStreak": 2,
       "lastProductiveAt": "2026-10-26T10:55:00+01:00",
       "host": "dbgroupher.com"
     },
@@ -1824,12 +2141,12 @@
       "name": "ENGIE Italia Careers",
       "type": "company_career",
       "tier": "B",
-      "attempts": 1,
+      "attempts": 3,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "validVacancies": 1,
       "newVacancies": 1,
-      "zeroResultStreak": 0,
+      "zeroResultStreak": 1,
       "lastProductiveAt": "2026-10-26T16:05:00+01:00",
       "discoveryUrl": "https://jobs.engie.com/"
     },
@@ -1837,12 +2154,12 @@
       "name": "MARSC HOLDING Careers",
       "type": "company_career",
       "tier": "B",
-      "attempts": 1,
+      "attempts": 3,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "validVacancies": 1,
       "newVacancies": 1,
-      "zeroResultStreak": 0,
+      "zeroResultStreak": 1,
       "lastProductiveAt": "2026-10-26T16:05:00+01:00",
       "discoveryUrl": "https://it.linkedin.com/company/marsc-holding-group/jobs/"
     },
@@ -1850,14 +2167,28 @@
       "name": "Tecnoware Careers",
       "type": "company_career",
       "tier": "B",
+      "attempts": 3,
+      "directAttempts": 1,
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
+      "validVacancies": 1,
+      "newVacancies": 1,
+      "zeroResultStreak": 1,
+      "lastProductiveAt": "2026-10-26T16:05:00+01:00",
+      "discoveryUrl": "https://www.tecnoware.com/lavora-con-noi/"
+    },
+    {
+      "name": "Rotork Careers",
+      "type": "company-career",
+      "tier": "B",
+      "ats": "SmartRecruiters",
+      "tenant": "Rotork1",
       "attempts": 1,
       "directAttempts": 1,
-      "lastCheckedAt": "2026-10-26T16:05:00+01:00",
+      "lastCheckedAt": "2026-10-27T10:20:00+01:00",
       "validVacancies": 1,
       "newVacancies": 1,
       "zeroResultStreak": 0,
-      "lastProductiveAt": "2026-10-26T16:05:00+01:00",
-      "discoveryUrl": "https://www.tecnoware.com/lavora-con-noi/"
+      "lastProductiveAt": "2026-10-27T10:20:00+01:00"
     }
   ],
   "discoveryRules": [
@@ -1868,11 +2199,7 @@
     "Promote a discovered source into this catalog only after a real accessible job listing/search page or public ATS feed is verified.",
     "Never count a search-engine query itself as complete coverage of the underlying source."
   ],
-  "lastExpandedAt": "2026-10-26T16:05:00+01:00",
-  "lastExpansionAdded": [
-    "ENGIE Italia Careers",
-    "MARSC HOLDING Careers",
-    "Tecnoware Careers"
-  ],
-  "lastRunAt": "2026-10-26T16:05:00+01:00"
+  "lastExpandedAt": "2026-10-27T10:20:00+01:00",
+  "lastExpansionAdded": null,
+  "lastRunAt": "2026-10-27T10:20:00+01:00"
 }
