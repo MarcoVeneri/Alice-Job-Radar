@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T10:16:00+01:00",
+  "generatedAt": "2026-10-28T15:36:00+01:00",
   "source": "Ricerca quotidiana Alice · MAX-COVERAGE DEEP",
   "jobs": [
     {
@@ -15198,6 +15198,43 @@
           "fallbackSearchesRun": 393
         },
         "notes": "Copertura 100% del catalogo con due passaggi. Stato partial perché gran parte delle fonti è stata coperta tramite fallback indicizzato e non con accesso diretto. Tre nuove vacancy reali validate; annunci rimossi/scaduti disattivati solo con evidenza concreta."
+      },
+      "15:30": {
+        "scheduledFor": "2026-10-28T15:30:00+01:00",
+        "completedAt": null,
+        "status": "partial",
+        "requiredSourcesTotal": 142,
+        "sourceUniverseTotal": 194,
+        "requiredSourcesChecked": 0,
+        "sourcesChecked": [],
+        "directSourcesChecked": [],
+        "siteRestrictedSourcesChecked": [],
+        "indexedFallbackSourcesChecked": [],
+        "sourcesUnavailable": [],
+        "directSourcesCount": 0,
+        "siteRestrictedSourcesCount": 0,
+        "indexedFallbackSourcesCount": 0,
+        "sourcesExplored": 0,
+        "breadthCoveragePct": 0,
+        "tierACoveragePct": 0,
+        "breadthTargetMissed": true,
+        "sourcesRemainingToBreadthTarget": 127,
+        "queriesRun": 0,
+        "newJobs": 0,
+        "activeJobs": 196,
+        "searchLog": [],
+        "layersCompleted": [
+          "checkpoint initialized"
+        ],
+        "secondPassSources": [],
+        "coverageDiagnostics": {
+          "sourcesPartiallyCovered": [],
+          "careerPagesOpened": 0,
+          "careerSearchesRun": 0,
+          "atsSearchesRun": 0,
+          "fallbackSearchesRun": 0
+        },
+        "notes": "Checkpoint iniziale verificato; delta e sweep pomeridiano in corso."
       }
     }
   },
