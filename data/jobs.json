@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T10:06:00+01:00",
+  "generatedAt": "2026-10-29T15:35:00+01:00",
   "source": "Ricerca quotidiana Alice · MAX-COVERAGE DEEP",
   "jobs": [
     {
@@ -14539,6 +14539,45 @@
           "fallbackSearchesRun": 390
         },
         "notes": "Copertura 100% del catalogo e secondo passaggio completo. Una nuova vacancy ufficiale validata; quattro annunci rimossi, chiusi o reindirizzati disattivati. Stato partial per prevalenza di copertura indicizzata."
+      },
+      "15:30": {
+        "scheduledFor": "2026-10-29T15:30:00+01:00",
+        "completedAt": "2026-10-29T15:35:00+01:00",
+        "status": "partial",
+        "requiredSourcesTotal": 142,
+        "sourceUniverseTotal": 196,
+        "requiredSourcesChecked": 0,
+        "sourcesChecked": [],
+        "directSourcesChecked": [],
+        "siteRestrictedSourcesChecked": [],
+        "indexedFallbackSourcesChecked": [],
+        "sourcesUnavailable": [],
+        "directSourcesCount": 0,
+        "siteRestrictedSourcesCount": 0,
+        "indexedFallbackSourcesCount": 0,
+        "sourcesVerified": [],
+        "sourcesSearched": [],
+        "sourcesExplored": 0,
+        "breadthCoveragePct": 0,
+        "tierACoveragePct": 0,
+        "breadthTargetMissed": true,
+        "sourcesRemainingToBreadthTarget": 128,
+        "queriesRun": 0,
+        "newJobs": 0,
+        "activeJobs": 173,
+        "searchLog": [],
+        "layersCompleted": [
+          "checkpoint iniziale verificato"
+        ],
+        "secondPassSources": [],
+        "coverageDiagnostics": {
+          "sourcesPartiallyCovered": [],
+          "coverageLimit": "Checkpoint iniziale: scansione in corso",
+          "secondPassCompleted": false,
+          "thirdPassCompleted": false,
+          "recoveryAttempts": 0
+        },
+        "notes": "Checkpoint iniziale dello slot 15:30; delta e sweep completi in corso."
       }
     }
   },
