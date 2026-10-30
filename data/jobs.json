@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T10:01:00+01:00",
+  "generatedAt": "2026-10-30T15:33:00+01:00",
   "source": "Ricerca quotidiana Alice · MAX-COVERAGE DEEP",
   "jobs": [
     {
@@ -19107,6 +19107,34 @@
           "activeJobsRechecked": 173
         },
         "notes": "Sweep 100% e secondo passaggio completati. Una nuova vacancy ufficiale Manpower validata. Nessuna chiusura certa tra i record attivi; un link MICE aggiornato alla career page ufficiale."
+      },
+      "15:30": {
+        "scheduledFor": "2026-10-30T15:30:00+01:00",
+        "checkpointAt": "2026-10-30T15:33:00+01:00",
+        "status": "partial",
+        "requiredSourcesTotal": 142,
+        "sourceUniverseTotal": 200,
+        "requiredSourcesChecked": 0,
+        "sourcesChecked": [],
+        "directSourcesChecked": [],
+        "siteRestrictedSourcesChecked": [],
+        "indexedFallbackSourcesChecked": [],
+        "sourcesUnavailable": [],
+        "directSourcesCount": 0,
+        "siteRestrictedSourcesCount": 0,
+        "indexedFallbackSourcesCount": 0,
+        "sourcesExplored": 0,
+        "breadthCoveragePct": 0,
+        "tierACoveragePct": 0,
+        "breadthTargetMissed": true,
+        "sourcesRemainingToBreadthTarget": 130,
+        "newJobs": 0,
+        "activeJobs": 174,
+        "queriesRun": 0,
+        "searchLog": [],
+        "notes": [
+          "Checkpoint iniziale verificato; delta e sweep pomeridiano in corso."
+        ]
       }
     }
   },
