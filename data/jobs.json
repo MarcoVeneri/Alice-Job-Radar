@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T10:13:00+01:00",
+  "generatedAt": "2026-10-31T15:32:00+01:00",
   "source": "Alice Job Radar Search V2",
   "jobs": [
     {
@@ -13934,6 +13934,34 @@
           "Scansione mattutina completa; nessuno slot 15:30 creato.",
           "Nessuna nuova vacancy pubblicata senza pagina specifica valida.",
           "Cinque record disattivati per scadenza, 404 o redirect generico verificati."
+        ]
+      },
+      "15:30": {
+        "scheduledFor": "2026-10-31T15:30:00+01:00",
+        "checkpointAt": "2026-10-31T15:32:00+01:00",
+        "status": "partial",
+        "requiredSourcesTotal": 142,
+        "sourceUniverseTotal": 200,
+        "requiredSourcesChecked": 0,
+        "sourcesChecked": [],
+        "directSourcesChecked": [],
+        "siteRestrictedSourcesChecked": [],
+        "indexedFallbackSourcesChecked": [],
+        "sourcesUnavailable": [],
+        "directSourcesCount": 0,
+        "siteRestrictedSourcesCount": 0,
+        "indexedFallbackSourcesCount": 0,
+        "sourcesExplored": 0,
+        "breadthCoveragePct": 0,
+        "tierACoveragePct": 0,
+        "breadthTargetMissed": true,
+        "sourcesRemainingToBreadthTarget": 130,
+        "newJobs": 0,
+        "activeJobs": 169,
+        "queriesRun": 0,
+        "searchLog": [],
+        "notes": [
+          "Checkpoint pomeridiano verificato; delta e sweep in corso."
         ]
       }
     }
