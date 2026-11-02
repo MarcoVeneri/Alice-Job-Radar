@@ -23635,7 +23635,7 @@
           }
         ],
         "checkpointVerified": true,
-        "finalReadbackPending": true,
+        "finalReadbackPending": false,
         "excludedCandidates": [
           {
             "title": "Project Leader Eventi Medico-Scientifici",
@@ -23648,7 +23648,8 @@
             "url": "https://www.jobijoba.it/annunci-di-lavoro/13/e52575c06a59e64b89ef8969d5bd25b7",
             "reason": "Copia alternativa 410 Gone; conservata solo la pagina specifica corrente."
           }
-        ]
+        ],
+        "finalReadbackVerifiedAt": "2026-11-02T16:48:00+01:00"
       }
     }
   },
