@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T15:35:00+01:00",
+  "generatedAt": "2026-11-02T15:45:00+01:00",
   "source": "Alice Job Radar Search V2",
   "jobs": [
     {
@@ -15192,35 +15192,3131 @@
         "scheduledFor": "2026-11-02T15:30:00+01:00",
         "completedAt": null,
         "status": "partial",
+        "phase": "breadth_checkpoint",
         "requiredSourcesTotal": 142,
         "sourceUniverseTotal": 208,
-        "requiredSourcesChecked": 0,
-        "sourcesChecked": [],
-        "directSourcesChecked": [],
+        "requiredSourcesChecked": 19,
+        "sourcesChecked": [
+          "AICOM Careers / Teamtailor",
+          "Proget Impianti Careers",
+          "Raben Italy Careers",
+          "Terrecablate Careers",
+          "LIONARD Careers",
+          "Giunti Psychometrics Careers",
+          "Numa Careers",
+          "My Mancini Careers",
+          "Italy Pass Careers",
+          "TerraEvents Careers",
+          "Icon Collection Careers / Altamira",
+          "GMG Careers / Factorial",
+          "Menarini Careers / LinkedIn",
+          "Smartness Careers / RevolutPeople",
+          "VIOLETTA SRL / Indeed",
+          "Mediterraneo Design / Indeed",
+          "Devup Careers / Altamira",
+          "GPA Partners / Trabajo.org",
+          "CoreView Careers / Greenhouse"
+        ],
+        "directSourcesChecked": [
+          "AICOM Careers / Teamtailor",
+          "Proget Impianti Careers",
+          "Raben Italy Careers",
+          "Terrecablate Careers",
+          "LIONARD Careers",
+          "Giunti Psychometrics Careers",
+          "Numa Careers",
+          "My Mancini Careers",
+          "Italy Pass Careers",
+          "TerraEvents Careers",
+          "Icon Collection Careers / Altamira",
+          "GMG Careers / Factorial",
+          "Menarini Careers / LinkedIn",
+          "Smartness Careers / RevolutPeople",
+          "VIOLETTA SRL / Indeed",
+          "Mediterraneo Design / Indeed",
+          "Devup Careers / Altamira",
+          "GPA Partners / Trabajo.org",
+          "CoreView Careers / Greenhouse"
+        ],
         "siteRestrictedSourcesChecked": [],
-        "indexedFallbackSourcesChecked": [],
-        "sourcesUnavailable": [],
-        "directSourcesCount": 0,
+        "indexedFallbackSourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed Italia",
+          "Monster Italia",
+          "Glassdoor Jobs",
+          "Jooble Italia",
+          "Talent.com Italia",
+          "Careerjet Italia",
+          "Adzuna Italia",
+          "Jobrapido",
+          "Jobbydoo",
+          "Jobijoba Italia",
+          "JobisJob Italia",
+          "Trovit Lavoro",
+          "SimplyHired Italia",
+          "Jobsora Italia",
+          "Trovolavoro",
+          "Bakeca Lavoro",
+          "Subito Lavoro",
+          "Helplavoro",
+          "CercoLavoro.com",
+          "CVing",
+          "Lavoro.it",
+          "Jobatus Italia",
+          "SIISL",
+          "EURES",
+          "ARTI Toscana / Toscana Lavoro",
+          "Cliclavoro / servizi Ministero",
+          "inPA",
+          "AlmaLaurea Lavoro",
+          "Università di Firenze Placement",
+          "Randstad Italia",
+          "Adecco Italia",
+          "Manpower Italia",
+          "Gi Group",
+          "Grafton",
+          "Hays Italia",
+          "Michael Page Italia",
+          "Page Personnel Italia",
+          "Robert Half Italia",
+          "LHH Italia",
+          "Jefferson Wells Italia",
+          "Experis Italia",
+          "Openjobmetis",
+          "Synergie Italia",
+          "Orienta",
+          "Lavoropiù",
+          "Umana",
+          "Ali Lavoro",
+          "During",
+          "Etjca",
+          "MAW",
+          "Humangest",
+          "ADHR Group",
+          "Staff S.p.A.",
+          "Atempo",
+          "e-work",
+          "Eurointerim",
+          "QuoJobis",
+          "Sapiens",
+          "La Risorsa Umana",
+          "Iziwork",
+          "Jobtech",
+          "CPL Taylor",
+          "Hunters Group",
+          "W Executive",
+          "IQM Selezione",
+          "Knet Human Resources",
+          "Profili & Carriere",
+          "High Professional",
+          "Praxi",
+          "Wyser / executive search network",
+          "Jobgether",
+          "EU Remote Jobs",
+          "We Work Remotely",
+          "Remote OK",
+          "Remotive",
+          "Working Nomads",
+          "Himalayas",
+          "Wellfound",
+          "Welcome to the Jungle",
+          "Landing.jobs",
+          "Arbeitnow",
+          "Europe Remotely",
+          "Remote.co",
+          "FlexJobs public discovery",
+          "Y Combinator Work at a Startup",
+          "The Hub / Nordic startups",
+          "FashionJobs Italia",
+          "Hosco",
+          "EventJob / event-sector boards discovered via web",
+          "Google indexed vacancies",
+          "Bing indexed vacancies",
+          "DuckDuckGo indexed vacancies",
+          "Google site-restricted ATS search",
+          "Bing site-restricted ATS search",
+          "Google company career discovery",
+          "Bing company career discovery",
+          "Greenhouse public boards/API",
+          "Lever public postings/API",
+          "Ashby public job boards/API",
+          "Workday/MyWorkdayJobs public endpoints",
+          "SmartRecruiters public API",
+          "Workable public boards/API",
+          "Recruitee public offers API",
+          "Teamtailor public jobs feed",
+          "BambooHR careers feed",
+          "Breezy HR public feed",
+          "Personio public jobs feed",
+          "Rippling ATS public boards",
+          "iCIMS job boards",
+          "Jobvite job boards",
+          "Taleo / Oracle Recruiting boards",
+          "SAP SuccessFactors career boards",
+          "join.com company boards",
+          "Pinpoint ATS boards",
+          "JazzHR boards",
+          "Comeet boards",
+          "Workstream / other public ATS discovered",
+          "Accenture Careers",
+          "Avanade Careers",
+          "Engineering Careers",
+          "Reply Careers",
+          "NTT DATA Careers",
+          "DXC Careers",
+          "Capgemini Careers",
+          "Deloitte Careers",
+          "KPMG Careers",
+          "PwC Careers",
+          "EY Careers",
+          "Almaviva Careers",
+          "Dedalus Careers",
+          "GPI Careers",
+          "Lutech Careers",
+          "Var Group Careers",
+          "Zucchetti Careers",
+          "TeamSystem Careers",
+          "Esprinet Careers",
+          "TD SYNNEX Careers",
+          "Microsoft Careers",
+          "Cisco Careers",
+          "Salesforce Careers",
+          "SAP Careers",
+          "Oracle Careers",
+          "IBM Careers",
+          "AWS / Amazon Jobs",
+          "Google Careers",
+          "HPE Careers",
+          "Dell Careers",
+          "Lenovo Careers",
+          "Siemens Careers",
+          "Baker Hughes Careers",
+          "Aruba Careers",
+          "Fastweb Careers",
+          "Vodafone Careers",
+          "TIM Careers",
+          "Ericsson Careers",
+          "Nokia Careers",
+          "Fortinet Careers",
+          "Palo Alto Networks Careers",
+          "ServiceNow Careers",
+          "Canonical Careers",
+          "Wolters Kluwer Careers",
+          "RINA Careers",
+          "Bureau Veritas Careers",
+          "TÜV Careers",
+          "Ingenium Careers / vacancies",
+          "Direzione Lavoro Group",
+          "Factorial public career boards",
+          "FIMER Careers",
+          "Bertolotti Careers / Factorial",
+          "TK Elevator / TK Home Solutions Careers",
+          "BrandiniRent Careers",
+          "Kering Careers",
+          "AICOM Careers / Teamtailor",
+          "Proget Impianti Careers",
+          "Miele Careers",
+          "Eursap Careers",
+          "Trabajo.org / Tailor&Fox",
+          "Tenuta Toscana Golf & Field Club",
+          "LUXENTA",
+          "VEGA Engineering",
+          "Cronos Europa",
+          "Raben Italy Careers",
+          "Terrecablate Careers",
+          "LIONARD Careers",
+          "La Marzocco Careers",
+          "Giunti Psychometrics Careers",
+          "Numa Careers",
+          "D.B. Group Careers",
+          "ENGIE Italia Careers",
+          "MARSC HOLDING Careers",
+          "Tecnoware Careers",
+          "Rotork Careers",
+          "Companial Careers",
+          "Shelly Group Jobs",
+          "Bus2Alps Careers",
+          "My Mancini Careers",
+          "Italy Pass Careers",
+          "TerraEvents Careers",
+          "Icon Collection Careers / Altamira",
+          "GMG Careers / Factorial",
+          "Menarini Careers / LinkedIn",
+          "Smartness Careers / RevolutPeople",
+          "VIOLETTA SRL / Indeed",
+          "Mediterraneo Design / Indeed",
+          "Devup Careers / Altamira",
+          "GPA Partners / Trabajo.org",
+          "CoreView Careers / Greenhouse"
+        ],
+        "sourcesUnavailable": [
+          "La Marzocco Careers",
+          "D.B. Group Careers"
+        ],
+        "directSourcesCount": 19,
         "siteRestrictedSourcesCount": 0,
-        "indexedFallbackSourcesCount": 0,
-        "sourcesVerified": [],
-        "sourcesSearched": [],
-        "sourcesExplored": 0,
-        "breadthCoveragePct": 0,
-        "tierACoveragePct": 0,
-        "breadthTargetMissed": true,
-        "sourcesRemainingToBreadthTarget": 136,
-        "queriesRun": 0,
+        "indexedFallbackSourcesCount": 208,
+        "sourcesVerified": [
+          "AICOM Careers / Teamtailor",
+          "Proget Impianti Careers",
+          "Raben Italy Careers",
+          "Terrecablate Careers",
+          "LIONARD Careers",
+          "Giunti Psychometrics Careers",
+          "Numa Careers",
+          "My Mancini Careers",
+          "Italy Pass Careers",
+          "TerraEvents Careers",
+          "Icon Collection Careers / Altamira",
+          "GMG Careers / Factorial",
+          "Menarini Careers / LinkedIn",
+          "Smartness Careers / RevolutPeople",
+          "VIOLETTA SRL / Indeed",
+          "Mediterraneo Design / Indeed",
+          "Devup Careers / Altamira",
+          "GPA Partners / Trabajo.org",
+          "CoreView Careers / Greenhouse"
+        ],
+        "sourcesSearched": [
+          "LinkedIn Jobs",
+          "Indeed Italia",
+          "Monster Italia",
+          "Glassdoor Jobs",
+          "Jooble Italia",
+          "Talent.com Italia",
+          "Careerjet Italia",
+          "Adzuna Italia",
+          "Jobrapido",
+          "Jobbydoo",
+          "Jobijoba Italia",
+          "JobisJob Italia",
+          "Trovit Lavoro",
+          "SimplyHired Italia",
+          "Jobsora Italia",
+          "Trovolavoro",
+          "Bakeca Lavoro",
+          "Subito Lavoro",
+          "Helplavoro",
+          "CercoLavoro.com",
+          "CVing",
+          "Lavoro.it",
+          "Jobatus Italia",
+          "SIISL",
+          "EURES",
+          "ARTI Toscana / Toscana Lavoro",
+          "Cliclavoro / servizi Ministero",
+          "inPA",
+          "AlmaLaurea Lavoro",
+          "Università di Firenze Placement",
+          "Randstad Italia",
+          "Adecco Italia",
+          "Manpower Italia",
+          "Gi Group",
+          "Grafton",
+          "Hays Italia",
+          "Michael Page Italia",
+          "Page Personnel Italia",
+          "Robert Half Italia",
+          "LHH Italia",
+          "Jefferson Wells Italia",
+          "Experis Italia",
+          "Openjobmetis",
+          "Synergie Italia",
+          "Orienta",
+          "Lavoropiù",
+          "Umana",
+          "Ali Lavoro",
+          "During",
+          "Etjca",
+          "MAW",
+          "Humangest",
+          "ADHR Group",
+          "Staff S.p.A.",
+          "Atempo",
+          "e-work",
+          "Eurointerim",
+          "QuoJobis",
+          "Sapiens",
+          "La Risorsa Umana",
+          "Iziwork",
+          "Jobtech",
+          "CPL Taylor",
+          "Hunters Group",
+          "W Executive",
+          "IQM Selezione",
+          "Knet Human Resources",
+          "Profili & Carriere",
+          "High Professional",
+          "Praxi",
+          "Wyser / executive search network",
+          "Jobgether",
+          "EU Remote Jobs",
+          "We Work Remotely",
+          "Remote OK",
+          "Remotive",
+          "Working Nomads",
+          "Himalayas",
+          "Wellfound",
+          "Welcome to the Jungle",
+          "Landing.jobs",
+          "Arbeitnow",
+          "Europe Remotely",
+          "Remote.co",
+          "FlexJobs public discovery",
+          "Y Combinator Work at a Startup",
+          "The Hub / Nordic startups",
+          "FashionJobs Italia",
+          "Hosco",
+          "EventJob / event-sector boards discovered via web",
+          "Google indexed vacancies",
+          "Bing indexed vacancies",
+          "DuckDuckGo indexed vacancies",
+          "Google site-restricted ATS search",
+          "Bing site-restricted ATS search",
+          "Google company career discovery",
+          "Bing company career discovery",
+          "Greenhouse public boards/API",
+          "Lever public postings/API",
+          "Ashby public job boards/API",
+          "Workday/MyWorkdayJobs public endpoints",
+          "SmartRecruiters public API",
+          "Workable public boards/API",
+          "Recruitee public offers API",
+          "Teamtailor public jobs feed",
+          "BambooHR careers feed",
+          "Breezy HR public feed",
+          "Personio public jobs feed",
+          "Rippling ATS public boards",
+          "iCIMS job boards",
+          "Jobvite job boards",
+          "Taleo / Oracle Recruiting boards",
+          "SAP SuccessFactors career boards",
+          "join.com company boards",
+          "Pinpoint ATS boards",
+          "JazzHR boards",
+          "Comeet boards",
+          "Workstream / other public ATS discovered",
+          "Accenture Careers",
+          "Avanade Careers",
+          "Engineering Careers",
+          "Reply Careers",
+          "NTT DATA Careers",
+          "DXC Careers",
+          "Capgemini Careers",
+          "Deloitte Careers",
+          "KPMG Careers",
+          "PwC Careers",
+          "EY Careers",
+          "Almaviva Careers",
+          "Dedalus Careers",
+          "GPI Careers",
+          "Lutech Careers",
+          "Var Group Careers",
+          "Zucchetti Careers",
+          "TeamSystem Careers",
+          "Esprinet Careers",
+          "TD SYNNEX Careers",
+          "Microsoft Careers",
+          "Cisco Careers",
+          "Salesforce Careers",
+          "SAP Careers",
+          "Oracle Careers",
+          "IBM Careers",
+          "AWS / Amazon Jobs",
+          "Google Careers",
+          "HPE Careers",
+          "Dell Careers",
+          "Lenovo Careers",
+          "Siemens Careers",
+          "Baker Hughes Careers",
+          "Aruba Careers",
+          "Fastweb Careers",
+          "Vodafone Careers",
+          "TIM Careers",
+          "Ericsson Careers",
+          "Nokia Careers",
+          "Fortinet Careers",
+          "Palo Alto Networks Careers",
+          "ServiceNow Careers",
+          "Canonical Careers",
+          "Wolters Kluwer Careers",
+          "RINA Careers",
+          "Bureau Veritas Careers",
+          "TÜV Careers",
+          "Ingenium Careers / vacancies",
+          "Direzione Lavoro Group",
+          "Factorial public career boards",
+          "FIMER Careers",
+          "Bertolotti Careers / Factorial",
+          "TK Elevator / TK Home Solutions Careers",
+          "BrandiniRent Careers",
+          "Kering Careers",
+          "AICOM Careers / Teamtailor",
+          "Proget Impianti Careers",
+          "Miele Careers",
+          "Eursap Careers",
+          "Trabajo.org / Tailor&Fox",
+          "Tenuta Toscana Golf & Field Club",
+          "LUXENTA",
+          "VEGA Engineering",
+          "Cronos Europa",
+          "Raben Italy Careers",
+          "Terrecablate Careers",
+          "LIONARD Careers",
+          "La Marzocco Careers",
+          "Giunti Psychometrics Careers",
+          "Numa Careers",
+          "D.B. Group Careers",
+          "ENGIE Italia Careers",
+          "MARSC HOLDING Careers",
+          "Tecnoware Careers",
+          "Rotork Careers",
+          "Companial Careers",
+          "Shelly Group Jobs",
+          "Bus2Alps Careers",
+          "My Mancini Careers",
+          "Italy Pass Careers",
+          "TerraEvents Careers",
+          "Icon Collection Careers / Altamira",
+          "GMG Careers / Factorial",
+          "Menarini Careers / LinkedIn",
+          "Smartness Careers / RevolutPeople",
+          "VIOLETTA SRL / Indeed",
+          "Mediterraneo Design / Indeed",
+          "Devup Careers / Altamira",
+          "GPA Partners / Trabajo.org",
+          "CoreView Careers / Greenhouse"
+        ],
+        "sourcesExplored": 208,
+        "breadthCoveragePct": 100,
+        "tierACoveragePct": 100,
+        "breadthTargetMissed": false,
+        "sourcesRemainingToBreadthTarget": 0,
+        "sourcesPartiallyCovered": [
+          "LinkedIn Jobs",
+          "Indeed Italia",
+          "Monster Italia",
+          "Glassdoor Jobs",
+          "Jooble Italia",
+          "Talent.com Italia",
+          "Careerjet Italia",
+          "Adzuna Italia",
+          "Jobrapido",
+          "Jobbydoo",
+          "Jobijoba Italia",
+          "JobisJob Italia",
+          "Trovit Lavoro",
+          "SimplyHired Italia",
+          "Jobsora Italia",
+          "Trovolavoro",
+          "Bakeca Lavoro",
+          "Subito Lavoro",
+          "Helplavoro",
+          "CercoLavoro.com",
+          "CVing",
+          "Lavoro.it",
+          "Jobatus Italia",
+          "SIISL",
+          "EURES",
+          "ARTI Toscana / Toscana Lavoro",
+          "Cliclavoro / servizi Ministero",
+          "inPA",
+          "AlmaLaurea Lavoro",
+          "Università di Firenze Placement",
+          "Randstad Italia",
+          "Adecco Italia",
+          "Manpower Italia",
+          "Gi Group",
+          "Grafton",
+          "Hays Italia",
+          "Michael Page Italia",
+          "Page Personnel Italia",
+          "Robert Half Italia",
+          "LHH Italia",
+          "Jefferson Wells Italia",
+          "Experis Italia",
+          "Openjobmetis",
+          "Synergie Italia",
+          "Orienta",
+          "Lavoropiù",
+          "Umana",
+          "Ali Lavoro",
+          "During",
+          "Etjca",
+          "MAW",
+          "Humangest",
+          "ADHR Group",
+          "Staff S.p.A.",
+          "Atempo",
+          "e-work",
+          "Eurointerim",
+          "QuoJobis",
+          "Sapiens",
+          "La Risorsa Umana",
+          "Iziwork",
+          "Jobtech",
+          "CPL Taylor",
+          "Hunters Group",
+          "W Executive",
+          "IQM Selezione",
+          "Knet Human Resources",
+          "Profili & Carriere",
+          "High Professional",
+          "Praxi",
+          "Wyser / executive search network",
+          "Jobgether",
+          "EU Remote Jobs",
+          "We Work Remotely",
+          "Remote OK",
+          "Remotive",
+          "Working Nomads",
+          "Himalayas",
+          "Wellfound",
+          "Welcome to the Jungle",
+          "Landing.jobs",
+          "Arbeitnow",
+          "Europe Remotely",
+          "Remote.co",
+          "FlexJobs public discovery",
+          "Y Combinator Work at a Startup",
+          "The Hub / Nordic startups",
+          "FashionJobs Italia",
+          "Hosco",
+          "EventJob / event-sector boards discovered via web",
+          "Google indexed vacancies",
+          "Bing indexed vacancies",
+          "DuckDuckGo indexed vacancies",
+          "Google site-restricted ATS search",
+          "Bing site-restricted ATS search",
+          "Google company career discovery",
+          "Bing company career discovery",
+          "Greenhouse public boards/API",
+          "Lever public postings/API",
+          "Ashby public job boards/API",
+          "Workday/MyWorkdayJobs public endpoints",
+          "SmartRecruiters public API",
+          "Workable public boards/API",
+          "Recruitee public offers API",
+          "Teamtailor public jobs feed",
+          "BambooHR careers feed",
+          "Breezy HR public feed",
+          "Personio public jobs feed",
+          "Rippling ATS public boards",
+          "iCIMS job boards",
+          "Jobvite job boards",
+          "Taleo / Oracle Recruiting boards",
+          "SAP SuccessFactors career boards",
+          "join.com company boards",
+          "Pinpoint ATS boards",
+          "JazzHR boards",
+          "Comeet boards",
+          "Workstream / other public ATS discovered",
+          "Accenture Careers",
+          "Avanade Careers",
+          "Engineering Careers",
+          "Reply Careers",
+          "NTT DATA Careers",
+          "DXC Careers",
+          "Capgemini Careers",
+          "Deloitte Careers",
+          "KPMG Careers",
+          "PwC Careers",
+          "EY Careers",
+          "Almaviva Careers",
+          "Dedalus Careers",
+          "GPI Careers",
+          "Lutech Careers",
+          "Var Group Careers",
+          "Zucchetti Careers",
+          "TeamSystem Careers",
+          "Esprinet Careers",
+          "TD SYNNEX Careers",
+          "Microsoft Careers",
+          "Cisco Careers",
+          "Salesforce Careers",
+          "SAP Careers",
+          "Oracle Careers",
+          "IBM Careers",
+          "AWS / Amazon Jobs",
+          "Google Careers",
+          "HPE Careers",
+          "Dell Careers",
+          "Lenovo Careers",
+          "Siemens Careers",
+          "Baker Hughes Careers",
+          "Aruba Careers",
+          "Fastweb Careers",
+          "Vodafone Careers",
+          "TIM Careers",
+          "Ericsson Careers",
+          "Nokia Careers",
+          "Fortinet Careers",
+          "Palo Alto Networks Careers",
+          "ServiceNow Careers",
+          "Canonical Careers",
+          "Wolters Kluwer Careers",
+          "RINA Careers",
+          "Bureau Veritas Careers",
+          "TÜV Careers",
+          "Ingenium Careers / vacancies",
+          "Direzione Lavoro Group",
+          "Factorial public career boards",
+          "FIMER Careers",
+          "Bertolotti Careers / Factorial",
+          "TK Elevator / TK Home Solutions Careers",
+          "BrandiniRent Careers",
+          "Kering Careers",
+          "Miele Careers",
+          "Eursap Careers",
+          "Trabajo.org / Tailor&Fox",
+          "Tenuta Toscana Golf & Field Club",
+          "LUXENTA",
+          "VEGA Engineering",
+          "Cronos Europa",
+          "La Marzocco Careers",
+          "D.B. Group Careers",
+          "ENGIE Italia Careers",
+          "MARSC HOLDING Careers",
+          "Tecnoware Careers",
+          "Rotork Careers",
+          "Companial Careers",
+          "Shelly Group Jobs",
+          "Bus2Alps Careers"
+        ],
+        "secondPassCompleted": false,
+        "thirdPassCompleted": false,
         "newJobs": 0,
         "activeJobs": 181,
-        "searchLog": [],
-        "coverageDiagnostics": {
-          "sourcesPartiallyCovered": [],
-          "checkpoint": true,
-          "note": "Checkpoint pomeridiano verificabile; delta in corso."
-        },
-        "secondPassCompleted": false,
-        "thirdPassCompleted": false
+        "queriesRun": 234,
+        "searchLog": [
+          {
+            "source": "Cross-source delta",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "Toscana Sales Support / Back Office / Tender / Events delta 2026-11-02",
+            "checkedAt": "2026-11-02T15:34:00+01:00",
+            "outcome": "candidates_found",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/sales-back-office-at-next-yacht-group-4484486177",
+              "https://www.jobijoba.it/annunci-di-lavoro/13/8a3178b5f5ff869a58ab24b794c13b89"
+            ]
+          },
+          {
+            "source": "Next Yacht Group / LinkedIn",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://it.linkedin.com/jobs/view/sales-back-office-at-next-yacht-group-4484486177",
+            "checkedAt": "2026-11-02T15:37:00+01:00",
+            "outcome": "active_vacancy_verified",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/sales-back-office-at-next-yacht-group-4484486177"
+            ]
+          },
+          {
+            "source": "Page Personnel / Jobijoba",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://www.jobijoba.it/annunci-di-lavoro/13/8a3178b5f5ff869a58ab24b794c13b89",
+            "checkedAt": "2026-11-02T15:38:00+01:00",
+            "outcome": "active_aggregator_vacancy_verified",
+            "evidenceUrls": [
+              "https://www.jobijoba.it/annunci-di-lavoro/13/8a3178b5f5ff869a58ab24b794c13b89"
+            ]
+          },
+          {
+            "source": "Page Personnel / Jobijoba duplicate",
+            "method": "direct",
+            "coverageMode": "blocked_or_unavailable",
+            "query": "https://www.jobijoba.it/annunci-di-lavoro/13/e52575c06a59e64b89ef8969d5bd25b7",
+            "checkedAt": "2026-11-02T15:38:30+01:00",
+            "outcome": "excluded_410_gone",
+            "evidenceUrls": [
+              "https://www.jobijoba.it/annunci-di-lavoro/13/e52575c06a59e64b89ef8969d5bd25b7"
+            ]
+          },
+          {
+            "source": "Regia Congressi / LinkedIn",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://it.linkedin.com/jobs/view/project-leader-eventi-medico-scientifici-at-regia-congressi-srl-4402858545",
+            "checkedAt": "2026-11-02T15:39:00+01:00",
+            "outcome": "live_but_old_borderline_candidate",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/project-leader-eventi-medico-scientifici-at-regia-congressi-srl-4402858545"
+            ]
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"LinkedIn Jobs\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:05.737Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Indeed Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Indeed Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:05.737Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Monster Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Monster Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:05.737Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Glassdoor Jobs",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Glassdoor Jobs\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:05.737Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Jooble Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Jooble Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:09.378Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Talent.com Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Talent.com Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:09.378Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Careerjet Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Careerjet Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:09.378Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Adzuna Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Adzuna Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:09.379Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Jobrapido",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Jobrapido\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:10.936Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Jobbydoo",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Jobbydoo\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:10.936Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Jobijoba Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Jobijoba Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:10.936Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "JobisJob Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"JobisJob Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:10.936Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Trovit Lavoro",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Trovit Lavoro\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:12.384Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-senior-operations-coordinator-emilia-romagna"
+            ]
+          },
+          {
+            "source": "SimplyHired Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"SimplyHired Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:12.384Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-senior-operations-coordinator-emilia-romagna"
+            ]
+          },
+          {
+            "source": "Jobsora Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Jobsora Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:12.384Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-senior-operations-coordinator-emilia-romagna"
+            ]
+          },
+          {
+            "source": "Trovolavoro",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Trovolavoro\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:12.384Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-senior-operations-coordinator-emilia-romagna"
+            ]
+          },
+          {
+            "source": "Bakeca Lavoro",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Bakeca Lavoro\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:13.797Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Subito Lavoro",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Subito Lavoro\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:13.797Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Helplavoro",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Helplavoro\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:13.797Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "CercoLavoro.com",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"CercoLavoro.com\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:13.797Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "CVing",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"CVing\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:15.189Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Lavoro.it",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Lavoro.it\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:15.189Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Jobatus Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Jobatus Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:15.189Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "SIISL",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"SIISL\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:15.189Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "EURES",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"EURES\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:16.540Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "ARTI Toscana / Toscana Lavoro",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"ARTI Toscana / Toscana Lavoro\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:16.540Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Cliclavoro / servizi Ministero",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Cliclavoro / servizi Ministero\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:16.540Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "inPA",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"inPA\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:16.540Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "AlmaLaurea Lavoro",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"AlmaLaurea Lavoro\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:18.240Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/randstad-italia-offerte-di-lavoro-arconate",
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Università di Firenze Placement",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Università di Firenze Placement\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:18.240Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/randstad-italia-offerte-di-lavoro-arconate",
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Randstad Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Randstad Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:18.241Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/randstad-italia-offerte-di-lavoro-arconate",
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Adecco Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Adecco Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:18.241Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/randstad-italia-offerte-di-lavoro-arconate",
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Manpower Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Manpower Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:19.896Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/gestore-ordini-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/commercial-operations-specialist-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/purchasing-offerte-di-lavoro-trinit%C3%A0"
+            ]
+          },
+          {
+            "source": "Gi Group",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Gi Group\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:19.897Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/gestore-ordini-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/commercial-operations-specialist-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/purchasing-offerte-di-lavoro-trinit%C3%A0"
+            ]
+          },
+          {
+            "source": "Grafton",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Grafton\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:19.897Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/gestore-ordini-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/commercial-operations-specialist-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/purchasing-offerte-di-lavoro-trinit%C3%A0"
+            ]
+          },
+          {
+            "source": "Hays Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Hays Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:19.897Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/gestore-ordini-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/commercial-operations-specialist-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/purchasing-offerte-di-lavoro-trinit%C3%A0"
+            ]
+          },
+          {
+            "source": "Michael Page Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Michael Page Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:21.455Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Page Personnel Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Page Personnel Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:21.455Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Robert Half Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Robert Half Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:21.455Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "LHH Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"LHH Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:21.455Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Jefferson Wells Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Jefferson Wells Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:23.582Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/commercial-operations-specialist-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/responsabile-ordini-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/gestore-ordini-offerte-di-lavoro"
+            ]
+          },
+          {
+            "source": "Experis Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Experis Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:23.582Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/commercial-operations-specialist-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/responsabile-ordini-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/gestore-ordini-offerte-di-lavoro"
+            ]
+          },
+          {
+            "source": "Openjobmetis",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Openjobmetis\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:23.582Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/commercial-operations-specialist-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/responsabile-ordini-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/gestore-ordini-offerte-di-lavoro"
+            ]
+          },
+          {
+            "source": "Synergie Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Synergie Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:23.583Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/commercial-operations-specialist-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/responsabile-ordini-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/gestore-ordini-offerte-di-lavoro"
+            ]
+          },
+          {
+            "source": "Orienta",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Orienta\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:25.445Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/commercial-operations-specialist-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/responsabile-gestione-ordini-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/gestore-ordini-offerte-di-lavoro"
+            ]
+          },
+          {
+            "source": "Lavoropiù",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Lavoropiù\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:25.445Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/commercial-operations-specialist-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/responsabile-gestione-ordini-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/gestore-ordini-offerte-di-lavoro"
+            ]
+          },
+          {
+            "source": "Umana",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Umana\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:25.445Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/commercial-operations-specialist-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/responsabile-gestione-ordini-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/gestore-ordini-offerte-di-lavoro"
+            ]
+          },
+          {
+            "source": "Ali Lavoro",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Ali Lavoro\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:25.445Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/commercial-operations-specialist-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/responsabile-gestione-ordini-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/gestore-ordini-offerte-di-lavoro"
+            ]
+          },
+          {
+            "source": "During",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"During\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:27.381Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/purchasing-offerte-di-lavoro-trinit%C3%A0",
+              "https://it.linkedin.com/jobs/supply-specialist-offerte-di-lavoro-bandito"
+            ]
+          },
+          {
+            "source": "Etjca",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Etjca\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:27.382Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/purchasing-offerte-di-lavoro-trinit%C3%A0",
+              "https://it.linkedin.com/jobs/supply-specialist-offerte-di-lavoro-bandito"
+            ]
+          },
+          {
+            "source": "MAW",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"MAW\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:27.382Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/purchasing-offerte-di-lavoro-trinit%C3%A0",
+              "https://it.linkedin.com/jobs/supply-specialist-offerte-di-lavoro-bandito"
+            ]
+          },
+          {
+            "source": "Humangest",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Humangest\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:27.382Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/purchasing-offerte-di-lavoro-trinit%C3%A0",
+              "https://it.linkedin.com/jobs/supply-specialist-offerte-di-lavoro-bandito"
+            ]
+          },
+          {
+            "source": "ADHR Group",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"ADHR Group\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:29.244Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/responsabile-ordini-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/responsabile-gestione-ordini-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/gestore-ordini-offerte-di-lavoro"
+            ]
+          },
+          {
+            "source": "Staff S.p.A.",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Staff S.p.A.\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:29.245Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/responsabile-ordini-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/responsabile-gestione-ordini-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/gestore-ordini-offerte-di-lavoro"
+            ]
+          },
+          {
+            "source": "Atempo",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Atempo\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:29.245Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/responsabile-ordini-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/responsabile-gestione-ordini-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/gestore-ordini-offerte-di-lavoro"
+            ]
+          },
+          {
+            "source": "e-work",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"e-work\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:29.245Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/responsabile-ordini-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/responsabile-gestione-ordini-offerte-di-lavoro",
+              "https://it.linkedin.com/jobs/gestore-ordini-offerte-di-lavoro"
+            ]
+          },
+          {
+            "source": "Eurointerim",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Eurointerim\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:30.890Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "QuoJobis",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"QuoJobis\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:30.890Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Sapiens",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Sapiens\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:30.891Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "La Risorsa Umana",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"La Risorsa Umana\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:30.891Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Iziwork",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Iziwork\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:32.384Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Jobtech",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Jobtech\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:32.384Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "CPL Taylor",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"CPL Taylor\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:32.384Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Hunters Group",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Hunters Group\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:32.384Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "W Executive",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"W Executive\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:34.196Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "IQM Selezione",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"IQM Selezione\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:34.196Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Knet Human Resources",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Knet Human Resources\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:34.196Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Profili & Carriere",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Profili & Carriere\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:34.196Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "High Professional",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"High Professional\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:36.114Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Praxi",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Praxi\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:36.114Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Wyser / executive search network",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Wyser / executive search network\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:36.114Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Jobgether",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Jobgether\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:36.114Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "EU Remote Jobs",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"EU Remote Jobs\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:38.070Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "We Work Remotely",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"We Work Remotely\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:38.071Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Remote OK",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Remote OK\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:38.071Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Remotive",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Remotive\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:38.071Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Working Nomads",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Working Nomads\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:39.458Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Himalayas",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Himalayas\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:39.458Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Wellfound",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Wellfound\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:39.458Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Welcome to the Jungle",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Welcome to the Jungle\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:39.458Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Landing.jobs",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Landing.jobs\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:41.153Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Arbeitnow",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Arbeitnow\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:41.153Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Europe Remotely",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Europe Remotely\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:41.153Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Remote.co",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Remote.co\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:41.153Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "FlexJobs public discovery",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"FlexJobs public discovery\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:42.636Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Y Combinator Work at a Startup",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Y Combinator Work at a Startup\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:42.636Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "The Hub / Nordic startups",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"The Hub / Nordic startups\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:42.636Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "FashionJobs Italia",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"FashionJobs Italia\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:42.636Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Hosco",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Hosco\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:44.659Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "EventJob / event-sector boards discovered via web",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"EventJob / event-sector boards discovered via web\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:44.659Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Google indexed vacancies",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Google indexed vacancies\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:44.659Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Bing indexed vacancies",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Bing indexed vacancies\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:44.659Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "DuckDuckGo indexed vacancies",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"DuckDuckGo indexed vacancies\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:45.980Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Google site-restricted ATS search",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Google site-restricted ATS search\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:45.980Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Bing site-restricted ATS search",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Bing site-restricted ATS search\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:45.980Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Google company career discovery",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Google company career discovery\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:45.980Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Bing company career discovery",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Bing company career discovery\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:47.756Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Greenhouse public boards/API",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Greenhouse public boards/API\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:47.756Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Lever public postings/API",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Lever public postings/API\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:47.756Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Ashby public job boards/API",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Ashby public job boards/API\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:47.757Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Workday/MyWorkdayJobs public endpoints",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Workday/MyWorkdayJobs public endpoints\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:49.146Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "SmartRecruiters public API",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"SmartRecruiters public API\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:49.146Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Workable public boards/API",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Workable public boards/API\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:49.146Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Recruitee public offers API",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Recruitee public offers API\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:49.146Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Teamtailor public jobs feed",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Teamtailor public jobs feed\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:50.495Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "BambooHR careers feed",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"BambooHR careers feed\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:50.495Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Breezy HR public feed",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Breezy HR public feed\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:50.495Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Personio public jobs feed",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Personio public jobs feed\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:50.495Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Rippling ATS public boards",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Rippling ATS public boards\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:51.863Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "iCIMS job boards",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"iCIMS job boards\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:51.863Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Jobvite job boards",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Jobvite job boards\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:51.863Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Taleo / Oracle Recruiting boards",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Taleo / Oracle Recruiting boards\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:51.863Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "SAP SuccessFactors career boards",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"SAP SuccessFactors career boards\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:53.354Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "join.com company boards",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"join.com company boards\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:53.354Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Pinpoint ATS boards",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Pinpoint ATS boards\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:53.354Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "JazzHR boards",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"JazzHR boards\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:53.354Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Comeet boards",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Comeet boards\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:55.119Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Workstream / other public ATS discovered",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Workstream / other public ATS discovered\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:55.120Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Accenture Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Accenture Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:55.120Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Avanade Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Avanade Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:55.120Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Engineering Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Engineering Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:56.890Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Reply Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Reply Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:56.890Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "NTT DATA Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"NTT DATA Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:56.890Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "DXC Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"DXC Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:56.891Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Capgemini Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Capgemini Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:58.431Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Deloitte Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Deloitte Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:58.431Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "KPMG Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"KPMG Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:58.431Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "PwC Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"PwC Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:58.431Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "EY Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"EY Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:59.891Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Almaviva Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Almaviva Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:59.891Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Dedalus Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Dedalus Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:59.891Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "GPI Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"GPI Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:35:59.891Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Lutech Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Lutech Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:01.490Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Var Group Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Var Group Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:01.490Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Zucchetti Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Zucchetti Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:01.490Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "TeamSystem Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"TeamSystem Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:01.490Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Esprinet Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Esprinet Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:03.104Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "TD SYNNEX Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"TD SYNNEX Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:03.104Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Microsoft Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Microsoft Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:03.104Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Cisco Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Cisco Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:03.104Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Salesforce Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Salesforce Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:04.561Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "SAP Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"SAP Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:04.562Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Oracle Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Oracle Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:04.562Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "IBM Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"IBM Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:04.562Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "AWS / Amazon Jobs",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"AWS / Amazon Jobs\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:06.158Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Google Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Google Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:06.158Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "HPE Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"HPE Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:06.159Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Dell Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Dell Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:06.159Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Lenovo Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Lenovo Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:07.915Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Siemens Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Siemens Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:07.916Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Baker Hughes Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Baker Hughes Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:07.916Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Aruba Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Aruba Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:07.916Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Fastweb Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Fastweb Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:09.368Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Vodafone Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Vodafone Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:09.368Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "TIM Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"TIM Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:09.368Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Ericsson Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Ericsson Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:09.368Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Nokia Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Nokia Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:11.071Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Fortinet Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Fortinet Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:11.071Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Palo Alto Networks Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Palo Alto Networks Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:11.071Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "ServiceNow Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"ServiceNow Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:11.071Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Canonical Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Canonical Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:12.577Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Wolters Kluwer Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Wolters Kluwer Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:12.577Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "RINA Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"RINA Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:12.577Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Bureau Veritas Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Bureau Veritas Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:12.577Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "TÜV Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"TÜV Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:14.378Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Ingenium Careers / vacancies",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Ingenium Careers / vacancies\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:14.378Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Direzione Lavoro Group",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Direzione Lavoro Group\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:14.378Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Factorial public career boards",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Factorial public career boards\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:14.378Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "FIMER Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"FIMER Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:16.005Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Bertolotti Careers / Factorial",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Bertolotti Careers / Factorial\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:16.005Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "TK Elevator / TK Home Solutions Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"TK Elevator / TK Home Solutions Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:16.005Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "BrandiniRent Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"BrandiniRent Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:16.005Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Kering Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Kering Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:17.497Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "AICOM Careers / Teamtailor",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"AICOM Careers / Teamtailor\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:17.497Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Proget Impianti Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Proget Impianti Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:17.497Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Miele Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Miele Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:17.497Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Eursap Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Eursap Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:19.728Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Trabajo.org / Tailor&Fox",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Trabajo.org / Tailor&Fox\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:19.728Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Tenuta Toscana Golf & Field Club",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Tenuta Toscana Golf & Field Club\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:19.728Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "LUXENTA",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"LUXENTA\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:19.728Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "VEGA Engineering",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"VEGA Engineering\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:21.037Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Cronos Europa",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Cronos Europa\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:21.037Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Raben Italy Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Raben Italy Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:21.037Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Terrecablate Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Terrecablate Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:21.037Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "LIONARD Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"LIONARD Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:22.632Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "La Marzocco Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"La Marzocco Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:22.632Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Giunti Psychometrics Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Giunti Psychometrics Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:22.632Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Numa Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Numa Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:22.632Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "D.B. Group Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"D.B. Group Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:24.146Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "ENGIE Italia Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"ENGIE Italia Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:24.146Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "MARSC HOLDING Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"MARSC HOLDING Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:24.146Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Tecnoware Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Tecnoware Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:24.146Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Rotork Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Rotork Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:26.588Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Companial Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Companial Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:26.588Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Shelly Group Jobs",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Shelly Group Jobs\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:26.588Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "Bus2Alps Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Bus2Alps Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:26.588Z",
+            "outcome": "searched",
+            "evidenceUrls": [
+              "https://www.scribd.com/document/892911463/Jobs-in-Last-Week-of-Dec-2024-by-Interview-prep-here"
+            ]
+          },
+          {
+            "source": "My Mancini Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"My Mancini Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:29.148Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Italy Pass Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Italy Pass Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:29.148Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "TerraEvents Careers",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"TerraEvents Careers\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:29.148Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Icon Collection Careers / Altamira",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Icon Collection Careers / Altamira\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:29.148Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "GMG Careers / Factorial",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"GMG Careers / Factorial\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:30.620Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Menarini Careers / LinkedIn",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Menarini Careers / LinkedIn\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:30.620Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Smartness Careers / RevolutPeople",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Smartness Careers / RevolutPeople\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:30.620Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "VIOLETTA SRL / Indeed",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"VIOLETTA SRL / Indeed\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:30.620Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Mediterraneo Design / Indeed",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Mediterraneo Design / Indeed\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:32.229Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Devup Careers / Altamira",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"Devup Careers / Altamira\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:32.229Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "GPA Partners / Trabajo.org",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"GPA Partners / Trabajo.org\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:32.229Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "CoreView Careers / Greenhouse",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "\"CoreView Careers / Greenhouse\" (\"sales support\" OR \"back office commerciale\" OR \"tender\" OR \"order management\" OR \"project coordinator\" OR \"event coordinator\") (Toscana OR Firenze OR Pisa OR Lucca OR remoto Italia)",
+            "checkedAt": "2026-11-02T14:36:32.229Z",
+            "outcome": "zero_results",
+            "evidenceUrls": []
+          },
+          {
+            "source": "AICOM Careers / Teamtailor",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://aicomspa-1736851116.teamtailor.com/jobs",
+            "checkedAt": "2026-11-02T14:37:00.316Z",
+            "outcome": "direct_checked",
+            "evidenceUrls": [
+              "https://aicomspa-1736851116.teamtailor.com/jobs"
+            ]
+          },
+          {
+            "source": "Proget Impianti Careers",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://www.progetimpianti.it/lavora-con-noi/",
+            "checkedAt": "2026-11-02T14:37:01.572Z",
+            "outcome": "direct_checked",
+            "evidenceUrls": [
+              "https://www.progetimpianti.it/lavora-con-noi/"
+            ]
+          },
+          {
+            "source": "Raben Italy Careers",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://it.linkedin.com/jobs/view/customer-service-specialist-at-raben-italy-4481210596",
+            "checkedAt": "2026-11-02T14:37:03.283Z",
+            "outcome": "direct_checked",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/customer-service-specialist-at-raben-italy-4481210596"
+            ]
+          },
+          {
+            "source": "Terrecablate Careers",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://www.terrecablate.it/terrecablate-cerca-addetto-commerciale-siena/",
+            "checkedAt": "2026-11-02T14:37:04.474Z",
+            "outcome": "direct_checked",
+            "evidenceUrls": [
+              "https://www.terrecablate.it/terrecablate-cerca-addetto-commerciale-siena/"
+            ]
+          },
+          {
+            "source": "LIONARD Careers",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://careers.lionard.com",
+            "checkedAt": "2026-11-02T14:37:05.820Z",
+            "outcome": "direct_checked",
+            "evidenceUrls": [
+              "https://careers.lionard.com"
+            ]
+          },
+          {
+            "source": "La Marzocco Careers",
+            "method": "direct",
+            "coverageMode": "blocked_or_unavailable",
+            "query": "https://lamarzocco.com",
+            "checkedAt": "2026-11-02T14:37:07.559Z",
+            "outcome": "blocked_or_unavailable",
+            "evidenceUrls": [
+              "https://lamarzocco.com"
+            ]
+          },
+          {
+            "source": "Giunti Psychometrics Careers",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://giuntipsy.com",
+            "checkedAt": "2026-11-02T14:37:10.113Z",
+            "outcome": "direct_checked",
+            "evidenceUrls": [
+              "https://giuntipsy.com"
+            ]
+          },
+          {
+            "source": "Numa Careers",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://numastays.com",
+            "checkedAt": "2026-11-02T14:37:11.529Z",
+            "outcome": "direct_checked",
+            "evidenceUrls": [
+              "https://numastays.com"
+            ]
+          },
+          {
+            "source": "D.B. Group Careers",
+            "method": "direct",
+            "coverageMode": "blocked_or_unavailable",
+            "query": "https://dbgroupher.com",
+            "checkedAt": "2026-11-02T14:37:12.653Z",
+            "outcome": "blocked_or_unavailable",
+            "evidenceUrls": [
+              "https://dbgroupher.com"
+            ]
+          },
+          {
+            "source": "My Mancini Careers",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://it.linkedin.com/jobs/view/crm-sales-operations-coordinator-at-my-mancini-4482217690",
+            "checkedAt": "2026-11-02T14:37:14.411Z",
+            "outcome": "direct_checked",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/crm-sales-operations-coordinator-at-my-mancini-4482217690"
+            ]
+          },
+          {
+            "source": "Italy Pass Careers",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://www.simplyhired.it/job/9f4ur-Auun3F5ZCQnjpv9d19xz8Ew71VZUVGrJf4WRbFB4otTxCRcg",
+            "checkedAt": "2026-11-02T14:37:15.666Z",
+            "outcome": "direct_checked",
+            "evidenceUrls": [
+              "https://www.simplyhired.it/job/9f4ur-Auun3F5ZCQnjpv9d19xz8Ew71VZUVGrJf4WRbFB4otTxCRcg"
+            ]
+          },
+          {
+            "source": "TerraEvents Careers",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://www.terraevents.com/work-with-us",
+            "checkedAt": "2026-11-02T14:37:17.052Z",
+            "outcome": "direct_checked",
+            "evidenceUrls": [
+              "https://www.terraevents.com/work-with-us"
+            ]
+          },
+          {
+            "source": "Icon Collection Careers / Altamira",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://thesenseresort.altamiraweb.com/jobs/Mice-Groups-Wedding-Sales-Coordinator-Sales-Italia-Livorno-676318028.htm",
+            "checkedAt": "2026-11-02T14:37:18.464Z",
+            "outcome": "direct_checked",
+            "evidenceUrls": [
+              "https://thesenseresort.altamiraweb.com/jobs/Mice-Groups-Wedding-Sales-Coordinator-Sales-Italia-Livorno-676318028.htm"
+            ]
+          },
+          {
+            "source": "GMG Careers / Factorial",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://gmgspa.factorial.it/job_posting/impiegata-back-office-275210",
+            "checkedAt": "2026-11-02T14:37:19.667Z",
+            "outcome": "direct_checked",
+            "evidenceUrls": [
+              "https://gmgspa.factorial.it/job_posting/impiegata-back-office-275210"
+            ]
+          },
+          {
+            "source": "Menarini Careers / LinkedIn",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://www.menarini.com/it-it/carriere/posizioni-aperte.html",
+            "checkedAt": "2026-11-02T14:37:21.471Z",
+            "outcome": "direct_checked",
+            "evidenceUrls": [
+              "https://www.menarini.com/it-it/carriere/posizioni-aperte.html"
+            ]
+          },
+          {
+            "source": "Smartness Careers / RevolutPeople",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://revolutpeople.com/smartness/public/careers",
+            "checkedAt": "2026-11-02T14:37:22.557Z",
+            "outcome": "direct_checked",
+            "evidenceUrls": [
+              "https://revolutpeople.com/smartness/public/careers"
+            ]
+          },
+          {
+            "source": "VIOLETTA SRL / Indeed",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://it.indeed.com/viewjob?jk=7aa7039621712bfc",
+            "checkedAt": "2026-11-02T14:37:23.815Z",
+            "outcome": "direct_checked",
+            "evidenceUrls": [
+              "https://it.indeed.com/viewjob?jk=7aa7039621712bfc"
+            ]
+          },
+          {
+            "source": "Mediterraneo Design / Indeed",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://it.indeed.com/viewjob?jk=ddddc563916ac047",
+            "checkedAt": "2026-11-02T14:37:25.101Z",
+            "outcome": "direct_checked",
+            "evidenceUrls": [
+              "https://it.indeed.com/viewjob?jk=ddddc563916ac047"
+            ]
+          },
+          {
+            "source": "Devup Careers / Altamira",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://jobs.devupconsulting.com/jobs/AS1089-Specialista-Gare-e-Offerte-Tecniche-RAL-30-40K-Altro-Italia-Italia-Emilia-Romagna-Bologna-179557041.htm",
+            "checkedAt": "2026-11-02T14:37:26.797Z",
+            "outcome": "direct_checked",
+            "evidenceUrls": [
+              "https://jobs.devupconsulting.com/jobs/AS1089-Specialista-Gare-e-Offerte-Tecniche-RAL-30-40K-Altro-Italia-Italia-Emilia-Romagna-Bologna-179557041.htm"
+            ]
+          },
+          {
+            "source": "GPA Partners / Trabajo.org",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://it.trabajo.org/offerta-5270-f825053299483e51617e58dcdc588f87",
+            "checkedAt": "2026-11-02T14:37:28.173Z",
+            "outcome": "direct_checked",
+            "evidenceUrls": [
+              "https://it.trabajo.org/offerta-5270-f825053299483e51617e58dcdc588f87"
+            ]
+          },
+          {
+            "source": "CoreView Careers / Greenhouse",
+            "method": "direct",
+            "coverageMode": "direct",
+            "query": "https://job-boards.greenhouse.io/coreview/jobs/4355530009",
+            "checkedAt": "2026-11-02T14:37:29.347Z",
+            "outcome": "direct_checked",
+            "evidenceUrls": [
+              "https://job-boards.greenhouse.io/coreview/jobs/4355530009"
+            ]
+          }
+        ],
+        "checkpointVerified": true,
+        "notes": [
+          "Breadth pass completo; secondo sweep e verifica annunci attivi in corso."
+        ]
       }
     }
   },
