@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T10:20:00+01:00",
+  "generatedAt": "2026-11-03T15:30:00+01:00",
   "source": "Alice Job Radar Search V2",
   "jobs": [
     {
@@ -15323,6 +15323,80 @@
           }
         ],
         "finalReadbackVerifiedAt": "2026-11-03T10:25:00+01:00"
+      },
+      "15:30": {
+        "scheduledFor": "2026-11-03T15:30:00+01:00",
+        "completedAt": null,
+        "status": "partial",
+        "phase": "delta_checkpoint",
+        "requiredSourcesTotal": 142,
+        "sourceUniverseTotal": 210,
+        "requiredSourcesChecked": 0,
+        "sourcesChecked": [],
+        "directSourcesChecked": [],
+        "siteRestrictedSourcesChecked": [],
+        "indexedFallbackSourcesChecked": [
+          "Afternoon delta"
+        ],
+        "sourcesUnavailable": [],
+        "directSourcesCount": 0,
+        "siteRestrictedSourcesCount": 0,
+        "indexedFallbackSourcesCount": 1,
+        "sourcesExplored": 1,
+        "breadthCoveragePct": 0.48,
+        "tierACoveragePct": 0,
+        "breadthTargetMissed": true,
+        "sourcesRemainingToBreadthTarget": 136,
+        "secondPassCompleted": false,
+        "thirdPassCompleted": false,
+        "newJobs": 0,
+        "activeJobs": 172,
+        "queriesRun": 4,
+        "searchLog": [
+          {
+            "source": "Afternoon delta",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "Sales support/back office/order management Toscana 3 novembre 2026",
+            "checkedAt": "2026-11-03T15:28:00+01:00",
+            "outcome": "candidates_found",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/sales-operations-specialist-at-giunti-psychometrics-4484365747"
+            ]
+          },
+          {
+            "source": "Afternoon delta",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "Tender/ufficio gare/proposal Toscana remote 3 novembre 2026",
+            "checkedAt": "2026-11-03T15:28:20+01:00",
+            "outcome": "existing_candidates_found",
+            "evidenceUrls": [
+              "https://atiproject.com/en/careers/open-positions/?single=tender-specialist"
+            ]
+          },
+          {
+            "source": "Afternoon delta",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "Project/PMO/operations/event coordinator Toscana remote 3 novembre 2026",
+            "checkedAt": "2026-11-03T15:28:40+01:00",
+            "outcome": "searched",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Afternoon delta",
+            "method": "indexed_fallback",
+            "coverageMode": "indexed_fallback",
+            "query": "Customer operations/sales coordinator/inside sales Toscana 3 novembre 2026",
+            "checkedAt": "2026-11-03T15:29:00+01:00",
+            "outcome": "candidates_found",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/technical-sales-support-specialist-%E2%80%93-outdoor-design-at-bluaria-4484361784"
+            ]
+          }
+        ],
+        "checkpointVerified": false
       }
     }
   },
