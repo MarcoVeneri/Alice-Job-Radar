@@ -22896,7 +22896,8 @@
           }
         ],
         "checkpointVerified": true,
-        "finalReadbackPending": true
+        "finalReadbackPending": false,
+        "finalReadbackVerifiedAt": "2026-11-03T16:40:00+01:00"
       }
     }
   },
