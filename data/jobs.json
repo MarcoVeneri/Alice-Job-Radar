@@ -15314,14 +15314,15 @@
           }
         ],
         "checkpointVerified": true,
-        "finalReadbackPending": true,
+        "finalReadbackPending": false,
         "excludedCandidates": [
           {
             "title": "Service Operations Specialist",
             "company": "Risorse",
             "reason": "Pagina ufficiale riferita a Bergamo e nessuna prova di full remote compatibile dalla Toscana."
           }
-        ]
+        ],
+        "finalReadbackVerifiedAt": "2026-11-03T10:25:00+01:00"
       }
     }
   },
