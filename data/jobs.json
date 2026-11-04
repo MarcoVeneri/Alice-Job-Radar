@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T10:36:00+01:00",
+  "generatedAt": "2026-11-04T15:36:00+01:00",
   "source": "Alice Job Radar Search V2",
   "jobs": [
     {
@@ -14927,6 +14927,82 @@
           "Stato partial perché molte fonti sono state coperte tramite fallback indicizzato anziché enumerazione diretta completa."
         ],
         "finalReadbackVerifiedAt": "2026-11-04T10:40:00+01:00"
+      },
+      "15:30": {
+        "scheduledFor": "2026-11-04T15:30:00+01:00",
+        "completedAt": null,
+        "status": "partial",
+        "checkpoint": true,
+        "checkpointVerified": false,
+        "requiredSourcesTotal": 142,
+        "sourceUniverseTotal": 214,
+        "requiredSourcesChecked": 0,
+        "sourcesChecked": [],
+        "directSourcesChecked": [],
+        "siteRestrictedSourcesChecked": [],
+        "indexedFallbackSourcesChecked": [
+          "Google indexed vacancies"
+        ],
+        "sourcesUnavailable": [],
+        "directSourcesCount": 0,
+        "siteRestrictedSourcesCount": 0,
+        "indexedFallbackSourcesCount": 1,
+        "sourcesExplored": 1,
+        "breadthCoveragePct": 0.47,
+        "tierACoveragePct": 0,
+        "breadthTargetMissed": true,
+        "allTierAAttempted": false,
+        "secondPassCompleted": false,
+        "thirdPassCompleted": false,
+        "queriesRun": 4,
+        "newJobs": 0,
+        "activeJobs": 168,
+        "searchLog": [
+          {
+            "source": "Google indexed vacancies",
+            "method": "indexed_fallback_delta",
+            "coverageMode": "indexed_fallback",
+            "query": "Toscana lavoro back office/sales support/order management 4 novembre 2026",
+            "checkedAt": "2026-11-04T15:36:00+01:00",
+            "outcome": "candidates_found",
+            "evidenceUrls": [
+              "https://offerte.trovolavoro.com/it/careers/jobad/1458321-addetto-a-back-office-commerciale-prato",
+              "https://it.indeed.com/Toscana-offerte-lavoro-Back-Office-Commerciale"
+            ]
+          },
+          {
+            "source": "Google indexed vacancies",
+            "method": "indexed_fallback_delta",
+            "coverageMode": "indexed_fallback",
+            "query": "Toscana lavoro ufficio gare/tender/proposal 4 novembre 2026",
+            "checkedAt": "2026-11-04T15:36:00+01:00",
+            "outcome": "candidates_found",
+            "evidenceUrls": [
+              "https://it.indeed.com/q-gare-l-toscana-offerte-lavoro.html"
+            ]
+          },
+          {
+            "source": "Google indexed vacancies",
+            "method": "indexed_fallback_delta",
+            "coverageMode": "indexed_fallback",
+            "query": "Toscana lavoro PMO/project/operations coordinator 4 novembre 2026",
+            "checkedAt": "2026-11-04T15:36:00+01:00",
+            "outcome": "candidates_found",
+            "evidenceUrls": [
+              "https://it.jobslooker.com/offerte-pmo-toscana"
+            ]
+          },
+          {
+            "source": "Google indexed vacancies",
+            "method": "indexed_fallback_delta",
+            "coverageMode": "indexed_fallback",
+            "query": "Italia remote sales/customer operations/enablement 4 novembre 2026",
+            "checkedAt": "2026-11-04T15:36:00+01:00",
+            "outcome": "no_new_verified_vacancy_yet",
+            "evidenceUrls": []
+          }
+        ],
+        "finalReadbackPending": true
       }
     }
   },
