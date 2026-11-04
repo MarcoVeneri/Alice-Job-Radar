@@ -21513,12 +21513,13 @@
             ]
           }
         ],
-        "finalReadbackPending": true,
+        "finalReadbackPending": false,
         "notes": [
           "Delta iniziale, sweep completo del catalogo e secondo passaggio obbligatorio completati.",
           "Tutte le nuove vacancy sono state validate su pagina specifica o, per Openjobmetis, su elenco ufficiale corrente con blocco tecnico documentato del permalink Trovolavoro.",
           "Stato partial perché una quota rilevante delle fonti è stata coperta tramite fallback indicizzato anziché enumerazione diretta completa."
-        ]
+        ],
+        "finalReadbackVerifiedAt": "2026-11-04T16:18:00+01:00"
       }
     }
   },
