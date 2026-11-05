@@ -15109,13 +15109,14 @@
             ]
           }
         ],
-        "finalReadbackPending": true,
+        "finalReadbackPending": false,
         "notes": [
           "Sweep completo e secondo passaggio su tutte le fonti; ricontrollati tutti gli annunci attivi preesistenti.",
           "Sciuker Ecospace esclusa: gli aggregatori attribuivano la vacancy alla Toscana, ma il testo indica Contrada (AV).",
           "Le pagine originali SIGEL e CBRE sono bloccate tecnicamente; pubblicazione mantenuta solo grazie a evidenze specifiche, recenti e coerenti su più fonti.",
           "Stato partial perché molte fonti sono state coperte tramite fallback indicizzato anziché enumerazione diretta completa."
-        ]
+        ],
+        "finalReadbackVerifiedAt": "2026-11-05T11:00:00+01:00"
       }
     }
   },
