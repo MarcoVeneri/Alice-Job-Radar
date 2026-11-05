@@ -21929,14 +21929,15 @@
             ]
           }
         ],
-        "finalReadbackPending": true,
+        "finalReadbackPending": false,
         "notes": [
           "Delta pomeridiano seguito da sweep completo su tutte le fonti, secondo passaggio e ricontrollo di tutti gli annunci attivi.",
           "Tre nuove vacancy pubblicate; una vacancy Umana riattivata tramite permalink specifico verificato.",
           "Tre chiusure confermate individualmente; nessuna disattivazione basata su solo errore tecnico.",
           "Medline mantenuta come Da verificare: il permalink specifico è bloccato da anti-bot, ma più evidenze recenti e coerenti confermano la vacancy.",
           "Stato partial perché molte fonti sono coperte tramite fallback indicizzato, pur con ampiezza completa."
-        ]
+        ],
+        "finalReadbackVerifiedAt": "2026-11-05T16:25:00+01:00"
       }
     }
   },
