@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T10:50:00+01:00",
+  "generatedAt": "2026-11-05T15:33:00+01:00",
   "source": "Alice Job Radar Search V2",
   "jobs": [
     {
@@ -15117,6 +15117,19 @@
           "Stato partial perché molte fonti sono state coperte tramite fallback indicizzato anziché enumerazione diretta completa."
         ],
         "finalReadbackVerifiedAt": "2026-11-05T11:00:00+01:00"
+      },
+      "15:30": {
+        "scheduledFor": "2026-11-05T15:30:00+01:00",
+        "startedAt": "2026-11-05T15:33:00+01:00",
+        "status": "in_progress",
+        "checkpoint": true,
+        "checkpointVerified": false,
+        "requiredSourcesTotal": 142,
+        "sourceUniverseTotal": 220,
+        "searchLog": [],
+        "notes": [
+          "Checkpoint iniziale pomeridiano; delta e sweep completo in corso."
+        ]
       }
     }
   },
