@@ -2594,6 +2594,24 @@
         "https://it.linkedin.com/jobs/view/contract-support-assistente-di-commessa-firenze-at-cbre-global-workplace-solutions-gws-4483597729",
         "https://www.joinrs.com/it/jobs/5196178"
       ]
+    },
+    {
+      "name": "Expeditors Careers / SmartRecruiters",
+      "type": "company-career-ats",
+      "tier": "B",
+      "url": "https://jobs.smartrecruiters.com/expeditors/744000151403569",
+      "ats": "SmartRecruiters",
+      "attempts": 2,
+      "directAttempts": 1,
+      "lastCheckedAt": "2026-11-05T10:53:00+01:00",
+      "validVacancies": 1,
+      "newVacancies": 0,
+      "zeroResultStreak": 0,
+      "lastProductiveAt": "2026-10-28T10:16:00+01:00",
+      "knownUrls": [
+        "https://jobs.smartrecruiters.com/expeditors/744000151403569",
+        "https://jobs.smartrecruiters.com/expeditors/744000151402490"
+      ]
     }
   ],
   "discoveryRules": [
@@ -2604,7 +2622,7 @@
     "Promote a discovered source into this catalog only after a real accessible job listing/search page or public ATS feed is verified.",
     "Never count a search-engine query itself as complete coverage of the underlying source."
   ],
-  "lastExpandedAt": "2026-11-05T10:42:00+01:00",
-  "lastExpansionAdded": 2,
-  "lastRunAt": "2026-11-05T10:42:00+01:00"
+  "lastExpandedAt": "2026-11-05T10:53:00+01:00",
+  "lastExpansionAdded": 3,
+  "lastRunAt": "2026-11-05T10:53:00+01:00"
 }
