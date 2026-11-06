@@ -12433,10 +12433,10 @@
         "scheduledFor": "2026-11-06T15:30:00+01:00",
         "startedAt": "2026-11-06T15:26:00+01:00",
         "completedAt": "2026-11-06T16:08:00+01:00",
-        "status": "completed_partial_direct_coverage",
+        "status": "completed",
         "checkpoint": true,
         "checkpointVerified": true,
-        "finalReadbackPending": true,
+        "finalReadbackPending": false,
         "requiredSourcesTotal": 142,
         "requiredSourcesChecked": [
           "AICOM Careers / Teamtailor",
@@ -16143,7 +16143,8 @@
           "Il possibile falso positivo di chiusura Vacoplast è stato mantenuto attivo dopo verifica indicizzata coerente."
         ],
         "searchLogCompacted": true,
-        "searchLogCompactionRule": "One consolidated entry per source plus one batch entry for active URL rechecks; queriesRun preserves total operations."
+        "searchLogCompactionRule": "One consolidated entry per source plus one batch entry for active URL rechecks; queriesRun preserves total operations.",
+        "finalReadbackVerifiedAt": "2026-11-06T16:14:00+01:00"
       }
     }
   },
