@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T10:12:00+01:00",
+  "generatedAt": "2026-11-06T15:26:00+01:00",
   "source": "Alice Job Radar V2 max-coverage",
   "jobs": [
     {
@@ -17836,6 +17836,19 @@
           "Nessuna offerta esistente disattivata senza evidenza concreta di chiusura."
         ],
         "finalReadbackVerifiedAt": "2026-11-06T10:15:00+01:00"
+      },
+      "15:30": {
+        "scheduledFor": "2026-11-06T15:30:00+01:00",
+        "startedAt": "2026-11-06T15:26:00+01:00",
+        "status": "in_progress",
+        "checkpoint": true,
+        "checkpointVerified": false,
+        "requiredSourcesTotal": 142,
+        "sourceUniverseTotal": 222,
+        "searchLog": [],
+        "notes": [
+          "Checkpoint pomeridiano; delta e sweep anti-miss in corso."
+        ]
       }
     }
   },
