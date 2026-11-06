@@ -8660,10 +8660,10 @@
         "scheduledFor": "2026-11-06T09:30:00+01:00",
         "startedAt": "2026-11-06T09:28:00+01:00",
         "completedAt": "2026-11-06T10:12:00+01:00",
-        "status": "completed_partial_direct_coverage",
+        "status": "completed",
         "checkpoint": true,
         "checkpointVerified": true,
-        "finalReadbackPending": true,
+        "finalReadbackPending": false,
         "requiredSourcesTotal": 142,
         "requiredSourcesChecked": [
           "AICOM Careers / Teamtailor",
@@ -17834,7 +17834,8 @@
           "Quattro nuove vacancy incluse dopo validazione di pagina specifica; tre su pagine ufficiali direttamente raggiungibili e una con limite tecnico documentato sul permalink ATS.",
           "Le due pagine già attive segnalate automaticamente come possibili chiusure sono state mantenute attive dopo verifica indicizzata recente e coerente.",
           "Nessuna offerta esistente disattivata senza evidenza concreta di chiusura."
-        ]
+        ],
+        "finalReadbackVerifiedAt": "2026-11-06T10:15:00+01:00"
       }
     }
   },
