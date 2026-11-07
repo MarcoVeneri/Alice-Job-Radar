@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T10:24:00+01:00",
+  "generatedAt": "2026-11-07T10:29:00+01:00",
   "source": "Alice Job Radar V2 max-coverage",
   "jobs": [
     {
@@ -11547,10 +11547,13 @@
           "Secondo sweep obbligatorio eseguito su tutte le fonti con query basate su attività e sinonimi IT/EN.",
           "184 URL attivi riesaminati: 2 disattivati solo dopo evidenza concreta di chiusura; errori tecnici non interpretati come chiusura.",
           "Nuove vacancy pubblicate solo dopo apertura della pagina finale e verifica di titolo, azienda, sede e azione di candidatura.",
-          "Deduplica post-discovery: il nuovo permalink Expeditors è una replica esatta della scheda già presente e non è stato duplicato."
+          "Deduplica post-discovery: il nuovo permalink Expeditors è una replica esatta della scheda già presente e non è stato duplicato.",
+          "Rilettura finale GitHub riuscita: JSON valido, ID univoci, score.toFixed(1) e checks.join(...) verificati su 315 schede; index.html e service worker continuano a referenziare data/jobs.json."
         ],
-        "finalReadbackPending": true,
-        "completedAt": "2026-11-07T10:24:00+01:00"
+        "finalReadbackPending": false,
+        "completedAt": "2026-11-07T10:24:00+01:00",
+        "finalReadbackVerifiedAt": "2026-11-07T10:29:00+01:00",
+        "pwaDataVerified": true
       }
     }
   },
