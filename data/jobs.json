@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T16:28:00+01:00",
+  "generatedAt": "2026-11-07T16:33:00+01:00",
   "source": "Alice Job Radar V2 max-coverage",
   "jobs": [
     {
@@ -14386,10 +14386,13 @@
           "184 URL attivi riesaminati. Il permalink ZOLL senza parametro ha restituito 404, ma la pagina canonica con hsLang=en è attiva e candidabile; URL corretto senza disattivazione.",
           "Due nuove vacancy inserite con nota Da verificare perché i permalink Indeed sono bloccati tecnicamente; esistenza corrente, titolo, azienda, sede e candidatura risultano confermati da pagine aziendali e più evidenze recenti.",
           "Escluso Tregoo: il permalink indicizzato mostrava azienda e sede incoerenti rispetto alla vacancy scoperta.",
-          "Deduplica post-discovery: TK Home Solutions è la stessa vacancy già presente con pagina career ufficiale e non è stata duplicata."
+          "Deduplica post-discovery: TK Home Solutions è la stessa vacancy già presente con pagina career ufficiale e non è stata duplicata.",
+          "Rilettura finale GitHub riuscita: JSON valido, ID univoci, score.toFixed(1) e checks.join(...) verificati su 317 schede; index.html e service worker continuano a referenziare data/jobs.json."
         ],
-        "finalReadbackPending": true,
-        "completedAt": "2026-11-07T16:28:00+01:00"
+        "finalReadbackPending": false,
+        "completedAt": "2026-11-07T16:28:00+01:00",
+        "finalReadbackVerifiedAt": "2026-11-07T16:33:00+01:00",
+        "pwaDataVerified": true
       }
     }
   },
