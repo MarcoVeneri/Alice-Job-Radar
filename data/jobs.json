@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T10:18:00+01:00",
+  "generatedAt": "2026-11-08T10:22:00+01:00",
   "source": "Alice Job Radar V2 max-coverage",
   "jobs": [
     {
@@ -11762,12 +11762,13 @@
           "Riesaminate 186 vacancy attive: 8 disattivate solo dopo evidenza concreta di 404/410 o scadenza esplicita.",
           "Esclusa Umana Larciano: risultato corrente ma privo di link finale specifico verificabile. Gi Group ITO non riattivata: URL originale reindirizza a lista generica e la precedente pagina risulta scaduta.",
           "Deduplica eseguita dopo la discovery: conservata una sola scheda per la stessa vacancy Expeditors rilevata con due identificativi SmartRecruiters.",
-          "Stati utente, candidature, PWA e grafica non modificati."
+          "Stati utente, candidature, PWA e grafica non modificati.",
+          "Readback finale GitHub completato: JSON valido, 320 record/181 attivi, audit coerente, catalogo 228 fonti uniche e riferimenti PWA a data/jobs.json confermati."
         ],
-        "finalReadbackPending": true,
+        "finalReadbackPending": false,
         "completedAt": "2026-11-08T10:18:00+01:00",
-        "finalReadbackVerifiedAt": "",
-        "pwaDataVerified": false
+        "finalReadbackVerifiedAt": "2026-11-08T10:22:00+01:00",
+        "pwaDataVerified": true
       }
     }
   },
