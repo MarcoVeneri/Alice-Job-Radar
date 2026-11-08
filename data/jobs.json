@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T10:22:00+01:00",
+  "generatedAt": "2026-11-08T15:28:00+01:00",
   "source": "Alice Job Radar V2 max-coverage",
   "jobs": [
     {
@@ -11769,6 +11769,35 @@
         "completedAt": "2026-11-08T10:18:00+01:00",
         "finalReadbackVerifiedAt": "2026-11-08T10:22:00+01:00",
         "pwaDataVerified": true
+      },
+      "15:30": {
+        "scheduledFor": "2026-11-08T15:30:00+01:00",
+        "startedAt": "2026-11-08T15:28:00+01:00",
+        "status": "in_progress",
+        "checkpoint": "pending",
+        "checkpointVerified": false,
+        "requiredSourcesTotal": 142,
+        "sourceUniverseTotal": 228,
+        "directSourcesChecked": [],
+        "siteRestrictedSourcesChecked": [],
+        "indexedFallbackSourcesChecked": [],
+        "sourcesUnavailable": [],
+        "requiredSourcesChecked": [],
+        "sourcesExplored": [],
+        "directSourcesCount": 0,
+        "siteRestrictedSourcesCount": 0,
+        "indexedFallbackSourcesCount": 0,
+        "queriesRun": 0,
+        "newJobs": 0,
+        "activeJobs": 181,
+        "searchLog": [],
+        "notes": [
+          "Checkpoint iniziale del run pomeridiano; delta e sweep completo in corso."
+        ],
+        "finalReadbackPending": true,
+        "completedAt": "",
+        "finalReadbackVerifiedAt": "",
+        "pwaDataVerified": false
       }
     }
   },
