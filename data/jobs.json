@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:42:00+01:00",
+  "generatedAt": "2026-11-08T15:46:00+01:00",
   "source": "Alice Job Radar V2 max-coverage",
   "jobs": [
     {
@@ -14766,12 +14766,13 @@
           "Validate 5 nuove vacancy e riconfermata MADx; nessun terzo recovery pass necessario perché newJobs > 0 e copertura completa.",
           "Riesaminate 181 vacancy attive iniziali: 1 disattivata dopo HTTP 410; 403/429 e redirect loop non trattati come chiusura.",
           "Esclusi risultati senza link finale specifico e quelli fuori Toscana senza piena compatibilità remote.",
-          "Deduplica post-discovery; PWA, grafica, candidature e stati utente invariati."
+          "Deduplica post-discovery; PWA, grafica, candidature e stati utente invariati.",
+          "Readback GitHub completato: JSON valido, 325 record/185 attivi, audit coerente, catalogo 231 fonti uniche e riferimenti PWA a data/jobs.json confermati."
         ],
-        "finalReadbackPending": true,
+        "finalReadbackPending": false,
         "completedAt": "2026-11-08T15:42:00+01:00",
-        "finalReadbackVerifiedAt": "",
-        "pwaDataVerified": false
+        "finalReadbackVerifiedAt": "2026-11-08T15:46:00+01:00",
+        "pwaDataVerified": true
       }
     }
   },
