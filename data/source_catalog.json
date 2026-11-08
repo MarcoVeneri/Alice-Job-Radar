@@ -2783,7 +2783,7 @@
       "attempts": 2,
       "directAttempts": 1,
       "validVacancies": 1,
-      "newVacancies": 1,
+      "newVacancies": 0,
       "zeroResultStreak": 0,
       "lastCheckedAt": "2026-11-08T15:42:00+01:00",
       "lastProductiveAt": "2026-11-08T15:42:00+01:00"
