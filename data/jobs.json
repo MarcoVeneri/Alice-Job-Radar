@@ -15060,12 +15060,13 @@
           "Delta dalle 09:30 completato, seguito dal secondo sweep obbligatorio su tutte le Tier A, fonti produttive e zero-result.",
           "Fallback indicizzato trasversale usato per anti-miss, con verifica e risalita alla pagina specifica originale prima della pubblicazione.",
           "Riesaminati tutti i 186 annunci attivi iniziali: due chiusure confermate tramite HTTP 410.",
-          "Sette nuove vacancy specifiche validate; risultati con redirect generico, 404/410 o sola copia indicizzata non confermata esclusi."
+          "Sette nuove vacancy specifiche validate; risultati con redirect generico, 404/410 o sola copia indicizzata non confermata esclusi.",
+          "Readback finale GitHub completato: JSON valido, audit e conteggi coerenti, guardrail score/checks superati e caricamento PWA verificato."
         ],
-        "finalReadbackPending": true,
+        "finalReadbackPending": false,
         "completedAt": "2026-11-09T16:12:00+01:00",
-        "finalReadbackVerifiedAt": "",
-        "pwaDataVerified": false
+        "finalReadbackVerifiedAt": "2026-11-09T16:14:00+01:00",
+        "pwaDataVerified": true
       }
     }
   },
