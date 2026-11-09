@@ -11997,12 +11997,13 @@
           "Scansione ampia mattutina breadth-first completata su tutte le Tier A e sull'intero universo catalogato.",
           "Career/ATS/API e pagine originali prioritari; fallback indicizzati usati per discovery e risalita alle fonti, senza conteggiarli come controllo diretto.",
           "Riesaminati tutti i 185 record attivi iniziali: due chiusure confermate, una vacancy ufficiale riaperta/nuovamente raggiungibile.",
-          "Due nuove vacancy specifiche validate; risultati scaduti, redirect generici e copie prive di conferma corrente esclusi."
+          "Due nuove vacancy specifiche validate; risultati scaduti, redirect generici e copie prive di conferma corrente esclusi.",
+          "Readback finale GitHub completato: JSON valido, conteggi coerenti, guardrail PWA e caricamento data/jobs.json verificati."
         ],
-        "finalReadbackPending": true,
+        "finalReadbackPending": false,
         "completedAt": "2026-11-09T09:37:00+01:00",
-        "finalReadbackVerifiedAt": "",
-        "pwaDataVerified": false
+        "finalReadbackVerifiedAt": "2026-11-09T09:38:00+01:00",
+        "pwaDataVerified": true
       }
     }
   },
