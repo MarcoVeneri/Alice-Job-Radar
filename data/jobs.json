@@ -12004,6 +12004,35 @@
         "completedAt": "2026-11-09T09:37:00+01:00",
         "finalReadbackVerifiedAt": "2026-11-09T09:38:00+01:00",
         "pwaDataVerified": true
+      },
+      "15:30": {
+        "scheduledFor": "2026-11-09T15:30:00+01:00",
+        "startedAt": "2026-11-09T16:06:51+01:00",
+        "status": "in_progress",
+        "checkpoint": "pending",
+        "checkpointVerified": false,
+        "requiredSourcesTotal": 142,
+        "sourceUniverseTotal": 231,
+        "directSourcesChecked": [],
+        "siteRestrictedSourcesChecked": [],
+        "indexedFallbackSourcesChecked": [],
+        "sourcesUnavailable": [],
+        "requiredSourcesChecked": [],
+        "sourcesExplored": [],
+        "directSourcesCount": 0,
+        "siteRestrictedSourcesCount": 0,
+        "indexedFallbackSourcesCount": 0,
+        "queriesRun": 0,
+        "newJobs": 0,
+        "activeJobs": 186,
+        "searchLog": [],
+        "notes": [
+          "Checkpoint iniziale; delta dalle 09:30 e secondo sweep pomeridiano in corso."
+        ],
+        "finalReadbackPending": true,
+        "completedAt": "",
+        "finalReadbackVerifiedAt": "",
+        "pwaDataVerified": false
       }
     }
   },
