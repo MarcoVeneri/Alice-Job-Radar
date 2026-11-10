@@ -12266,12 +12266,13 @@
           "Copertura reale 231/231 fonti; requiredSourcesChecked contiene esclusivamente direct + site_restricted.",
           "Aggiunte 2 vacancy nuove dopo validazione puntuale; 2 annunci esistenti disattivati per evidenza concreta di rimozione.",
           "Esclusi i risultati Agile Lab, Il Globo Vigilanza e VEGA Engineering perché la pagina originale era scaduta, assente dal career site o reindirizzata a una pagina generica.",
-          "Nessuna candidatura, email o messaggio inviato."
+          "Nessuna candidatura, email o messaggio inviato.",
+          "Rilettura finale GitHub completata: JSON valido, guardrail superati e PWA ancora collegata a data/jobs.json."
         ],
-        "finalReadbackPending": true,
+        "finalReadbackPending": false,
         "completedAt": "2026-11-10T10:18:00+01:00",
-        "finalReadbackVerifiedAt": "",
-        "pwaDataVerified": false
+        "finalReadbackVerifiedAt": "2026-11-10T10:21:00+01:00",
+        "pwaDataVerified": true
       }
     }
   },
