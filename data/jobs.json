@@ -15285,12 +15285,13 @@
           "Aggiunte 4 vacancy nuove dopo apertura e validazione puntuale del link finale.",
           "Tutti i 191 annunci già attivi sono stati riesaminati; nessuna nuova chiusura certa.",
           "Rotork e Orienta sono rimaste inattive: le pagine finali dichiarano rispettivamente annuncio scaduto e HTTP 410, nonostante risultati indicizzati recenti.",
-          "Nessuna candidatura, email o messaggio inviato."
+          "Nessuna candidatura, email o messaggio inviato.",
+          "Rilettura finale GitHub completata: JSON valido, conteggi coerenti, categorie disgiunte e PWA ancora collegata a data/jobs.json."
         ],
-        "finalReadbackPending": true,
+        "finalReadbackPending": false,
         "completedAt": "2026-11-10T16:12:00+01:00",
-        "finalReadbackVerifiedAt": "",
-        "pwaDataVerified": false
+        "finalReadbackVerifiedAt": "2026-11-10T16:15:00+01:00",
+        "pwaDataVerified": true
       }
     }
   },
