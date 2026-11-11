@@ -12676,12 +12676,13 @@
           "Riesaminati tutti i 195 annunci attivi iniziali; disattivati 3 record con evidenza concreta HTTP 404/410.",
           "Rimosso un duplicato esatto preesistente della vacancy one 60472ee0034a53a9, conservando la scheda originaria e il relativo firstSeenAt.",
           "I blocchi tecnici, timeout e rate limit non sono stati interpretati come chiusure.",
-          "Nessuna candidatura, email o messaggio inviato."
+          "Nessuna candidatura, email o messaggio inviato.",
+          "Rilettura finale GitHub completata: JSON valido, conteggi coerenti, categorie di copertura disgiunte, guardrail superati e PWA ancora collegata a data/jobs.json."
         ],
-        "finalReadbackPending": true,
+        "finalReadbackPending": false,
         "completedAt": "2026-11-11T09:39:33+01:00",
-        "finalReadbackVerifiedAt": "",
-        "pwaDataVerified": false
+        "finalReadbackVerifiedAt": "2026-11-11T09:42:07+01:00",
+        "pwaDataVerified": true
       }
     }
   },
