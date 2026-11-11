@@ -418,13 +418,13 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v6.33 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v6.34 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.33",sync:{enabled:false}};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.34",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],REMOTE_ROWS=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -520,18 +520,18 @@ async function syncCycle(){
  }catch(e){}
 }
 
-function mergePersistedCandidates(){
+function mergePersistedTrackedJobs(){
  const seen=new Set(DATA.map(j=>String(j.id)));
  for(const r of REMOTE_ROWS){
   const id=String(r.job_id);
-  if(!r.applied||r.dismissed||seen.has(id))continue;
+  if(!(r.applied||r.saved)||r.dismissed||seen.has(id))continue;
   DATA.push({
    id,
    company:r.company||"Azienda",
-   title:r.title||"Candidatura salvata",
+   title:r.title||(r.applied?"Candidatura salvata":"Annuncio salvato"),
    location:"",
-   category:"Candidata",
-   summary:"Candidatura salvata nello storico condiviso.",
+   category:r.applied?"Candidata":"Salvata",
+   summary:r.applied?"Candidatura conservata nello storico condiviso.":"Annuncio conservato nello storico condiviso.",
    salary:"",
    contract:"",
    score:0,
@@ -552,15 +552,23 @@ async function dismissJob(id){
  await writeJob(id,{dismissed:true,dismissed_at:new Date().toISOString(),saved:false});
  render();
 }
+function syncWriteFailed(){
+ ui.notice.textContent="Modifica non salvata: sincronizzazione non riuscita. Controlla la connessione e riprova.";
+ ui.notice.classList.add("show");
+}
 async function toggleApplied(id){
  const next=!isApplied(id);
- await writeJob(id,{applied:next});
- render();
+ try{
+  await writeJob(id,next?{applied:true,saved:true}:{applied:false});
+  render();
+ }catch(e){syncWriteFailed()}
 }
 async function toggleSaved(id){
  const next=!isSaved(id);
- await writeJob(id,{saved:next});
- render();
+ try{
+  await writeJob(id,{saved:next});
+  render();
+ }catch(e){syncWriteFailed()}
 }
 function setNavActive(which){ui.navHome.classList.toggle("active",which==="home");ui.navSearch.classList.toggle("active",which==="search");ui.navSaved.classList.toggle("active",which==="saved")}
 function resetTopFilters(){filter="Tutte";statFilter="";document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("active",x.dataset.filter==="Tutte"));document.querySelectorAll(".stat").forEach(x=>x.classList.remove("active"))}
@@ -587,7 +595,7 @@ function match(j){
  const q=ui.q.value.trim().toLowerCase();
  if(q && ![j.company,j.title,j.location,j.category,j.summary,j.salary,j.contract].join(" ").toLowerCase().includes(q))return false;
  if(filter!=="Tutte" && j.category!==filter)return false;
- if(savedOnly && !isSaved(j.id))return false;
+ if(savedOnly && !isSaved(j.id) && !isApplied(j.id))return false;
  if(statFilter==="Nuove" && !isNew(j))return false;
  if(statFilter==="Top" && j.score<9)return false;
  if(statFilter==="Candidata" && !isApplied(j.id))return false;
@@ -714,7 +722,7 @@ async function load(){ ui.notice.classList.remove('show');
    if(!r.ok)throw Error('HTTP '+r.status);
    const j=await r.json(); DATA=Array.isArray(j.jobs)?j.jobs:[]; AUDIT=j.audit||null; window.__MANUAL_REFRESH__=j.manualRefresh||null;
    await syncCycle();
-   mergePersistedCandidates();
+   mergePersistedTrackedJobs();
    renderAudit(AUDIT);
    if(ageHours(j.generatedAt)>36){ui.notice.textContent='La ricerca non risulta aggiornata nelle ultime 36 ore.';ui.notice.classList.add('show')}
    render();
@@ -795,11 +803,11 @@ setInterval(watchDayChange,15000);
 setInterval(()=>{if(document.visibilityState==="visible")load()},5*60*1000);
 })();
 </script>
-<script id="alice-sw-633">
+<script id="alice-sw-634">
 if('serviceWorker' in navigator){
   window.addEventListener('load',async()=>{
     try{
-      const r=await navigator.serviceWorker.register('./sw.js?v=633',{updateViaCache:'none'});
+      const r=await navigator.serviceWorker.register('./sw.js?v=634',{updateViaCache:'none'});
       await r.update();
     }catch(e){}
   });
