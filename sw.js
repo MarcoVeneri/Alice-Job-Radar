@@ -1,7 +1,7 @@
-const VERSION="635";
-const CACHE=`alice-job-radar-native-v${VERSION}-candidateorder1`;
-const SHELL=["./?ajr=635","./index.html?ajr=635","./config.js?v=635","./audit-fix.js?v=20261111-635","./manifest.webmanifest?v=635","./icon.svg?v=635"];
-function fresh(url){const u=new URL(url,self.registration.scope);u.searchParams.set("__ajr","candidateorder1");u.searchParams.set("__t",Date.now().toString());return fetch(u.toString(),{cache:"no-store",credentials:"same-origin"})}
+const VERSION="636";
+const CACHE=`alice-job-radar-native-v${VERSION}-searchfix1`;
+const SHELL=["./?ajr=636","./index.html?ajr=636","./config.js?v=636","./audit-fix.js?v=20261111-636","./manifest.webmanifest?v=636","./icon.svg?v=636"];
+function fresh(url){const u=new URL(url,self.registration.scope);u.searchParams.set("__ajr","searchfix1");u.searchParams.set("__t",Date.now().toString());return fetch(u.toString(),{cache:"no-store",credentials:"same-origin"})}
 async function mergedJobs(request){
  const r=await fetch(request,{cache:"no-store"});
  if(!r.ok)return r;
@@ -28,7 +28,7 @@ self.addEventListener("fetch",e=>{
   e.respondWith((async()=>{try{const merged=await mergedJobs(e.request);if(merged.ok){const c=await caches.open(CACHE);c.put("./data/jobs.json",merged.clone()).catch(()=>{})}return merged}catch(_){return(await caches.match("./data/jobs.json"))||Response.error()}})());return;
  }
  if(e.request.mode==="navigate"){
-  e.respondWith((async()=>{try{const live=new URL(e.request.url);live.searchParams.set("ajr","635");live.searchParams.set("__t",Date.now().toString());const r=await fetch(live.toString(),{cache:"no-store",credentials:"same-origin"});if(r.ok){const c=await caches.open(CACHE);c.put("./index.html?ajr=635",r.clone()).catch(()=>{});return r}}catch(_){}return(await caches.match("./index.html?ajr=635"))||(await caches.match("./?ajr=635"))||Response.error()})());return;
+  e.respondWith((async()=>{try{const live=new URL(e.request.url);live.searchParams.set("ajr","636");live.searchParams.set("__t",Date.now().toString());const r=await fetch(live.toString(),{cache:"no-store",credentials:"same-origin"});if(r.ok){const c=await caches.open(CACHE);c.put("./index.html?ajr=636",r.clone()).catch(()=>{});return r}}catch(_){}return(await caches.match("./index.html?ajr=636"))||(await caches.match("./?ajr=636"))||Response.error()})());return;
  }
  if(u.origin===self.location.origin){e.respondWith((async()=>{try{return await fetch(e.request,{cache:"no-store"})}catch(_){return(await caches.match(e.request,{ignoreSearch:true}))||Response.error()}})())}
 });
