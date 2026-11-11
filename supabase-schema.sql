@@ -9,8 +9,13 @@ create table if not exists public.job_state (
   company text not null default '',
   title text not null default '',
   url text not null default '',
+  applied_at timestamptz,
   updated_at timestamptz not null default now()
 );
+
+-- Compatible upgrade for databases created before candidate timestamps existed.
+alter table public.job_state add column if not exists applied_at timestamptz;
+update public.job_state set applied_at = updated_at where applied = true and applied_at is null;
 
 alter table public.job_state enable row level security;
 
