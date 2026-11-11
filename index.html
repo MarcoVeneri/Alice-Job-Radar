@@ -364,7 +364,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 (function(){
   try{
     const u=new URL(location.href);
-    if(u.searchParams.get('ajr')!=='633'){u.searchParams.set('ajr','633');location.replace(u.toString());return;}
+    if(u.searchParams.get('ajr')!=='636'){u.searchParams.set('ajr','636');location.replace(u.toString());return;}
   }catch(e){}
 })();
 </script>
@@ -418,13 +418,13 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v6.35 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v6.36 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.35",sync:{enabled:false}};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.36",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],REMOTE_ROWS=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -591,10 +591,15 @@ function counts(){
  ui.stHot.textContent=visible.filter(x=>x.score>=9).length;
  ui.stApplied.textContent=visible.filter(x=>isApplied(x.id)).length;
 }
+function normalizeSearch(v){return String(v||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim()}
 function match(j){
  if(isDismissed(j.id))return false;
- const q=ui.q.value.trim().toLowerCase();
- if(q && ![j.company,j.title,j.location,j.category,j.summary,j.salary,j.contract].join(" ").toLowerCase().includes(q))return false;
+ const q=normalizeSearch(ui.q.value);
+ if(q){
+  const r=remoteRow(j.id);
+  const haystack=normalizeSearch([j.company,j.title,j.location,j.category,j.summary,j.salary,j.contract,j.workMode,r&&r.company,r&&r.title].join(" "));
+  if(!q.split(/\s+/).every(term=>haystack.includes(term)))return false;
+ }
  if(filter!=="Tutte" && j.category!==filter)return false;
  if(savedOnly && !isSaved(j.id) && !isApplied(j.id))return false;
  if(statFilter==="Nuove" && !isNew(j))return false;
@@ -745,6 +750,7 @@ async function load(){ ui.notice.classList.remove('show');
 }
 if(ui.refreshBtn)ui.refreshBtn.addEventListener("click",()=>load());
 ui.q.addEventListener('input',render);
+ui.q.addEventListener('search',render);
 ui.filters.addEventListener('click',e=>{
  const b=e.target.closest('.tab'); if(!b)return;
  filter=b.dataset.filter; document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b)); render();
@@ -756,8 +762,34 @@ document.querySelectorAll(".stat").forEach(el=>el.addEventListener("click",()=>{
  render();
 }));
 ui.navHome.addEventListener("click",()=>{savedOnly=false;searchOpen=false;ui.searchRow.classList.remove("searchVisible");ui.q.blur();ui.q.value="";resetTopFilters();setNavActive("home");render();window.scrollTo({top:0,behavior:"smooth"})});
-ui.navSearch.addEventListener("click",()=>{savedOnly=false;searchOpen=!searchOpen;ui.searchRow.classList.toggle("searchVisible",searchOpen);setNavActive(searchOpen?"search":"home");if(searchOpen){setTimeout(()=>ui.q.focus({preventScroll:true}),80)}else{ui.q.blur();ui.q.value="";render();setTimeout(()=>window.scrollTo({top:window.scrollY,behavior:"auto"}),60)}});
-ui.navSaved.addEventListener("click",()=>{savedOnly=!savedOnly;searchOpen=false;ui.searchRow.classList.remove("searchVisible");ui.q.blur();ui.q.value="";if(savedOnly){resetTopFilters();setNavActive("saved")}else setNavActive("home");render()});
+ui.navSearch.addEventListener("click",()=>{
+ savedOnly=false;
+ searchOpen=!searchOpen;
+ resetTopFilters();
+ ui.searchRow.classList.toggle("searchVisible",searchOpen);
+ setNavActive(searchOpen?"search":"home");
+ if(!searchOpen){ui.q.blur();ui.q.value=""}
+ render();
+ if(searchOpen){
+  // Search lives at the top while navigation is at the bottom:
+  // move the viewport to the input before opening the keyboard.
+  window.scrollTo({top:0,behavior:"auto"});
+  setTimeout(()=>{
+   ui.searchRow.scrollIntoView({behavior:"auto",block:"start"});
+   ui.q.focus({preventScroll:true});
+  },60);
+ }
+});
+ui.navSaved.addEventListener("click",()=>{
+ savedOnly=!savedOnly;
+ searchOpen=false;
+ ui.searchRow.classList.remove("searchVisible");
+ ui.q.blur();ui.q.value="";
+ resetTopFilters();
+ setNavActive(savedOnly?"saved":"home");
+ render();
+ window.scrollTo({top:0,behavior:"auto"});
+});
 function positionEncourage(){
  const el=document.querySelector(".encourage");
  const title=document.querySelector("h1");
@@ -814,11 +846,11 @@ setInterval(watchDayChange,15000);
 setInterval(()=>{if(document.visibilityState==="visible")load()},5*60*1000);
 })();
 </script>
-<script id="alice-sw-635">
+<script id="alice-sw-636">
 if('serviceWorker' in navigator){
   window.addEventListener('load',async()=>{
     try{
-      const r=await navigator.serviceWorker.register('./sw.js?v=635',{updateViaCache:'none'});
+      const r=await navigator.serviceWorker.register('./sw.js?v=636',{updateViaCache:'none'});
       await r.update();
     }catch(e){}
   });
