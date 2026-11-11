@@ -418,13 +418,13 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v6.34 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v6.35 · aggiornamento automatico 08:00 / 15:00</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.34",sync:{enabled:false}};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.35",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],REMOTE_ROWS=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -467,6 +467,7 @@ function jobRow(id,patch={}){
   status:patch.status!==undefined?patch.status:(r.status||"Nuova"),
   saved:patch.saved!==undefined?patch.saved:!!r.saved,
   applied:patch.applied!==undefined?patch.applied:!!r.applied,
+  applied_at:patch.applied_at!==undefined?patch.applied_at:(r.applied_at||null),
   dismissed:patch.dismissed!==undefined?patch.dismissed:!!r.dismissed,
   dismissed_at:patch.dismissed_at!==undefined?patch.dismissed_at:(r.dismissed_at||null),
   company:(j&&j.company)||r.company||"",
@@ -476,7 +477,7 @@ function jobRow(id,patch={}){
  };
 }
 async function remoteRows(){
- const r=await fetch(syncEndpoint("?select=job_id,status,saved,applied,dismissed,dismissed_at,company,title,url,updated_at"),{
+ const r=await fetch(syncEndpoint("?select=job_id,status,saved,applied,applied_at,dismissed,dismissed_at,company,title,url,updated_at"),{
   headers:syncHeaders(),cache:"no-store"
  });
  if(!r.ok)throw Error("sync read "+r.status);
@@ -559,7 +560,7 @@ function syncWriteFailed(){
 async function toggleApplied(id){
  const next=!isApplied(id);
  try{
-  await writeJob(id,next?{applied:true,saved:true}:{applied:false});
+  await writeJob(id,next?{applied:true,saved:true,applied_at:new Date().toISOString()}:{applied:false,applied_at:null});
   render();
  }catch(e){syncWriteFailed()}
 }
@@ -612,6 +613,16 @@ function initials(name){
 function render(){
  counts();
  const arr=DATA.filter(match).sort((a,b)=>{
+  // Candidate lists use the time the candidate was marked, not match score.
+  if(statFilter==="Candidata" || savedOnly){
+   const ra=remoteRow(a.id),rb=remoteRow(b.id);
+   const ta=Date.parse((ra&&ra.applied&&ra.applied_at)||((ra&&ra.applied&&ra.updated_at)||""))||0;
+   const tb=Date.parse((rb&&rb.applied&&rb.applied_at)||((rb&&rb.applied&&rb.updated_at)||""))||0;
+   if(statFilter==="Candidata")return tb-ta || b.score-a.score;
+   const sa=ta||(Date.parse((ra&&ra.updated_at)||"")||0);
+   const sb=tb||(Date.parse((rb&&rb.updated_at)||"")||0);
+   return sb-sa || b.score-a.score;
+  }
   if(statFilter==="Nuove"){
    const ta=Date.parse(a.firstSeenAt||"")||0, tb=Date.parse(b.firstSeenAt||"")||0;
    return tb-ta || b.score-a.score || String(b.date||"").localeCompare(String(a.date||""));
@@ -803,11 +814,11 @@ setInterval(watchDayChange,15000);
 setInterval(()=>{if(document.visibilityState==="visible")load()},5*60*1000);
 })();
 </script>
-<script id="alice-sw-634">
+<script id="alice-sw-635">
 if('serviceWorker' in navigator){
   window.addEventListener('load',async()=>{
     try{
-      const r=await navigator.serviceWorker.register('./sw.js?v=634',{updateViaCache:'none'});
+      const r=await navigator.serviceWorker.register('./sw.js?v=635',{updateViaCache:'none'});
       await r.update();
     }catch(e){}
   });
