@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T09:39:33+01:00",
+  "generatedAt": "2026-11-11T15:29:28+01:00",
   "source": "Alice Job Radar V2 — MAX-COVERAGE 15:30",
   "jobs": [
     {
@@ -12683,6 +12683,35 @@
         "completedAt": "2026-11-11T09:39:33+01:00",
         "finalReadbackVerifiedAt": "2026-11-11T09:42:07+01:00",
         "pwaDataVerified": true
+      },
+      "15:30": {
+        "scheduledFor": "2026-11-11T15:30:00+01:00",
+        "startedAt": "2026-11-11T15:29:28+01:00",
+        "status": "in_progress",
+        "checkpoint": "",
+        "checkpointVerified": false,
+        "requiredSourcesTotal": 182,
+        "sourceUniverseTotal": 234,
+        "directSourcesChecked": [],
+        "siteRestrictedSourcesChecked": [],
+        "indexedFallbackSourcesChecked": [],
+        "sourcesUnavailable": [],
+        "requiredSourcesChecked": [],
+        "sourcesExplored": [],
+        "directSourcesCount": 0,
+        "siteRestrictedSourcesCount": 0,
+        "indexedFallbackSourcesCount": 0,
+        "queriesRun": 0,
+        "newJobs": 0,
+        "activeJobs": 201,
+        "searchLog": [],
+        "notes": [
+          "Delta dalle 09:30 e secondo sweep obbligatorio in corso su Tier A, fonti produttive, fonti zero-result e fallback indicizzato trasversale."
+        ],
+        "finalReadbackPending": true,
+        "completedAt": "",
+        "finalReadbackVerifiedAt": "",
+        "pwaDataVerified": false
       }
     }
   },
