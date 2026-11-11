@@ -615,9 +615,31 @@ function initials(name){
  const parts=clean.split(/\\s+/).filter(Boolean).slice(0,2);
  return parts.map(x=>x[0]||'').join('').toUpperCase()||'AJ';
 }
+function searchRelevance(j,q){
+ const company=normalizeSearch(j.company),title=normalizeSearch(j.title);
+ if(company===q)return 120;
+ if(company.startsWith(q))return 110;
+ if(company.includes(q))return 100;
+ if(title.startsWith(q))return 90;
+ if(title.includes(q))return 80;
+ if(normalizeSearch(j.location).includes(q))return 60;
+ if(normalizeSearch(j.category).includes(q))return 50;
+ return 10;
+}
 function render(){
  counts();
  const arr=DATA.filter(match).sort((a,b)=>{
+  const searchTerm=searchOpen?normalizeSearch(ui.q.value):"";
+  if(searchTerm){
+   const relevance=searchRelevance(b,searchTerm)-searchRelevance(a,searchTerm);
+   if(relevance)return relevance;
+   const appliedDiff=Number(isApplied(b.id))-Number(isApplied(a.id));
+   if(appliedDiff)return appliedDiff;
+   const ra=remoteRow(a.id),rb=remoteRow(b.id);
+   const ta=Date.parse((ra&&(ra.applied_at||ra.updated_at))||"")||0;
+   const tb=Date.parse((rb&&(rb.applied_at||rb.updated_at))||"")||0;
+   return tb-ta||b.score-a.score;
+  }
   // Candidate lists use the time the candidate was marked, not match score.
   if(statFilter==="Candidata" || savedOnly){
    const ra=remoteRow(a.id),rb=remoteRow(b.id);
