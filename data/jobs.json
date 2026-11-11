@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T15:39:30+01:00",
+  "generatedAt": "2026-11-11T15:43:53+01:00",
   "source": "Alice Job Radar V2 — MAX-COVERAGE 15:30",
   "jobs": [
     {
@@ -15847,12 +15847,12 @@
           "Deduplica eseguita dopo la discovery completa su ruolo, azienda, sede e URL; mantenute distinte le due vacancy Adecco spedizioni per differente riferimento e formula contrattuale.",
           "Aggiunte al catalogo 4 fonti aziendali/ATS scoperte e produttive; nessuna fonte improduttiva eliminata.",
           "Nessuna candidatura, email o messaggio inviato.",
-          "Rilettura finale GitHub e verifica PWA ancora da completare nel passaggio conclusivo."
+          "Rilettura finale GitHub completata: JSON validi, conteggi coerenti, 238 fonti coperte con categorie disgiunte, guardrail superati e PWA ancora collegata a data/jobs.json."
         ],
-        "finalReadbackPending": true,
+        "finalReadbackPending": false,
         "completedAt": "2026-11-11T15:39:30+01:00",
-        "finalReadbackVerifiedAt": "",
-        "pwaDataVerified": false
+        "finalReadbackVerifiedAt": "2026-11-11T15:43:53+01:00",
+        "pwaDataVerified": true
       }
     }
   },
