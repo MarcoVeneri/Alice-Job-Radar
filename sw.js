@@ -1,7 +1,7 @@
-const VERSION="633";
-const CACHE=`alice-job-radar-native-v${VERSION}-recovery5`;
-const SHELL=["./?ajr=633","./index.html?ajr=633","./config.js?v=633","./audit-fix.js?v=20261013-633","./manifest.webmanifest?v=633","./icon.svg?v=633"];
-function fresh(url){const u=new URL(url,self.registration.scope);u.searchParams.set("__ajr","recovery5");u.searchParams.set("__t",Date.now().toString());return fetch(u.toString(),{cache:"no-store",credentials:"same-origin"})}
+const VERSION="634";
+const CACHE=`alice-job-radar-native-v${VERSION}-savedfix1`;
+const SHELL=["./?ajr=634","./index.html?ajr=634","./config.js?v=634","./audit-fix.js?v=20261111-634","./manifest.webmanifest?v=634","./icon.svg?v=634"];
+function fresh(url){const u=new URL(url,self.registration.scope);u.searchParams.set("__ajr","savedfix1");u.searchParams.set("__t",Date.now().toString());return fetch(u.toString(),{cache:"no-store",credentials:"same-origin"})}
 async function mergedJobs(request){
  const r=await fetch(request,{cache:"no-store"});
  if(!r.ok)return r;
@@ -28,7 +28,7 @@ self.addEventListener("fetch",e=>{
   e.respondWith((async()=>{try{const merged=await mergedJobs(e.request);if(merged.ok){const c=await caches.open(CACHE);c.put("./data/jobs.json",merged.clone()).catch(()=>{})}return merged}catch(_){return(await caches.match("./data/jobs.json"))||Response.error()}})());return;
  }
  if(e.request.mode==="navigate"){
-  e.respondWith((async()=>{try{const live=new URL(e.request.url);live.searchParams.set("ajr","633");live.searchParams.set("__t",Date.now().toString());const r=await fetch(live.toString(),{cache:"no-store",credentials:"same-origin"});if(r.ok){const c=await caches.open(CACHE);c.put("./index.html?ajr=633",r.clone()).catch(()=>{});return r}}catch(_){}return(await caches.match("./index.html?ajr=633"))||(await caches.match("./?ajr=633"))||Response.error()})());return;
+  e.respondWith((async()=>{try{const live=new URL(e.request.url);live.searchParams.set("ajr","633");live.searchParams.set("__t",Date.now().toString());const r=await fetch(live.toString(),{cache:"no-store",credentials:"same-origin"});if(r.ok){const c=await caches.open(CACHE);c.put("./index.html?ajr=634",r.clone()).catch(()=>{});return r}}catch(_){}return(await caches.match("./index.html?ajr=634"))||(await caches.match("./?ajr=634"))||Response.error()})());return;
  }
  if(u.origin===self.location.origin){e.respondWith((async()=>{try{return await fetch(e.request,{cache:"no-store"})}catch(_){return(await caches.match(e.request,{ignoreSearch:true}))||Response.error()}})())}
 });
