@@ -371,10 +371,10 @@
       "attempts": 82,
       "directAttempts": 5,
       "lastCheckedAt": "2026-11-11T09:39:33+01:00",
-      "zeroResultStreak": 8,
-      "validVacancies": 7,
-      "newVacancies": 7,
-      "lastProductiveAt": "2026-11-05T16:15:00+01:00"
+      "zeroResultStreak": 0,
+      "validVacancies": 11,
+      "newVacancies": 11,
+      "lastProductiveAt": "2026-11-11T09:39:33+01:00"
     },
     {
       "name": "Manpower Italia",
@@ -407,10 +407,10 @@
       "attempts": 90,
       "directAttempts": 13,
       "lastCheckedAt": "2026-11-11T09:39:33+01:00",
-      "zeroResultStreak": 24,
-      "validVacancies": 4,
-      "newVacancies": 4,
-      "lastProductiveAt": "2026-10-27T10:20:00+01:00"
+      "zeroResultStreak": 0,
+      "validVacancies": 5,
+      "newVacancies": 5,
+      "lastProductiveAt": "2026-11-11T09:39:33+01:00"
     },
     {
       "name": "Hays Italia",
@@ -499,9 +499,9 @@
       "directAttempts": 30,
       "lastCheckedAt": "2026-11-11T09:39:33+01:00",
       "zeroResultStreak": 0,
-      "validVacancies": 6,
-      "newVacancies": 6,
-      "lastProductiveAt": "2026-11-09T16:12:00+01:00"
+      "validVacancies": 8,
+      "newVacancies": 8,
+      "lastProductiveAt": "2026-11-11T09:39:33+01:00"
     },
     {
       "name": "Synergie Italia",
@@ -2499,10 +2499,10 @@
       "attempts": 25,
       "directAttempts": 15,
       "lastCheckedAt": "2026-11-11T09:39:33+01:00",
-      "validVacancies": 3,
-      "newVacancies": 3,
-      "zeroResultStreak": 1,
-      "lastProductiveAt": "2026-11-09T09:37:00+01:00"
+      "validVacancies": 4,
+      "newVacancies": 4,
+      "zeroResultStreak": 0,
+      "lastProductiveAt": "2026-11-11T09:39:33+01:00"
     },
     {
       "name": "DIME Careers / Indeed",
@@ -2711,11 +2711,11 @@
       "url": "https://careers.gruppoflorence.it/job/view-job.php?id=627-back-office-commerciale-business-development-chiesina-uzzanese&language=en",
       "attempts": 9,
       "directAttempts": 7,
-      "validVacancies": 1,
-      "newVacancies": 1,
-      "zeroResultStreak": 3,
+      "validVacancies": 2,
+      "newVacancies": 2,
+      "zeroResultStreak": 0,
       "lastCheckedAt": "2026-11-11T09:39:33+01:00",
-      "lastProductiveAt": "2026-11-08T10:18:00+01:00",
+      "lastProductiveAt": "2026-11-11T09:39:33+01:00",
       "knownUrls": [
         "https://careers.gruppoflorence.it/jobs.php?hide_filters=1&page=1&sector=87"
       ]
@@ -2743,11 +2743,11 @@
       "url": "https://it.indeed.com/viewjob?jk=60472ee0034a53a9",
       "attempts": 9,
       "directAttempts": 7,
-      "validVacancies": 1,
-      "newVacancies": 1,
-      "zeroResultStreak": 3,
+      "validVacancies": 2,
+      "newVacancies": 2,
+      "zeroResultStreak": 0,
       "lastCheckedAt": "2026-11-11T09:39:33+01:00",
-      "lastProductiveAt": "2026-11-08T10:18:00+01:00"
+      "lastProductiveAt": "2026-11-11T09:39:33+01:00"
     },
     {
       "name": "RevenueCat Careers / Ashby",
