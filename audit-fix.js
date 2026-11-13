@@ -106,7 +106,7 @@ function syncLabels(){
   if(morning)morning.textContent="09:30";
   if(afternoon)afternoon.textContent="15:30";
   const footer=document.querySelector(".footer");
-  if(footer)footer.textContent="Alice Job Radar · PWA v6.33 · aggiornamento automatico 09:30 / 15:30";
+  if(footer)footer.textContent="Alice Job Radar · PWA v6.36 · aggiornamento automatico 09:30 / 15:30";
 }
 function runLabel(a){
   const jobs=a.newJobs===1?"1 nuova":`${a.newJobs} nuove`;
@@ -137,7 +137,8 @@ function paint(audit){
     el.title=`${a.complete} fonti complete · ${a.explored} fonti esplorate · ${a.queries} controlli reali`;
     if(r.status==="failed"){
       box.classList.add("failed");
-      el.textContent=`Non completata · ${detail}`;
+      el.textContent="Ricerca automatica fallita";
+      el.title="La ricerca delle "+slot+" non ha prodotto un aggiornamento; il recupero manuale è mostrato separatamente.";
     }else if(r.status==="running"||r.status==="in_progress"){
       box.classList.add("partial");
       el.textContent=`In corso · ${detail}`;
@@ -145,6 +146,31 @@ function paint(audit){
       box.classList.add(a.explored>=a.total?"ok":"partial");
       el.textContent=detail;
     }
+  }
+  // The failed 09:30 slot must not be conflated with verified manual recovery.
+  const recovery=(audit&&audit.date===todayKey()&&audit.runs)?audit.runs.manual_recovery:null;
+  const section=document.querySelector(".runAudit");
+  let panel=document.getElementById("runRecoveryBox");
+  if(recovery&&section){
+    if(!panel){
+      panel=document.createElement("div");
+      panel.id="runRecoveryBox";
+      panel.className="runChip partial";
+      panel.style.gridColumn="1 / -1";
+      const header=document.createElement("strong");
+      header.textContent="Recupero";
+      const summary=document.createElement("span");
+      summary.className="runSummary";
+      panel.append(header,summary);
+      section.appendChild(panel);
+    }
+    const count=finiteCount(recovery.newJobs)??0;
+    const checks=finiteCount(recovery.queriesRun)??0;
+    const jobLabel=count===1?"1 nuova offerta":count+" nuove offerte";
+    panel.querySelector(".runSummary").textContent=jobLabel+" · "+checks+" verifiche mirate · parziale";
+    panel.title="Recupero mirato eseguito dopo il fallimento della ricerca automatica; non equivale alla scansione completa di tutte le fonti.";
+  }else if(panel){
+    panel.remove();
   }
 }
 
