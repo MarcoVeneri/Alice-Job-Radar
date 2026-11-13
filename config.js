@@ -10,7 +10,7 @@ window.ALICE_RADAR_CONFIG={
 };
 (()=>{
   const s=document.createElement("script");
-  s.src="./audit-fix.js?v=20261021-sources-real";
+  s.src="./audit-fix.js?v=20261113-recoveryfix";
   s.async=true;
   document.head.appendChild(s);
 })();
