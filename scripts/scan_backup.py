@@ -247,9 +247,22 @@ def main():
            "activeJobs": sum(j.get("active", True) is not False for j in old),
            "searchLog": logs + regional_logs, "note": "Nationwide 20-region indexed search attempts plus public feeds; regional listing searches do NOT verify individual vacancies. Partial coverage, not a full scan of all providers."}
     existing = data["audit"].setdefault("runs", {}).get(slot)
-    if existing is not None and slot == "automated_fallback":
-        data["audit"]["runs"]["automated_fallback_previous"] = existing
-    data["audit"]["runs"][slot] = run
+    # Keep a more thorough scan published by the ChatGPT automation: this
+    # 5-provider fallback must not erase its research on the same slot.
+    if slot in ("09:30", "15:30") and isinstance(existing, dict) and existing.get("status") in ("partial", "complete"):
+        old_source_count = existing.get("requiredSourcesChecked", existing.get("sourcesExplored", 0))
+        new_source_count = run.get("requiredSourcesChecked", 0)
+        if existing.get("status") == "complete" or (
+            isinstance(old_source_count, (int, float)) and old_source_count > new_source_count
+        ):
+            data["audit"]["runs"]["automated_fallback"] = run
+            print(f"Preserved stronger {slot} scan; recorded feed backup separately")
+        else:
+            data["audit"]["runs"][slot] = run
+    else:
+        if existing is not None and slot == "automated_fallback":
+            data["audit"]["runs"]["automated_fallback_previous"] = existing
+        data["audit"]["runs"][slot] = run
     if successes or found_accessible:
         data["generatedAt"] = now
     data["manualRefresh"] = data.get("manualRefresh")  # do not alter separate manual scan
