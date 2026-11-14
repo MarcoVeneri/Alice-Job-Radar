@@ -48,10 +48,16 @@ def combine(latest, scanned):
             old_runs = dict(la.get("runs") or {})
             for slot, run in (sa.get("runs") or {}).items():
                 old_run = old_runs.get(slot)
-                if old_run is None or strength(run) > strength(old_run):
+                if slot == "automated_fallback" and isinstance(old_run, dict):
+                    # For repeated checks, the newest actual run owns the visible status;
+                    # "newJobs" is not a measure of freshness.
+                    if str(run.get("completedAt", "")) > str(old_run.get("completedAt", "")):
+                        old_runs["automated_fallback_previous"] = old_run
+                        old_runs[slot] = run
+                    elif run != old_run:
+                        old_runs.setdefault("automated_fallback_previous", run)
+                elif old_run is None or strength(run) > strength(old_run):
                     old_runs[slot] = run
-                elif slot == "automated_fallback" and run != old_run:
-                    old_runs.setdefault("automated_fallback_previous", run)
             merged["runs"] = old_runs
             out["audit"] = merged
     old_ts = str(out.get("generatedAt", ""))
@@ -78,6 +84,9 @@ def self_test():
     assert merged["audit"]["runs"]["15:30"]["status"] == "complete"
     assert merged["audit"]["runs"]["automated_fallback"]["status"] == "partial"
     assert merged["generatedAt"] == latest["generatedAt"]
+    latest["audit"]["runs"]["automated_fallback"]={"status":"partial","completedAt":"2026-11-14T11:00:00Z","newJobs":10}
+    scan["audit"]["runs"]["automated_fallback"]={"status":"partial","completedAt":"2026-11-14T11:30:00Z","newJobs":0}
+    assert combine(latest,scan)["audit"]["runs"]["automated_fallback"]["newJobs"] == 0
     print("Concurrent update merge self-test: OK")
 
 if __name__ == "__main__":
