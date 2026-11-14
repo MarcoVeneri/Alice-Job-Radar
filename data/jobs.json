@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T10:21:24.588Z",
+  "generatedAt": "2026-11-14T10:25:16.889880Z",
   "source": "Alice Job Radar V2 — MAX-COVERAGE 15:30",
   "jobs": [
     {
@@ -10603,6 +10603,73 @@
           }
         ],
         "note": "Ricerca mirata su annunci specifici: non equivale a una scansione completa. L'automazione 09:30 ha fallito, audit storico preservato."
+      },
+      "automated_fallback": {
+        "scheduledFor": "2026-11-14T10:25:16.889880Z",
+        "startedAt": "2026-11-14T10:25:16.889880Z",
+        "completedAt": "2026-11-14T10:25:20.108967Z",
+        "status": "partial",
+        "coverageMode": "fallback_public_feeds",
+        "requiredSourcesTotal": 238,
+        "requiredSourcesChecked": 4,
+        "sourcesExplored": 4,
+        "sourcesChecked": [
+          "Jobicy",
+          "Jobicy-anywhere",
+          "Arbeitnow",
+          "Remotive"
+        ],
+        "directSourcesChecked": [],
+        "siteRestrictedSourcesChecked": [],
+        "indexedFallbackSourcesChecked": [
+          "Jobicy",
+          "Jobicy-anywhere",
+          "Arbeitnow",
+          "Remotive"
+        ],
+        "sourcesUnavailable": [],
+        "queriesRun": 4,
+        "newJobs": 0,
+        "activeJobs": 227,
+        "searchLog": [
+          {
+            "source": "Jobicy",
+            "method": "public_feed_api",
+            "checkedAt": "2026-11-14T10:25:16.893387+00:00",
+            "outcome": "success: 100 raw postings",
+            "evidenceUrls": [
+              "https://jobicy.com/api/jobs?count=200&geo=europe"
+            ]
+          },
+          {
+            "source": "Jobicy-anywhere",
+            "method": "public_feed_api",
+            "checkedAt": "2026-11-14T10:25:18.138517+00:00",
+            "outcome": "success: 21 raw postings",
+            "evidenceUrls": [
+              "https://jobicy.com/api/jobs?count=200&geo=anywhere"
+            ]
+          },
+          {
+            "source": "Arbeitnow",
+            "method": "public_feed_api",
+            "checkedAt": "2026-11-14T10:25:19.079531+00:00",
+            "outcome": "success: 300 raw postings",
+            "evidenceUrls": [
+              "https://www.arbeitnow.com/api/job-board-api?page=1"
+            ]
+          },
+          {
+            "source": "Remotive",
+            "method": "public_feed_api",
+            "checkedAt": "2026-11-14T10:25:19.608625+00:00",
+            "outcome": "success: 16 raw postings",
+            "evidenceUrls": [
+              "https://remotive.com/api/remote-jobs?limit=200"
+            ]
+          }
+        ],
+        "note": "Automatic public-feed backup, not a complete national web scan."
       }
     }
   },
