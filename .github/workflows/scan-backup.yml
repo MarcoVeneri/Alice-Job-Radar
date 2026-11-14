@@ -28,6 +28,26 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Validate Python, data, and frontend JavaScript
+        shell: bash
+        run: |
+          python -m py_compile scripts/scan_backup.py
+          python -m json.tool data/jobs.json >/dev/null
+          node --check config.js
+          node --check sw.js
+          node --check audit-fix.js
+          python - <<'PY'
+          import re, subprocess
+          from pathlib import Path
+          doc = Path("index.html").read_text()
+          chunks = re.findall(r'<script\b[^>]*>(.*?)</script>', doc, re.S | re.I)
+          for i, js in enumerate(chunks):
+              if js.strip():
+                  path = Path(f"/tmp/alice-check-{i}.js")
+                  path.write_text(js)
+                  subprocess.run(["node", "--check", str(path)], check=True)
+          print("Frontend scripts syntax OK")
+          PY
       - name: Run verified public feed fallback
         run: python scripts/scan_backup.py
       - name: Commit changed jobs only
