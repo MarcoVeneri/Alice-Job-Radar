@@ -102,6 +102,14 @@ def _check_listing(task):
                 hrefs = re.findall(r'href\s*=\s*"([^"]+)"', page, re.I) + re.findall(r"href\s*=\s*'([^']+)'", page, re.I)
                 samples = [u for u in hrefs if "/offerta-" in u][:4]
                 print("Jobsora individual link samples: " + repr(samples))
+                print("Jobsora first article fragment: " + repr(page[page.find("<article"):page.find("<article")+1700]))
+                for posting_link in samples[:1]:
+                    try:
+                        detail = urllib.request.urlopen(urllib.request.Request(posting_link, headers={"User-Agent":"Mozilla/5.0"}), timeout=7)
+                        print("Jobsora vacancy check: " + repr((detail.status, detail.geturl(), detail.read(300).decode("utf-8","replace"))))
+                    except Exception as e:
+                        print("Jobsora vacancy check blocked: " + repr(str(e)[:180]))
+
                 marker = page.find("/offerta-")
                 print("Jobsora first-link HTML context: " + repr(page[max(0, marker-650):marker+350]))
                 print("Jobsora listing HTML markers: " + repr({
