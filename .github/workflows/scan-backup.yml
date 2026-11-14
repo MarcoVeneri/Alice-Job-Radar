@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/scan_backup.py'
+      - 'scripts/merge_scan_result.py'
       - '.github/workflows/scan-backup.yml'
 
 permissions:
@@ -31,7 +32,8 @@ jobs:
       - name: Validate Python, data, and frontend JavaScript
         shell: bash
         run: |
-          python -m py_compile scripts/scan_backup.py
+          python -m py_compile scripts/scan_backup.py scripts/merge_scan_result.py
+          python scripts/merge_scan_result.py --self-test
           python -m json.tool data/jobs.json >/dev/null
           node --check config.js
           node --check sw.js
@@ -48,7 +50,7 @@ jobs:
                   subprocess.run(["node", "--check", str(path)], check=True)
           print("Frontend scripts syntax OK")
           PY
-      - name: Run verified public feed fallback
+      - name: Run national 20-region scan and public job feeds
         run: python scripts/scan_backup.py
       - name: Commit changed jobs only
         shell: bash
@@ -60,5 +62,28 @@ jobs:
             echo "No data change - source endpoints unavailable."
             exit 0
           fi
-          git commit -m "Alice Job Radar backup: verified public feeds checkpoint"
-          git push origin HEAD:main
+          git commit -m "Alice Radar national backup: verified 20-region search checkpoint"
+          if git push origin HEAD:main; then
+            echo "Scan published successfully on first attempt."
+            exit 0
+          fi
+          cp data/jobs.json /tmp/alice-scan-result.json
+          for attempt in 1 2 3; do
+            echo "Concurrent update: preserve latest saved jobs and reapply scan (attempt $attempt)."
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/merge_scan_result.py /tmp/alice-scan-result.json data/jobs.json
+            git add data/jobs.json
+            if git diff --cached --quiet; then
+              echo "Latest branch already contains this scan."
+              exit 0
+            fi
+            git commit -m "Alice Radar national backup: merge concurrent scan without dropping data"
+            if git push origin HEAD:main; then
+              echo "Concurrent scan successfully merged and published."
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "ERROR: Failed to publish scan after three conflict-safe retries." >&2
+          exit 1
