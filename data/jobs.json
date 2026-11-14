@@ -1,7 +1,161 @@
 {
-  "generatedAt": "2026-11-13T11:46:07.678Z",
+  "generatedAt": "2026-11-14T10:21:24.588Z",
   "source": "Alice Job Radar V2 — MAX-COVERAGE 15:30",
   "jobs": [
+    {
+      "id": "allegion-pmo-leader-jr37078",
+      "company": "Allegion",
+      "title": "Project Management Office Leader",
+      "location": "Faenza (RA)",
+      "category": "Project Support / PMO",
+      "url": "https://allegion.wd5.myworkdayjobs.com/en-US/careers/job/Head-of-Project-Management-Office_JR37078-2",
+      "workMode": "In presenza / da verificare",
+      "contract": "Full time · CCNL Metalmeccanici",
+      "salary": "RAL €80.000–100.000 + bonus 10–15%",
+      "remote": false,
+      "score": 6.4,
+      "summary": "Guida un team PM e processi di governance e delivery internazionale. Coordinamento Italia, Francia e Regno Unito.",
+      "checks": [
+        "Annuncio specifico sul sistema di candidatura Workday di Allegion con pulsante Apply rilevato dalla pagina indicizzata, ricontrollare live prima di candidarsi.",
+        "Richiede seniority di gestione PMO, inglese fluente e disponibilità trasferte fino al 25%.",
+        "Retribuzione elevata ma ruolo di leadership specialistica."
+      ],
+      "source": "Allegion Careers / Workday",
+      "postedAt": "",
+      "active": true,
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T10:21:24.588Z",
+      "firstSeenRun": "14/11/2026 · Scansione manuale",
+      "verifiedAt": "2026-11-14T10:21:24.588Z"
+    },
+    {
+      "id": "castelfalfi-finance-transformation-projects-specialist-4476165289",
+      "company": "Castelfalfi",
+      "title": "Finance Transformation & Projects Specialist",
+      "location": "Montaione / Castelfalfi (FI)",
+      "category": "Project Support / Operations",
+      "url": "https://it.linkedin.com/jobs/view/finance-transformation-projects-specialist-at-castelfalfi-4476165289",
+      "workMode": "In presenza (da confermare)",
+      "contract": "Full time · CCNL Turismo",
+      "salary": "RAL da €35.000",
+      "remote": false,
+      "score": 7.6,
+      "summary": "Progetti di trasformazione Finance, report, ERP, qualità dati, miglioramento processi e automazione con Excel e Power Platform.",
+      "checks": [
+        "Pagina specifica LinkedIn raggiungibile con opzione di candidatura il 14/11/2026.",
+        "Richiede 3-5 anni in Finance/Accounting/Controlling; profilo specializzato da valutare."
+      ],
+      "source": "LinkedIn Jobs",
+      "postedAt": "",
+      "active": true,
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T10:21:24.588Z",
+      "firstSeenRun": "14/11/2026 · Scansione manuale",
+      "verifiedAt": "2026-11-14T10:21:24.588Z"
+    },
+    {
+      "id": "politecnica-proposal-specialist-4485079207",
+      "company": "Politecnica",
+      "title": "Proposal Specialist – Settore Gare",
+      "location": "Milano o Modena (non Firenze)",
+      "category": "Tender",
+      "url": "https://it.linkedin.com/jobs/view/proposal-specialist-at-politecnica-4485079207",
+      "workMode": "Ibrido",
+      "contract": "Full time · partita IVA richiesta",
+      "salary": "Non indicata",
+      "remote": false,
+      "score": 8,
+      "summary": "Preparazione di offerte tecniche e documentazione di gara pubblica e privata; coordinamento partner, progettisti e scadenze.",
+      "checks": [
+        "Annuncio LinkedIn indicizzato di recente; apertura diretta durante il controllo limitata (HTTP 429): candidabilità da riconfermare.",
+        "Attenzione: LinkedIn lo etichetta Firenze, ma il testo specifica Milano/Modena.",
+        "Richiesta partita IVA e ottima conoscenza dell'inglese."
+      ],
+      "source": "LinkedIn Jobs (verifica limitata)",
+      "postedAt": "",
+      "active": true,
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T10:21:24.588Z",
+      "firstSeenRun": "14/11/2026 · Scansione manuale",
+      "verifiedAt": "2026-11-14T10:21:24.588Z"
+    },
+    {
+      "id": "openjobmetis-tecnico-commerciale-figline-141781",
+      "company": "Openjobmetis (azienda metalmeccanica cliente)",
+      "title": "Impiegato/a Tecnico Commerciale",
+      "location": "Figline e Incisa Valdarno (FI)",
+      "category": "Sales Support",
+      "url": "https://openjobmetis.it/it/candidati/offerte-di-lavoro/impiegatoa-tecnico-commerciale-141781",
+      "workMode": "In presenza",
+      "contract": "Somministrazione a termine, finalizzata a stabilizzazione",
+      "salary": "RAL €25.000–30.000",
+      "remote": false,
+      "score": 8.1,
+      "summary": "Gestione ordini e documenti commerciali, supporto ufficio vendite e acquisti, contatti con clienti esteri in inglese.",
+      "checks": [
+        "Offerta n. 141781 verificata sulla pagina diretta Openjobmetis il 14/11/2026.",
+        "Richiede ottimo inglese e formazione tecnica preferenziale; retribuzione sotto il precedente obiettivo 35k."
+      ],
+      "source": "Openjobmetis",
+      "postedAt": "2026-11-10",
+      "active": true,
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T10:21:24.588Z",
+      "firstSeenRun": "14/11/2026 · Scansione manuale",
+      "verifiedAt": "2026-11-14T10:21:24.588Z"
+    },
+    {
+      "id": "adentis-pmo-supporto-applicativo-it-strategy-4485458989",
+      "company": "ADENTIS Italia",
+      "title": "PMO – Supporto Applicativo e IT Strategy",
+      "location": "Italia (full remote)",
+      "category": "Project Support / PMO",
+      "url": "https://it.linkedin.com/jobs/view/pmo-%E2%80%93-supporto-applicativo-e-it-strategy-at-adentis-italia-4485458989",
+      "workMode": "Full remote",
+      "contract": "Tempo indeterminato o partita IVA",
+      "salary": "RAL €24.000–30.000",
+      "remote": true,
+      "score": 8.7,
+      "summary": "Coordinamento PMO di progetti IT, monitoraggio servizi e scadenze, KPI e report, roadmap e raccordo con stakeholder e fornitori.",
+      "checks": [
+        "Pagina LinkedIn specifica accessibile e con pulsante candidatura il 14/11/2026.",
+        "Modalità full remote dichiarata nell'annuncio; verificare compatibilità con aspirazione RAL e seniority.",
+        "Inglese richiesto."
+      ],
+      "source": "LinkedIn Jobs",
+      "postedAt": "",
+      "active": true,
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T10:21:24.588Z",
+      "firstSeenRun": "14/11/2026 · Scansione manuale",
+      "verifiedAt": "2026-11-14T10:21:24.588Z"
+    },
+    {
+      "id": "praxi-commercial-operations-coordinator-4488523748",
+      "company": "PRAXI (cliente multinazionale)",
+      "title": "Commercial Operations Coordinator",
+      "location": "Provincia di Firenze",
+      "category": "Sales Support",
+      "url": "https://it.linkedin.com/jobs/view/commercial-operations-coordinator-at-praxi-4488523748",
+      "workMode": "In presenza (da confermare)",
+      "contract": "Tempo indeterminato · Full time",
+      "salary": "RAL €50.000–55.000",
+      "remote": false,
+      "score": 9.5,
+      "summary": "Coordina order management, customer service, procurement, supply chain, KPI e relazioni con clienti e fornitori per multinazionale B2B.",
+      "checks": [
+        "Annuncio specifico PRAXI aperto e candidabile durante la scansione del 14/11/2026.",
+        "Richiede esperienza commerciale/operations B2B, ERP, inglese solido e coordinamento cross-funzionale.",
+        "Sede nella provincia di Firenze; modalità ibrida non specificata."
+      ],
+      "source": "LinkedIn Jobs",
+      "postedAt": "2026-11-13",
+      "active": true,
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T10:21:24.588Z",
+      "firstSeenRun": "14/11/2026 · Scansione manuale",
+      "verifiedAt": "2026-11-14T10:21:24.588Z"
+    },
     {
       "date": "2026-11-13",
       "workMode": "Da verificare",
@@ -10354,15 +10508,110 @@
         "newJobs": 0,
         "error": "Automazione fallita prima della ricerca: nessuna fonte verificata e nessuna pubblicazione.",
         "evidence": "Automations run c8e50fa5-6cbc-832b-80dc-eabe168fbfba, status failed"
+      },
+      "manual_recovery": {
+        "scheduledFor": "2026-11-14T10:21:24.588Z",
+        "startedAt": "2026-11-14T10:21:24.588Z",
+        "completedAt": "2026-11-14T10:21:24.588Z",
+        "status": "partial",
+        "coverageMode": "manual_verified_web_sweep",
+        "requiredSourcesTotal": 238,
+        "sourcesChecked": [
+          "LinkedIn Jobs",
+          "Openjobmetis",
+          "Grafton Recruitment",
+          "Allegion careers / Workday",
+          "Indeed Italia",
+          "Gruppo Florence careers"
+        ],
+        "sourcesExplored": 6,
+        "requiredSourcesChecked": 6,
+        "directSourcesChecked": [
+          "Openjobmetis",
+          "Grafton Recruitment",
+          "Gruppo Florence careers"
+        ],
+        "siteRestrictedSourcesChecked": [
+          "LinkedIn Jobs",
+          "Allegion careers / Workday"
+        ],
+        "indexedFallbackSourcesChecked": [
+          "Indeed Italia"
+        ],
+        "sourcesUnavailable": [],
+        "queriesRun": 41,
+        "newJobs": 6,
+        "activeJobs": 227,
+        "searchLog": [
+          {
+            "source": "LinkedIn Jobs",
+            "method": "specific_vacancy_web",
+            "outcome": "Offerte PRAXI, ADENTIS, Castelfalfi verificate; Politecnica 429 e Universo chiuso escluso.",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/commercial-operations-coordinator-at-praxi-4488523748",
+              "https://it.linkedin.com/jobs/view/pmo-%E2%80%93-supporto-applicativo-e-it-strategy-at-adentis-italia-4485458989",
+              "https://it.linkedin.com/jobs/view/proposal-specialist-at-politecnica-4485079207",
+              "https://it.linkedin.com/jobs/view/finance-transformation-projects-specialist-at-castelfalfi-4476165289",
+              "https://it.linkedin.com/jobs/view/tecnico-ufficio-gare-senior-at-universo-4469712984"
+            ],
+            "checkedAt": "2026-11-14T10:21:24.588Z"
+          },
+          {
+            "source": "Openjobmetis",
+            "method": "direct_career_page",
+            "outcome": "Offerta 141781 individuata con dettagli e sede specifica.",
+            "evidenceUrls": [
+              "https://openjobmetis.it/it/candidati/offerte-di-lavoro/impiegatoa-tecnico-commerciale-141781"
+            ],
+            "checkedAt": "2026-11-14T10:21:24.588Z"
+          },
+          {
+            "source": "Grafton Recruitment",
+            "method": "direct_agency_page",
+            "outcome": "Annuncio 1401633 con candidatura e descrizione verificato.",
+            "evidenceUrls": [
+              "https://it.grafton.com/offerte-lavoro-dettaglio/lavoro-san-casciano-in-val-di-pesa-firenze-neo-diplomata-o-back-office-commerciale-junior/1401633/"
+            ],
+            "checkedAt": "2026-11-14T10:21:24.588Z"
+          },
+          {
+            "source": "Allegion careers / Workday",
+            "method": "ats_specific_vacancy",
+            "outcome": "Pagina specifica indicizzata, accesso diretto risultato parzialmente limitato.",
+            "evidenceUrls": [
+              "https://allegion.wd5.myworkdayjobs.com/en-US/careers/job/Head-of-Project-Management-Office_JR37078-2"
+            ],
+            "checkedAt": "2026-11-14T10:21:24.588Z"
+          },
+          {
+            "source": "Indeed Italia",
+            "method": "indexed_job_search",
+            "outcome": "Controllati annunci Firenze/Toscana e scartati duplicati già in catalogo.",
+            "evidenceUrls": [
+              "https://it.indeed.com/q-back-office-commerciale-l-firenze%2C-toscana-offerte-lavoro.html"
+            ],
+            "checkedAt": "2026-11-14T10:21:24.588Z"
+          },
+          {
+            "source": "Gruppo Florence careers",
+            "method": "direct_career_page",
+            "outcome": "Verificate posizioni già presenti in archivio, nessuna nuova.",
+            "evidenceUrls": [
+              "https://careers.gruppoflorence.it/job/view-job.php?id=627-back-office-commerciale-business-development-chiesina-uzzanese&language=en"
+            ],
+            "checkedAt": "2026-11-14T10:21:24.588Z"
+          }
+        ],
+        "note": "Ricerca mirata su annunci specifici: non equivale a una scansione completa. L'automazione 09:30 ha fallito, audit storico preservato."
       }
     }
   },
   "manualRefresh": {
-    "date": "2026-11-13",
-    "updatedAt": "2026-11-13T11:46:07.678Z",
+    "date": "2026-11-14",
+    "updatedAt": "2026-11-14T10:21:24.588Z",
     "status": "partial",
-    "newJobs": 10,
-    "description": "Recupero manuale con annunci specifici verificati; scansione completa programmata non eseguita."
+    "newJobs": 6,
+    "description": "Scansione immediata mirata di fonti dirette, ATS e annunci specifici; dati pubblicati e verificati."
   },
   "auditHistory": [
     {
