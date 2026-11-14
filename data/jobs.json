@@ -1,7 +1,223 @@
 {
-  "generatedAt": "2026-11-14T11:44:58.867295Z",
+  "generatedAt": "2026-11-14T11:46:38.692978Z",
   "source": "Alice Job Radar V2 — MAX-COVERAGE 15:30",
   "jobs": [
+    {
+      "id": "jobsora-54307262178",
+      "title": "Impiegato/impiegata back office commerciale post vendita",
+      "company": "Ali spa - filiale di pescara",
+      "location": "Teramo",
+      "region": "Abruzzo",
+      "url": "https://it.jobsora.com/offerta-54307262178?source=1",
+      "category": "Sales Support",
+      "summary": "Ali Lavoro SpA, filiale di Città Sant'Angelo (PE), ricerca per nota azienda del settore automotive con sede a Giulianova (TE), ricerca di un/una Impiegato/Impiegata Back Office Commerciale – Post vendita La risorsa opererà a stretto contatto con il team di vendita, interfacciandosi con il pubblico e riportando direttamente al Responsabile Back Office. L'inserimento prevede un percorso iniziale...",
+      "score": 7.7,
+      "remote": false,
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "salary": "Non indicata",
+      "active": true,
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:46:38.692978Z",
+      "firstSeenRun": "Scansione automatica nazionale",
+      "verifiedAt": "2026-11-14T11:46:38.692978Z",
+      "source": "Jobsora (aggregatore)",
+      "verificationLevel": "aggregator_detail",
+      "checks": [
+        "Annuncio specifico raggiungibile su Jobsora: HTTP 200, titolo corrispondente.",
+        "L'aggregatore non certifica che l'annuncio sia ancora candidabile sul sito originale.",
+        "Modalità, sede effettiva, retribuzione e condizioni da confermare con l'azienda."
+      ]
+    },
+    {
+      "id": "jobsora-54729920092",
+      "title": "Responsabile Ufficio Gare costruzioni e infrastrutture",
+      "company": "Adami & Associati",
+      "location": "L'Aquila",
+      "region": "Abruzzo",
+      "url": "https://it.jobsora.com/offerta-54729920092?source=1",
+      "category": "Tender",
+      "summary": "Sede: L’Aquila, in presenza Retribuzione indicativa: RAL 60.000–75.000 euro lordi annui L’azienda La nostra cliente opera nel settore delle costruzioni e delle infrastrutture e fa parte di una holding e di una rete di imprese del comparto. Vuole rafforzare le competenze interne investendo nello sviluppo dell’Ufficio Gare e in processi più strutturati, a supporto della crescita del gruppo. Il...",
+      "score": 7.7,
+      "remote": false,
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "salary": "Non indicata",
+      "active": true,
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:46:38.692978Z",
+      "firstSeenRun": "Scansione automatica nazionale",
+      "verifiedAt": "2026-11-14T11:46:38.692978Z",
+      "source": "Jobsora (aggregatore)",
+      "verificationLevel": "aggregator_detail",
+      "checks": [
+        "Annuncio specifico raggiungibile su Jobsora: HTTP 200, titolo corrispondente.",
+        "L'aggregatore non certifica che l'annuncio sia ancora candidabile sul sito originale.",
+        "Modalità, sede effettiva, retribuzione e condizioni da confermare con l'azienda."
+      ]
+    },
+    {
+      "id": "jobsora-54937739227",
+      "title": "Progettista Junior BIM per Ufficio Gare – Infrastrutture",
+      "company": "DI VINCENZO DINO & C. S.P.A.",
+      "location": "San Giovanni Teatino",
+      "region": "Abruzzo",
+      "url": "https://it.jobsora.com/offerta-54937739227?source=1",
+      "category": "Tender",
+      "summary": "La Di Vincenzo Dino & C. Spa è alla ricerca di una figura di Progettista Junior da inserire come Addetto/a Ufficio Tecnico Gare all'interno della Divisione Infrastrutture e Opere Pubbliche. La risorsa verrà avvicinata al Responsabile dell’Ufficio Gare per coordinare i progettisti esterni, definire standard di documentazione, revisionare disegni e supportare i settori produttivi. Contratto a...",
+      "score": 7.7,
+      "remote": false,
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "salary": "Non indicata",
+      "active": true,
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:46:38.692978Z",
+      "firstSeenRun": "Scansione automatica nazionale",
+      "verifiedAt": "2026-11-14T11:46:38.692978Z",
+      "source": "Jobsora (aggregatore)",
+      "verificationLevel": "aggregator_detail",
+      "checks": [
+        "Annuncio specifico raggiungibile su Jobsora: HTTP 200, titolo corrispondente.",
+        "L'aggregatore non certifica che l'annuncio sia ancora candidabile sul sito originale.",
+        "Modalità, sede effettiva, retribuzione e condizioni da confermare con l'azienda."
+      ]
+    },
+    {
+      "id": "jobsora-55155851454",
+      "title": "LAUREATA/O IN GIURISPRUDENZA PER UFFICIO GARE (Rif.: WEB/PRU)",
+      "company": "STUDIO FONTANIVE SRL",
+      "location": "Mirandola",
+      "region": "Emilia-Romagna",
+      "url": "https://it.jobsora.com/offerta-55155851454?source=1",
+      "category": "Tender",
+      "summary": "LAUREATA/O IN GIURISPRUDENZA PER UFFICIO GARE (Rif.: WEB/PRU) L’AZIENDA Affermata azienda, con sede direzionale indicativamente nell’area di MIRANDOLA (MO), operante in posizione estremamente consolidata nel proprio settore e facente parte di un importante gruppo italiano. IL RUOLO Nell’ambito di un contesto in fase di ulteriore evoluzione e crescita organizzativa, la risorsa sarà inserita...",
+      "score": 7.7,
+      "remote": false,
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "salary": "Non indicata",
+      "active": true,
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:46:38.692978Z",
+      "firstSeenRun": "Scansione automatica nazionale",
+      "verifiedAt": "2026-11-14T11:46:38.692978Z",
+      "source": "Jobsora (aggregatore)",
+      "verificationLevel": "aggregator_detail",
+      "checks": [
+        "Annuncio specifico raggiungibile su Jobsora: HTTP 200, titolo corrispondente.",
+        "L'aggregatore non certifica che l'annuncio sia ancora candidabile sul sito originale.",
+        "Modalità, sede effettiva, retribuzione e condizioni da confermare con l'azienda."
+      ]
+    },
+    {
+      "id": "jobsora-54272258182",
+      "title": "PROFESSIONAL UFFICIO GARE PRESSO FERRARA",
+      "company": "CIDAS - Cooperativa Sociale",
+      "location": "Ferrara 44124",
+      "region": "Emilia-Romagna",
+      "url": "https://it.jobsora.com/offerta-54272258182?source=1",
+      "category": "Tender",
+      "summary": "CIDAS è un’impresa sociale nata nel 1979, con sede a Ferrara e attiva in diverse regioni italiane. Con oltre 2.000 lavoratori e lavoratrici, opera ogni giorno nei servizi sociosanitari, educativi, culturali e di inclusione, accompagnando persone di tutte le età e sostenendole nei momenti di maggiore bisogno. La cooperativa interviene in numerosi ambiti: servizi per anziani, disabilità e salute...",
+      "score": 7.7,
+      "remote": false,
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "salary": "Non indicata",
+      "active": true,
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:46:38.692978Z",
+      "firstSeenRun": "Scansione automatica nazionale",
+      "verifiedAt": "2026-11-14T11:46:38.692978Z",
+      "source": "Jobsora (aggregatore)",
+      "verificationLevel": "aggregator_detail",
+      "checks": [
+        "Annuncio specifico raggiungibile su Jobsora: HTTP 200, titolo corrispondente.",
+        "L'aggregatore non certifica che l'annuncio sia ancora candidabile sul sito originale.",
+        "Modalità, sede effettiva, retribuzione e condizioni da confermare con l'azienda."
+      ]
+    },
+    {
+      "id": "jobsora-54637203943",
+      "title": "Addetto/a Ufficio Gare e Appalti- Area legale",
+      "company": "Consorzio Blu Cooperativa Sociale",
+      "location": "Bologna 40139",
+      "region": "Emilia-Romagna",
+      "url": "https://it.jobsora.com/offerta-54637203943?source=1",
+      "category": "Tender",
+      "summary": "Per ampliamento dello staff della sede di Bologna, Consorzio Blu ricerca un/una Addetto/a Ufficio Gare e Appalti – Area Legale La risorsa sarà inserita all'interno dell'Ufficio Legale, Appalti e Privacy del Gruppo e si occuperà prevalentemente della gestione degli adempimenti amministrativi connessi alla partecipazione alle procedure di gara pubbliche e private, della fase di analisi della...",
+      "score": 7.7,
+      "remote": false,
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "salary": "Non indicata",
+      "active": true,
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:46:38.692978Z",
+      "firstSeenRun": "Scansione automatica nazionale",
+      "verifiedAt": "2026-11-14T11:46:38.692978Z",
+      "source": "Jobsora (aggregatore)",
+      "verificationLevel": "aggregator_detail",
+      "checks": [
+        "Annuncio specifico raggiungibile su Jobsora: HTTP 200, titolo corrispondente.",
+        "L'aggregatore non certifica che l'annuncio sia ancora candidabile sul sito originale.",
+        "Modalità, sede effettiva, retribuzione e condizioni da confermare con l'azienda."
+      ]
+    },
+    {
+      "id": "jobsora-54382994328",
+      "title": "Back Office Commerciale Internazionale (Inglese/Francese)",
+      "company": "Synergie",
+      "location": "Ne",
+      "region": "Liguria",
+      "url": "https://it.jobsora.com/offerta-54382994328?source=1",
+      "category": "Sales Support",
+      "summary": "Synergie Italia S.p.A., filiale di Padova, cerca un/una Impiegata/o Commerciale Back Office con fluente Inglese e Francese per gestire offerte, ordini e documentazione presso l’ufficio Back Office Commerciale. La risorsa si occuperà della gestione operativa dei clienti, interfacciandosi con Area Manager e reparti interni, partecipando a fiere e supportando le attività commerciali. Contratto...",
+      "score": 7.7,
+      "remote": false,
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "salary": "Non indicata",
+      "active": true,
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:46:38.692978Z",
+      "firstSeenRun": "Scansione automatica nazionale",
+      "verifiedAt": "2026-11-14T11:46:38.692978Z",
+      "source": "Jobsora (aggregatore)",
+      "verificationLevel": "aggregator_detail",
+      "checks": [
+        "Annuncio specifico raggiungibile su Jobsora: HTTP 200, titolo corrispondente.",
+        "L'aggregatore non certifica che l'annuncio sia ancora candidabile sul sito originale.",
+        "Modalità, sede effettiva, retribuzione e condizioni da confermare con l'azienda."
+      ]
+    },
+    {
+      "id": "jobsora-54996956362",
+      "title": "Addetto Ufficio Commerciale Estero – Back Office & Client Support",
+      "company": "MAW S.p.A.",
+      "location": "Ne",
+      "region": "Liguria",
+      "url": "https://it.jobsora.com/offerta-54996956362?source=1",
+      "category": "Sales Support",
+      "summary": "MAW S.p.A., Divisione Search & Selection, cerca una risorsa per l'area Ufficio Commerciale Estero nella zona Vittorio Veneto. La risorsa gestirà il back office clienti, supporterà l'evasione degli ordini e collaborerà con produzione e logistica per monitorare le commesse. Requisiti: diploma o laurea economico/linguistico, esperienza in back office e fluente inglese e tedesco. Inserimento...",
+      "score": 7.7,
+      "remote": false,
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "salary": "Non indicata",
+      "active": true,
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:46:38.692978Z",
+      "firstSeenRun": "Scansione automatica nazionale",
+      "verifiedAt": "2026-11-14T11:46:38.692978Z",
+      "source": "Jobsora (aggregatore)",
+      "verificationLevel": "aggregator_detail",
+      "checks": [
+        "Annuncio specifico raggiungibile su Jobsora: HTTP 200, titolo corrispondente.",
+        "L'aggregatore non certifica che l'annuncio sia ancora candidabile sul sito originale.",
+        "Modalità, sede effettiva, retribuzione e condizioni da confermare con l'azienda."
+      ]
+    },
     {
       "id": "jobsora-55155860088",
       "title": "Addetto al Back Office Commerciale e Operativo (F/M/NB)",
@@ -15292,9 +15508,9 @@
         "note": "Ricerca mirata su annunci specifici: non equivale a una scansione completa. L'automazione 09:30 ha fallito, audit storico preservato."
       },
       "automated_fallback": {
-        "scheduledFor": "2026-11-14T11:41:37.449321Z",
-        "startedAt": "2026-11-14T11:41:37.449321Z",
-        "completedAt": "2026-11-14T11:41:52.244082Z",
+        "scheduledFor": "2026-11-14T11:46:38.692978Z",
+        "startedAt": "2026-11-14T11:46:38.692978Z",
+        "completedAt": "2026-11-14T11:46:57.626880Z",
         "status": "partial",
         "coverageMode": "national_20_region_discovery_plus_verified_public_feeds",
         "requiredSourcesTotal": 238,
@@ -15319,8 +15535,8 @@
         "queriesRun": 216,
         "specificJobPagesOpened": 112,
         "specificJobPagesVerified": 109,
-        "newRegionalJobs": 108,
-        "newJobs": 108,
+        "newRegionalJobs": 8,
+        "newJobs": 8,
         "regionsTarget": 20,
         "regionsAttempted": [
           "Valle d'Aosta",
@@ -15505,12 +15721,12 @@
             "detailPagesVerified": 6
           }
         },
-        "activeJobs": 376,
+        "activeJobs": 409,
         "searchLog": [
           {
             "source": "Jobicy",
             "method": "public_feed_api",
-            "checkedAt": "2026-11-14T11:41:37.453633+00:00",
+            "checkedAt": "2026-11-14T11:46:38.700961+00:00",
             "outcome": "success: 100 raw postings",
             "evidenceUrls": [
               "https://jobicy.com/api/jobs?count=200&geo=europe"
@@ -15519,7 +15735,7 @@
           {
             "source": "Jobicy-anywhere",
             "method": "public_feed_api",
-            "checkedAt": "2026-11-14T11:41:38.591282+00:00",
+            "checkedAt": "2026-11-14T11:46:39.408948+00:00",
             "outcome": "success: 21 raw postings",
             "evidenceUrls": [
               "https://jobicy.com/api/jobs?count=200&geo=anywhere"
@@ -15528,7 +15744,7 @@
           {
             "source": "Arbeitnow",
             "method": "public_feed_api",
-            "checkedAt": "2026-11-14T11:41:39.449477+00:00",
+            "checkedAt": "2026-11-14T11:46:40.050612+00:00",
             "outcome": "success: 300 raw postings",
             "evidenceUrls": [
               "https://www.arbeitnow.com/api/job-board-api?page=1"
@@ -15537,7 +15753,7 @@
           {
             "source": "Remotive",
             "method": "public_feed_api",
-            "checkedAt": "2026-11-14T11:41:39.959404+00:00",
+            "checkedAt": "2026-11-14T11:46:40.639217+00:00",
             "outcome": "success: 16 raw postings",
             "evidenceUrls": [
               "https://remotive.com/api/remote-jobs?limit=200"
@@ -15548,7 +15764,7 @@
             "method": "regional_index_discovery_only",
             "region": "Valle d'Aosta",
             "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:41:40.428646+00:00",
+            "checkedAt": "2026-11-14T11:46:41.111108+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 0,
             "evidenceUrls": [
@@ -15560,7 +15776,7 @@
             "method": "regional_index_discovery_only",
             "region": "Valle d'Aosta",
             "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:41:40.428955+00:00",
+            "checkedAt": "2026-11-14T11:46:41.111583+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 0,
             "evidenceUrls": [
@@ -15572,7 +15788,7 @@
             "method": "regional_index_discovery_only",
             "region": "Valle d'Aosta",
             "query": "pmo",
-            "checkedAt": "2026-11-14T11:41:40.429205+00:00",
+            "checkedAt": "2026-11-14T11:46:41.111922+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 0,
             "evidenceUrls": [
@@ -15584,7 +15800,7 @@
             "method": "regional_index_discovery_only",
             "region": "Valle d'Aosta",
             "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:41:40.429456+00:00",
+            "checkedAt": "2026-11-14T11:46:41.112314+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 0,
             "evidenceUrls": [
@@ -15596,7 +15812,7 @@
             "method": "regional_index_discovery_only",
             "region": "Valle d'Aosta",
             "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:41:40.429738+00:00",
+            "checkedAt": "2026-11-14T11:46:41.112745+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 0,
             "evidenceUrls": [
@@ -15608,7 +15824,7 @@
             "method": "regional_index_discovery_only",
             "region": "Piemonte",
             "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:41:40.680342+00:00",
+            "checkedAt": "2026-11-14T11:46:41.465659+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15620,7 +15836,7 @@
             "method": "regional_index_discovery_only",
             "region": "Piemonte",
             "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:41:40.707309+00:00",
+            "checkedAt": "2026-11-14T11:46:41.469696+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15632,7 +15848,7 @@
             "method": "regional_index_discovery_only",
             "region": "Piemonte",
             "query": "pmo",
-            "checkedAt": "2026-11-14T11:41:40.871355+00:00",
+            "checkedAt": "2026-11-14T11:46:41.632169+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15644,7 +15860,7 @@
             "method": "regional_index_discovery_only",
             "region": "Piemonte",
             "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:41:40.886025+00:00",
+            "checkedAt": "2026-11-14T11:46:41.699432+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 1,
             "evidenceUrls": [
@@ -15656,7 +15872,7 @@
             "method": "regional_index_discovery_only",
             "region": "Piemonte",
             "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:41:40.989991+00:00",
+            "checkedAt": "2026-11-14T11:46:41.767532+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15668,7 +15884,7 @@
             "method": "regional_index_discovery_only",
             "region": "Liguria",
             "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:41:41.047512+00:00",
+            "checkedAt": "2026-11-14T11:46:41.840081+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15680,7 +15896,7 @@
             "method": "regional_index_discovery_only",
             "region": "Liguria",
             "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:41:41.093641+00:00",
+            "checkedAt": "2026-11-14T11:46:41.981893+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15692,7 +15908,7 @@
             "method": "regional_index_discovery_only",
             "region": "Liguria",
             "query": "pmo",
-            "checkedAt": "2026-11-14T11:41:41.131760+00:00",
+            "checkedAt": "2026-11-14T11:46:41.984555+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15704,7 +15920,7 @@
             "method": "regional_index_discovery_only",
             "region": "Liguria",
             "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:41:41.249810+00:00",
+            "checkedAt": "2026-11-14T11:46:42.046577+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 0,
             "evidenceUrls": [
@@ -15716,7 +15932,7 @@
             "method": "regional_index_discovery_only",
             "region": "Liguria",
             "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:41:41.373280+00:00",
+            "checkedAt": "2026-11-14T11:46:42.306570+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15728,7 +15944,7 @@
             "method": "regional_index_discovery_only",
             "region": "Lombardia",
             "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:41:41.377812+00:00",
+            "checkedAt": "2026-11-14T11:46:42.481432+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15740,7 +15956,7 @@
             "method": "regional_index_discovery_only",
             "region": "Lombardia",
             "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:41:41.390199+00:00",
+            "checkedAt": "2026-11-14T11:46:42.484718+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15752,7 +15968,7 @@
             "method": "regional_index_discovery_only",
             "region": "Lombardia",
             "query": "pmo",
-            "checkedAt": "2026-11-14T11:41:41.416410+00:00",
+            "checkedAt": "2026-11-14T11:46:42.523541+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15764,7 +15980,7 @@
             "method": "regional_index_discovery_only",
             "region": "Lombardia",
             "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:41:41.533689+00:00",
+            "checkedAt": "2026-11-14T11:46:43.494228+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15776,7 +15992,7 @@
             "method": "regional_index_discovery_only",
             "region": "Lombardia",
             "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:41:41.732390+00:00",
+            "checkedAt": "2026-11-14T11:46:43.562372+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15788,7 +16004,7 @@
             "method": "regional_index_discovery_only",
             "region": "Trentino-Alto Adige",
             "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:41:41.736145+00:00",
+            "checkedAt": "2026-11-14T11:46:43.564999+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15800,7 +16016,7 @@
             "method": "regional_index_discovery_only",
             "region": "Trentino-Alto Adige",
             "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:41:41.751862+00:00",
+            "checkedAt": "2026-11-14T11:46:43.745785+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15812,7 +16028,7 @@
             "method": "regional_index_discovery_only",
             "region": "Trentino-Alto Adige",
             "query": "pmo",
-            "checkedAt": "2026-11-14T11:41:41.783217+00:00",
+            "checkedAt": "2026-11-14T11:46:43.897925+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15824,7 +16040,7 @@
             "method": "regional_index_discovery_only",
             "region": "Trentino-Alto Adige",
             "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:41:41.934410+00:00",
+            "checkedAt": "2026-11-14T11:46:43.916051+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15836,7 +16052,7 @@
             "method": "regional_index_discovery_only",
             "region": "Trentino-Alto Adige",
             "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:41:42.042344+00:00",
+            "checkedAt": "2026-11-14T11:46:44.131304+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15848,7 +16064,7 @@
             "method": "regional_index_discovery_only",
             "region": "Veneto",
             "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:41:42.079203+00:00",
+            "checkedAt": "2026-11-14T11:46:44.238232+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15860,7 +16076,7 @@
             "method": "regional_index_discovery_only",
             "region": "Veneto",
             "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:41:42.116814+00:00",
+            "checkedAt": "2026-11-14T11:46:44.241408+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15872,7 +16088,7 @@
             "method": "regional_index_discovery_only",
             "region": "Veneto",
             "query": "pmo",
-            "checkedAt": "2026-11-14T11:41:42.145727+00:00",
+            "checkedAt": "2026-11-14T11:46:44.274540+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15884,7 +16100,7 @@
             "method": "regional_index_discovery_only",
             "region": "Veneto",
             "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:41:42.309566+00:00",
+            "checkedAt": "2026-11-14T11:46:44.349734+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15896,7 +16112,7 @@
             "method": "regional_index_discovery_only",
             "region": "Veneto",
             "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:41:42.414642+00:00",
+            "checkedAt": "2026-11-14T11:46:44.606522+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15908,7 +16124,7 @@
             "method": "regional_index_discovery_only",
             "region": "Friuli-Venezia Giulia",
             "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:41:42.492802+00:00",
+            "checkedAt": "2026-11-14T11:46:44.625278+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15920,7 +16136,7 @@
             "method": "regional_index_discovery_only",
             "region": "Friuli-Venezia Giulia",
             "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:41:42.494702+00:00",
+            "checkedAt": "2026-11-14T11:46:44.711101+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15932,7 +16148,7 @@
             "method": "regional_index_discovery_only",
             "region": "Friuli-Venezia Giulia",
             "query": "pmo",
-            "checkedAt": "2026-11-14T11:41:42.577358+00:00",
+            "checkedAt": "2026-11-14T11:46:44.713929+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15944,7 +16160,7 @@
             "method": "regional_index_discovery_only",
             "region": "Friuli-Venezia Giulia",
             "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:41:42.668081+00:00",
+            "checkedAt": "2026-11-14T11:46:44.844729+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15956,7 +16172,7 @@
             "method": "regional_index_discovery_only",
             "region": "Friuli-Venezia Giulia",
             "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:41:42.773917+00:00",
+            "checkedAt": "2026-11-14T11:46:45.040637+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15968,7 +16184,7 @@
             "method": "regional_index_discovery_only",
             "region": "Emilia-Romagna",
             "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:41:42.872320+00:00",
+            "checkedAt": "2026-11-14T11:46:45.119775+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15980,7 +16196,7 @@
             "method": "regional_index_discovery_only",
             "region": "Emilia-Romagna",
             "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:41:42.920934+00:00",
+            "checkedAt": "2026-11-14T11:46:45.131474+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -15992,7 +16208,7 @@
             "method": "regional_index_discovery_only",
             "region": "Emilia-Romagna",
             "query": "pmo",
-            "checkedAt": "2026-11-14T11:41:42.937579+00:00",
+            "checkedAt": "2026-11-14T11:46:45.196616+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16004,7 +16220,7 @@
             "method": "regional_index_discovery_only",
             "region": "Emilia-Romagna",
             "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:41:42.948360+00:00",
+            "checkedAt": "2026-11-14T11:46:45.323858+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16016,7 +16232,7 @@
             "method": "regional_index_discovery_only",
             "region": "Emilia-Romagna",
             "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:41:43.140686+00:00",
+            "checkedAt": "2026-11-14T11:46:45.516249+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16028,7 +16244,7 @@
             "method": "regional_index_discovery_only",
             "region": "Toscana",
             "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:41:43.234223+00:00",
+            "checkedAt": "2026-11-14T11:46:45.518801+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16040,7 +16256,7 @@
             "method": "regional_index_discovery_only",
             "region": "Toscana",
             "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:41:43.236163+00:00",
+            "checkedAt": "2026-11-14T11:46:45.537293+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16052,7 +16268,7 @@
             "method": "regional_index_discovery_only",
             "region": "Toscana",
             "query": "pmo",
-            "checkedAt": "2026-11-14T11:41:43.304762+00:00",
+            "checkedAt": "2026-11-14T11:46:45.651405+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16064,7 +16280,7 @@
             "method": "regional_index_discovery_only",
             "region": "Toscana",
             "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:41:43.324735+00:00",
+            "checkedAt": "2026-11-14T11:46:45.702008+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16076,7 +16292,7 @@
             "method": "regional_index_discovery_only",
             "region": "Toscana",
             "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:41:43.407470+00:00",
+            "checkedAt": "2026-11-14T11:46:45.995840+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16088,7 +16304,7 @@
             "method": "regional_index_discovery_only",
             "region": "Umbria",
             "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:41:43.632444+00:00",
+            "checkedAt": "2026-11-14T11:46:46.014430+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16100,7 +16316,7 @@
             "method": "regional_index_discovery_only",
             "region": "Umbria",
             "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:41:43.634567+00:00",
+            "checkedAt": "2026-11-14T11:46:46.040764+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16112,7 +16328,7 @@
             "method": "regional_index_discovery_only",
             "region": "Umbria",
             "query": "pmo",
-            "checkedAt": "2026-11-14T11:41:43.651214+00:00",
+            "checkedAt": "2026-11-14T11:46:46.043855+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16124,7 +16340,7 @@
             "method": "regional_index_discovery_only",
             "region": "Umbria",
             "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:41:43.652953+00:00",
+            "checkedAt": "2026-11-14T11:46:46.184435+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16136,7 +16352,7 @@
             "method": "regional_index_discovery_only",
             "region": "Umbria",
             "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:41:43.768465+00:00",
+            "checkedAt": "2026-11-14T11:46:46.323122+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16148,7 +16364,7 @@
             "method": "regional_index_discovery_only",
             "region": "Marche",
             "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:41:43.928171+00:00",
+            "checkedAt": "2026-11-14T11:46:46.395397+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16160,7 +16376,7 @@
             "method": "regional_index_discovery_only",
             "region": "Marche",
             "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:41:43.945911+00:00",
+            "checkedAt": "2026-11-14T11:46:46.542278+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16172,7 +16388,7 @@
             "method": "regional_index_discovery_only",
             "region": "Marche",
             "query": "pmo",
-            "checkedAt": "2026-11-14T11:41:44.008819+00:00",
+            "checkedAt": "2026-11-14T11:46:46.546096+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16184,7 +16400,7 @@
             "method": "regional_index_discovery_only",
             "region": "Marche",
             "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:41:44.038537+00:00",
+            "checkedAt": "2026-11-14T11:46:46.643523+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16196,7 +16412,7 @@
             "method": "regional_index_discovery_only",
             "region": "Marche",
             "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:41:44.149660+00:00",
+            "checkedAt": "2026-11-14T11:46:46.661337+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16208,7 +16424,7 @@
             "method": "regional_index_discovery_only",
             "region": "Lazio",
             "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:41:44.251156+00:00",
+            "checkedAt": "2026-11-14T11:46:46.744692+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16220,7 +16436,7 @@
             "method": "regional_index_discovery_only",
             "region": "Lazio",
             "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:41:44.287409+00:00",
+            "checkedAt": "2026-11-14T11:46:46.877922+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16232,7 +16448,7 @@
             "method": "regional_index_discovery_only",
             "region": "Lazio",
             "query": "pmo",
-            "checkedAt": "2026-11-14T11:41:44.304648+00:00",
+            "checkedAt": "2026-11-14T11:46:47.108990+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16244,7 +16460,7 @@
             "method": "regional_index_discovery_only",
             "region": "Lazio",
             "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:41:44.351661+00:00",
+            "checkedAt": "2026-11-14T11:46:47.111591+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16256,7 +16472,7 @@
             "method": "regional_index_discovery_only",
             "region": "Lazio",
             "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:41:44.541932+00:00",
+            "checkedAt": "2026-11-14T11:46:47.307452+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16268,7 +16484,7 @@
             "method": "regional_index_discovery_only",
             "region": "Abruzzo",
             "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:41:44.695823+00:00",
+            "checkedAt": "2026-11-14T11:46:47.509102+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16280,7 +16496,7 @@
             "method": "regional_index_discovery_only",
             "region": "Abruzzo",
             "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:41:44.697725+00:00",
+            "checkedAt": "2026-11-14T11:46:47.672301+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16292,7 +16508,7 @@
             "method": "regional_index_discovery_only",
             "region": "Abruzzo",
             "query": "pmo",
-            "checkedAt": "2026-11-14T11:41:44.819256+00:00",
+            "checkedAt": "2026-11-14T11:46:47.811393+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16304,7 +16520,7 @@
             "method": "regional_index_discovery_only",
             "region": "Abruzzo",
             "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:41:44.821157+00:00",
+            "checkedAt": "2026-11-14T11:46:47.820654+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16316,7 +16532,7 @@
             "method": "regional_index_discovery_only",
             "region": "Abruzzo",
             "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:41:44.904957+00:00",
+            "checkedAt": "2026-11-14T11:46:47.997563+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16328,7 +16544,7 @@
             "method": "regional_index_discovery_only",
             "region": "Molise",
             "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:41:44.968951+00:00",
+            "checkedAt": "2026-11-14T11:46:48.044401+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 1,
             "evidenceUrls": [
@@ -16340,7 +16556,7 @@
             "method": "regional_index_discovery_only",
             "region": "Molise",
             "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:41:45.088030+00:00",
+            "checkedAt": "2026-11-14T11:46:48.085007+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16352,7 +16568,7 @@
             "method": "regional_index_discovery_only",
             "region": "Molise",
             "query": "pmo",
-            "checkedAt": "2026-11-14T11:41:45.162512+00:00",
+            "checkedAt": "2026-11-14T11:46:48.136461+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 0,
             "evidenceUrls": [
@@ -16364,7 +16580,7 @@
             "method": "regional_index_discovery_only",
             "region": "Molise",
             "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:41:45.176145+00:00",
+            "checkedAt": "2026-11-14T11:46:48.345759+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 0,
             "evidenceUrls": [
@@ -16376,7 +16592,7 @@
             "method": "regional_index_discovery_only",
             "region": "Molise",
             "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:41:45.184895+00:00",
+            "checkedAt": "2026-11-14T11:46:48.420697+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 0,
             "evidenceUrls": [
@@ -16388,7 +16604,7 @@
             "method": "regional_index_discovery_only",
             "region": "Campania",
             "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:41:45.200815+00:00",
+            "checkedAt": "2026-11-14T11:46:48.482622+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16400,7 +16616,7 @@
             "method": "regional_index_discovery_only",
             "region": "Campania",
             "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:41:45.397606+00:00",
+            "checkedAt": "2026-11-14T11:46:48.584057+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16412,7 +16628,7 @@
             "method": "regional_index_discovery_only",
             "region": "Campania",
             "query": "pmo",
-            "checkedAt": "2026-11-14T11:41:45.424375+00:00",
+            "checkedAt": "2026-11-14T11:46:48.653729+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16424,7 +16640,7 @@
             "method": "regional_index_discovery_only",
             "region": "Campania",
             "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:41:45.447651+00:00",
+            "checkedAt": "2026-11-14T11:46:48.663863+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16436,7 +16652,7 @@
             "method": "regional_index_discovery_only",
             "region": "Campania",
             "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:41:45.464486+00:00",
+            "checkedAt": "2026-11-14T11:46:48.735226+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16448,7 +16664,7 @@
             "method": "regional_index_discovery_only",
             "region": "Puglia",
             "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:41:45.568321+00:00",
+            "checkedAt": "2026-11-14T11:46:48.827570+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16460,7 +16676,7 @@
             "method": "regional_index_discovery_only",
             "region": "Puglia",
             "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:41:45.798061+00:00",
+            "checkedAt": "2026-11-14T11:46:49.075501+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16472,7 +16688,7 @@
             "method": "regional_index_discovery_only",
             "region": "Puglia",
             "query": "pmo",
-            "checkedAt": "2026-11-14T11:41:45.799843+00:00",
+            "checkedAt": "2026-11-14T11:46:49.106678+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16484,7 +16700,7 @@
             "method": "regional_index_discovery_only",
             "region": "Puglia",
             "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:41:45.809220+00:00",
+            "checkedAt": "2026-11-14T11:46:49.123329+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16496,7 +16712,7 @@
             "method": "regional_index_discovery_only",
             "region": "Puglia",
             "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:41:45.842897+00:00",
+            "checkedAt": "2026-11-14T11:46:49.134471+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16508,7 +16724,7 @@
             "method": "regional_index_discovery_only",
             "region": "Basilicata",
             "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:41:45.905483+00:00",
+            "checkedAt": "2026-11-14T11:46:49.176382+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16520,7 +16736,7 @@
             "method": "regional_index_discovery_only",
             "region": "Basilicata",
             "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:41:46.152357+00:00",
+            "checkedAt": "2026-11-14T11:46:49.445476+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16532,7 +16748,7 @@
             "method": "regional_index_discovery_only",
             "region": "Basilicata",
             "query": "pmo",
-            "checkedAt": "2026-11-14T11:41:46.156844+00:00",
+            "checkedAt": "2026-11-14T11:46:49.452931+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16544,7 +16760,7 @@
             "method": "regional_index_discovery_only",
             "region": "Basilicata",
             "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:41:46.166858+00:00",
+            "checkedAt": "2026-11-14T11:46:49.496525+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 0,
             "evidenceUrls": [
@@ -16556,7 +16772,7 @@
             "method": "regional_index_discovery_only",
             "region": "Basilicata",
             "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:41:46.168259+00:00",
+            "checkedAt": "2026-11-14T11:46:49.593409+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16568,7 +16784,7 @@
             "method": "regional_index_discovery_only",
             "region": "Calabria",
             "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:41:46.202113+00:00",
+            "checkedAt": "2026-11-14T11:46:49.615332+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 1,
             "evidenceUrls": [
@@ -16580,7 +16796,7 @@
             "method": "regional_index_discovery_only",
             "region": "Calabria",
             "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:41:46.395914+00:00",
+            "checkedAt": "2026-11-14T11:46:49.803729+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16592,7 +16808,7 @@
             "method": "regional_index_discovery_only",
             "region": "Calabria",
             "query": "pmo",
-            "checkedAt": "2026-11-14T11:41:46.455470+00:00",
+            "checkedAt": "2026-11-14T11:46:49.915819+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16604,7 +16820,7 @@
             "method": "regional_index_discovery_only",
             "region": "Calabria",
             "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:41:46.513458+00:00",
+            "checkedAt": "2026-11-14T11:46:49.927370+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 2,
             "evidenceUrls": [
@@ -16616,7 +16832,7 @@
             "method": "regional_index_discovery_only",
             "region": "Calabria",
             "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:41:46.515173+00:00",
+            "checkedAt": "2026-11-14T11:46:49.957953+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 0,
             "evidenceUrls": [
@@ -16628,7 +16844,7 @@
             "method": "regional_index_discovery_only",
             "region": "Sicilia",
             "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:41:46.595850+00:00",
+            "checkedAt": "2026-11-14T11:46:50.038300+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16640,7 +16856,7 @@
             "method": "regional_index_discovery_only",
             "region": "Sicilia",
             "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:41:46.730108+00:00",
+            "checkedAt": "2026-11-14T11:46:50.233166+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16652,7 +16868,7 @@
             "method": "regional_index_discovery_only",
             "region": "Sicilia",
             "query": "pmo",
-            "checkedAt": "2026-11-14T11:41:46.814856+00:00",
+            "checkedAt": "2026-11-14T11:46:50.266469+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16664,7 +16880,7 @@
             "method": "regional_index_discovery_only",
             "region": "Sicilia",
             "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:41:46.887121+00:00",
+            "checkedAt": "2026-11-14T11:46:50.293461+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16676,7 +16892,7 @@
             "method": "regional_index_discovery_only",
             "region": "Sicilia",
             "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:41:47.065463+00:00",
+            "checkedAt": "2026-11-14T11:46:50.312732+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16688,7 +16904,7 @@
             "method": "regional_index_discovery_only",
             "region": "Sardegna",
             "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:41:47.174284+00:00",
+            "checkedAt": "2026-11-14T11:46:50.560888+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16700,7 +16916,7 @@
             "method": "regional_index_discovery_only",
             "region": "Sardegna",
             "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:41:47.179443+00:00",
+            "checkedAt": "2026-11-14T11:46:50.579205+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16712,7 +16928,7 @@
             "method": "regional_index_discovery_only",
             "region": "Sardegna",
             "query": "pmo",
-            "checkedAt": "2026-11-14T11:41:47.288708+00:00",
+            "checkedAt": "2026-11-14T11:46:50.599318+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16724,7 +16940,7 @@
             "method": "regional_index_discovery_only",
             "region": "Sardegna",
             "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:41:47.315103+00:00",
+            "checkedAt": "2026-11-14T11:46:50.769634+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
@@ -16736,7 +16952,7 @@
             "method": "regional_index_discovery_only",
             "region": "Sardegna",
             "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:41:47.454486+00:00",
+            "checkedAt": "2026-11-14T11:46:50.778507+00:00",
             "outcome": "index_page_accessible; detail check required",
             "candidatesFound": 3,
             "evidenceUrls": [
