@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T11:35:11.019435Z",
+  "generatedAt": "2026-11-14T11:36:00.893160Z",
   "source": "Alice Job Radar V2 — MAX-COVERAGE 15:30",
   "jobs": [
     {
@@ -11701,6 +11701,1319 @@
         "note": "Ricerca mirata su annunci specifici: non equivale a una scansione completa. L'automazione 09:30 ha fallito, audit storico preservato."
       },
       "automated_fallback": {
+        "scheduledFor": "2026-11-14T11:36:00.893160Z",
+        "startedAt": "2026-11-14T11:36:00.893160Z",
+        "completedAt": "2026-11-14T11:36:10.489027Z",
+        "status": "partial",
+        "coverageMode": "national_20_region_discovery_plus_verified_public_feeds",
+        "requiredSourcesTotal": 238,
+        "requiredSourcesChecked": 4,
+        "sourcesExplored": 5,
+        "sourcesChecked": [
+          "Jobicy",
+          "Jobicy-anywhere",
+          "Arbeitnow",
+          "Remotive",
+          "Jobsora regional indexed listings"
+        ],
+        "directSourcesChecked": [],
+        "siteRestrictedSourcesChecked": [],
+        "indexedFallbackSourcesChecked": [
+          "Jobicy",
+          "Jobicy-anywhere",
+          "Arbeitnow",
+          "Remotive"
+        ],
+        "sourcesUnavailable": [],
+        "queriesRun": 104,
+        "newJobs": 0,
+        "regionsTarget": 20,
+        "regionsAttempted": [
+          "Valle d'Aosta",
+          "Piemonte",
+          "Liguria",
+          "Lombardia",
+          "Trentino-Alto Adige",
+          "Veneto",
+          "Friuli-Venezia Giulia",
+          "Emilia-Romagna",
+          "Toscana",
+          "Umbria",
+          "Marche",
+          "Lazio",
+          "Abruzzo",
+          "Molise",
+          "Campania",
+          "Puglia",
+          "Basilicata",
+          "Calabria",
+          "Sicilia",
+          "Sardegna"
+        ],
+        "regionCoverage": {
+          "Valle d'Aosta": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Piemonte": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Liguria": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Lombardia": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Trentino-Alto Adige": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Veneto": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Friuli-Venezia Giulia": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Emilia-Romagna": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Toscana": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Umbria": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Marche": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Lazio": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Abruzzo": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Molise": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Campania": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Puglia": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Basilicata": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Calabria": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Sicilia": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Sardegna": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "status": "indexed_search_only_not_vacancy_verified"
+          }
+        },
+        "activeJobs": 268,
+        "searchLog": [
+          {
+            "source": "Jobicy",
+            "method": "public_feed_api",
+            "checkedAt": "2026-11-14T11:36:00.899134+00:00",
+            "outcome": "success: 100 raw postings",
+            "evidenceUrls": [
+              "https://jobicy.com/api/jobs?count=200&geo=europe"
+            ]
+          },
+          {
+            "source": "Jobicy-anywhere",
+            "method": "public_feed_api",
+            "checkedAt": "2026-11-14T11:36:01.409741+00:00",
+            "outcome": "success: 21 raw postings",
+            "evidenceUrls": [
+              "https://jobicy.com/api/jobs?count=200&geo=anywhere"
+            ]
+          },
+          {
+            "source": "Arbeitnow",
+            "method": "public_feed_api",
+            "checkedAt": "2026-11-14T11:36:01.856655+00:00",
+            "outcome": "success: 300 raw postings",
+            "evidenceUrls": [
+              "https://www.arbeitnow.com/api/job-board-api?page=1"
+            ]
+          },
+          {
+            "source": "Remotive",
+            "method": "public_feed_api",
+            "checkedAt": "2026-11-14T11:36:02.366443+00:00",
+            "outcome": "success: 16 raw postings",
+            "evidenceUrls": [
+              "https://remotive.com/api/remote-jobs?limit=200"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Valle d'Aosta",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:36:02.908842+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-valle-d-aosta"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Valle d'Aosta",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:36:02.909215+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-valle-d-aosta"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Valle d'Aosta",
+            "query": "pmo",
+            "checkedAt": "2026-11-14T11:36:02.909571+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-valle-d-aosta"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Valle d'Aosta",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-14T11:36:02.909827+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-valle-d-aosta"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Valle d'Aosta",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-14T11:36:02.910142+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-valle-d-aosta"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Piemonte",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:36:03.173945+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-piemonte"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Piemonte",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:36:03.282308+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-piemonte"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Piemonte",
+            "query": "pmo",
+            "checkedAt": "2026-11-14T11:36:03.388328+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-piemonte"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Piemonte",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-14T11:36:03.392895+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-piemonte"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Piemonte",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-14T11:36:03.485013+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-piemonte"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Liguria",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:36:03.555997+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-liguria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Liguria",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:36:03.602725+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-liguria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Liguria",
+            "query": "pmo",
+            "checkedAt": "2026-11-14T11:36:03.680173+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-liguria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Liguria",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-14T11:36:03.765316+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-liguria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Liguria",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-14T11:36:03.799248+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-liguria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Lombardia",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:36:03.834406+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-lombardia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Lombardia",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:36:03.914029+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-lombardia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Lombardia",
+            "query": "pmo",
+            "checkedAt": "2026-11-14T11:36:03.952367+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-lombardia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Lombardia",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-14T11:36:04.045247+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-lombardia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Lombardia",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-14T11:36:04.079886+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-lombardia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Trentino-Alto Adige",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:36:04.122279+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-trentino-alto-adige"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Trentino-Alto Adige",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:36:04.237433+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-trentino-alto-adige"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Trentino-Alto Adige",
+            "query": "pmo",
+            "checkedAt": "2026-11-14T11:36:04.252715+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-trentino-alto-adige"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Trentino-Alto Adige",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-14T11:36:04.342308+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-trentino-alto-adige"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Trentino-Alto Adige",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-14T11:36:04.372648+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-trentino-alto-adige"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Veneto",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:36:04.392643+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-veneto"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Veneto",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:36:04.531154+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-veneto"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Veneto",
+            "query": "pmo",
+            "checkedAt": "2026-11-14T11:36:04.572041+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-veneto"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Veneto",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-14T11:36:04.669849+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-veneto"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Veneto",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-14T11:36:04.746639+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-veneto"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Friuli-Venezia Giulia",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:36:04.748268+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-friuli-venezia-giulia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Friuli-Venezia Giulia",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:36:04.855562+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-friuli-venezia-giulia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Friuli-Venezia Giulia",
+            "query": "pmo",
+            "checkedAt": "2026-11-14T11:36:04.859543+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-friuli-venezia-giulia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Friuli-Venezia Giulia",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-14T11:36:04.952764+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-friuli-venezia-giulia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Friuli-Venezia Giulia",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-14T11:36:05.040449+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-friuli-venezia-giulia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Emilia-Romagna",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:36:05.057291+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-emilia-romagna"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Emilia-Romagna",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:36:05.134805+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-emilia-romagna"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Emilia-Romagna",
+            "query": "pmo",
+            "checkedAt": "2026-11-14T11:36:05.191199+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-emilia-romagna"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Emilia-Romagna",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-14T11:36:05.231254+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-emilia-romagna"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Emilia-Romagna",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-14T11:36:05.335763+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-emilia-romagna"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Toscana",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:36:05.369328+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-toscana"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Toscana",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:36:05.470515+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-toscana"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Toscana",
+            "query": "pmo",
+            "checkedAt": "2026-11-14T11:36:05.480753+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-toscana"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Toscana",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-14T11:36:05.534187+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-toscana"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Toscana",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-14T11:36:05.667329+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-toscana"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Umbria",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:36:05.669003+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-umbria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Umbria",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:36:05.851333+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-umbria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Umbria",
+            "query": "pmo",
+            "checkedAt": "2026-11-14T11:36:06.087871+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-umbria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Umbria",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-14T11:36:06.743235+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-umbria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Umbria",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-14T11:36:06.928658+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-umbria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Marche",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:36:06.930263+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-marche"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Marche",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:36:07.021980+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-marche"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Marche",
+            "query": "pmo",
+            "checkedAt": "2026-11-14T11:36:07.035238+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-marche"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Marche",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-14T11:36:07.042966+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-marche"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Marche",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-14T11:36:07.220058+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-marche"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Lazio",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:36:07.222449+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-lazio"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Lazio",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:36:07.324700+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-lazio"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Lazio",
+            "query": "pmo",
+            "checkedAt": "2026-11-14T11:36:07.430222+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-lazio"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Lazio",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-14T11:36:07.431907+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-lazio"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Lazio",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-14T11:36:07.540595+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-lazio"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Abruzzo",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:36:07.651102+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-abruzzo"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Abruzzo",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:36:07.707182+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-abruzzo"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Abruzzo",
+            "query": "pmo",
+            "checkedAt": "2026-11-14T11:36:07.708814+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-abruzzo"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Abruzzo",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-14T11:36:07.825268+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-abruzzo"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Abruzzo",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-14T11:36:07.826938+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-abruzzo"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Molise",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:36:07.930792+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-molise"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Molise",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:36:07.985431+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-molise"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Molise",
+            "query": "pmo",
+            "checkedAt": "2026-11-14T11:36:08.028298+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-molise"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Molise",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-14T11:36:08.093417+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-molise"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Molise",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-14T11:36:08.114144+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-molise"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Campania",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:36:08.180979+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-campania"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Campania",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:36:08.264090+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-campania"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Campania",
+            "query": "pmo",
+            "checkedAt": "2026-11-14T11:36:08.345030+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-campania"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Campania",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-14T11:36:08.393964+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-campania"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Campania",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-14T11:36:08.397388+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-campania"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Puglia",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:36:08.470972+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-puglia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Puglia",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:36:08.625577+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-puglia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Puglia",
+            "query": "pmo",
+            "checkedAt": "2026-11-14T11:36:08.665631+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-puglia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Puglia",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-14T11:36:08.684847+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-puglia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Puglia",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-14T11:36:08.910570+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-puglia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Basilicata",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:36:08.938966+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-basilicata"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Basilicata",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:36:08.951802+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-basilicata"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Basilicata",
+            "query": "pmo",
+            "checkedAt": "2026-11-14T11:36:08.972095+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-basilicata"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Basilicata",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-14T11:36:09.054385+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-basilicata"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Basilicata",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-14T11:36:09.243582+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-basilicata"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Calabria",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:36:09.317289+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-calabria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Calabria",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:36:09.318864+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-calabria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Calabria",
+            "query": "pmo",
+            "checkedAt": "2026-11-14T11:36:09.425143+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-calabria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Calabria",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-14T11:36:09.426274+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-calabria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Calabria",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-14T11:36:09.519389+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-calabria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Sicilia",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:36:09.575676+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-sicilia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Sicilia",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:36:09.613480+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-sicilia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Sicilia",
+            "query": "pmo",
+            "checkedAt": "2026-11-14T11:36:09.696687+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-sicilia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Sicilia",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-14T11:36:09.699421+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-sicilia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Sicilia",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-14T11:36:09.825432+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-sicilia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Sardegna",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:36:09.865481+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-sardegna"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Sardegna",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:36:09.917529+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-sardegna"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Sardegna",
+            "query": "pmo",
+            "checkedAt": "2026-11-14T11:36:09.981154+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-sardegna"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Sardegna",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-14T11:36:09.984267+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-sardegna"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Sardegna",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-14T11:36:10.123859+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-sardegna"
+            ]
+          }
+        ],
+        "note": "Nationwide 20-region indexed search attempts plus public feeds; regional listing searches do NOT verify individual vacancies. Partial coverage, not a full scan of all providers."
+      },
+      "automated_fallback_previous": {
         "scheduledFor": "2026-11-14T11:35:11.019435Z",
         "startedAt": "2026-11-14T11:35:11.019435Z",
         "completedAt": "2026-11-14T11:35:21.354562Z",
@@ -13005,1319 +14318,6 @@
             "region": "Sardegna",
             "query": "project-coordinator",
             "checkedAt": "2026-11-14T11:35:20.981449+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-project-coordinator-sardegna"
-            ]
-          }
-        ],
-        "note": "Nationwide 20-region indexed search attempts plus public feeds; regional listing searches do NOT verify individual vacancies. Partial coverage, not a full scan of all providers."
-      },
-      "automated_fallback_previous": {
-        "scheduledFor": "2026-11-14T11:34:03.420755Z",
-        "startedAt": "2026-11-14T11:34:03.420755Z",
-        "completedAt": "2026-11-14T11:34:12.568175Z",
-        "status": "partial",
-        "coverageMode": "national_20_region_discovery_plus_verified_public_feeds",
-        "requiredSourcesTotal": 238,
-        "requiredSourcesChecked": 4,
-        "sourcesExplored": 5,
-        "sourcesChecked": [
-          "Jobicy",
-          "Jobicy-anywhere",
-          "Arbeitnow",
-          "Remotive",
-          "Jobsora regional indexed listings"
-        ],
-        "directSourcesChecked": [],
-        "siteRestrictedSourcesChecked": [],
-        "indexedFallbackSourcesChecked": [
-          "Jobicy",
-          "Jobicy-anywhere",
-          "Arbeitnow",
-          "Remotive"
-        ],
-        "sourcesUnavailable": [],
-        "queriesRun": 104,
-        "newJobs": 0,
-        "regionsTarget": 20,
-        "regionsAttempted": [
-          "Valle d'Aosta",
-          "Piemonte",
-          "Liguria",
-          "Lombardia",
-          "Trentino-Alto Adige",
-          "Veneto",
-          "Friuli-Venezia Giulia",
-          "Emilia-Romagna",
-          "Toscana",
-          "Umbria",
-          "Marche",
-          "Lazio",
-          "Abruzzo",
-          "Molise",
-          "Campania",
-          "Puglia",
-          "Basilicata",
-          "Calabria",
-          "Sicilia",
-          "Sardegna"
-        ],
-        "regionCoverage": {
-          "Valle d'Aosta": {
-            "attempted": 5,
-            "indexPagesAccessible": 5,
-            "unavailable": 0,
-            "status": "indexed_search_only_not_vacancy_verified"
-          },
-          "Piemonte": {
-            "attempted": 5,
-            "indexPagesAccessible": 5,
-            "unavailable": 0,
-            "status": "indexed_search_only_not_vacancy_verified"
-          },
-          "Liguria": {
-            "attempted": 5,
-            "indexPagesAccessible": 5,
-            "unavailable": 0,
-            "status": "indexed_search_only_not_vacancy_verified"
-          },
-          "Lombardia": {
-            "attempted": 5,
-            "indexPagesAccessible": 5,
-            "unavailable": 0,
-            "status": "indexed_search_only_not_vacancy_verified"
-          },
-          "Trentino-Alto Adige": {
-            "attempted": 5,
-            "indexPagesAccessible": 5,
-            "unavailable": 0,
-            "status": "indexed_search_only_not_vacancy_verified"
-          },
-          "Veneto": {
-            "attempted": 5,
-            "indexPagesAccessible": 5,
-            "unavailable": 0,
-            "status": "indexed_search_only_not_vacancy_verified"
-          },
-          "Friuli-Venezia Giulia": {
-            "attempted": 5,
-            "indexPagesAccessible": 5,
-            "unavailable": 0,
-            "status": "indexed_search_only_not_vacancy_verified"
-          },
-          "Emilia-Romagna": {
-            "attempted": 5,
-            "indexPagesAccessible": 5,
-            "unavailable": 0,
-            "status": "indexed_search_only_not_vacancy_verified"
-          },
-          "Toscana": {
-            "attempted": 5,
-            "indexPagesAccessible": 5,
-            "unavailable": 0,
-            "status": "indexed_search_only_not_vacancy_verified"
-          },
-          "Umbria": {
-            "attempted": 5,
-            "indexPagesAccessible": 5,
-            "unavailable": 0,
-            "status": "indexed_search_only_not_vacancy_verified"
-          },
-          "Marche": {
-            "attempted": 5,
-            "indexPagesAccessible": 5,
-            "unavailable": 0,
-            "status": "indexed_search_only_not_vacancy_verified"
-          },
-          "Lazio": {
-            "attempted": 5,
-            "indexPagesAccessible": 5,
-            "unavailable": 0,
-            "status": "indexed_search_only_not_vacancy_verified"
-          },
-          "Abruzzo": {
-            "attempted": 5,
-            "indexPagesAccessible": 5,
-            "unavailable": 0,
-            "status": "indexed_search_only_not_vacancy_verified"
-          },
-          "Molise": {
-            "attempted": 5,
-            "indexPagesAccessible": 5,
-            "unavailable": 0,
-            "status": "indexed_search_only_not_vacancy_verified"
-          },
-          "Campania": {
-            "attempted": 5,
-            "indexPagesAccessible": 5,
-            "unavailable": 0,
-            "status": "indexed_search_only_not_vacancy_verified"
-          },
-          "Puglia": {
-            "attempted": 5,
-            "indexPagesAccessible": 5,
-            "unavailable": 0,
-            "status": "indexed_search_only_not_vacancy_verified"
-          },
-          "Basilicata": {
-            "attempted": 5,
-            "indexPagesAccessible": 5,
-            "unavailable": 0,
-            "status": "indexed_search_only_not_vacancy_verified"
-          },
-          "Calabria": {
-            "attempted": 5,
-            "indexPagesAccessible": 5,
-            "unavailable": 0,
-            "status": "indexed_search_only_not_vacancy_verified"
-          },
-          "Sicilia": {
-            "attempted": 5,
-            "indexPagesAccessible": 5,
-            "unavailable": 0,
-            "status": "indexed_search_only_not_vacancy_verified"
-          },
-          "Sardegna": {
-            "attempted": 5,
-            "indexPagesAccessible": 5,
-            "unavailable": 0,
-            "status": "indexed_search_only_not_vacancy_verified"
-          }
-        },
-        "activeJobs": 268,
-        "searchLog": [
-          {
-            "source": "Jobicy",
-            "method": "public_feed_api",
-            "checkedAt": "2026-11-14T11:34:03.426107+00:00",
-            "outcome": "success: 100 raw postings",
-            "evidenceUrls": [
-              "https://jobicy.com/api/jobs?count=200&geo=europe"
-            ]
-          },
-          {
-            "source": "Jobicy-anywhere",
-            "method": "public_feed_api",
-            "checkedAt": "2026-11-14T11:34:03.940402+00:00",
-            "outcome": "success: 21 raw postings",
-            "evidenceUrls": [
-              "https://jobicy.com/api/jobs?count=200&geo=anywhere"
-            ]
-          },
-          {
-            "source": "Arbeitnow",
-            "method": "public_feed_api",
-            "checkedAt": "2026-11-14T11:34:04.384596+00:00",
-            "outcome": "success: 300 raw postings",
-            "evidenceUrls": [
-              "https://www.arbeitnow.com/api/job-board-api?page=1"
-            ]
-          },
-          {
-            "source": "Remotive",
-            "method": "public_feed_api",
-            "checkedAt": "2026-11-14T11:34:04.959531+00:00",
-            "outcome": "success: 16 raw postings",
-            "evidenceUrls": [
-              "https://remotive.com/api/remote-jobs?limit=200"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Valle d'Aosta",
-            "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:34:05.469696+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-ufficio-gare-valle-d-aosta"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Valle d'Aosta",
-            "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:34:05.470112+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-back-office-commerciale-valle-d-aosta"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Valle d'Aosta",
-            "query": "pmo",
-            "checkedAt": "2026-11-14T11:34:05.470522+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-pmo-valle-d-aosta"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Valle d'Aosta",
-            "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:34:05.470860+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-sales-operations-valle-d-aosta"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Valle d'Aosta",
-            "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:34:05.471181+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-project-coordinator-valle-d-aosta"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Piemonte",
-            "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:34:05.732897+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-ufficio-gare-piemonte"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Piemonte",
-            "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:34:05.738661+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-back-office-commerciale-piemonte"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Piemonte",
-            "query": "pmo",
-            "checkedAt": "2026-11-14T11:34:05.743608+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-pmo-piemonte"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Piemonte",
-            "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:34:05.859657+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-sales-operations-piemonte"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Piemonte",
-            "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:34:05.887277+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-project-coordinator-piemonte"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Liguria",
-            "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:34:06.004311+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-ufficio-gare-liguria"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Liguria",
-            "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:34:06.096547+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-back-office-commerciale-liguria"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Liguria",
-            "query": "pmo",
-            "checkedAt": "2026-11-14T11:34:06.207552+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-pmo-liguria"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Liguria",
-            "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:34:06.278184+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-sales-operations-liguria"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Liguria",
-            "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:34:06.304733+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-project-coordinator-liguria"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Lombardia",
-            "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:34:06.402830+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-ufficio-gare-lombardia"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Lombardia",
-            "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:34:06.552244+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-back-office-commerciale-lombardia"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Lombardia",
-            "query": "pmo",
-            "checkedAt": "2026-11-14T11:34:06.672319+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-pmo-lombardia"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Lombardia",
-            "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:34:06.770373+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-sales-operations-lombardia"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Lombardia",
-            "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:34:06.825626+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-project-coordinator-lombardia"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Trentino-Alto Adige",
-            "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:34:06.865856+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-ufficio-gare-trentino-alto-adige"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Trentino-Alto Adige",
-            "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:34:06.947201+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-back-office-commerciale-trentino-alto-adige"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Trentino-Alto Adige",
-            "query": "pmo",
-            "checkedAt": "2026-11-14T11:34:07.019833+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-pmo-trentino-alto-adige"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Trentino-Alto Adige",
-            "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:34:07.171937+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-sales-operations-trentino-alto-adige"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Trentino-Alto Adige",
-            "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:34:07.220757+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-project-coordinator-trentino-alto-adige"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Veneto",
-            "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:34:07.274495+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-ufficio-gare-veneto"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Veneto",
-            "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:34:07.324674+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-back-office-commerciale-veneto"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Veneto",
-            "query": "pmo",
-            "checkedAt": "2026-11-14T11:34:07.334422+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-pmo-veneto"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Veneto",
-            "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:34:07.516379+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-sales-operations-veneto"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Veneto",
-            "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:34:07.570104+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-project-coordinator-veneto"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Friuli-Venezia Giulia",
-            "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:34:07.673910+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-ufficio-gare-friuli-venezia-giulia"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Friuli-Venezia Giulia",
-            "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:34:07.704287+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-back-office-commerciale-friuli-venezia-giulia"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Friuli-Venezia Giulia",
-            "query": "pmo",
-            "checkedAt": "2026-11-14T11:34:07.714370+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-pmo-friuli-venezia-giulia"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Friuli-Venezia Giulia",
-            "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:34:07.772091+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-sales-operations-friuli-venezia-giulia"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Friuli-Venezia Giulia",
-            "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:34:07.946168+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-project-coordinator-friuli-venezia-giulia"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Emilia-Romagna",
-            "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:34:08.050700+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-ufficio-gare-emilia-romagna"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Emilia-Romagna",
-            "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:34:08.075503+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-back-office-commerciale-emilia-romagna"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Emilia-Romagna",
-            "query": "pmo",
-            "checkedAt": "2026-11-14T11:34:08.092922+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-pmo-emilia-romagna"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Emilia-Romagna",
-            "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:34:08.132690+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-sales-operations-emilia-romagna"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Emilia-Romagna",
-            "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:34:08.309186+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-project-coordinator-emilia-romagna"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Toscana",
-            "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:34:08.331281+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-ufficio-gare-toscana"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Toscana",
-            "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:34:08.454568+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-back-office-commerciale-toscana"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Toscana",
-            "query": "pmo",
-            "checkedAt": "2026-11-14T11:34:08.456555+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-pmo-toscana"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Toscana",
-            "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:34:08.503707+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-sales-operations-toscana"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Toscana",
-            "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:34:08.579028+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-project-coordinator-toscana"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Umbria",
-            "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:34:08.748742+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-ufficio-gare-umbria"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Umbria",
-            "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:34:08.801785+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-back-office-commerciale-umbria"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Umbria",
-            "query": "pmo",
-            "checkedAt": "2026-11-14T11:34:08.833929+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-pmo-umbria"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Umbria",
-            "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:34:08.844030+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-sales-operations-umbria"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Umbria",
-            "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:34:08.935826+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-project-coordinator-umbria"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Marche",
-            "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:34:09.081861+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-ufficio-gare-marche"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Marche",
-            "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:34:09.094433+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-back-office-commerciale-marche"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Marche",
-            "query": "pmo",
-            "checkedAt": "2026-11-14T11:34:09.116192+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-pmo-marche"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Marche",
-            "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:34:09.277524+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-sales-operations-marche"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Marche",
-            "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:34:09.350997+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-project-coordinator-marche"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Lazio",
-            "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:34:09.394820+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-ufficio-gare-lazio"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Lazio",
-            "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:34:09.426513+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-back-office-commerciale-lazio"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Lazio",
-            "query": "pmo",
-            "checkedAt": "2026-11-14T11:34:09.457784+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-pmo-lazio"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Lazio",
-            "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:34:09.515281+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-sales-operations-lazio"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Lazio",
-            "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:34:09.706123+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-project-coordinator-lazio"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Abruzzo",
-            "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:34:09.758788+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-ufficio-gare-abruzzo"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Abruzzo",
-            "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:34:09.760936+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-back-office-commerciale-abruzzo"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Abruzzo",
-            "query": "pmo",
-            "checkedAt": "2026-11-14T11:34:09.806210+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-pmo-abruzzo"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Abruzzo",
-            "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:34:09.864561+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-sales-operations-abruzzo"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Abruzzo",
-            "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:34:10.043094+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-project-coordinator-abruzzo"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Molise",
-            "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:34:10.108881+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-ufficio-gare-molise"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Molise",
-            "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:34:10.110912+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-back-office-commerciale-molise"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Molise",
-            "query": "pmo",
-            "checkedAt": "2026-11-14T11:34:10.117787+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-pmo-molise"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Molise",
-            "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:34:10.196868+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-sales-operations-molise"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Molise",
-            "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:34:10.317334+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-project-coordinator-molise"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Campania",
-            "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:34:10.339220+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-ufficio-gare-campania"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Campania",
-            "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:34:10.396671+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-back-office-commerciale-campania"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Campania",
-            "query": "pmo",
-            "checkedAt": "2026-11-14T11:34:10.436926+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-pmo-campania"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Campania",
-            "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:34:10.493299+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-sales-operations-campania"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Campania",
-            "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:34:10.553766+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-project-coordinator-campania"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Puglia",
-            "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:34:10.698269+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-ufficio-gare-puglia"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Puglia",
-            "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:34:10.701902+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-back-office-commerciale-puglia"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Puglia",
-            "query": "pmo",
-            "checkedAt": "2026-11-14T11:34:10.713541+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-pmo-puglia"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Puglia",
-            "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:34:10.805306+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-sales-operations-puglia"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Puglia",
-            "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:34:10.912357+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-project-coordinator-puglia"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Basilicata",
-            "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:34:10.991715+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-ufficio-gare-basilicata"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Basilicata",
-            "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:34:11.057670+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-back-office-commerciale-basilicata"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Basilicata",
-            "query": "pmo",
-            "checkedAt": "2026-11-14T11:34:11.068192+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-pmo-basilicata"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Basilicata",
-            "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:34:11.070270+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-sales-operations-basilicata"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Basilicata",
-            "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:34:11.225255+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-project-coordinator-basilicata"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Calabria",
-            "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:34:11.290542+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-ufficio-gare-calabria"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Calabria",
-            "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:34:11.312271+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-back-office-commerciale-calabria"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Calabria",
-            "query": "pmo",
-            "checkedAt": "2026-11-14T11:34:11.407712+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-pmo-calabria"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Calabria",
-            "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:34:11.488496+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-sales-operations-calabria"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Calabria",
-            "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:34:11.499184+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-project-coordinator-calabria"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Sicilia",
-            "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:34:11.532145+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-ufficio-gare-sicilia"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Sicilia",
-            "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:34:11.577327+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-back-office-commerciale-sicilia"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Sicilia",
-            "query": "pmo",
-            "checkedAt": "2026-11-14T11:34:11.655460+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-pmo-sicilia"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Sicilia",
-            "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:34:11.849364+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-sales-operations-sicilia"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Sicilia",
-            "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:34:11.851137+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-project-coordinator-sicilia"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Sardegna",
-            "query": "ufficio-gare",
-            "checkedAt": "2026-11-14T11:34:11.872872+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-ufficio-gare-sardegna"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Sardegna",
-            "query": "back-office-commerciale",
-            "checkedAt": "2026-11-14T11:34:11.874648+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-back-office-commerciale-sardegna"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Sardegna",
-            "query": "pmo",
-            "checkedAt": "2026-11-14T11:34:11.902882+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-pmo-sardegna"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Sardegna",
-            "query": "sales-operations",
-            "checkedAt": "2026-11-14T11:34:12.197872+00:00",
-            "outcome": "index_page_accessible; no individual vacancy verified from listing",
-            "evidenceUrls": [
-              "https://it.jobsora.com/lavoro-sales-operations-sardegna"
-            ]
-          },
-          {
-            "source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": "Sardegna",
-            "query": "project-coordinator",
-            "checkedAt": "2026-11-14T11:34:12.200388+00:00",
             "outcome": "index_page_accessible; no individual vacancy verified from listing",
             "evidenceUrls": [
               "https://it.jobsora.com/lavoro-project-coordinator-sardegna"
