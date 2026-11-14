@@ -93,9 +93,6 @@ function auditNumbers(r){
 function validRun(audit,slot){
   if(!audit||audit.date!==todayKey()||!audit.runs)return null;
   let r=audit.runs[slot];
-  // Oggi il cambio orario è avvenuto dopo il run mattutino: mostriamo il run 08:00
-  // nella card mattutina finché il primo 09:30 non verrà eseguito domani.
-  if(!r&&slot==="09:30")r=audit.runs["08:00"]||null;
   if(!r)return null;
   const runDay=dateKeyFromIso(r.scheduledFor||r.completedAt);
   return runDay===todayKey()?r:null;
@@ -106,7 +103,7 @@ function syncLabels(){
   if(morning)morning.textContent="09:30";
   if(afternoon)afternoon.textContent="15:30";
   const footer=document.querySelector(".footer");
-  if(footer)footer.textContent="Alice Job Radar · PWA v6.36 · aggiornamento automatico 09:30 / 15:30";
+  if(footer)footer.textContent="Alice Job Radar · PWA v6.37 · aggiornamento automatico 09:30 / 15:30";
 }
 function runLabel(a){
   const jobs=a.newJobs===1?"1 nuova":`${a.newJobs} nuove`;
@@ -122,14 +119,15 @@ function paint(audit){
     if(!el||!box)continue;
     box.classList.remove("ok","partial","failed");
     if(now<slotMinutes(slot)){
-      el.textContent="Da verificare";
+      el.textContent="In programma";
       el.removeAttribute("title");
       continue;
     }
     const r=validRun(audit,slot);
     if(!r){
-      el.textContent="Da verificare";
-      el.removeAttribute("title");
+      box.classList.add("partial");
+      el.textContent="Nessuna ricerca registrata";
+      el.title="La scansione prevista non ha pubblicato un esito; nessuna verifica è stata certificata.";
       continue;
     }
     const a=auditNumbers(r);
@@ -138,7 +136,7 @@ function paint(audit){
     if(r.status==="failed"){
       box.classList.add("failed");
       el.textContent="Ricerca automatica fallita";
-      el.title="La ricerca delle "+slot+" non ha prodotto un aggiornamento; il recupero manuale è mostrato separatamente.";
+      el.title="La ricerca delle "+slot+" è fallita e non ha pubblicato nuovi annunci.";
     }else if(r.status==="running"||r.status==="in_progress"){
       box.classList.add("partial");
       el.textContent=`In corso · ${detail}`;
