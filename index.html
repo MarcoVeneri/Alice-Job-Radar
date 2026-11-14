@@ -377,12 +377,18 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
  .app{width:100%;min-width:0}
  .tabs,.tab,.card{min-width:0}
 }
+.nationalPulse{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:0 0 14px;padding:16px 17px;border-radius:22px;border:1px solid rgba(111,174,134,.3);background:rgba(111,174,134,.1);box-shadow:var(--shadow-soft)}
+.nationalPulse[hidden]{display:none}
+.nationalPulse strong{display:block;font-size:14px;color:var(--ink);line-height:1.3}
+.nationalPulse small{display:block;font-size:12px;color:var(--muted);line-height:1.45;margin-top:4px}
+.nationalPulse button{border:0;border-radius:15px;background:var(--accent);color:white;font-size:12px;font-weight:800;padding:12px 16px;cursor:pointer;flex-shrink:0}
+@media(max-width:480px){.nationalPulse{flex-direction:column;align-items:stretch}.nationalPulse button{width:100%}}
 </style>
-<script id="alice-build-638">
+<script id="alice-build-639">
 (function(){
   try{
     const u=new URL(location.href);
-    if(u.searchParams.get('ajr')!=='638'){u.searchParams.set('ajr','638');location.replace(u.toString());return;}
+    if(u.searchParams.get('ajr')!=='639'){u.searchParams.set('ajr','639');location.replace(u.toString());return;}
   }catch(e){}
 })();
 </script>
@@ -401,6 +407,10 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     <div id="run15box" class="runChip"><strong>15:30</strong><span class="runSummary" id="run15">In programma</span></div>
 </section>
 
+  <section id="nationalPulse" class="nationalPulse" aria-label="Risultati ricerca nazionale" hidden>
+    <div><strong id="nationalPulseTitle">Scansione Italia</strong><small id="nationalPulseDetail">20 regioni · aggiornamento nazionale</small></div>
+    <button id="nationalPulseOpen" type="button">Mostra nuove</button>
+  </section>
   <section id="filters" class="tabs">
     <button class="tab active" data-filter="Tutte">Tutte</button>
     <button class="tab" data-filter="Tender">Tender</button>
@@ -436,13 +446,13 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v6.38 · aggiornamento automatico 09:30 / 15:30</div>
+  <div class="footer">Alice Job Radar · PWA v6.39 · aggiornamento automatico 09:30 / 15:30</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.38",sync:{enabled:false}};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.39",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],REMOTE_ROWS=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -615,7 +625,7 @@ function match(j){
  const q=normalizeSearch(ui.q.value);
  if(q){
   const r=remoteRow(j.id);
-  const haystack=normalizeSearch([j.company,j.title,j.location,j.category,j.summary,j.salary,j.contract,j.workMode,r&&r.company,r&&r.title].join(" "));
+  const haystack=normalizeSearch([j.company,j.title,j.location,j.region,j.category,j.summary,j.salary,j.contract,j.workMode,r&&r.company,r&&r.title].join(" "));
   if(!q.split(/\s+/).every(term=>haystack.includes(term)))return false;
  }
  if(filter!=="Tutte"){
@@ -650,6 +660,13 @@ function searchRelevance(j,q){
 }
 function render(){
  counts();
+ const panel=document.getElementById("nationalPulse");
+ if(panel){
+   const national=DATA.filter(j=>String(j.firstSeenRun||"").includes("Scansione nazionale straordinaria"));
+   panel.hidden=!national.length;
+   document.getElementById("nationalPulseTitle").textContent="Scansione Italia · "+national.length+" offerte aggiunte";
+   document.getElementById("nationalPulseDetail").textContent="20 regioni cercate · 40 pagine specifiche · copertura parziale delle fonti";
+ }
  const arr=DATA.filter(match).sort((a,b)=>{
   const searchTerm=searchOpen?normalizeSearch(ui.q.value):"";
   if(searchTerm){
@@ -808,6 +825,13 @@ document.querySelectorAll(".stat").forEach(el=>el.addEventListener("click",()=>{
  document.querySelectorAll(".stat").forEach(x=>x.classList.toggle("active",x.dataset.stat===statFilter));
  render();
 }));
+document.getElementById("nationalPulseOpen").addEventListener("click",()=>{
+ resetTopFilters();
+ savedOnly=false;searchOpen=false;ui.q.value="";ui.searchRow.classList.remove("searchVisible");
+ setNavActive("home");
+ document.querySelector('.stat[data-stat="Nuove"]')?.click();
+ document.querySelector(".stats")?.scrollIntoView({behavior:"smooth",block:"start"});
+});
 ui.navHome.addEventListener("click",()=>{savedOnly=false;searchOpen=false;ui.searchRow.classList.remove("searchVisible");ui.q.blur();ui.q.value="";resetTopFilters();setNavActive("home");render();window.scrollTo({top:0,behavior:"smooth"})});
 ui.navSearch.addEventListener("click",()=>{
  savedOnly=false;
@@ -893,11 +917,11 @@ setInterval(watchDayChange,15000);
 setInterval(()=>{if(document.visibilityState==="visible")load()},5*60*1000);
 })();
 </script>
-<script id="alice-sw-638">
+<script id="alice-sw-639">
 if('serviceWorker' in navigator){
   window.addEventListener('load',async()=>{
     try{
-      const r=await navigator.serviceWorker.register('./sw.js?v=638',{updateViaCache:'none'});
+      const r=await navigator.serviceWorker.register('./sw.js?v=639',{updateViaCache:'none'});
       await r.update();
     }catch(e){}
   });
