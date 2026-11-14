@@ -103,7 +103,7 @@ function syncLabels(){
   if(morning)morning.textContent="09:30";
   if(afternoon)afternoon.textContent="15:30";
   const footer=document.querySelector(".footer");
-  if(footer)footer.textContent="Alice Job Radar · PWA v6.37 · aggiornamento automatico 09:30 / 15:30";
+  if(footer)footer.textContent="Alice Job Radar · PWA v6.38 · aggiornamento automatico 09:30 / 15:30";
 }
 function runLabel(a){
   const jobs=a.newJobs===1?"1 nuova":`${a.newJobs} nuove`;
