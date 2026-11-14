@@ -102,11 +102,15 @@ def _check_listing(task):
                 hrefs = re.findall(r'href\s*=\s*"([^"]+)"', page, re.I) + re.findall(r"href\s*=\s*'([^']+)'", page, re.I)
                 samples = [u for u in hrefs if "/offerta-" in u][:4]
                 print("Jobsora individual link samples: " + repr(samples))
-                print("Jobsora first article fragment: " + repr(page[page.find("<article"):page.find("<article")+1700]))
+                sample_title = page.find('<h2 class="c-job-title">')
+                print("Jobsora article title/metadata: " + repr(page[sample_title:sample_title+2400]))
                 for posting_link in samples[:1]:
                     try:
                         detail = urllib.request.urlopen(urllib.request.Request(posting_link, headers={"User-Agent":"Mozilla/5.0"}), timeout=7)
-                        print("Jobsora vacancy check: " + repr((detail.status, detail.geturl(), detail.read(300).decode("utf-8","replace"))))
+                        detail_html = detail.read(60000).decode("utf-8", "replace")
+                        m = re.search(r'<h1[^>]*>(.*?)</h1>', detail_html, re.S | re.I)
+                        print("Jobsora vacancy check: " + repr((detail.status, detail.geturl(), "h1="+text(m.group(1)) if m else None, "JobPosting" in detail_html)))
+                        print("Jobsora vacancy snippet: " + repr(detail_html[max(0,detail_html.find("<h1")-200):detail_html.find("<h1")+1500]))
                     except Exception as e:
                         print("Jobsora vacancy check blocked: " + repr(str(e)[:180]))
 
