@@ -103,7 +103,7 @@ function syncLabels(){
   if(morning)morning.textContent="09:30";
   if(afternoon)afternoon.textContent="15:30";
   const footer=document.querySelector(".footer");
-  if(footer)footer.textContent="Alice Job Radar · PWA v6.39 · aggiornamento automatico 09:30 / 15:30";
+  if(footer)footer.textContent="Alice Job Radar · PWA v6.40 · aggiornamento automatico 09:30 / 15:30";
 }
 function runLabel(a){
   const jobs=a.newJobs===1?"1 nuova":`${a.newJobs} nuove`;
@@ -145,31 +145,40 @@ function paint(audit){
       el.textContent=detail;
     }
   }
-  // The failed 09:30 slot must not be conflated with verified manual recovery.
-  const recovery=(audit&&audit.date===todayKey()&&audit.runs)?audit.runs.manual_recovery:null;
+  // Show the nationwide manual scan independently from scheduled slots and fallback feed checks.
+  const runs=(audit&&audit.date===todayKey()&&audit.runs)?audit.runs:{};
   const section=document.querySelector(".runAudit");
-  let panel=document.getElementById("runRecoveryBox");
-  if(recovery&&section){
+  function supplementary(id,heading,run,format,description){
+    let panel=document.getElementById(id);
+    if(!run||!section){panel?.remove();return}
     if(!panel){
       panel=document.createElement("div");
-      panel.id="runRecoveryBox";
+      panel.id=id;
       panel.className="runChip partial";
       panel.style.gridColumn="1 / -1";
       const header=document.createElement("strong");
-      header.textContent="Recupero";
       const summary=document.createElement("span");
       summary.className="runSummary";
       panel.append(header,summary);
       section.appendChild(panel);
     }
-    const count=finiteCount(recovery.newJobs)??0;
-    const checks=finiteCount(recovery.queriesRun)??0;
-    const jobLabel=count===1?"1 nuova offerta":count+" nuove offerte";
-    panel.querySelector(".runSummary").textContent=jobLabel+" · "+checks+" verifiche mirate · parziale";
-    panel.title="Recupero mirato eseguito dopo il fallimento della ricerca automatica; non equivale alla scansione completa di tutte le fonti.";
-  }else if(panel){
-    panel.remove();
+    panel.querySelector("strong").textContent=heading;
+    panel.querySelector(".runSummary").textContent=format(run);
+    panel.title=description;
   }
+  supplementary(
+    "runNationalBox","🇮🇹 Scansione nazionale",runs.manual_national,
+    r=>{
+      const regions=Array.isArray(r.regionsAttempted)?r.regionsAttempted.length:0;
+      return (finiteCount(r.newJobs)??0)+" nuovi annunci · "+regions+"/20 regioni cercate · parziale";
+    },
+    "Ricerca straordinaria in tutte le regioni. Il controllo di tutte le fonti nazionali non è completo."
+  );
+  supplementary(
+    "runRecoveryBox","Recupero mirato",runs.manual_recovery,
+    r=>(finiteCount(r.newJobs)??0)+" nuove offerte · "+(finiteCount(r.queriesRun)??0)+" controlli registrati · parziale",
+    "Recupero mirato, distinto dalla scansione nazionale e dalle scansioni programmate."
+  );
 }
 
 function syncEndpoint(){
