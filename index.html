@@ -360,11 +360,11 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
   input[type="search"]{font-size:16px!important}
 }
 </style>
-<script id="alice-build-633">
+<script id="alice-build-637">
 (function(){
   try{
     const u=new URL(location.href);
-    if(u.searchParams.get('ajr')!=='636'){u.searchParams.set('ajr','636');location.replace(u.toString());return;}
+    if(u.searchParams.get('ajr')!=='637'){u.searchParams.set('ajr','637');location.replace(u.toString());return;}
   }catch(e){}
 })();
 </script>
@@ -379,8 +379,8 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 </header>
 
   <section class="runAudit" aria-label="Stato ricerche di oggi">
-    <div id="run08box" class="runChip"><strong>08:00</strong><span class="runSummary" id="run08">Da verificare</span></div>
-    <div id="run15box" class="runChip"><strong>15:00</strong><span class="runSummary" id="run15">Da verificare</span></div>
+    <div id="run08box" class="runChip"><strong>09:30</strong><span class="runSummary" id="run08">In programma</span></div>
+    <div id="run15box" class="runChip"><strong>15:30</strong><span class="runSummary" id="run15">In programma</span></div>
 </section>
 
   <section id="filters" class="tabs">
@@ -418,13 +418,13 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v6.36 · aggiornamento automatico 08:00 / 15:00</div>
+  <div class="footer">Alice Job Radar · PWA v6.37 · aggiornamento automatico 09:30 / 15:30</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.36",sync:{enabled:false}};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.37",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],REMOTE_ROWS=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -727,7 +727,10 @@ function renderAudit(audit){
    box.classList.remove("ok","partial","failed");
    box.querySelector(".runDetails")?.remove();
    if(!r){
-     el.textContent="Da verificare";
+     const parts=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Rome",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(new Date());
+     const nowTime=parts.find(x=>x.type==="hour").value+":"+parts.find(x=>x.type==="minute").value;
+     el.textContent=nowTime>=slot?"Nessuna ricerca registrata":"In programma";
+     if(nowTime>=slot)box.classList.add("partial");
      return;
    }
    const a=auditSummary(r);
@@ -737,7 +740,7 @@ function renderAudit(audit){
    const failed=r.status==="failed";
    if(failed){
      box.classList.add("failed");
-     el.textContent="Non completata · "+checked+"/"+total+" fonti";
+     el.textContent="Ricerca automatica fallita";
      return;
    }
    if(running){
@@ -749,8 +752,8 @@ function renderAudit(audit){
    el.textContent=checked+"/"+total+" complete · "+a.explored.length+" esplorate";
    el.title=(a.queries||0)+" controlli reali";
  }
- one("08:00",ui.run08,ui.run08box);
- one("15:00",ui.run15,ui.run15box);
+ one("09:30",ui.run08,ui.run08box);
+ one("15:30",ui.run15,ui.run15box);
 }
 async function load(){ ui.notice.classList.remove('show');
  if(ui.refreshBtn){ui.refreshBtn.disabled=true;ui.refreshBtn.classList.add("spinning")}
@@ -868,11 +871,11 @@ setInterval(watchDayChange,15000);
 setInterval(()=>{if(document.visibilityState==="visible")load()},5*60*1000);
 })();
 </script>
-<script id="alice-sw-636">
+<script id="alice-sw-637">
 if('serviceWorker' in navigator){
   window.addEventListener('load',async()=>{
     try{
-      const r=await navigator.serviceWorker.register('./sw.js?v=636',{updateViaCache:'none'});
+      const r=await navigator.serviceWorker.register('./sw.js?v=637',{updateViaCache:'none'});
       await r.update();
     }catch(e){}
   });
