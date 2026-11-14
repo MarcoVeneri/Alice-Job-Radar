@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T11:02:35.268Z",
+  "generatedAt": "2026-11-14T11:07:14.928794Z",
   "source": "Alice Job Radar V2 — MAX-COVERAGE 15:30",
   "jobs": [
     {
@@ -11701,6 +11701,639 @@
         "note": "Ricerca mirata su annunci specifici: non equivale a una scansione completa. L'automazione 09:30 ha fallito, audit storico preservato."
       },
       "automated_fallback": {
+        "scheduledFor": "2026-11-14T11:07:14.928794Z",
+        "startedAt": "2026-11-14T11:07:14.928794Z",
+        "completedAt": "2026-11-14T11:07:40.648553Z",
+        "status": "partial",
+        "coverageMode": "national_20_region_discovery_plus_verified_public_feeds",
+        "requiredSourcesTotal": 238,
+        "requiredSourcesChecked": 4,
+        "sourcesExplored": 5,
+        "sourcesChecked": [
+          "Jobicy",
+          "Jobicy-anywhere",
+          "Arbeitnow",
+          "Remotive",
+          "Jobsora regional indexed listings"
+        ],
+        "directSourcesChecked": [],
+        "siteRestrictedSourcesChecked": [],
+        "indexedFallbackSourcesChecked": [
+          "Jobicy",
+          "Jobicy-anywhere",
+          "Arbeitnow",
+          "Remotive"
+        ],
+        "sourcesUnavailable": [],
+        "queriesRun": 44,
+        "newJobs": 0,
+        "regionsTarget": 20,
+        "regionsAttempted": [
+          "Valle d'Aosta",
+          "Piemonte",
+          "Liguria",
+          "Lombardia",
+          "Trentino-Alto Adige",
+          "Veneto",
+          "Friuli-Venezia Giulia",
+          "Emilia-Romagna",
+          "Toscana",
+          "Umbria",
+          "Marche",
+          "Lazio",
+          "Abruzzo",
+          "Molise",
+          "Campania",
+          "Puglia",
+          "Basilicata",
+          "Calabria",
+          "Sicilia",
+          "Sardegna"
+        ],
+        "regionCoverage": {
+          "Valle d'Aosta": {
+            "attempted": 2,
+            "indexPagesAccessible": 2,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Piemonte": {
+            "attempted": 2,
+            "indexPagesAccessible": 2,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Liguria": {
+            "attempted": 2,
+            "indexPagesAccessible": 2,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Lombardia": {
+            "attempted": 2,
+            "indexPagesAccessible": 2,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Trentino-Alto Adige": {
+            "attempted": 2,
+            "indexPagesAccessible": 2,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Veneto": {
+            "attempted": 2,
+            "indexPagesAccessible": 2,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Friuli-Venezia Giulia": {
+            "attempted": 2,
+            "indexPagesAccessible": 2,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Emilia-Romagna": {
+            "attempted": 2,
+            "indexPagesAccessible": 2,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Toscana": {
+            "attempted": 2,
+            "indexPagesAccessible": 2,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Umbria": {
+            "attempted": 2,
+            "indexPagesAccessible": 2,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Marche": {
+            "attempted": 2,
+            "indexPagesAccessible": 2,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Lazio": {
+            "attempted": 2,
+            "indexPagesAccessible": 2,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Abruzzo": {
+            "attempted": 2,
+            "indexPagesAccessible": 2,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Molise": {
+            "attempted": 2,
+            "indexPagesAccessible": 2,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Campania": {
+            "attempted": 2,
+            "indexPagesAccessible": 2,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Puglia": {
+            "attempted": 2,
+            "indexPagesAccessible": 2,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Basilicata": {
+            "attempted": 2,
+            "indexPagesAccessible": 2,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Calabria": {
+            "attempted": 2,
+            "indexPagesAccessible": 2,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Sicilia": {
+            "attempted": 2,
+            "indexPagesAccessible": 2,
+            "status": "indexed_search_only_not_vacancy_verified"
+          },
+          "Sardegna": {
+            "attempted": 2,
+            "indexPagesAccessible": 2,
+            "status": "indexed_search_only_not_vacancy_verified"
+          }
+        },
+        "activeJobs": 268,
+        "searchLog": [
+          {
+            "source": "Jobicy",
+            "method": "public_feed_api",
+            "checkedAt": "2026-11-14T11:07:14.933866+00:00",
+            "outcome": "success: 100 raw postings",
+            "evidenceUrls": [
+              "https://jobicy.com/api/jobs?count=200&geo=europe"
+            ]
+          },
+          {
+            "source": "Jobicy-anywhere",
+            "method": "public_feed_api",
+            "checkedAt": "2026-11-14T11:07:15.886082+00:00",
+            "outcome": "success: 21 raw postings",
+            "evidenceUrls": [
+              "https://jobicy.com/api/jobs?count=200&geo=anywhere"
+            ]
+          },
+          {
+            "source": "Arbeitnow",
+            "method": "public_feed_api",
+            "checkedAt": "2026-11-14T11:07:16.417147+00:00",
+            "outcome": "success: 300 raw postings",
+            "evidenceUrls": [
+              "https://www.arbeitnow.com/api/job-board-api?page=1"
+            ]
+          },
+          {
+            "source": "Remotive",
+            "method": "public_feed_api",
+            "checkedAt": "2026-11-14T11:07:16.899241+00:00",
+            "outcome": "success: 16 raw postings",
+            "evidenceUrls": [
+              "https://remotive.com/api/remote-jobs?limit=200"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Valle d'Aosta",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:07:17.367200+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-valle-d-aosta"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Valle d'Aosta",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:07:17.948827+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-valle-d-aosta"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Piemonte",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:07:18.519423+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-piemonte"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Piemonte",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:07:19.226955+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-piemonte"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Liguria",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:07:19.795114+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-liguria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Liguria",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:07:20.309560+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-liguria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Lombardia",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:07:20.860188+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-lombardia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Lombardia",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:07:21.377243+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-lombardia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Trentino-Alto Adige",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:07:21.944963+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-trentino-alto-adige"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Trentino-Alto Adige",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:07:22.475571+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-trentino-alto-adige"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Veneto",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:07:23.174209+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-veneto"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Veneto",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:07:23.695981+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-veneto"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Friuli-Venezia Giulia",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:07:24.256679+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-friuli-venezia-giulia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Friuli-Venezia Giulia",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:07:24.959376+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-friuli-venezia-giulia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Emilia-Romagna",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:07:25.498927+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-emilia-romagna"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Emilia-Romagna",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:07:26.018894+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-emilia-romagna"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Toscana",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:07:26.746580+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-toscana"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Toscana",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:07:27.450921+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-toscana"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Umbria",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:07:28.001359+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-umbria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Umbria",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:07:28.679840+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-umbria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Marche",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:07:29.381840+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-marche"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Marche",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:07:29.976770+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-marche"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Lazio",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:07:30.703022+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-lazio"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Lazio",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:07:31.220046+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-lazio"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Abruzzo",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:07:31.772144+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-abruzzo"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Abruzzo",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:07:32.470266+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-abruzzo"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Molise",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:07:33.011928+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-molise"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Molise",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:07:33.391642+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-molise"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Campania",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:07:33.897078+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-campania"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Campania",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:07:34.428373+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-campania"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Puglia",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:07:35.141505+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-puglia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Puglia",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:07:35.635434+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-puglia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Basilicata",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:07:36.412788+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-basilicata"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Basilicata",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:07:36.830378+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-basilicata"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Calabria",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:07:37.345215+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-calabria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Calabria",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:07:37.746820+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-calabria"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Sicilia",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:07:38.461270+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-sicilia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Sicilia",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:07:38.983795+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-sicilia"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Sardegna",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-14T11:07:39.503380+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-sardegna"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Sardegna",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-14T11:07:40.080997+00:00",
+            "outcome": "index_page_accessible; no individual vacancy verified from listing",
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-sardegna"
+            ]
+          }
+        ],
+        "note": "Nationwide 20-region indexed search attempts plus public feeds; regional listing searches do NOT verify individual vacancies. Partial coverage, not a full scan of all providers."
+      },
+      "automated_fallback_previous": {
         "scheduledFor": "2026-11-14T10:27:35.822374Z",
         "startedAt": "2026-11-14T10:27:35.822374Z",
         "completedAt": "2026-11-14T10:27:38.470290Z",
@@ -11759,73 +12392,6 @@
             "source": "Remotive",
             "method": "public_feed_api",
             "checkedAt": "2026-11-14T10:27:37.876243+00:00",
-            "outcome": "success: 16 raw postings",
-            "evidenceUrls": [
-              "https://remotive.com/api/remote-jobs?limit=200"
-            ]
-          }
-        ],
-        "note": "Automatic public-feed backup, not a complete national web scan."
-      },
-      "automated_fallback_previous": {
-        "scheduledFor": "2026-11-14T10:25:16.889880Z",
-        "startedAt": "2026-11-14T10:25:16.889880Z",
-        "completedAt": "2026-11-14T10:25:20.108967Z",
-        "status": "partial",
-        "coverageMode": "fallback_public_feeds",
-        "requiredSourcesTotal": 238,
-        "requiredSourcesChecked": 4,
-        "sourcesExplored": 4,
-        "sourcesChecked": [
-          "Jobicy",
-          "Jobicy-anywhere",
-          "Arbeitnow",
-          "Remotive"
-        ],
-        "directSourcesChecked": [],
-        "siteRestrictedSourcesChecked": [],
-        "indexedFallbackSourcesChecked": [
-          "Jobicy",
-          "Jobicy-anywhere",
-          "Arbeitnow",
-          "Remotive"
-        ],
-        "sourcesUnavailable": [],
-        "queriesRun": 4,
-        "newJobs": 0,
-        "activeJobs": 227,
-        "searchLog": [
-          {
-            "source": "Jobicy",
-            "method": "public_feed_api",
-            "checkedAt": "2026-11-14T10:25:16.893387+00:00",
-            "outcome": "success: 100 raw postings",
-            "evidenceUrls": [
-              "https://jobicy.com/api/jobs?count=200&geo=europe"
-            ]
-          },
-          {
-            "source": "Jobicy-anywhere",
-            "method": "public_feed_api",
-            "checkedAt": "2026-11-14T10:25:18.138517+00:00",
-            "outcome": "success: 21 raw postings",
-            "evidenceUrls": [
-              "https://jobicy.com/api/jobs?count=200&geo=anywhere"
-            ]
-          },
-          {
-            "source": "Arbeitnow",
-            "method": "public_feed_api",
-            "checkedAt": "2026-11-14T10:25:19.079531+00:00",
-            "outcome": "success: 300 raw postings",
-            "evidenceUrls": [
-              "https://www.arbeitnow.com/api/job-board-api?page=1"
-            ]
-          },
-          {
-            "source": "Remotive",
-            "method": "public_feed_api",
-            "checkedAt": "2026-11-14T10:25:19.608625+00:00",
             "outcome": "success: 16 raw postings",
             "evidenceUrls": [
               "https://remotive.com/api/remote-jobs?limit=200"
