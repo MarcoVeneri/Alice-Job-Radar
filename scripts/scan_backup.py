@@ -13,6 +13,17 @@ from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+REGIONS = [
+    ("Valle d'Aosta", "valle-d-aosta"), ("Piemonte", "piemonte"),
+    ("Liguria", "liguria"), ("Lombardia", "lombardia"),
+    ("Trentino-Alto Adige", "trentino-alto-adige"), ("Veneto", "veneto"),
+    ("Friuli-Venezia Giulia", "friuli-venezia-giulia"),
+    ("Emilia-Romagna", "emilia-romagna"), ("Toscana", "toscana"),
+    ("Umbria", "umbria"), ("Marche", "marche"), ("Lazio", "lazio"),
+    ("Abruzzo", "abruzzo"), ("Molise", "molise"), ("Campania", "campania"),
+    ("Puglia", "puglia"), ("Basilicata", "basilicata"),
+    ("Calabria", "calabria"), ("Sicilia", "sicilia"), ("Sardegna", "sardegna"),
+]
 BASE = Path("data/jobs.json")
 ROME = ZoneInfo("Europe/Rome")
 ROLE = re.compile(
@@ -67,6 +78,40 @@ def feed_rows():
                          "outcome": "unavailable: " + str(exc)[:180], "evidenceUrls": [url]})
         time.sleep(0.4)
     return rows, logs
+
+
+def region_discovery():
+    """Check two indexed listing queries in EVERY region, without pretending that a listing verifies its jobs.
+    No vacancy from this layer is inserted automatically without checking a specific final job URL.
+    """
+    logs, coverage = [], {}
+    for region, slug in REGIONS:
+        successes = 0
+        for role in ("ufficio-gare", "back-office-commerciale"):
+            url = f"https://it.jobsora.com/lavoro-{role}-{slug}"
+            stamp = datetime.now(timezone.utc).isoformat()
+            try:
+                req = urllib.request.Request(
+                    url, headers={"User-Agent": "Mozilla/5.0 (compatible; AliceJobRadar/6.39)",
+                                  "Accept": "text/html"})
+                with urllib.request.urlopen(req, timeout=9) as res:
+                    data = res.read(300_000).decode("utf-8", "replace")
+                    status = res.status
+                if status == 200 and "<html" in data.lower():
+                    successes += 1
+                    outcome = "index_page_accessible; no individual vacancy verified from listing"
+                else:
+                    outcome = f"invalid_listing_response_{status}"
+            except Exception as exc:
+                outcome = "unavailable: " + str(exc)[:130]
+            logs.append({"source": "Jobsora regional indexed listings",
+                         "method": "regional_index_discovery_only",
+                         "region": region, "query": role, "checkedAt": stamp,
+                         "outcome": outcome, "evidenceUrls": [url]})
+            time.sleep(0.15)
+        coverage[region] = {"attempted": 2, "indexPagesAccessible": successes,
+                            "status": "indexed_search_only_not_vacancy_verified"}
+    return coverage, logs
 
 
 def mapped_job(source, kind, raw, today, now):
@@ -144,8 +189,9 @@ def main():
     except (OSError, ValueError, TypeError):
         required_sources_total = 238
     rows, logs = feed_rows()
+    regional_coverage, regional_logs = region_discovery()
     successes = [x for x in logs if x["outcome"].startswith("success:")]
-    if not successes:
+    if not successes and not any(x["indexPagesAccessible"] for x in regional_coverage.values()):
         print("No source accessible: do not publish a fake successful audit")
         return
     old = data.get("jobs", [])
@@ -165,15 +211,17 @@ def main():
         links.add(link)
     data["jobs"] = old
     run = {"scheduledFor": now, "startedAt": now, "completedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-           "status": "partial", "coverageMode": "fallback_public_feeds",
+           "status": "partial", "coverageMode": "national_20_region_discovery_plus_verified_public_feeds",
            "requiredSourcesTotal": required_sources_total, "requiredSourcesChecked": len(successes),
-           "sourcesExplored": len(successes), "sourcesChecked": [x["source"] for x in successes],
+           "sourcesExplored": len(successes) + int(any(x["indexPagesAccessible"] for x in regional_coverage.values())), "sourcesChecked": [x["source"] for x in successes] + (["Jobsora regional indexed listings"] if any(x["indexPagesAccessible"] for x in regional_coverage.values()) else []),
            "directSourcesChecked": [], "siteRestrictedSourcesChecked": [],
            "indexedFallbackSourcesChecked": [x["source"] for x in successes],
            "sourcesUnavailable": [x["source"] for x in logs if not x["outcome"].startswith("success:")],
-           "queriesRun": len(successes), "newJobs": len(added),
+           "queriesRun": len(logs) + len(regional_logs), "newJobs": len(added),
+           "regionsTarget": 20, "regionsAttempted": [x[0] for x in REGIONS],
+           "regionCoverage": regional_coverage,
            "activeJobs": sum(j.get("active", True) is not False for j in old),
-           "searchLog": logs, "note": "Automatic public-feed backup, not a complete national web scan."}
+           "searchLog": logs + regional_logs, "note": "Nationwide 20-region indexed search attempts plus public feeds; regional listing searches do NOT verify individual vacancies. Partial coverage, not a full scan of all providers."}
     existing = data["audit"].setdefault("runs", {}).get(slot)
     if existing is not None and slot == "automated_fallback":
         data["audit"]["runs"]["automated_fallback_previous"] = existing
