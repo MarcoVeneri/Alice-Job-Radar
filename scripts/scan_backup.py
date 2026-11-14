@@ -14,6 +14,7 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
+from jobsora_extract import listing_candidates, verify_many, norm
 
 REGIONS = [
     ("Valle d'Aosta", "valle-d-aosta"), ("Piemonte", "piemonte"),
@@ -85,67 +86,59 @@ def feed_rows():
 REGIONAL_ROLES = ("ufficio-gare", "back-office-commerciale", "pmo", "sales-operations", "project-coordinator")
 
 def _check_listing(task):
-    """A listing-page response confirms only a working regional query, not any vacancy."""
+    """Retrieve a regional index, extracting candidates (not yet verified)."""
     region, slug, role = task
     url = f"https://it.jobsora.com/lavoro-{role}-{slug}"
     stamp = datetime.now(timezone.utc).isoformat()
+    found = []
     try:
-        request = urllib.request.Request(
-            url, headers={"User-Agent": "Mozilla/5.0 (compatible; AliceJobRadar/6.40)",
-                          "Accept": "text/html"})
-        with urllib.request.urlopen(request, timeout=7) as res:
-            page = res.read(160_000).decode("utf-8", "replace")
-            status = res.status
+        req = urllib.request.Request(url,
+            headers={"User-Agent":"Mozilla/5.0 (compatible; AliceJobRadar/6.41)",
+                     "Accept":"text/html"})
+        with urllib.request.urlopen(req,timeout=7) as response:
+            page = response.read(240_000).decode("utf-8","replace")
+            status = response.status
         if status == 200 and "<html" in page.lower() and "jobsora" in page.lower():
-            outcome = "index_page_accessible; no individual vacancy verified from listing"
-            if region == "Toscana" and role == "back-office-commerciale":
-                hrefs = re.findall(r'href\s*=\s*"([^"]+)"', page, re.I) + re.findall(r"href\s*=\s*'([^']+)'", page, re.I)
-                samples = [u for u in hrefs if "/offerta-" in u][:4]
-                print("Jobsora individual link samples: " + repr(samples))
-                sample_title = page.find('<h2 class="c-job-title">')
-                print("Jobsora article title/metadata: " + repr(page[sample_title:sample_title+2400]))
-                for posting_link in samples[:1]:
-                    try:
-                        detail = urllib.request.urlopen(urllib.request.Request(posting_link, headers={"User-Agent":"Mozilla/5.0"}), timeout=7)
-                        detail_html = detail.read(60000).decode("utf-8", "replace")
-                        m = re.search(r'<h1[^>]*>(.*?)</h1>', detail_html, re.S | re.I)
-                        print("Jobsora vacancy check: " + repr((detail.status, detail.geturl(), "h1="+text(m.group(1)) if m else None, "JobPosting" in detail_html)))
-                        print("Jobsora vacancy snippet: " + repr(detail_html[max(0,detail_html.find("<h1")-200):detail_html.find("<h1")+1500]))
-                    except Exception as e:
-                        print("Jobsora vacancy check blocked: " + repr(str(e)[:180]))
-
-                marker = page.find("/offerta-")
-                print("Jobsora first-link HTML context: " + repr(page[max(0, marker-650):marker+350]))
-                print("Jobsora listing HTML markers: " + repr({
-                    "jobposting": "JobPosting" in page, "article": "<article" in page,
-                    "links": len(hrefs)
-                }))
+            outcome = "index_page_accessible; detail check required"
+            found = listing_candidates(page,region,limit=3)
         else:
             outcome = f"invalid_or_unrelated_listing_{status}"
     except Exception as exc:
         outcome = "unavailable: " + str(exc)[:130]
-    return {"source": "Jobsora regional indexed listings",
-            "method": "regional_index_discovery_only",
-            "region": region, "query": role, "checkedAt": stamp,
-            "outcome": outcome, "evidenceUrls": [url]}
+    return ({"source":"Jobsora regional indexed listings",
+             "method":"regional_index_discovery_only",
+             "region":region,"query":role,"checkedAt":stamp,
+             "outcome":outcome,"candidatesFound":len(found),
+             "evidenceUrls":[url]},found)
 
 def region_discovery():
-    """Five distinct keyword searches across all 20 regions (100 attempted URLs).
-    Failed sources are logged; failures cannot masquerade as successful searches.
-    """
-    tasks = [(region, slug, role) for region, slug in REGIONS for role in REGIONAL_ROLES]
+    """Try five roles per region; verify individual vacancy pages separately."""
+    tasks=[(region,slug,role) for region,slug in REGIONS for role in REGIONAL_ROLES]
     with ThreadPoolExecutor(max_workers=5) as pool:
-        logs = list(pool.map(_check_listing, tasks))
-    coverage = {}
-    for region, _ in REGIONS:
-        items = [x for x in logs if x["region"] == region]
-        accessible = sum(x["outcome"].startswith("index_page_accessible") for x in items)
-        coverage[region] = {
-            "attempted": len(items), "indexPagesAccessible": accessible,
-            "unavailable": len(items) - accessible,
-            "status": "indexed_search_only_not_vacancy_verified"
-        }
-    return coverage, logs
+        results=list(pool.map(_check_listing,tasks))
+    logs=[log for log,_ in results]
+    coverage={}
+    for region,_ in REGIONS:
+        items=[x for x in logs if x["region"]==region]
+        accessible=sum(x["outcome"].startswith("index_page_accessible") for x in items)
+        coverage[region]={"attempted":len(items),
+                          "indexPagesAccessible":accessible,
+                          "unavailable":len(items)-accessible,
+                          "candidateLinksFound":sum(x["candidatesFound"] for x in items),
+                          "status":"index_search_attempted_postings_checked_separately"}
+    candidates=[]
+    ids=set()
+    quota={region:0 for region,_ in REGIONS}
+    for _,rows in results:
+        for candidate in rows:
+            region=candidate["region"]
+            ident=candidate["id"]
+            if ident in ids or quota[region]>=6:
+                continue
+            candidates.append(candidate)
+            ids.add(ident)
+            quota[region]+=1
+    return coverage,logs,candidates
 
 
 def mapped_job(source, kind, raw, today, now):
@@ -235,7 +228,12 @@ def main():
     except (OSError, ValueError, TypeError):
         required_sources_total = 238
     rows, logs = feed_rows()
-    regional_coverage, regional_logs = region_discovery()
+    regional_coverage, regional_logs, candidate_postings = region_discovery()
+    verified_regional = verify_many(candidate_postings,today,now)
+    for item in verified_regional:
+        region = item["region"]
+        regional_coverage[region]["detailPagesVerified"] = (
+            regional_coverage[region].get("detailPagesVerified",0)+1)
     successes = [x for x in logs if x["outcome"].startswith("success:")]
     found_accessible = any(x["indexPagesAccessible"] for x in regional_coverage.values())
     if not successes and not found_accessible:
@@ -243,27 +241,47 @@ def main():
     old = data.get("jobs", [])
     ids = {str(j.get("id")) for j in old}
     links = {str(j.get("url", "")).split("?")[0].lower() for j in old}
+    def semantic(j):
+        return (norm(j.get("company")),norm(j.get("title")),norm(j.get("location")))
+    known = {semantic(j) for j in old}
     added = []
+    regional_added = 0
+    for candidate in verified_regional:
+        link = candidate["url"].split("?")[0].lower()
+        key = semantic(candidate)
+        if candidate["id"] in ids or link in links or key in known:
+            continue
+        old.insert(0,candidate)
+        added.append(candidate)
+        ids.add(candidate["id"])
+        links.add(link)
+        known.add(key)
+        regional_added += 1
     for source, kind, raw in rows:
         candidate = mapped_job(source, kind, raw, today, now)
         if candidate is None:
             continue
         link = candidate["url"].split("?")[0].lower()
-        if candidate["id"] in ids or link in links:
+        if candidate["id"] in ids or link in links or semantic(candidate) in known:
             continue
         old.insert(0, candidate)
         added.append(candidate)
         ids.add(candidate["id"])
         links.add(link)
+        known.add(semantic(candidate))
     data["jobs"] = old
     run = {"scheduledFor": now, "startedAt": now, "completedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
            "status": "partial" if (successes or found_accessible) else "failed", "coverageMode": "national_20_region_discovery_plus_verified_public_feeds",
-           "requiredSourcesTotal": required_sources_total, "requiredSourcesChecked": len(successes),
+           "requiredSourcesTotal": required_sources_total, "requiredSourcesChecked": len(successes) + int(found_accessible),
            "sourcesExplored": len(successes) + int(any(x["indexPagesAccessible"] for x in regional_coverage.values())), "sourcesChecked": [x["source"] for x in successes] + (["Jobsora regional indexed listings"] if any(x["indexPagesAccessible"] for x in regional_coverage.values()) else []),
            "directSourcesChecked": [], "siteRestrictedSourcesChecked": [],
            "indexedFallbackSourcesChecked": [x["source"] for x in successes],
            "sourcesUnavailable": [x["source"] for x in logs if not x["outcome"].startswith("success:")],
-           "queriesRun": len(logs) + len(regional_logs), "newJobs": len(added),
+           "queriesRun": len(logs) + len(regional_logs) + len(candidate_postings),
+           "specificJobPagesOpened":len(candidate_postings),
+           "specificJobPagesVerified":len(verified_regional),
+           "newRegionalJobs":regional_added,
+           "newJobs":len(added),
            "regionsTarget": 20, "regionsAttempted": [x[0] for x in REGIONS],
            "regionCoverage": regional_coverage,
            "activeJobs": sum(j.get("active", True) is not False for j in old),
@@ -289,7 +307,9 @@ def main():
         data["generatedAt"] = now
     data["manualRefresh"] = data.get("manualRefresh")  # do not alter separate manual scan
     BASE.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Fallback: {len(successes)} sources checked, {len(added)} new, {len(old)} total, slot={slot}")
+    print(f"Nationwide: {len(REGIONS)} regions, {len(regional_logs)} listing checks, "
+          f"{len(candidate_postings)} detail page attempts, {len(verified_regional)} valid aggregator details, "
+          f"{regional_added} new regional jobs, {len(added)} overall new, {len(old)} total, slot={slot}")
 
 
 if __name__ == "__main__":
