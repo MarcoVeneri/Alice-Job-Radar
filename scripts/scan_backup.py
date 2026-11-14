@@ -98,6 +98,14 @@ def _check_listing(task):
             status = res.status
         if status == 200 and "<html" in page.lower() and "jobsora" in page.lower():
             outcome = "index_page_accessible; no individual vacancy verified from listing"
+            if region == "Toscana" and role == "back-office-commerciale":
+                hrefs = re.findall(r'href=[\\x22\\x27]([^\\x22\\x27]+)', page, re.I)
+                samples = [u for u in hrefs if "/offerta-" in u][:4]
+                print("Jobsora individual link samples: " + repr(samples))
+                print("Jobsora listing HTML markers: " + repr({
+                    "jobposting": "JobPosting" in page, "article": "<article" in page,
+                    "links": len(hrefs)
+                }))
         else:
             outcome = f"invalid_or_unrelated_listing_{status}"
     except Exception as exc:
