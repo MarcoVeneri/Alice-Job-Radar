@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import hashlib
+import os
+from concurrent.futures import ThreadPoolExecutor
 import html
 import json
 import re
@@ -80,37 +82,47 @@ def feed_rows():
     return rows, logs
 
 
+REGIONAL_ROLES = ("ufficio-gare", "back-office-commerciale", "pmo", "sales-operations", "project-coordinator")
+
+def _check_listing(task):
+    """A listing-page response confirms only a working regional query, not any vacancy."""
+    region, slug, role = task
+    url = f"https://it.jobsora.com/lavoro-{role}-{slug}"
+    stamp = datetime.now(timezone.utc).isoformat()
+    try:
+        request = urllib.request.Request(
+            url, headers={"User-Agent": "Mozilla/5.0 (compatible; AliceJobRadar/6.40)",
+                          "Accept": "text/html"})
+        with urllib.request.urlopen(request, timeout=7) as res:
+            page = res.read(160_000).decode("utf-8", "replace")
+            status = res.status
+        if status == 200 and "<html" in page.lower() and "jobsora" in page.lower():
+            outcome = "index_page_accessible; no individual vacancy verified from listing"
+        else:
+            outcome = f"invalid_or_unrelated_listing_{status}"
+    except Exception as exc:
+        outcome = "unavailable: " + str(exc)[:130]
+    return {"source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": region, "query": role, "checkedAt": stamp,
+            "outcome": outcome, "evidenceUrls": [url]}
+
 def region_discovery():
-    """Check two indexed listing queries in EVERY region, without pretending that a listing verifies its jobs.
-    No vacancy from this layer is inserted automatically without checking a specific final job URL.
+    """Five distinct keyword searches across all 20 regions (100 attempted URLs).
+    Failed sources are logged; failures cannot masquerade as successful searches.
     """
-    logs, coverage = [], {}
-    for region, slug in REGIONS:
-        successes = 0
-        for role in ("ufficio-gare", "back-office-commerciale"):
-            url = f"https://it.jobsora.com/lavoro-{role}-{slug}"
-            stamp = datetime.now(timezone.utc).isoformat()
-            try:
-                req = urllib.request.Request(
-                    url, headers={"User-Agent": "Mozilla/5.0 (compatible; AliceJobRadar/6.39)",
-                                  "Accept": "text/html"})
-                with urllib.request.urlopen(req, timeout=9) as res:
-                    data = res.read(300_000).decode("utf-8", "replace")
-                    status = res.status
-                if status == 200 and "<html" in data.lower():
-                    successes += 1
-                    outcome = "index_page_accessible; no individual vacancy verified from listing"
-                else:
-                    outcome = f"invalid_listing_response_{status}"
-            except Exception as exc:
-                outcome = "unavailable: " + str(exc)[:130]
-            logs.append({"source": "Jobsora regional indexed listings",
-                         "method": "regional_index_discovery_only",
-                         "region": region, "query": role, "checkedAt": stamp,
-                         "outcome": outcome, "evidenceUrls": [url]})
-            time.sleep(0.15)
-        coverage[region] = {"attempted": 2, "indexPagesAccessible": successes,
-                            "status": "indexed_search_only_not_vacancy_verified"}
+    tasks = [(region, slug, role) for region, slug in REGIONS for role in REGIONAL_ROLES]
+    with ThreadPoolExecutor(max_workers=5) as pool:
+        logs = list(pool.map(_check_listing, tasks))
+    coverage = {}
+    for region, _ in REGIONS:
+        items = [x for x in logs if x["region"] == region]
+        accessible = sum(x["outcome"].startswith("index_page_accessible") for x in items)
+        coverage[region] = {
+            "attempted": len(items), "indexPagesAccessible": accessible,
+            "unavailable": len(items) - accessible,
+            "status": "indexed_search_only_not_vacancy_verified"
+        }
     return coverage, logs
 
 
@@ -173,8 +185,20 @@ def main():
     rome = datetime.now(ROME)
     today = rome.date().isoformat()
     now = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
-    is_scheduled_window = rome.hour in (9, 15) and rome.minute >= 30
-    slot = f"{rome.hour:02d}:30" if is_scheduled_window else "automated_fallback"
+    # GitHub runs in UTC; scheduled times can be delayed, and summer/winter CRON
+    # requires a redundant UTC slot. Never let the redundant trigger overwrite a slot.
+    scheduled = os.environ.get("GITHUB_EVENT_NAME") == "schedule"
+    mins = rome.hour * 60 + rome.minute
+    if scheduled:
+        if 570 <= mins <= 624:  # 09:30-10:24 Italy
+            slot = "09:30"
+        elif 930 <= mins <= 984:  # 15:30-16:24 Italy
+            slot = "15:30"
+        else:
+            print(f"Skipping redundant UTC schedule at {rome.isoformat()}")
+            return
+    else:
+        slot = "automated_fallback"
     data = json.loads(BASE.read_text(encoding="utf-8"))
     previous = data.get("audit")
     if not isinstance(previous, dict) or previous.get("date") != today:
@@ -191,9 +215,9 @@ def main():
     rows, logs = feed_rows()
     regional_coverage, regional_logs = region_discovery()
     successes = [x for x in logs if x["outcome"].startswith("success:")]
-    if not successes and not any(x["indexPagesAccessible"] for x in regional_coverage.values()):
-        print("No source accessible: do not publish a fake successful audit")
-        return
+    found_accessible = any(x["indexPagesAccessible"] for x in regional_coverage.values())
+    if not successes and not found_accessible:
+        print("All national sources unavailable: recording a failed audit honestly")
     old = data.get("jobs", [])
     ids = {str(j.get("id")) for j in old}
     links = {str(j.get("url", "")).split("?")[0].lower() for j in old}
@@ -211,7 +235,7 @@ def main():
         links.add(link)
     data["jobs"] = old
     run = {"scheduledFor": now, "startedAt": now, "completedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-           "status": "partial", "coverageMode": "national_20_region_discovery_plus_verified_public_feeds",
+           "status": "partial" if (successes or found_accessible) else "failed", "coverageMode": "national_20_region_discovery_plus_verified_public_feeds",
            "requiredSourcesTotal": required_sources_total, "requiredSourcesChecked": len(successes),
            "sourcesExplored": len(successes) + int(any(x["indexPagesAccessible"] for x in regional_coverage.values())), "sourcesChecked": [x["source"] for x in successes] + (["Jobsora regional indexed listings"] if any(x["indexPagesAccessible"] for x in regional_coverage.values()) else []),
            "directSourcesChecked": [], "siteRestrictedSourcesChecked": [],
@@ -226,7 +250,8 @@ def main():
     if existing is not None and slot == "automated_fallback":
         data["audit"]["runs"]["automated_fallback_previous"] = existing
     data["audit"]["runs"][slot] = run
-    data["generatedAt"] = now
+    if successes or found_accessible:
+        data["generatedAt"] = now
     data["manualRefresh"] = data.get("manualRefresh")  # do not alter separate manual scan
     BASE.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Fallback: {len(successes)} sources checked, {len(added)} new, {len(old)} total, slot={slot}")
