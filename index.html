@@ -384,11 +384,11 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 .nationalPulse button{border:0;border-radius:15px;background:var(--accent);color:white;font-size:12px;font-weight:800;padding:12px 16px;cursor:pointer;flex-shrink:0}
 @media(max-width:480px){.nationalPulse{flex-direction:column;align-items:stretch}.nationalPulse button{width:100%}}
 </style>
-<script id="alice-build-639">
+<script id="alice-build-640">
 (function(){
   try{
     const u=new URL(location.href);
-    if(u.searchParams.get('ajr')!=='639'){u.searchParams.set('ajr','639');location.replace(u.toString());return;}
+    if(u.searchParams.get('ajr')!=='640'){u.searchParams.set('ajr','640');location.replace(u.toString());return;}
   }catch(e){}
 })();
 </script>
@@ -446,13 +446,13 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v6.39 · aggiornamento automatico 09:30 / 15:30</div>
+  <div class="footer">Alice Job Radar · PWA v6.40 · aggiornamento automatico 09:30 / 15:30</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.39",sync:{enabled:false}};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.40",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],REMOTE_ROWS=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -917,11 +917,11 @@ setInterval(watchDayChange,15000);
 setInterval(()=>{if(document.visibilityState==="visible")load()},5*60*1000);
 })();
 </script>
-<script id="alice-sw-639">
+<script id="alice-sw-640">
 if('serviceWorker' in navigator){
   window.addEventListener('load',async()=>{
     try{
-      const r=await navigator.serviceWorker.register('./sw.js?v=639',{updateViaCache:'none'});
+      const r=await navigator.serviceWorker.register('./sw.js?v=640',{updateViaCache:'none'});
       await r.update();
     }catch(e){}
   });
