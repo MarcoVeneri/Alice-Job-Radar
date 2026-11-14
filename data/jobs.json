@@ -10340,163 +10340,20 @@
     }
   ],
   "audit": {
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "runs": {
       "09:30": {
-        "scheduledFor": "2026-11-13T09:30:00+01:00",
-        "startedAt": "2026-11-13T10:47:39+01:00",
-        "completedAt": "2026-11-13T10:47:48+01:00",
+        "scheduledFor": "2026-11-14T08:30:00Z",
+        "startedAt": "2026-11-14T09:30:46.324096Z",
+        "completedAt": "2026-11-14T09:30:48.322021Z",
         "status": "failed",
-        "error": "Automazione registrata come failed; nessun aggiornamento degli annunci prodotto."
-      },
-      "manual_recovery": {
-        "scheduledFor": "2026-11-13T12:46:07+01:00",
-        "startedAt": "2026-11-13T12:46:07+01:00",
-        "completedAt": "2026-11-13T12:46:07+01:00",
-        "status": "partial",
-        "checkpointVerified": true,
-        "coverageMode": "indexed_fallback",
-        "requiredSourcesTotal": 182,
-        "sourceUniverseTotal": 234,
-        "requiredSourcesChecked": [
-          "LinkedIn Jobs"
-        ],
-        "directSourcesChecked": [
-          "Leonardo Careers / Workday"
-        ],
-        "siteRestrictedSourcesChecked": [
-          "LinkedIn Jobs"
-        ],
-        "indexedFallbackSourcesChecked": [
-          "Web indexed company careers discovery",
-          "Web indexed ATS discovery"
-        ],
-        "sourcesUnavailable": [],
-        "sourcesExplored": [
-          "Leonardo Careers / Workday",
-          "LinkedIn Jobs",
-          "Web indexed company careers discovery",
-          "Web indexed ATS discovery"
-        ],
-        "directSourcesCount": 1,
-        "siteRestrictedSourcesCount": 1,
-        "indexedFallbackSourcesCount": 2,
-        "queriesRun": 19,
-        "newJobs": 10,
-        "activeJobs": 221,
-        "searchLog": [
-          {
-            "source": "LinkedIn Jobs",
-            "method": "specific_vacancy",
-            "coverageMode": "site_restricted",
-            "query": "Tenders & Project Specialist FAAC Technologies",
-            "checkedAt": "2026-11-13T11:46:07.678Z",
-            "outcome": "specific live vacancy located and matched",
-            "evidenceUrls": [
-              "https://it.linkedin.com/jobs/view/tenders-project-specialist-at-faac-simply-automatic-4485748062"
-            ]
-          },
-          {
-            "source": "LinkedIn Jobs",
-            "method": "specific_vacancy",
-            "coverageMode": "site_restricted",
-            "query": "Sales Administration & Back Office Specialist Germaine de Capuccini",
-            "checkedAt": "2026-11-13T11:46:07.678Z",
-            "outcome": "specific live vacancy located and matched",
-            "evidenceUrls": [
-              "https://it.linkedin.com/jobs/view/sales-administration-back-office-specialist-at-germaine-de-capuccini-4488243042"
-            ]
-          },
-          {
-            "source": "LinkedIn Jobs",
-            "method": "specific_vacancy",
-            "coverageMode": "site_restricted",
-            "query": "Sales Support Coordinator - Distributors Alpinestars",
-            "checkedAt": "2026-11-13T11:46:07.678Z",
-            "outcome": "specific live vacancy located and matched",
-            "evidenceUrls": [
-              "https://it.linkedin.com/jobs/view/sales-support-coordinator-distributors-at-alpinestars-4477087262"
-            ]
-          },
-          {
-            "source": "LinkedIn Jobs",
-            "method": "specific_vacancy",
-            "coverageMode": "site_restricted",
-            "query": "Sales Operations JR FAYAT Group",
-            "checkedAt": "2026-11-13T11:46:07.678Z",
-            "outcome": "specific live vacancy located and matched",
-            "evidenceUrls": [
-              "https://it.linkedin.com/jobs/view/sales-operations-jr-at-fayat-group-4476050108"
-            ]
-          },
-          {
-            "source": "LinkedIn Jobs",
-            "method": "specific_vacancy",
-            "coverageMode": "site_restricted",
-            "query": "Junior Sales Coordinator Ingersoll Rand / SSI Water",
-            "checkedAt": "2026-11-13T11:46:07.678Z",
-            "outcome": "specific live vacancy located and matched",
-            "evidenceUrls": [
-              "https://it.linkedin.com/jobs/view/junior-sales-coordinator-at-ingersoll-rand-4473278197"
-            ]
-          },
-          {
-            "source": "LinkedIn Jobs",
-            "method": "specific_vacancy",
-            "coverageMode": "site_restricted",
-            "query": "Commercial Excellence Specialist - EMEA Datalogic",
-            "checkedAt": "2026-11-13T11:46:07.678Z",
-            "outcome": "specific live vacancy located and matched",
-            "evidenceUrls": [
-              "https://it.linkedin.com/jobs/view/commercial-excellence-specialist-emea-at-datalogic-4461169637"
-            ]
-          },
-          {
-            "source": "LinkedIn Jobs",
-            "method": "specific_vacancy",
-            "coverageMode": "site_restricted",
-            "query": "Sales Operations & Performance Analyst Lutech",
-            "checkedAt": "2026-11-13T11:46:07.678Z",
-            "outcome": "specific live vacancy located and matched",
-            "evidenceUrls": [
-              "https://it.linkedin.com/jobs/view/sales-operations-performance-analyst-at-lutech-4470006182"
-            ]
-          },
-          {
-            "source": "LinkedIn Jobs",
-            "method": "specific_vacancy",
-            "coverageMode": "site_restricted",
-            "query": "Sales Administration Specialist CNH",
-            "checkedAt": "2026-11-13T11:46:07.678Z",
-            "outcome": "specific live vacancy located and matched",
-            "evidenceUrls": [
-              "https://it.linkedin.com/jobs/view/sales-administration-specialist-at-cnh-4483042967"
-            ]
-          },
-          {
-            "source": "Leonardo Careers / Workday",
-            "method": "direct",
-            "coverageMode": "direct",
-            "query": "VEL - Bid & Proposal Specialist Leonardo",
-            "checkedAt": "2026-11-13T11:46:07.678Z",
-            "outcome": "specific live vacancy located and matched",
-            "evidenceUrls": [
-              "https://leonardocompany.wd3.myworkdayjobs.com/en-US/leonardocareersite/job/IT---Torino---Caselle-Sud/VEL---Bid---Proposal-Specialist_R0035072"
-            ]
-          },
-          {
-            "source": "LinkedIn Jobs",
-            "method": "specific_vacancy",
-            "coverageMode": "site_restricted",
-            "query": "Sales Operations & Business Insights Analyst Jefferson Wells Italia (cliente settore farmaceutico)",
-            "checkedAt": "2026-11-13T11:46:07.678Z",
-            "outcome": "specific live vacancy located and matched",
-            "evidenceUrls": [
-              "https://it.linkedin.com/jobs/view/sales-operations-business-insights-analyst-at-jefferson-wells-italia-4487783128"
-            ]
-          }
-        ],
-        "note": "Recupero manuale mirato dopo fallimento della ricerca automatica del 13/11; non equivale a scansione completa 234 fonti. Nessun annuncio esistente è stato escluso senza verifica."
+        "requiredSourcesTotal": 60,
+        "requiredSourcesChecked": 0,
+        "sourcesExplored": 0,
+        "queriesRun": 0,
+        "newJobs": 0,
+        "error": "Automazione fallita prima della ricerca: nessuna fonte verificata e nessuna pubblicazione.",
+        "evidence": "Automations run c8e50fa5-6cbc-832b-80dc-eabe168fbfba, status failed"
       }
     }
   },
@@ -10506,5 +10363,168 @@
     "status": "partial",
     "newJobs": 10,
     "description": "Recupero manuale con annunci specifici verificati; scansione completa programmata non eseguita."
-  }
+  },
+  "auditHistory": [
+    {
+      "date": "2026-11-13",
+      "runs": {
+        "09:30": {
+          "scheduledFor": "2026-11-13T09:30:00+01:00",
+          "startedAt": "2026-11-13T10:47:39+01:00",
+          "completedAt": "2026-11-13T10:47:48+01:00",
+          "status": "failed",
+          "error": "Automazione registrata come failed; nessun aggiornamento degli annunci prodotto."
+        },
+        "manual_recovery": {
+          "scheduledFor": "2026-11-13T12:46:07+01:00",
+          "startedAt": "2026-11-13T12:46:07+01:00",
+          "completedAt": "2026-11-13T12:46:07+01:00",
+          "status": "partial",
+          "checkpointVerified": true,
+          "coverageMode": "indexed_fallback",
+          "requiredSourcesTotal": 182,
+          "sourceUniverseTotal": 234,
+          "requiredSourcesChecked": [
+            "LinkedIn Jobs"
+          ],
+          "directSourcesChecked": [
+            "Leonardo Careers / Workday"
+          ],
+          "siteRestrictedSourcesChecked": [
+            "LinkedIn Jobs"
+          ],
+          "indexedFallbackSourcesChecked": [
+            "Web indexed company careers discovery",
+            "Web indexed ATS discovery"
+          ],
+          "sourcesUnavailable": [],
+          "sourcesExplored": [
+            "Leonardo Careers / Workday",
+            "LinkedIn Jobs",
+            "Web indexed company careers discovery",
+            "Web indexed ATS discovery"
+          ],
+          "directSourcesCount": 1,
+          "siteRestrictedSourcesCount": 1,
+          "indexedFallbackSourcesCount": 2,
+          "queriesRun": 19,
+          "newJobs": 10,
+          "activeJobs": 221,
+          "searchLog": [
+            {
+              "source": "LinkedIn Jobs",
+              "method": "specific_vacancy",
+              "coverageMode": "site_restricted",
+              "query": "Tenders & Project Specialist FAAC Technologies",
+              "checkedAt": "2026-11-13T11:46:07.678Z",
+              "outcome": "specific live vacancy located and matched",
+              "evidenceUrls": [
+                "https://it.linkedin.com/jobs/view/tenders-project-specialist-at-faac-simply-automatic-4485748062"
+              ]
+            },
+            {
+              "source": "LinkedIn Jobs",
+              "method": "specific_vacancy",
+              "coverageMode": "site_restricted",
+              "query": "Sales Administration & Back Office Specialist Germaine de Capuccini",
+              "checkedAt": "2026-11-13T11:46:07.678Z",
+              "outcome": "specific live vacancy located and matched",
+              "evidenceUrls": [
+                "https://it.linkedin.com/jobs/view/sales-administration-back-office-specialist-at-germaine-de-capuccini-4488243042"
+              ]
+            },
+            {
+              "source": "LinkedIn Jobs",
+              "method": "specific_vacancy",
+              "coverageMode": "site_restricted",
+              "query": "Sales Support Coordinator - Distributors Alpinestars",
+              "checkedAt": "2026-11-13T11:46:07.678Z",
+              "outcome": "specific live vacancy located and matched",
+              "evidenceUrls": [
+                "https://it.linkedin.com/jobs/view/sales-support-coordinator-distributors-at-alpinestars-4477087262"
+              ]
+            },
+            {
+              "source": "LinkedIn Jobs",
+              "method": "specific_vacancy",
+              "coverageMode": "site_restricted",
+              "query": "Sales Operations JR FAYAT Group",
+              "checkedAt": "2026-11-13T11:46:07.678Z",
+              "outcome": "specific live vacancy located and matched",
+              "evidenceUrls": [
+                "https://it.linkedin.com/jobs/view/sales-operations-jr-at-fayat-group-4476050108"
+              ]
+            },
+            {
+              "source": "LinkedIn Jobs",
+              "method": "specific_vacancy",
+              "coverageMode": "site_restricted",
+              "query": "Junior Sales Coordinator Ingersoll Rand / SSI Water",
+              "checkedAt": "2026-11-13T11:46:07.678Z",
+              "outcome": "specific live vacancy located and matched",
+              "evidenceUrls": [
+                "https://it.linkedin.com/jobs/view/junior-sales-coordinator-at-ingersoll-rand-4473278197"
+              ]
+            },
+            {
+              "source": "LinkedIn Jobs",
+              "method": "specific_vacancy",
+              "coverageMode": "site_restricted",
+              "query": "Commercial Excellence Specialist - EMEA Datalogic",
+              "checkedAt": "2026-11-13T11:46:07.678Z",
+              "outcome": "specific live vacancy located and matched",
+              "evidenceUrls": [
+                "https://it.linkedin.com/jobs/view/commercial-excellence-specialist-emea-at-datalogic-4461169637"
+              ]
+            },
+            {
+              "source": "LinkedIn Jobs",
+              "method": "specific_vacancy",
+              "coverageMode": "site_restricted",
+              "query": "Sales Operations & Performance Analyst Lutech",
+              "checkedAt": "2026-11-13T11:46:07.678Z",
+              "outcome": "specific live vacancy located and matched",
+              "evidenceUrls": [
+                "https://it.linkedin.com/jobs/view/sales-operations-performance-analyst-at-lutech-4470006182"
+              ]
+            },
+            {
+              "source": "LinkedIn Jobs",
+              "method": "specific_vacancy",
+              "coverageMode": "site_restricted",
+              "query": "Sales Administration Specialist CNH",
+              "checkedAt": "2026-11-13T11:46:07.678Z",
+              "outcome": "specific live vacancy located and matched",
+              "evidenceUrls": [
+                "https://it.linkedin.com/jobs/view/sales-administration-specialist-at-cnh-4483042967"
+              ]
+            },
+            {
+              "source": "Leonardo Careers / Workday",
+              "method": "direct",
+              "coverageMode": "direct",
+              "query": "VEL - Bid & Proposal Specialist Leonardo",
+              "checkedAt": "2026-11-13T11:46:07.678Z",
+              "outcome": "specific live vacancy located and matched",
+              "evidenceUrls": [
+                "https://leonardocompany.wd3.myworkdayjobs.com/en-US/leonardocareersite/job/IT---Torino---Caselle-Sud/VEL---Bid---Proposal-Specialist_R0035072"
+              ]
+            },
+            {
+              "source": "LinkedIn Jobs",
+              "method": "specific_vacancy",
+              "coverageMode": "site_restricted",
+              "query": "Sales Operations & Business Insights Analyst Jefferson Wells Italia (cliente settore farmaceutico)",
+              "checkedAt": "2026-11-13T11:46:07.678Z",
+              "outcome": "specific live vacancy located and matched",
+              "evidenceUrls": [
+                "https://it.linkedin.com/jobs/view/sales-operations-business-insights-analyst-at-jefferson-wells-italia-4487783128"
+              ]
+            }
+          ],
+          "note": "Recupero manuale mirato dopo fallimento della ricerca automatica del 13/11; non equivale a scansione completa 234 fonti. Nessun annuncio esistente è stato escluso senza verifica."
+        }
+      }
+    }
+  ]
 }
