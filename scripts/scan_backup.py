@@ -138,6 +138,11 @@ def main():
             if not any(x.get("date") == previous["date"] for x in hist if isinstance(x, dict)):
                 hist.append(previous)
         data["audit"] = {"date": today, "runs": {}}
+    catalog_file = Path("data/source_catalog.json")
+    try:
+        required_sources_total = len(json.loads(catalog_file.read_text(encoding="utf-8")).get("sources", [])) or 238
+    except (OSError, ValueError, TypeError):
+        required_sources_total = 238
     rows, logs = feed_rows()
     successes = [x for x in logs if x["outcome"].startswith("success:")]
     if not successes:
@@ -161,7 +166,7 @@ def main():
     data["jobs"] = old
     run = {"scheduledFor": now, "startedAt": now, "completedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
            "status": "partial", "coverageMode": "fallback_public_feeds",
-           "requiredSourcesTotal": 238, "requiredSourcesChecked": len(successes),
+           "requiredSourcesTotal": required_sources_total, "requiredSourcesChecked": len(successes),
            "sourcesExplored": len(successes), "sourcesChecked": [x["source"] for x in successes],
            "directSourcesChecked": [], "siteRestrictedSourcesChecked": [],
            "indexedFallbackSourcesChecked": [x["source"] for x in successes],
