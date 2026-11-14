@@ -196,24 +196,40 @@ def mapped_job(source, kind, raw, today, now):
             "score": score}
 
 
+def choose_slot(rome, scheduled):
+    """Accept the planned scan and its optional 16:05/10:05 retry."""
+    if not scheduled:
+        return "automated_fallback"
+    mins = rome.hour * 60 + rome.minute
+    if 570 <= mins <= 624:
+        return "09:30"
+    if 930 <= mins <= 984:
+        return "15:30"
+    return None
+
+def self_test():
+    from datetime import datetime
+    winter = datetime(2026, 11, 14, tzinfo=ROME)
+    summer = datetime(2026, 7, 14, tzinfo=ROME)
+    for date in (winter, summer):
+        assert choose_slot(date.replace(hour=9,minute=30), True) == "09:30"
+        assert choose_slot(date.replace(hour=10,minute=5), True) == "09:30"
+        assert choose_slot(date.replace(hour=15,minute=30), True) == "15:30"
+        assert choose_slot(date.replace(hour=16,minute=5), True) == "15:30"
+        assert choose_slot(date.replace(hour=14,minute=30), True) is None
+        assert choose_slot(date.replace(hour=16,minute=30), True) is None
+    assert len(REGIONS)==20 and len(REGIONAL_ROLES)==5
+    print("National scan schedule and 20-region self-test: OK")
+
 def main():
     rome = datetime.now(ROME)
     today = rome.date().isoformat()
     now = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
-    # GitHub runs in UTC; scheduled times can be delayed, and summer/winter CRON
-    # requires a redundant UTC slot. Never let the redundant trigger overwrite a slot.
-    scheduled = os.environ.get("GITHUB_EVENT_NAME") == "schedule"
-    mins = rome.hour * 60 + rome.minute
-    if scheduled:
-        if 570 <= mins <= 624:  # 09:30-10:24 Italy
-            slot = "09:30"
-        elif 930 <= mins <= 984:  # 15:30-16:24 Italy
-            slot = "15:30"
-        else:
-            print(f"Skipping redundant UTC schedule at {rome.isoformat()}")
-            return
-    else:
-        slot = "automated_fallback"
+    # Summer/winter UTC schedules have redundant entries; use local Rome time.
+    slot = choose_slot(rome, os.environ.get("GITHUB_EVENT_NAME") == "schedule")
+    if slot is None:
+        print(f"Skipping redundant UTC schedule at {rome.isoformat()}")
+        return
     data = json.loads(BASE.read_text(encoding="utf-8"))
     previous = data.get("audit")
     if not isinstance(previous, dict) or previous.get("date") != today:
@@ -222,6 +238,17 @@ def main():
             if not any(x.get("date") == previous["date"] for x in hist if isinstance(x, dict)):
                 hist.append(previous)
         data["audit"] = {"date": today, "runs": {}}
+    if slot in ("09:30", "15:30"):
+        prev = data["audit"].get("runs", {}).get(slot)
+        if isinstance(prev, dict) and prev.get("status") in ("partial", "complete"):
+            coverage = prev.get("regionCoverage")
+            if prev["status"] == "complete" or (
+                isinstance(coverage,dict) and len(coverage)>=20 and
+                sum(int(v.get("indexPagesAccessible",0)) for v in coverage.values()
+                    if isinstance(v,dict))>=90
+            ):
+                print(f"Scheduled {slot} already completed an adequate region sweep; skipping redundant retry.")
+                return
     catalog_file = Path("data/source_catalog.json")
     try:
         required_sources_total = len(json.loads(catalog_file.read_text(encoding="utf-8")).get("sources", [])) or 238
@@ -313,4 +340,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    if "--self-test" in os.sys.argv:
+        self_test()
+    else:
+        main()
