@@ -359,12 +359,30 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 @media (max-width:768px){
   input[type="search"]{font-size:16px!important}
 }
+/* v6.38: allineamento responsive e leggibilità degli esiti */
+.runAudit{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.runChip{min-width:0;min-height:88px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:5px;padding:13px 15px;border-radius:19px}
+.runChip strong{font-size:14px;line-height:1.15;font-variant-numeric:tabular-nums}
+.runChip .runSummary,.runChip span{width:100%;text-align:left!important;line-height:1.35;font-size:12px;overflow-wrap:anywhere}
+.runChip#runRecoveryBox{min-height:62px}
+@media(max-width:580px){
+ .stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+ .stat{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;min-width:0;min-height:110px;padding:11px 6px;border-radius:21px;gap:7px}
+ .stat>div:last-child{min-width:0;width:100%}
+ .stat .iconWrap{width:40px;height:40px;min-width:40px;border-radius:14px;font-size:21px}
+ .stat strong{font-size:24px}
+ .statLabel{font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ .runChip{min-height:93px;padding:12px}
+ h1{font-size:clamp(28px,7.6vw,36px)}
+ .app{width:100%;min-width:0}
+ .tabs,.tab,.card{min-width:0}
+}
 </style>
-<script id="alice-build-637">
+<script id="alice-build-638">
 (function(){
   try{
     const u=new URL(location.href);
-    if(u.searchParams.get('ajr')!=='637'){u.searchParams.set('ajr','637');location.replace(u.toString());return;}
+    if(u.searchParams.get('ajr')!=='638'){u.searchParams.set('ajr','638');location.replace(u.toString());return;}
   }catch(e){}
 })();
 </script>
@@ -418,13 +436,13 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v6.37 · aggiornamento automatico 09:30 / 15:30</div>
+  <div class="footer">Alice Job Radar · PWA v6.38 · aggiornamento automatico 09:30 / 15:30</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.37",sync:{enabled:false}};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.38",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],REMOTE_ROWS=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -600,7 +618,11 @@ function match(j){
   const haystack=normalizeSearch([j.company,j.title,j.location,j.category,j.summary,j.salary,j.contract,j.workMode,r&&r.company,r&&r.title].join(" "));
   if(!q.split(/\s+/).every(term=>haystack.includes(term)))return false;
  }
- if(filter!=="Tutte" && j.category!==filter)return false;
+ if(filter!=="Tutte"){
+   const category=normalizeSearch(j.category+" "+j.title);
+   const pattern=filter==="Tender"?/tender|gare|appalt|proposal|offerte tecniche|\bbid\b/:filter==="Sales Support"?/sales|commercial|back office|back-office|order|customer|procurement|revenue|contract|operation/:/event|mice|meeting|congress|organizzazione eventi/;
+   if(!pattern.test(category))return false;
+ }
  if(savedOnly && !isSaved(j.id) && !isApplied(j.id))return false;
  if(statFilter==="Nuove" && !isNew(j))return false;
  if(statFilter==="Top" && j.score<9)return false;
@@ -871,11 +893,11 @@ setInterval(watchDayChange,15000);
 setInterval(()=>{if(document.visibilityState==="visible")load()},5*60*1000);
 })();
 </script>
-<script id="alice-sw-637">
+<script id="alice-sw-638">
 if('serviceWorker' in navigator){
   window.addEventListener('load',async()=>{
     try{
-      const r=await navigator.serviceWorker.register('./sw.js?v=637',{updateViaCache:'none'});
+      const r=await navigator.serviceWorker.register('./sw.js?v=638',{updateViaCache:'none'});
       await r.update();
     }catch(e){}
   });
