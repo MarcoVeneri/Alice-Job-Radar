@@ -102,6 +102,8 @@ def _check_listing(task):
                 hrefs = re.findall(r'href\s*=\s*"([^"]+)"', page, re.I) + re.findall(r"href\s*=\s*'([^']+)'", page, re.I)
                 samples = [u for u in hrefs if "/offerta-" in u][:4]
                 print("Jobsora individual link samples: " + repr(samples))
+                marker = page.find("/offerta-")
+                print("Jobsora first-link HTML context: " + repr(page[max(0, marker-650):marker+350]))
                 print("Jobsora listing HTML markers: " + repr({
                     "jobposting": "JobPosting" in page, "article": "<article" in page,
                     "links": len(hrefs)
