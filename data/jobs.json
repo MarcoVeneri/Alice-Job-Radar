@@ -1,7 +1,1103 @@
 {
-  "generatedAt": "2026-11-14T10:27:35.822374Z",
+  "generatedAt": "2026-11-14T11:02:35.268Z",
   "source": "Alice Job Radar V2 — MAX-COVERAGE 15:30",
   "jobs": [
+    {
+      "company": "WinTime S.p.A.",
+      "title": "Impiegato/a Back Office Commerciale",
+      "location": "Cagliari (CA) – sede da confermare",
+      "url": "https://www.jobijoba.it/annunci-di-lavoro/13/22060bf6ad45b1cd60f4768399c1d76a",
+      "category": "Sales Support",
+      "summary": "Gestione ordini, listini prezzi, anagrafiche, preventivi e raccordo commerciale/amministrazione.",
+      "score": 7.5,
+      "salary": "Non indicata",
+      "workMode": "Da verificare",
+      "contract": "Somministrazione finalizzata inserimento",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: Jobijoba (annuncio specifico da confermare con agenzia) (Sardegna).",
+        "Sede Cagliari riportata dall'aggregatore; non verificata sul sito originale dell'agenzia.",
+        "La disponibilità sul portale di origine deve essere confermata.",
+        "Verifica indipendente della candidabilità ancora necessaria."
+      ],
+      "source": "Jobijoba (annuncio specifico da confermare con agenzia)",
+      "id": "national-20261114-22060bf6ad45b1cd60f4",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Sardegna",
+      "verificationLevel": "indexed_only"
+    },
+    {
+      "company": "Saipem",
+      "title": "Proposal Manager",
+      "location": "Milano (MI)",
+      "url": "https://it.linkedin.com/jobs/view/proposal-manager-at-saipem-4479559113",
+      "category": "Tender",
+      "summary": "Coordinamento offerte e proposte per commesse complesse.",
+      "score": 7.8,
+      "salary": "Non indicata",
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Lombardia).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4479559113",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Lombardia",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Mazzei Architects",
+      "title": "Tender Specialist – Ufficio Gare Architettura",
+      "location": "Parma (PR)",
+      "url": "https://it.linkedin.com/jobs/view/ufficio-gare-tender-specialist-architetto-ingegnere-at-mazzei-architects-4488296557",
+      "category": "Tender",
+      "summary": "Procedure di gara servizi architettura e ingegneria.",
+      "score": 7.4,
+      "salary": "Non indicata",
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Emilia-Romagna).",
+        "Verificare requisiti architetto/ingegnere prima della candidatura.",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4488296557",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Emilia-Romagna",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "TIM",
+      "title": "Key Account Manager Public Agreements & Bid Management",
+      "location": "Roma (RM)",
+      "url": "https://it.linkedin.com/jobs/view/key-account-manager-public-agreements-bid-management-at-tim-4435449787",
+      "category": "Tender",
+      "summary": "Relazioni con clienti e coordinamento offerte per accordi pubblici e gare.",
+      "score": 7.6,
+      "salary": "Non indicata",
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Lazio).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4435449787",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Lazio",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Bureau Veritas",
+      "title": "Tender & Contract Admin Senior Specialist",
+      "location": "Padova (PD)",
+      "url": "https://it.linkedin.com/jobs/view/tender-contract-admin-senior-specialist-at-bureau-veritas-4458967105",
+      "category": "Tender",
+      "summary": "Gare e amministrazione contratti in contesto multinazionale.",
+      "score": 8.1,
+      "salary": "Non indicata",
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Veneto).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4458967105",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Veneto",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "agap2 Italia",
+      "title": "Specialista Gare d'Appalto – Senior / Junior",
+      "location": "Brescia (BS)",
+      "url": "https://it.linkedin.com/jobs/view/specialista-gare-d-appalto-%E2%80%93-senior-junior-at-agap2-italia-4486240873",
+      "category": "Tender",
+      "summary": "Gare d'appalto con attività amministrative e tecniche, apertura senior/junior.",
+      "score": 8.1,
+      "salary": "Non indicata",
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Lombardia).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4486240873",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Lombardia",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Studio RiADATTO Architecture & Engineering SB",
+      "title": "Tender Specialist – Gare e Appalti Pubblici",
+      "location": "Milano (MI)",
+      "url": "https://it.linkedin.com/jobs/view/specialista-gare-e-appalti-pubblici-tender-specialist-milano-at-studio-riadatto-architecture-engineering-sb-4483420584",
+      "category": "Tender",
+      "summary": "Procedure di appalto, documentazione amministrativa e attività di gara.",
+      "score": 8,
+      "salary": "Non indicata",
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Lombardia).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4483420584",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Lombardia",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Almaviva Bluebit SpA",
+      "title": "Proposal Manager – Servizio Idrico Integrato",
+      "location": "Rubano (PD)",
+      "url": "https://it.linkedin.com/jobs/view/proposal-manager-%E2%80%93-servizio-idrico-integrato-e-gestione-risorse-idriche-at-almaviva-bluebit-spa-societ%C3%A0-benefit-4428506671",
+      "category": "Tender",
+      "summary": "Redazione e gestione offerte e progetti tecnici per servizi idrici integrati.",
+      "score": 7.8,
+      "salary": "Non indicata",
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Veneto).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4428506671",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Veneto",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Adecco",
+      "title": "Bid Manager – Ufficio Gare",
+      "location": "Melzo (MI)",
+      "url": "https://it.linkedin.com/jobs/view/bid-manager-ufficio-gare-at-adecco-4489497176",
+      "category": "Tender",
+      "summary": "Gestione documentazione tecnico-commerciale per offerte e gare.",
+      "score": 8,
+      "salary": "Non indicata",
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Lombardia).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4489497176",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Lombardia",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Randstad Professional Italia",
+      "title": "Responsabile Gare e Appalti",
+      "location": "Roma (RM)",
+      "url": "https://it.linkedin.com/jobs/view/responsabile-gare-e-appalti-at-randstad-professional-italia-4488512965",
+      "category": "Tender",
+      "summary": "Gare e procedure di appalto, documentazione e governance del processo.",
+      "score": 8.3,
+      "salary": "Non indicata",
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Lazio).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4488512965",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Lazio",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "agap2 Italia",
+      "title": "Technical Tender Manager",
+      "location": "Lombardia (sede da verificare)",
+      "url": "https://it.linkedin.com/jobs/view/technical-tender-manager-at-agap2-italia-4488219337",
+      "category": "Tender",
+      "summary": "Gestione gare tecniche e coordinamento delle offerte.",
+      "score": 7.9,
+      "salary": "Non indicata",
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Lombardia).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4488219337",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Lombardia",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "ADHR GROUP",
+      "title": "Proposal & Tender Manager",
+      "location": "Milano (MI)",
+      "url": "https://it.linkedin.com/jobs/view/proposal-tender-manager-at-adhr-group-4484370339",
+      "category": "Tender",
+      "summary": "Gestione offerte, gare e tender con coordinamento tecnico-commerciale.",
+      "score": 8.2,
+      "salary": "Non indicata",
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Lombardia).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4484370339",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Lombardia",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Strategic Management Partners",
+      "title": "Responsabile Ufficio Gare",
+      "location": "Milano (MI)",
+      "url": "https://it.linkedin.com/jobs/view/responsabile-ufficio-gare-at-strategic-management-partners-4488060415",
+      "category": "Tender",
+      "summary": "Coordinamento della partecipazione alle gare pubbliche/private e predisposizione offerte complesse.",
+      "score": 8.4,
+      "salary": "Non indicata",
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Lombardia).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4488060415",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Lombardia",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Strategic Management Partners",
+      "title": "Responsabile Ufficio Gare",
+      "location": "Roma (RM)",
+      "url": "https://it.linkedin.com/jobs/view/responsabile-ufficio-gare-at-strategic-management-partners-4487761918",
+      "category": "Tender",
+      "summary": "Coordinamento del processo gare: bandi, documentazione amministrativa e offerte, team aziendali.",
+      "score": 8.4,
+      "salary": "Non indicata",
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Lazio).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4487761918",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Lazio",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "C.S.E. S.r.l.",
+      "title": "Associato di Ufficio / Back Office",
+      "location": "Potenza (PZ)",
+      "url": "https://it.linkedin.com/jobs/view/associato-di-ufficio-at-c-s-e-s-r-l-4476440785",
+      "category": "Sales Support",
+      "summary": "Gestione documentale, agenda, back office amministrativo, contatto clienti e fornitori.",
+      "score": 7.1,
+      "salary": "Non indicata",
+      "workMode": "Ibrido",
+      "contract": "Full time",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Basilicata).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4476440785",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Basilicata",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "ADAMI & ASSOCIATI",
+      "title": "Responsabile Ufficio Gare Costruzioni e Infrastrutture",
+      "location": "L'Aquila (AQ)",
+      "url": "https://it.linkedin.com/jobs/view/responsabile-ufficio-gare-settore-costruzioni-e-infrastrutture-at-adami-associati-selezione-di-personale-qualificato-4481896665",
+      "category": "Tender",
+      "summary": "Sviluppo e coordinamento ufficio gare infrastrutture e lavori pubblici in azienda costruzioni.",
+      "score": 7.9,
+      "salary": "Non indicata",
+      "workMode": "In presenza",
+      "contract": "Da verificare",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Abruzzo).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4481896665",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Abruzzo",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "A.C.N.D. Srl",
+      "title": "Impiegato/a Tecnico-amministrativo/a – Ufficio Gare",
+      "location": "L'Aquila (AQ)",
+      "url": "https://it.linkedin.com/jobs/view/tecnico-at-a-c-n-d-srl-4488918396",
+      "category": "Tender",
+      "summary": "Ricerca bandi, offerte tecniche ed economiche e documentazione di commessa nel settore ingegneria civile.",
+      "score": 7.5,
+      "salary": "Non indicata",
+      "workMode": "In presenza",
+      "contract": "Da verificare",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Abruzzo).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4488918396",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Abruzzo",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "ISG International Service Group",
+      "title": "Operations & Tender Manager",
+      "location": "Ancona (AN)",
+      "url": "https://it.linkedin.com/jobs/view/operations-tender-manager-at-isg-international-service-group-4483869554",
+      "category": "Tender",
+      "summary": "Supervisione gare sanitarie, ordini, acquisti, team amministrativi, magazzino, KPI e fornitori.",
+      "score": 8.2,
+      "salary": "Non indicata",
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Marche).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4483869554",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Marche",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Sida Advisory",
+      "title": "Back Office Commerciale Automotive",
+      "location": "Pesaro (PU)",
+      "url": "https://it.linkedin.com/jobs/view/back-office-commerciale-automotive-at-sida-group-4488885124",
+      "category": "Sales Support",
+      "summary": "Back office vendite automotive: contratti, immatricolazioni, permute e comunicazioni con sede centrale.",
+      "score": 7.9,
+      "salary": "RAL €28.000–32.000",
+      "workMode": "In presenza",
+      "contract": "Tempo indeterminato · full time",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Marche).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4488885124",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Marche",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Chrea Srl",
+      "title": "Segretario/a Commerciale Back Office",
+      "location": "Perugia (PG)",
+      "url": "https://it.linkedin.com/jobs/view/segretario-a-commerciale-back-office-at-chrea-srl-4467555432",
+      "category": "Sales Support",
+      "summary": "Gestione ordini, listini, DDT, clienti B2B, logistica, report e flussi documentali.",
+      "score": 7.5,
+      "salary": "€1.500–1.800 lordi/mese",
+      "workMode": "Da verificare",
+      "contract": "Tempo determinato 6 mesi",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Umbria).",
+        "Retribuzione indicata mensile lorda, non convertita in RAL.",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4467555432",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Umbria",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Gruppo Cipriano",
+      "title": "Responsabile Ufficio Gare",
+      "location": "Campania (sede da confermare)",
+      "url": "https://it.linkedin.com/jobs/view/responsabile-ufficio-gare-at-gruppo-cipriano-4490591496",
+      "category": "Tender",
+      "summary": "Gestione completa gare pubbliche per servizi e lavori, selezione bandi, documentazione, proposta e passaggio commesse.",
+      "score": 8.3,
+      "salary": "Non indicata",
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Campania).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4490591496",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Campania",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "F.lli Ferrara Srl",
+      "title": "Impiegato/a Amministrativo/a Ufficio Gare",
+      "location": "Giugliano in Campania (NA)",
+      "url": "https://it.linkedin.com/jobs/view/impiegato-a-amministrativo-a-ufficio-gare-at-f-lli-ferrara-srl-4464360094",
+      "category": "Tender",
+      "summary": "Documentazione amministrativa per gare di lavori pubblici e privati e controllo scadenze.",
+      "score": 7.9,
+      "salary": "Non indicata",
+      "workMode": "Da verificare",
+      "contract": "Full time",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Campania).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4464360094",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Campania",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "OSM Value / ATI Network",
+      "title": "Addetto al Back Office Commerciale",
+      "location": "Palermo (PA)",
+      "url": "https://it.linkedin.com/jobs/view/addetto-al-back-office-commerciale-at-osm-value-4487478169",
+      "category": "Sales Support",
+      "summary": "Coordinamento clienti, manutenzioni, logistica, fornitori e documentazione commerciali; attività anche al banco.",
+      "score": 7.4,
+      "salary": "Non indicata",
+      "workMode": "In presenza",
+      "contract": "Tempo determinato finalizzato a indeterminato",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Sicilia).",
+        "Prevista attività al banco e orario fino al sabato: verificare compatibilità.",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4487478169",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Sicilia",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "ACS",
+      "title": "Addetto/a Ufficio Gare e Appalti (m/f/d)",
+      "location": "Bolzano (BZ)",
+      "url": "https://it.linkedin.com/jobs/view/addetto-a-ufficio-gare-e-appalti-m-f-d-at-acs-4458377564",
+      "category": "Tender",
+      "summary": "Gestione amministrativa di gare pubbliche e private, collaborazione con vendite e sviluppo prodotto.",
+      "score": 8.1,
+      "salary": "Non indicata",
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Trentino-Alto Adige).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4458377564",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Trentino-Alto Adige",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Waldner Tecnologie Medicali S.r.l.",
+      "title": "Junior Back Office Commerciale – Customer Care",
+      "location": "Trento (TN)",
+      "url": "https://it.linkedin.com/jobs/view/junior-back-office-commerciale-%E2%80%93-customer-care-at-waldner-tecnologie-medicali-s-r-l-4469869033",
+      "category": "Sales Support",
+      "summary": "Ordini, offerte, contratti commerciali, customer care, supporto alla rete vendite e uso gestionali.",
+      "score": 7.8,
+      "salary": "RAL indicativa €25.000–35.000",
+      "workMode": "Da verificare",
+      "contract": "Full time",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Trentino-Alto Adige).",
+        "Annuncio junior; salario range indicativo.",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4469869033",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Trentino-Alto Adige",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Eurocar",
+      "title": "Addetto/a Back Office",
+      "location": "Trento (TN)",
+      "url": "https://it.linkedin.com/jobs/view/addetto-a-back-office-at-eurocar-4473249252",
+      "category": "Sales Support",
+      "summary": "Contratti di vendita auto, fatture, consegne, finanziamenti e back office amministrativo.",
+      "score": 7.9,
+      "salary": "RAL €28.000–32.000",
+      "workMode": "Da verificare",
+      "contract": "Full time",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Trentino-Alto Adige).",
+        "Richiesti almeno tre anni di esperienza nel back office.",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4473249252",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Trentino-Alto Adige",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Tecnomedica S.r.l.",
+      "title": "Addetto/a Ufficio Gare e Commerciale – Settore Biomedicale",
+      "location": "Modugno (BA)",
+      "url": "https://it.linkedin.com/jobs/view/addetto-a-ufficio-gare-e-commerciale-%E2%80%93-settore-biomedicale-at-tecnomedica-s-r-l-4485833389",
+      "category": "Tender",
+      "summary": "Offerte tecnico-economiche, procedure di appalto per forniture biomedicali, gestione ordini e commesse.",
+      "score": 8.2,
+      "salary": "Non indicata",
+      "workMode": "In presenza",
+      "contract": "Full time",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Puglia).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4485833389",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Puglia",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "AM NEXT Srl",
+      "title": "Addetto/a Ufficio Gare – Esperienza gare pubbliche",
+      "location": "Bari (BA)",
+      "url": "https://it.linkedin.com/jobs/view/addetto-a-ufficio-gare-%E2%80%93-almeno-2-anni-di-esperienza-in-gare-pubbliche-at-am-next-srl-4488927602",
+      "category": "Tender",
+      "summary": "Gare pubbliche sanitarie, documentazione amministrativa, supporto a offerte e piattaforme appalti.",
+      "score": 8.3,
+      "salary": "RAL €25.000–30.000",
+      "workMode": "In presenza",
+      "contract": "Tempo indeterminato · CCNL Commercio",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Puglia).",
+        "Richiesti almeno due anni in gare pubbliche; orario lun-gio e venerdì ridotto.",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4488927602",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Puglia",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Ricam Group",
+      "title": "Tender Specialist",
+      "location": "Grumello del Monte (BG)",
+      "url": "https://it.linkedin.com/jobs/view/tender-specialist-at-ricam-group-4482511397",
+      "category": "Tender",
+      "summary": "Attività di ufficio gare, offerte e gestione documentale.",
+      "score": 8.2,
+      "salary": "Non indicata",
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Lombardia).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4482511397",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Lombardia",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Gruppo Marazzato",
+      "title": "Impiegato/a Ufficio Gare",
+      "location": "Vercelli (VC)",
+      "url": "https://it.linkedin.com/jobs/view/impiegato-a-ufficio-gare-at-gruppo-marazzato-4486778053",
+      "category": "Tender",
+      "summary": "Supporto gestione gare, documentazione e procedure di appalto.",
+      "score": 8,
+      "salary": "Non indicata",
+      "workMode": "Da verificare",
+      "contract": "Da verificare",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Piemonte).",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4486778053",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Piemonte",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Gruppo Gpi",
+      "title": "Proposal Manager",
+      "location": "Catania",
+      "url": "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485735776",
+      "category": "Tender",
+      "summary": "Preparazione di offerte tecniche per gare BPO sanità e PA; coordinamento team interfunzionali, pricing e scadenze.",
+      "score": 8.7,
+      "salary": "RAL minima indicata €40.000",
+      "workMode": "Da verificare",
+      "contract": "CCNL Metalmeccanico · full time",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Sicilia).",
+        "Il gruppo pubblica annunci distinti per sedi diverse: verificare la sede effettiva e le condizioni specifiche.",
+        "Richiesta esperienza senior in gare BPO e conoscenza dell'inglese almeno B2; smart working eventuale, non garantito.",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4485735776",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Sicilia",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Gruppo Gpi",
+      "title": "Proposal Manager",
+      "location": "Parma",
+      "url": "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485739672",
+      "category": "Tender",
+      "summary": "Preparazione di offerte tecniche per gare BPO sanità e PA; coordinamento team interfunzionali, pricing e scadenze.",
+      "score": 8.7,
+      "salary": "RAL minima indicata €40.000",
+      "workMode": "Da verificare",
+      "contract": "CCNL Metalmeccanico · full time",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Emilia-Romagna).",
+        "Il gruppo pubblica annunci distinti per sedi diverse: verificare la sede effettiva e le condizioni specifiche.",
+        "Richiesta esperienza senior in gare BPO e conoscenza dell'inglese almeno B2; smart working eventuale, non garantito.",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4485739672",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Emilia-Romagna",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Gruppo Gpi",
+      "title": "Proposal Manager",
+      "location": "Genova",
+      "url": "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485737734",
+      "category": "Tender",
+      "summary": "Preparazione di offerte tecniche per gare BPO sanità e PA; coordinamento team interfunzionali, pricing e scadenze.",
+      "score": 8.7,
+      "salary": "RAL minima indicata €40.000",
+      "workMode": "Da verificare",
+      "contract": "CCNL Metalmeccanico · full time",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Liguria).",
+        "Il gruppo pubblica annunci distinti per sedi diverse: verificare la sede effettiva e le condizioni specifiche.",
+        "Richiesta esperienza senior in gare BPO e conoscenza dell'inglese almeno B2; smart working eventuale, non garantito.",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4485737734",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Liguria",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Gruppo Gpi",
+      "title": "Proposal Manager",
+      "location": "Palermo",
+      "url": "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485748428",
+      "category": "Tender",
+      "summary": "Preparazione di offerte tecniche per gare BPO sanità e PA; coordinamento team interfunzionali, pricing e scadenze.",
+      "score": 8.7,
+      "salary": "RAL minima indicata €40.000",
+      "workMode": "Da verificare",
+      "contract": "CCNL Metalmeccanico · full time",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Sicilia).",
+        "Il gruppo pubblica annunci distinti per sedi diverse: verificare la sede effettiva e le condizioni specifiche.",
+        "Richiesta esperienza senior in gare BPO e conoscenza dell'inglese almeno B2; smart working eventuale, non garantito.",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4485748428",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Sicilia",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Gruppo Gpi",
+      "title": "Proposal Manager",
+      "location": "Napoli",
+      "url": "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485739676",
+      "category": "Tender",
+      "summary": "Preparazione di offerte tecniche per gare BPO sanità e PA; coordinamento team interfunzionali, pricing e scadenze.",
+      "score": 8.7,
+      "salary": "RAL minima indicata €40.000",
+      "workMode": "Da verificare",
+      "contract": "CCNL Metalmeccanico · full time",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Campania).",
+        "Il gruppo pubblica annunci distinti per sedi diverse: verificare la sede effettiva e le condizioni specifiche.",
+        "Richiesta esperienza senior in gare BPO e conoscenza dell'inglese almeno B2; smart working eventuale, non garantito.",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4485739676",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Campania",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Gruppo Gpi",
+      "title": "Proposal Manager",
+      "location": "Trieste",
+      "url": "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485734748",
+      "category": "Tender",
+      "summary": "Preparazione di offerte tecniche per gare BPO sanità e PA; coordinamento team interfunzionali, pricing e scadenze.",
+      "score": 8.7,
+      "salary": "RAL minima indicata €40.000",
+      "workMode": "Da verificare",
+      "contract": "CCNL Metalmeccanico · full time",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Friuli-Venezia Giulia).",
+        "Il gruppo pubblica annunci distinti per sedi diverse: verificare la sede effettiva e le condizioni specifiche.",
+        "Richiesta esperienza senior in gare BPO e conoscenza dell'inglese almeno B2; smart working eventuale, non garantito.",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4485734748",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Friuli-Venezia Giulia",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Gruppo Gpi",
+      "title": "Proposal Manager",
+      "location": "Verona",
+      "url": "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485743585",
+      "category": "Tender",
+      "summary": "Preparazione di offerte tecniche per gare BPO sanità e PA; coordinamento team interfunzionali, pricing e scadenze.",
+      "score": 8.7,
+      "salary": "RAL minima indicata €40.000",
+      "workMode": "Da verificare",
+      "contract": "CCNL Metalmeccanico · full time",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Veneto).",
+        "Il gruppo pubblica annunci distinti per sedi diverse: verificare la sede effettiva e le condizioni specifiche.",
+        "Richiesta esperienza senior in gare BPO e conoscenza dell'inglese almeno B2; smart working eventuale, non garantito.",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4485743585",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Veneto",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Gruppo Gpi",
+      "title": "Proposal Manager",
+      "location": "Trento",
+      "url": "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485751130",
+      "category": "Tender",
+      "summary": "Preparazione di offerte tecniche per gare BPO sanità e PA; coordinamento team interfunzionali, pricing e scadenze.",
+      "score": 8.7,
+      "salary": "RAL minima indicata €40.000",
+      "workMode": "Da verificare",
+      "contract": "CCNL Metalmeccanico · full time",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Trentino-Alto Adige).",
+        "Il gruppo pubblica annunci distinti per sedi diverse: verificare la sede effettiva e le condizioni specifiche.",
+        "Richiesta esperienza senior in gare BPO e conoscenza dell'inglese almeno B2; smart working eventuale, non garantito.",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4485751130",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Trentino-Alto Adige",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Gruppo Gpi",
+      "title": "Proposal Manager",
+      "location": "Padova",
+      "url": "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485729817",
+      "category": "Tender",
+      "summary": "Preparazione di offerte tecniche per gare BPO sanità e PA; coordinamento team interfunzionali, pricing e scadenze.",
+      "score": 8.7,
+      "salary": "RAL minima indicata €40.000",
+      "workMode": "Da verificare",
+      "contract": "CCNL Metalmeccanico · full time",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Veneto).",
+        "Il gruppo pubblica annunci distinti per sedi diverse: verificare la sede effettiva e le condizioni specifiche.",
+        "Richiesta esperienza senior in gare BPO e conoscenza dell'inglese almeno B2; smart working eventuale, non garantito.",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4485729817",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Veneto",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Gruppo Gpi",
+      "title": "Proposal Manager",
+      "location": "Bari",
+      "url": "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485732799",
+      "category": "Tender",
+      "summary": "Preparazione di offerte tecniche per gare BPO sanità e PA; coordinamento team interfunzionali, pricing e scadenze.",
+      "score": 8.7,
+      "salary": "RAL minima indicata €40.000",
+      "workMode": "Da verificare",
+      "contract": "CCNL Metalmeccanico · full time",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Puglia).",
+        "Il gruppo pubblica annunci distinti per sedi diverse: verificare la sede effettiva e le condizioni specifiche.",
+        "Richiesta esperienza senior in gare BPO e conoscenza dell'inglese almeno B2; smart working eventuale, non garantito.",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4485732799",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Puglia",
+      "verificationLevel": "specific_vacancy"
+    },
+    {
+      "company": "Gruppo Gpi",
+      "title": "Proposal Manager",
+      "location": "Ancona",
+      "url": "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485735783",
+      "category": "Tender",
+      "summary": "Preparazione di offerte tecniche per gare BPO sanità e PA; coordinamento team interfunzionali, pricing e scadenze.",
+      "score": 8.7,
+      "salary": "RAL minima indicata €40.000",
+      "workMode": "Da verificare",
+      "contract": "CCNL Metalmeccanico · full time",
+      "checks": [
+        "Ricerca nazionale del 14/11/2026: LinkedIn Jobs (Marche).",
+        "Il gruppo pubblica annunci distinti per sedi diverse: verificare la sede effettiva e le condizioni specifiche.",
+        "Richiesta esperienza senior in gare BPO e conoscenza dell'inglese almeno B2; smart working eventuale, non garantito.",
+        "Offerta specifica consultata: verifica requisiti e candidabilità al momento dell'invio."
+      ],
+      "source": "LinkedIn Jobs",
+      "id": "national-20261114-4485735783",
+      "date": "2026-11-14",
+      "firstSeenAt": "2026-11-14T11:02:35.268Z",
+      "firstSeenRun": "14/11 · Scansione nazionale straordinaria",
+      "verifiedAt": "2026-11-14T11:02:35.268Z",
+      "remote": false,
+      "active": true,
+      "region": "Marche",
+      "verificationLevel": "specific_vacancy"
+    },
     {
       "id": "allegion-pmo-leader-jr37078",
       "company": "Allegion",
@@ -10737,15 +11833,514 @@
           }
         ],
         "note": "Automatic public-feed backup, not a complete national web scan."
+      },
+      "manual_national": {
+        "scheduledFor": "2026-11-14T11:02:35.268Z",
+        "startedAt": "2026-11-14T11:02:35.268Z",
+        "completedAt": "2026-11-14T11:02:35.278Z",
+        "status": "partial",
+        "coverageMode": "nationwide_region_by_region_indexed_and_specific_pages",
+        "requiredSourcesTotal": 238,
+        "regionsTarget": 20,
+        "regionsAttempted": [
+          "Valle d'Aosta",
+          "Piemonte",
+          "Liguria",
+          "Lombardia",
+          "Trentino-Alto Adige",
+          "Veneto",
+          "Friuli-Venezia Giulia",
+          "Emilia-Romagna",
+          "Toscana",
+          "Umbria",
+          "Marche",
+          "Lazio",
+          "Abruzzo",
+          "Molise",
+          "Campania",
+          "Puglia",
+          "Basilicata",
+          "Calabria",
+          "Sicilia",
+          "Sardegna"
+        ],
+        "regionsVerifiedWithNewPostings": [
+          "Piemonte",
+          "Liguria",
+          "Lombardia",
+          "Trentino-Alto Adige",
+          "Veneto",
+          "Friuli-Venezia Giulia",
+          "Emilia-Romagna",
+          "Umbria",
+          "Marche",
+          "Lazio",
+          "Abruzzo",
+          "Campania",
+          "Puglia",
+          "Basilicata",
+          "Sicilia"
+        ],
+        "regionCoverage": {
+          "Valle d'Aosta": {
+            "attempted": true,
+            "verifiedUniqueNewJobs": 0,
+            "discoverySources": [
+              "Google/Bing indexed vacancy search",
+              "LinkedIn Jobs"
+            ],
+            "status": "region_query_attempted"
+          },
+          "Piemonte": {
+            "attempted": true,
+            "verifiedUniqueNewJobs": 1,
+            "discoverySources": [
+              "Google/Bing indexed vacancy search",
+              "LinkedIn Jobs"
+            ],
+            "status": "region_query_attempted"
+          },
+          "Liguria": {
+            "attempted": true,
+            "verifiedUniqueNewJobs": 1,
+            "discoverySources": [
+              "Google/Bing indexed vacancy search",
+              "LinkedIn Jobs"
+            ],
+            "status": "region_query_attempted"
+          },
+          "Lombardia": {
+            "attempted": true,
+            "verifiedUniqueNewJobs": 8,
+            "discoverySources": [
+              "Google/Bing indexed vacancy search",
+              "LinkedIn Jobs"
+            ],
+            "status": "region_query_attempted"
+          },
+          "Trentino-Alto Adige": {
+            "attempted": true,
+            "verifiedUniqueNewJobs": 4,
+            "discoverySources": [
+              "Google/Bing indexed vacancy search",
+              "LinkedIn Jobs"
+            ],
+            "status": "region_query_attempted"
+          },
+          "Veneto": {
+            "attempted": true,
+            "verifiedUniqueNewJobs": 4,
+            "discoverySources": [
+              "Google/Bing indexed vacancy search",
+              "LinkedIn Jobs"
+            ],
+            "status": "region_query_attempted"
+          },
+          "Friuli-Venezia Giulia": {
+            "attempted": true,
+            "verifiedUniqueNewJobs": 1,
+            "discoverySources": [
+              "Google/Bing indexed vacancy search",
+              "LinkedIn Jobs"
+            ],
+            "status": "region_query_attempted"
+          },
+          "Emilia-Romagna": {
+            "attempted": true,
+            "verifiedUniqueNewJobs": 2,
+            "discoverySources": [
+              "Google/Bing indexed vacancy search",
+              "LinkedIn Jobs"
+            ],
+            "status": "region_query_attempted"
+          },
+          "Toscana": {
+            "attempted": true,
+            "verifiedUniqueNewJobs": 0,
+            "discoverySources": [
+              "Google/Bing indexed vacancy search",
+              "LinkedIn Jobs"
+            ],
+            "status": "region_query_attempted"
+          },
+          "Umbria": {
+            "attempted": true,
+            "verifiedUniqueNewJobs": 1,
+            "discoverySources": [
+              "Google/Bing indexed vacancy search",
+              "LinkedIn Jobs"
+            ],
+            "status": "region_query_attempted"
+          },
+          "Marche": {
+            "attempted": true,
+            "verifiedUniqueNewJobs": 3,
+            "discoverySources": [
+              "Google/Bing indexed vacancy search",
+              "LinkedIn Jobs"
+            ],
+            "status": "region_query_attempted"
+          },
+          "Lazio": {
+            "attempted": true,
+            "verifiedUniqueNewJobs": 3,
+            "discoverySources": [
+              "Google/Bing indexed vacancy search",
+              "LinkedIn Jobs"
+            ],
+            "status": "region_query_attempted"
+          },
+          "Abruzzo": {
+            "attempted": true,
+            "verifiedUniqueNewJobs": 2,
+            "discoverySources": [
+              "Google/Bing indexed vacancy search",
+              "LinkedIn Jobs"
+            ],
+            "status": "region_query_attempted"
+          },
+          "Molise": {
+            "attempted": true,
+            "verifiedUniqueNewJobs": 0,
+            "discoverySources": [
+              "Google/Bing indexed vacancy search",
+              "LinkedIn Jobs"
+            ],
+            "status": "region_query_attempted"
+          },
+          "Campania": {
+            "attempted": true,
+            "verifiedUniqueNewJobs": 3,
+            "discoverySources": [
+              "Google/Bing indexed vacancy search",
+              "LinkedIn Jobs"
+            ],
+            "status": "region_query_attempted"
+          },
+          "Puglia": {
+            "attempted": true,
+            "verifiedUniqueNewJobs": 3,
+            "discoverySources": [
+              "Google/Bing indexed vacancy search",
+              "LinkedIn Jobs"
+            ],
+            "status": "region_query_attempted"
+          },
+          "Basilicata": {
+            "attempted": true,
+            "verifiedUniqueNewJobs": 1,
+            "discoverySources": [
+              "Google/Bing indexed vacancy search",
+              "LinkedIn Jobs"
+            ],
+            "status": "region_query_attempted"
+          },
+          "Calabria": {
+            "attempted": true,
+            "verifiedUniqueNewJobs": 0,
+            "discoverySources": [
+              "Google/Bing indexed vacancy search",
+              "LinkedIn Jobs"
+            ],
+            "status": "region_query_attempted"
+          },
+          "Sicilia": {
+            "attempted": true,
+            "verifiedUniqueNewJobs": 3,
+            "discoverySources": [
+              "Google/Bing indexed vacancy search",
+              "LinkedIn Jobs"
+            ],
+            "status": "region_query_attempted"
+          },
+          "Sardegna": {
+            "attempted": true,
+            "verifiedUniqueNewJobs": 0,
+            "discoverySources": [
+              "Google/Bing indexed vacancy search",
+              "LinkedIn Jobs"
+            ],
+            "status": "region_query_attempted"
+          }
+        },
+        "requiredSourcesChecked": 1,
+        "sourcesChecked": [
+          "LinkedIn Jobs"
+        ],
+        "sourcesExplored": 4,
+        "directSourcesChecked": [],
+        "siteRestrictedSourcesChecked": [
+          "LinkedIn Jobs"
+        ],
+        "indexedFallbackSourcesChecked": [
+          "Indeed Italia",
+          "Jobsora",
+          "Jobijoba"
+        ],
+        "sourcesUnavailable": [],
+        "queriesRun": 72,
+        "specificJobPagesOpened": 30,
+        "newJobs": 41,
+        "activeJobs": 268,
+        "searchLog": [
+          {
+            "source": "Italian regional vacancy discovery",
+            "method": "web_search_site_restricted_and_indexed",
+            "region": "Valle d'Aosta",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Regional query attempts performed; 0 new specific postings confirmed by opened pages (not exhaustive).",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Italian regional vacancy discovery",
+            "method": "web_search_site_restricted_and_indexed",
+            "region": "Piemonte",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Regional query attempts performed; 1 new specific postings confirmed by opened pages (not exhaustive).",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/impiegato-a-ufficio-gare-at-gruppo-marazzato-4486778053"
+            ]
+          },
+          {
+            "source": "Italian regional vacancy discovery",
+            "method": "web_search_site_restricted_and_indexed",
+            "region": "Liguria",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Regional query attempts performed; 1 new specific postings confirmed by opened pages (not exhaustive).",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485737734"
+            ]
+          },
+          {
+            "source": "Italian regional vacancy discovery",
+            "method": "web_search_site_restricted_and_indexed",
+            "region": "Lombardia",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Regional query attempts performed; 8 new specific postings confirmed by opened pages (not exhaustive).",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/tender-specialist-at-ricam-group-4482511397",
+              "https://it.linkedin.com/jobs/view/responsabile-ufficio-gare-at-strategic-management-partners-4488060415",
+              "https://it.linkedin.com/jobs/view/proposal-tender-manager-at-adhr-group-4484370339",
+              "https://it.linkedin.com/jobs/view/technical-tender-manager-at-agap2-italia-4488219337",
+              "https://it.linkedin.com/jobs/view/bid-manager-ufficio-gare-at-adecco-4489497176",
+              "https://it.linkedin.com/jobs/view/specialista-gare-e-appalti-pubblici-tender-specialist-milano-at-studio-riadatto-architecture-engineering-sb-4483420584"
+            ]
+          },
+          {
+            "source": "Italian regional vacancy discovery",
+            "method": "web_search_site_restricted_and_indexed",
+            "region": "Trentino-Alto Adige",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Regional query attempts performed; 4 new specific postings confirmed by opened pages (not exhaustive).",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485751130",
+              "https://it.linkedin.com/jobs/view/addetto-a-back-office-at-eurocar-4473249252",
+              "https://it.linkedin.com/jobs/view/junior-back-office-commerciale-%E2%80%93-customer-care-at-waldner-tecnologie-medicali-s-r-l-4469869033",
+              "https://it.linkedin.com/jobs/view/addetto-a-ufficio-gare-e-appalti-m-f-d-at-acs-4458377564"
+            ]
+          },
+          {
+            "source": "Italian regional vacancy discovery",
+            "method": "web_search_site_restricted_and_indexed",
+            "region": "Veneto",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Regional query attempts performed; 4 new specific postings confirmed by opened pages (not exhaustive).",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485729817",
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485743585",
+              "https://it.linkedin.com/jobs/view/proposal-manager-%E2%80%93-servizio-idrico-integrato-e-gestione-risorse-idriche-at-almaviva-bluebit-spa-societ%C3%A0-benefit-4428506671",
+              "https://it.linkedin.com/jobs/view/tender-contract-admin-senior-specialist-at-bureau-veritas-4458967105"
+            ]
+          },
+          {
+            "source": "Italian regional vacancy discovery",
+            "method": "web_search_site_restricted_and_indexed",
+            "region": "Friuli-Venezia Giulia",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Regional query attempts performed; 1 new specific postings confirmed by opened pages (not exhaustive).",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485734748"
+            ]
+          },
+          {
+            "source": "Italian regional vacancy discovery",
+            "method": "web_search_site_restricted_and_indexed",
+            "region": "Emilia-Romagna",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Regional query attempts performed; 2 new specific postings confirmed by opened pages (not exhaustive).",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485739672",
+              "https://it.linkedin.com/jobs/view/ufficio-gare-tender-specialist-architetto-ingegnere-at-mazzei-architects-4488296557"
+            ]
+          },
+          {
+            "source": "Italian regional vacancy discovery",
+            "method": "web_search_site_restricted_and_indexed",
+            "region": "Toscana",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Regional query attempts performed; 0 new specific postings confirmed by opened pages (not exhaustive).",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Italian regional vacancy discovery",
+            "method": "web_search_site_restricted_and_indexed",
+            "region": "Umbria",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Regional query attempts performed; 1 new specific postings confirmed by opened pages (not exhaustive).",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/segretario-a-commerciale-back-office-at-chrea-srl-4467555432"
+            ]
+          },
+          {
+            "source": "Italian regional vacancy discovery",
+            "method": "web_search_site_restricted_and_indexed",
+            "region": "Marche",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Regional query attempts performed; 3 new specific postings confirmed by opened pages (not exhaustive).",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485735783",
+              "https://it.linkedin.com/jobs/view/back-office-commerciale-automotive-at-sida-group-4488885124",
+              "https://it.linkedin.com/jobs/view/operations-tender-manager-at-isg-international-service-group-4483869554"
+            ]
+          },
+          {
+            "source": "Italian regional vacancy discovery",
+            "method": "web_search_site_restricted_and_indexed",
+            "region": "Lazio",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Regional query attempts performed; 3 new specific postings confirmed by opened pages (not exhaustive).",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/responsabile-ufficio-gare-at-strategic-management-partners-4487761918",
+              "https://it.linkedin.com/jobs/view/responsabile-gare-e-appalti-at-randstad-professional-italia-4488512965",
+              "https://it.linkedin.com/jobs/view/key-account-manager-public-agreements-bid-management-at-tim-4435449787"
+            ]
+          },
+          {
+            "source": "Italian regional vacancy discovery",
+            "method": "web_search_site_restricted_and_indexed",
+            "region": "Abruzzo",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Regional query attempts performed; 2 new specific postings confirmed by opened pages (not exhaustive).",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/tecnico-at-a-c-n-d-srl-4488918396",
+              "https://it.linkedin.com/jobs/view/responsabile-ufficio-gare-settore-costruzioni-e-infrastrutture-at-adami-associati-selezione-di-personale-qualificato-4481896665"
+            ]
+          },
+          {
+            "source": "Italian regional vacancy discovery",
+            "method": "web_search_site_restricted_and_indexed",
+            "region": "Molise",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Regional query attempts performed; 0 new specific postings confirmed by opened pages (not exhaustive).",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Italian regional vacancy discovery",
+            "method": "web_search_site_restricted_and_indexed",
+            "region": "Campania",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Regional query attempts performed; 3 new specific postings confirmed by opened pages (not exhaustive).",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485739676",
+              "https://it.linkedin.com/jobs/view/impiegato-a-amministrativo-a-ufficio-gare-at-f-lli-ferrara-srl-4464360094",
+              "https://it.linkedin.com/jobs/view/responsabile-ufficio-gare-at-gruppo-cipriano-4490591496"
+            ]
+          },
+          {
+            "source": "Italian regional vacancy discovery",
+            "method": "web_search_site_restricted_and_indexed",
+            "region": "Puglia",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Regional query attempts performed; 3 new specific postings confirmed by opened pages (not exhaustive).",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485732799",
+              "https://it.linkedin.com/jobs/view/addetto-a-ufficio-gare-%E2%80%93-almeno-2-anni-di-esperienza-in-gare-pubbliche-at-am-next-srl-4488927602",
+              "https://it.linkedin.com/jobs/view/addetto-a-ufficio-gare-e-commerciale-%E2%80%93-settore-biomedicale-at-tecnomedica-s-r-l-4485833389"
+            ]
+          },
+          {
+            "source": "Italian regional vacancy discovery",
+            "method": "web_search_site_restricted_and_indexed",
+            "region": "Basilicata",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Regional query attempts performed; 1 new specific postings confirmed by opened pages (not exhaustive).",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/associato-di-ufficio-at-c-s-e-s-r-l-4476440785"
+            ]
+          },
+          {
+            "source": "Italian regional vacancy discovery",
+            "method": "web_search_site_restricted_and_indexed",
+            "region": "Calabria",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Regional query attempts performed; 0 new specific postings confirmed by opened pages (not exhaustive).",
+            "evidenceUrls": []
+          },
+          {
+            "source": "Italian regional vacancy discovery",
+            "method": "web_search_site_restricted_and_indexed",
+            "region": "Sicilia",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Regional query attempts performed; 3 new specific postings confirmed by opened pages (not exhaustive).",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485748428",
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485735776",
+              "https://it.linkedin.com/jobs/view/addetto-al-back-office-commerciale-at-osm-value-4487478169"
+            ]
+          },
+          {
+            "source": "Italian regional vacancy discovery",
+            "method": "web_search_site_restricted_and_indexed",
+            "region": "Sardegna",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Regional query attempts performed; 0 new specific postings confirmed by opened pages (not exhaustive).",
+            "evidenceUrls": []
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "method": "specific_vacancy_page",
+            "region": "Italia",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "40 distinct posted vacancy pages included; other opened/duplicate/closed links excluded.",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485735783",
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485732799",
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485729817",
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485751130",
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485743585",
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485734748",
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485739676",
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485748428",
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485737734",
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485739672",
+              "https://it.linkedin.com/jobs/view/proposal-manager-at-gpi-group-4485735776",
+              "https://it.linkedin.com/jobs/view/impiegato-a-ufficio-gare-at-gruppo-marazzato-4486778053",
+              "https://it.linkedin.com/jobs/view/tender-specialist-at-ricam-group-4482511397",
+              "https://it.linkedin.com/jobs/view/addetto-a-ufficio-gare-%E2%80%93-almeno-2-anni-di-esperienza-in-gare-pubbliche-at-am-next-srl-4488927602",
+              "https://it.linkedin.com/jobs/view/addetto-a-ufficio-gare-e-commerciale-%E2%80%93-settore-biomedicale-at-tecnomedica-s-r-l-4485833389"
+            ]
+          },
+          {
+            "source": "Jobijoba",
+            "method": "specific_indexed_offer",
+            "region": "Sardegna",
+            "checkedAt": "2026-11-14T11:02:35.268Z",
+            "outcome": "Listing for WinTime found; original location and availability pending verification.",
+            "evidenceUrls": [
+              "https://www.jobijoba.it/annunci-di-lavoro/13/22060bf6ad45b1cd60f4768399c1d76a"
+            ]
+          }
+        ],
+        "note": "20/20 regioni cercate con query territoriali; non equivalgono a 100% dei 238 provider. Pubblicate solo pagine di singoli annunci; 1 annuncio da aggregatore segnalato come da confermare. Lo stesso datore può pubblicare posizioni simili in sedi diverse."
       }
     }
   },
   "manualRefresh": {
     "date": "2026-11-14",
-    "updatedAt": "2026-11-14T10:21:24.588Z",
+    "updatedAt": "2026-11-14T11:02:35.268Z",
     "status": "partial",
-    "newJobs": 6,
-    "description": "Scansione immediata mirata di fonti dirette, ATS e annunci specifici; dati pubblicati e verificati."
+    "newJobs": 41,
+    "description": "Ricerca nazionale straordinaria su 20 regioni, con annunci specifici e audit della copertura."
   },
   "auditHistory": [
     {
