@@ -629,14 +629,15 @@ function isNew(j){
  return !!j.firstSeenAt && !isApplied(j.id) && !isDismissed(j.id);
 }
 function counts(){
- const visible=DATA.filter(x=>!isDismissed(x.id));
+ const visible=DATA.filter(x=>(x.active!==false || isSaved(x.id) || isApplied(x.id))&&!isDismissed(x.id));
  ui.stNew.textContent=visible.filter(isNew).length;
  ui.stHot.textContent=visible.filter(x=>x.score>=9).length;
  ui.stApplied.textContent=visible.filter(x=>isApplied(x.id)).length;
 }
 function normalizeSearch(v){return String(v||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim()}
 function match(j){
- if(isDismissed(j.id))return false;
+  if(j.active===false && !isSaved(j.id) && !isApplied(j.id))return false;
+  if(isDismissed(j.id))return false;
  const q=normalizeSearch(ui.q.value);
  if(q){
   const r=remoteRow(j.id);
@@ -677,7 +678,7 @@ function render(){
  counts();
  const panel=document.getElementById("nationalPulse");
  if(panel){
-   const national=DATA.filter(j=>String(j.firstSeenRun||"").includes("Scansione nazionale straordinaria"));
+   const national=DATA.filter(j=>j.active!==false && String(j.firstSeenRun||"").includes("Scansione nazionale straordinaria"));
    panel.hidden=!national.length;
    document.getElementById("nationalPulseTitle").textContent="Scansione Italia · "+national.length+" offerte aggiunte";
    document.getElementById("nationalPulseDetail").textContent="20 regioni cercate · 40 pagine specifiche · copertura parziale delle fonti";
