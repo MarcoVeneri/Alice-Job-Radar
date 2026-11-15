@@ -90,12 +90,25 @@ function auditNumbers(r){
   const newJobs=finiteCount(r?.newJobs)??0;
   return {total,explored,queries,newJobs,complete:complete.length};
 }
+
 function validRun(audit,slot){
   if(!audit||audit.date!==todayKey()||!audit.runs)return null;
-  let r=audit.runs[slot];
-  if(!r)return null;
-  const runDay=dateKeyFromIso(r.scheduledFor||r.completedAt);
-  return runDay===todayKey()?r:null;
+  const r=audit.runs[slot];
+  if(!r||typeof r!=="object")return null;
+  const day=dateKeyFromIso(r.startedAt||r.completedAt||r.scheduledFor);
+  return day===todayKey()?r:null;
+}
+function actualTime(iso){
+  if(!iso)return "";
+  const d=new Date(iso);
+  if(Number.isNaN(d.getTime()))return "";
+  return new Intl.DateTimeFormat("it-IT",{timeZone:TZ,hour:"2-digit",minute:"2-digit"}).format(d);
+}
+function sameExecution(a,b){
+  if(!a||!b)return false;
+  if(a.runId&&b.runId&&a.runId===b.runId)return true;
+  return !!(a.startedAt&&b.startedAt&&a.startedAt===b.startedAt&&
+    a.completedAt&&b.completedAt&&a.completedAt===b.completedAt);
 }
 function syncLabels(){
   const morning=document.querySelector("#run08box strong");
@@ -103,53 +116,81 @@ function syncLabels(){
   if(morning)morning.textContent="09:30";
   if(afternoon)afternoon.textContent="15:30";
   const footer=document.querySelector(".footer");
-  if(footer)footer.textContent="Alice Job Radar · PWA v6.40 · aggiornamento automatico 09:30 / 15:30";
+  if(footer)footer.textContent="Alice Job Radar · PWA v6.42 · aggiornamento automatico 09:30 / 15:30";
 }
 function runLabel(a){
-  const jobs=a.newJobs===1?"1 nuova":`${a.newJobs} nuove`;
-  return `${a.explored}/${a.total} esplorate · ${a.queries} controlli · ${jobs}`;
+  const jobs=a.newJobs===1?"1 nuova":a.newJobs+" nuove";
+  return a.explored+"/"+a.total+" fonti esplorate · "+a.queries+" controlli · "+jobs;
 }
-function paint(audit,history=[]){
+function paintToday(jobs){
+  const el=document.getElementById("runToday");
+  if(!el||!Array.isArray(jobs))return;
+  const unique=new Set();
+  for(const j of jobs){
+    if(!j||!j.firstSeenAt||dateKeyFromIso(j.firstSeenAt)!==todayKey())continue;
+    if(j.id!==null&&j.id!==undefined)unique.add(String(j.id));
+  }
+  const n=unique.size;
+  el.textContent=n+" "+(n===1?"offerta distinta aggiunta oggi":"offerte distinte aggiunte oggi")+
+    " · il totale non somma annunci duplicati";
+}
+function paint(audit,history=[],jobs=null){
   syncLabels();
   const now=nowMinutes();
+  const morning=validRun(audit,"09:30");
   for(const slot of SLOTS){
     const isMorning=slot==="09:30";
     const el=document.getElementById(isMorning?"run08":"run15");
     const box=document.getElementById(isMorning?"run08box":"run15box");
+    const state=document.getElementById(isMorning?"run08State":"run15State");
+    const moment=document.getElementById(isMorning?"run08At":"run15At");
     if(!el||!box)continue;
     box.classList.remove("ok","partial","failed");
-    if(now<slotMinutes(slot)){
-      el.textContent="In programma";
-      el.removeAttribute("title");
-      continue;
-    }
     const r=validRun(audit,slot);
-    if(!r){
-      box.classList.add("partial");
-      const previous=[audit,...(Array.isArray(history)?history:[])]
-        .filter(x=>x&&x.date<todayKey()&&x.runs&&x.runs[slot])
-        .sort((a,b)=>String(b.date).localeCompare(String(a.date)))[0];
-      el.textContent=previous?"Oggi da recuperare · ultima "+previous.date.split("-").reverse().slice(0,2).join("/"):"Oggi da recuperare";
-      el.title="Nessun esito pubblicato per la scansione odierna delle "+slot+
-        (previous?"; ultimo esito salvato il "+previous.date:"")+".";
-      continue;
+    let status="In programma", time="",detail="Scansione prevista per le "+slot;
+    if(now>=slotMinutes(slot)){
+      if(!r){
+        status="Non registrata";
+        detail="Nessun risultato distinto pubblicato";
+        box.classList.add("partial");
+      }else if(!isMorning&&sameExecution(morning,r)){
+        status="Dati duplicati";
+        detail="Non risulta una seconda esecuzione autonoma";
+        box.classList.add("failed");
+      }else{
+        const a=auditNumbers(r);
+        time=actualTime(r.completedAt||r.startedAt||r.scheduledFor);
+        if(r.status==="failed"){
+          status="Fallita";
+          detail="Risultati non confermati";
+          box.classList.add("failed");
+        }else if(r.status==="running"||r.status==="in_progress"){
+          status="In corso";
+          detail=runLabel(a);
+          box.classList.add("partial");
+        }else if(r.status==="complete"){
+          status="Completata";
+          detail=runLabel(a);
+          box.classList.add("ok");
+        }else if(r.status==="partial"){
+          status="Parziale";
+          detail=runLabel(a);
+          box.classList.add("partial");
+        }else{
+          status="Esito non verificato";
+          detail="Stato della scansione non disponibile";
+          box.classList.add("partial");
+        }
+      }
     }
-    const a=auditNumbers(r);
-    const detail=runLabel(a);
-    el.title=`${a.complete} fonti complete · ${a.explored} fonti esplorate · ${a.queries} controlli reali`;
-    if(r.status==="failed"){
-      box.classList.add("failed");
-      el.textContent="Ricerca automatica fallita";
-      el.title="La ricerca delle "+slot+" è fallita e non ha pubblicato nuovi annunci.";
-    }else if(r.status==="running"||r.status==="in_progress"){
-      box.classList.add("partial");
-      el.textContent=`In corso · ${detail}`;
-    }else{
-      box.classList.add(a.explored>=a.total?"ok":"partial");
-      el.textContent=detail;
-    }
+    if(state)state.textContent=status;
+    if(moment)moment.textContent=time?((status==="In corso"?"Avviata":"Eseguita")+" alle "+time):"";
+    el.textContent=detail;
+    box.title="Scansione "+slot+" · "+status+(time?" · ora reale "+time:"")+
+      (r&&status!=="Dati duplicati"?" · "+detail:"");
   }
-  // Show the nationwide manual scan independently from scheduled slots and fallback feed checks.
+  paintToday(jobs);
+  // Keep manual national searches separate from the two scheduled slots.
   const runs=(audit&&audit.date===todayKey()&&audit.runs)?audit.runs:{};
   const section=document.querySelector(".runAudit");
   function supplementary(id,heading,run,format,description){
@@ -174,13 +215,15 @@ function paint(audit,history=[]){
     "runNationalBox","🇮🇹 Scansione nazionale",runs.manual_national,
     r=>{
       const regions=Array.isArray(r.regionsAttempted)?r.regionsAttempted.length:0;
-      return (finiteCount(r.newJobs)??0)+" nuovi annunci · "+regions+"/20 regioni cercate · parziale";
+      return (finiteCount(r.newJobs)??0)+" nuovi annunci · "+regions+"/20 regioni cercate · "+
+        (r.status==="complete"?"completata":r.status==="failed"?"fallita":"parziale");
     },
-    "Ricerca straordinaria in tutte le regioni. Il controllo di tutte le fonti nazionali non è completo."
+    "Ricerca straordinaria distinta dalle scansioni programmate."
   );
   supplementary(
     "runRecoveryBox","Recupero mirato",runs.manual_recovery,
-    r=>(finiteCount(r.newJobs)??0)+" nuove offerte · "+(finiteCount(r.queriesRun)??0)+" controlli registrati · parziale",
+    r=>(finiteCount(r.newJobs)??0)+" nuove offerte · "+(finiteCount(r.queriesRun)??0)+" controlli registrati · "+
+      (r.status==="complete"?"completata":r.status==="failed"?"fallita":"parziale"),
     "Recupero mirato, distinto dalla scansione nazionale e dalle scansioni programmate."
   );
 }
@@ -267,7 +310,7 @@ async function refreshAudit(){
     const r=await nativeFetch(url+sep+"auditfix="+Date.now(),{cache:"no-store"});
     if(!r.ok)return;
     const j=JSON.parse(await r.text());
-    paint(j.audit||null,j.auditHistory||[]);
+    paint(j.audit||null,j.auditHistory||[],j.jobs||[]);
   }catch(_){ }
 }
 function retryMainLoad(){
