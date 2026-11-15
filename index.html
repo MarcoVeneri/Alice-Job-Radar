@@ -9,10 +9,10 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Alice Jobs">
-<link rel="manifest" href="./manifest.webmanifest?v=641">
-<link rel="apple-touch-icon" href="./icon.svg?v=641">
+<link rel="manifest" href="./manifest.webmanifest?v=642">
+<link rel="apple-touch-icon" href="./icon.svg?v=642">
 <title>Alice Job Radar</title>
-<script src="./config.js?v=641"></script>
+<script src="./config.js?v=642"></script>
 <style>
 :root{
   --bg:#f5f6fb;
@@ -383,12 +383,24 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 .nationalPulse small{display:block;font-size:12px;color:var(--muted);line-height:1.45;margin-top:4px}
 .nationalPulse button{border:0;border-radius:15px;background:var(--accent);color:white;font-size:12px;font-weight:800;padding:12px 16px;cursor:pointer;flex-shrink:0}
 @media(max-width:480px){.nationalPulse{flex-direction:column;align-items:stretch}.nationalPulse button{width:100%}}
+
+/* v6.42: real-time result and distinct audit slots */
+.runChip{min-height:123px;justify-content:flex-start}
+.runChip .runLine{width:100%;display:flex;justify-content:space-between;align-items:center;gap:7px}
+.runChip .runLine strong{font-size:15px;flex-shrink:0}
+.runChip .runState{font-size:11px;font-weight:850;width:auto;line-height:1.2;text-align:right!important;color:var(--muted)}
+.runChip.ok .runState{color:#1f8f5f}.runChip.partial .runState{color:#c17a18}.runChip.failed .runState{color:#c95050}
+.runChip .runMoment{color:var(--muted);font-size:11px;font-weight:600;text-align:left!important;line-height:1.3}
+.runChip .runSummary{font-size:12px;line-height:1.38;font-weight:750}
+.runToday{grid-column:1/-1;text-align:center;font-size:12px;font-weight:700;color:var(--muted);padding:0 8px}
+@media(prefers-color-scheme:dark){.runChip.ok .runState{color:#6ed5a6}.runChip.partial .runState{color:#f2ba6a}.runChip.failed .runState{color:#ff8d8d}}
+@media(max-width:390px){.runChip{padding:11px 10px}.runChip .runLine strong{font-size:14px}.runChip .runState{font-size:10px}}
 </style>
-<script id="alice-build-641">
+<script id="alice-build-642">
 (function(){
   try{
     const u=new URL(location.href);
-    if(u.searchParams.get('ajr')!=='641'){u.searchParams.set('ajr','641');location.replace(u.toString());return;}
+    if(u.searchParams.get('ajr')!=='642'){u.searchParams.set('ajr','642');location.replace(u.toString());return;}
   }catch(e){}
 })();
 </script>
@@ -403,8 +415,9 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 </header>
 
   <section class="runAudit" aria-label="Stato ricerche di oggi">
-    <div id="run08box" class="runChip"><strong>09:30</strong><span class="runSummary" id="run08">In programma</span></div>
-    <div id="run15box" class="runChip"><strong>15:30</strong><span class="runSummary" id="run15">In programma</span></div>
+    <div id="run08box" class="runChip"><div class="runLine"><strong>09:30</strong><span class="runState" id="run08State">In programma</span></div><span class="runMoment" id="run08At"></span><span class="runSummary" id="run08">Scansione prevista per le 09:30</span></div>
+    <div id="run15box" class="runChip"><div class="runLine"><strong>15:30</strong><span class="runState" id="run15State">In programma</span></div><span class="runMoment" id="run15At"></span><span class="runSummary" id="run15">Scansione prevista per le 15:30</span></div>
+    <div class="runToday" id="runToday" aria-live="polite"></div>
 </section>
 
   <section id="nationalPulse" class="nationalPulse" aria-label="Risultati ricerca nazionale" hidden>
@@ -446,13 +459,13 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v6.41 · aggiornamento automatico 09:30 / 15:30</div>
+  <div class="footer">Alice Job Radar · PWA v6.42 · aggiornamento automatico 09:30 / 15:30</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.41",sync:{enabled:false}};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.42",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],REMOTE_ROWS=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -749,52 +762,46 @@ function romeDateKey(d=new Date()){
    return o.year+"-"+o.month+"-"+o.day;
  }catch(e){return new Date().toISOString().slice(0,10)}
 }
+
 function auditSummary(r){
- const count=v=>v!==null&&v!==undefined&&v!==""&&Number.isFinite(Number(v))&&Number(v)>=0?Math.floor(Number(v)):null;
- const names=v=>Array.isArray(v)?[...new Set(v.filter(x=>typeof x==="string"&&x.trim()).map(x=>x.trim()))]:[];
- const complete=names(r.sourcesChecked), partial=names(r.coverageDiagnostics?.sourcesPartiallyCovered);
- const explored=[...new Set([...complete,...partial])];
- const total=count(r.requiredSourcesTotal)??60, checked=count(r.requiredSourcesChecked);
- const fullyComplete=r.status==="complete"&&checked!==null&&checked>=total;
- return {total,checked,explored,partial,unavailable:names(r.sourcesUnavailable),
-  queries:count(r.queriesRun),newJobs:count(r.newJobs),fullyComplete};
+ const n=v=>Number.isFinite(Number(v))&&Number(v)>=0&&v!=null&&v!==""?Math.floor(Number(v)):0;
+ const c=Array.isArray(r.sourcesChecked)?r.sourcesChecked.length:0;
+ return {total:n(r.requiredSourcesTotal)||238,explored:Math.max(c,n(r.sourcesExplored)),queries:n(r.queriesRun),newJobs:n(r.newJobs)};
 }
 function renderAudit(audit){
- const today=romeDateKey();
- const sameDay=audit&&audit.date===today;
- const runs=sameDay&&audit.runs?audit.runs:{};
- function one(slot,el,box){
-   const r=runs[slot];
-   box.classList.remove("ok","partial","failed");
-   box.querySelector(".runDetails")?.remove();
-   if(!r){
-     const parts=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Rome",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(new Date());
-     const nowTime=parts.find(x=>x.type==="hour").value+":"+parts.find(x=>x.type==="minute").value;
-     el.textContent=nowTime>=slot?"Nessuna ricerca registrata":"In programma";
-     if(nowTime>=slot)box.classList.add("partial");
-     return;
+ const today=romeDateKey(),runs=audit?.date===today?audit.runs||{}:{};
+ const p=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Rome",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(new Date());
+ const clock=p.find(x=>x.type==="hour").value+":"+p.find(x=>x.type==="minute").value;
+ for(const slot of ["09:30","15:30"]){
+  const box=slot==="09:30"?ui.run08box:ui.run15box;
+  const el=slot==="09:30"?ui.run08:ui.run15;
+  const state=box.querySelector(".runState"),moment=box.querySelector(".runMoment");
+  box.classList.remove("ok","partial","failed");
+  const r=runs[slot]||null;
+  const date=r&&r.startedAt?new Date(r.startedAt):null;
+  const valid=!!(date&&!Number.isNaN(date.getTime())&&romeDateKey(date)===today);
+  let label="In programma",detail="Scansione prevista per le "+slot,stamp="";
+  const morning=runs["09:30"];
+  const copied=slot==="15:30"&&morning&&r&&r.startedAt===morning.startedAt&&r.completedAt===morning.completedAt;
+  if(clock>=slot){
+   if(!valid){label="Non registrata";detail="Nessun risultato distinto pubblicato";box.classList.add("partial")}
+   else if(copied){label="Dati duplicati";detail="Nessuna seconda esecuzione autonoma";box.classList.add("failed")}
+   else{
+    const a=auditSummary(r),when=new Date(r.completedAt||r.startedAt);
+    stamp=Number.isNaN(when.getTime())?"":new Intl.DateTimeFormat("it-IT",{timeZone:"Europe/Rome",hour:"2-digit",minute:"2-digit"}).format(when);
+    if(r.status==="failed"){label="Fallita";detail="Risultati non confermati";box.classList.add("failed")}
+    else if(r.status==="running"||r.status==="in_progress"){label="In corso";detail=a.explored+"/"+a.total+" fonti · "+a.queries+" controlli · "+a.newJobs+" nuove";box.classList.add("partial")}
+    else if(r.status==="partial"||r.status==="complete"){label=r.status==="complete"?"Completata":"Parziale";detail=a.explored+"/"+a.total+" fonti esplorate · "+a.queries+" controlli · "+a.newJobs+" nuove";box.classList.add(r.status==="complete"?"ok":"partial")}
+    else {label="Esito non verificato";detail="Stato della scansione sconosciuto";box.classList.add("partial")}
    }
-   const a=auditSummary(r);
-   const total=a.total||60;
-   const checked=a.checked===null?0:a.checked;
-   const running=r.status==="running"||r.status==="in_progress";
-   const failed=r.status==="failed";
-   if(failed){
-     box.classList.add("failed");
-     el.textContent="Ricerca automatica fallita";
-     return;
-   }
-   if(running){
-     box.classList.add("partial");
-     el.textContent="In corso · "+checked+"/"+total+" fonti";
-     return;
-   }
-   box.classList.add(a.fullyComplete?"ok":"partial");
-   el.textContent=checked+"/"+total+" complete · "+a.explored.length+" esplorate";
-   el.title=(a.queries||0)+" controlli reali";
+  }
+  if(state)state.textContent=label;
+  if(moment)moment.textContent=stamp?((label==="In corso"?"Avviata":"Eseguita")+" alle "+stamp):"";
+  el.textContent=detail;
  }
- one("09:30",ui.run08,ui.run08box);
- one("15:30",ui.run15,ui.run15box);
+ const ids=new Set(DATA.filter(j=>j&&j.id!=null&&j.firstSeenAt&&!Number.isNaN(Date.parse(j.firstSeenAt))&&romeDateKey(new Date(j.firstSeenAt))===today).map(j=>String(j.id)));
+ const el=document.getElementById("runToday"),n=ids.size;
+ if(el)el.textContent=n+" "+(n===1?"offerta distinta aggiunta oggi":"offerte distinte aggiunte oggi")+" · senza annunci duplicati";
 }
 async function load(){ ui.notice.classList.remove('show');
  if(ui.refreshBtn){ui.refreshBtn.disabled=true;ui.refreshBtn.classList.add("spinning")}
@@ -919,11 +926,11 @@ setInterval(watchDayChange,15000);
 setInterval(()=>{if(document.visibilityState==="visible")load()},5*60*1000);
 })();
 </script>
-<script id="alice-sw-641">
+<script id="alice-sw-642">
 if('serviceWorker' in navigator){
   window.addEventListener('load',async()=>{
     try{
-      const r=await navigator.serviceWorker.register('./sw.js?v=641',{updateViaCache:'none'});
+      const r=await navigator.serviceWorker.register('./sw.js?v=642',{updateViaCache:'none'});
       await r.update();
     }catch(e){}
   });
