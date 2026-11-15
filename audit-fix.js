@@ -189,7 +189,7 @@ function paint(audit,history=[],jobs=null){
     box.title="Scansione "+slot+" · "+status+(time?" · ora reale "+time:"")+
       (r&&status!=="Dati duplicati"?" · "+detail:"");
   }
-  paintToday(jobs);
+  paintToday(Array.isArray(jobs)?jobs.filter(j=>j&&j.active!==false):jobs);
   // Keep manual national searches separate from the two scheduled slots.
   const runs=(audit&&audit.date===todayKey()&&audit.runs)?audit.runs:{};
   const section=document.querySelector(".runAudit");
@@ -256,7 +256,7 @@ async function loadFreshState(){
   const states=new Map((Array.isArray(rows)?rows:[]).map(r=>[String(r.job_id),r]));
   cachedNewCount=payload.jobs.filter(j=>{
     // New is a persistent work queue, not a calendar-day counter.
-    if(!j.firstSeenAt)return false;
+    if(!j.firstSeenAt || j.active===false)return false;
     const r=states.get(String(j.id));
     if(r&&r.dismissed)return false;
     if(r&&r.applied)return false;
