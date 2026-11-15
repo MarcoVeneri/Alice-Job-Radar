@@ -109,7 +109,7 @@ function runLabel(a){
   const jobs=a.newJobs===1?"1 nuova":`${a.newJobs} nuove`;
   return `${a.explored}/${a.total} esplorate · ${a.queries} controlli · ${jobs}`;
 }
-function paint(audit){
+function paint(audit,history=[]){
   syncLabels();
   const now=nowMinutes();
   for(const slot of SLOTS){
@@ -126,8 +126,12 @@ function paint(audit){
     const r=validRun(audit,slot);
     if(!r){
       box.classList.add("partial");
-      el.textContent="Nessuna ricerca registrata";
-      el.title="La scansione prevista non ha pubblicato un esito; nessuna verifica è stata certificata.";
+      const previous=[audit,...(Array.isArray(history)?history:[])]
+        .filter(x=>x&&x.date<todayKey()&&x.runs&&x.runs[slot])
+        .sort((a,b)=>String(b.date).localeCompare(String(a.date)))[0];
+      el.textContent=previous?"Oggi da recuperare · ultima "+previous.date.split("-").reverse().slice(0,2).join("/"):"Oggi da recuperare";
+      el.title="Nessun esito pubblicato per la scansione odierna delle "+slot+
+        (previous?"; ultimo esito salvato il "+previous.date:"")+".";
       continue;
     }
     const a=auditNumbers(r);
@@ -207,9 +211,9 @@ async function loadFreshState(){
     try{rows=await stateResp.json()}catch(_){rows=[]}
   }
   const states=new Map((Array.isArray(rows)?rows:[]).map(r=>[String(r.job_id),r]));
-  const today=todayKey();
   cachedNewCount=payload.jobs.filter(j=>{
-    if(String(j.firstSeenAt||"").slice(0,10)!==today)return false;
+    // New is a persistent work queue, not a calendar-day counter.
+    if(!j.firstSeenAt)return false;
     const r=states.get(String(j.id));
     if(r&&r.dismissed)return false;
     if(r&&r.applied)return false;
@@ -263,7 +267,7 @@ async function refreshAudit(){
     const r=await nativeFetch(url+sep+"auditfix="+Date.now(),{cache:"no-store"});
     if(!r.ok)return;
     const j=JSON.parse(await r.text());
-    paint(j.audit||null);
+    paint(j.audit||null,j.auditHistory||[]);
   }catch(_){ }
 }
 function retryMainLoad(){
