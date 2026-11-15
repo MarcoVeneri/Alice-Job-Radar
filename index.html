@@ -419,9 +419,9 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
   </section>
 
   <section class="stats">
-    <div class="stat" data-stat="Nuove">
+    <div class="stat" data-stat="Nuove" title="Tutte le offerte mai trovate ancora da valutare: non scadono a mezzanotte.">
       <div class="iconWrap">◫</div>
-      <div><div class="statLabel">Nuove</div><strong id="stNew">0</strong></div>
+      <div><div class="statLabel">Nuove offerte</div><strong id="stNew">0</strong></div>
     </div>
     <div class="stat" data-stat="Top">
       <div class="iconWrap">★</div>
@@ -610,8 +610,10 @@ function latestRun(){
  return runs[0]||null;
 }
 function isNew(j){
- if(!j.firstSeenAt)return false;
- return String(j.firstSeenAt).slice(0,10)===romeDateKey();
+ // Cumulative inbox: an imported job remains new across days/scans until
+ // the user marks it as applied or explicitly dismisses it.
+ // Do not infer 'read' from the scan's date: it made jobs disappear each midnight.
+ return !!j.firstSeenAt && !isApplied(j.id) && !isDismissed(j.id);
 }
 function counts(){
  const visible=DATA.filter(x=>!isDismissed(x.id));
