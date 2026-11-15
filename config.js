@@ -1,6 +1,6 @@
 window.ALICE_RADAR_CONFIG={
-  dataUrl:"./data/jobs.json?v=20261114-live640",
-  appVersion:"6.40",
+  dataUrl:"./data/jobs.json?v=20261115-cumulative641",
+  appVersion:"6.41",
   sync:{
     enabled:true,
     url:"https://nlhxjpartgvplythgzrz.supabase.co",
@@ -10,7 +10,7 @@ window.ALICE_RADAR_CONFIG={
 };
 (()=>{
   const s=document.createElement("script");
-  s.src="./audit-fix.js?v=20261114-national640";
+  s.src="./audit-fix.js?v=20261115-cumulative641";
   s.async=true;
   document.head.appendChild(s);
 })();
