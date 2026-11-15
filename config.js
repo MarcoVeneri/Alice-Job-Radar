@@ -1,6 +1,6 @@
 window.ALICE_RADAR_CONFIG={
-  dataUrl:"./data/jobs.json?v=20261115-smartonly643",
-  appVersion:"6.43",
+  dataUrl:"./data/jobs.json?v=20261115-smartonly644",
+  appVersion:"6.44",
   sync:{
     enabled:true,
     url:"https://nlhxjpartgvplythgzrz.supabase.co",
@@ -10,7 +10,7 @@ window.ALICE_RADAR_CONFIG={
 };
 (()=>{
   const s=document.createElement("script");
-  s.src="./audit-fix.js?v=20261115-smartonly643";
+  s.src="./audit-fix.js?v=20261115-smartonly644";
   s.async=true;
   document.head.appendChild(s);
 })();
