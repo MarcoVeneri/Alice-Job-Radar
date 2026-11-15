@@ -9,10 +9,10 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Alice Jobs">
-<link rel="manifest" href="./manifest.webmanifest?v=642">
-<link rel="apple-touch-icon" href="./icon.svg?v=642">
+<link rel="manifest" href="./manifest.webmanifest?v=643">
+<link rel="apple-touch-icon" href="./icon.svg?v=643">
 <title>Alice Job Radar</title>
-<script src="./config.js?v=642"></script>
+<script src="./config.js?v=643"></script>
 <style>
 :root{
   --bg:#f5f6fb;
@@ -629,14 +629,14 @@ function isNew(j){
  return !!j.firstSeenAt && !isApplied(j.id) && !isDismissed(j.id);
 }
 function counts(){
- const visible=DATA.filter(x=>(x.active!==false || isSaved(x.id) || isApplied(x.id))&&!isDismissed(x.id));
+ const visible=DATA.filter(x=>x.active!==false&&!isDismissed(x.id));
  ui.stNew.textContent=visible.filter(isNew).length;
  ui.stHot.textContent=visible.filter(x=>x.score>=9).length;
  ui.stApplied.textContent=visible.filter(x=>isApplied(x.id)).length;
 }
 function normalizeSearch(v){return String(v||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim()}
 function match(j){
-  if(j.active===false && !isSaved(j.id) && !isApplied(j.id))return false;
+  if(j.active===false && !(savedOnly && (isSaved(j.id)||isApplied(j.id))) && !(statFilter==="Candidata" && isApplied(j.id)))return false;
   if(isDismissed(j.id))return false;
  const q=normalizeSearch(ui.q.value);
  if(q){
@@ -800,7 +800,7 @@ function renderAudit(audit){
   if(moment)moment.textContent=stamp?((label==="In corso"?"Avviata":"Eseguita")+" alle "+stamp):"";
   el.textContent=detail;
  }
- const ids=new Set(DATA.filter(j=>j&&j.id!=null&&j.firstSeenAt&&!Number.isNaN(Date.parse(j.firstSeenAt))&&romeDateKey(new Date(j.firstSeenAt))===today).map(j=>String(j.id)));
+ const ids=new Set(DATA.filter(j=>j&&j.active!==false&&j.id!=null&&j.firstSeenAt&&!Number.isNaN(Date.parse(j.firstSeenAt))&&romeDateKey(new Date(j.firstSeenAt))===today).map(j=>String(j.id)));
  const el=document.getElementById("runToday"),n=ids.size;
  if(el)el.textContent=n+" "+(n===1?"offerta distinta aggiunta oggi":"offerte distinte aggiunte oggi")+" · senza annunci duplicati";
 }
@@ -927,11 +927,11 @@ setInterval(watchDayChange,15000);
 setInterval(()=>{if(document.visibilityState==="visible")load()},5*60*1000);
 })();
 </script>
-<script id="alice-sw-642">
+<script id="alice-sw-643">
 if('serviceWorker' in navigator){
   window.addEventListener('load',async()=>{
     try{
-      const r=await navigator.serviceWorker.register('./sw.js?v=642',{updateViaCache:'none'});
+      const r=await navigator.serviceWorker.register('./sw.js?v=643',{updateViaCache:'none'});
       await r.update();
     }catch(e){}
   });
