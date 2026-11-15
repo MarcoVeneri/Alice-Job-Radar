@@ -196,11 +196,19 @@ def mapped_job(source, kind, raw, today, now):
             "score": score}
 
 
-def choose_slot(rome, scheduled):
-    """Accept the planned scan and its optional 16:05/10:05 retry."""
-    if not scheduled:
-        return "automated_fallback"
+def choose_slot(rome, scheduled, trigger=None):
+    """Scheduled scans and a same-day manual recovery of a missed 09:30/15:30 run."""
     mins = rome.hour * 60 + rome.minute
+    if not scheduled:
+        # A repository push triggers this backup workflow. A user-requested
+        # morning/afternoon recovery is recorded in the real visible slot,
+        # rather than silently disappearing under 'automated_fallback'.
+        if trigger in ("push", "workflow_dispatch"):
+            if 570 <= mins < 750:
+                return "09:30"
+            if 930 <= mins < 1080:
+                return "15:30"
+        return "automated_fallback"
     if 570 <= mins <= 624:
         return "09:30"
     if 930 <= mins <= 984:
@@ -218,6 +226,9 @@ def self_test():
         assert choose_slot(date.replace(hour=16,minute=5), True) == "15:30"
         assert choose_slot(date.replace(hour=14,minute=30), True) is None
         assert choose_slot(date.replace(hour=16,minute=30), True) is None
+        assert choose_slot(date.replace(hour=10,minute=40), False, "push") == "09:30"
+        assert choose_slot(date.replace(hour=15,minute=55), False, "push") == "15:30"
+        assert choose_slot(date.replace(hour=10,minute=40), False, "schedule") == "automated_fallback"
     assert len(REGIONS)==20 and len(REGIONAL_ROLES)==5
     print("National scan schedule and 20-region self-test: OK")
 
@@ -226,7 +237,7 @@ def main():
     today = rome.date().isoformat()
     now = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     # Summer/winter UTC schedules have redundant entries; use local Rome time.
-    slot = choose_slot(rome, os.environ.get("GITHUB_EVENT_NAME") == "schedule")
+    slot = choose_slot(rome, os.environ.get("GITHUB_EVENT_NAME") == "schedule", os.environ.get("GITHUB_EVENT_NAME"))
     if slot is None:
         print(f"Skipping redundant UTC schedule at {rome.isoformat()}")
         return
