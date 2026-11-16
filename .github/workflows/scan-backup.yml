@@ -5,6 +5,8 @@ on:
     - cron: '30 7,8,13,14 * * *'
     # Recovery check at 10:05 / 16:05 Rome; skip when primary scan succeeded.
     - cron: '5 8,9,14,15 * * *'
+    # Watchdog: recover a missing/failed slot despite scheduler delays.
+    - cron: '17 9-21 * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -56,8 +58,13 @@ jobs:
           print("Frontend scripts syntax OK")
           PY
       - name: Run national 20-region scan and public job feeds
+        timeout-minutes: 7
         run: python scripts/scan_backup.py
+      - name: Record interrupted scan honestly
+        if: always()
+        run: python scripts/scan_backup.py --record-failure
       - name: Commit changed jobs only
+        if: always()
         shell: bash
         run: |
           git config user.name "github-actions[bot]"

@@ -171,10 +171,8 @@ def mapped_job(source, kind, raw, today, now):
         remote = True
     if not (title and company and url.startswith("https://") and ROLE.search(title)):
         return None
-    if remote:
-        if place and not LOC.search(place):
-            return None
-    elif not LOC.search(place):
+    # Fail closed: regional presence and ambiguous geographic restrictions need manual verification.
+    if not remote or not re.fullmatch(r"(?:italy|italia|europe|european union|eu|emea|worldwide|anywhere|global)", place.strip(), re.I):
         return None
     parsed = urllib.parse.urlparse(url)
     if parsed.path.strip("/") in ("", "jobs", "careers", "remote-jobs"):
@@ -197,40 +195,39 @@ def mapped_job(source, kind, raw, today, now):
 
 
 def choose_slot(rome, scheduled, trigger=None):
-    """Scheduled scans and a same-day manual recovery of a missed 09:30/15:30 run."""
+    """Recover the latest due local slot even when the scheduler is hours late."""
     mins = rome.hour * 60 + rome.minute
-    if not scheduled:
-        # A repository push triggers this backup workflow. A user-requested
-        # morning/afternoon recovery is recorded in the real visible slot,
-        # rather than silently disappearing under 'automated_fallback'.
-        if trigger in ("push", "workflow_dispatch"):
-            if 570 <= mins < 750:
-                return "09:30"
-            if 930 <= mins < 1080:
-                return "15:30"
-        return "automated_fallback"
-    if 570 <= mins <= 624:
-        return "09:30"
-    if 930 <= mins <= 984:
-        return "15:30"
-    return None
+    if scheduled or trigger in ("push", "workflow_dispatch"):
+        if mins >= 930:
+            return "15:30"
+        if mins >= 570:
+            return "09:30"
+        return None
+    return "automated_fallback"
+
 
 def self_test():
-    from datetime import datetime
-    winter = datetime(2026, 11, 14, tzinfo=ROME)
-    summer = datetime(2026, 7, 14, tzinfo=ROME)
-    for date in (winter, summer):
-        assert choose_slot(date.replace(hour=9,minute=30), True) == "09:30"
-        assert choose_slot(date.replace(hour=10,minute=5), True) == "09:30"
-        assert choose_slot(date.replace(hour=15,minute=30), True) == "15:30"
-        assert choose_slot(date.replace(hour=16,minute=5), True) == "15:30"
-        assert choose_slot(date.replace(hour=14,minute=30), True) is None
-        assert choose_slot(date.replace(hour=16,minute=30), True) is None
-        assert choose_slot(date.replace(hour=10,minute=40), False, "push") == "09:30"
-        assert choose_slot(date.replace(hour=15,minute=55), False, "push") == "15:30"
-        assert choose_slot(date.replace(hour=10,minute=40), False, "schedule") == "automated_fallback"
+    for month in (1, 7, 11):
+        date = datetime(2026, month, 16, tzinfo=ROME)
+        for hour, minute, expected in [(9,29,None),(9,30,"09:30"),
+                (10,40,"09:30"),(13,15,"09:30"),(15,29,"09:30"),
+                (15,30,"15:30"),(16,40,"15:30"),(23,59,"15:30")]:
+            for trigger in ("schedule", "push", "workflow_dispatch"):
+                assert choose_slot(date.replace(hour=hour,minute=minute),
+                                   trigger == "schedule",trigger) == expected
     assert len(REGIONS)==20 and len(REGIONAL_ROLES)==5
-    print("National scan schedule and 20-region self-test: OK")
+    print("Delayed scheduler recovery, winter/summer slots: OK")
+
+
+def record_failure():
+    data = json.loads(BASE.read_text(encoding="utf-8"))
+    audit = data.get("audit", {})
+    for run in audit.get("runs", {}).values():
+        if run.get("status") == "running" and run.get("engine") == "github_backup":
+            run.update(status="failed", completedAt=datetime.now(timezone.utc).isoformat(),
+                       note="Recupero interrotto prima della pubblicazione dei risultati. Controlli non confermati.")
+    BASE.write_text(json.dumps(data, indent=2, ensure_ascii=False)+"\n",encoding="utf-8")
+
 
 def main():
     rome = datetime.now(ROME)
@@ -265,10 +262,18 @@ def main():
         required_sources_total = len(json.loads(catalog_file.read_text(encoding="utf-8")).get("sources", [])) or 238
     except (OSError, ValueError, TypeError):
         required_sources_total = 238
+    scheduled_for = rome.replace(hour=int(slot[:2]), minute=30, second=0, microsecond=0).isoformat() if slot in ("09:30", "15:30") else now
+    previous_slot = data["audit"].setdefault("runs", {}).get(slot)
+    data["audit"].setdefault("runs", {})[slot] = {
+        "status":"running", "engine":"github_backup", "scheduledFor":scheduled_for,
+        "startedAt":now, "newJobs":0, "queriesRun":0,
+        "note":"Recupero automatico avviato; risultati ancora da verificare."}
+    BASE.write_text(json.dumps(data, indent=2, ensure_ascii=False)+"\n",encoding="utf-8")
     rows, logs = feed_rows()
     regional_coverage, regional_logs, candidate_postings = region_discovery()
-    verified_regional = verify_many(candidate_postings,today,now)
-    for item in verified_regional:
+    checked_regional = verify_many(candidate_postings,today,now)
+    verified_regional = [j for j in checked_regional if j.get("remote") is True and j.get("workMode") != "Da verificare"]
+    for item in checked_regional:
         region = item["region"]
         regional_coverage[region]["detailPagesVerified"] = (
             regional_coverage[region].get("detailPagesVerified",0)+1)
@@ -308,7 +313,7 @@ def main():
         links.add(link)
         known.add(semantic(candidate))
     data["jobs"] = old
-    run = {"scheduledFor": now, "startedAt": now, "completedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+    run = {"scheduledFor": scheduled_for, "engine":"github_backup", "startedAt": now, "completedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
            "status": "partial" if (successes or found_accessible) else "failed", "coverageMode": "national_20_region_discovery_plus_verified_public_feeds",
            "requiredSourcesTotal": required_sources_total, "requiredSourcesChecked": len(successes) + int(found_accessible),
            "sourcesExplored": len(successes) + int(any(x["indexPagesAccessible"] for x in regional_coverage.values())), "sourcesChecked": [x["source"] for x in successes] + (["Jobsora regional indexed listings"] if any(x["indexPagesAccessible"] for x in regional_coverage.values()) else []),
@@ -317,14 +322,15 @@ def main():
            "sourcesUnavailable": [x["source"] for x in logs if not x["outcome"].startswith("success:")],
            "queriesRun": len(logs) + len(regional_logs) + len(candidate_postings),
            "specificJobPagesOpened":len(candidate_postings),
-           "specificJobPagesVerified":len(verified_regional),
+           "specificJobPagesVerified":len(checked_regional),
+           "excludedUnconfirmedSmartWorking":len(checked_regional)-len(verified_regional),
            "newRegionalJobs":regional_added,
            "newJobs":len(added),
            "regionsTarget": 20, "regionsAttempted": [x[0] for x in REGIONS],
            "regionCoverage": regional_coverage,
            "activeJobs": sum(j.get("active", True) is not False for j in old),
            "searchLog": logs + regional_logs, "note": "Nationwide 20-region indexed search attempts plus public feeds; regional listing searches do NOT verify individual vacancies. Partial coverage, not a full scan of all providers."}
-    existing = data["audit"].setdefault("runs", {}).get(slot)
+    existing = previous_slot
     # Keep a more thorough scan published by the ChatGPT automation: this
     # 5-provider fallback must not erase its research on the same slot.
     if slot in ("09:30", "15:30") and isinstance(existing, dict) and existing.get("status") in ("partial", "complete"):
@@ -333,6 +339,7 @@ def main():
         if existing.get("status") == "complete" or (
             isinstance(old_source_count, (int, float)) and old_source_count > new_source_count
         ):
+            data["audit"]["runs"][slot] = existing
             data["audit"]["runs"]["automated_fallback"] = run
             print(f"Preserved stronger {slot} scan; recorded feed backup separately")
         else:
@@ -353,5 +360,7 @@ def main():
 if __name__ == "__main__":
     if "--self-test" in os.sys.argv:
         self_test()
+    elif "--record-failure" in os.sys.argv:
+        record_failure()
     else:
         main()
