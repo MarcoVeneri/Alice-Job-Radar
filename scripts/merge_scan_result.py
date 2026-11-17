@@ -9,7 +9,7 @@ def strength(run):
     if not isinstance(run, dict):
         return (-1, -1, -1, -1)
     status = run.get("status", "")
-    ok = {"complete": 3, "partial": 2, "running": 1, "failed": 0}.get(status, 0)
+    ok = {"complete": 3, "partial": 2, "running": 0, "failed": 1}.get(status, 0)
     def number(key):
         try: return int(run.get(key) or 0)
         except (ValueError, TypeError): return 0
@@ -35,7 +35,12 @@ def combine(latest, scanned):
     la = latest.get("audit")
     sa = scanned.get("audit")
     if isinstance(sa, dict) and sa.get("date"):
-        if not isinstance(la, dict) or la.get("date") != sa.get("date"):
+        if isinstance(la, dict) and str(la.get("date", "")) > sa["date"]:
+            history = list(out.get("auditHistory", []))
+            if not any(x.get("date") == sa["date"] for x in history if isinstance(x, dict)):
+                history.append(sa)
+            out["auditHistory"] = history
+        elif not isinstance(la, dict) or la.get("date") != sa.get("date"):
             history = list(out.get("auditHistory", []))
             if isinstance(la, dict) and la.get("date") and not any(
                 x.get("date") == la["date"] for x in history if isinstance(x, dict)

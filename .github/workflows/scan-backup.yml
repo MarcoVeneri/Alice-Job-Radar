@@ -1,17 +1,16 @@
 name: Alice Job Radar · Backup automatico
 on:
   schedule:
-    # Covers Italy winter/summer time; the Python script chooses the local 09:30/15:30 slot.
+    # Frequent recovery wakes; Python skips slots already covered.
+    # UTC range includes both Europe/Rome summer and winter schedules.
+    - cron: '7,22,37,52 7-21 * * *'
     - cron: '30 7,8,13,14 * * *'
-    # Recovery check at 10:05 / 16:05 Rome; skip when primary scan succeeded.
-    - cron: '5 8,9,14,15 * * *'
-    # Watchdog: recover a missing/failed slot despite scheduler delays.
-    - cron: '17 9-21 * * *'
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - 'scripts/scan_backup.py'
+      - 'scripts/publish_scan.sh'
       - 'scripts/merge_scan_result.py'
       - 'scripts/jobsora_extract.py'
       - '.github/workflows/scan-backup.yml'
@@ -26,7 +25,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
@@ -41,6 +40,7 @@ jobs:
           python scripts/merge_scan_result.py --self-test
           python scripts/jobsora_extract.py --self-test
           python scripts/scan_backup.py --self-test
+          python scripts/test_scan_recovery.py
           python -m json.tool data/jobs.json >/dev/null
           node --check config.js
           node --check sw.js
@@ -57,45 +57,16 @@ jobs:
                   subprocess.run(["node", "--check", str(path)], check=True)
           print("Frontend scripts syntax OK")
           PY
-      - name: Run national 20-region scan and public job feeds
-        timeout-minutes: 7
+      - name: Register due slots before network work
+        run: python scripts/scan_backup.py --prepare
+      - name: Publish start checkpoint
+        run: bash scripts/publish_scan.sh
+      - name: Recover every due slot with national search and public feeds
+        timeout-minutes: 14
         run: python scripts/scan_backup.py
       - name: Record interrupted scan honestly
         if: always()
         run: python scripts/scan_backup.py --record-failure
-      - name: Commit changed jobs only
+      - name: Publish final results preserving concurrent changes
         if: always()
-        shell: bash
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/jobs.json
-          if git diff --cached --quiet; then
-            echo "No data change - source endpoints unavailable."
-            exit 0
-          fi
-          git commit -m "Alice Radar national backup: verified 20-region search checkpoint"
-          if git push origin HEAD:main; then
-            echo "Scan published successfully on first attempt."
-            exit 0
-          fi
-          cp data/jobs.json /tmp/alice-scan-result.json
-          for attempt in 1 2 3; do
-            echo "Concurrent update: preserve latest saved jobs and reapply scan (attempt $attempt)."
-            git fetch origin main
-            git reset --hard origin/main
-            python scripts/merge_scan_result.py /tmp/alice-scan-result.json data/jobs.json
-            git add data/jobs.json
-            if git diff --cached --quiet; then
-              echo "Latest branch already contains this scan."
-              exit 0
-            fi
-            git commit -m "Alice Radar national backup: merge concurrent scan without dropping data"
-            if git push origin HEAD:main; then
-              echo "Concurrent scan successfully merged and published."
-              exit 0
-            fi
-            sleep 2
-          done
-          echo "ERROR: Failed to publish scan after three conflict-safe retries." >&2
-          exit 1
+        run: bash scripts/publish_scan.sh

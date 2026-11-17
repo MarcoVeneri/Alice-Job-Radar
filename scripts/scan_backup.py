@@ -206,6 +206,59 @@ def choose_slot(rome, scheduled, trigger=None):
     return "automated_fallback"
 
 
+def adequate(run):
+    if not isinstance(run, dict):
+        return False
+    coverage = run.get("regionCoverage", {})
+    return run.get("status") == "complete" or (
+        run.get("status") == "partial" and len(coverage) >= 20 and
+        sum(int(v.get("indexPagesAccessible", 0)) for v in coverage.values()
+            if isinstance(v, dict)) >= 90)
+
+
+def due_slots(rome, data):
+    audit = data.get("audit", {})
+    runs = audit.get("runs", {}) if audit.get("date") == rome.date().isoformat() else {}
+    return [slot for slot in ("09:30", "15:30")
+            if rome.hour * 60 + rome.minute >= int(slot[:2]) * 60 + 30
+            and not adequate(runs.get(slot))]
+
+
+def prepare():
+    """Persist start before network work; the workflow publishes this checkpoint."""
+    rome = datetime.now(ROME)
+    data = json.loads(BASE.read_text(encoding="utf-8"))
+    slots = due_slots(rome, data)
+    if not slots:
+        return
+    today = rome.date().isoformat()
+    previous = data.get("audit", {})
+    if previous.get("date") != today:
+        history = data.setdefault("auditHistory", [])
+        if previous.get("date") and not any(x.get("date") == previous["date"] for x in history):
+            history.append(previous)
+        data["audit"] = {"date": today, "runs": {}}
+    for slot in slots:
+        prior = data["audit"].setdefault("runs", {}).get(slot)
+        # Do not hide already published partial evidence during a retry.
+        if prior and prior.get("status") == "partial":
+            continue
+        data["audit"]["runs"][slot] = {
+            "status": "running", "engine": "github_backup",
+            "scheduledFor": rome.replace(hour=int(slot[:2]), minute=30, second=0, microsecond=0).isoformat(),
+            "startedAt": datetime.now(timezone.utc).isoformat(),
+            "queriesRun": 0, "newJobs": 0,
+            "note": "Scansione avviata; checkpoint pubblicato prima delle richieste alle fonti."}
+    BASE.write_text(json.dumps(data, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
+
+
+def drain():
+    # Snapshot both outstanding slots: a late afternoon start must also recover morning.
+    slots = due_slots(datetime.now(ROME), json.loads(BASE.read_text(encoding="utf-8")))
+    for slot in slots:
+        main(slot)
+
+
 def self_test():
     for month in (1, 7, 11):
         date = datetime(2026, month, 16, tzinfo=ROME)
@@ -229,12 +282,12 @@ def record_failure():
     BASE.write_text(json.dumps(data, indent=2, ensure_ascii=False)+"\n",encoding="utf-8")
 
 
-def main():
+def main(slot_override=None):
     rome = datetime.now(ROME)
     today = rome.date().isoformat()
     now = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     # Summer/winter UTC schedules have redundant entries; use local Rome time.
-    slot = choose_slot(rome, os.environ.get("GITHUB_EVENT_NAME") == "schedule", os.environ.get("GITHUB_EVENT_NAME"))
+    slot = slot_override or choose_slot(rome, os.environ.get("GITHUB_EVENT_NAME") == "schedule", os.environ.get("GITHUB_EVENT_NAME"))
     if slot is None:
         print(f"Skipping redundant UTC schedule at {rome.isoformat()}")
         return
@@ -362,5 +415,7 @@ if __name__ == "__main__":
         self_test()
     elif "--record-failure" in os.sys.argv:
         record_failure()
+    elif "--prepare" in os.sys.argv:
+        prepare()
     else:
-        main()
+        drain()
