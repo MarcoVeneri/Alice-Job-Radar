@@ -1,7 +1,7 @@
 name: Alice Job Radar · Backup automatico
 on:
   schedule:
-    # Recovery wake-ups every 10 minutes; Python scans only still-missing due slots.
+    # Recovery wake-ups every 10 minutes; Python scans only still-missing due slots.\n    # Validate current regression suite on every scanner change.
     # UTC range covers both CET and CEST, with exact-slot wake-ups as extra fallbacks.
     # GitHub scheduled runs are best-effort; later wake-ups recover skipped invocations.
     - cron: '7,17,27,37,47,57 7-21 * * *'
