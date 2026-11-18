@@ -55,32 +55,36 @@ def get_json(url):
         return json.loads(response.read(12_000_000).decode("utf-8"))
 
 
+def _fetch_feed(source):
+    name, url, kind = source
+    start = datetime.now(timezone.utc).isoformat()
+    try:
+        data = get_json(url)
+        entries = data.get("jobs", data.get("data", []))
+        if not isinstance(entries, list):
+            raise ValueError("Feed did not return a jobs list")
+        log = {"source": name, "method": "public_feed_api", "checkedAt": start,
+               "outcome": f"success: {len(entries)} raw postings", "evidenceUrls": [url]}
+        return log, [(name, kind, raw) for raw in entries if isinstance(raw, dict)]
+    except Exception as exc:
+        return {"source": name, "method": "public_feed_api", "checkedAt": start,
+                "outcome": "unavailable: " + str(exc)[:180],
+                "evidenceUrls": [url]}, []
+
+
 def feed_rows():
+    # Parallel independent sources: one slow feed must not block the entire scan.
     sources = [
-        ("Jobicy", "https://jobicy.com/api/jobs?count=200&geo=europe", "jobicy"),
-        ("Jobicy-anywhere", "https://jobicy.com/api/jobs?count=200&geo=anywhere", "jobicy"),
-        ("Arbeitnow", "https://www.arbeitnow.com/api/job-board-api?page=1", "arbeitnow"),
+        ("Jobicy-Europe", "https://jobicy.com/api/jobs?count=200&geo=europe", "jobicy"),
+        ("Jobicy-Anywhere", "https://jobicy.com/api/jobs?count=200&geo=anywhere", "jobicy"),
+        ("Arbeitnow-page1", "https://www.arbeitnow.com/api/job-board-api?page=1", "arbeitnow"),
+        ("Arbeitnow-page2", "https://www.arbeitnow.com/api/job-board-api?page=2", "arbeitnow"),
+        ("Arbeitnow-page3", "https://www.arbeitnow.com/api/job-board-api?page=3", "arbeitnow"),
         ("Remotive", "https://remotive.com/api/remote-jobs?limit=200", "remotive"),
     ]
-    logs, rows = [], []
-    for name, url, kind in sources:
-        start = datetime.now(timezone.utc).isoformat()
-        try:
-            data = get_json(url)
-            entries = data.get("jobs", data.get("data", []))
-            if not isinstance(entries, list):
-                raise ValueError("Feed did not return a jobs list")
-            logs.append({"source": name, "method": "public_feed_api", "checkedAt": start,
-                         "outcome": f"success: {len(entries)} raw postings",
-                         "evidenceUrls": [url]})
-            for raw in entries:
-                if isinstance(raw, dict):
-                    rows.append((name, kind, raw))
-        except Exception as exc:
-            logs.append({"source": name, "method": "public_feed_api", "checkedAt": start,
-                         "outcome": "unavailable: " + str(exc)[:180], "evidenceUrls": [url]})
-        time.sleep(0.4)
-    return rows, logs
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        results = list(pool.map(_fetch_feed, sources))
+    return [row for _, rows in results for row in rows], [log for log, _ in results]
 
 
 REGIONAL_ROLES = ("ufficio-gare", "back-office-commerciale", "pmo", "sales-operations", "project-coordinator")
@@ -211,9 +215,10 @@ def adequate(run):
         return False
     coverage = run.get("regionCoverage", {})
     return run.get("status") == "complete" or (
-        run.get("status") == "partial" and len(coverage) >= 20 and
-        sum(int(v.get("indexPagesAccessible", 0)) for v in coverage.values()
-            if isinstance(v, dict)) >= 90)
+        run.get("status") == "partial"
+        and len(coverage) >= 20
+        and int(run.get("requiredSourcesChecked") or 0) >= 1
+        and bool(run.get("completedAt")))
 
 
 def due_slots(rome, data):
@@ -303,11 +308,7 @@ def main(slot_override=None):
         prev = data["audit"].get("runs", {}).get(slot)
         if isinstance(prev, dict) and prev.get("status") in ("partial", "complete"):
             coverage = prev.get("regionCoverage")
-            if prev["status"] == "complete" or (
-                isinstance(coverage,dict) and len(coverage)>=20 and
-                sum(int(v.get("indexPagesAccessible",0)) for v in coverage.values()
-                    if isinstance(v,dict))>=90
-            ):
+            if adequate(prev):
                 print(f"Scheduled {slot} already completed an adequate region sweep; skipping redundant retry.")
                 return
     catalog_file = Path("data/source_catalog.json")
