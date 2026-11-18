@@ -19,8 +19,19 @@ class RecoveryTests(unittest.TestCase):
         self.assertEqual(due_slots(now, data), ['09:30'])
     def test_completed_recovery_is_idempotent(self):
         coverage = {str(i): {'indexPagesAccessible': 5} for i in range(20)}
-        data = {'audit': {'date': '2026-11-17', 'runs': {'09:30': {'status': 'partial', 'regionCoverage': coverage}}}}
+        data = {'audit': {'date': '2026-11-17', 'runs': {'09:30': {'status': 'partial', 'regionCoverage': coverage, 'requiredSourcesChecked': 3, 'completedAt': '2026-11-17T09:40:00Z'}}}}
         self.assertEqual(due_slots(datetime(2026,11,17,10,tzinfo=ROME), data), [])
+    def test_index_only_without_real_sources_is_retried(self):
+        coverage = {str(i): {'indexPagesAccessible': 5} for i in range(20)}
+        data = {'audit': {'date': '2026-11-17', 'runs': {
+            '09:30': {'status': 'partial', 'regionCoverage': coverage,
+                      'requiredSourcesChecked': 0, 'completedAt': '2026-11-17T09:40:00Z'}}}}
+        self.assertEqual(due_slots(datetime(2026,11,17,10,tzinfo=ROME), data), ['09:30'])
+    def test_partial_without_completed_at_is_retried(self):
+        data = {'audit': {'date': '2026-11-17', 'runs': {
+            '09:30': {'status': 'partial', 'regionCoverage': {'Toscana': {}},
+                      'requiredSourcesChecked': 2}}}}
+        self.assertEqual(due_slots(datetime(2026,11,17,10,tzinfo=ROME), data), ['09:30'])
     def test_terminal_failure_replaces_running(self):
         base = {'jobs': [{'id': 'saved', 'url': 'https://test/saved', 'saved': True}], 'audit': {'date': '2026-11-17', 'runs': {'09:30': {'status': 'running'}}}}
         scan = {'jobs': [], 'audit': {'date': '2026-11-17', 'runs': {'09:30': {'status': 'failed'}}}}
