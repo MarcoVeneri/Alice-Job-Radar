@@ -1,9 +1,10 @@
 name: Alice Job Radar · Backup automatico
 on:
   schedule:
-    # Frequent recovery wakes; Python skips slots already covered.
-    # UTC range includes both Europe/Rome summer and winter schedules.
-    - cron: '7,22,37,52 7-21 * * *'
+    # Recovery wake-ups every 10 minutes; Python scans only still-missing due slots.
+    # UTC range covers both CET and CEST, with exact-slot wake-ups as extra fallbacks.
+    # GitHub scheduled runs are best-effort; later wake-ups recover skipped invocations.
+    - cron: '7,17,27,37,47,57 7-21 * * *'
     - cron: '30 7,8,13,14 * * *'
   workflow_dispatch:
   push:
@@ -70,3 +71,29 @@ jobs:
       - name: Publish final results preserving concurrent changes
         if: always()
         run: bash scripts/publish_scan.sh
+      - name: Verify due-slot publication on remote main
+        if: always()
+        shell: bash
+        run: |
+          git fetch origin main
+          python - <<'PY'
+          import json, subprocess
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          data = json.loads(subprocess.check_output(
+              ["git", "show", "origin/main:data/jobs.json"], text=True))
+          rome = datetime.now(ZoneInfo("Europe/Rome"))
+          due = [s for s in ("09:30", "15:30")
+                 if rome.hour * 60 + rome.minute >= int(s[:2]) * 60 + 30]
+          audit = data.get("audit") or {}
+          runs = audit.get("runs") or {} if audit.get("date") == rome.date().isoformat() else {}
+          missing = [s for s in due if not isinstance(runs.get(s), dict)]
+          if missing:
+              raise SystemExit("Missing published scan slots: " + ", ".join(missing))
+          for slot in due:
+              print(f"Verified {slot} published status: {runs[slot].get('status')}; "
+                    f"newJobs: {runs[slot].get('newJobs', 0)}")
+          if not isinstance(data.get("jobs"), list):
+              raise SystemExit("Published job catalogue missing")
+          print("Publication verified; total job records:", len(data["jobs"]))
+          PY
