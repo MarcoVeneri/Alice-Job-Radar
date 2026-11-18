@@ -18517,6 +18517,15 @@
           }
         ],
         "note": "Nationwide 20-region indexed search attempts plus public feeds; regional listing searches do NOT verify individual vacancies. Partial coverage, not a full scan of all providers."
+      },
+      "15:30": {
+        "status": "running",
+        "engine": "github_backup",
+        "scheduledFor": "2026-11-18T15:30:00+01:00",
+        "startedAt": "2026-11-18T16:38:42.145184+00:00",
+        "queriesRun": 0,
+        "newJobs": 0,
+        "note": "Scansione avviata; checkpoint pubblicato prima delle richieste alle fonti."
       }
     }
   },
