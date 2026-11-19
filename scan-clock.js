@@ -24,17 +24,23 @@
     }
     const [slots, listings] = await cached;
     const result = {...payload};
-    const extras = [];
+    const directJobs = [];
     if (listings.status === "fulfilled" && listings.value.length) {
       const jobs = [...(payload.jobs || [])];
       const key = value => String(value || "").split(/[?#]/)[0].replace(/\/$/, "");
-      const ids = new Set(jobs.map(j => j.id));
+      const byId = new Map(jobs.map((j, i) => [j.id, i]));
       const urls = new Set(jobs.map(j => key(j.url)));
       for (const {job} of listings.value) {
-        if (ids.has(job.id) || urls.has(key(job.url))) continue;
+        if (byId.has(job.id)) {
+          const i = byId.get(job.id);
+          jobs[i] = {...jobs[i], ...job};
+          directJobs.push(job);
+          continue;
+        }
+        if (urls.has(key(job.url))) continue;
         jobs.push(job);
-        extras.push(job);
-        ids.add(job.id);
+        directJobs.push(job);
+        byId.set(job.id, jobs.length - 1);
         urls.add(key(job.url));
       }
       result.jobs = jobs;
@@ -43,13 +49,13 @@
       const runs = {...(payload.audit?.date === day ? payload.audit.runs : {})};
       for (const {slot,run} of slots.value) {
         const primary = runs[slot];
-        const newListings = extras.filter(j => j.date === day && j.firstSeenRun === slot).length;
+        const newListings = directJobs.filter(j => j.date === day && j.firstSeenRun === slot).length;
         if (run.status === "partial" && ["complete","partial"].includes(primary?.status) && primary.engine !== run.engine) {
           const sourcesChecked = [...new Set([...(primary.sourcesChecked || []), ...run.sourcesChecked])];
           runs[slot] = {...primary, sourcesChecked,
             sourcesExplored: Math.max(primary.sourcesExplored || 0, sourcesChecked.length),
             queriesRun: (primary.queriesRun || 0) + run.queriesRun,
-            newJobs: (primary.newJobs || 0) + newListings};
+            newJobs: (primary.newJobs || 0) + (listings.status === "fulfilled" ? newListings - (primary.directNewJobsIncluded || 0) : 0)};
           continue;
         }
         if (rank(run) > rank(runs[slot]) ||

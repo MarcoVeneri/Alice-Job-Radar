@@ -1,7 +1,7 @@
-const VERSION="646";
-const CACHE=`alice-job-radar-native-v${VERSION}-smartonly646`;
-const SHELL=["./scan-clock.js?v=1","./?ajr=646","./index.html?ajr=646","./config.js?v=646","./audit-fix.js?v=20261117-scan646","./manifest.webmanifest?v=646","./icon.svg?v=646"];
-function fresh(url){const u=new URL(url,self.registration.scope);u.searchParams.set("__ajr","smartonly646");u.searchParams.set("__t",Date.now().toString());return fetch(u.toString(),{cache:"no-store",credentials:"same-origin"})}
+const VERSION="647";
+const CACHE=`alice-job-radar-native-v${VERSION}-smartonly647`;
+const SHELL=["./scan-clock.js?v=2","./?ajr=647","./index.html?ajr=647","./config.js?v=647","./audit-fix.js?v=647","./manifest.webmanifest?v=647","./icon.svg?v=647"];
+function fresh(url){const u=new URL(url,self.registration.scope);u.searchParams.set("__ajr","smartonly647");u.searchParams.set("__t",Date.now().toString());return fetch(u.toString(),{cache:"no-store",credentials:"same-origin"})}
 async function mergedJobs(request){
  // The published jobs.json is authoritative. Recovery files are history only:
  // merging them here resurrected excluded, on-site vacancies.
@@ -16,7 +16,7 @@ self.addEventListener("fetch",e=>{
   e.respondWith((async()=>{try{const merged=await mergedJobs(e.request);if(merged.ok){const c=await caches.open(CACHE);c.put("./data/jobs.json",merged.clone()).catch(()=>{})}return merged}catch(_){return(await caches.match("./data/jobs.json"))||Response.error()}})());return;
  }
  if(e.request.mode==="navigate"){
-  e.respondWith((async()=>{try{const live=new URL(e.request.url);live.searchParams.set("ajr","642");live.searchParams.set("__t",Date.now().toString());const r=await fetch(live.toString(),{cache:"no-store",credentials:"same-origin"});if(r.ok){const c=await caches.open(CACHE);c.put("./index.html?ajr=646",r.clone()).catch(()=>{});return r}}catch(_){}return(await caches.match("./index.html?ajr=646"))||(await caches.match("./?ajr=646"))||Response.error()})());return;
+  e.respondWith((async()=>{try{const live=new URL(e.request.url);live.searchParams.set("ajr","647");live.searchParams.set("__t",Date.now().toString());const r=await fetch(live.toString(),{cache:"no-store",credentials:"same-origin"});if(r.ok){const c=await caches.open(CACHE);c.put("./index.html?ajr=647",r.clone()).catch(()=>{});return r}}catch(_){}return(await caches.match("./index.html?ajr=647"))||(await caches.match("./?ajr=647"))||Response.error()})());return;
  }
  if(u.origin===self.location.origin){e.respondWith((async()=>{try{return await fetch(e.request,{cache:"no-store"})}catch(_){return(await caches.match(e.request,{ignoreSearch:true}))||Response.error()}})())}
 });

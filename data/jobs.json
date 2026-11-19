@@ -17056,6 +17056,46 @@
       "verifiedAt": "2026-11-11T15:39:30+01:00",
       "verificationUrl": "https://www.adecco.com/it-it/cerca-lavoro/stage-ufficio-spedizioni-sesto-fiorentino-firenze/0301-4043",
       "postedAt": "Ottobre 2026"
+    },
+    {
+      "id": "gh-canonical-4122239",
+      "url": "https://job-boards.greenhouse.io/canonical/jobs/4122239",
+      "date": "2026-11-19",
+      "score": 8,
+      "title": "Senior Sales Operations Analyst",
+      "active": true,
+      "checks": [
+        "https://boards-api.greenhouse.io/v1/boards/canonical/jobs"
+      ],
+      "remote": true,
+      "source": "canonical",
+      "company": "Canonical",
+      "category": "Operations",
+      "location": "Home Based - Americas; Home based - EMEA",
+      "workMode": "Da remoto",
+      "verifiedAt": "2026-11-19T13:54:00.115355+00:00",
+      "firstSeenAt": "2026-11-19T13:54:00.115355+00:00",
+      "firstSeenRun": "09:30"
+    },
+    {
+      "id": "gh-canonical-5924435",
+      "url": "https://job-boards.greenhouse.io/canonical/jobs/5924435",
+      "date": "2026-11-19",
+      "score": 8,
+      "title": "Sales Operations Analyst",
+      "active": true,
+      "checks": [
+        "https://boards-api.greenhouse.io/v1/boards/canonical/jobs"
+      ],
+      "remote": true,
+      "source": "canonical",
+      "company": "Canonical",
+      "category": "Operations",
+      "location": "Home Based - Americas; Home based - EMEA",
+      "workMode": "Da remoto",
+      "verifiedAt": "2026-11-19T13:54:00.115355+00:00",
+      "firstSeenAt": "2026-11-19T13:54:00.115355+00:00",
+      "firstSeenRun": "09:30"
     }
   ],
   "audit": {
@@ -17096,7 +17136,7 @@
         "specificJobPagesVerified": 109,
         "excludedUnconfirmedSmartWorking": 109,
         "newRegionalJobs": 0,
-        "newJobs": 0,
+        "newJobs": 2,
         "regionsTarget": 20,
         "regionsAttempted": [
           "Valle d'Aosta",
@@ -18538,7 +18578,8 @@
             ]
           }
         ],
-        "note": "Nationwide 20-region indexed search attempts plus public feeds; regional listing searches do NOT verify individual vacancies. Partial coverage, not a full scan of all providers."
+        "note": "Nationwide 20-region indexed search attempts plus public feeds; regional listing searches do NOT verify individual vacancies. Partial coverage, not a full scan of all providers.",
+        "directNewJobsIncluded": 2
       }
     }
   },

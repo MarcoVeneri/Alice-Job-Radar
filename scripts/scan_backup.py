@@ -262,6 +262,12 @@ def drain():
     slots = due_slots(datetime.now(ROME), json.loads(BASE.read_text(encoding="utf-8")))
     for slot in slots:
         main(slot)
+    # Preserve the national results if the independent source is temporarily offline.
+    from publish_direct_jobs import main as publish_direct_jobs
+    try:
+        publish_direct_jobs()
+    except (OSError, ValueError) as exc:
+        print(f"Direct-board mirror deferred to the next backup: {exc}")
 
 
 def self_test():

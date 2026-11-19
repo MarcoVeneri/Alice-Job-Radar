@@ -9,11 +9,12 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Alice Jobs">
-<link rel="manifest" href="./manifest.webmanifest?v=644">
-<link rel="apple-touch-icon" href="./icon.svg?v=644">
+<link rel="manifest" href="./manifest.webmanifest?v=647">
+<link rel="apple-touch-icon" href="./icon.svg?v=647">
 <title>Alice Job Radar</title>
-<script src="./scan-clock.js?v=1"></script>
-<script src="./config.js?v=646"></script>
+<script src="./scan-clock.js?v=2"></script>
+<script src="./config.js?v=647"></script>
+<script src="./audit-fix.js?v=647"></script>
 <style>
 :root{
   --bg:#f5f6fb;
@@ -385,7 +386,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 .nationalPulse button{border:0;border-radius:15px;background:var(--accent);color:white;font-size:12px;font-weight:800;padding:12px 16px;cursor:pointer;flex-shrink:0}
 @media(max-width:480px){.nationalPulse{flex-direction:column;align-items:stretch}.nationalPulse button{width:100%}}
 
-/* v6.42: real-time result and distinct audit slots */
+/* v6.47: real-time result and distinct audit slots */
 .runChip{min-height:123px;justify-content:flex-start}
 .runChip .runLine{width:100%;display:flex;justify-content:space-between;align-items:center;gap:7px}
 .runChip .runLine strong{font-size:15px;flex-shrink:0}
@@ -397,11 +398,11 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 @media(prefers-color-scheme:dark){.runChip.ok .runState{color:#6ed5a6}.runChip.partial .runState{color:#f2ba6a}.runChip.failed .runState{color:#ff8d8d}}
 @media(max-width:390px){.runChip{padding:11px 10px}.runChip .runLine strong{font-size:14px}.runChip .runState{font-size:10px}}
 </style>
-<script id="alice-build-642">
+<script id="alice-build-647">
 (function(){
   try{
     const u=new URL(location.href);
-    if(u.searchParams.get('ajr')!=='642'){u.searchParams.set('ajr','642');location.replace(u.toString());return;}
+    if(u.searchParams.get('ajr')!=='647'){u.searchParams.set('ajr','647');location.replace(u.toString());return;}
   }catch(e){}
 })();
 </script>
@@ -435,7 +436,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
   <section class="stats">
     <div class="stat" data-stat="Nuove" title="Tutte le offerte mai trovate ancora da valutare: non scadono a mezzanotte.">
       <div class="iconWrap">◫</div>
-      <div><div class="statLabel">Nuove offerte</div><strong id="stNew">0</strong></div>
+      <div><div class="statLabel">Nuove offerte</div><strong id="stNew">…</strong></div>
     </div>
     <div class="stat" data-stat="Top">
       <div class="iconWrap">★</div>
@@ -460,13 +461,13 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </nav>
 
-  <div class="footer">Alice Job Radar · PWA v6.42 · aggiornamento automatico 09:30 / 15:30</div>
+  <div class="footer">Alice Job Radar · PWA v6.47 · aggiornamento automatico 09:30 / 15:30</div>
 </main>
 
 <script>
 (()=>{
 "use strict";
-const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.42",sync:{enabled:false}};
+const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.47",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
 let DATA=[],REMOTE_ROWS=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
@@ -806,7 +807,8 @@ function renderAudit(audit){
  const el=document.getElementById("runToday"),n=ids.size;
  if(el)el.textContent=n+" "+(n===1?"offerta distinta aggiunta oggi":"offerte distinte aggiunte oggi")+" · senza annunci duplicati";
 }
-async function load(){ ui.notice.classList.remove('show');
+let loading=false;
+async function load(){ if(loading)return;loading=true;ui.notice.classList.remove('show');
  if(ui.refreshBtn){ui.refreshBtn.disabled=true;ui.refreshBtn.classList.add("spinning")}
  try{
    const sep=CFG.dataUrl.includes('?')?'&':'?';
@@ -816,11 +818,17 @@ async function load(){ ui.notice.classList.remove('show');
    await syncCycle();
    mergePersistedTrackedJobs();
    renderAudit(AUDIT);
+   window.paintAliceAudit?.(AUDIT,j.auditHistory||[],DATA);
    if(ageHours(j.generatedAt)>36){ui.notice.textContent='La ricerca non risulta aggiornata nelle ultime 36 ore.';ui.notice.classList.add('show')}
    render();
  }catch(e){
+   if(!DATA.length){
+     const local=await window.mergeAliceClock({});
+     if(local.jobs?.length){DATA=local.jobs;AUDIT=local.audit;await syncCycle();mergePersistedTrackedJobs();renderAudit(AUDIT);window.paintAliceAudit?.(AUDIT,[],DATA);render()}
+   }
    ui.notice.textContent='Non riesco a leggere i dati della ricerca. Riprova con ↻.';ui.notice.classList.add('show');
  }finally{
+   loading=false;
    if(ui.refreshBtn){ui.refreshBtn.disabled=false;ui.refreshBtn.classList.remove("spinning")}
  }
 }
@@ -926,14 +934,14 @@ document.addEventListener("visibilitychange",()=>{
 positionEncourage();
 Promise.resolve(load()).then(positionEncourage);
 setInterval(watchDayChange,15000);
-setInterval(()=>{if(document.visibilityState==="visible")load()},5*60*1000);
+setInterval(()=>{if(document.visibilityState==="visible")load()},60*1000);
 })();
 </script>
 <script id="alice-sw-644">
 if('serviceWorker' in navigator){
   window.addEventListener('load',async()=>{
     try{
-      const r=await navigator.serviceWorker.register('./sw.js?v=644',{updateViaCache:'none'});
+      const r=await navigator.serviceWorker.register('./sw.js?v=647',{updateViaCache:'none'});
       await r.update();
     }catch(e){}
   });

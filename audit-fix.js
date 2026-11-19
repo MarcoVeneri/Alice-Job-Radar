@@ -3,7 +3,7 @@
 const TZ="Europe/Rome";
 const SLOTS=["09:30","15:30"];
 const nativeFetch=window.fetch.bind(window);
-let cachedNewCount=null;
+
 
 function str(v){return v===null||v===undefined?"":String(v)}
 function finiteNumber(v,fallback=0){const n=Number(v);return Number.isFinite(n)?n:fallback}
@@ -116,7 +116,7 @@ function syncLabels(){
   if(morning)morning.textContent="09:30";
   if(afternoon)afternoon.textContent="15:30";
   const footer=document.querySelector(".footer");
-  if(footer)footer.textContent="Alice Job Radar · PWA v6.42 · aggiornamento automatico 09:30 / 15:30";
+  if(footer)footer.textContent="Alice Job Radar · PWA v6.47 · aggiornamento automatico 09:30 / 15:30";
 }
 function runLabel(a){
   const jobs=a.newJobs===1?"1 nuova":a.newJobs+" nuove";
@@ -230,138 +230,5 @@ function paint(audit,history=[],jobs=null){
   );
 }
 
-function syncEndpoint(){
-  const cfg=window.ALICE_RADAR_CONFIG||{};
-  const sync=cfg.sync||{};
-  if(!sync.enabled||!sync.url||!sync.publishableKey)return null;
-  const table=String(sync.table||"job_state").replace(/[^a-zA-Z0-9_]/g,"");
-  const base=String(sync.url).replace(/\/$/,"");
-  return {
-    url:`${base}/rest/v1/${table}?select=job_id,applied,dismissed`,
-    headers:{"apikey":sync.publishableKey,"x-client-info":"alice-job-radar/new-count-hotfix"}
-  };
-}
-async function loadFreshState(){
-  const cfg=window.ALICE_RADAR_CONFIG||{};
-  const dataUrl=cfg.dataUrl||"./data/jobs.json";
-  const sep=dataUrl.includes("?")?"&":"?";
-  const dataReq=nativeFetch(dataUrl+sep+"newcount="+Date.now(),{cache:"no-store"});
-  const endpoint=syncEndpoint();
-  const stateReq=endpoint?nativeFetch(endpoint.url,{headers:endpoint.headers,cache:"no-store"}):Promise.resolve(null);
-  const [dataResp,stateResp]=await Promise.all([dataReq,stateReq]);
-  if(!dataResp.ok)return;
-  const payload=sanitizePayload(await window.mergeAliceClock(JSON.parse(await dataResp.text())));
-  let rows=[];
-  if(stateResp&&stateResp.ok){
-    try{rows=await stateResp.json()}catch(_){rows=[]}
-  }
-  const states=new Map((Array.isArray(rows)?rows:[]).map(r=>[String(r.job_id),r]));
-  cachedNewCount=payload.jobs.filter(j=>{
-    // New is a persistent work queue, not a calendar-day counter.
-    if(!j.firstSeenAt || j.active===false)return false;
-    const r=states.get(String(j.id));
-    if(r&&r.dismissed)return false;
-    if(r&&r.applied)return false;
-    return true;
-  }).length;
-  paintNewSemantics();
-}
-function paintNewSemantics(){
-  const st=document.getElementById("stNew");
-  if(st&&cachedNewCount!==null)st.textContent=String(cachedNewCount);
-
-  const activeNew=!!document.querySelector('.stat[data-stat="Nuove"].active');
-  const jobs=document.getElementById("jobs");
-  if(!jobs)return;
-
-  jobs.querySelectorAll("article.card").forEach(card=>{
-    const applied=card.classList.contains("alreadyApplied");
-    if(applied){
-      card.classList.remove("isNew");
-      card.querySelector(".badge.new")?.remove();
-    }
-    card.style.display=(activeNew&&applied)?"none":"";
-  });
-
-  const oldEmpty=jobs.querySelector('[data-new-hotfix-empty="1"]');
-  const visibleCards=[...jobs.querySelectorAll("article.card")].filter(x=>x.style.display!=="none");
-  if(activeNew&&visibleCards.length===0&&!jobs.querySelector(".empty")){
-    if(!oldEmpty)jobs.insertAdjacentHTML("beforeend",'<div class="empty" data-new-hotfix-empty="1">Nessuna nuova offerta da valutare.</div>');
-  }else if(oldEmpty){
-    oldEmpty.remove();
-  }
-}
-function optimisticAppliedClick(e){
-  const btn=e.target.closest?.("[data-applied]");
-  if(!btn)return;
-  const card=btn.closest("article.card");
-  const st=document.getElementById("stNew");
-  if(!card||!st||!card.classList.contains("isNew"))return;
-  const n=Number(st.textContent);
-  if(!Number.isFinite(n))return;
-  const wasApplied=card.classList.contains("alreadyApplied");
-  const next=Math.max(0,n+(wasApplied?1:-1));
-  st.textContent=String(next);
-  cachedNewCount=next;
-}
-async function refreshAudit(){
-  try{
-    const cfg=window.ALICE_RADAR_CONFIG||{};
-    const url=cfg.dataUrl||"./data/jobs.json";
-    const sep=url.includes("?")?"&":"?";
-    const r=await nativeFetch(url+sep+"auditfix="+Date.now(),{cache:"no-store"});
-    if(!r.ok)throw new Error("HTTP "+r.status);
-    const j=await window.mergeAliceClock(JSON.parse(await r.text()));
-    paint(j.audit||null,j.auditHistory||[],j.jobs||[]);
-  }catch(_){
-    const fallback=await window.mergeAliceClock({});
-    if(fallback.audit)paint(fallback.audit);
-  }
-}
-function retryMainLoad(){
-  const btn=document.getElementById("refreshBtn");
-  if(btn&&!btn.disabled){try{btn.click()}catch(_){}}
-}
-function start(){
-  syncLabels();
-  refreshAudit();
-  loadFreshState();
-  setTimeout(refreshAudit,500);
-  setTimeout(retryMainLoad,700);
-  setTimeout(loadFreshState,1100);
-  setTimeout(refreshAudit,1600);
-
-  const jobs=document.getElementById("jobs");
-  if(jobs){
-    const obs=new MutationObserver(()=>queueMicrotask(paintNewSemantics));
-    obs.observe(jobs,{childList:true,subtree:true});
-  }
-
-  document.addEventListener("click",e=>{
-    optimisticAppliedClick(e);
-    if(e.target.closest?.("[data-applied]")){
-      setTimeout(loadFreshState,350);
-      setTimeout(loadFreshState,1200);
-    }else if(e.target.closest?.(".stat,.tab,#navHome,#navSaved,#navSearch")){
-      setTimeout(paintNewSemantics,40);
-    }
-  },true);
-
-  document.getElementById("refreshBtn")?.addEventListener("click",()=>{
-    setTimeout(refreshAudit,450);
-    setTimeout(loadFreshState,650);
-  });
-  document.addEventListener("visibilitychange",()=>{
-    if(document.visibilityState==="visible"){
-      refreshAudit();
-      loadFreshState();
-      setTimeout(retryMainLoad,250);
-    }
-  });
-  setInterval(()=>{
-    refreshAudit();
-    loadFreshState();
-  },60000);
-}
-if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",start,{once:true});else start();
+window.paintAliceAudit = paint;
 })();
