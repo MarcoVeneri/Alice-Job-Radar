@@ -160,7 +160,9 @@ function paint(audit,history=[],jobs=null){
       }else{
         const a=auditNumbers(r);
         time=actualTime(r.completedAt||r.startedAt||r.scheduledFor);
-        if(r.status==="failed"){
+        if(r.status==="queued"){
+          status="In attesa di avvio";time="";detail="Scansione registrata";box.classList.add("partial");
+        }else if(r.status==="failed"){
           status="Fallita";
           detail="Risultati non confermati";
           box.classList.add("failed");
@@ -309,7 +311,7 @@ async function refreshAudit(){
     const sep=url.includes("?")?"&":"?";
     const r=await nativeFetch(url+sep+"auditfix="+Date.now(),{cache:"no-store"});
     if(!r.ok)return;
-    const j=JSON.parse(await r.text());
+    const j=await window.mergeAliceClock(JSON.parse(await r.text()));
     paint(j.audit||null,j.auditHistory||[],j.jobs||[]);
   }catch(_){ }
 }

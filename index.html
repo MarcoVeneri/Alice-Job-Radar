@@ -12,7 +12,8 @@
 <link rel="manifest" href="./manifest.webmanifest?v=644">
 <link rel="apple-touch-icon" href="./icon.svg?v=644">
 <title>Alice Job Radar</title>
-<script src="./config.js?v=644"></script>
+<script src="./scan-clock.js?v=1"></script>
+<script src="./config.js?v=646"></script>
 <style>
 :root{
   --bg:#f5f6fb;
@@ -779,18 +780,19 @@ function renderAudit(audit){
   const state=box.querySelector(".runState"),moment=box.querySelector(".runMoment");
   box.classList.remove("ok","partial","failed");
   const r=runs[slot]||null;
-  const date=r&&r.startedAt?new Date(r.startedAt):null;
+  const date=r?new Date(r.startedAt||r.scheduledFor):null;
   const valid=!!(date&&!Number.isNaN(date.getTime())&&romeDateKey(date)===today);
   let label="In programma",detail="Scansione prevista per le "+slot,stamp="";
   const morning=runs["09:30"];
-  const copied=slot==="15:30"&&morning&&r&&r.startedAt===morning.startedAt&&r.completedAt===morning.completedAt;
+  const copied=slot==="15:30"&&morning?.startedAt&&r?.startedAt&&r.startedAt===morning.startedAt&&r.completedAt===morning.completedAt;
   if(clock>=slot){
    if(!valid){label="Non registrata";detail="Nessun risultato distinto pubblicato";box.classList.add("partial")}
    else if(copied){label="Dati duplicati";detail="Nessuna seconda esecuzione autonoma";box.classList.add("failed")}
    else{
     const a=auditSummary(r),when=new Date(r.completedAt||r.startedAt);
     stamp=Number.isNaN(when.getTime())?"":new Intl.DateTimeFormat("it-IT",{timeZone:"Europe/Rome",hour:"2-digit",minute:"2-digit"}).format(when);
-    if(r.status==="failed"){label="Fallita";detail="Risultati non confermati";box.classList.add("failed")}
+    if(r.status==="queued"){label="In attesa di avvio";detail="Scansione registrata";stamp="";box.classList.add("partial")}
+    else if(r.status==="failed"){label="Fallita";detail="Risultati non confermati";box.classList.add("failed")}
     else if(r.status==="running"||r.status==="in_progress"){label="In corso";detail=a.explored+"/"+a.total+" fonti · "+a.queries+" controlli · "+a.newJobs+" nuove";box.classList.add("partial")}
     else if(r.status==="partial"||r.status==="complete"){label=r.status==="complete"?"Completata":"Parziale";detail=a.explored+"/"+a.total+" fonti esplorate · "+a.queries+" controlli · "+a.newJobs+" nuove";box.classList.add(r.status==="complete"?"ok":"partial")}
     else {label="Esito non verificato";detail="Stato della scansione sconosciuto";box.classList.add("partial")}
@@ -810,7 +812,7 @@ async function load(){ ui.notice.classList.remove('show');
    const sep=CFG.dataUrl.includes('?')?'&':'?';
    const r=await fetch(CFG.dataUrl+sep+'t='+Date.now(),{cache:'no-store'});
    if(!r.ok)throw Error('HTTP '+r.status);
-   const j=await r.json(); DATA=Array.isArray(j.jobs)?j.jobs:[]; AUDIT=j.audit||null; window.__MANUAL_REFRESH__=j.manualRefresh||null;
+   const j=await window.mergeAliceClock(await r.json()); DATA=Array.isArray(j.jobs)?j.jobs:[]; AUDIT=j.audit||null; window.__MANUAL_REFRESH__=j.manualRefresh||null;
    await syncCycle();
    mergePersistedTrackedJobs();
    renderAudit(AUDIT);
