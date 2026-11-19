@@ -250,7 +250,7 @@ async function loadFreshState(){
   const stateReq=endpoint?nativeFetch(endpoint.url,{headers:endpoint.headers,cache:"no-store"}):Promise.resolve(null);
   const [dataResp,stateResp]=await Promise.all([dataReq,stateReq]);
   if(!dataResp.ok)return;
-  const payload=sanitizePayload(JSON.parse(await dataResp.text()));
+  const payload=sanitizePayload(await window.mergeAliceClock(JSON.parse(await dataResp.text())));
   let rows=[];
   if(stateResp&&stateResp.ok){
     try{rows=await stateResp.json()}catch(_){rows=[]}
@@ -310,10 +310,13 @@ async function refreshAudit(){
     const url=cfg.dataUrl||"./data/jobs.json";
     const sep=url.includes("?")?"&":"?";
     const r=await nativeFetch(url+sep+"auditfix="+Date.now(),{cache:"no-store"});
-    if(!r.ok)return;
+    if(!r.ok)throw new Error("HTTP "+r.status);
     const j=await window.mergeAliceClock(JSON.parse(await r.text()));
     paint(j.audit||null,j.auditHistory||[],j.jobs||[]);
-  }catch(_){ }
+  }catch(_){
+    const fallback=await window.mergeAliceClock({});
+    if(fallback.audit)paint(fallback.audit);
+  }
 }
 function retryMainLoad(){
   const btn=document.getElementById("refreshBtn");
