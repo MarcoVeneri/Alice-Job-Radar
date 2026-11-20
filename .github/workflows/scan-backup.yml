@@ -70,6 +70,7 @@ jobs:
         if: always()
         run: python scripts/scan_backup.py --record-failure
       - name: Validate local JSON before final publication
+        id: validate_data
         if: always()
         shell: bash
         run: |
@@ -93,10 +94,11 @@ jobs:
           print("Pre-publication JSON validated:", len(jobs), "records")
           PY
       - name: Publish final results preserving concurrent changes
-        if: always()
+        id: publish_final
+        if: always() && steps.validate_data.outcome == 'success'
         run: bash scripts/publish_scan.sh
       - name: Verify due-slot publication on remote main
-        if: always()
+        if: always() && steps.publish_final.outcome == 'success'
         shell: bash
         run: |
           git fetch origin main
@@ -122,7 +124,7 @@ jobs:
           print("Publication verified; total job records:", len(data["jobs"]))
           PY
       - name: Verify public raw JSON after publication
-        if: always()
+        if: always() && steps.publish_final.outcome == 'success'
         shell: bash
         run: |
           python - <<'PY'
