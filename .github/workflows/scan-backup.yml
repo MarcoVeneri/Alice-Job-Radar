@@ -1,7 +1,8 @@
 name: Alice Job Radar · Backup automatico
 on:
   schedule:
-    # Recovery wake-ups every 10 minutes; Python scans only still-missing due slots.\n    # Validate current regression suite on every scanner change.
+    # Recovery wake-ups every 10 minutes; Python scans only still-missing due slots.
+    # Validate current regression suite on every scanner change.
     # UTC range covers both CET and CEST, with exact-slot wake-ups as extra fallbacks.
     # GitHub scheduled runs are best-effort; later wake-ups recover skipped invocations.
     - cron: '7,17,27,37,47,57 7-21 * * *'
@@ -68,6 +69,29 @@ jobs:
       - name: Record interrupted scan honestly
         if: always()
         run: python scripts/scan_backup.py --record-failure
+      - name: Validate local JSON before final publication
+        if: always()
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, math
+          from pathlib import Path
+          data = json.loads(Path("data/jobs.json").read_text(encoding="utf-8"))
+          jobs = data.get("jobs")
+          if not isinstance(jobs, list):
+              raise SystemExit("Refusing publication: jobs must be a list")
+          ids = [str(j.get("id", "")) for j in jobs]
+          if not all(ids) or len(ids) != len(set(ids)):
+              raise SystemExit("Refusing publication: empty or duplicate job IDs")
+          for job in jobs:
+              if not isinstance(job.get("score"), (int, float)) or not math.isfinite(job["score"]):
+                  raise SystemExit("Refusing publication: invalid score")
+              if not isinstance(job.get("checks"), list) or not all(isinstance(x, str) for x in job["checks"]):
+                  raise SystemExit("Refusing publication: invalid checks")
+              if not isinstance(job.get("active"), bool) or not isinstance(job.get("remote"), bool):
+                  raise SystemExit("Refusing publication: invalid boolean")
+          print("Pre-publication JSON validated:", len(jobs), "records")
+          PY
       - name: Publish final results preserving concurrent changes
         if: always()
         run: bash scripts/publish_scan.sh
@@ -96,4 +120,25 @@ jobs:
           if not isinstance(data.get("jobs"), list):
               raise SystemExit("Published job catalogue missing")
           print("Publication verified; total job records:", len(data["jobs"]))
+          PY
+      - name: Verify public raw JSON after publication
+        if: always()
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, time, urllib.request
+          url = "https://raw.githubusercontent.com/MarcoVeneri/Alice-Job-Radar/main/data/jobs.json?verify=" + str(int(time.time()))
+          for attempt in range(5):
+              try:
+                  req = urllib.request.Request(url, headers={"Cache-Control": "no-cache"})
+                  with urllib.request.urlopen(req, timeout=25) as response:
+                      data = json.load(response)
+                  if not isinstance(data.get("jobs"), list):
+                      raise ValueError("Remote raw JSON missing jobs array")
+                  print("Raw GitHub publication verified:", len(data["jobs"]), "jobs")
+                  break
+              except Exception:
+                  if attempt == 4:
+                      raise
+                  time.sleep(4)
           PY
