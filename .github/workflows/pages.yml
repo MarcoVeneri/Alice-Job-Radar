@@ -9,11 +9,12 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   deploy:
     environment:
@@ -30,9 +31,28 @@ jobs:
         with:
           enablement: true
       - name: Carica sito
+        id: upload
         uses: actions/upload-pages-artifact@v3
         with:
           path: "."
+      - name: Verifica artefatto Pages
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          for attempt in 1 2 3 4 5; do
+            if gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts" --jq '.artifacts[] | select(.name == "github-pages" and .expired == false) | .id' | grep -Eq '^[0-9]+
+        uses: actions/deploy-pages@v4
+; then
+              echo "Artefatto github-pages verificato."
+              exit 0
+            fi
+            echo "Artefatto non ancora visibile, tentativo ${attempt}/5"
+            sleep 5
+          done
+          echo "::error::Artefatto github-pages assente; deploy bloccato prima della pubblicazione"
+          exit 1
       - name: Pubblica
         id: deployment
         uses: actions/deploy-pages@v4
