@@ -30,11 +30,20 @@ jobs:
         uses: actions/configure-pages@v5
         with:
           enablement: true
+      - name: Prepara solo i file pubblici della PWA
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/alice-pages
+          rsync -a --exclude='.git/' --exclude='.github/' --exclude='scripts/' --exclude='tests/' --exclude='node_modules/' --exclude='__pycache__/' --exclude='*.pyc' ./ /tmp/alice-pages/
+          test -s /tmp/alice-pages/index.html
+          test -s /tmp/alice-pages/data/jobs.json
+          python -m json.tool /tmp/alice-pages/data/jobs.json >/dev/null
       - name: Carica sito
         id: upload
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "."
+          path: "/tmp/alice-pages"
       - name: Verifica artefatto Pages
         shell: bash
         env:
