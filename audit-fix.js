@@ -147,7 +147,7 @@ function paint(audit,history=[],jobs=null){
     if(!el||!box)continue;
     box.classList.remove("ok","partial","failed");
     const r=validRun(audit,slot);
-    let status="In programma", time="",detail="Scansione prevista per le "+slot;
+    let status="In programma", time="",detail="";
     if(now>=slotMinutes(slot)){
       if(!r){
         status="Non registrata";
