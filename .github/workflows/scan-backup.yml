@@ -27,7 +27,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
         with:
@@ -64,7 +64,7 @@ jobs:
       - name: Publish start checkpoint
         run: bash scripts/publish_scan.sh
       - name: Recover every due slot with national search and public feeds
-        timeout-minutes: 14
+        timeout-minutes: 45
         shell: bash
         run: |
           set -o pipefail
