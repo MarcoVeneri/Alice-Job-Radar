@@ -260,6 +260,10 @@ def prepare():
 def drain():
     # Snapshot both outstanding slots: a late afternoon start must also recover morning.
     slots = due_slots(datetime.now(ROME), json.loads(BASE.read_text(encoding="utf-8")))
+    # A repository push can request an immediate national scan before the first due slot.
+    # Keep it distinct from the 09:30 and 15:30 scheduled audits.
+    if not slots and os.environ.get("GITHUB_EVENT_NAME") == "push":
+        main("manual_national")
     for slot in slots:
         main(slot)
     # Preserve the national results if the independent source is temporarily offline.
