@@ -93,6 +93,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 .heroNote::after{content:"";display:block;margin-top:8px;width:28px;height:2px;background:currentColor;opacity:.38;border-radius:3px}
 .runAudit{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 12px}
 .runChip{min-height:50px;padding:9px 13px;border-radius:20px;background:rgba(255,255,255,.52);border:1px solid rgba(255,255,255,.68);box-shadow:var(--shadow-soft);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);display:flex;align-items:center;justify-content:space-between;gap:8px}
+.runChip .runSummary:empty,.runChip .runMoment:empty{display:none}
 .runChip .runSummary{flex:1;min-width:0;line-height:1.5}.runChip strong{font-size:13px;letter-spacing:-.01em}.runChip span{font-size:11px;font-weight:800;color:var(--muted);text-align:right}
 .runChip.ok span{color:#1f8f5f}.runChip.partial span{color:#c17a18}.runChip.failed span{color:#c95050}
 @media(prefers-color-scheme:dark){.runChip{background:rgba(25,32,47,.62);border-color:rgba(255,255,255,.08)}.runChip.ok span{color:#6ed5a6}.runChip.partial span{color:#f2ba6a}.runChip.failed span{color:#ff8d8d}}
@@ -417,8 +418,8 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 </header>
 
   <section class="runAudit" aria-label="Stato ricerche di oggi">
-    <div id="run08box" class="runChip"><div class="runLine"><strong>09:30</strong><span class="runState" id="run08State">In programma</span></div><span class="runMoment" id="run08At"></span><span class="runSummary" id="run08">Scansione prevista per le 09:30</span></div>
-    <div id="run15box" class="runChip"><div class="runLine"><strong>15:30</strong><span class="runState" id="run15State">In programma</span></div><span class="runMoment" id="run15At"></span><span class="runSummary" id="run15">Scansione prevista per le 15:30</span></div>
+    <div id="run08box" class="runChip"><div class="runLine"><strong>09:30</strong><span class="runState" id="run08State">In programma</span></div><span class="runMoment" id="run08At"></span><span class="runSummary" id="run08"></span></div>
+    <div id="run15box" class="runChip"><div class="runLine"><strong>15:30</strong><span class="runState" id="run15State">In programma</span></div><span class="runMoment" id="run15At"></span><span class="runSummary" id="run15"></span></div>
     <div class="runToday" id="runToday" aria-live="polite"></div>
 </section>
 
@@ -783,7 +784,7 @@ function renderAudit(audit){
   const r=runs[slot]||null;
   const date=r?new Date(r.startedAt||r.scheduledFor):null;
   const valid=!!(date&&!Number.isNaN(date.getTime())&&romeDateKey(date)===today);
-  let label="In programma",detail="Scansione prevista per le "+slot,stamp="";
+  let label="In programma",detail="",stamp="";
   const morning=runs["09:30"];
   const copied=slot==="15:30"&&morning?.startedAt&&r?.startedAt&&r.startedAt===morning.startedAt&&r.completedAt===morning.completedAt;
   if(clock>=slot){
