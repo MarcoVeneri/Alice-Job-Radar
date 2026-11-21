@@ -65,7 +65,21 @@ jobs:
         run: bash scripts/publish_scan.sh
       - name: Recover every due slot with national search and public feeds
         timeout-minutes: 14
-        run: python scripts/scan_backup.py
+        shell: bash
+        run: |
+          set -o pipefail
+          for attempt in 1 2 3; do
+            echo "Scanner attempt ${attempt}/3"
+            if python scripts/scan_backup.py; then
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              echo "Scanner failed; retrying with fresh network connections"
+              sleep $((attempt * 15))
+            fi
+          done
+          echo "::error::Scanner failed after three attempts"
+          exit 1
       - name: Record interrupted scan honestly
         if: always()
         run: python scripts/scan_backup.py --record-failure
