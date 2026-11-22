@@ -135,11 +135,10 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 .checks b{color:var(--ink)}
 .cardBottom{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:14px}.cardActions{display:flex;align-items:center;gap:7px;flex-wrap:wrap}.miniAction{height:40px;border-radius:15px;border:1px solid var(--line);background:rgba(255,255,255,.34);color:var(--muted);padding:0 11px;display:inline-flex;align-items:center;justify-content:center;gap:6px;font-size:11px;font-weight:850;cursor:pointer;box-shadow:var(--shadow-soft)}.miniAction svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}.miniAction.applied{color:#218858;background:rgba(67,182,118,.13);border-color:rgba(67,182,118,.25)}.miniAction.appliedToggle{width:40px;padding:0}.miniAction.delete{width:40px;padding:0;color:#c55454}.miniAction:active{transform:scale(.96)}.card.alreadyApplied{border-color:rgba(67,182,118,.34)}
 .open{height:52px;padding:0 20px;border-radius:20px;background:linear-gradient(135deg,var(--btn),var(--btn2));color:#fff;text-decoration:none;font-size:14px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;box-shadow:0 12px 24px rgba(34,49,82,.22)}.open.appliedOpen{background:linear-gradient(135deg,#2f7d58,#27684a)}
-.saveBtn{height:40px;border:1px solid transparent;background:transparent;color:var(--muted);display:inline-flex;align-items:center;gap:7px;font-size:11px;font-weight:800;padding:0 7px;cursor:pointer;border-radius:15px}.saveBtn svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}.saveBtn.saved{color:var(--accent)}.saveBtn.saved svg{fill:var(--accent-soft)}
 .empty{background:var(--panel);border:1px dashed var(--line);border-radius:24px;padding:28px;text-align:center;color:var(--muted)}
 .bottomNav{position:sticky;bottom:max(6px,env(safe-area-inset-bottom));margin-top:18px;padding:10px 10px 8px;background:rgba(255,255,255,.72);border:1px solid rgba(255,255,255,.55);box-shadow:var(--shadow);border-radius:28px;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
 @media(prefers-color-scheme:dark){.bottomNav{background:rgba(24,30,43,.82);border-color:rgba(255,255,255,.08)}}
-.navGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}.navItem{appearance:none;border:0;background:transparent;display:grid;justify-items:center;gap:5px;color:#66718d;font-size:11px;text-decoration:none;font-weight:800;padding:6px 0;cursor:pointer}.navItem .dot{width:38px;height:38px;border-radius:50%;display:grid;place-items:center}.navItem .dot svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}.navItem.active{color:var(--accent)}.navItem.active .dot{background:var(--accent-soft);border:1px solid rgba(120,108,249,.20);box-shadow:0 5px 14px rgba(120,108,249,.10)}
+.navGrid{display:grid;grid-template-columns:1fr}.navItem{appearance:none;border:0;background:transparent;display:grid;justify-items:center;gap:5px;color:#66718d;font-size:11px;text-decoration:none;font-weight:800;padding:6px 0;cursor:pointer}.navItem .dot{width:38px;height:38px;border-radius:50%;display:grid;place-items:center}.navItem .dot svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}.navItem.active{color:var(--accent)}.navItem.active .dot{background:var(--accent-soft);border:1px solid rgba(120,108,249,.20);box-shadow:0 5px 14px rgba(120,108,249,.10)}
 .footer{text-align:center;color:var(--muted);font-size:9px;margin-top:10px}
 @media (max-width:720px){
   .hero{min-height:88px}
@@ -303,8 +302,6 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
   .miniAction.applied{color:#9BE0B7;background:rgba(91,203,139,.14);border-color:rgba(91,203,139,.26)}
   .miniAction.delete{color:#ff9a9a}
 
-  .saveBtn{color:#c3ccdd}
-  .saveBtn.saved{color:#B7E0C2}
   .open{
     background:linear-gradient(135deg,#314565,#22324e);
     color:#ffffff;
@@ -404,12 +401,9 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 }
 
 .jobs .card{background:#fff;border:1px solid var(--line);border-radius:18px;outline:0;box-shadow:none;padding:15px}
-.offerHeading{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:8px}
+.offerHeading{display:grid;grid-template-columns:minmax(0,1fr);align-items:start;gap:8px}
 .offerHeading .title{margin:2px 0 4px;font-size:20px;line-height:1.19;overflow-wrap:anywhere}
 .offerByline{font-size:14px;color:var(--muted);overflow-wrap:anywhere}
-.offerHeading .saveBtn{width:44px;height:44px;justify-content:center;color:var(--blue)}
-.offerHeading .saveBtn.saved svg{fill:currentColor}
-.offerHeading .saveBtn span{display:none}
 .offerStatus,.offerStatus .badges{display:flex;align-items:center;flex-wrap:wrap;gap:6px}
 .offerStatus{margin:9px 0}
 .offerStatus .badges{margin:0}
@@ -462,16 +456,14 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     </div>
   </section>
 
-  <div class="searchRow">
+  <div class="searchRow" id="searchRow">
     <label class="search">⌕ <input id="q" type="search" placeholder="Cerca azienda, ruolo, sede…"></label>
   </div><div id="notice" class="notice"></div>
   <section id="jobs" class="jobs"></section>
 
   <nav class="bottomNav" aria-label="Navigazione">
     <div class="navGrid">
-      <button id="navHome" class="navItem active" type="button"><span class="dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 10.5 12 3l8.5 7.5"/><path d="M5.5 9.5V21h13V9.5"/><path d="M9.5 21v-6h5v6"/></svg></span><span>Home</span></button>
-      <button id="navSearch" class="navItem" type="button"><span class="dot"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.4"/><path d="m15.6 15.6 4.9 4.9"/></svg></span><span>Ricerca</span></button>
-      <button id="navSaved" class="navItem" type="button"><span class="dot"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 4.5h11a1 1 0 0 1 1 1V21L12 17l-6.5 4V5.5a1 1 0 0 1 1-1Z"/></svg></span><span>Salvati</span></button>
+      <button id="navSearch" aria-controls="searchRow" aria-expanded="false" class="navItem" type="button"><span class="dot"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.4"/><path d="m15.6 15.6 4.9 4.9"/></svg></span><span>Ricerca</span></button>
     </div>
   </nav>
 
@@ -483,8 +475,8 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 "use strict";
 const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.47",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
-const ui={jobs:$("#jobs"),q:$("#q"),notice:$("#notice"),stNew:$("#stNew"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
-let DATA=[],REMOTE_ROWS=[],statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
+const ui={jobs:$("#jobs"),q:$("#q"),notice:$("#notice"),stNew:$("#stNew"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navSearch:$("#navSearch"),refreshBtn:$("#refreshBtn")};
+let DATA=[],REMOTE_ROWS=[],statFilter="",AUDIT=null,searchOpen=false;
 const STATUS=["Nuova","Interessante","Candidata","Colloquio","Scartata"];
 const storeKey="alice-job-radar-status-v3";
 const savedKey="alice-job-radar-saved-v1";
@@ -506,7 +498,6 @@ function remoteRow(id){return REMOTE_ROWS.find(r=>String(r.job_id)===String(id))
 function getStatus(id){const r=remoteRow(id);return r&&r.status?r.status:"Nuova"}
 function isDismissed(id){const r=remoteRow(id);return !!(r&&r.dismissed)}
 function isApplied(id){const r=remoteRow(id);return !!(r&&r.applied&&!r.dismissed)}
-function isSaved(id){const r=remoteRow(id);return !!(r&&r.saved)}
 
 function syncEnabled(){return !!(syncCfg.enabled&&syncCfg.url&&syncCfg.publishableKey)}
 function syncTable(){return String(syncCfg.table||"job_state").replace(/[^a-zA-Z0-9_]/g,"")}
@@ -621,14 +612,6 @@ async function toggleApplied(id){
   render();
  }catch(e){syncWriteFailed()}
 }
-async function toggleSaved(id){
- const next=!isSaved(id);
- try{
-  await writeJob(id,{saved:next});
-  render();
- }catch(e){syncWriteFailed()}
-}
-function setNavActive(which){ui.navHome.classList.toggle("active",which==="home");ui.navSearch.classList.toggle("active",which==="search");ui.navSaved.classList.toggle("active",which==="saved")}
 function resetTopFilters(){statFilter="";document.querySelectorAll(".stat").forEach(x=>x.classList.remove("active"))}
 function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
 function fmtDateTime(iso){try{return new Intl.DateTimeFormat("it-IT",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit",timeZone:"Europe/Rome"}).format(new Date(iso))}catch(e){return iso}}
@@ -651,7 +634,7 @@ function counts(){
 }
 function normalizeSearch(v){return String(v||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim()}
 function match(j){
-  if(j.active===false && !(savedOnly && (isSaved(j.id)||isApplied(j.id))) && !(statFilter==="Candidata" && isApplied(j.id)))return false;
+  if(j.active===false && !(statFilter==="Candidata" && isApplied(j.id)))return false;
   if(isDismissed(j.id))return false;
  const q=normalizeSearch(ui.q.value);
  if(q){
@@ -659,7 +642,6 @@ function match(j){
   const haystack=normalizeSearch([j.company,j.title,j.location,j.region,j.category,j.summary,j.salary,j.contract,j.workMode,r&&r.company,r&&r.title].join(" "));
   if(!q.split(/\s+/).every(term=>haystack.includes(term)))return false;
  }
- if(savedOnly && !isSaved(j.id) && !isApplied(j.id))return false;
  if(statFilter==="Nuove" && !isNew(j))return false;
  if(statFilter==="Candidata" && !isApplied(j.id))return false;
  return true;
@@ -705,14 +687,11 @@ function render(){
    return tb-ta||b.score-a.score;
   }
   // Candidate lists use the time the candidate was marked, not match score.
-  if(statFilter==="Candidata" || savedOnly){
+  if(statFilter==="Candidata"){
    const ra=remoteRow(a.id),rb=remoteRow(b.id);
    const ta=Date.parse((ra&&ra.applied&&ra.applied_at)||((ra&&ra.applied&&ra.updated_at)||""))||0;
    const tb=Date.parse((rb&&rb.applied&&rb.applied_at)||((rb&&rb.applied&&rb.updated_at)||""))||0;
-   if(statFilter==="Candidata")return tb-ta || b.score-a.score;
-   const sa=ta||(Date.parse((ra&&ra.updated_at)||"")||0);
-   const sb=tb||(Date.parse((rb&&rb.updated_at)||"")||0);
-   return sb-sa || b.score-a.score;
+   return tb-ta || b.score-a.score;
   }
   if(statFilter==="Nuove"){
    const ta=Date.parse(a.firstSeenAt||"")||0, tb=Date.parse(b.firstSeenAt||"")||0;
@@ -723,7 +702,6 @@ function render(){
  if(!arr.length){ui.jobs.innerHTML='<div class="empty">Nessuna offerta con questi filtri.</div>';return}
  ui.jobs.innerHTML=arr.map(j=>{
   const st=getStatus(j.id);
-  const saved=isSaved(j.id);
   const applied=isApplied(j.id);
   const fresh=isNew(j);
   const badges='<div class="badges">'+
@@ -737,7 +715,6 @@ function render(){
         <h2 class="title">${esc(j.title)}</h2>
         <div class="offerByline">${[j.company,j.location].filter(Boolean).map(esc).join(" · ")}</div>
       </div>
-      <button class="saveBtn ${saved?"saved":""}" aria-label="${saved?'Rimuovi dai salvati':'Salva offerta'}" aria-pressed="${saved}" data-save="${esc(j.id)}" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 4.5h11a1 1 0 0 1 1 1V21L12 17l-6.5 4V5.5a1 1 0 0 1 1-1Z"/></svg><span>${saved?"Salvata":"Salva"}</span></button>
     </div>
     <div class="offerStatus">${badges}</div>
     <div class="meta">
@@ -756,7 +733,6 @@ function render(){
     </div>
   </article>`;
  }).join("");
- document.querySelectorAll('.saveBtn').forEach(el=>el.addEventListener('click',e=>toggleSaved(e.currentTarget.dataset.save)));
  document.querySelectorAll('[data-applied]').forEach(el=>el.addEventListener('click',e=>toggleApplied(e.currentTarget.dataset.applied)));
  document.querySelectorAll('[data-delete]').forEach(el=>el.addEventListener('click',e=>dismissJob(e.currentTarget.dataset.delete)));
 }
@@ -845,18 +821,17 @@ document.querySelectorAll(".stat").forEach(el=>el.addEventListener("click",()=>{
 }));
 document.getElementById("nationalPulseOpen").addEventListener("click",()=>{
  resetTopFilters();
- savedOnly=false;searchOpen=false;ui.q.value="";ui.searchRow.classList.remove("searchVisible");
- setNavActive("home");
+ searchOpen=false;ui.q.value="";ui.searchRow.classList.remove("searchVisible");
+ ui.navSearch.classList.remove("active");ui.navSearch.setAttribute("aria-expanded","false");
  document.querySelector('.stat[data-stat="Nuove"]')?.click();
  document.querySelector(".stats")?.scrollIntoView({behavior:"smooth",block:"start"});
 });
-ui.navHome.addEventListener("click",()=>{savedOnly=false;searchOpen=false;ui.searchRow.classList.remove("searchVisible");ui.q.blur();ui.q.value="";resetTopFilters();setNavActive("home");render();window.scrollTo({top:0,behavior:"smooth"})});
 ui.navSearch.addEventListener("click",()=>{
- savedOnly=false;
  searchOpen=!searchOpen;
  resetTopFilters();
  ui.searchRow.classList.toggle("searchVisible",searchOpen);
- setNavActive(searchOpen?"search":"home");
+ ui.navSearch.classList.toggle("active",searchOpen);
+ ui.navSearch.setAttribute("aria-expanded",String(searchOpen));
  if(!searchOpen){ui.q.blur();ui.q.value=""}
  render();
  if(searchOpen){
@@ -868,16 +843,6 @@ ui.navSearch.addEventListener("click",()=>{
    ui.q.focus({preventScroll:true});
   },60);
  }
-});
-ui.navSaved.addEventListener("click",()=>{
- savedOnly=!savedOnly;
- searchOpen=false;
- ui.searchRow.classList.remove("searchVisible");
- ui.q.blur();ui.q.value="";
- resetTopFilters();
- setNavActive(savedOnly?"saved":"home");
- render();
- window.scrollTo({top:0,behavior:"auto"});
 });
 let activeDay=romeDateKey();
 function watchDayChange(){
