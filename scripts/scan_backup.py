@@ -165,7 +165,7 @@ def region_discovery():
 
 def mapped_job(source, kind, raw, today, now):
     work_mode = "Da remoto"
-    if kind == "linkedin":
+    if kind in ("linkedin","employer"):
         title, company, place, url = (raw[k] for k in ("title","company","place","url"))
         details, work_mode, remote = raw["details"], raw["mode"], True
         salary = contract = ""
@@ -217,7 +217,7 @@ def mapped_job(source, kind, raw, today, now):
     if not (title and company and url.startswith("https://") and (ROLE.search(title) or re.search(r"\b(?:ufficio gare|gare e appalti|segreteria commerciale|gestione ordini|supporto commerciale|sales operations|MICE)\b", title, re.I))):
         return None
     # Fail closed: regional presence and ambiguous geographic restrictions need manual verification.
-    if not remote or kind not in ("linkedin","smartrecruiters") and not re.fullmatch(r"(?:italy|italia|europe|european union|eu|emea|worldwide|anywhere|global)", place.strip(), re.I):
+    if not remote or kind not in ("linkedin","employer","smartrecruiters") and not re.fullmatch(r"(?:italy|italia|europe|european union|eu|emea|worldwide|anywhere|global)", place.strip(), re.I):
         return None
     parsed = urllib.parse.urlparse(url)
     if parsed.path.strip("/") in ("", "jobs", "careers", "remote-jobs"):
@@ -378,7 +378,14 @@ def main(slot_override=None):
     BASE.write_text(json.dumps(data, indent=2, ensure_ascii=False)+"\n",encoding="utf-8")
     rows, logs = feed_rows()
     from linkedin_search import discover
-    linkedin_rows, linkedin_logs = discover()
+    from tuscany_boards import discover_boards
+    historical = [run for audit in data.get("auditHistory", []) + [data["audit"]] for run in audit.get("runs", {}).values() if isinstance(run,dict)]
+    if previous_slot: historical.append(previous_slot)
+    previous_logs = [log for run in sorted(historical,key=lambda r:r.get("completedAt") or "") for log in run.get("searchLog",[]) if isinstance(log,dict)]
+    linkedin_rows, linkedin_logs = discover(previous_logs)
+    direct_rows, direct_logs = discover_boards()
+    rows.extend(direct_rows)
+    logs.extend(direct_logs)
     rows.extend(linkedin_rows)
     logs.extend(linkedin_logs)
     regional_coverage, regional_logs, candidate_postings = region_discovery()
