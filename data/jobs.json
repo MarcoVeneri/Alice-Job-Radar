@@ -3,6 +3,54 @@
   "source": "Alice Job Radar V2 — MAX-COVERAGE 15:30",
   "jobs": [
     {
+      "id": "linkedin-4488217420",
+      "title": "Impiegato/a Ufficio Gare e Appalti",
+      "company": "Orologio 2.0 Network",
+      "location": "Pontassieve (FI)",
+      "region": "Toscana",
+      "url": "https://it.linkedin.com/jobs/view/impiegato-a-ufficio-gare-e-appalti-at-orologio-2-0-network-4488217420",
+      "source": "LinkedIn Jobs",
+      "summary": "Preparazione dei progetti di gara. Possibilità di smart working, frequenza da concordare.",
+      "contract": "Tempo determinato, full time",
+      "salary": "1.545,21 € lordi mensili di base",
+      "score": 9.5,
+      "category": "Tender",
+      "workMode": "Ibrido / smart working",
+      "remote": true,
+      "active": true,
+      "date": "2026-11-22",
+      "firstSeenAt": "2026-11-22T15:14:13.852196+00:00",
+      "verifiedAt": "2026-11-22T15:14:13.852196+00:00",
+      "firstSeenRun": "Verifica manuale LinkedIn e Indeed",
+      "checks": [
+        "Preparazione dei progetti di gara. Possibilità di smart working, frequenza da concordare."
+      ]
+    },
+    {
+      "id": "indeed-ff05524fa0796274",
+      "title": "Addetto/a Senior Ufficio Gare (Servizi PA)",
+      "company": "ERAMUS SRL",
+      "location": "San Cesareo (RM)",
+      "region": "Lazio",
+      "url": "https://it.indeed.com/viewjob?jk=ff05524fa0796274",
+      "source": "Indeed Italia",
+      "summary": "Gestione delle gare per servizi alla PA. Lavoro da casa indicato fra i benefit, frequenza da verificare.",
+      "contract": "Part-time o tempo pieno",
+      "salary": "848,93–2.250,87 € al mese",
+      "score": 8.5,
+      "category": "Tender",
+      "workMode": "Ibrido / smart working",
+      "remote": true,
+      "active": true,
+      "date": "2026-11-22",
+      "firstSeenAt": "2026-11-22T15:14:13.852196+00:00",
+      "verifiedAt": "2026-11-22T15:14:13.852196+00:00",
+      "firstSeenRun": "Verifica manuale LinkedIn e Indeed",
+      "checks": [
+        "Gestione delle gare per servizi alla PA. Lavoro da casa indicato fra i benefit, frequenza da verificare."
+      ]
+    },
+    {
       "id": "feed-189cfdf5d8025c0d8c",
       "company": "Chainguard",
       "title": "Senior Manager, Customer Success Management - EMEA/APJ",
@@ -21629,6 +21677,45 @@
           }
         ],
         "note": "Nationwide 20-region indexed search attempts plus public feeds; regional listing searches do NOT verify individual vacancies. Partial coverage, not a full scan of all providers."
+      },
+      "manual_priority": {
+        "engine": "manual_priority",
+        "startedAt": "2026-11-22T15:14:13.852196+00:00",
+        "completedAt": "2026-11-22T15:14:13.852196+00:00",
+        "status": "partial",
+        "newJobs": 2,
+        "sourcesChecked": [
+          "LinkedIn Jobs",
+          "Indeed Italia"
+        ],
+        "sourcesExplored": 2,
+        "requiredSourcesChecked": 2,
+        "requiredSourcesTotal": 238,
+        "specificJobPagesVerified": 3,
+        "searchLog": [
+          {
+            "source": "LinkedIn Jobs",
+            "method": "individual_job_detail",
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/impiegato-a-ufficio-gare-e-appalti-at-orologio-2-0-network-4488217420"
+            ]
+          },
+          {
+            "source": "Indeed Italia",
+            "method": "individual_job_detail",
+            "evidenceUrls": [
+              "https://it.indeed.com/viewjob?jk=51921db8917b2edf"
+            ]
+          },
+          {
+            "source": "Indeed Italia",
+            "method": "individual_job_detail",
+            "evidenceUrls": [
+              "https://it.indeed.com/viewjob?jk=ff05524fa0796274"
+            ]
+          }
+        ],
+        "note": "Controllo mirato di due portali. La stessa posizione a Pontassieve compare su entrambi."
       }
     }
   },
