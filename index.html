@@ -403,6 +403,27 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
  .stat .iconWrap{display:none}
  .stat strong{font-size:21px}
 }
+
+.jobs .card{background:#fff;border:1px solid var(--line);border-radius:18px;outline:0;box-shadow:none;padding:15px}
+.offerHeading{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:8px}
+.offerHeading .title{margin:2px 0 4px;font-size:20px;line-height:1.19;overflow-wrap:anywhere}
+.offerByline{font-size:14px;color:var(--muted);overflow-wrap:anywhere}
+.offerHeading .saveBtn{width:44px;height:44px;justify-content:center;color:var(--blue)}
+.offerHeading .saveBtn.saved svg{fill:currentColor}
+.offerHeading .saveBtn span{display:none}
+.offerStatus,.offerStatus .badges{display:flex;align-items:center;flex-wrap:wrap;gap:6px}
+.offerStatus{margin:9px 0}
+.offerStatus .badges{margin:0}
+.offerStatus .badge.new{color:var(--blue);border:0;background:transparent;padding-left:0}
+.offerStatus .badge.new::before{content:"";width:7px;height:7px;margin-right:5px;border-radius:50%;background:currentColor}
+.offerScore{font-size:12px;color:var(--muted);font-weight:700}
+.jobs .card :is(.meta,.summary,.checks){margin-left:0}
+.jobs .card .meta{margin:8px 0;gap:5px}
+.jobs .card .tag{border-radius:8px;padding:5px 8px}
+.jobs .card .cardBottom{display:flex;flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding-top:8px;margin-top:12px}
+.jobs .card .miniAction{width:44px;height:44px;box-shadow:none}
+.jobs .card .open{width:auto;min-height:44px;height:auto;padding:10px 14px;border-radius:12px;box-shadow:none}
+@media(prefers-color-scheme:dark){.jobs .card{background:#1c1c1e}}
 </style>
 <script id="alice-build-647">
 (function(){
@@ -726,17 +747,14 @@ function render(){
     (applied?'<span class="badge applied">✓ GIÀ CANDIDATA</span>':'')+
     '</div>';
   return `<article class="card ${fresh?"isNew":""} ${j.score>=9?"topmatch":""} ${applied?"alreadyApplied":""}">
-    <div class="cardGrid">
-      <div class="logo"><div>${initials(j.company)}</div></div>
-      <div class="infoTop">
-        ${badges}<div class="company">${esc(j.company)}</div>
-        <div class="title">${esc(j.title)}</div>
-        <div class="loc">📍 ${esc(j.location)}</div>
+    <div class="offerHeading">
+      <div>
+        <h2 class="title">${esc(j.title)}</h2>
+        <div class="offerByline">${[j.company,j.location].filter(Boolean).map(esc).join(" · ")}</div>
       </div>
-      <div class="rightCol">
-        <div class="score"><span class="star">★</span> ${j.score.toFixed(1)}</div>
-      </div>
+      <button class="saveBtn ${saved?"saved":""}" aria-label="${saved?'Rimuovi dai salvati':'Salva offerta'}" aria-pressed="${saved}" data-save="${esc(j.id)}" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 4.5h11a1 1 0 0 1 1 1V21L12 17l-6.5 4V5.5a1 1 0 0 1 1-1Z"/></svg><span>${saved?"Salvata":"Salva"}</span></button>
     </div>
+    <div class="offerStatus">${badges}<span class="offerScore" aria-label="Punteggio ${j.score.toFixed(1)}">★ ${j.score.toFixed(1)}</span></div>
     <div class="meta">
       <span class="tag">${esc(j.workMode||'Non indicato')}</span>
       <span class="tag">${esc(j.salary||'Retribuzione n.d.')}</span>
@@ -746,8 +764,7 @@ function render(){
     ${(j.checks&&j.checks.length)?`<div class="checks"><b>Da verificare:</b> ${esc(j.checks.join(' · '))}</div>`:''}
     <div class="cardBottom">
       <div class="cardActions">
-        <button class="saveBtn ${saved?"saved":""}" data-save="${esc(j.id)}" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 4.5h11a1 1 0 0 1 1 1V21L12 17l-6.5 4V5.5a1 1 0 0 1 1-1Z"/></svg><span>${saved?"Salvata":"Salva"}</span></button>
-        <button class="miniAction appliedToggle ${applied?"applied":""}" data-applied="${esc(j.id)}" type="button" aria-label="${applied?"Rimuovi stato candidata":"Segna come candidata"}" title="${applied?"Già candidata":"Segna come candidata"}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></button>
+        <button class="miniAction appliedToggle ${applied?"applied":""}" aria-pressed="${applied}" data-applied="${esc(j.id)}" type="button" aria-label="${applied?"Rimuovi stato candidata":"Segna come candidata"}" title="${applied?"Già candidata":"Segna come candidata"}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></button>
         <button class="miniAction delete" data-delete="${esc(j.id)}" type="button" aria-label="Elimina offerta" title="Non mostrare più"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3m-8 0 1 13h8l1-13M10 11v5m4-5v5"/></svg></button>
       </div>
       <a class="open ${applied?"appliedOpen":""}" href="${esc(j.url)}" target="_blank" rel="noopener">${applied?"✓ Già candidata · Apri":"Apri annuncio →"}</a>
