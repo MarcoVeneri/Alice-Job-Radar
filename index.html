@@ -385,6 +385,24 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 .runToday{grid-column:1/-1;text-align:center;font-size:12px;font-weight:700;color:var(--muted);padding:0 8px}
 @media(prefers-color-scheme:dark){.runChip.ok .runState{color:#6ed5a6}.runChip.partial .runState{color:#f2ba6a}.runChip.failed .runState{color:#ff8d8d}}
 @media(max-width:390px){.runChip{padding:11px 10px}.runChip .runLine strong{font-size:14px}.runChip .runState{font-size:10px}}
+/* Keep the dedication in its own column as the title wraps on small screens. */
+.top{display:grid;grid-template-columns:minmax(0,1fr) auto 44px;align-items:center;gap:9px;padding:2px 2px 8px}
+.hero{min-height:0;min-width:0}
+.kicker{margin:0}
+.hero h1{margin:3px 0 0}
+.encourage{position:static;grid-column:2;grid-row:1;transform:rotate(-7deg);font-size:clamp(19px,5vw,26px)}
+.refreshTop{grid-column:3;grid-row:1;margin:0}
+.runAudit{gap:5px 8px;margin-bottom:6px}
+.runChip,.runChip#runRecoveryBox{min-height:0;padding:7px 10px;gap:2px;border-radius:14px}
+.runChip .runSummary{flex:none}
+.runToday:empty{display:none}
+@media(max-width:580px){
+ .hero h1{font-size:clamp(23px,6.3vw,31px)}
+ .stats{margin:8px 0;gap:6px}
+ .stat{min-height:54px;padding:7px 4px;gap:0;border-radius:15px}
+ .stat .iconWrap{display:none}
+ .stat strong{font-size:21px}
+}
 </style>
 <script id="alice-build-647">
 (function(){
@@ -876,40 +894,6 @@ ui.navSaved.addEventListener("click",()=>{
  render();
  window.scrollTo({top:0,behavior:"auto"});
 });
-function positionEncourage(){
- const el=document.querySelector(".encourage");
- const title=document.querySelector("h1");
- const top=document.querySelector(".top");
- if(!el||!title||!top)return;
-
- // Restore the normal size before measuring.
- el.style.fontSize="";
- const tr=title.getBoundingClientRect();
- const pr=top.getBoundingClientRect();
-
- const pad=6;
- const freeLeft=Math.min(pr.right-pad,tr.right+6);
- const rb=document.querySelector("#refreshBtn");
- const rr=rb?rb.getBoundingClientRect():null;
- const freeRight=(rr&&rr.width)?rr.left-pad:pr.right-pad;
- const available=Math.max(0,freeRight-freeLeft);
-
- let er=el.getBoundingClientRect();
- if(er.width>available && available>0){
-   const current=parseFloat(getComputedStyle(el).fontSize)||21;
-   const reduced=Math.max(16,current*(available/er.width)*0.94);
-   el.style.fontSize=reduced+"px";
-   er=el.getBoundingClientRect();
- }
-
- const wanted=(freeLeft+freeRight)/2-pr.left;
- const minX=er.width/2+pad;
- const maxX=pr.width-er.width/2-pad;
- el.style.left=Math.max(minX,Math.min(wanted,maxX))+"px";
-}
-window.addEventListener("resize",positionEncourage);
-window.addEventListener("orientationchange",()=>setTimeout(positionEncourage,120));
-
 let activeDay=romeDateKey();
 function watchDayChange(){
  const day=romeDateKey();
@@ -926,8 +910,7 @@ document.addEventListener("visibilitychange",()=>{
  }
 });
 
-positionEncourage();
-Promise.resolve(load()).then(positionEncourage);
+load();
 setInterval(watchDayChange,15000);
 setInterval(()=>{if(document.visibilityState==="visible")load()},60*1000);
 })();
