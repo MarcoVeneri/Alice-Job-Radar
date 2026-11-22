@@ -2881,6 +2881,162 @@
       "newVacancies": 1,
       "zeroResultStreak": 0,
       "lastProductiveAt": "2026-11-11T15:37:45+01:00"
+    },
+    {
+      "name": "Lavoratorio",
+      "type": "job board",
+      "tier": "B",
+      "url": "https://www.lavoratorio.it/",
+      "searchDomain": "lavoratorio.it",
+      "discoveryEvidence": "https://www.lavoratorio.it/annuncio-lavoro/back-office-commerciale-con-lingua-inglese-como/22075719.html",
+      "attempts": 0,
+      "directAttempts": 0,
+      "validVacancies": 0,
+      "newVacancies": 0
+    },
+    {
+      "name": "Job on Air",
+      "type": "job board",
+      "tier": "B",
+      "url": "https://www.jobonair.com/",
+      "searchDomain": "jobonair.com",
+      "discoveryEvidence": "https://www.jobonair.com/joboffers",
+      "attempts": 0,
+      "directAttempts": 0,
+      "validVacancies": 0,
+      "newVacancies": 0
+    },
+    {
+      "name": "JobTeaser",
+      "type": "job board",
+      "tier": "B",
+      "url": "https://www.jobteaser.com/",
+      "searchDomain": "jobteaser.com",
+      "discoveryEvidence": "https://www.jobteaser.com/en/job-offers/2c53736a-5a18-438b-aeb0-f603092c3add-generali-italia-addetto-a-back-office-commerciale",
+      "attempts": 0,
+      "directAttempts": 0,
+      "validVacancies": 0,
+      "newVacancies": 0
+    },
+    {
+      "name": "Jobiri",
+      "type": "job board",
+      "tier": "B",
+      "url": "https://www.jobiri.com/",
+      "searchDomain": "jobiri.com",
+      "discoveryEvidence": "https://www.jobiri.com/dettaglio-offerta/responsabile-commerciale-e-backoffice/vi-12851869/",
+      "attempts": 0,
+      "directAttempts": 0,
+      "validVacancies": 0,
+      "newVacancies": 0
+    },
+    {
+      "name": "LavoroTurismo",
+      "type": "job board",
+      "tier": "B",
+      "url": "https://lavorareturismo.lavoroturismo.it/",
+      "searchDomain": "lavoroturismo.it",
+      "discoveryEvidence": "https://lavorareturismo.lavoroturismo.it/offerte-lavoro/offerta-receptionist-livigno-lungolivigno-spa-36863",
+      "attempts": 0,
+      "directAttempts": 0,
+      "validVacancies": 0,
+      "newVacancies": 0
+    },
+    {
+      "name": "Job in Tourism",
+      "type": "job board",
+      "tier": "B",
+      "url": "https://www.jobintourism.it/",
+      "searchDomain": "jobintourism.it",
+      "discoveryEvidence": "https://www.jobintourism.it/area/back-office/?post_type=offerte",
+      "attempts": 0,
+      "directAttempts": 0,
+      "validVacancies": 0,
+      "newVacancies": 0
+    },
+    {
+      "name": "In Job",
+      "type": "recruitment agency",
+      "tier": "B",
+      "url": "https://careers.injob.com/",
+      "searchDomain": "injob.com",
+      "discoveryEvidence": "https://careers.injob.com/job/view-job.php?id=72648-back-office-finanziario-milano&language=it",
+      "attempts": 0,
+      "directAttempts": 0,
+      "validVacancies": 0,
+      "newVacancies": 0
+    },
+    {
+      "name": "Areajob",
+      "type": "recruitment agency",
+      "tier": "B",
+      "url": "https://areajob.it/",
+      "searchDomain": "areajob.it",
+      "discoveryEvidence": "https://areajob.it/offerte-di-lavoro/toscana/page/3/",
+      "attempts": 0,
+      "directAttempts": 0,
+      "validVacancies": 0,
+      "newVacancies": 0
+    },
+    {
+      "name": "Risorse",
+      "type": "recruitment agency",
+      "tier": "B",
+      "url": "https://www.risorse.it/",
+      "searchDomain": "risorse.it",
+      "discoveryEvidence": "https://www.risorse.it/offerte-di-lavoro/amministrazione/",
+      "attempts": 0,
+      "directAttempts": 0,
+      "validVacancies": 0,
+      "newVacancies": 0
+    },
+    {
+      "name": "Only Job",
+      "type": "recruitment agency",
+      "tier": "B",
+      "url": "https://careers.onlyjob.it/",
+      "searchDomain": "onlyjob.it",
+      "discoveryEvidence": "https://careers.onlyjob.it/job/view-job.php?id=20027-impiegata-o-backoffice-montecatini-terme&language=it",
+      "attempts": 0,
+      "directAttempts": 0,
+      "validVacancies": 0,
+      "newVacancies": 0
+    },
+    {
+      "name": "Arkigest",
+      "type": "recruitment agency",
+      "tier": "B",
+      "url": "https://lavoro.arkigest.it/",
+      "searchDomain": "arkigest.it",
+      "discoveryEvidence": "https://lavoro.arkigest.it/job/view-job.php?id=4040-progettista-tecnico-ufficio-gare-bari&language=it",
+      "attempts": 0,
+      "directAttempts": 0,
+      "validVacancies": 0,
+      "newVacancies": 0
+    },
+    {
+      "name": "Agenziapiù",
+      "type": "recruitment agency",
+      "tier": "B",
+      "url": "https://www.agenziapiu.com/",
+      "searchDomain": "agenziapiu.com",
+      "discoveryEvidence": "https://www.agenziapiu.com/annunci/back-office-commerciale-junior/",
+      "attempts": 0,
+      "directAttempts": 0,
+      "validVacancies": 0,
+      "newVacancies": 0
+    },
+    {
+      "name": "AFOL Metropolitana",
+      "type": "public employment service",
+      "tier": "B",
+      "url": "https://www.afolmet.it/",
+      "searchDomain": "afolmet.it",
+      "discoveryEvidence": "https://www.afolmet.it/offerte_scalomilano/",
+      "attempts": 0,
+      "directAttempts": 0,
+      "validVacancies": 0,
+      "newVacancies": 0
     }
   ],
   "discoveryRules": [
@@ -2891,7 +3047,7 @@
     "Promote a discovered source into this catalog only after a real accessible job listing/search page or public ATS feed is verified.",
     "Never count a search-engine query itself as complete coverage of the underlying source."
   ],
-  "lastExpandedAt": "2026-11-11T15:37:45+01:00",
-  "lastExpansionAdded": 4,
+  "lastExpandedAt": "2026-11-22T15:17:15.915Z",
+  "lastExpansionAdded": 13,
   "lastRunAt": "2026-11-11T15:37:45+01:00"
 }
