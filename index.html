@@ -99,9 +99,6 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 .runChip .runSummary{flex:1;min-width:0;line-height:1.5}.runChip strong{font-size:13px;letter-spacing:-.01em}.runChip span{font-size:11px;font-weight:800;color:var(--muted);text-align:right}
 .runChip.ok span{color:#1f8f5f}.runChip.partial span{color:#c17a18}.runChip.failed span{color:#c95050}
 @media(prefers-color-scheme:dark){.runChip{background:rgba(25,32,47,.62);border-color:rgba(255,255,255,.08)}.runChip.ok span{color:#6ed5a6}.runChip.partial span{color:#f2ba6a}.runChip.failed span{color:#ff8d8d}}
-.tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:3px;background:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.70);padding:6px;border-radius:26px;box-shadow:var(--shadow);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
-.tab{height:48px;border:0;background:transparent;border-radius:18px;color:#58637e;font-size:12px;font-weight:800;cursor:pointer}
-.tab.active{color:#fff;background:linear-gradient(135deg,var(--accent),var(--accent-2));box-shadow:0 10px 22px rgba(111,174,134,.22)}
 .stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:16px 0;width:100%;max-width:100%;overflow:visible}
 .stat{background:rgba(255,255,255,.56);border:1px solid rgba(255,255,255,.70);border-radius:27px;padding:14px 15px;display:grid;grid-template-columns:56px minmax(0,1fr);align-items:center;gap:13px;box-shadow:var(--shadow-soft);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);cursor:pointer;transition:.18s ease;min-width:0;width:100%;max-width:100%;overflow:hidden}.stat>div:last-child{min-width:0}.stat.active{transform:translateY(-1px);border-width:1px;box-shadow:0 12px 26px rgba(40,58,94,.10),inset 0 0 0 2px currentColor}.stat:nth-child(1).active{border-color:var(--accent);background:rgba(111,174,134,.12)}.stat:nth-child(2).active{border-color:var(--gold);background:rgba(243,179,92,.12)}.stat:nth-child(3).active{border-color:var(--accent);background:rgba(111,174,134,.12)}.stat.active .statLabel{font-weight:850;color:var(--ink)}.stat.active strong{transform:none}
 .iconWrap{width:58px;height:58px;border-radius:22px;display:grid;place-items:center;font-size:25px;background:rgba(255,255,255,.35);border:1px solid rgba(255,255,255,.45)}
@@ -157,8 +154,6 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 }
 @media (max-width:560px){
   h1{font-size:32px}
-  .tabs{border-radius:22px}
-  .tab{font-size:11px;height:46px}
   .stats{gap:10px}
   .stat{grid-template-columns:44px minmax(0,1fr);border-radius:24px;padding:11px 10px;gap:8px}
   .iconWrap{width:44px;height:44px;border-radius:17px;font-size:21px}
@@ -219,16 +214,6 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
   }
   .runChip strong{color:#ffffff}
   .runChip span{color:#c3ccdc}
-  .tabs{
-    background:rgba(31,39,56,.88);
-    border-color:rgba(255,255,255,.14);
-  }
-  .tab{color:#c4cde0}
-  .tab.active{
-    color:#ffffff;
-    background:linear-gradient(135deg,#6FAE86,#8BC6A0);
-    box-shadow:0 10px 24px rgba(111,174,134,.28);
-  }
 
   .stat{
     background:rgba(34,42,60,.92);
@@ -380,7 +365,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
  .runChip{min-height:93px;padding:12px}
  h1{font-size:clamp(28px,7.6vw,36px)}
  .app{width:100%;min-width:0}
- .tabs,.tab,.card{min-width:0}
+ .card{min-width:0}
 }
 .nationalPulse{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:0 0 14px;padding:16px 17px;border-radius:22px;border:1px solid rgba(111,174,134,.3);background:rgba(111,174,134,.1);box-shadow:var(--shadow-soft)}
 .nationalPulse[hidden]{display:none}
@@ -435,13 +420,6 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     <div><strong id="nationalPulseTitle">Scansione Italia</strong><small id="nationalPulseDetail">20 regioni · aggiornamento nazionale</small></div>
     <button id="nationalPulseOpen" type="button">Mostra nuove</button>
   </section>
-  <section id="filters" class="tabs">
-    <button class="tab active" data-filter="Tutte">Tutte</button>
-    <button class="tab" data-filter="Tender">Tender</button>
-    <button class="tab" data-filter="Sales Support">Sales</button>
-    <button class="tab" data-filter="Eventi">Eventi</button>
-  </section>
-
   <section class="stats">
     <div class="stat" data-stat="Nuove" title="Tutte le offerte mai trovate ancora da valutare: non scadono a mezzanotte.">
       <div class="iconWrap">◫</div>
@@ -478,8 +456,8 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 "use strict";
 const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.47",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
-const ui={jobs:$("#jobs"),q:$("#q"),filters:$("#filters"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
-let DATA=[],REMOTE_ROWS=[],filter="Tutte",statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
+const ui={jobs:$("#jobs"),q:$("#q"),notice:$("#notice"),stNew:$("#stNew"),stHot:$("#stHot"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navHome:$("#navHome"),navSearch:$("#navSearch"),navSaved:$("#navSaved"),refreshBtn:$("#refreshBtn")};
+let DATA=[],REMOTE_ROWS=[],statFilter="",AUDIT=null,savedOnly=false,searchOpen=false;
 const STATUS=["Nuova","Interessante","Candidata","Colloquio","Scartata"];
 const storeKey="alice-job-radar-status-v3";
 const savedKey="alice-job-radar-saved-v1";
@@ -624,7 +602,7 @@ async function toggleSaved(id){
  }catch(e){syncWriteFailed()}
 }
 function setNavActive(which){ui.navHome.classList.toggle("active",which==="home");ui.navSearch.classList.toggle("active",which==="search");ui.navSaved.classList.toggle("active",which==="saved")}
-function resetTopFilters(){filter="Tutte";statFilter="";document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("active",x.dataset.filter==="Tutte"));document.querySelectorAll(".stat").forEach(x=>x.classList.remove("active"))}
+function resetTopFilters(){statFilter="";document.querySelectorAll(".stat").forEach(x=>x.classList.remove("active"))}
 function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
 function fmtDateTime(iso){try{return new Intl.DateTimeFormat("it-IT",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit",timeZone:"Europe/Rome"}).format(new Date(iso))}catch(e){return iso}}
 function ageHours(iso){const t=Date.parse(iso);return Number.isFinite(t)?(Date.now()-t)/36e5:Infinity}
@@ -654,11 +632,6 @@ function match(j){
   const r=remoteRow(j.id);
   const haystack=normalizeSearch([j.company,j.title,j.location,j.region,j.category,j.summary,j.salary,j.contract,j.workMode,r&&r.company,r&&r.title].join(" "));
   if(!q.split(/\s+/).every(term=>haystack.includes(term)))return false;
- }
- if(filter!=="Tutte"){
-   const category=normalizeSearch(j.category+" "+j.title);
-   const pattern=filter==="Tender"?/tender|gare|appalt|proposal|offerte tecniche|\bbid\b/:filter==="Sales Support"?/sales|commercial|back office|back-office|order|customer|procurement|revenue|contract|operation/:/event|mice|meeting|congress|organizzazione eventi/;
-   if(!pattern.test(category))return false;
  }
  if(savedOnly && !isSaved(j.id) && !isApplied(j.id))return false;
  if(statFilter==="Nuove" && !isNew(j))return false;
@@ -861,10 +834,6 @@ async function load(){ if(loading)return;loading=true;ui.notice.classList.remove
 if(ui.refreshBtn)ui.refreshBtn.addEventListener("click",()=>load());
 ui.q.addEventListener('input',render);
 ui.q.addEventListener('search',render);
-ui.filters.addEventListener('click',e=>{
- const b=e.target.closest('.tab'); if(!b)return;
- filter=b.dataset.filter; document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b)); render();
-});
 document.querySelectorAll(".stat").forEach(el=>el.addEventListener("click",()=>{
  const next=el.dataset.stat;
  statFilter=statFilter===next?"":next;
