@@ -438,7 +438,6 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
   <section class="runAudit" aria-label="Stato ricerche di oggi">
     <div id="run08box" class="runChip"><div class="runLine"><strong>09:30</strong><span class="runState" id="run08State">In programma</span></div><span class="runMoment" id="run08At"></span><span class="runSummary" id="run08"></span><span class="runSummary" id="catalog08" hidden></span></div>
     <div id="run15box" class="runChip"><div class="runLine"><strong>15:30</strong><span class="runState" id="run15State">In programma</span></div><span class="runMoment" id="run15At"></span><span class="runSummary" id="run15"></span><span class="runSummary" id="catalog15" hidden></span></div>
-    <div class="runToday" id="runToday" aria-live="polite"></div>
 </section>
 
   <section id="nationalPulse" class="nationalPulse" aria-label="Risultati ricerca nazionale" hidden>
@@ -781,9 +780,6 @@ function renderAudit(audit){
   if(moment)moment.textContent=stamp?((label==="In corso"?"Avviata":"Eseguita")+" alle "+stamp):"";
   el.textContent=detail;
  }
- const ids=new Set(DATA.filter(j=>j&&j.active!==false&&j.id!=null&&j.firstSeenAt&&!Number.isNaN(Date.parse(j.firstSeenAt))&&romeDateKey(new Date(j.firstSeenAt))===today).map(j=>String(j.id)));
- const el=document.getElementById("runToday"),n=ids.size;
- if(el)el.textContent=n+" "+(n===1?"offerta distinta aggiunta oggi":"offerte distinte aggiunte oggi")+" · senza annunci duplicati";
 }
 let loading=false;
 async function load(){ if(loading)return;loading=true;ui.notice.classList.remove('show');
