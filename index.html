@@ -445,7 +445,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     <button id="nationalPulseOpen" type="button">Mostra nuove</button>
   </section>
   <section class="stats">
-    <div class="stat" data-stat="Nuove" title="Tutte le offerte mai trovate ancora da valutare: non scadono a mezzanotte.">
+    <div class="stat active" data-stat="Nuove" title="Tutte le offerte mai trovate ancora da valutare: non scadono a mezzanotte.">
       <div class="iconWrap">◫</div>
       <div><div class="statLabel">Nuove offerte</div><strong id="stNew">…</strong></div>
     </div>
@@ -475,7 +475,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 const CFG=window.ALICE_RADAR_CONFIG||{dataUrl:"./data/jobs.json",appVersion:"6.47",sync:{enabled:false}};
 const $=s=>document.querySelector(s);
 const ui={jobs:$("#jobs"),q:$("#q"),notice:$("#notice"),stNew:$("#stNew"),stApplied:$("#stApplied"),run08:$("#run08"),run15:$("#run15"),run08box:$("#run08box"),run15box:$("#run15box"),searchRow:document.querySelector(".searchRow"),navSearch:$("#navSearch"),refreshBtn:$("#refreshBtn")};
-let DATA=[],REMOTE_ROWS=[],statFilter="",AUDIT=null,searchOpen=false;
+let DATA=[],REMOTE_ROWS=[],statFilter="Nuove",AUDIT=null,searchOpen=false;
 const STATUS=["Nuova","Interessante","Candidata","Colloquio","Scartata"];
 const storeKey="alice-job-radar-status-v3";
 const savedKey="alice-job-radar-saved-v1";
