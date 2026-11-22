@@ -629,11 +629,11 @@ function isNew(j){
 function counts(){
  const visible=DATA.filter(x=>x.active!==false&&!isDismissed(x.id));
  ui.stNew.textContent=visible.filter(isNew).length;
- ui.stApplied.textContent=DATA.filter(x=>!isDismissed(x.id)&&isApplied(x.id)).length;
+ ui.stApplied.textContent=visible.filter(x=>isApplied(x.id)).length;
 }
 function normalizeSearch(v){return String(v||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim()}
 function match(j){
-  if(j.active===false && !(statFilter==="Candidata" && isApplied(j.id)))return false;
+  if(j.active===false)return false;
   if(isDismissed(j.id))return false;
  const q=normalizeSearch(ui.q.value);
  if(q){
