@@ -2,6 +2,7 @@
 """Alice Radar: fallback scanner of public, documented job feeds (no credentials)."""
 from __future__ import annotations
 
+from job_url import job_url
 import hashlib
 import os
 from concurrent.futures import ThreadPoolExecutor
@@ -181,7 +182,7 @@ def mapped_job(source, kind, raw, today, now):
     parsed = urllib.parse.urlparse(url)
     if parsed.path.strip("/") in ("", "jobs", "careers", "remote-jobs"):
         return None
-    key = hashlib.sha256(url.split("?")[0].encode("utf-8")).hexdigest()[:18]
+    key = hashlib.sha256(job_url(url).encode("utf-8")).hexdigest()[:18]
     category = ("Tender" if re.search(r"bid|tender|proposal", title, re.I) else
                 "Project Support / PMO" if re.search(r"pmo|project", title, re.I) else
                 "Sales Support")
@@ -343,18 +344,20 @@ def main(slot_override=None):
             regional_coverage[region].get("detailPagesVerified",0)+1)
     successes = [x for x in logs if x["outcome"].startswith("success:")]
     found_accessible = any(x["indexPagesAccessible"] for x in regional_coverage.values())
+    feed_names = lambda entries: sorted({x["source"].split("-")[0] for x in entries})
+    checked_sources = feed_names(successes) + (["Jobsora"] if found_accessible else [])
     if not successes and not found_accessible:
         print("All national sources unavailable: recording a failed audit honestly")
     old = data.get("jobs", [])
     ids = {str(j.get("id")) for j in old}
-    links = {str(j.get("url", "")).split("?")[0].lower() for j in old}
+    links = {job_url(str(j.get("url", ""))) for j in old}
     def semantic(j):
         return (norm(j.get("company")),norm(j.get("title")),norm(j.get("location")))
     known = {semantic(j) for j in old}
     added = []
     regional_added = 0
     for candidate in verified_regional:
-        link = candidate["url"].split("?")[0].lower()
+        link = job_url(candidate["url"])
         key = semantic(candidate)
         if candidate["id"] in ids or link in links or key in known:
             continue
@@ -368,7 +371,7 @@ def main(slot_override=None):
         candidate = mapped_job(source, kind, raw, today, now)
         if candidate is None:
             continue
-        link = candidate["url"].split("?")[0].lower()
+        link = job_url(candidate["url"])
         if candidate["id"] in ids or link in links or semantic(candidate) in known:
             continue
         old.insert(0, candidate)
@@ -379,8 +382,8 @@ def main(slot_override=None):
     data["jobs"] = old
     run = {"scheduledFor": scheduled_for, "engine":"github_backup", "startedAt": now, "completedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
            "status": "partial" if (successes or found_accessible) else "failed", "coverageMode": "national_20_region_discovery_plus_verified_public_feeds",
-           "requiredSourcesTotal": required_sources_total, "requiredSourcesChecked": len(successes) + int(found_accessible),
-           "sourcesExplored": len(successes) + int(any(x["indexPagesAccessible"] for x in regional_coverage.values())), "sourcesChecked": [x["source"] for x in successes] + (["Jobsora regional indexed listings"] if any(x["indexPagesAccessible"] for x in regional_coverage.values()) else []),
+           "requiredSourcesTotal": required_sources_total, "requiredSourcesChecked": len(checked_sources),
+           "sourcesExplored": len(checked_sources), "sourcesChecked": checked_sources,
            "directSourcesChecked": [], "siteRestrictedSourcesChecked": [],
            "indexedFallbackSourcesChecked": [x["source"] for x in successes],
            "sourcesUnavailable": [x["source"] for x in logs if not x["outcome"].startswith("success:")],

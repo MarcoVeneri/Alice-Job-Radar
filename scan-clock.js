@@ -27,7 +27,21 @@
     const directJobs = [];
     if (listings.status === "fulfilled" && listings.value.length) {
       const jobs = [...(payload.jobs || [])];
-      const key = value => String(value || "").split(/[?#]/)[0].replace(/\/$/, "");
+      const key = value => {
+        try {
+          const u = new URL(value);
+          if (/(^|\.)indeed\.com$/.test(u.hostname)) {
+            const jk = u.searchParams.get("jk") || u.searchParams.get("vjk");
+            if (jk) return "indeed:" + jk;
+          }
+          u.hash = "";
+          for (const k of [...u.searchParams.keys()]) {
+            if (/^(utm_|source$|from$|trackingid$|refid$|trk$)/i.test(k)) u.searchParams.delete(k);
+          }
+          u.searchParams.sort();
+          return u.href.replace(/\/$/, "");
+        } catch { return String(value || ""); }
+      };
       const byId = new Map(jobs.map((j, i) => [j.id, i]));
       const urls = new Set(jobs.map(j => key(j.url)));
       for (const {job} of listings.value) {

@@ -1,4 +1,5 @@
 """Include direct-board listings in the same catalogue consumed by every app version."""
+from job_url import job_url
 import json
 import re
 from pathlib import Path
@@ -8,11 +9,11 @@ from urllib.request import Request, urlopen
 def merge(data, rows):
     jobs = data['jobs']
     by_id = {job['id']: job for job in jobs}
-    urls = {job.get('url', '').split('?')[0].rstrip('/') for job in jobs}
+    urls = {job_url(job.get('url', '')) for job in jobs}
     for row in rows:
         job = row['job']
         ident = job['id']
-        url = job['url'].split('?')[0].rstrip('/')
+        url = job_url(job['url'])
         if ident in by_id:
             by_id[ident].update(job)
         elif url not in urls:

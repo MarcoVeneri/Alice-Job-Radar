@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Safely merge a completed scan with a newer GitHub main after a rejected push."""
 from __future__ import annotations
+from job_url import job_url
 import json
 import sys
 from pathlib import Path
@@ -19,13 +20,13 @@ def combine(latest, scanned):
     out = dict(latest)
     existing = list(out.get("jobs", []))
     ids = {str(j.get("id")) for j in existing}
-    links = {str(j.get("url", "")).split("?")[0].lower() for j in existing}
+    links = {job_url(str(j.get("url", ""))) for j in existing}
     new_jobs = []
     for job in scanned.get("jobs", []):
         if not isinstance(job, dict):
             continue
         ident = str(job.get("id", ""))
-        link = str(job.get("url", "")).split("?")[0].lower()
+        link = job_url(str(job.get("url", "")))
         if not ident or ident in ids or (link and link in links):
             continue
         ids.add(ident)

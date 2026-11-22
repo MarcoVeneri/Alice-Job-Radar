@@ -425,6 +425,12 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     <div class="runToday" id="runToday" aria-live="polite"></div>
 </section>
 
+  <details style="margin:0 0 12px;padding:12px 16px;border:1px solid #ccd6d2;border-radius:14px">
+    <summary>Fonti della ricerca</summary>
+    <p>Priorità: LinkedIn Jobs e Indeed Italia. Seguono Glassdoor, Randstad, Adecco e Manpower.</p>
+    <p id="sourceReport"></p>
+    <details id="sourceDirectory"><summary>Catalogo completo</summary><p></p></details>
+  </details>
   <section id="nationalPulse" class="nationalPulse" aria-label="Risultati ricerca nazionale" hidden>
     <div><strong id="nationalPulseTitle">Scansione Italia</strong><small id="nationalPulseDetail">20 regioni · aggiornamento nazionale</small></div>
     <button id="nationalPulseOpen" type="button">Mostra nuove</button>
@@ -686,7 +692,7 @@ function render(){
    const national=DATA.filter(j=>j.active!==false && String(j.firstSeenRun||"").includes("Scansione nazionale straordinaria"));
    panel.hidden=!national.length;
    document.getElementById("nationalPulseTitle").textContent="Scansione Italia · "+national.length+" offerte aggiunte";
-   document.getElementById("nationalPulseDetail").textContent="20 regioni cercate · 40 pagine specifiche · copertura parziale delle fonti";
+   document.getElementById("nationalPulseDetail").textContent="Offerte conservate dalla ricerca nazionale straordinaria";
  }
  const arr=DATA.filter(match).sort((a,b)=>{
   const searchTerm=searchOpen?normalizeSearch(ui.q.value):"";
@@ -774,7 +780,24 @@ function auditSummary(r){
  const c=Array.isArray(r.sourcesChecked)?r.sourcesChecked.length:0;
  return {total:n(r.requiredSourcesTotal)||238,explored:Math.max(c,n(r.sourcesExplored)),queries:n(r.queriesRun),newJobs:n(r.newJobs)};
 }
+document.getElementById("sourceDirectory").addEventListener("toggle", async function(){
+ if(!this.open || this.dataset.loaded)return;
+ const target=this.querySelector("p");
+ try {
+  const response=await fetch("./data/source_catalog.json");
+  if(!response.ok)throw Error();
+  const catalog=await response.json();
+  const names=[...new Set(catalog.sources.map(x=>x.name).filter(Boolean))];
+  target.textContent=names.join(" · ");
+  this.querySelector("summary").textContent="Catalogo completo ("+names.length+")";this.dataset.loaded="1";
+ } catch {target.textContent="Catalogo non disponibile. Riapri per riprovare."}
+});
 function renderAudit(audit){
+ const latest=Object.values(audit?.runs||{}).filter(r=>r?.completedAt).sort((a,b)=>Date.parse(b.completedAt)-Date.parse(a.completedAt))[0];
+ const sourceNames=[...new Set((latest?.sourcesChecked||[]).map(name=>String(name).replace(/^(Jobicy|Arbeitnow)-.*$/,"$1").replace(/^Jobsora regional indexed listings$/,"Jobsora")))];
+ document.getElementById("sourceReport").textContent=sourceNames.length?
+  "Ultimo controllo pubblicato ("+audit.date+"): "+sourceNames.length+" fonti consultate · "+sourceNames.join(", "):
+  "Fonti consultate: in attesa di un resoconto.";
  const today=romeDateKey(),runs=audit?.date===today?audit.runs||{}:{};
  const p=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Rome",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(new Date());
  const clock=p.find(x=>x.type==="hour").value+":"+p.find(x=>x.type==="minute").value;

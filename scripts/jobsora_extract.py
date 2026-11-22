@@ -68,6 +68,11 @@ def verify_one(candidate,today,stamp):
             return None
         if not re.search(r"candidati|candidatura|apply",body,re.I):
             return None
+        description = re.search(r'<div\b[^>]*class="[^"]*c-job-details__description[^"]*"[^>]*>(.*?)</div>',body,re.I|re.S)
+        details = clean(description[1]) if description else ""
+        smart = re.search(r"\b(?:smart[ -]?working|lavoro (?:da remoto|ibrido|agile)|modalità ibrida|hybrid work(?:ing)?|work from home)\b",details,re.I)
+        excluded = re.search(r"\b(?:no|non|senza|esclusivamente in (?:sede|presenza)|solo in (?:sede|presenza))\b.{0,60}(?:smart|remoto|ibrid|hybrid)|(?:smart working|lavoro da remoto).{0,20}non (?:previsto|consentito)|(?:solo|esclusivamente) in (?:sede|presenza)",details,re.I)
+        confirmed = bool(smart and not excluded)
         role=candidate["title"]
         category=("Tender" if re.search(r"gare|appalt|tender|bid|proposal",role,re.I)
                   else "Project Support / PMO" if re.search(r"pmo|project",role,re.I)
@@ -75,8 +80,8 @@ def verify_one(candidate,today,stamp):
         return {"id":"jobsora-"+candidate["id"],"title":role,
                 "company":candidate["company"],"location":candidate["location"],
                 "region":candidate["region"],"url":candidate["url"],
-                "category":category,"summary":candidate["summary"][:420],"score":7.7,
-                "remote":False,"workMode":"Da verificare","contract":"Da verificare",
+                "category":category,"summary":(details[max(0,smart.start()-90):smart.end()+140] if confirmed else candidate["summary"][:420]),"score":7.7,
+                "remote":confirmed,"workMode":"Smart working previsto" if confirmed else "Da verificare","contract":"Da verificare",
                 "salary":"Non indicata","active":True,"date":today,
                 "firstSeenAt":stamp,"firstSeenRun":"Scansione automatica nazionale",
                 "verifiedAt":stamp,"source":"Jobsora (aggregatore)",
