@@ -61,7 +61,18 @@ def _fetch_feed(source):
     start = datetime.now(timezone.utc).isoformat()
     try:
         data = get_json(url)
-        entries = data.get("jobs", data.get("data", []))
+        if kind == "smartrecruiters":
+            entries = list(data["content"])
+            total = data["totalFound"]
+            offset = len(entries)
+            while offset < total:
+                page = get_json(url + "&offset=" + str(offset))["content"]
+                if not page:
+                    raise ValueError("Incomplete postings pagination")
+                entries.extend(page)
+                offset += len(page)
+        else:
+            entries = data.get("jobs", data.get("data", []))
         if not isinstance(entries, list):
             raise ValueError("Feed did not return a jobs list")
         log = {"source": name, "method": "public_feed_api", "checkedAt": start,
@@ -83,6 +94,12 @@ def feed_rows():
         ("Arbeitnow-page3", "https://www.arbeitnow.com/api/job-board-api?page=3", "arbeitnow"),
         ("Remotive", "https://remotive.com/api/remote-jobs?limit=200", "remotive"),
     ]
+    catalog = json.loads(Path("data/source_catalog.json").read_text())
+    for board in catalog["sources"]:
+        account = board.get("smartRecruitersAccount")
+        if account:
+            url = f"https://api.smartrecruiters.com/v1/companies/{account}/postings?country=it&limit=100"
+            sources.append((board["name"], url, "smartrecruiters"))
     with ThreadPoolExecutor(max_workers=6) as pool:
         results = list(pool.map(_fetch_feed, sources))
     return [row for _, rows in results for row in rows], [log for log, _ in results]
@@ -147,7 +164,26 @@ def region_discovery():
 
 
 def mapped_job(source, kind, raw, today, now):
-    if kind == "jobicy":
+    work_mode = "Da remoto"
+    if kind == "smartrecruiters":
+        location = raw.get("location") or {}
+        if location.get("country", "").lower() != "it" or raw.get("visibility") != "PUBLIC":
+            return None
+        hybrid = location.get("hybrid") is True
+        remote = hybrid or location.get("remote") is True
+        work_mode = "Ibrido" if hybrid else "Da remoto"
+        title = text(raw.get("name"))
+        employer = raw.get("company") or {}
+        company = text(employer.get("name"))
+        ident = str(raw.get("id") or "")
+        if not ident.isdigit() or not employer.get("identifier"):
+            return None
+        url = "https://jobs.smartrecruiters.com/" + urllib.parse.quote(employer["identifier"], safe="") + "/" + ident
+        place = text(location.get("fullLocation") or location.get("city") or "Italia")
+        contract = text((raw.get("typeOfEmployment") or {}).get("label"))
+        details = f"{title} · {place} · {work_mode}"
+        salary = ""
+    elif kind == "jobicy":
         title = text(raw.get("jobTitle"))
         company = text(raw.get("companyName"))
         place = text(raw.get("jobGeo"))
@@ -174,10 +210,10 @@ def mapped_job(source, kind, raw, today, now):
         salary = text(raw.get("salary"))
         contract = text(raw.get("job_type"))
         remote = True
-    if not (title and company and url.startswith("https://") and ROLE.search(title)):
+    if not (title and company and url.startswith("https://") and (ROLE.search(title) or re.search(r"\b(?:ufficio gare|gare e appalti|segreteria commerciale|gestione ordini|supporto commerciale|sales operations|MICE)\b", title, re.I))):
         return None
     # Fail closed: regional presence and ambiguous geographic restrictions need manual verification.
-    if not remote or not re.fullmatch(r"(?:italy|italia|europe|european union|eu|emea|worldwide|anywhere|global)", place.strip(), re.I):
+    if not remote or kind != "smartrecruiters" and not re.fullmatch(r"(?:italy|italia|europe|european union|eu|emea|worldwide|anywhere|global)", place.strip(), re.I):
         return None
     parsed = urllib.parse.urlparse(url)
     if parsed.path.strip("/") in ("", "jobs", "careers", "remote-jobs"):
@@ -190,7 +226,7 @@ def mapped_job(source, kind, raw, today, now):
     source_note = "Attiva nel feed API al momento del controllo; verificare requisiti e disponibilità prima della candidatura."
     return {"id": f"feed-{key}", "company": company, "title": title,
             "location": place or "Remote (requisiti geografici da verificare)",
-            "category": category, "url": url, "workMode": "Da remoto" if remote else "Da verificare",
+            "category": category, "url": url, "workMode": work_mode,
             "contract": contract or "Da verificare", "salary": salary or "Non indicata",
             "remote": bool(remote), "active": True, "date": today, "firstSeenAt": now,
             "firstSeenRun": "Scansione automatica fallback", "verifiedAt": now,
