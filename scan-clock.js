@@ -19,10 +19,24 @@
       expires = Date.now() + 20000;
       cached = Promise.allSettled([
         read("alice_scan_slots", "select=slot,run&day=eq." + day),
-        read("alice_direct_jobs", "select=job&order=job_id")
+        read("alice_direct_jobs", "select=job&order=job_id"),
+        read("rpc/alice_catalog_timing", "")
       ]);
     }
-    const [slots, listings] = await cached;
+    const [slots, listings, timing] = await cached;
+    const formatter = new Intl.DateTimeFormat("it-IT", {timeZone:"Europe/Rome", hour:"2-digit", minute:"2-digit", second:"2-digit"});
+    for (const [slot, id] of [["09:30","catalog08"],["15:30","catalog15"]]) {
+      const line = document.getElementById(id);
+      if (!line) continue;
+      const row = timing.status === "fulfilled" && timing.value.find(x => x.slot === slot);
+      line.hidden = !row?.started_at;
+      if (!line.hidden) {
+        const progress = row.finished_at ? "terminata" : "in corso";
+        line.textContent = "Ricerca catalogo avviata alle " + formatter.format(new Date(row.started_at)) +
+          " · " + progress + " · " + row.attempted + "/" + row.sources + " richieste inviate · " +
+          row.unavailable + " indisponibili";
+      }
+    }
     const result = {...payload};
     const directJobs = [];
     if (listings.status === "fulfilled" && listings.value.length) {
