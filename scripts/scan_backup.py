@@ -33,11 +33,11 @@ ROME = ZoneInfo("Europe/Rome")
 ROLE = re.compile(
     r"\b(pmo|project\s+(?:support|coordinator|administrator|operations)|"
     r"bid\s+(?:specialist|manager|coordinator|writer)|tender|proposal|"
-    r"sales\s+(?:support|operation|enablement|administrator|coordinator)|"
+    r"sales\s+(?:support|operations?|enablement|administrator|coordinator)|"
     r"commercial\s+(?:support|operation|coordinator|assistant)|"
-    r"revenue\s+operation|order\s+management|procurement\s+(?:support|coordinator)|"
+    r"revenue\s+operations?|order\s+management|procurement\s+(?:support|coordinator)|"
     r"contract\s+(?:support|administrator|coordinator)|"
-    r"customer\s+(?:operation|support|success)|back[\s-]?office|"
+    r"customer\s+(?:operations?|support|success)|back[\s-]?office|"
     r"event\s+(?:coordinator|specialist|planner))\b", re.I
 )
 LOC = re.compile(r"\b(italy|italia|italian|europe|eu\b|emea|worldwide|anywhere|global|"
@@ -165,7 +165,11 @@ def region_discovery():
 
 def mapped_job(source, kind, raw, today, now):
     work_mode = "Da remoto"
-    if kind == "smartrecruiters":
+    if kind == "linkedin":
+        title, company, place, url = (raw[k] for k in ("title","company","place","url"))
+        details, work_mode, remote = raw["details"], raw["mode"], True
+        salary = contract = ""
+    elif kind == "smartrecruiters":
         location = raw.get("location") or {}
         if location.get("country", "").lower() != "it" or raw.get("visibility") != "PUBLIC":
             return None
@@ -213,7 +217,7 @@ def mapped_job(source, kind, raw, today, now):
     if not (title and company and url.startswith("https://") and (ROLE.search(title) or re.search(r"\b(?:ufficio gare|gare e appalti|segreteria commerciale|gestione ordini|supporto commerciale|sales operations|MICE)\b", title, re.I))):
         return None
     # Fail closed: regional presence and ambiguous geographic restrictions need manual verification.
-    if not remote or kind != "smartrecruiters" and not re.fullmatch(r"(?:italy|italia|europe|european union|eu|emea|worldwide|anywhere|global)", place.strip(), re.I):
+    if not remote or kind not in ("linkedin","smartrecruiters") and not re.fullmatch(r"(?:italy|italia|europe|european union|eu|emea|worldwide|anywhere|global)", place.strip(), re.I):
         return None
     parsed = urllib.parse.urlparse(url)
     if parsed.path.strip("/") in ("", "jobs", "careers", "remote-jobs"):
@@ -224,7 +228,9 @@ def mapped_job(source, kind, raw, today, now):
                 "Sales Support")
     score = 8.6 if re.search(r"firenze|toscana|italia|italy", place, re.I) else 7.5
     source_note = "Attiva nel feed API al momento del controllo; verificare requisiti e disponibilità prima della candidatura."
-    return {"id": f"feed-{key}", "company": company, "title": title,
+    if kind == "linkedin":
+        source_note = "Smart working documentato nella descrizione della posizione."
+    return {"id": ("linkedin-" + url.rsplit("/", 1)[-1]) if kind == "linkedin" else f"feed-{key}", "company": company, "title": title,
             "location": place or "Remote (requisiti geografici da verificare)",
             "category": category, "url": url, "workMode": work_mode,
             "contract": contract or "Da verificare", "salary": salary or "Non indicata",
@@ -371,6 +377,10 @@ def main(slot_override=None):
         "note":"Recupero automatico avviato; risultati ancora da verificare."}
     BASE.write_text(json.dumps(data, indent=2, ensure_ascii=False)+"\n",encoding="utf-8")
     rows, logs = feed_rows()
+    from linkedin_search import discover
+    linkedin_rows, linkedin_logs = discover()
+    rows.extend(linkedin_rows)
+    logs.extend(linkedin_logs)
     regional_coverage, regional_logs, candidate_postings = region_discovery()
     checked_regional = verify_many(candidate_postings,today,now)
     verified_regional = [j for j in checked_regional if j.get("remote") is True and j.get("workMode") != "Da verificare"]
@@ -422,7 +432,7 @@ def main(slot_override=None):
            "sourcesExplored": len(checked_sources), "sourcesChecked": checked_sources,
            "directSourcesChecked": [], "siteRestrictedSourcesChecked": [],
            "indexedFallbackSourcesChecked": [x["source"] for x in successes],
-           "sourcesUnavailable": [x["source"] for x in logs if not x["outcome"].startswith("success:")],
+           "sourcesUnavailable": sorted({x["source"] for x in logs if not x["outcome"].startswith("success:")} - {x["source"] for x in successes}),
            "queriesRun": len(logs) + len(regional_logs) + len(candidate_postings),
            "specificJobPagesOpened":len(candidate_postings),
            "specificJobPagesVerified":len(checked_regional),
