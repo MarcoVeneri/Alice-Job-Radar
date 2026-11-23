@@ -343,11 +343,9 @@ def self_test():
     assert due_slots(datetime(2026,11,23,15,57,tzinfo=ROME),
                      {"audit":{"date":"2026-11-23","runs":{
                       "09:30":{"status":"complete"}}}})==["15:30"]
-    assert not adequate({"status":"partial","regionCoverage":dict.fromkeys(
-        x[0] for x in REGIONS, {}),"requiredSourcesChecked":2,
+    assert not adequate({"status":"partial","regionCoverage":dict.fromkeys((x[0] for x in REGIONS), {}),"requiredSourcesChecked":2,
         "completedAt":"2026-11-23T15:35:00Z"})
-    assert adequate({"status":"partial","regionCoverage":dict.fromkeys(
-        x[0] for x in REGIONS, {}),"requiredSourcesChecked":2,
+    assert adequate({"status":"partial","regionCoverage":dict.fromkeys((x[0] for x in REGIONS), {}),"requiredSourcesChecked":2,
         "catalogSearchDiagnostics":{"catalogSourcesAccountedFor":263},
         "completedAt":"2026-11-23T15:35:00Z"})
     assert len(REGIONS)==20 and len(REGIONAL_ROLES)==5
