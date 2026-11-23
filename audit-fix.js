@@ -120,7 +120,7 @@ function syncLabels(){
 }
 function runLabel(a){
   const jobs=a.newJobs===1?"1 nuova":a.newJobs+" nuove";
-  return a.explored+"/"+a.total+" fonti esplorate · "+a.queries+" controlli · "+jobs;
+  return jobs+" · "+a.explored+"/"+a.total+" fonti";
 }
 function paintToday(jobs){
   const el=document.getElementById("runToday");
@@ -147,7 +147,7 @@ function paint(audit,history=[],jobs=null){
     if(!el||!box)continue;
     box.classList.remove("ok","partial","failed");
     const r=validRun(audit,slot);
-    let status="In programma", time="",detail="";
+    let status="In programma", time="",detail="",fullDetail="";
     if(now>=slotMinutes(slot)){
       if(!r){
         status="Non registrata";
@@ -159,6 +159,7 @@ function paint(audit,history=[],jobs=null){
         box.classList.add("failed");
       }else{
         const a=auditNumbers(r);
+        fullDetail=a.explored+"/"+a.total+" fonti esplorate · "+a.queries+" controlli · "+a.newJobs+" nuove";
         time=actualTime(r.completedAt||r.startedAt||r.scheduledFor);
         if(r.status==="queued"){
           status="In attesa di avvio";time="";detail="Scansione registrata";box.classList.add("partial");
@@ -175,7 +176,7 @@ function paint(audit,history=[],jobs=null){
           detail=runLabel(a);
           box.classList.add("ok");
         }else if(r.status==="partial"){
-          status=(r.replacesScheduledSlot===slot||r.supersedesScheduled===true)?"Recuperata (parziale)":"Parziale";
+          status="Parziale";
           detail=runLabel(a);
           box.classList.add("partial");
         }else{
@@ -188,8 +189,11 @@ function paint(audit,history=[],jobs=null){
     if(state)state.textContent=status;
     if(moment)moment.textContent=time?((status==="In corso"?"Avviata":"Eseguita")+" alle "+time):"";
     el.textContent=detail;
+    const catalog=document.getElementById(isMorning?"catalog08":"catalog15");
+    const catalogDetail=catalog&&!catalog.hidden?catalog.textContent:"";
     box.title="Scansione "+slot+" · "+status+(time?" · ora reale "+time:"")+
-      (r&&status!=="Dati duplicati"?" · "+detail:"");
+      (r&&status!=="Dati duplicati"?" · "+(fullDetail||detail):"")+
+      (catalogDetail?" · "+catalogDetail:"");
   }
   paintToday(Array.isArray(jobs)?jobs.filter(j=>j&&j.active!==false):jobs);
   // Manual searches are represented by inline offers only.
