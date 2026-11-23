@@ -395,16 +395,52 @@ def main(slot_override=None):
     historical = [run for audit in data.get("auditHistory", []) + [data["audit"]] for run in audit.get("runs", {}).values() if isinstance(run,dict)]
     if previous_slot: historical.append(previous_slot)
     previous_logs = [log for run in sorted(historical,key=lambda r:r.get("completedAt") or "") for log in run.get("searchLog",[]) if isinstance(log,dict)]
-    linkedin_rows, linkedin_logs = discover(previous_logs)
-    rows, logs = list(linkedin_rows), list(linkedin_logs)
-    feed_items, feed_logs = feed_rows()
-    rows.extend(feed_items)
-    logs.extend(feed_logs)
-    direct_rows, direct_logs = discover_boards()
-    rows.extend(direct_rows)
-    logs.extend(direct_logs)
-    regional_coverage, regional_logs, candidate_postings = region_discovery()
-    checked_regional = verify_many(candidate_postings,today,now)
+    # Every provider group is isolated: a blocked portal or transient timeout
+    # must not abort the other groups or erase an existing scheduled checkpoint.
+    rows, logs = [], []
+    def safe_group(name, action):
+        try:
+            result = action()
+            if not isinstance(result, tuple) or len(result) != 2:
+                raise ValueError("Unexpected discovery response")
+            return result
+        except Exception as exc:
+            msg = f"{type(exc).__name__}: {str(exc)[:200]}"
+            print(f"::warning::Alice source group {name} unavailable: {msg}")
+            return [], [{"source":name, "method":"source_group_recovery",
+                         "checkedAt":datetime.now(timezone.utc).isoformat(),
+                         "outcome":"unavailable: "+msg, "evidenceUrls":[]}]
+    for name, action in (
+        ("LinkedIn Jobs / Indeed Italia", lambda: discover(previous_logs)),
+        ("Public ATS / remote job feeds", feed_rows),
+        ("Italian employer careers", discover_boards),
+    ):
+        found_rows, found_logs = safe_group(name, action)
+        rows.extend(found_rows)
+        logs.extend(found_logs)
+    try:
+        regional_coverage, regional_logs, candidate_postings = region_discovery()
+    except Exception as exc:
+        msg = f"{type(exc).__name__}: {str(exc)[:200]}"
+        print(f"::warning::Alice 20-region discovery failed: {msg}")
+        regional_coverage = {region: {"attempted":0,"indexPagesAccessible":0,
+            "unavailable":1,"candidateLinksFound":0,"status":"unavailable"}
+            for region, _ in REGIONS}
+        regional_logs = [{"source":"Jobsora regional indexed listings",
+            "method":"regional_discovery_recovery",
+            "checkedAt":datetime.now(timezone.utc).isoformat(),
+            "outcome":"unavailable: "+msg,"evidenceUrls":[]}]
+        candidate_postings = []
+    try:
+        checked_regional = verify_many(candidate_postings,today,now)
+    except Exception as exc:
+        msg = f"{type(exc).__name__}: {str(exc)[:200]}"
+        print(f"::warning::Alice regional detail verification failed: {msg}")
+        checked_regional = []
+        regional_logs.append({"source":"Jobsora detail verification",
+            "method":"individual_detail_recovery",
+            "checkedAt":datetime.now(timezone.utc).isoformat(),
+            "outcome":"unavailable: "+msg,"evidenceUrls":[]})
     # Aggregator detail is not the original employer posting. Until a live
     # original application page is confirmed, do not publish it as verified.
     verified_regional = [j for j in checked_regional
@@ -412,9 +448,26 @@ def main(slot_override=None):
                          and j.get("remote") is True
                          and j.get("workMode") != "Da verificare"]
     from verify_vacancies import verify_many_mapped
-    mapped_entries = [(source, kind, raw, mapped_job(source, kind, raw, today, now))
-                      for source, kind, raw in rows]
-    verified_jobs, gate_logs, gate_counts = verify_many_mapped(mapped_entries)
+    mapped_entries = []
+    for source, kind, raw in rows:
+        try:
+            mapped_entries.append((source, kind, raw,
+                                   mapped_job(source, kind, raw, today, now)))
+        except Exception as exc:
+            logs.append({"source":source,"method":"posting_mapping_recovery",
+                         "checkedAt":datetime.now(timezone.utc).isoformat(),
+                         "outcome":"unavailable: mapping failed: "+str(exc)[:150],
+                         "evidenceUrls":[]})
+    try:
+        verified_jobs, gate_logs, gate_counts = verify_many_mapped(mapped_entries)
+    except Exception as exc:
+        msg = f"{type(exc).__name__}: {str(exc)[:200]}"
+        print(f"::warning::Alice individual posting gate failed: {msg}")
+        verified_jobs, gate_counts = [], {}
+        gate_logs = [{"source":"Individual vacancy verification",
+                      "method":"individual_posting_recovery",
+                      "checkedAt":datetime.now(timezone.utc).isoformat(),
+                      "outcome":"unavailable: "+msg,"evidenceUrls":[]}]
     logs.extend(gate_logs)
     for item in checked_regional:
         region = item["region"]
