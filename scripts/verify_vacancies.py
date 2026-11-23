@@ -24,9 +24,14 @@ BLOCKED = re.compile(r"(?:captcha|access denied|verify you are human|too many re
 ON_SITE = re.compile(r"\b(?:solo|esclusivamente)\s+in\s+(?:sede|presenza)\b", re.I)
 
 def _role(job):
-    return bool(ROLE.search(job.get("title", "")) or re.search(
-        r"\b(?:sales operations|revenue operations|event coordinator|MICE)\b",
-        job.get("title", ""), re.I))
+    title = str(job.get("title") or "")
+    return bool(ROLE.search(title) or re.search(
+        r"\b(?:sales operations|revenue operations|event coordinator|event specialist|"
+        r"MICE|inside sales|customer operations|customer success|"
+        r"segreteria commerciale|amministrazione commerciale|ufficio commerciale|"
+        r"supporto alle vendite|supporto amministrativo|contract administrator|"
+        r"vendor administration|proposal specialist|gestione ordini)\b",
+        title, re.I))
 
 def _mode(desc, structured=None):
     if NEGATIVE.search(desc or "") or ON_SITE.search(desc or ""):
@@ -219,6 +224,8 @@ def self_test():
     candidate = {"title":"Bid Specialist", "company":"Esempio", "url":"https://esempio.it/jobs/1234",
                  "workMode":"Ibrido", "remote":True}
     assert _role(candidate)
+    assert _role({**candidate, "title":"Amministrazione Commerciale"})
+    assert not _role({**candidate, "title":"Programmatore Java"})
     assert _mode("Sono previsti due giorni di smart working a settimana")
     assert not _mode("Esclusivamente in sede, senza smart working")
     assert not _matching(candidate, "Developer Java", "Esempio")
