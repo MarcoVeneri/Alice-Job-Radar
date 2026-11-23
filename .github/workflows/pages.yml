@@ -60,6 +60,9 @@ jobs:
           done
           echo "::error::Artefatto github-pages assente; deploy bloccato prima della pubblicazione"
           exit 1
+      - name: Attendi disponibilità artefatto Pages
+        shell: bash
+        run: sleep 20
       - name: Pubblica
         id: deployment
         uses: actions/deploy-pages@v4
