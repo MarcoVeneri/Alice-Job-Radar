@@ -86,7 +86,7 @@
         }
         // An explicitly requested rescan replaces the scheduled slot audit with
         // its real completion time and result; older counters must not be added.
-        if (run.replacesScheduledSlot === slot) {
+        if (run.replacesScheduledSlot === slot || run.supersedesScheduled === true) {
           runs[slot] = {...run, newJobs: listings.status === "fulfilled" ? newListings : run.newJobs};
           continue;
         }
