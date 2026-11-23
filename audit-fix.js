@@ -192,42 +192,9 @@ function paint(audit,history=[],jobs=null){
       (r&&status!=="Dati duplicati"?" · "+detail:"");
   }
   paintToday(Array.isArray(jobs)?jobs.filter(j=>j&&j.active!==false):jobs);
-  // Keep manual national searches separate from the two scheduled slots.
-  const runs=(audit&&audit.date===todayKey()&&audit.runs)?audit.runs:{};
-  const section=document.querySelector(".runAudit");
-  function supplementary(id,heading,run,format,description){
-    let panel=document.getElementById(id);
-    if(!run||!section){panel?.remove();return}
-    if(!panel){
-      panel=document.createElement("div");
-      panel.id=id;
-      panel.className="runChip partial";
-      panel.style.gridColumn="1 / -1";
-      const header=document.createElement("strong");
-      const summary=document.createElement("span");
-      summary.className="runSummary";
-      panel.append(header,summary);
-      section.appendChild(panel);
-    }
-    panel.querySelector("strong").textContent=heading;
-    panel.querySelector(".runSummary").textContent=format(run);
-    panel.title=description;
-  }
-  supplementary(
-    "runNationalBox","🇮🇹 Scansione nazionale",runs.manual_national,
-    r=>{
-      const regions=Array.isArray(r.regionsAttempted)?r.regionsAttempted.length:0;
-      return (finiteCount(r.newJobs)??0)+" nuovi annunci · "+regions+"/20 regioni cercate · "+
-        (r.status==="complete"?"completata":r.status==="failed"?"fallita":"parziale");
-    },
-    "Ricerca straordinaria distinta dalle scansioni programmate."
-  );
-  supplementary(
-    "runRecoveryBox","Recupero mirato",runs.manual_recovery,
-    r=>(finiteCount(r.newJobs)??0)+" nuove offerte · "+(finiteCount(r.queriesRun)??0)+" controlli registrati · "+
-      (r.status==="complete"?"completata":r.status==="failed"?"fallita":"parziale"),
-    "Recupero mirato, distinto dalla scansione nazionale e dalle scansioni programmate."
-  );
+  // Manual searches are represented by inline offers only.
+  document.getElementById("runNationalBox")?.remove();
+  document.getElementById("runRecoveryBox")?.remove();
 }
 
 window.paintAliceAudit = paint;
