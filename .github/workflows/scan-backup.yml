@@ -1,4 +1,5 @@
 name: Alice Job Radar · Backup automatico
+# User-requested fresh national rescan and publication, 2026-11-23.
 on:
   schedule:
     # Recovery wake-ups every 10 minutes; Python scans only still-missing due slots.
