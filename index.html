@@ -14,7 +14,7 @@
 <title>Alice Job Radar</title>
 <script src="./scan-clock.js?v=2"></script>
 <script src="./config.js?v=647"></script>
-<script src="./audit-fix.js?v=647"></script>
+<script src="./audit-fix.js?v=649"></script>
 <style>
 :root{
   --bg:#f5f6fb;
@@ -363,13 +363,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
  .app{width:100%;min-width:0}
  .card{min-width:0}
 }
-.nationalPulse{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:0 0 14px;padding:16px 17px;border-radius:22px;border:1px solid rgba(111,174,134,.3);background:rgba(111,174,134,.1);box-shadow:var(--shadow-soft)}
-.nationalPulse[hidden]{display:none}
-.nationalPulse strong{display:block;font-size:14px;color:var(--ink);line-height:1.3}
-.nationalPulse small{display:block;font-size:12px;color:var(--muted);line-height:1.45;margin-top:4px}
-.nationalPulse button{border:0;border-radius:15px;background:var(--accent);color:white;font-size:12px;font-weight:800;padding:12px 16px;cursor:pointer;flex-shrink:0}
-@media(max-width:480px){.nationalPulse{flex-direction:column;align-items:stretch}.nationalPulse button{width:100%}}
-
+@media(max-width:480px){
 /* v6.47: real-time result and distinct audit slots */
 .runChip{min-height:123px;justify-content:flex-start}
 .runChip .runLine{width:100%;display:flex;justify-content:space-between;align-items:center;gap:7px}
@@ -446,10 +440,6 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     <div id="run15box" class="runChip"><div class="runLine"><strong>15:30</strong><span class="runState" id="run15State">In programma</span></div><span class="runMoment" id="run15At"></span><span class="runSummary" id="run15"></span><span class="runSummary" id="catalog15" hidden></span></div>
 </section>
 
-  <section id="nationalPulse" class="nationalPulse" aria-label="Risultati ricerca nazionale" hidden>
-    <div><strong id="nationalPulseTitle">Scansione Italia</strong><small id="nationalPulseDetail">20 regioni · aggiornamento nazionale</small></div>
-    <button id="nationalPulseOpen" type="button">Mostra nuove</button>
-  </section>
   <section class="stats">
     <div class="stat active" data-stat="Nuove" title="Tutte le offerte mai trovate ancora da valutare: non scadono a mezzanotte.">
       <div class="iconWrap">◫</div>
@@ -666,13 +656,6 @@ function searchRelevance(j,q){
 }
 function render(){
  counts();
- const panel=document.getElementById("nationalPulse");
- if(panel){
-   const national=DATA.filter(j=>j.active!==false && String(j.firstSeenRun||"").includes("Scansione nazionale straordinaria"));
-   panel.hidden=!national.length;
-   document.getElementById("nationalPulseTitle").textContent="Scansione Italia · "+national.length+" offerte aggiunte";
-   document.getElementById("nationalPulseDetail").textContent="Offerte conservate dalla ricerca nazionale straordinaria";
- }
  const arr=DATA.filter(match).sort((a,b)=>{
   const searchTerm=searchOpen?normalizeSearch(ui.q.value):"";
   if(searchTerm){
@@ -815,13 +798,6 @@ document.querySelectorAll(".stat").forEach(el=>el.addEventListener("click",()=>{
  document.querySelectorAll(".stat").forEach(x=>x.classList.toggle("active",x.dataset.stat===statFilter));
  render();
 }));
-document.getElementById("nationalPulseOpen").addEventListener("click",()=>{
- resetTopFilters();
- searchOpen=false;ui.q.value="";ui.searchRow.classList.remove("searchVisible");
- ui.navSearch.classList.remove("active");ui.navSearch.setAttribute("aria-expanded","false");
- document.querySelector('.stat[data-stat="Nuove"]')?.click();
- document.querySelector(".stats")?.scrollIntoView({behavior:"smooth",block:"start"});
-});
 ui.navSearch.addEventListener("click",()=>{
  searchOpen=!searchOpen;
  resetTopFilters();
