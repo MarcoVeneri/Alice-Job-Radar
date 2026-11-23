@@ -12,6 +12,9 @@ on:
     branches: [main]
     paths:
       - 'scripts/scan_backup.py'
+      - 'scripts/verify_vacancies.py'
+      - 'scripts/linkedin_search.py'
+      - 'scripts/tuscany_boards.py'
       - 'scripts/publish_scan.sh'
       - 'scripts/merge_scan_result.py'
       - 'scripts/jobsora_extract.py'
