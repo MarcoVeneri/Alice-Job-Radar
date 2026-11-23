@@ -317,6 +317,13 @@ def drain():
         print(f"Direct-board mirror deferred to the next backup: {exc}")
 
 
+
+def candidate_source_coverage_self_test():
+    """Diagnostic shape smoke test; no network calls."""
+    return {"attempted": len(set(("LinkedIn Jobs", "Indeed Italia", "LinkedIn Jobs"))),
+            "verified": 0, "blocked": 1}
+
+
 def self_test():
     for month in (1, 7, 11):
         date = datetime(2026, month, 16, tzinfo=ROME)
@@ -331,6 +338,7 @@ def self_test():
     from verify_vacancies import self_test as all_sources_test
     primary_portal_test()
     all_sources_test()
+    assert isinstance(candidate_source_coverage_self_test(), dict)
     print("Delayed scheduler recovery, winter/summer slots: OK")
 
 
@@ -418,6 +426,17 @@ def main(slot_override=None):
     found_accessible = any(x["indexPagesAccessible"] for x in regional_coverage.values())
     checked_sources = sorted({x["source"] for x in successes} |
                              ({"Jobsora"} if found_accessible else set()))
+    # Keep portal/card/index access distinct from validated original vacancies:
+    # a blocked search or zero indexed hits is NOT a completed vacancy audit.
+    candidate_source_attempts = sorted({x["source"] for x in logs
+        if x.get("method") not in ("universal_individual_vacancy_gate",)} |
+        ({"Jobsora regional indexed listings"} if regional_logs else set()))
+    candidate_source_blocked = sorted({x["source"] for x in logs
+        if str(x.get("outcome", "")).startswith("unavailable:")})
+    candidate_source_verified = sorted({src for (src, status), count in gate_counts.items()
+        if status == "verified" and count > 0} |
+        {x["source"] for x in logs if x.get("method") == "individual_detail_verification"
+         and int(x.get("specificJobPagesVerified") or 0) > 0})
     primary_attempts = {p: sum(1 for log in logs if log["source"] == p
                         and log.get("method") == "direct_public_cards")
                         for p in ("LinkedIn Jobs", "Indeed Italia")}
@@ -465,6 +484,13 @@ def main(slot_override=None):
            "queriesRun": len(logs) + len(regional_logs) + len(candidate_postings),
            "primaryPortalAttempts":primary_attempts,
            "primaryPortalVerified":primary_verified,
+           "sourceCoverageDiagnostics": {
+               "sourceAdaptersAttempted":len(candidate_source_attempts),
+               "attemptedNames":candidate_source_attempts,
+               "unavailableNames":candidate_source_blocked,
+               "verifiedOriginalPostingNames":candidate_source_verified,
+               "note":"Independent catalog-clock request count must never be read as verified vacancies.",
+           },
            "universalDetailGate": {
                "candidatePagesAttempted":sum(n for (src, status), n in gate_counts.items()
                                             if status not in ("filtered_by_role_or_location","deferred_after_cap")),
