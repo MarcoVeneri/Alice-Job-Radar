@@ -256,12 +256,15 @@ def choose_slot(rome, scheduled, trigger=None):
 def adequate(run):
     if not isinstance(run, dict):
         return False
+    if run.get("status") == "complete":
+        return True
     coverage = run.get("regionCoverage", {})
-    return run.get("status") == "complete" or (
-        run.get("status") == "partial"
-        and len(coverage) >= 20
-        and int(run.get("requiredSourcesChecked") or 0) >= 1
-        and bool(run.get("completedAt")))
+    catalog = run.get("catalogSearchDiagnostics") or {}
+    # Regional index requests or two ATS feeds are not a catalog scan.
+    return (run.get("status") == "partial"
+            and len(coverage) >= 20
+            and int(catalog.get("catalogSourcesAccountedFor") or 0) >= 200
+            and bool(run.get("completedAt")))
 
 
 def due_slots(rome, data):
@@ -340,6 +343,13 @@ def self_test():
     assert due_slots(datetime(2026,11,23,15,57,tzinfo=ROME),
                      {"audit":{"date":"2026-11-23","runs":{
                       "09:30":{"status":"complete"}}}})==["15:30"]
+    assert not adequate({"status":"partial","regionCoverage":dict.fromkeys(
+        x[0] for x in REGIONS, {}),"requiredSourcesChecked":2,
+        "completedAt":"2026-11-23T15:35:00Z"})
+    assert adequate({"status":"partial","regionCoverage":dict.fromkeys(
+        x[0] for x in REGIONS, {}),"requiredSourcesChecked":2,
+        "catalogSearchDiagnostics":{"catalogSourcesAccountedFor":263},
+        "completedAt":"2026-11-23T15:35:00Z"})
     assert len(REGIONS)==20 and len(REGIONAL_ROLES)==5
     from linkedin_search import self_test as primary_portal_test
     from verify_vacancies import self_test as all_sources_test
@@ -399,6 +409,7 @@ def main(slot_override=None):
     # If the rest of the national sweep fails, their real attempt logs still exist.
     from linkedin_search import discover
     from tuscany_boards import discover_boards
+    from catalog_scout import discover_catalog
     historical = [run for audit in data.get("auditHistory", []) + [data["audit"]] for run in audit.get("runs", {}).values() if isinstance(run,dict)]
     if previous_slot: historical.append(previous_slot)
     previous_logs = [log for run in sorted(historical,key=lambda r:r.get("completedAt") or "") for log in run.get("searchLog",[]) if isinstance(log,dict)]
@@ -421,6 +432,7 @@ def main(slot_override=None):
         ("LinkedIn Jobs / Indeed Italia", lambda: discover(previous_logs)),
         ("Public ATS / remote job feeds", feed_rows),
         ("Italian employer careers", discover_boards),
+        ("National job-board catalog", discover_catalog),
     ):
         found_rows, found_logs = safe_group(name, action)
         rows.extend(found_rows)
@@ -540,10 +552,27 @@ def main(slot_override=None):
            "sourcesExplored": len(checked_sources), "sourcesChecked": checked_sources,
            "directSourcesChecked": [], "siteRestrictedSourcesChecked": [],
            "indexedFallbackSourcesChecked": [x["source"] for x in successes],
-           "sourcesUnavailable": sorted({x["source"] for x in logs if not x["outcome"].startswith("success:")} - {x["source"] for x in successes}),
+           "sourcesUnavailable": sorted({x["source"] for x in logs if str(x.get("outcome", "")).startswith("unavailable:")} - {x["source"] for x in successes}),
            "queriesRun": len(logs) + len(regional_logs) + len(candidate_postings),
            "primaryPortalAttempts":primary_attempts,
            "primaryPortalVerified":primary_verified,
+           "catalogSearchDiagnostics": {
+               "catalogSourcesAccountedFor":sum(1 for x in logs if
+                   x.get("method") == "catalog_source_individual_vacancy_probe"),
+               "catalogSourcesProbed":sum(1 for x in logs if
+                   x.get("method") == "catalog_source_individual_vacancy_probe"
+                   and x.get("outcome") != "handled_by_primary_or_ats_adapter"),
+               "catalogSourcesDelegated":sum(1 for x in logs if
+                   x.get("method") == "catalog_source_individual_vacancy_probe"
+                   and x.get("outcome") == "handled_by_primary_or_ats_adapter"),
+               "catalogSourcesUnavailable":sum(1 for x in logs if
+                   x.get("method") == "catalog_source_individual_vacancy_probe"
+                   and str(x.get("outcome", "")).startswith("unavailable:")),
+               "catalogOriginalJobsVerified":sum(
+                   int(x.get("specificJobPagesVerified") or 0) for x in logs
+                   if x.get("method") == "catalog_source_individual_vacancy_probe"),
+               "note":"Index results are discovery only, not verified jobs.",
+           },
            "sourceCoverageDiagnostics": {
                "sourceAdaptersAttempted":len(candidate_source_attempts),
                "attemptedNames":candidate_source_attempts,
