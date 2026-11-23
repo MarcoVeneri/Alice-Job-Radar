@@ -214,7 +214,7 @@ def mapped_job(source, kind, raw, today, now):
         salary = text(raw.get("salary"))
         contract = text(raw.get("job_type"))
         remote = True
-    if not (title and company and url.startswith("https://") and (ROLE.search(title) or re.search(r"\b(?:ufficio gare|gare e appalti|segreteria commerciale|gestione ordini|supporto commerciale|sales operations|MICE)\b", title, re.I))):
+    if not (title and company and url.startswith("https://") and (ROLE.search(title) or re.search(r"\b(?:ufficio gare|gare e appalti|segreteria commerciale|gestione ordini|supporto commerciale|sales operations|revenue operations|MICE|inside sales|amministrazione commerciale|ufficio commerciale|supporto alle vendite|supporto amministrativo|customer operations|vendor administration|contract administrator)\b", title, re.I))):
         return None
     # Fail closed: regional presence and ambiguous geographic restrictions need manual verification.
     if not remote or kind not in ("linkedin","employer","smartrecruiters") and not re.fullmatch(r"(?:italy|italia|europe|european union|eu|emea|worldwide|anywhere|global)", place.strip(), re.I):
