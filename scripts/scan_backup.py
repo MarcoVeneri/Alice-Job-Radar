@@ -328,7 +328,9 @@ def self_test():
                                    trigger == "schedule",trigger) == expected
     assert len(REGIONS)==20 and len(REGIONAL_ROLES)==5
     from linkedin_search import self_test as primary_portal_test
+    from verify_vacancies import self_test as all_sources_test
     primary_portal_test()
+    all_sources_test()
     print("Delayed scheduler recovery, winter/summer slots: OK")
 
 
@@ -395,11 +397,23 @@ def main(slot_override=None):
     logs.extend(direct_logs)
     regional_coverage, regional_logs, candidate_postings = region_discovery()
     checked_regional = verify_many(candidate_postings,today,now)
-    verified_regional = [j for j in checked_regional if j.get("remote") is True and j.get("workMode") != "Da verificare"]
+    # Aggregator detail is not the original employer posting. Until a live
+    # original application page is confirmed, do not publish it as verified.
+    verified_regional = [j for j in checked_regional
+                         if j.get("verificationLevel") == "individual_original_posting"
+                         and j.get("remote") is True
+                         and j.get("workMode") != "Da verificare"]
+    from verify_vacancies import verify_many_mapped
+    mapped_entries = [(source, kind, raw, mapped_job(source, kind, raw, today, now))
+                      for source, kind, raw in rows]
+    verified_jobs, gate_logs, gate_counts = verify_many_mapped(mapped_entries)
+    logs.extend(gate_logs)
     for item in checked_regional:
         region = item["region"]
         regional_coverage[region]["detailPagesVerified"] = (
             regional_coverage[region].get("detailPagesVerified",0)+1)
+    # Do not count a query, a blocked page or an API list as proof that
+    # individual vacancies were checked. Preserve their separate outcomes.
     successes = [x for x in logs if x["outcome"].startswith("success:")]
     found_accessible = any(x["indexPagesAccessible"] for x in regional_coverage.values())
     checked_sources = sorted({x["source"] for x in successes} |
@@ -431,10 +445,7 @@ def main(slot_override=None):
         links.add(link)
         known.add(key)
         regional_added += 1
-    for source, kind, raw in rows:
-        candidate = mapped_job(source, kind, raw, today, now)
-        if candidate is None:
-            continue
+    for candidate in verified_jobs:
         link = job_url(candidate["url"])
         if candidate["id"] in ids or link in links or semantic(candidate) in known:
             continue
@@ -454,17 +465,29 @@ def main(slot_override=None):
            "queriesRun": len(logs) + len(regional_logs) + len(candidate_postings),
            "primaryPortalAttempts":primary_attempts,
            "primaryPortalVerified":primary_verified,
+           "universalDetailGate": {
+               "candidatePagesAttempted":sum(n for (src, status), n in gate_counts.items()
+                                            if status not in ("filtered_by_role_or_location","deferred_after_cap")),
+               "verified":sum(n for (src, status), n in gate_counts.items() if status == "verified"),
+               "unavailable":sum(n for (src, status), n in gate_counts.items() if status == "unavailable"),
+               "excluded":sum(n for (src, status), n in gate_counts.items()
+                              if status not in ("verified","unavailable")),
+               "aggregatorOnlyNotPublished":len(checked_regional)-len(verified_regional),
+           },
            "specificJobPagesOpened":len(candidate_postings)+sum(
-               log.get("specificJobPagesOpened", 0) for log in logs),
-           "specificJobPagesVerified":len(checked_regional)+sum(
-               log.get("specificJobPagesVerified", 0) for log in logs),
+               log.get("specificJobPagesOpened", 0) for log in logs)
+               +sum(n for (src,status),n in gate_counts.items()
+                    if status not in ("filtered_by_role_or_location","deferred_after_cap")),
+           "specificJobPagesVerified":len(verified_regional)+sum(
+               log.get("specificJobPagesVerified", 0) for log in logs)
+               +sum(n for (src,status),n in gate_counts.items() if status == "verified"),
            "excludedUnconfirmedSmartWorking":len(checked_regional)-len(verified_regional),
            "newRegionalJobs":regional_added,
            "newJobs":len(added),
            "regionsTarget": 20, "regionsAttempted": [x[0] for x in REGIONS],
            "regionCoverage": regional_coverage,
            "activeJobs": sum(j.get("active", True) is not False for j in old),
-           "searchLog": logs + regional_logs, "note": "LinkedIn and Indeed searched independently first; detail-verified jobs only. Remaining national indexed queries and public feeds are discovery, NOT 238 verified sources. Coverage stays partial."}
+           "searchLog": logs + regional_logs, "note": "All providers share original-posting availability, role, employer and remote/hybrid publication gate. Aggregator-only and indexed results cannot be published. Catalog queries do not imply complete coverage; partial status is deliberate."}
     existing = previous_slot
     # Keep a more thorough scan published by the ChatGPT automation: this
     # 5-provider fallback must not erase its research on the same slot.
