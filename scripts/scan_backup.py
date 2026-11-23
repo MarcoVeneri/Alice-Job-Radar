@@ -470,17 +470,23 @@ def main(slot_override=None):
                                             if status not in ("filtered_by_role_or_location","deferred_after_cap")),
                "verified":sum(n for (src, status), n in gate_counts.items() if status == "verified"),
                "unavailable":sum(n for (src, status), n in gate_counts.items() if status == "unavailable"),
-               "excluded":sum(n for (src, status), n in gate_counts.items()
-                              if status not in ("verified","unavailable")),
+               "filteredByRoleLocation":sum(n for (src, status), n in gate_counts.items()
+                                            if status == "filtered_by_role_or_location"),
+               "rejectedAfterDetail":sum(n for (src, status), n in gate_counts.items()
+                                          if status not in ("verified","unavailable",
+                                                            "filtered_by_role_or_location","deferred_after_cap")),
+               "deferredAfterCap":sum(n for (src, status), n in gate_counts.items() if status == "deferred_after_cap"),
                "aggregatorOnlyNotPublished":len(checked_regional)-len(verified_regional),
            },
            "specificJobPagesOpened":len(candidate_postings)+sum(
                log.get("specificJobPagesOpened", 0) for log in logs)
                +sum(n for (src,status),n in gate_counts.items()
-                    if status not in ("filtered_by_role_or_location","deferred_after_cap")),
+                    if src not in ("LinkedIn Jobs", "Indeed Italia")
+                    and status not in ("filtered_by_role_or_location","deferred_after_cap")),
            "specificJobPagesVerified":len(verified_regional)+sum(
                log.get("specificJobPagesVerified", 0) for log in logs)
-               +sum(n for (src,status),n in gate_counts.items() if status == "verified"),
+               +sum(n for (src,status),n in gate_counts.items()
+                    if src not in ("LinkedIn Jobs", "Indeed Italia") and status == "verified"),
            "excludedUnconfirmedSmartWorking":len(checked_regional)-len(verified_regional),
            "newRegionalJobs":regional_added,
            "newJobs":len(added),
