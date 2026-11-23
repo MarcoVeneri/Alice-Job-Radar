@@ -1,131 +1,286 @@
-"""Read public Italian search results; confirm work arrangements on each vacancy."""
-import re
-import time
-from email.utils import parsedate_to_datetime
+"""Primary discovery on public LinkedIn and Indeed Italy vacancy pages.
+
+Each provider is queried independently. An index result is never a verified vacancy:
+we require an individual, still-open detail page with explicit remote/hybrid evidence.
+"""
+from __future__ import annotations
+
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
+import html
+import json
+import re
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
+
 from jobsora_extract import clean, field
 
-TERMS = ("ufficio gare", "tender specialist", "PMO", "back office commerciale", "sales operations", "project coordinator", "gare e appalti", "bid coordinator", "proposal specialist", "project support", "segreteria commerciale", "order management")
-MODE = re.compile(r"\b(?:smart[ -]working|lavoro (?:ibrido|da remoto|agile)|modalità ibrida|hybrid (?:work(?:ing)?|model)|work from home|fully remote)\b", re.I)
-NEGATIVE = re.compile(r"(?:\bnon\b|\bno\b|\bsenza\b|esclus[oa]).{0,45}(?:smart working|ibrid|hybrid|remot)|(?:smart working|remoto).{0,18}non (?:previsto|possibile)|(?:esclusivamente|solo) in (?:sede|presenza)", re.I)
+TERMS = (
+    "ufficio gare", "tender specialist", "PMO", "back office commerciale",
+    "sales operations", "project coordinator", "gare e appalti",
+    "bid coordinator", "proposal specialist", "project support",
+    "segreteria commerciale", "order management",
+)
+AREAS = ("Firenze, Toscana, Italia", "Italia")
+MODE = re.compile(
+    r"\b(?:smart[\s-]?working|lavoro\s+(?:ibrido|da remoto|agile)|"
+    r"modalit[aà]\s+(?:di\s+lavoro\s+)?ibrid[ao]|"
+    r"hybrid(?:\s+(?:work(?:ing)?|model|role))?|remote(?:\s+work(?:ing)?)?|"
+    r"work\s+from\s+home|home\s+office|"
+    r"(?:uno|due|tre|quattro|[1-5])\s+giorn[io]\s+(?:a settimana\s+)?"
+    r"(?:di\s+)?smart[\s-]?working)\b", re.I,
+)
+NEGATIVE = re.compile(
+    r"(?:\b(?:non|no|senza|esclus[oa])\b.{0,45}"
+    r"(?:smart[\s-]?working|ibrid|hybrid|remot)|"
+    r"(?:smart[\s-]?working|remoto|hybrid).{0,24}"
+    r"non\s+(?:previst[oa]|possibile|consentit[oa])|"
+    r"(?:esclusivamente|solo)\s+in\s+(?:sede|presenza))", re.I,
+)
+EXPIRED = re.compile(
+    r"(?:annuncio\s+di\s+lavoro\s+scaduto|no longer accepting applications|"
+    r"non\s+accetta\s+pi[uù]\s+candidature|posizione\s+non\s+pi[uù]\s+disponibile)", re.I,
+)
+JOBKEY = re.compile(
+    r"(?:data-jk\s*=\s*['\"]|['\"](?:jobkey|jk)['\"]\s*:\s*['\"]|[?&]jk=)"
+    r"([0-9a-f]{12,})", re.I,
+)
+LI_ID = re.compile(
+    r"(?:urn:li:jobPosting:|/jobs/view/(?:[^/\"'?\s]*?-)?)(\d{9,})", re.I,
+)
+
+
+def _now():
+    return datetime.now(timezone.utc).isoformat()
 
 
 def page(url):
-    with urlopen(Request(url, headers={"User-Agent":"AliceJobRadar/1.0"}), timeout=8) as response:
-        return response.read(450000).decode("utf-8", "replace")
+    headers = {
+        "User-Agent": "Mozilla/5.0 (compatible; AliceJobRadar/6.48; public vacancy discovery)",
+        "Accept-Language": "it-IT,it;q=0.9,en;q=0.6",
+        "Accept": "text/html,application/xhtml+xml",
+    }
+    with urlopen(Request(url, headers=headers), timeout=10) as response:
+        return response.read(600000).decode("utf-8", "replace")
+
+
+def _json_ld_jobs(body):
+    jobs = []
+    for raw in re.findall(
+        r"<script\b[^>]*type=['\"]application/ld\+json['\"][^>]*>(.*?)</script>",
+        body, re.I | re.S,
+    ):
+        try:
+            root = json.loads(html.unescape(raw))
+        except (ValueError, TypeError):
+            continue
+        queue = [root]
+        while queue:
+            node = queue.pop()
+            if isinstance(node, list):
+                queue.extend(node)
+            elif isinstance(node, dict):
+                if node.get("@type") == "JobPosting" or (
+                    isinstance(node.get("@type"), list)
+                    and "JobPosting" in node["@type"]
+                ):
+                    jobs.append(node)
+                if "@graph" in node:
+                    queue.append(node["@graph"])
+    return jobs
+
+
+def _linkedin_card_ids(body):
+    # LinkedIn lists Italian cities (Firenze, Milano, etc.), not necessarily
+    # the literal word "Italia". Search geography is already constrained.
+    out = {}
+    for block in re.findall(r"<li\b[^>]*>(.*?)</li>", body, re.I | re.S):
+        match = LI_ID.search(block)
+        if not match:
+            continue
+        location = field(block, "span", "job-search-card__location")
+        out[match.group(1)] = location or "Italia (località da verificare)"
+    return out
+
+
+def _indeed_card_ids(body):
+    return list(dict.fromkeys(JOBKEY.findall(body)))
+
+
+def _verified_mode(description):
+    match = MODE.search(description or "")
+    return match if match and not NEGATIVE.search(description or "") else None
+
+
+def _linked_job(item):
+    ident, listed_location = item
+    try:
+        body = page("https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/" + ident)
+    except (OSError, ValueError):
+        return None
+    if EXPIRED.search(body):
+        return None
+    desc = field(body, "div", "show-more-less-html__markup")
+    if not desc:
+        desc = field(body, "div", "description__text")
+    title = field(body, "h2", "topcard__title") or field(body, "h2", "top-card-layout__title")
+    company = field(body, "a", "topcard__org-name-link") or field(body, "a", "top-card-layout__first-subline")
+    # Some public detail templates expose JSON-LD rather than topcard fields.
+    jobs = _json_ld_jobs(body)
+    if jobs:
+        first = jobs[0]
+        desc = desc or clean(first.get("description"))
+        title = title or clean(first.get("title"))
+        company = company or clean((first.get("hiringOrganization") or {}).get("name"))
+    mode = _verified_mode(desc)
+    if not (title and company and mode):
+        return None
+    return {
+        "title": title, "company": company, "place": listed_location,
+        "url": "https://www.linkedin.com/jobs/view/" + ident,
+        "mode": "Smart working/ibrido documentato",
+        "details": desc[max(0, mode.start()-110):mode.end()+160],
+    }
+
+
+def _indeed_job(key):
+    url = "https://it.indeed.com/viewjob?jk=" + key
+    try:
+        body = page(url)
+    except (OSError, ValueError):
+        return None
+    if EXPIRED.search(body[:120000]):
+        return None
+    for job in _json_ld_jobs(body):
+        if str(job.get("validThrough") or "9999")[:10] < date.today().isoformat():
+            continue
+        desc = clean(job.get("description"))
+        mode = _verified_mode(desc)
+        if not mode:
+            continue
+        location = job.get("jobLocation") or {}
+        if isinstance(location, list):
+            location = location[0] if location else {}
+        address = location.get("address") or {}
+        country = address.get("addressCountry") or ""
+        if isinstance(country, dict):
+            country = country.get("name") or ""
+        # Never publish an international vacancy without explicit Italy eligibility.
+        if str(country).strip().lower() not in ("it", "ita", "italia", "italy"):
+            eligible = clean(job.get("applicantLocationRequirements"))
+            if not re.search(r"\b(?:Italia|Italy)\b", eligible, re.I):
+                continue
+        company = clean((job.get("hiringOrganization") or {}).get("name"))
+        title = clean(job.get("title"))
+        if not (company and title):
+            continue
+        return {
+            "title": title, "company": company,
+            "place": clean(address.get("addressLocality")) or "Italia",
+            "url": url, "mode": "Smart working/ibrido documentato",
+            "details": desc[max(0,mode.start()-110):mode.end()+160],
+        }
+    return None
+
+
+def _search_linkedin(pair):
+    term, area = pair
+    params = {"keywords": term, "location": area, "start": 0, "f_WT": "2,3"}
+    if area == "Italia":
+        params["geoId"] = "103350119"
+    url = ("https://www.linkedin.com/jobs-guest/jobs/api/"
+           "seeMoreJobPostings/search?" + urlencode(params))
+    log = dict(source="LinkedIn Jobs", query=term, area=area, method="direct_public_cards",
+               checkedAt=_now(), evidenceUrls=[url])
+    try:
+        body = page(url)
+        found = _linkedin_card_ids(body)
+        log["outcome"] = ("success: " + str(len(found)) + " public vacancy cards"
+                          if found else "unconfirmed: no readable vacancy cards")
+        log["candidateLinksFound"] = len(found)
+        return log, found
+    except (OSError, ValueError) as exc:
+        log["outcome"] = "unavailable: " + str(exc)[:140]
+        return log, {}
+
+
+def _search_indeed(pair):
+    term, area = pair
+    url = "https://it.indeed.com/jobs?" + urlencode({
+        "q": term, "l": "Firenze, Toscana" if area != "Italia" else "Italia",
+        "sort": "date",
+    })
+    log = dict(source="Indeed Italia", query=term, area=area, method="direct_public_cards",
+               checkedAt=_now(), evidenceUrls=[url])
+    try:
+        body = page(url)
+        keys = _indeed_card_ids(body)
+        log["outcome"] = ("success: " + str(len(keys)) + " public vacancy cards"
+                          if keys else "unconfirmed: no readable vacancy cards")
+        log["candidateLinksFound"] = len(keys)
+        return log, keys
+    except (OSError, ValueError) as exc:
+        log["outcome"] = "unavailable: " + str(exc)[:140]
+        return log, []
 
 
 def discover(previous_logs=()):
-    pairs = [(term, area) for term in TERMS for area in ("Firenze, Toscana, Italia", "Italia")]
-    prior = {(log.get("query"),log.get("area")):log for log in previous_logs if log.get("source")=="LinkedIn Jobs"}
-    pairs.sort(key=lambda pair: not prior.get(pair,{}).get("outcome","").startswith(("unavailable","unconfirmed")))
-    candidates = {}
+    """Search both major portals on every run, regardless of the other's result."""
+    pairs = [(term, area) for term in TERMS for area in AREAS]
+    linkedin = {}
+    indeed = []
     logs = []
-    def search(pair):
-        term, area = pair
-        params = {"keywords":term,"location":area,"f_WT":"2,3","start":0}
-        if term not in TERMS[:6]:
-            params.pop("f_WT")
-        if area == "Italia":
-            params["geoId"] = "103350119"
-        url = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?" + urlencode(params)
-        log = {"source":"LinkedIn Jobs","query":term,"area":area,"method":"public_listing","evidenceUrls":[url],"checkedAt":datetime.now(timezone.utc).isoformat()}
-        try:
-            body = page(url)
-            rows = []
-            for block in re.findall(r"<li\b[^>]*>(.*?)</li>", body, re.I|re.S):
-                m = re.search(r"urn:li:jobPosting:(\d+)",block)
-                location = field(block,"span","job-search-card__location")
-                if m and re.search(r"\b(?:Italia|Italy)\b",location,re.I):
-                    rows.append((m[1],location))
-            log["outcome"] = "success: public vacancy cards" if "job-search-card" in body else "unconfirmed: no readable vacancy cards"
-            return log,rows
-        except OSError as exc:
-            delay = getattr(exc,"headers",{}).get("Retry-After") if getattr(exc,"headers",None) else None
-            pause = 60
-            if delay:
-                try: pause = max(60,int(delay))
-                except ValueError:
-                    try: pause=max(60,int(parsedate_to_datetime(delay).timestamp()-time.time())+1)
-                    except (TypeError,ValueError): pass
-            log["retryAfterEpoch"]=int(time.time())+pause
-            log["outcome"]="unavailable: "+str(exc)[:120]
-            return log,[]
+    # Search two portals independently: no success/previous-error shortcuts.
     with ThreadPoolExecutor(max_workers=3) as pool:
-        for log,rows in pool.map(search,[pair for pair in pairs if prior.get(pair,{}).get("retryAfterEpoch",0)<=time.time()]):
+        for log, cards in pool.map(_search_linkedin, pairs):
             logs.append(log)
-            candidates.update(rows)
-    # Retry transient failures once per scan, respecting the server's waiting period.
-    retryable = [log for log in logs if any(code in log["outcome"]
-                 for code in ("429", "502", "503", "504", "timed out"))
-                 and log.get("retryAfterEpoch", 0) <= time.time() + 61]
-    if retryable:
-        time.sleep(max(0, max(log["retryAfterEpoch"] for log in retryable) - time.time()))
-        with ThreadPoolExecutor(max_workers=2) as pool:
-            for old, (updated, rows) in zip(retryable, pool.map(search, [(log["query"], log["area"]) for log in retryable])):
-                updated["firstOutcome"] = old["outcome"]
-                old.clear()
-                old.update(updated)
-                candidates.update(rows)
-    for pair in pairs:
-        if prior.get(pair,{}).get("retryAfterEpoch",0)>time.time() and not any((l["query"],l["area"])==pair for l in logs):
-            logs.append(dict(prior[pair],deferred=True))
-    for log in logs:
-        if not log["outcome"].startswith("success:"):
-            log["alternateSearch"]="https://it.indeed.com/jobs?"+urlencode({"q":log["query"],"l":log["area"]})
-    alternate_logs = []
-    alternate_rows = []
-    def indeed(log):
-        import json
-        from datetime import date
-        from urllib.parse import urljoin
-        url = log["alternateSearch"]
-        record = dict(source="Indeed Italia",query=log["query"],area=log["area"],method="direct_fallback",evidenceUrls=[url],checkedAt=datetime.now(timezone.utc).isoformat())
-        found=[]
-        try:
-            listing=page(url)
-            keys=list(dict.fromkeys(re.findall(r'data-jk="([0-9a-f]+)"',listing)))
-            record["outcome"]="success: public vacancy cards" if keys else "unconfirmed: no readable vacancy cards"
-            for key in keys[:5]:
-                link="https://it.indeed.com/viewjob?jk="+key
-                body=page(link)
-                for block in re.findall(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',body,re.S|re.I):
-                    try: obj=json.loads(block)
-                    except ValueError: continue
-                    for job in (obj if isinstance(obj,list) else [obj]):
-                        if not isinstance(job,dict) or job.get("@type")!="JobPosting":continue
-                        if str(job.get("validThrough") or "9999")[:10]<date.today().isoformat():continue
-                        desc=clean(job.get("description"));mode=MODE.search(desc)
-                        if not mode or NEGATIVE.search(desc):continue
-                        loc=job.get("jobLocation") or {}
-                        if isinstance(loc,list):loc=loc[0] if loc else {}
-                        address=loc.get("address") or {};country=address.get("addressCountry")
-                        if isinstance(country,dict):country=country.get("name")
-                        if str(country).lower() not in ("it","italia","italy"):continue
-                        found.append(("Indeed Italia","employer",dict(title=clean(job.get("title")),company=clean((job.get("hiringOrganization") or {}).get("name")),place=address.get("addressLocality") or "Italia",url=link,mode="Smart working previsto",details=desc[max(0,mode.start()-90):mode.end()+140])))
-        except (OSError,ValueError,TypeError,AttributeError) as exc: record["outcome"]="unavailable: "+str(exc)[:120]
-        return found,record
-    with ThreadPoolExecutor(max_workers=2) as pool:
-        for found,record in pool.map(indeed,[log for log in logs if "alternateSearch" in log]):
-            alternate_rows.extend(found)
-            alternate_logs.append(record)
-    def verify(item):
-        ident,loc=item
-        try:
-            body=page("https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/"+ident)
-        except OSError:
-            return None
-        desc=field(body,"div","show-more-less-html__markup")
-        title=field(body,"h2","topcard__title")
-        company=field(body,"a","topcard__org-name-link")
-        mode=MODE.search(desc)
-        if not (mode and title and company) or NEGATIVE.search(desc) or re.search(r"no longer accepting applications|non accetta più candidature",clean(body),re.I):
-            return None
-        return {"title":title,"company":company,"place":loc,"url":"https://www.linkedin.com/jobs/view/"+ident,
-                "details":desc[max(0,mode.start()-130):mode.end()+170],"mode":"Smart working previsto"}
+            linkedin.update(cards)
     with ThreadPoolExecutor(max_workers=3) as pool:
-        rows=[("LinkedIn Jobs","linkedin",r) for r in pool.map(verify,candidates.items()) if r]
-    return rows+alternate_rows,logs+alternate_logs
+        for log, keys in pool.map(_search_indeed, pairs):
+            logs.append(log)
+            indeed.extend(keys)
+    linkedin_items = list(linkedin.items())[:48]
+    indeed_keys = list(dict.fromkeys(indeed))[:48]
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        linked = [job for job in pool.map(_linked_job, linkedin_items) if job]
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        verified_indeed = [job for job in pool.map(_indeed_job, indeed_keys) if job]
+    logs.append({
+        "source": "LinkedIn Jobs", "method": "individual_detail_verification",
+        "checkedAt": _now(), "candidateLinksFound": len(linkedin),
+        "specificJobPagesOpened": len(linkedin_items),
+        "specificJobPagesVerified": len(linked),
+        "outcome": "success: verified " + str(len(linked)) + " individual vacancies"
+                   if linked else "unconfirmed: no verified hybrid/remote vacancy",
+    })
+    logs.append({
+        "source": "Indeed Italia", "method": "individual_detail_verification",
+        "checkedAt": _now(), "candidateLinksFound": len(set(indeed)),
+        "specificJobPagesOpened": len(indeed_keys),
+        "specificJobPagesVerified": len(verified_indeed),
+        "outcome": "success: verified " + str(len(verified_indeed)) + " individual vacancies"
+                   if verified_indeed else "unconfirmed: no verified hybrid/remote vacancy",
+    })
+    return (
+        [("LinkedIn Jobs", "linkedin", job) for job in linked]
+        + [("Indeed Italia", "employer", job) for job in verified_indeed],
+        logs,
+    )
+
+
+def self_test():
+    assert _linkedin_card_ids(
+        '<li><a href="/jobs/view/bid-specialist-at-foo-4491829304"></a>'
+        '<span class="job-search-card__location">Firenze, Toscana</span></li>'
+    ) == {"4491829304": "Firenze, Toscana"}
+    assert _indeed_card_ids(
+        '<div data-jk="51921db8917b2edf"></div><a href="/viewjob?jk=abcdefabcdef1234">'
+    ) == ["51921db8917b2edf", "abcdefabcdef1234"]
+    assert _verified_mode("Possibilità di smart working per due giorni")
+    assert _verified_mode("Solo in sede, senza smart working") is None
+    assert len(TERMS) * len(AREAS) == 24
+    print("LinkedIn city parsing and independent Indeed discovery: OK")
+
+
+if __name__ == "__main__":
+    self_test()
