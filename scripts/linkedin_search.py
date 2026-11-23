@@ -132,6 +132,21 @@ def _linked_job(item):
         desc = desc or clean(first.get("description"))
         title = title or clean(first.get("title"))
         company = company or clean((first.get("hiringOrganization") or {}).get("name"))
+        # The indexed search area is not the actual job location. Prefer the
+        # original posting's structured location and refuse known non-IT jobs.
+        location = first.get("jobLocation") or {}
+        if isinstance(location, list):
+            location = location[0] if location else {}
+        address = location.get("address") or {} if isinstance(location, dict) else {}
+        country = address.get("addressCountry") if isinstance(address, dict) else ""
+        if isinstance(country, dict):
+            country = country.get("name") or ""
+        if country and str(country).lower() not in ("it", "ita", "italia", "italy"):
+            eligible = clean(first.get("applicantLocationRequirements"))
+            if not re.search(r"\\b(?:Italia|Italy|Europe|EU)\\b", eligible, re.I):
+                return None
+        if isinstance(address, dict):
+            listed_location = clean(address.get("addressLocality") or address.get("addressRegion")) or listed_location
     mode = _verified_mode(desc)
     if not (title and company and mode):
         return None
@@ -239,8 +254,17 @@ def discover(previous_logs=()):
         for log, keys in pool.map(_search_indeed, pairs):
             logs.append(log)
             indeed.extend(keys)
-    linkedin_items = list(linkedin.items())[:48]
-    indeed_keys = list(dict.fromkeys(indeed))[:48]
+    # Indexed fallback is independent of guest-HTML access. Even a public
+    # search with readable cards is not exhaustive: discover additional posting
+    # identifiers for each role cluster and Tuscany/Valdarno/Italy.
+    from indexed_jobs import discover_indexed
+    indexed_li, indexed_indeed, indexed_logs = discover_indexed()
+    for ident, area in indexed_li.items():
+        linkedin.setdefault(ident, area)
+    indeed.extend(indexed_indeed)
+    logs.extend(indexed_logs)
+    linkedin_items = list(linkedin.items())[:75]
+    indeed_keys = list(dict.fromkeys(indeed))[:75]
     with ThreadPoolExecutor(max_workers=4) as pool:
         linked = [job for job in pool.map(_linked_job, linkedin_items) if job]
     with ThreadPoolExecutor(max_workers=4) as pool:
@@ -249,6 +273,7 @@ def discover(previous_logs=()):
         "source": "LinkedIn Jobs", "method": "individual_detail_verification",
         "checkedAt": _now(), "candidateLinksFound": len(linkedin),
         "specificJobPagesOpened": len(linkedin_items),
+        "indexedFallback": bool(indexed_logs),
         "specificJobPagesVerified": len(linked),
         "outcome": "success: verified " + str(len(linked)) + " individual vacancies"
                    if linked else "unconfirmed: no verified hybrid/remote vacancy",
@@ -278,6 +303,8 @@ def self_test():
     ) == ["51921db8917b2edf", "abcdefabcdef1234"]
     assert _verified_mode("Possibilità di smart working per due giorni")
     assert _verified_mode("Solo in sede, senza smart working") is None
+    from indexed_jobs import self_test as indexed_self_test
+    indexed_self_test()
     assert len(TERMS) * len(AREAS) == 24
     print("LinkedIn city parsing and independent Indeed discovery: OK")
 
