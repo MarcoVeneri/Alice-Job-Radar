@@ -54,14 +54,14 @@ def combine(latest, scanned):
             old_runs = dict(la.get("runs") or {})
             for slot, run in (sa.get("runs") or {}).items():
                 old_run = old_runs.get(slot)
-                if slot == "automated_fallback" and isinstance(old_run, dict):
+                if slot in ("automated_fallback", "manual_national") and isinstance(old_run, dict):
                     # For repeated checks, the newest actual run owns the visible status;
                     # "newJobs" is not a measure of freshness.
                     if str(run.get("completedAt", "")) > str(old_run.get("completedAt", "")):
-                        old_runs["automated_fallback_previous"] = old_run
+                        old_runs[slot + "_previous"] = old_run
                         old_runs[slot] = run
                     elif run != old_run:
-                        old_runs.setdefault("automated_fallback_previous", run)
+                        old_runs.setdefault(slot + "_previous", run)
                 elif old_run is None or strength(run) > strength(old_run):
                     old_runs[slot] = run
             merged["runs"] = old_runs
@@ -93,6 +93,16 @@ def self_test():
     latest["audit"]["runs"]["automated_fallback"]={"status":"partial","completedAt":"2026-11-14T11:00:00Z","newJobs":10}
     scan["audit"]["runs"]["automated_fallback"]={"status":"partial","completedAt":"2026-11-14T11:30:00Z","newJobs":0}
     assert combine(latest,scan)["audit"]["runs"]["automated_fallback"]["newJobs"] == 0
+    previous = {"jobs": [], "audit": {"date": "2026-11-23", "runs": {
+        "manual_national": {"status": "partial", "completedAt": "2026-11-23T09:22:00Z",
+                            "queriesRun": 300, "newJobs": 0}}}}
+    current = {"jobs": [], "audit": {"date": "2026-11-23", "runs": {
+        "manual_national": {"status": "partial", "completedAt": "2026-11-23T09:26:00Z",
+                            "queriesRun": 280, "newJobs": 0,
+                            "sourceCoverageDiagnostics": {"sourceAdaptersAttempted": 25}}}}}
+    result = combine(previous, current)
+    assert result["audit"]["runs"]["manual_national"]["completedAt"] == "2026-11-23T09:26:00Z"
+    assert result["audit"]["runs"]["manual_national"]["sourceCoverageDiagnostics"]["sourceAdaptersAttempted"] == 25
     print("Concurrent update merge self-test: OK")
 
 if __name__ == "__main__":
