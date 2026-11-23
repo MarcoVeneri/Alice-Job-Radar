@@ -175,7 +175,7 @@ function paint(audit,history=[],jobs=null){
           detail=runLabel(a);
           box.classList.add("ok");
         }else if(r.status==="partial"){
-          status=r.replacesScheduledSlot===slot?"Recuperata (parziale)":"Parziale";
+          status=(r.replacesScheduledSlot===slot||r.supersedesScheduled===true)?"Recuperata (parziale)":"Parziale";
           detail=runLabel(a);
           box.classList.add("partial");
         }else{
