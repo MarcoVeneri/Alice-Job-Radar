@@ -309,7 +309,8 @@ def drain():
     # that could exhaust the runner timeout before 15:30 was ever recorded.
     slots = due_slots(datetime.now(ROME), json.loads(BASE.read_text(encoding="utf-8")))
     if slots:
-        for slot in slots:
+        # At 15:30, recover the afternoon slot before any stale morning retry.
+        for slot in reversed(slots):
             main(slot)
     elif os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
         # An explicit manual dispatch may run a separate sweep, but a push
