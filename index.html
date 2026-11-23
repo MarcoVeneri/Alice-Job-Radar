@@ -14,7 +14,7 @@
 <title>Alice Job Radar</title>
 <script src="./scan-clock.js?v=5"></script>
 <script src="./config.js?v=647"></script>
-<script src="./audit-fix.js?v=651"></script>
+<script src="./audit-fix.js?v=652"></script>
 <style>
 :root{
   --bg:#f5f6fb;
@@ -391,6 +391,14 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 .runAudit{gap:5px 8px;margin-bottom:6px}
 .runChip,.runChip#runRecoveryBox{min-height:0;padding:7px 10px;gap:2px;border-radius:14px}
 .runChip .runSummary{flex:none}
+/* Compact status cards: two lines only, without catalog/moment paragraphs. */
+.runAudit{gap:5px 7px;margin-bottom:7px}
+.runChip,.runChip#runRecoveryBox{min-height:46px;padding:7px 9px;gap:2px;border-radius:13px;overflow:hidden}
+.runChip .runLine{gap:5px;min-width:0}
+.runChip .runLine strong{font-size:13px;line-height:1.2}
+.runChip .runState{font-size:10px;max-width:calc(100% - 45px);white-space:nowrap;text-overflow:ellipsis;overflow:hidden;line-height:1.2}
+.runChip .runSummary{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow-wrap:normal;font-size:11px;line-height:1.25;font-weight:700;flex:0 0 auto}
+.runChip .runMoment,.runChip #catalog08,.runChip #catalog15{display:none!important}
 .runToday:empty{display:none}
 @media(max-width:580px){
  .hero h1{font-size:clamp(23px,6.3vw,31px)}
@@ -841,7 +849,7 @@ setInterval(()=>{if(document.visibilityState==="visible")load()},60*1000);
 if('serviceWorker' in navigator){
   window.addEventListener('load',async()=>{
     try{
-      const r=await navigator.serviceWorker.register('./sw.js?v=651',{updateViaCache:'none'});
+      const r=await navigator.serviceWorker.register('./sw.js?v=652',{updateViaCache:'none'});
       await r.update();
     }catch(e){}
   });
