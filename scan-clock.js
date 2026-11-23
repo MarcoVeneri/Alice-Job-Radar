@@ -32,9 +32,10 @@
       line.hidden = !row?.started_at;
       if (!line.hidden) {
         const progress = row.finished_at ? "terminata" : "in corso";
-        line.textContent = "Ricerca catalogo avviata alle " + formatter.format(new Date(row.started_at)) +
-          " · " + progress + " · " + row.attempted + "/" + row.sources + " richieste inviate · " +
-          row.unavailable + " indisponibili";
+        line.textContent = "Ricerca preliminare catalogo alle " + formatter.format(new Date(row.started_at)) +
+          " · " + progress + " · " + row.processed + "/" + row.sources + " esiti (" +
+          row.attempted + " richieste) · " + row.unavailable +
+          " indisponibili · annunci da verificare";
       }
     }
     const result = {...payload};
@@ -90,13 +91,19 @@
           runs[slot] = {...run, newJobs: listings.status === "fulfilled" ? newListings : run.newJobs};
           continue;
         }
-        if (run.status === "partial" && ["complete","partial"].includes(primary?.status) && primary.engine !== run.engine) {
-          const sourcesChecked = [...new Set([...(primary.sourcesChecked || []), ...run.sourcesChecked])];
-          runs[slot] = {...primary, sourcesChecked,
-            sourcesExplored: Math.max(primary.sourcesExplored || 0, sourcesChecked.length),
-            queriesRun: (primary.queriesRun || 0) + run.queriesRun,
-            newJobs: (primary.newJobs || 0) + (listings.status === "fulfilled" ? newListings - (primary.directNewJobsIncluded || 0) : 0)};
-          continue;
+        if (["complete","partial"].includes(run.status) &&
+            ["complete","partial"].includes(primary?.status) && primary.engine !== run.engine) {
+          // A two-ATS scan is supplementary, not part of national coverage.
+          const inspected = Number(primary.specificJobPagesOpened || 0)>0 ||
+            Number(primary.universalDetailGate?.candidatePagesAttempted || 0)>0;
+          if (inspected) {
+            runs[slot] = {...primary, supplementalScan: {
+              engine:run.engine, sourcesChecked:run.sourcesChecked || [],
+              queriesRun:run.queriesRun || 0, status:run.status,
+              completedAt:run.completedAt || null
+            }};
+            continue;
+          }
         }
         if (rank(run) > rank(runs[slot]) ||
            (rank(run) === rank(runs[slot]) && run.sourcesExplored > (runs[slot]?.sourcesExplored ?? 0))) {

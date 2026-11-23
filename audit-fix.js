@@ -118,9 +118,10 @@ function syncLabels(){
   const footer=document.querySelector(".footer");
   if(footer)footer.textContent="Alice Job Radar · PWA v6.47 · aggiornamento automatico 09:30 / 15:30";
 }
-function runLabel(a){
+function runLabel(a,r){
   const jobs=a.newJobs===1?"1 nuova":a.newJobs+" nuove";
-  return jobs+" · "+a.explored+"/"+a.total+" fonti";
+  const verified=finiteCount(r?.universalDetailGate?.verified)??finiteCount(r?.specificJobPagesVerified)??0;
+  return jobs+" · "+(verified?verified+" annunci verificati":a.explored+" fonti con esito");
 }
 function paintToday(jobs){
   const el=document.getElementById("runToday");
@@ -131,8 +132,7 @@ function paintToday(jobs){
     if(j.id!==null&&j.id!==undefined)unique.add(String(j.id));
   }
   const n=unique.size;
-  el.textContent=n+" "+(n===1?"offerta distinta aggiunta oggi":"offerte distinte aggiunte oggi")+
-    " · il totale non somma annunci duplicati";
+  el.textContent="";
 }
 function paint(audit,history=[],jobs=null){
   syncLabels();
@@ -169,15 +169,15 @@ function paint(audit,history=[],jobs=null){
           box.classList.add("failed");
         }else if(r.status==="running"||r.status==="in_progress"){
           status="In corso";
-          detail=runLabel(a);
+          detail=runLabel(a,r);
           box.classList.add("partial");
         }else if(r.status==="complete"){
           status="Completata";
-          detail=runLabel(a);
+          detail=runLabel(a,r);
           box.classList.add("ok");
         }else if(r.status==="partial"){
           status="Parziale";
-          detail=runLabel(a);
+          detail=runLabel(a,r);
           box.classList.add("partial");
         }else{
           status="Esito non verificato";
@@ -187,7 +187,10 @@ function paint(audit,history=[],jobs=null){
       }
     }
     if(state)state.textContent=status;
-    if(moment)moment.textContent=time?((status==="In corso"?"Avviata":"Eseguita")+" alle "+time):"";
+    const delayed=!!(r?.startedAt&&r?.scheduledFor&&
+      (Date.parse(r.startedAt)-Date.parse(r.scheduledFor)>10*60*1000));
+    if(moment)moment.textContent=time?((status==="In corso"?"Avviata":"Eseguita")+" alle "+time+
+      (delayed?" · in ritardo":"")):"";
     el.textContent=detail;
     const catalog=document.getElementById(isMorning?"catalog08":"catalog15");
     const catalogDetail=catalog&&!catalog.hidden?catalog.textContent:"";

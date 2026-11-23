@@ -261,9 +261,17 @@ def adequate(run):
     coverage = run.get("regionCoverage", {})
     catalog = run.get("catalogSearchDiagnostics") or {}
     # Regional index requests or two ATS feeds are not a catalog scan.
+    primary = run.get("primaryPortalAttempts") or {}
+    gate = run.get("universalDetailGate") or {}
+    # Queries to RSS indexes do not certify a scan; require evidence of
+    # both major portals and inspection of individual vacancy pages.
     return (run.get("status") == "partial"
             and len(coverage) >= 20
             and int(catalog.get("catalogSourcesAccountedFor") or 0) >= 200
+            and int(primary.get("LinkedIn Jobs") or 0) >= 12
+            and int(primary.get("Indeed Italia") or 0) >= 12
+            and (int(gate.get("candidatePagesAttempted") or 0) > 0
+                 or int(run.get("specificJobPagesOpened") or 0) > 0)
             and bool(run.get("completedAt")))
 
 
@@ -346,8 +354,13 @@ def self_test():
                       "09:30":{"status":"complete"}}}})==["15:30"]
     assert not adequate({"status":"partial","regionCoverage":dict.fromkeys((x[0] for x in REGIONS), {}),"requiredSourcesChecked":2,
         "completedAt":"2026-11-23T15:35:00Z"})
-    assert adequate({"status":"partial","regionCoverage":dict.fromkeys((x[0] for x in REGIONS), {}),"requiredSourcesChecked":2,
+    assert not adequate({"status":"partial","regionCoverage":dict.fromkeys((x[0] for x in REGIONS), {}),"requiredSourcesChecked":2,
         "catalogSearchDiagnostics":{"catalogSourcesAccountedFor":263},
+        "completedAt":"2026-11-23T15:35:00Z"})
+    assert adequate({"status":"partial","regionCoverage":dict.fromkeys((x[0] for x in REGIONS), {}),
+        "catalogSearchDiagnostics":{"catalogSourcesAccountedFor":263},
+        "primaryPortalAttempts":{"LinkedIn Jobs":24,"Indeed Italia":24},
+        "universalDetailGate":{"candidatePagesAttempted":4},
         "completedAt":"2026-11-23T15:35:00Z"})
     assert len(REGIONS)==20 and len(REGIONAL_ROLES)==5
     from linkedin_search import self_test as primary_portal_test

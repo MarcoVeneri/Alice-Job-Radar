@@ -19,8 +19,17 @@ class RecoveryTests(unittest.TestCase):
         self.assertEqual(due_slots(now, data), ['09:30'])
     def test_completed_recovery_is_idempotent(self):
         coverage = {str(i): {'indexPagesAccessible': 5} for i in range(20)}
-        data = {'audit': {'date': '2026-11-17', 'runs': {'09:30': {'status': 'partial', 'regionCoverage': coverage, 'requiredSourcesChecked': 3, 'catalogSearchDiagnostics': {'catalogSourcesAccountedFor': 263}, 'completedAt': '2026-11-17T09:40:00Z'}}}}
+        data = {'audit': {'date': '2026-11-17', 'runs': {'09:30': {'status': 'partial', 'regionCoverage': coverage, 'requiredSourcesChecked': 3, 'catalogSearchDiagnostics': {'catalogSourcesAccountedFor': 263}, 'primaryPortalAttempts': {'LinkedIn Jobs':24,'Indeed Italia':24}, 'universalDetailGate': {'candidatePagesAttempted':4}, 'completedAt': '2026-11-17T09:40:00Z'}}}}
         self.assertEqual(due_slots(datetime(2026,11,17,10,tzinfo=ROME), data), [])
+    def test_catalog_only_is_not_a_completed_scan(self):
+        coverage = {str(i): {'indexPagesAccessible': 5} for i in range(20)}
+        run = {'status': 'partial', 'regionCoverage': coverage,
+               'catalogSearchDiagnostics': {'catalogSourcesAccountedFor': 263},
+               'primaryPortalAttempts': {'LinkedIn Jobs':24,'Indeed Italia':24},
+               'completedAt':'2026-11-23T14:30:01Z'}
+        data = {'audit': {'date':'2026-11-23', 'runs':{'15:30':run}}}
+        self.assertEqual(due_slots(datetime(2026,11,23,16,10,tzinfo=ROME),data), ['09:30','15:30'])
+
     def test_two_ats_portals_are_not_full_catalog_scan(self):
         coverage = {str(i): {'indexPagesAccessible': 5} for i in range(20)}
         run = {'status': 'partial', 'regionCoverage': coverage,
