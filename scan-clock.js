@@ -78,6 +78,12 @@
       for (const {slot,run} of slots.value) {
         const primary = runs[slot];
         const newListings = directJobs.filter(j => j.date === day && j.firstSeenRun === slot).length;
+        // An explicitly requested rescan replaces the scheduled slot audit with
+        // its real completion time and result; older counters must not be added.
+        if (run.replacesScheduledSlot === slot) {
+          runs[slot] = {...run, newJobs: listings.status === "fulfilled" ? newListings : run.newJobs};
+          continue;
+        }
         if (run.status === "partial" && ["complete","partial"].includes(primary?.status) && primary.engine !== run.engine) {
           const sourcesChecked = [...new Set([...(primary.sourcesChecked || []), ...run.sourcesChecked])];
           runs[slot] = {...primary, sourcesChecked,
