@@ -55,7 +55,8 @@ def check_board(item):
                     rows.append((company,"employer",dict(title=clean(job.get("title")),company=company,
                         place=address.get("addressLocality") or "Italia",url=link,
                         details=desc[max(0,mode.start()-90):mode.end()+140] if mode else desc[:300],
-                        mode="Da remoto" if tele else "Smart working previsto")))
+                        mode="Da remoto" if tele else "Smart working previsto",
+                        telecommuteEvidence=bool(tele))))
     except (OSError,ValueError) as exc:
         log["outcome"]="unavailable: "+str(exc)[:120]
     return rows,log
