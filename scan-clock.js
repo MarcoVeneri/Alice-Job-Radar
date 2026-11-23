@@ -78,6 +78,12 @@
       for (const {slot,run} of slots.value) {
         const primary = runs[slot];
         const newListings = directJobs.filter(j => j.date === day && j.firstSeenRun === slot).length;
+        // A user-requested replacement scan supersedes the earlier slot record,
+        // even when the former had a higher adapter count. Never claim full coverage.
+        if (run.supersedesScheduled === true && ['partial','complete'].includes(run.status)) {
+          runs[slot] = {...run, newJobs: listings.status === 'fulfilled' ? newListings : run.newJobs};
+          continue;
+        }
         // An explicitly requested rescan replaces the scheduled slot audit with
         // its real completion time and result; older counters must not be added.
         if (run.replacesScheduledSlot === slot) {
