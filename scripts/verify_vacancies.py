@@ -164,7 +164,7 @@ def verify_candidate(candidate, kind, raw):
         # These adapters opened the individual posting, parsed the full
         # description and confirmed its status and modality already.
         desc = str(raw.get("details") or "")
-        if not _mode(desc):
+        if not (_mode(desc) or raw.get("telecommuteEvidence") is True):
             return "unconfirmed", "source adapter lacks remote/hybrid evidence"
         return "verified", candidate["url"]
     # Generic feeds/aggregators are discovery only until the actual detail
@@ -225,6 +225,7 @@ def self_test():
     assert verify_candidate({**candidate,"url":"https://esempio.it/careers"}, "employer",
                             {"details":"lavoro ibrido"})[0] != "verified"
     assert verify_candidate(candidate,"employer",{"details":"lavoro ibrido"})[0]=="verified"
+    assert verify_candidate(candidate,"employer",{"details":"Descrizione", "telecommuteEvidence":True})[0]=="verified"
     print("Universal original-vacancy gate and exclusion rules: OK")
 
 if __name__=="__main__":
