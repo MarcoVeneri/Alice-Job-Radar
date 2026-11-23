@@ -12,9 +12,9 @@
 <link rel="manifest" href="./manifest.webmanifest?v=647">
 <link rel="apple-touch-icon" href="./icon.svg?v=647">
 <title>Alice Job Radar</title>
-<script src="./scan-clock.js?v=5"></script>
+<script src="./scan-clock.js?v=653"></script>
 <script src="./config.js?v=647"></script>
-<script src="./audit-fix.js?v=652"></script>
+<script src="./audit-fix.js?v=653"></script>
 <style>
 :root{
   --bg:#f5f6fb;
@@ -849,7 +849,7 @@ setInterval(()=>{if(document.visibilityState==="visible")load()},60*1000);
 if('serviceWorker' in navigator){
   window.addEventListener('load',async()=>{
     try{
-      const r=await navigator.serviceWorker.register('./sw.js?v=652',{updateViaCache:'none'});
+      const r=await navigator.serviceWorker.register('./sw.js?v=653',{updateViaCache:'none'});
       await r.update();
     }catch(e){}
   });
