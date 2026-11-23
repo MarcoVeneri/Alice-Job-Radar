@@ -13,6 +13,8 @@ on:
     branches: [main]
     paths:
       - 'scripts/scan_backup.py'
+      - 'scripts/catalog_scout.py'
+      - 'scripts/test_scan_recovery.py'
       - 'scripts/verify_vacancies.py'
       - 'scripts/linkedin_search.py'
       - 'scripts/indexed_jobs.py'
@@ -43,13 +45,14 @@ jobs:
       - name: Validate Python, data, and frontend JavaScript
         shell: bash
         run: |
-          python -m py_compile scripts/scan_backup.py scripts/merge_scan_result.py scripts/verify_vacancies.py scripts/linkedin_search.py scripts/indexed_jobs.py
+          python -m py_compile scripts/scan_backup.py scripts/merge_scan_result.py scripts/verify_vacancies.py scripts/linkedin_search.py scripts/indexed_jobs.py scripts/catalog_scout.py
           python scripts/merge_scan_result.py --self-test
           python scripts/jobsora_extract.py --self-test
           python scripts/scan_backup.py --self-test
           python scripts/verify_vacancies.py
           python scripts/indexed_jobs.py
           python scripts/test_scan_recovery.py
+          python scripts/catalog_scout.py
           python -m json.tool data/jobs.json >/dev/null
           node --check config.js
           node --check sw.js
