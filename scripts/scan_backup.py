@@ -327,6 +327,8 @@ def self_test():
                 assert choose_slot(date.replace(hour=hour,minute=minute),
                                    trigger == "schedule",trigger) == expected
     assert len(REGIONS)==20 and len(REGIONAL_ROLES)==5
+    from linkedin_search import self_test as primary_portal_test
+    primary_portal_test()
     print("Delayed scheduler recovery, winter/summer slots: OK")
 
 
@@ -376,18 +378,21 @@ def main(slot_override=None):
         "startedAt":now, "newJobs":0, "queriesRun":0,
         "note":"Recupero automatico avviato; risultati ancora da verificare."}
     BASE.write_text(json.dumps(data, indent=2, ensure_ascii=False)+"\n",encoding="utf-8")
-    rows, logs = feed_rows()
+    # Priority: search LinkedIn and Indeed independently BEFORE slower generic feeds.
+    # If the rest of the national sweep fails, their real attempt logs still exist.
     from linkedin_search import discover
     from tuscany_boards import discover_boards
     historical = [run for audit in data.get("auditHistory", []) + [data["audit"]] for run in audit.get("runs", {}).values() if isinstance(run,dict)]
     if previous_slot: historical.append(previous_slot)
     previous_logs = [log for run in sorted(historical,key=lambda r:r.get("completedAt") or "") for log in run.get("searchLog",[]) if isinstance(log,dict)]
     linkedin_rows, linkedin_logs = discover(previous_logs)
+    rows, logs = list(linkedin_rows), list(linkedin_logs)
+    feed_items, feed_logs = feed_rows()
+    rows.extend(feed_items)
+    logs.extend(feed_logs)
     direct_rows, direct_logs = discover_boards()
     rows.extend(direct_rows)
     logs.extend(direct_logs)
-    rows.extend(linkedin_rows)
-    logs.extend(linkedin_logs)
     regional_coverage, regional_logs, candidate_postings = region_discovery()
     checked_regional = verify_many(candidate_postings,today,now)
     verified_regional = [j for j in checked_regional if j.get("remote") is True and j.get("workMode") != "Da verificare"]
@@ -397,8 +402,14 @@ def main(slot_override=None):
             regional_coverage[region].get("detailPagesVerified",0)+1)
     successes = [x for x in logs if x["outcome"].startswith("success:")]
     found_accessible = any(x["indexPagesAccessible"] for x in regional_coverage.values())
-    feed_names = lambda entries: sorted({x["source"].split("-")[0] for x in entries})
-    checked_sources = feed_names(successes) + (["Jobsora"] if found_accessible else [])
+    checked_sources = sorted({x["source"] for x in successes} |
+                             ({"Jobsora"} if found_accessible else set()))
+    primary_attempts = {p: sum(1 for log in logs if log["source"] == p
+                        and log.get("method") == "direct_public_cards")
+                        for p in ("LinkedIn Jobs", "Indeed Italia")}
+    primary_verified = {p: sum(log.get("specificJobPagesVerified", 0)
+                        for log in logs if log["source"] == p)
+                        for p in primary_attempts}
     if not successes and not found_accessible:
         print("All national sources unavailable: recording a failed audit honestly")
     old = data.get("jobs", [])
@@ -441,15 +452,19 @@ def main(slot_override=None):
            "indexedFallbackSourcesChecked": [x["source"] for x in successes],
            "sourcesUnavailable": sorted({x["source"] for x in logs if not x["outcome"].startswith("success:")} - {x["source"] for x in successes}),
            "queriesRun": len(logs) + len(regional_logs) + len(candidate_postings),
-           "specificJobPagesOpened":len(candidate_postings),
-           "specificJobPagesVerified":len(checked_regional),
+           "primaryPortalAttempts":primary_attempts,
+           "primaryPortalVerified":primary_verified,
+           "specificJobPagesOpened":len(candidate_postings)+sum(
+               log.get("specificJobPagesOpened", 0) for log in logs),
+           "specificJobPagesVerified":len(checked_regional)+sum(
+               log.get("specificJobPagesVerified", 0) for log in logs),
            "excludedUnconfirmedSmartWorking":len(checked_regional)-len(verified_regional),
            "newRegionalJobs":regional_added,
            "newJobs":len(added),
            "regionsTarget": 20, "regionsAttempted": [x[0] for x in REGIONS],
            "regionCoverage": regional_coverage,
            "activeJobs": sum(j.get("active", True) is not False for j in old),
-           "searchLog": logs + regional_logs, "note": "Nationwide 20-region indexed search attempts plus public feeds; regional listing searches do NOT verify individual vacancies. Partial coverage, not a full scan of all providers."}
+           "searchLog": logs + regional_logs, "note": "LinkedIn and Indeed searched independently first; detail-verified jobs only. Remaining national indexed queries and public feeds are discovery, NOT 238 verified sources. Coverage stays partial."}
     existing = previous_slot
     # Keep a more thorough scan published by the ChatGPT automation: this
     # 5-provider fallback must not erase its research on the same slot.
