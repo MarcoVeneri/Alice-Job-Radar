@@ -301,14 +301,17 @@ def prepare():
 
 
 def drain():
-    # Snapshot both outstanding slots: a late afternoon start must also recover morning.
+    # Recover due scheduled slots FIRST. The old implementation performed a
+    # whole manual national scan before the scheduled run on every push;
+    # that could exhaust the runner timeout before 15:30 was ever recorded.
     slots = due_slots(datetime.now(ROME), json.loads(BASE.read_text(encoding="utf-8")))
-    # A scanner push requests a separate immediate national sweep even when a
-    # scheduled slot is due; never mistake that sweep for the scheduled audit.
-    if os.environ.get("GITHUB_EVENT_NAME") == "push":
+    if slots:
+        for slot in slots:
+            main(slot)
+    elif os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
+        # An explicit manual dispatch may run a separate sweep, but a push
+        # must never shadow or delay the two scheduled slots.
         main("manual_national")
-    for slot in slots:
-        main(slot)
     # Preserve the national results if the independent source is temporarily offline.
     from publish_direct_jobs import main as publish_direct_jobs
     try:
@@ -333,6 +336,10 @@ def self_test():
             for trigger in ("schedule", "push", "workflow_dispatch"):
                 assert choose_slot(date.replace(hour=hour,minute=minute),
                                    trigger == "schedule",trigger) == expected
+    # A normal push must prioritize due scheduled work over duplicate manual sweeps.
+    assert due_slots(datetime(2026,11,23,15,57,tzinfo=ROME),
+                     {"audit":{"date":"2026-11-23","runs":{
+                      "09:30":{"status":"complete"}}}})==["15:30"]
     assert len(REGIONS)==20 and len(REGIONAL_ROLES)==5
     from linkedin_search import self_test as primary_portal_test
     from verify_vacancies import self_test as all_sources_test
