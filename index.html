@@ -363,7 +363,6 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
  .app{width:100%;min-width:0}
  .card{min-width:0}
 }
-@media(max-width:480px){
 /* v6.47: real-time result and distinct audit slots */
 .runChip{min-height:123px;justify-content:flex-start}
 .runChip .runLine{width:100%;display:flex;justify-content:space-between;align-items:center;gap:7px}
@@ -424,12 +423,24 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
 .jobs .card .miniAction{width:44px;height:44px;box-shadow:none}
 .jobs .card .open{width:auto;min-height:44px;height:auto;padding:10px 14px;border-radius:12px;box-shadow:none}
 @media(prefers-color-scheme:dark){.jobs .card{background:#1c1c1e}}
+@media(min-width:769px){
+ .app{width:100%;max-width:1200px;padding-inline:20px}
+ .top{grid-template-columns:minmax(0,1fr) auto auto;gap:24px}
+ .hero h1{font-size:36px}
+ .encourage{font-size:28px}
+ .topActions{gap:10px;position:relative;z-index:12}
+ .topActions .refreshTop,.topActions .searchTop{width:44px;height:44px;flex-basis:44px}
+ .jobs{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:16px}
+ .jobs .empty{grid-column:1/-1}
+ .jobs .card,.search,.search input{min-width:0}
+ .runChip .runSummary{white-space:normal;overflow-wrap:anywhere}
+}
 </style>
 <script id="alice-build-647">
 (function(){
   try{
     const u=new URL(location.href);
-    if(u.searchParams.get('ajr')!=='647'){u.searchParams.set('ajr','647');location.replace(u.toString());return;}
+    if(u.searchParams.get('ajr')!=='654'){u.searchParams.set('ajr','654');location.replace(u.toString());return;}
   }catch(e){}
 })();
 </script>
@@ -849,7 +860,7 @@ setInterval(()=>{if(document.visibilityState==="visible")load()},60*1000);
 if('serviceWorker' in navigator){
   window.addEventListener('load',async()=>{
     try{
-      const r=await navigator.serviceWorker.register('./sw.js?v=653',{updateViaCache:'none'});
+      const r=await navigator.serviceWorker.register('./sw.js?v=654',{updateViaCache:'none'});
       await r.update();
     }catch(e){}
   });
