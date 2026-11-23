@@ -622,6 +622,8 @@ async function toggleApplied(id){
 }
 function resetTopFilters(){statFilter="";document.querySelectorAll(".stat").forEach(x=>x.classList.remove("active"))}
 function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function isAggregator(u){try{return /(^|\.)foundrole\.(com|ai|io|net)$/i.test(new URL(u).hostname)||/foundrole/i.test(new URL(u).hostname)}catch{return false}}
+function applicationLink(j){if(!isAggregator(j.url))return j.url;for(const u of [j.originalUrl,j.applyUrl,j.applicationUrl,j.directUrl,j.original_url,j.apply_url,j.application_url,j.direct_url]){try{if(/^https?:$/.test(new URL(u).protocol)&&!isAggregator(u))return u}catch{}}return "https://www.google.com/search?q="+encodeURIComponent([j.company,j.title,j.location,"careers lavoro candidatura -site:foundrole.com -site:foundrole.ai"].filter(Boolean).join(" "))}
 function fmtDateTime(iso){try{return new Intl.DateTimeFormat("it-IT",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit",timeZone:"Europe/Rome"}).format(new Date(iso))}catch(e){return iso}}
 function ageHours(iso){const t=Date.parse(iso);return Number.isFinite(t)?(Date.now()-t)/36e5:Infinity}
 function latestRun(){
@@ -730,7 +732,7 @@ function render(){
         <button class="miniAction appliedToggle ${applied?"applied":""}" aria-pressed="${applied}" data-applied="${esc(j.id)}" type="button" aria-label="${applied?"Rimuovi stato candidata":"Segna come candidata"}" title="${applied?"Già candidata":"Segna come candidata"}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></button>
         <button class="miniAction delete" data-delete="${esc(j.id)}" type="button" aria-label="Elimina offerta" title="Non mostrare più"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3m-8 0 1 13h8l1-13M10 11v5m4-5v5"/></svg></button>
       </div>
-      <a class="open ${applied?"appliedOpen":""}" href="${esc(j.url)}" target="_blank" rel="noopener">${applied?"✓ Già candidata · Apri":"Apri annuncio →"}</a>
+      <a class="open ${applied?"appliedOpen":""}" href="${esc(applicationLink(j))}" target="_blank" rel="noopener">${isAggregator(j.url)&&applicationLink(j)!==j.url?"Cerca annuncio originale →":(applied?"✓ Già candidata · Apri":"Apri annuncio →")}</a>${isAggregator(j.url)?`<a href="${esc(j.url)}" target="_blank" rel="noopener" style="font-size:12px">Fonte importata (aggregatore)</a>`:""}
     </div>
   </article>`;
  }).join("");
@@ -860,7 +862,7 @@ setInterval(()=>{if(document.visibilityState==="visible")load()},60*1000);
 if('serviceWorker' in navigator){
   window.addEventListener('load',async()=>{
     try{
-      const r=await navigator.serviceWorker.register('./sw.js?v=654',{updateViaCache:'none'});
+      const r=await navigator.serviceWorker.register('./sw.js?v=655',{updateViaCache:'none'});
       await r.update();
     }catch(e){}
   });
