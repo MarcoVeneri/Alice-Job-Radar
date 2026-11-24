@@ -50,7 +50,8 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://www.monster.it/lavoro/cerca?q=ufficio-gare"
     },
     {
       "name": "Glassdoor Jobs",
@@ -61,7 +62,8 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://www.glassdoor.it/Lavoro/italia-ufficio-gare-lavori-SRCH_IL.0,6_IN120_KO7,18.htm"
     },
     {
       "name": "Jooble Italia",
@@ -72,7 +74,8 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://it.jooble.org/lavoro-ufficio-gare"
     },
     {
       "name": "Talent.com Italia",
@@ -94,7 +97,8 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://www.careerjet.it/offerte-lavoro-ufficio-gare.html"
     },
     {
       "name": "Adzuna Italia",
@@ -217,7 +221,8 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://www.subito.it/annunci-italia/vendita/offerte-lavoro/?q=ufficio%20gare"
     },
     {
       "name": "Helplavoro",
@@ -294,7 +299,8 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://eures.europa.eu/index_it"
     },
     {
       "name": "ARTI Toscana / Toscana Lavoro",
@@ -306,7 +312,8 @@
       "zeroResultStreak": 20,
       "validVacancies": 1,
       "newVacancies": 1,
-      "lastProductiveAt": "2026-10-30T16:03:00+01:00"
+      "lastProductiveAt": "2026-10-30T16:03:00+01:00",
+      "url": "https://lavoro.regione.toscana.it/ToscanaLavoro/"
     },
     {
       "name": "Cliclavoro / servizi Ministero",
@@ -362,7 +369,8 @@
       "zeroResultStreak": 2,
       "validVacancies": 3,
       "newVacancies": 3,
-      "lastProductiveAt": "2026-11-08T15:42:00+01:00"
+      "lastProductiveAt": "2026-11-08T15:42:00+01:00",
+      "url": "https://www.randstad.it/offerte-lavoro/q-ufficio-gare/"
     },
     {
       "name": "Adecco Italia",
@@ -374,7 +382,8 @@
       "zeroResultStreak": 0,
       "validVacancies": 14,
       "newVacancies": 14,
-      "lastProductiveAt": "2026-11-11T15:37:45+01:00"
+      "lastProductiveAt": "2026-11-11T15:37:45+01:00",
+      "url": "https://www.adecco.it/offerte-lavoro"
     },
     {
       "name": "Manpower Italia",
@@ -386,7 +395,8 @@
       "zeroResultStreak": 21,
       "validVacancies": 2,
       "newVacancies": 2,
-      "lastProductiveAt": "2026-10-30T10:01:00+01:00"
+      "lastProductiveAt": "2026-10-30T10:01:00+01:00",
+      "url": "https://www.manpower.it/it/annunci-lavoro"
     },
     {
       "name": "Gi Group",
@@ -398,7 +408,8 @@
       "zeroResultStreak": 0,
       "validVacancies": 2,
       "newVacancies": 2,
-      "lastProductiveAt": "2026-11-09T16:12:00+01:00"
+      "lastProductiveAt": "2026-11-09T16:12:00+01:00",
+      "url": "https://www.gigroup.it/offerte-lavoro/"
     },
     {
       "name": "Grafton",
@@ -3121,6 +3132,24 @@
       "tier": "B",
       "url": "https://careers.smartrecruiters.com/TurnerTownsend",
       "smartRecruitersAccount": "TurnerTownsend"
+    },
+    {
+      "name": "Jobtome",
+      "type": "aggregator",
+      "tier": "A",
+      "url": "https://it.jobtome.com/"
+    },
+    {
+      "name": "FoundRole",
+      "type": "aggregator",
+      "tier": "A",
+      "url": "https://www.foundrole.com/"
+    },
+    {
+      "name": "Jobicy",
+      "type": "remote",
+      "tier": "A",
+      "url": "https://jobicy.com/jobs"
     }
   ],
   "discoveryRules": [

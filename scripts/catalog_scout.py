@@ -11,13 +11,14 @@ from datetime import date, datetime, timezone
 import json
 import re
 from pathlib import Path
-from urllib.parse import urlencode, urlsplit
+from html.parser import HTMLParser
+from urllib.parse import urlencode, urljoin, urlsplit
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree
 
 from jobsora_extract import ROLE, clean
 from linkedin_search import MODE, NEGATIVE, EXPIRED, _json_ld_jobs
-from verify_vacancies import _role, _eligible_country
+from verify_vacancies import _role, _eligible_country, _matching, BLOCKED
 
 IGNORED = {"LinkedIn Jobs", "Indeed Italia"}
 SOURCE = Path("data/source_catalog.json")
@@ -40,6 +41,36 @@ def _host(item) -> str:
     if not domain:
         domain = urlsplit(str(item.get("url") or "")).hostname or ""
     return domain.removeprefix("www.").strip(".")
+
+
+class ListingLinks(HTMLParser):
+    def __init__(self, base):
+        super().__init__()
+        self.base = base
+        self.href = ""
+        self.label = []
+        self.links = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "a":
+            attrs = dict(attrs)
+            self.href = urljoin(self.base, attrs.get("href") or "")
+            self.label = [attrs.get("title") or "", attrs.get("aria-label") or ""]
+
+    def handle_data(self, data):
+        if self.href:
+            self.label.append(data)
+
+    def handle_endtag(self, tag):
+        if tag != "a" or not self.href:
+            return
+        parsed = urlsplit(self.href)
+        title = " ".join(self.label) + " " + parsed.path.replace("-", " ")
+        if (parsed.scheme == "https" and parsed.hostname == urlsplit(self.base).hostname
+                and self.href != self.base and _role({"title": title})
+                and self.href not in self.links):
+            self.links.append(self.href)
+        self.href = ""
 
 
 def _rss_links(source):
@@ -67,16 +98,16 @@ def _rss_links(source):
               r"ufficio gare|back.office|bid|proposal|sales operations|"
               r"project (support|coordinator)|procurement|gestione ordini", title, re.I)):
             continue
-        if host and host not in parsed.hostname.lower():
+        if host and not (parsed.hostname == host or parsed.hostname.endswith("." + host)):
             continue
         if link not in out:
             out.append(link)
-    return url, out[:2]
+    return url, out
 
 
-def _original_posting(url):
+def _original_posting(url, *, allow_publisher=True):
     page = _read(url)
-    if EXPIRED.search(page[:140000]):
+    if BLOCKED.search(page[:3000]) or EXPIRED.search(page[:140000]):
         return None
     for job in _json_ld_jobs(page):
         title = clean(job.get("title"))
@@ -104,6 +135,21 @@ def _original_posting(url):
                 place = clean(address.get("addressLocality") or address.get("addressRegion"))
         evidence = (details[max(0, mode_match.start()-100):mode_match.end()+150]
                     if mode_match else details[:180])
+        if not allow_publisher:
+            # Some aggregators expose the original ATS URL in JobPosting.url.
+            target = job.get("url")
+            host = (urlsplit(target).hostname or "") if isinstance(target, str) else ""
+            trusted = ("greenhouse.io", "lever.co", "myworkdayjobs.com", "ashbyhq.com",
+                       "smartrecruiters.com", "teamtailor.com", "recruitee.com",
+                       "linkedin.com", "indeed.com")
+            if not target or target == url or not any(host == h or host.endswith("." + h) for h in trusted):
+                continue
+            original = _original_posting(target)
+            if original and _matching(original, title, company):
+                return original
+            continue
+        if not re.search(r"(?i)\b(apply|candidati|candidarsi|invia (?:il |la )?(?:cv|candidatura))\b", page):
+            continue
         return {"title": title, "company": company,
                 "place": place or "Italia / Europa (da confermare)",
                 "url": url, "details": evidence,
@@ -122,24 +168,44 @@ def _probe(item):
     if name in IGNORED or item.get("smartRecruitersAccount"):
         log["outcome"] = "handled_by_primary_or_ats_adapter"
         return [], log
+    links = []
+    base = item.get("url")
+    log["directOutcome"] = "no_configured_endpoint"
+    if base:
+        log["evidenceUrls"].append(base)
+        try:
+            parser = ListingLinks(base)
+            parser.feed(_read(base))
+            links = parser.links
+            log["directOutcome"] = "candidate_links" if links else "no_readable_role_links"
+        except (OSError, ValueError) as exc:
+            log["directOutcome"] = "unavailable: " + str(exc)[:130]
     try:
-        search_url, links = _rss_links(item)
-        log["evidenceUrls"] = [search_url]
-        log["candidateLinksFound"] = len(links)
+        search_url, indexed = _rss_links(item)
+        log["evidenceUrls"].append(search_url)
+        log["indexedLinksFound"] = len(indexed)
+        links = list(dict.fromkeys(links + indexed))
     except Exception as exc:
-        log["outcome"] = "unavailable: indexed discovery " + str(exc)[:130]
-        return [], log
+        log["indexError"] = str(exc)[:130]
+    log["candidateLinksFound"] = len(links)
     rows = []
     for link in links:
-        log["specificJobPagesOpened"] += 1
+        log["specificJobPagesAttempted"] = log.get("specificJobPagesAttempted", 0) + 1
         try:
-            detail = _original_posting(link)
+            # Aggregators are discovery sources; only publish an employer,
+            # recruiting agency, ATS, LinkedIn or Indeed application page.
+            kind = str(item.get("type", "")).lower()
+            publisher = (kind in {"agency", "recruiter", "recruitment agency", "ats"}
+                         or kind.startswith("company") and "aggregator" not in kind)
+            detail = _original_posting(link, allow_publisher=publisher)
+            log["specificJobPagesOpened"] += 1
             if detail:
                 rows.append((name, "employer", detail))
                 log["specificJobPagesVerified"] += 1
         except Exception:
             continue
     log["outcome"] = ("success: verified original vacancy" if rows
+                      else "unavailable: discovery failed" if "indexError" in log and not links
                       else "unconfirmed: no verified original posting")
     return rows, log
 
