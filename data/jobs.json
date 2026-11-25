@@ -17836,7 +17836,7 @@
         "status": "running",
         "engine": "github_backup",
         "scheduledFor": "2026-11-25T09:30:00+01:00",
-        "startedAt": "2026-11-25T17:56:25.245187+00:00",
+        "startedAt": "2026-11-25T18:08:51.962849+00:00",
         "queriesRun": 0,
         "newJobs": 0,
         "note": "Scansione avviata; checkpoint pubblicato prima delle richieste alle fonti."
@@ -17845,7 +17845,7 @@
         "status": "running",
         "engine": "github_backup",
         "scheduledFor": "2026-11-25T15:30:00+01:00",
-        "startedAt": "2026-11-25T17:56:25.245198+00:00",
+        "startedAt": "2026-11-25T18:08:51.962859+00:00",
         "queriesRun": 0,
         "newJobs": 0,
         "note": "Scansione avviata; checkpoint pubblicato prima delle richieste alle fonti."
