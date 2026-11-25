@@ -35,7 +35,15 @@
         line.textContent = "Ricerca preliminare catalogo alle " + formatter.format(new Date(row.started_at)) +
           " · " + progress + " · " + row.processed + "/" + row.sources + " esiti (" +
           row.attempted + " richieste) · " + row.unavailable +
-          " indisponibili · annunci da verificare";
+          " indisponibili";
+        const worker = slots.status === "fulfilled" && slots.value.find(x => x.slot === slot)?.run?.priorityWorker;
+        if (worker) {
+          line.textContent += " · LinkedIn/Indeed: " + worker.searchesAttempted + "/" +
+            worker.searchesTotal + " ricerche dirette · " + worker.detailsAttempted + "/" +
+            worker.detailsTotal + " annunci controllati · " + worker.published + " pubblicati";
+        } else {
+          line.textContent += " · annunci da verificare";
+        }
       }
     }
     const result = {...payload};
