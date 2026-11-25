@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from job_url import job_url
+from job_schema import normalize_catalog, write_catalog, self_test as schema_self_test
 import hashlib
 import os
 from concurrent.futures import ThreadPoolExecutor
@@ -287,8 +288,11 @@ def prepare():
     """Persist start before network work; the workflow publishes this checkpoint."""
     rome = datetime.now(ROME)
     data = json.loads(BASE.read_text(encoding="utf-8"))
+    repaired = normalize_catalog(data)
     slots = due_slots(rome, data)
     if not slots:
+        if repaired:
+            write_catalog(BASE, data)
         return
     today = rome.date().isoformat()
     previous = data.get("audit", {})
@@ -308,7 +312,7 @@ def prepare():
             "startedAt": datetime.now(timezone.utc).isoformat(),
             "queriesRun": 0, "newJobs": 0,
             "note": "Scansione avviata; checkpoint pubblicato prima delle richieste alle fonti."}
-    BASE.write_text(json.dumps(data, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
+    write_catalog(BASE, data)
 
 
 def drain():
@@ -340,6 +344,7 @@ def candidate_source_coverage_self_test():
 
 
 def self_test():
+    schema_self_test()
     for month in (1, 7, 11):
         date = datetime(2026, month, 16, tzinfo=ROME)
         for hour, minute, expected in [(9,29,None),(9,30,"09:30"),
@@ -378,7 +383,7 @@ def record_failure():
         if run.get("status") == "running" and run.get("engine") == "github_backup":
             run.update(status="failed", completedAt=datetime.now(timezone.utc).isoformat(),
                        note="Recupero interrotto prima della pubblicazione dei risultati. Controlli non confermati.")
-    BASE.write_text(json.dumps(data, indent=2, ensure_ascii=False)+"\n",encoding="utf-8")
+    write_catalog(BASE, data)
 
 
 def main(slot_override=None):
@@ -416,7 +421,7 @@ def main(slot_override=None):
         "status":"running", "engine":"github_backup", "scheduledFor":scheduled_for,
         "startedAt":now, "newJobs":0, "queriesRun":0,
         "note":"Recupero automatico avviato; risultati ancora da verificare."}
-    BASE.write_text(json.dumps(data, indent=2, ensure_ascii=False)+"\n",encoding="utf-8")
+    write_catalog(BASE, data)
     # Priority: search LinkedIn and Indeed independently BEFORE slower generic feeds.
     # If the rest of the national sweep fails, their real attempt logs still exist.
     from linkedin_search import discover
@@ -642,7 +647,7 @@ def main(slot_override=None):
     if successes or found_accessible:
         data["generatedAt"] = now
     data["manualRefresh"] = data.get("manualRefresh")  # do not alter separate manual scan
-    BASE.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    write_catalog(BASE, data)
     print(f"Nationwide: {len(REGIONS)} regions, {len(regional_logs)} listing checks, "
           f"{len(candidate_postings)} detail page attempts, {len(verified_regional)} valid aggregator details, "
           f"{regional_added} new regional jobs, {len(added)} overall new, {len(old)} total, slot={slot}")

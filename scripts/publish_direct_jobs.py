@@ -1,5 +1,6 @@
 """Include direct-board listings in the same catalogue consumed by every app version."""
 from job_url import job_url
+from job_schema import write_catalog
 import json
 import re
 from pathlib import Path
@@ -45,7 +46,7 @@ def main():
     path = Path('data/jobs.json')
     data = json.loads(path.read_text())
     merge(data, rows)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
+    write_catalog(path, data)
 
 
 if __name__ == '__main__':

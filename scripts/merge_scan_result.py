@@ -2,6 +2,7 @@
 """Safely merge a completed scan with a newer GitHub main after a rejected push."""
 from __future__ import annotations
 from job_url import job_url
+from job_schema import normalize_catalog, write_catalog
 import json
 import sys
 from pathlib import Path
@@ -70,6 +71,7 @@ def combine(latest, scanned):
     scan_ts = str(scanned.get("generatedAt", ""))
     if scan_ts > old_ts:
         out["generatedAt"] = scan_ts
+    normalize_catalog(out)
     return out
 
 def self_test():
@@ -112,8 +114,7 @@ if __name__ == "__main__":
         scan_file, latest_file = map(Path, sys.argv[1:])
         merged = combine(json.loads(latest_file.read_text(encoding="utf-8")),
                          json.loads(scan_file.read_text(encoding="utf-8")))
-        latest_file.write_text(json.dumps(merged, ensure_ascii=False, indent=2) + "\n",
-                               encoding="utf-8")
+        write_catalog(latest_file, merged)
         print(f"Merged concurrent scan: {len(merged['jobs'])} jobs")
     else:
         raise SystemExit("Usage: merge_scan_result.py --self-test | SCAN_JSON LATEST_JSON")
