@@ -1,7 +1,7 @@
-const VERSION="654";
-const CACHE=`alice-job-radar-native-v${VERSION}-smartonly654`;
-const SHELL=["./scan-clock.js?v=654","./?ajr=654","./index.html?ajr=654","./config.js?v=654","./audit-fix.js?v=654","./manifest.webmanifest?v=654","./icon.svg?v=654"];
-function fresh(url){const u=new URL(url,self.registration.scope);u.searchParams.set("__ajr","smartonly654");u.searchParams.set("__t",Date.now().toString());return fetch(u.toString(),{cache:"no-store",credentials:"same-origin"})}
+const VERSION="655";
+const CACHE=`alice-job-radar-native-v${VERSION}-smartonly655`;
+const SHELL=["./scan-clock.js?v=655","./?ajr=655","./index.html?ajr=655","./config.js?v=655","./audit-fix.js?v=655","./manifest.webmanifest?v=655","./icon.svg?v=655"];
+function fresh(url){const u=new URL(url,self.registration.scope);u.searchParams.set("__ajr","smartonly655");u.searchParams.set("__t",Date.now().toString());return fetch(u.toString(),{cache:"no-store",credentials:"same-origin"})}
 async function mergedJobs(request){
  // The published jobs.json is authoritative. Recovery files are history only:
  // merging them here resurrected excluded, on-site vacancies.
@@ -16,7 +16,7 @@ self.addEventListener("fetch",e=>{
   e.respondWith((async()=>{try{const merged=await mergedJobs(e.request);if(merged.ok){const c=await caches.open(CACHE);c.put("./data/jobs.json",merged.clone()).catch(()=>{})}return merged}catch(_){return(await caches.match("./data/jobs.json"))||Response.error()}})());return;
  }
  if(e.request.mode==="navigate"){
-  e.respondWith((async()=>{try{const live=new URL(e.request.url);live.searchParams.set("ajr","654");live.searchParams.set("__t",Date.now().toString());const r=await fetch(live.toString(),{cache:"no-store",credentials:"same-origin"});if(r.ok){const c=await caches.open(CACHE);c.put("./index.html?ajr=654",r.clone()).catch(()=>{});return r}}catch(_){}return(await caches.match("./index.html?ajr=654"))||(await caches.match("./?ajr=654"))||Response.error()})());return;
+  e.respondWith((async()=>{try{const live=new URL(e.request.url);live.searchParams.set("ajr","655");live.searchParams.set("__t",Date.now().toString());const r=await fetch(live.toString(),{cache:"no-store",credentials:"same-origin"});if(r.ok){const c=await caches.open(CACHE);c.put("./index.html?ajr=655",r.clone()).catch(()=>{});return r}}catch(_){}return(await caches.match("./index.html?ajr=655"))||(await caches.match("./?ajr=655"))||Response.error()})());return;
  }
  if(u.origin===self.location.origin){e.respondWith((async()=>{try{return await fetch(e.request,{cache:"no-store"})}catch(_){return(await caches.match(e.request,{ignoreSearch:true}))||Response.error()}})())}
 });
