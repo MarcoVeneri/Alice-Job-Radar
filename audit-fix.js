@@ -120,6 +120,10 @@ function syncLabels(){
 }
 function runLabel(a,r){
   const jobs=a.newJobs===1?"1 nuova":a.newJobs+" nuove";
+  if (r?.coordinationVersion >= 1 && r.coordination) {
+    const d=r.coordination;
+    return jobs+" · "+d.directSources+" fonti dirette · "+d.indexedOnly+" indicizzate";
+  }
   const verified=finiteCount(r?.universalDetailGate?.verified)??finiteCount(r?.specificJobPagesVerified)??0;
   return jobs+" · "+(verified?verified+" annunci verificati":a.explored+" fonti con esito");
 }
@@ -160,7 +164,7 @@ function paint(audit,history=[],jobs=null){
       }else{
         const a=auditNumbers(r);
         fullDetail=a.explored+"/"+a.total+" fonti esplorate · "+a.queries+" controlli · "+a.newJobs+" nuove";
-        time=actualTime(r.completedAt||r.startedAt||r.scheduledFor);
+        time=actualTime((r.status==="running"||r.status==="in_progress")?r.startedAt:(r.completedAt||r.startedAt||r.scheduledFor));
         if(r.status==="queued"){
           status="In attesa di avvio";time="";detail="Scansione registrata";box.classList.add("partial");
         }else if(r.status==="failed"){
