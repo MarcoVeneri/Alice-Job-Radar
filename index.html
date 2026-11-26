@@ -453,7 +453,7 @@ h1{display:inline-block;margin:8px 0 8px;font-size:36px;line-height:1;letter-spa
     <div class="topActions"><button id="navSearch" class="searchTop" aria-controls="searchRow" aria-expanded="false" type="button" aria-label="Cerca offerte" title="Cerca offerte"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.4"/><path d="m15.6 15.6 4.9 4.9"/></svg></button><button id="refreshBtn" class="refreshTop" type="button" aria-label="Aggiorna offerte" title="Aggiorna">↻</button></div>
     <div class="encourage" aria-label="ce la faremo amore">ce la faremo<span>amore!</span></div>
 </header>
-  <div id="pushPanel" hidden style="margin:0 0 8px;padding:8px 10px;border:1px solid var(--line);border-radius:14px;background:var(--panel);color:var(--muted);font-size:11px"><div style="display:flex;align-items:center;justify-content:space-between;gap:8px"><span id="pushStatus" role="status" aria-live="polite"></span><button id="pushEnable" type="button" style="border:1px solid var(--line);border-radius:12px;padding:8px 10px;background:var(--accent-soft);color:var(--ink);font:inherit;font-weight:800;white-space:nowrap;cursor:pointer">Attiva notifiche</button></div></div>
+  <div id="pushPanel" style="margin:0 0 8px;padding:8px 10px;border:1px solid var(--line);border-radius:14px;background:var(--panel);color:var(--muted);font-size:11px"><div style="display:flex;align-items:center;justify-content:space-between;gap:8px"><span id="pushStatus" role="status" aria-live="polite">Ricevi le nuove offerte sul telefono.</span><button id="pushEnable" type="button" style="border:1px solid var(--line);border-radius:12px;padding:8px 10px;background:var(--accent-soft);color:var(--ink);font:inherit;font-weight:800;white-space:nowrap;cursor:pointer">Attiva notifiche</button></div></div>
 
   <section class="runAudit" aria-label="Stato ricerche di oggi">
     <div id="run08box" class="runChip"><div class="runLine"><strong>09:30</strong><span class="runState" id="run08State">In programma</span></div><span class="runMoment" id="run08At"></span><span class="runSummary" id="run08"></span><span class="runSummary" id="catalog08" hidden></span></div>
@@ -864,53 +864,57 @@ setInterval(()=>{if(document.visibilityState==="visible")load()},60*1000);
 if('serviceWorker' in navigator){
   window.addEventListener('load',async()=>{
     try{
-      const r=await navigator.serviceWorker.register('./sw.js?v=657',{updateViaCache:'none'});
+      const r=await navigator.serviceWorker.register('./sw.js?v=658',{updateViaCache:'none'});
       await r.update();
     }catch(e){}
   });
 }
 </script>
-<script id="alice-web-push-657">
+<script id="alice-web-push-658">
 (()=>{
  const button=document.getElementById("pushEnable"), panel=document.getElementById("pushPanel"), status=document.getElementById("pushStatus");
  const api="https://nlhxjpartgvplythgzrz.supabase.co/functions/v1/alice-web-push";
- let reg,key,busy=false;
+ let reg,key,busy=false,preparing=false,active=false;
  const ios=/iPad|iPhone|iPod/.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
- const installed=window.matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
- function label(t){status.textContent=t;panel.hidden=false;}
- async function post(action,s){const r=await fetch(api,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({action,subscription:s.toJSON()})});if(!r.ok)throw Error("HTTP "+r.status);}
+ const installed=()=>window.matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
+ function label(t,b="Attiva notifiche",disabled=false){status.textContent=t;panel.hidden=false;button.textContent=b;button.disabled=disabled;button.hidden=false;}
+ async function post(action,s){const r=await fetch(api,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({action,subscription:s.toJSON()}),signal:AbortSignal.timeout(12000)});if(!r.ok)throw Error("HTTP "+r.status);}
  function decode(s){return Uint8Array.from(atob(s.replace(/-/g,"+").replace(/_/g,"/").padEnd(Math.ceil(s.length/4)*4,"=")),c=>c.charCodeAt(0));}
+ function timeout(p,ms){return Promise.race([p,new Promise((_,reject)=>setTimeout(()=>reject(Error("Timeout")),ms))]);}
  async function init(){
-  if(ios&&!installed){label("Aggiungi alla schermata Home per ricevere le notifiche.");button.hidden=true;return;}
-  if(!("serviceWorker"in navigator)||!("PushManager"in window)||!("Notification"in window))return;
-  if(Notification.permission==="denied"){label("Notifiche disattivate. Puoi abilitarle nelle impostazioni del dispositivo.");button.hidden=true;return;}
-  label("Ricevi le nuove offerte appena termina la scansione.");button.hidden=false;button.disabled=true;
+  if(preparing||busy)return;
+  if(ios&&!installed()){label("Apri Alice Job Radar dalla sua icona sulla schermata Home.","Notifiche",true);return;}
+  if(!("serviceWorker"in navigator)||!("PushManager"in window)||!("Notification"in window)){label("Notifiche non disponibili in questa modalità. Apri l'app dalla schermata Home e verifica iOS.","Non disponibili",true);return;}
+  if(Notification.permission==="denied"){label("Notifiche negate: vai in Impostazioni > Notifiche > Alice Jobs.","Non consentite",true);return;}
+  preparing=true;label("Preparazione notifiche…","Attendi",true);
   try{
-   reg=await navigator.serviceWorker.ready;
-   const response=await fetch(api,{cache:"no-store"});
-   if(!response.ok)throw Error("Servizio notifiche non disponibile");
+   reg=await timeout(navigator.serviceWorker.ready,10000);
+   const response=await fetch(api,{cache:"no-store",signal:AbortSignal.timeout(10000)});
+   if(!response.ok)throw Error("HTTP "+response.status);
    key=decode((await response.json()).publicKey);
    const sub=await reg.pushManager.getSubscription();
-   if(sub&&Notification.permission==="granted"){await post("subscribe",sub);panel.hidden=true;return;}
-   button.disabled=false;
-  }catch(e){label("Notifiche momentaneamente non disponibili. Riapri l’app per riprovare.");button.hidden=true;}
+   if(sub&&Notification.permission==="granted"){await post("subscribe",sub);active=true;label("Notifiche push attive","Attive",true);return;}
+   label("Ricevi le nuove offerte appena termina la scansione.");
+  }catch(e){reg=null;key=null;label("Connessione notifiche non riuscita. Tocca per riprovare.","Riprova");}
+  finally{preparing=false;}
  }
  button.addEventListener("click",async()=>{
-  if(busy||!reg||!key)return;busy=true;button.disabled=true;
+  if(busy||preparing||active)return;
+  if(!reg||!key){await init();return;}
+  busy=true;button.disabled=true;
   try{
-   // subscribe() is called directly from the user gesture, including on iOS.
+   // Direct user gesture required by Safari/iOS.
    const promise=reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:key});
    const sub=await promise;await post("subscribe",sub);
-   label("Notifiche attive!");button.hidden=true;
-   setTimeout(()=>{panel.hidden=true},2500);
+   active=true;label("Notifiche push attive","Attive",true);
   }catch(e){
-   if(Notification.permission==="denied"){label("Notifiche negate. Puoi abilitarle nelle impostazioni del dispositivo.");button.hidden=true;}
-   else {label("Attivazione non riuscita. Riprova.");button.disabled=false;}
+   if(Notification.permission==="denied"){label("Notifiche negate: vai in Impostazioni > Notifiche > Alice Jobs.","Non consentite",true);}
+   else label("Attivazione non riuscita. Tocca per riprovare.");
   }finally{busy=false;}
  });
  if(navigator.clearAppBadge){navigator.clearAppBadge().catch(()=>{});}
- document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible"&&navigator.clearAppBadge)navigator.clearAppBadge().catch(()=>{});});
- window.addEventListener("load",init,{once:true});
+ document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible"){if(navigator.clearAppBadge)navigator.clearAppBadge().catch(()=>{});if(!active&&!key)init();}});
+ init();
 })();
 </script>
 </body>
