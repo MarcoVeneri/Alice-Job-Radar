@@ -38,7 +38,15 @@
           " indisponibili";
         const worker = slots.status === "fulfilled" && slots.value.find(x => x.slot === slot)?.run?.priorityWorker;
         if (worker) {
-          line.textContent += " · LinkedIn/Indeed: " + worker.searchesAttempted + "/" +
+          const coordinated = slots.status === "fulfilled" && slots.value.find(x => x.slot === slot)?.run?.coordination;
+          if (coordinated) {
+            const li = coordinated.portals?.LinkedIn;
+            const indeed = coordinated.portals?.Indeed;
+            line.textContent += " · LinkedIn " + (li?.successful ?? 0) + "/" + (li?.planned ?? 0) +
+              " · Indeed " + (indeed?.blocked ? "accesso negato (403/401)" : (indeed?.successful ?? 0) + "/" + (indeed?.planned ?? 0)) +
+              " · " + coordinated.detailsAttempted + "/" + coordinated.detailsTotal + " annunci controllati · " +
+              coordinated.published + " pubblicati";
+          } else line.textContent += " · LinkedIn/Indeed: " + worker.searchesAttempted + "/" +
             worker.searchesTotal + " ricerche dirette · " + worker.detailsAttempted + "/" +
             worker.detailsTotal + " annunci controllati · " + worker.published + " pubblicati";
         } else {
@@ -87,6 +95,15 @@
       for (const {slot,run} of slots.value) {
         const primary = runs[slot];
         const newListings = directJobs.filter(j => j.date === day && j.firstSeenRun === slot).length;
+        // Coordinated slot is the authoritative live audit, including running states.
+        // Keep counts of direct, indexed and blocked sources separate.
+        if (run.coordinationVersion >= 1) {
+          runs[slot] = {...run,
+            queriesRun: run.coordinatedQueries ?? run.queriesRun,
+            newJobs: listings.status === "fulfilled" ? newListings : (Number(run.newJobs || 0) + Number(run.coordination?.published || 0))
+          };
+          continue;
+        }
         // A user-requested replacement scan supersedes the earlier slot record,
         // even when the former had a higher adapter count. Never claim full coverage.
         if (run.supersedesScheduled === true && ['partial','complete'].includes(run.status)) {
