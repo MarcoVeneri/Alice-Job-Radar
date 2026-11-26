@@ -43,7 +43,7 @@
             const li = coordinated.portals?.LinkedIn;
             const indeed = coordinated.portals?.Indeed;
             line.textContent += " · LinkedIn " + (li?.successful ?? 0) + "/" + (li?.planned ?? 0) +
-              " · Indeed " + (indeed?.blocked ? "accesso negato (403/401)" : (indeed?.successful ?? 0) + "/" + (indeed?.planned ?? 0)) +
+              " · Indeed " + (indeed?.connector?.queriesSucceeded > 0 ? "API " + indeed.connector.queriesSucceeded + "/" + indeed.connector.queriesPlanned + " · " + indeed.connector.entriesRead + " annunci letti · " + indeed.connector.published + " pubblicati" : indeed?.connector?.status === "failed" || indeed?.connector?.status === "unavailable" ? "API indisponibile" : "API in attesa") +
               " · " + coordinated.detailsAttempted + "/" + coordinated.detailsTotal + " annunci controllati · " +
               coordinated.published + " pubblicati";
           } else line.textContent += " · LinkedIn/Indeed: " + worker.searchesAttempted + "/" +
@@ -100,7 +100,7 @@
         if (run.coordinationVersion >= 1) {
           runs[slot] = {...run,
             queriesRun: run.coordinatedQueries ?? run.queriesRun,
-            newJobs: listings.status === "fulfilled" ? newListings : (Number(run.newJobs || 0) + Number(run.coordination?.published || 0))
+            newJobs: listings.status === "fulfilled" ? newListings : (Number(run.newJobs || 0) + Number(run.coordination?.published || 0) + Number(run.coordination?.indeedPublished || 0))
           };
           continue;
         }
