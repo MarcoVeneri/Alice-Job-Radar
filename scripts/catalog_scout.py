@@ -207,6 +207,7 @@ def _probe(item):
             continue
     log["outcome"] = ("success: verified original vacancy" if rows
                       else "unavailable: discovery failed" if "indexError" in log and not links
+                      else "unavailable: native source blocked; index produced no links" if str(log["directOutcome"]).startswith("unavailable:") and not links
                       else "unconfirmed: no verified original posting")
     return rows, log
 

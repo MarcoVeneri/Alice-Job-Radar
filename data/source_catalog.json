@@ -232,7 +232,8 @@
       "validVacancies": 2,
       "newVacancies": 2,
       "lastProductiveAt": "2026-10-30T10:01:00+01:00",
-      "url": "https://www.manpower.it/it/annunci-lavoro"
+      "url": "https://www.manpower.it/it/trova-lavoro/citta/toscana",
+      "searchDomain": "manpower.it"
     },
     {
       "name": "Gi Group",
@@ -257,7 +258,9 @@
       "zeroResultStreak": 0,
       "validVacancies": 5,
       "newVacancies": 5,
-      "lastProductiveAt": "2026-11-11T09:39:33+01:00"
+      "lastProductiveAt": "2026-11-11T09:39:33+01:00",
+      "url": "https://it.grafton.com/offerte-lavoro/toscana-re/",
+      "searchDomain": "it.grafton.com"
     },
     {
       "name": "Hays Italia",
@@ -268,7 +271,9 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://www.hays.com/it-IT/ricerca-offerte/a-toscana-italia",
+      "searchDomain": "hays.com"
     },
     {
       "name": "Michael Page Italia",
@@ -279,7 +284,9 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://www.michaelpage.it/jobs/toscana",
+      "searchDomain": "michaelpage.it"
     },
     {
       "name": "Page Personnel Italia",
@@ -291,7 +298,8 @@
       "zeroResultStreak": 14,
       "validVacancies": 1,
       "newVacancies": 1,
-      "lastProductiveAt": "2026-11-02T16:35:00+01:00"
+      "lastProductiveAt": "2026-11-02T16:35:00+01:00",
+      "searchDomain": "pagepersonnel.it"
     },
     {
       "name": "LHH Italia",
@@ -337,7 +345,9 @@
       "zeroResultStreak": 0,
       "validVacancies": 8,
       "newVacancies": 8,
-      "lastProductiveAt": "2026-11-11T09:39:33+01:00"
+      "lastProductiveAt": "2026-11-11T09:39:33+01:00",
+      "url": "https://www.openjobmetis.it/it/candidati/offerte-di-lavoro",
+      "searchDomain": "openjobmetis.it"
     },
     {
       "name": "Synergie Italia",
@@ -349,7 +359,9 @@
       "validVacancies": 2,
       "newVacancies": 2,
       "zeroResultStreak": 6,
-      "lastProductiveAt": "2026-11-06T16:02:00+01:00"
+      "lastProductiveAt": "2026-11-06T16:02:00+01:00",
+      "url": "https://www.synergie-italia.it/candidato/offerte-di-lavoro",
+      "searchDomain": "synergie-italia.it"
     },
     {
       "name": "Orienta",
@@ -361,7 +373,9 @@
       "zeroResultStreak": 0,
       "validVacancies": 6,
       "newVacancies": 6,
-      "lastProductiveAt": "2026-11-09T16:12:00+01:00"
+      "lastProductiveAt": "2026-11-09T16:12:00+01:00",
+      "url": "https://www.orienta.net/it/orienta-job/offerte-di-lavoro.html",
+      "searchDomain": "orienta.net"
     },
     {
       "name": "Lavoropiù",
@@ -384,7 +398,8 @@
       "zeroResultStreak": 6,
       "validVacancies": 2,
       "newVacancies": 1,
-      "lastProductiveAt": "2026-11-06T16:02:00+01:00"
+      "lastProductiveAt": "2026-11-06T16:02:00+01:00",
+      "searchDomain": "umana.it"
     },
     {
       "name": "Ali Lavoro",
@@ -420,7 +435,8 @@
       "zeroResultStreak": 0,
       "validVacancies": 3,
       "newVacancies": 3,
-      "lastProductiveAt": "2026-11-11T15:37:45+01:00"
+      "lastProductiveAt": "2026-11-11T15:37:45+01:00",
+      "searchDomain": "career.etjca.it"
     },
     {
       "name": "MAW",
@@ -431,7 +447,8 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "searchDomain": "maw.it"
     },
     {
       "name": "Humangest",

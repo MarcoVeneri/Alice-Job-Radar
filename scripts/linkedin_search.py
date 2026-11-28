@@ -10,6 +10,7 @@ from datetime import date, datetime, timezone
 import html
 import json
 import re
+from urllib.error import HTTPError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
@@ -113,11 +114,18 @@ def _verified_mode(description):
     return match if match and not NEGATIVE.search(description or "") else None
 
 
-def _linked_job(item):
+def _linked_job(item, diagnostics=None):
     ident, listed_location = item
+    d = diagnostics if diagnostics is not None else {}
+    d['attempted'] = d.get('attempted', 0) + 1
     try:
         body = page("https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/" + ident)
-    except (OSError, ValueError):
+        d['opened'] = d.get('opened', 0) + 1
+    except (OSError, ValueError) as exc:
+        d['errors'] = d.get('errors', 0) + 1
+        if isinstance(exc, HTTPError) and exc.code in (401, 403, 429):
+            d['blocked'] = exc.code
+            d['retryAfter'] = exc.headers.get('Retry-After') if exc.headers else None
         return None
     if EXPIRED.search(body):
         return None
@@ -159,11 +167,18 @@ def _linked_job(item):
     }
 
 
-def _indeed_job(key):
+def _indeed_job(key, diagnostics=None):
     url = "https://it.indeed.com/viewjob?jk=" + key
+    d = diagnostics if diagnostics is not None else {}
+    d['attempted'] = d.get('attempted', 0) + 1
     try:
         body = page(url)
-    except (OSError, ValueError):
+        d['opened'] = d.get('opened', 0) + 1
+    except (OSError, ValueError) as exc:
+        d['errors'] = d.get('errors', 0) + 1
+        if isinstance(exc, HTTPError) and exc.code in (401, 403, 429):
+            d['blocked'] = exc.code
+            d['retryAfter'] = exc.headers.get('Retry-After') if exc.headers else None
         return None
     if EXPIRED.search(body[:120000]):
         return None
@@ -252,57 +267,79 @@ def _search_indeed(pair):
 
 
 def discover(previous_logs=()):
-    """Search both major portals on every run, regardless of the other's result."""
+    """Stop a blocked native channel and hand off to independent authorized search."""
     pairs = [(term, area) for term in TERMS for area in AREAS]
-    linkedin = {}
-    indeed = []
-    logs = []
-    # Search two portals independently: no success/previous-error shortcuts.
-    with ThreadPoolExecutor(max_workers=6) as pool:
-        for log, cards in pool.map(_search_linkedin, pairs):
+    linkedin, indeed = {}, {}
+    linked, verified_indeed, logs = [], [], []
+    def native(provider, search, detail, found_all, accepted):
+        d, visited, attempted = {}, set(), 0
+        for pair in pairs:
+            if d.get("blocked"):
+                break
+            log, found = search(pair)
+            attempted += 1
             logs.append(log)
-            linkedin.update(cards)
-    with ThreadPoolExecutor(max_workers=6) as pool:
-        for log, keys in pool.map(_search_indeed, pairs):
-            logs.append(log)
-            indeed.extend(keys)
-    # Indexed fallback is independent of guest-HTML access. Even a public
-    # search with readable cards is not exhaustive: discover additional posting
-    # identifiers for each role cluster and Tuscany/Valdarno/Italy.
+            outcome = str(log.get("outcome", "")) + " " + str(log.get("paginationError", ""))
+            block = re.search(r"HTTP Error (401|403|429)", outcome)
+            entries = found.items() if isinstance(found, dict) else ((key, key) for key in found)
+            for key, value in entries:
+                found_all[key] = value
+            if block:
+                d["blocked"] = int(block.group(1))
+                break
+            for key, value in found_all.items():
+                if key in visited:
+                    continue
+                if d.get("blocked"):
+                    break
+                visited.add(key)
+                candidate = detail((key, value) if provider == "LinkedIn Jobs" else key, d)
+                if candidate:
+                    accepted.append(candidate)
+        logs.append({"source": provider, "method": "native_channel_terminal",
+                     "checkedAt": _now(), "plannedQueries": len(pairs),
+                     "attemptedQueries": attempted, "deferredQueries": len(pairs)-attempted,
+                     "blockedHttpStatus": d.get("blocked"), "retryAfter": d.get("retryAfter"),
+                     "outcome": ("unavailable: native channel HTTP " + str(d["blocked"]) + "; use independent authorized connector/web discovery"
+                                 if d.get("blocked") else "native channel finished; inspect individual outcomes")})
+        return d, visited
+    li_d, li_seen = native("LinkedIn Jobs", _search_linkedin, _linked_job, linkedin, linked)
+    in_d, in_seen = native("Indeed Italia", _search_indeed, _indeed_job, indeed, verified_indeed)
     from indexed_jobs import discover_indexed
     indexed_li, indexed_indeed, indexed_logs = discover_indexed()
+    logs.extend(indexed_logs)
     for ident, area in indexed_li.items():
         linkedin.setdefault(ident, area)
-    indeed.extend(indexed_indeed)
-    logs.extend(indexed_logs)
-    linkedin_items = list(linkedin.items())
-    indeed_keys = list(dict.fromkeys(indeed))
-    with ThreadPoolExecutor(max_workers=4) as pool:
-        linked = [job for job in pool.map(_linked_job, linkedin_items) if job]
-    with ThreadPoolExecutor(max_workers=4) as pool:
-        verified_indeed = [job for job in pool.map(_indeed_job, indeed_keys) if job]
-    logs.append({
-        "source": "LinkedIn Jobs", "method": "individual_detail_verification",
-        "checkedAt": _now(), "candidateLinksFound": len(linkedin),
-        "specificJobPagesOpened": len(linkedin_items),
-        "indexedFallback": bool(indexed_logs),
-        "specificJobPagesVerified": len(linked),
-        "outcome": "success: verified " + str(len(linked)) + " individual vacancies"
-                   if linked else "unconfirmed: no verified hybrid/remote vacancy",
-    })
-    logs.append({
-        "source": "Indeed Italia", "method": "individual_detail_verification",
-        "checkedAt": _now(), "candidateLinksFound": len(set(indeed)),
-        "specificJobPagesOpened": len(indeed_keys),
-        "specificJobPagesVerified": len(verified_indeed),
-        "outcome": "success: verified " + str(len(verified_indeed)) + " individual vacancies"
-                   if verified_indeed else "unconfirmed: no verified hybrid/remote vacancy",
-    })
-    return (
-        [("LinkedIn Jobs", "linkedin", job) for job in linked]
-        + [("Indeed Italia", "employer", job) for job in verified_indeed],
-        logs,
-    )
+    for key in indexed_indeed:
+        indeed.setdefault(key, key)
+    # Index discovery is allowed, but do not reopen a blocked native channel during this run.
+    for provider, found, visited, d, detail, accepted in (
+        ("LinkedIn Jobs", linkedin, li_seen, li_d, _linked_job, linked),
+        ("Indeed Italia", indeed, in_seen, in_d, _indeed_job, verified_indeed),
+    ):
+        for key, value in found.items():
+            if d.get("blocked"):
+                break
+            if key in visited:
+                continue
+            visited.add(key)
+            candidate = detail((key, value) if provider == "LinkedIn Jobs" else key, d)
+            if candidate:
+                accepted.append(candidate)
+        logs.append({"source": provider, "method": "individual_detail_verification",
+                     "checkedAt": _now(), "candidateLinksFound": len(found),
+                     "specificJobPagesAttempted": d.get("attempted", 0),
+                     "specificJobPagesOpened": d.get("opened", 0),
+                     "specificJobPagesErrors": d.get("errors", 0),
+                     "specificJobPagesDeferred": max(0, len(found)-len(visited)),
+                     "specificJobPagesVerified": len(accepted),
+                     "blockedHttpStatus": d.get("blocked"),
+                     "indexedFallback": bool(indexed_logs),
+                     "outcome": ("success: verified " + str(len(accepted)) + " individual vacancies" if accepted
+                                 else "unavailable: detail channel blocked" if d.get("blocked")
+                                 else "unconfirmed: no verified hybrid/remote vacancy")})
+    return ([("LinkedIn Jobs", "linkedin", job) for job in linked]
+            + [("Indeed Italia", "employer", job) for job in verified_indeed], logs)
 
 
 def self_test():

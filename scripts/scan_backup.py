@@ -248,6 +248,13 @@ def adequate(run):
     # Regional index requests or two ATS feeds are not a catalog scan.
     primary = run.get("primaryPortalAttempts") or {}
     gate = run.get("universalDetailGate") or {}
+    # Terminal backup handoff prevents hammering blocked portals on every 10-minute wakeup.
+    # It never upgrades the public result from partial to complete.
+    if run.get("coverageMode") == "tuscany_10_province_primary_portals_plus_local_sources":
+        terminal = run.get("primaryNativeTerminal") or {}
+        return (run.get("status") == "partial" and bool(run.get("completedAt"))
+                and all(p in terminal for p in ("LinkedIn Jobs", "Indeed Italia"))
+                and int(catalog.get("catalogSourcesAccountedFor") or 0) >= int(run.get("requiredSourcesTotal") or 66))
     # Queries to RSS indexes do not certify a scan; require evidence of
     # both major portals and inspection of individual vacancy pages.
     return (run.get("status") == "partial"
@@ -558,6 +565,7 @@ def main(slot_override=None):
            "queriesRun": len(logs) + len(regional_logs) + len(candidate_postings),
            "primaryPortalAttempts":primary_attempts,
            "primaryPortalVerified":primary_verified,
+           "primaryNativeTerminal": {x["source"]: x for x in logs if x.get("method") == "native_channel_terminal"},
            "catalogSearchDiagnostics": {
                "catalogSourcesAccountedFor":sum(1 for x in logs if
                    x.get("method") == "catalog_source_individual_vacancy_probe"),
