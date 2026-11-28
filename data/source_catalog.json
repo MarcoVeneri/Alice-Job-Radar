@@ -1,7 +1,7 @@
 {
   "version": "tuscany-2026-11-28",
   "mode": "tuscany-only",
-  "policy": "Toscana only; ten provinces; explicit smart working/remote; original individual postings; aggregator discovery only; prioritise Tender Office and main portals.",
+  "policy": "Toscana only; native public pages where available; independent authorized search for primary portals; explicit per-source outcome. A source without a verified job is not necessarily a failed source. Do not equate indexed requests with verified coverage.",
   "excluded": [
     {
       "name": "InfoJobs Italia",
@@ -19,7 +19,8 @@
       "validVacancies": 25,
       "newVacancies": 25,
       "zeroResultStreak": 0,
-      "lastProductiveAt": "2026-11-10T10:18:00+01:00"
+      "lastProductiveAt": "2026-11-10T10:18:00+01:00",
+      "searchDomain": "linkedin.com"
     },
     {
       "name": "Indeed Italia",
@@ -31,7 +32,8 @@
       "validVacancies": 26,
       "newVacancies": 26,
       "zeroResultStreak": 0,
-      "lastProductiveAt": "2026-11-10T10:18:00+01:00"
+      "lastProductiveAt": "2026-11-10T10:18:00+01:00",
+      "searchDomain": "indeed.com"
     },
     {
       "name": "Monster Italia",
@@ -78,7 +80,9 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://it.talent.com/",
+      "searchDomain": "it.talent.com"
     },
     {
       "name": "Careerjet Italia",
@@ -101,7 +105,8 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 33,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "searchDomain": "it.jobsora.com"
     },
     {
       "name": "Trovolavoro",
@@ -112,7 +117,9 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://offerte.trovolavoro.com/it/careers/jobs_by_city/italia",
+      "searchDomain": "offerte.trovolavoro.com"
     },
     {
       "name": "Subito Lavoro",
@@ -135,7 +142,8 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "searchDomain": "helplavoro.it"
     },
     {
       "name": "CVing",
@@ -146,7 +154,9 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 33,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://www.cving.com/",
+      "searchDomain": "cving.com"
     },
     {
       "name": "SIISL",
@@ -157,7 +167,8 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "searchDomain": "siisl.lavoro.gov.it"
     },
     {
       "name": "EURES",
@@ -182,7 +193,8 @@
       "validVacancies": 1,
       "newVacancies": 1,
       "lastProductiveAt": "2026-10-30T16:03:00+01:00",
-      "url": "https://lavoro.regione.toscana.it/ToscanaLavoro/"
+      "url": "https://lavoro.regione.toscana.it/ToscanaLavoro/cittadini/offerteLavoro.xhtml",
+      "searchDomain": "lavoro.regione.toscana.it"
     },
     {
       "name": "Cliclavoro / servizi Ministero",
@@ -193,7 +205,9 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://www.cliclavoro.gov.it/guide/orientamento-al-lavoro",
+      "searchDomain": "cliclavoro.gov.it"
     },
     {
       "name": "Randstad Italia",
@@ -232,7 +246,7 @@
       "validVacancies": 2,
       "newVacancies": 2,
       "lastProductiveAt": "2026-10-30T10:01:00+01:00",
-      "url": "https://www.manpower.it/it/trova-lavoro/citta/toscana",
+      "url": "https://www.manpower.it/it/trova-lavoro",
       "searchDomain": "manpower.it"
     },
     {
@@ -311,7 +325,8 @@
       "zeroResultStreak": 17,
       "validVacancies": 2,
       "newVacancies": 2,
-      "lastProductiveAt": "2026-11-01T10:52:00+01:00"
+      "lastProductiveAt": "2026-11-01T10:52:00+01:00",
+      "searchDomain": "lhh.com"
     },
     {
       "name": "Jefferson Wells Italia",
@@ -322,7 +337,9 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://www.jeffersonwells.it/it/carriere",
+      "searchDomain": "jeffersonwells.it"
     },
     {
       "name": "Experis Italia",
@@ -333,7 +350,9 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://www.experis.it/it/all-jobs",
+      "searchDomain": "experis.it"
     },
     {
       "name": "Openjobmetis",
@@ -386,7 +405,9 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://www.lavoropiu.it/offerte-per-professione/",
+      "searchDomain": "lavoropiu.it"
     },
     {
       "name": "Umana",
@@ -399,7 +420,8 @@
       "validVacancies": 2,
       "newVacancies": 1,
       "lastProductiveAt": "2026-11-06T16:02:00+01:00",
-      "searchDomain": "umana.it"
+      "searchDomain": "umana.it",
+      "url": "https://www.umana.it/per-le-persone/offerte-di-lavoro/"
     },
     {
       "name": "Ali Lavoro",
@@ -411,7 +433,9 @@
       "validVacancies": 4,
       "newVacancies": 4,
       "zeroResultStreak": 0,
-      "lastProductiveAt": "2026-11-10T16:12:00+01:00"
+      "lastProductiveAt": "2026-11-10T16:12:00+01:00",
+      "url": "https://careers.alilavoro.it/jobs.php",
+      "searchDomain": "careers.alilavoro.it"
     },
     {
       "name": "During",
@@ -423,7 +447,9 @@
       "zeroResultStreak": 2,
       "validVacancies": 1,
       "newVacancies": 1,
-      "lastProductiveAt": "2026-11-08T15:42:00+01:00"
+      "lastProductiveAt": "2026-11-08T15:42:00+01:00",
+      "url": "https://portale.during.it/offerta-lavoro/",
+      "searchDomain": "portale.during.it"
     },
     {
       "name": "Etjca",
@@ -436,7 +462,8 @@
       "validVacancies": 3,
       "newVacancies": 3,
       "lastProductiveAt": "2026-11-11T15:37:45+01:00",
-      "searchDomain": "career.etjca.it"
+      "searchDomain": "etjca.it",
+      "url": "https://www.etjca.it/"
     },
     {
       "name": "MAW",
@@ -448,7 +475,8 @@
       "zeroResultStreak": 34,
       "validVacancies": 0,
       "newVacancies": 0,
-      "searchDomain": "maw.it"
+      "searchDomain": "maw.it",
+      "url": "https://www.maw.it/"
     },
     {
       "name": "Humangest",
@@ -459,7 +487,9 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://humangest.it/trova-lavoro/",
+      "searchDomain": "humangest.it"
     },
     {
       "name": "ADHR Group",
@@ -471,7 +501,9 @@
       "zeroResultStreak": 24,
       "validVacancies": 2,
       "newVacancies": 2,
-      "lastProductiveAt": "2026-10-27T10:20:00+01:00"
+      "lastProductiveAt": "2026-10-27T10:20:00+01:00",
+      "url": "https://www.adhr.it/",
+      "searchDomain": "adhr.it"
     },
     {
       "name": "Atempo",
@@ -483,7 +515,9 @@
       "zeroResultStreak": 1,
       "validVacancies": 2,
       "newVacancies": 1,
-      "lastProductiveAt": "2026-11-09T09:37:00+01:00"
+      "lastProductiveAt": "2026-11-09T09:37:00+01:00",
+      "url": "https://www.atempospa.it/servizi-per-i-lavoratori/annunci/",
+      "searchDomain": "atempospa.it"
     },
     {
       "name": "Eurointerim",
@@ -494,7 +528,9 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://www.eurointerim.it/lavora-con-noi/",
+      "searchDomain": "eurointerim.it"
     },
     {
       "name": "La Risorsa Umana",
@@ -505,7 +541,9 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://www.larisorsaumana.it/ricerca-offerte",
+      "searchDomain": "larisorsaumana.it"
     },
     {
       "name": "IQM Selezione",
@@ -516,7 +554,9 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://www.iqmselezione.it/ricerche-in-corso.php",
+      "searchDomain": "iqmselezione.it"
     },
     {
       "name": "Praxi",
@@ -527,7 +567,9 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 33,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://recruitment.praxi/",
+      "searchDomain": "recruitment.praxi"
     },
     {
       "name": "Wyser / executive search network",
@@ -538,7 +580,9 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 33,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://it.wyser-search.com/offerte-lavoro/",
+      "searchDomain": "it.wyser-search.com"
     },
     {
       "name": "Google indexed vacancies",
@@ -549,7 +593,8 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "searchDomain": "google.com"
     },
     {
       "name": "Bing indexed vacancies",
@@ -560,7 +605,8 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 35,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "searchDomain": "bing.com"
     },
     {
       "name": "DuckDuckGo indexed vacancies",
@@ -571,7 +617,8 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 33,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "searchDomain": "duckduckgo.com"
     },
     {
       "name": "Accenture Careers",
@@ -582,7 +629,9 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://www.accenture.com/it-it/careers/jobsearch",
+      "searchDomain": "accenture.com"
     },
     {
       "name": "Engineering Careers",
@@ -593,7 +642,8 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "searchDomain": "eng.it"
     },
     {
       "name": "DXC Careers",
@@ -604,7 +654,9 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://careers.dxc.com/it/",
+      "searchDomain": "careers.dxc.com"
     },
     {
       "name": "Dedalus Careers",
@@ -615,7 +667,9 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 35,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://www.dedalus.com/italy/it/lavorare-in-dedalus/le-nostre-offerte-di-lavoro/",
+      "searchDomain": "dedalus.com"
     },
     {
       "name": "Var Group Careers",
@@ -626,7 +680,9 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://www.careers.vargroup.com/jobs",
+      "searchDomain": "careers.vargroup.com"
     },
     {
       "name": "Baker Hughes Careers",
@@ -638,7 +694,9 @@
       "zeroResultStreak": 28,
       "validVacancies": 2,
       "newVacancies": 2,
-      "lastProductiveAt": "2026-10-25T09:56:00+01:00"
+      "lastProductiveAt": "2026-10-25T09:56:00+01:00",
+      "url": "https://careers.bakerhughes.com/it/it/search-results?qcity=Florence&qcountry=Italy&qstate=Firenze",
+      "searchDomain": "careers.bakerhughes.com"
     },
     {
       "name": "Aruba Careers",
@@ -649,7 +707,8 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 35,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "searchDomain": "aruba.it"
     },
     {
       "name": "Bertolotti Careers / Factorial",
@@ -660,7 +719,9 @@
       "lastCheckedAt": "2026-11-11T15:37:45+01:00",
       "zeroResultStreak": 34,
       "validVacancies": 0,
-      "newVacancies": 0
+      "newVacancies": 0,
+      "url": "https://bertolotti.factorial.it/",
+      "searchDomain": "bertolotti.factorial.it"
     },
     {
       "name": "Kering Careers",
@@ -672,7 +733,8 @@
       "zeroResultStreak": 7,
       "validVacancies": 1,
       "newVacancies": 1,
-      "lastProductiveAt": "2026-11-06T10:05:00+01:00"
+      "lastProductiveAt": "2026-11-06T10:05:00+01:00",
+      "searchDomain": "kering.com"
     },
     {
       "name": "AICOM Careers / Teamtailor",
@@ -698,7 +760,9 @@
       "newVacancies": 1,
       "zeroResultStreak": 26,
       "lastProductiveAt": "2026-10-26T10:55:00+01:00",
-      "host": "lamarzocco.com"
+      "host": "lamarzocco.com",
+      "url": "https://lamarzocco.intervieweb.it/it/career",
+      "searchDomain": "lamarzocco.intervieweb.it"
     },
     {
       "name": "Menarini Careers / LinkedIn",
