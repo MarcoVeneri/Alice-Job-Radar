@@ -73,7 +73,7 @@ jobs:
         run: python scripts/scan_backup.py --prepare
       - name: Publish start checkpoint
         run: bash scripts/publish_scan.sh
-      - name: Recover every due slot with national search and public feeds
+      - name: Recover due Tuscany slots with configured public feeds
         timeout-minutes: 45
         shell: bash
         run: |
@@ -141,6 +141,8 @@ jobs:
           if missing:
               raise SystemExit("Missing published scan slots: " + ", ".join(missing))
           for slot in due:
+              if runs[slot].get('status') in ('failed', 'running', 'partial'):
+                  raise SystemExit(f"Slot {slot} not fully validated: {runs[slot].get('status')}")
               print(f"Verified {slot} published status: {runs[slot].get('status')}; "
                     f"newJobs: {runs[slot].get('newJobs', 0)}")
           if not isinstance(data.get("jobs"), list):
