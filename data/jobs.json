@@ -21269,6 +21269,15 @@
         ],
         "note": "All providers share original-posting availability, role, employer and remote/hybrid publication gate. Aggregator-only and indexed results cannot be published. Catalog queries do not imply complete coverage; partial status is deliberate.",
         "directNewJobsIncluded": 0
+      },
+      "15:30": {
+        "status": "running",
+        "engine": "github_backup",
+        "scheduledFor": "2026-11-28T15:30:00+01:00",
+        "startedAt": "2026-11-28T15:17:08.428122+00:00",
+        "queriesRun": 0,
+        "newJobs": 0,
+        "note": "Scansione avviata; checkpoint pubblicato prima delle richieste alle fonti."
       }
     }
   },
