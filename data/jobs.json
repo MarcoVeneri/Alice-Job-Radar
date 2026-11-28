@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T09:46:58.012481Z",
+  "generatedAt": "2026-11-28T15:17:10.892705Z",
   "source": "Alice Job Radar V2 — MAX-COVERAGE 15:30",
   "jobs": [
     {
@@ -18491,6 +18491,61 @@
       "verificationLevel": "individual_original_posting",
       "verificationEvidenceUrl": "https://www.linkedin.com/jobs/view/4495519787",
       "scopeExcluded": "outside_or_unconfirmed_tuscany"
+    },
+    {
+      "id": "linkedin-4494114341",
+      "url": "https://it.linkedin.com/jobs/view/backoffice-commerciale-e-addetto-gare-d%E2%80%99appalto-at-sodi-scientifica-srl-4494114341",
+      "date": "2026-11-28",
+      "score": 0,
+      "title": "Backoffice Commerciale e Addetto Gare d’appalto",
+      "active": true,
+      "checks": [
+        "Pagina individuale con candidatura consultata il 28/11/2026",
+        "Sede Calenzano, full time, tempo indeterminato e smart working esplicitamente dichiarati",
+        "RAL non dichiarata"
+      ],
+      "region": "Toscana",
+      "remote": true,
+      "salary": "Non indicata",
+      "source": "LinkedIn Jobs",
+      "company": "Sodi Scientifica Srl",
+      "summary": "Back office commerciale e gare/RdO, predisposizione offerte e gestione piattaforme PA e MePA. Sede Calenzano; lavoro ibrido dichiarato; inizio previsto gennaio 2027.",
+      "category": "Tender / Sales Support",
+      "contract": "Full time · tempo indeterminato",
+      "location": "Calenzano (FI), Toscana",
+      "workMode": "Ibrido / smart working",
+      "verifiedAt": "2026-11-28T09:50:57.832+00:00",
+      "firstSeenAt": "2026-11-28T09:50:57.832+00:00",
+      "originalUrl": "https://it.linkedin.com/jobs/view/backoffice-commerciale-e-addetto-gare-d%E2%80%99appalto-at-sodi-scientifica-srl-4494114341",
+      "firstSeenRun": "Verifica straordinaria Toscana",
+      "verificationLevel": "individual_original_posting",
+      "verificationEvidenceUrl": "https://it.linkedin.com/jobs/view/backoffice-commerciale-e-addetto-gare-d%E2%80%99appalto-at-sodi-scientifica-srl-4494114341"
+    },
+    {
+      "id": "linkedin-4494329226",
+      "url": "https://www.linkedin.com/jobs/view/4494329226",
+      "date": "2026-11-28",
+      "score": 8,
+      "title": "Inside Sales Specialist (Native English or French Speaker)",
+      "active": true,
+      "checks": [
+        "Annuncio originale individuale e candidatura verificati; modalità di lavoro documentata: smart working"
+      ],
+      "remote": true,
+      "salary": "Non indicata",
+      "source": "LinkedIn",
+      "company": "Akeron",
+      "summary": "Akeron transforms business challenges into digital solutions through innovative, flexible software that enhances efficiency, decision-making processes, and corporate performance. With its headquarters in Lucca and offices in Paris, London, and New York, the company supports businesses in achieving their strategic goals. Today, it serves as a trusted partner to over 500 clients across various sectors and of all sizes, including Lavazza, Intesa San",
+      "category": "Sales Support",
+      "contract": "Da verificare",
+      "location": "Lucca, Tuscany, Italy",
+      "workMode": "Smart working/ibrido documentato",
+      "verifiedAt": "2026-11-28T11:46:01.486866+00:00",
+      "firstSeenAt": "2026-11-28T11:46:01.486866+00:00",
+      "originalUrl": "https://www.linkedin.com/jobs/view/4494329226",
+      "firstSeenRun": "09:30",
+      "verificationLevel": "individual_original_posting",
+      "verificationEvidenceUrl": "https://www.linkedin.com/jobs/view/4494329226"
     }
   ],
   "audit": {
@@ -18673,7 +18728,7 @@
         "specificJobPagesVerified": 0,
         "excludedUnconfirmedSmartWorking": 6,
         "newRegionalJobs": 0,
-        "newJobs": 0,
+        "newJobs": 1,
         "regionsTarget": 1,
         "regionsAttempted": [
           "Toscana"
@@ -21268,16 +21323,2821 @@
           }
         ],
         "note": "All providers share original-posting availability, role, employer and remote/hybrid publication gate. Aggregator-only and indexed results cannot be published. Catalog queries do not imply complete coverage; partial status is deliberate.",
-        "directNewJobsIncluded": 0
+        "directNewJobsIncluded": 1
       },
       "15:30": {
-        "status": "running",
-        "engine": "github_backup",
         "scheduledFor": "2026-11-28T15:30:00+01:00",
-        "startedAt": "2026-11-28T15:17:08.428122+00:00",
-        "queriesRun": 0,
+        "engine": "github_backup",
+        "startedAt": "2026-11-28T15:17:10.892705Z",
+        "completedAt": "2026-11-28T15:17:26.962510Z",
+        "status": "partial",
+        "coverageMode": "tuscany_10_province_primary_portals_plus_local_sources",
+        "requiredSourcesTotal": 66,
+        "requiredSourcesChecked": 7,
+        "sourcesExplored": 7,
+        "sourcesChecked": [
+          "AICOM",
+          "Jobsora",
+          "LinkedIn Jobs",
+          "Motoabbigliamento",
+          "Plures / Estra",
+          "Prada Group Valdarno",
+          "Var Group"
+        ],
+        "directSourcesChecked": [],
+        "siteRestrictedSourcesChecked": [],
+        "indexedFallbackSourcesChecked": [
+          "LinkedIn Jobs",
+          "AICOM",
+          "Var Group",
+          "Motoabbigliamento",
+          "Prada Group Valdarno",
+          "Plures / Estra"
+        ],
+        "sourcesUnavailable": [
+          "Dedalus Careers",
+          "Ferragamo Careers / LinkedIn",
+          "Glassdoor Jobs",
+          "Indeed Italia",
+          "Jooble Italia",
+          "La Marzocco Careers",
+          "Lavoropiù",
+          "Monster Italia",
+          "Subito Lavoro"
+        ],
+        "queriesRun": 208,
+        "primaryPortalAttempts": {
+          "LinkedIn Jobs": 1,
+          "Indeed Italia": 1
+        },
+        "primaryPortalVerified": {
+          "LinkedIn Jobs": 0,
+          "Indeed Italia": 0
+        },
+        "primaryNativeTerminal": {
+          "LinkedIn Jobs": {
+            "source": "LinkedIn Jobs",
+            "method": "native_channel_terminal",
+            "checkedAt": "2026-11-28T15:17:11.866704+00:00",
+            "plannedQueries": 165,
+            "attemptedQueries": 1,
+            "deferredQueries": 164,
+            "blockedHttpStatus": 429,
+            "retryAfter": null,
+            "outcome": "unavailable: native channel HTTP 429; use independent authorized connector/web discovery"
+          },
+          "Indeed Italia": {
+            "source": "Indeed Italia",
+            "method": "native_channel_terminal",
+            "checkedAt": "2026-11-28T15:17:11.896494+00:00",
+            "plannedQueries": 165,
+            "attemptedQueries": 1,
+            "deferredQueries": 164,
+            "blockedHttpStatus": 403,
+            "retryAfter": null,
+            "outcome": "unavailable: native channel HTTP 403; use independent authorized connector/web discovery"
+          }
+        },
+        "catalogSearchDiagnostics": {
+          "catalogSourcesAccountedFor": 66,
+          "catalogSourcesProbed": 64,
+          "catalogSourcesDelegated": 2,
+          "catalogSourcesUnavailable": 8,
+          "catalogOriginalJobsVerified": 0,
+          "note": "Index results are discovery only, not verified jobs."
+        },
+        "sourceCoverageDiagnostics": {
+          "sourceAdaptersAttempted": 72,
+          "attemptedNames": [
+            "ADHR Group",
+            "AICOM",
+            "AICOM Careers / Teamtailor",
+            "ARTI Toscana / Toscana Lavoro",
+            "Accenture Careers",
+            "Adecco Italia",
+            "Ali Lavoro",
+            "Areajob",
+            "Arkigest",
+            "Aruba Careers",
+            "Atempo",
+            "Baker Hughes Careers",
+            "Bertolotti Careers / Factorial",
+            "Bing indexed vacancies",
+            "CVing",
+            "Careerjet Italia",
+            "Cliclavoro / servizi Ministero",
+            "DXC Careers",
+            "Dedalus Careers",
+            "DuckDuckGo indexed vacancies",
+            "During",
+            "EURES",
+            "EngiNe Careers / Zenita Group",
+            "Engineering Careers",
+            "Etjca",
+            "Eurointerim",
+            "Experis Italia",
+            "Ferragamo Careers / LinkedIn",
+            "Gi Group",
+            "Glassdoor Jobs",
+            "Google indexed vacancies",
+            "Grafton",
+            "Gruppo Florence Careers",
+            "Hays Italia",
+            "Helplavoro",
+            "Humangest",
+            "IQM Selezione",
+            "In Job",
+            "Indeed Italia",
+            "InfoJobs Italia",
+            "Jefferson Wells Italia",
+            "Jobsora Italia",
+            "Jobsora regional indexed listings",
+            "Jooble Italia",
+            "Kering Careers",
+            "LHH Italia",
+            "La Marzocco Careers",
+            "La Risorsa Umana",
+            "Lavoropiù",
+            "LinkedIn Jobs",
+            "MAW",
+            "Manpower Italia",
+            "Menarini Careers / LinkedIn",
+            "Michael Page Italia",
+            "Monster Italia",
+            "Motoabbigliamento",
+            "Openjobmetis",
+            "Orienta",
+            "Page Personnel Italia",
+            "Plures / Estra",
+            "Prada Group Valdarno",
+            "Praxi",
+            "Randstad Italia",
+            "SIISL",
+            "Subito Lavoro",
+            "Synergie Italia",
+            "Talent.com Italia",
+            "Trovolavoro",
+            "Umana",
+            "Var Group",
+            "Var Group Careers",
+            "Wyser / executive search network"
+          ],
+          "unavailableNames": [
+            "Dedalus Careers",
+            "Ferragamo Careers / LinkedIn",
+            "Glassdoor Jobs",
+            "Indeed Italia",
+            "Jooble Italia",
+            "La Marzocco Careers",
+            "Lavoropiù",
+            "LinkedIn Jobs",
+            "Monster Italia",
+            "Subito Lavoro"
+          ],
+          "verifiedOriginalPostingNames": [],
+          "note": "Independent catalog-clock request count must never be read as verified vacancies."
+        },
+        "universalDetailGate": {
+          "candidatePagesAttempted": 0,
+          "verified": 0,
+          "unavailable": 0,
+          "filteredByRoleLocation": 0,
+          "rejectedAfterDetail": 0,
+          "deferredAfterCap": 0,
+          "aggregatorOnlyNotPublished": 6
+        },
+        "specificJobPagesOpened": 42,
+        "specificJobPagesVerified": 0,
+        "excludedUnconfirmedSmartWorking": 6,
+        "newRegionalJobs": 0,
         "newJobs": 0,
-        "note": "Scansione avviata; checkpoint pubblicato prima delle richieste alle fonti."
+        "regionsTarget": 1,
+        "regionsAttempted": [
+          "Toscana"
+        ],
+        "provincesTarget": [
+          "Firenze",
+          "Arezzo",
+          "Grosseto",
+          "Livorno",
+          "Lucca",
+          "Massa-Carrara",
+          "Pisa",
+          "Pistoia",
+          "Prato",
+          "Siena"
+        ],
+        "regionCoverage": {
+          "Toscana": {
+            "attempted": 5,
+            "indexPagesAccessible": 5,
+            "unavailable": 0,
+            "candidateLinksFound": 14,
+            "status": "index_search_attempted_postings_checked_separately",
+            "detailPagesVerified": 6
+          }
+        },
+        "activeJobs": 22,
+        "searchLog": [
+          {
+            "source": "LinkedIn Jobs",
+            "query": "tender office",
+            "area": "Toscana, Italia",
+            "method": "direct_public_cards",
+            "checkedAt": "2026-11-28T15:17:11.080838+00:00",
+            "evidenceUrls": [
+              "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=tender+office&location=Toscana%2C+Italia&start=0&sortBy=DD"
+            ],
+            "outcome": "success: 10 public vacancy cards",
+            "candidateLinksFound": 10
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "method": "native_channel_terminal",
+            "checkedAt": "2026-11-28T15:17:11.866704+00:00",
+            "plannedQueries": 165,
+            "attemptedQueries": 1,
+            "deferredQueries": 164,
+            "blockedHttpStatus": 429,
+            "retryAfter": null,
+            "outcome": "unavailable: native channel HTTP 429; use independent authorized connector/web discovery"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "tender office",
+            "area": "Toscana, Italia",
+            "method": "direct_public_cards",
+            "checkedAt": "2026-11-28T15:17:11.866747+00:00",
+            "evidenceUrls": [
+              "https://it.indeed.com/jobs?q=tender+office&l=Toscana&sort=date"
+            ],
+            "outcome": "unavailable: HTTP Error 403: Forbidden"
+          },
+          {
+            "source": "Indeed Italia",
+            "method": "native_channel_terminal",
+            "checkedAt": "2026-11-28T15:17:11.896494+00:00",
+            "plannedQueries": 165,
+            "attemptedQueries": 1,
+            "deferredQueries": 164,
+            "blockedHttpStatus": 403,
+            "retryAfter": null,
+            "outcome": "unavailable: native channel HTTP 403; use independent authorized connector/web discovery"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"ufficio gare\" OR \"tender specialist\") Firenze Toscana",
+            "area": "Firenze Toscana",
+            "checkedAt": "2026-11-28T15:17:11.897529+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Firenze+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"ufficio gare\" OR \"tender specialist\") Arezzo Toscana",
+            "area": "Arezzo Toscana",
+            "checkedAt": "2026-11-28T15:17:11.897845+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Arezzo+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"ufficio gare\" OR \"tender specialist\") Grosseto Toscana",
+            "area": "Grosseto Toscana",
+            "checkedAt": "2026-11-28T15:17:11.898146+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Grosseto+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"ufficio gare\" OR \"tender specialist\") Livorno Toscana",
+            "area": "Livorno Toscana",
+            "checkedAt": "2026-11-28T15:17:11.898486+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Livorno+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"ufficio gare\" OR \"tender specialist\") Lucca Toscana",
+            "area": "Lucca Toscana",
+            "checkedAt": "2026-11-28T15:17:11.898799+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Lucca+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"ufficio gare\" OR \"tender specialist\") Massa-Carrara Toscana",
+            "area": "Massa-Carrara Toscana",
+            "checkedAt": "2026-11-28T15:17:11.899141+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Massa-Carrara+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"ufficio gare\" OR \"tender specialist\") Pisa Toscana",
+            "area": "Pisa Toscana",
+            "checkedAt": "2026-11-28T15:17:11.989214+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Pisa+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"ufficio gare\" OR \"tender specialist\") Pistoia Toscana",
+            "area": "Pistoia Toscana",
+            "checkedAt": "2026-11-28T15:17:11.990079+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Pistoia+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"ufficio gare\" OR \"tender specialist\") Prato Toscana",
+            "area": "Prato Toscana",
+            "checkedAt": "2026-11-28T15:17:11.996225+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Prato+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"ufficio gare\" OR \"tender specialist\") Siena Toscana",
+            "area": "Siena Toscana",
+            "checkedAt": "2026-11-28T15:17:12.003012+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Siena+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"ufficio gare\" OR \"tender specialist\") Toscana",
+            "area": "Toscana",
+            "checkedAt": "2026-11-28T15:17:12.017397+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"ufficio gare\" OR \"tender specialist\") Valdarno Toscana",
+            "area": "Valdarno Toscana",
+            "checkedAt": "2026-11-28T15:17:12.065477+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Valdarno+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"bid coordinator\" OR \"proposal specialist\") Firenze Toscana",
+            "area": "Firenze Toscana",
+            "checkedAt": "2026-11-28T15:17:12.077843+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Firenze+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"bid coordinator\" OR \"proposal specialist\") Arezzo Toscana",
+            "area": "Arezzo Toscana",
+            "checkedAt": "2026-11-28T15:17:12.086090+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Arezzo+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"bid coordinator\" OR \"proposal specialist\") Grosseto Toscana",
+            "area": "Grosseto Toscana",
+            "checkedAt": "2026-11-28T15:17:12.098229+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Grosseto+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"bid coordinator\" OR \"proposal specialist\") Livorno Toscana",
+            "area": "Livorno Toscana",
+            "checkedAt": "2026-11-28T15:17:12.108639+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Livorno+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"bid coordinator\" OR \"proposal specialist\") Lucca Toscana",
+            "area": "Lucca Toscana",
+            "checkedAt": "2026-11-28T15:17:12.121119+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Lucca+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"bid coordinator\" OR \"proposal specialist\") Massa-Carrara Toscana",
+            "area": "Massa-Carrara Toscana",
+            "checkedAt": "2026-11-28T15:17:12.189393+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Massa-Carrara+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"bid coordinator\" OR \"proposal specialist\") Pisa Toscana",
+            "area": "Pisa Toscana",
+            "checkedAt": "2026-11-28T15:17:12.209336+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Pisa+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"bid coordinator\" OR \"proposal specialist\") Pistoia Toscana",
+            "area": "Pistoia Toscana",
+            "checkedAt": "2026-11-28T15:17:12.209771+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Pistoia+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"bid coordinator\" OR \"proposal specialist\") Prato Toscana",
+            "area": "Prato Toscana",
+            "checkedAt": "2026-11-28T15:17:12.222569+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Prato+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"bid coordinator\" OR \"proposal specialist\") Siena Toscana",
+            "area": "Siena Toscana",
+            "checkedAt": "2026-11-28T15:17:12.238349+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Siena+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"bid coordinator\" OR \"proposal specialist\") Toscana",
+            "area": "Toscana",
+            "checkedAt": "2026-11-28T15:17:12.271550+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"bid coordinator\" OR \"proposal specialist\") Valdarno Toscana",
+            "area": "Valdarno Toscana",
+            "checkedAt": "2026-11-28T15:17:12.294781+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Valdarno+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"PMO\" OR \"project support\") Firenze Toscana",
+            "area": "Firenze Toscana",
+            "checkedAt": "2026-11-28T15:17:12.303386+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22PMO%22+OR+%22project+support%22%29+Firenze+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"PMO\" OR \"project support\") Arezzo Toscana",
+            "area": "Arezzo Toscana",
+            "checkedAt": "2026-11-28T15:17:12.323574+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22PMO%22+OR+%22project+support%22%29+Arezzo+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"PMO\" OR \"project support\") Grosseto Toscana",
+            "area": "Grosseto Toscana",
+            "checkedAt": "2026-11-28T15:17:12.339492+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22PMO%22+OR+%22project+support%22%29+Grosseto+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"PMO\" OR \"project support\") Livorno Toscana",
+            "area": "Livorno Toscana",
+            "checkedAt": "2026-11-28T15:17:12.353820+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22PMO%22+OR+%22project+support%22%29+Livorno+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"PMO\" OR \"project support\") Lucca Toscana",
+            "area": "Lucca Toscana",
+            "checkedAt": "2026-11-28T15:17:12.362620+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22PMO%22+OR+%22project+support%22%29+Lucca+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"PMO\" OR \"project support\") Massa-Carrara Toscana",
+            "area": "Massa-Carrara Toscana",
+            "checkedAt": "2026-11-28T15:17:12.376832+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22PMO%22+OR+%22project+support%22%29+Massa-Carrara+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"PMO\" OR \"project support\") Pisa Toscana",
+            "area": "Pisa Toscana",
+            "checkedAt": "2026-11-28T15:17:12.398200+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22PMO%22+OR+%22project+support%22%29+Pisa+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"PMO\" OR \"project support\") Pistoia Toscana",
+            "area": "Pistoia Toscana",
+            "checkedAt": "2026-11-28T15:17:12.430203+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22PMO%22+OR+%22project+support%22%29+Pistoia+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"PMO\" OR \"project support\") Prato Toscana",
+            "area": "Prato Toscana",
+            "checkedAt": "2026-11-28T15:17:12.442096+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22PMO%22+OR+%22project+support%22%29+Prato+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"PMO\" OR \"project support\") Siena Toscana",
+            "area": "Siena Toscana",
+            "checkedAt": "2026-11-28T15:17:12.456960+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22PMO%22+OR+%22project+support%22%29+Siena+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"PMO\" OR \"project support\") Toscana",
+            "area": "Toscana",
+            "checkedAt": "2026-11-28T15:17:12.457818+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22PMO%22+OR+%22project+support%22%29+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"PMO\" OR \"project support\") Valdarno Toscana",
+            "area": "Valdarno Toscana",
+            "checkedAt": "2026-11-28T15:17:12.481009+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22PMO%22+OR+%22project+support%22%29+Valdarno+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"back office commerciale\" OR \"sales operations\") Firenze Toscana",
+            "area": "Firenze Toscana",
+            "checkedAt": "2026-11-28T15:17:12.510318+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Firenze+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"back office commerciale\" OR \"sales operations\") Arezzo Toscana",
+            "area": "Arezzo Toscana",
+            "checkedAt": "2026-11-28T15:17:12.524477+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Arezzo+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"back office commerciale\" OR \"sales operations\") Grosseto Toscana",
+            "area": "Grosseto Toscana",
+            "checkedAt": "2026-11-28T15:17:12.536862+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Grosseto+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"back office commerciale\" OR \"sales operations\") Livorno Toscana",
+            "area": "Livorno Toscana",
+            "checkedAt": "2026-11-28T15:17:12.551009+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Livorno+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"back office commerciale\" OR \"sales operations\") Lucca Toscana",
+            "area": "Lucca Toscana",
+            "checkedAt": "2026-11-28T15:17:12.553618+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Lucca+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"back office commerciale\" OR \"sales operations\") Massa-Carrara Toscana",
+            "area": "Massa-Carrara Toscana",
+            "checkedAt": "2026-11-28T15:17:12.609200+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Massa-Carrara+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"back office commerciale\" OR \"sales operations\") Pisa Toscana",
+            "area": "Pisa Toscana",
+            "checkedAt": "2026-11-28T15:17:12.618290+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Pisa+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"back office commerciale\" OR \"sales operations\") Pistoia Toscana",
+            "area": "Pistoia Toscana",
+            "checkedAt": "2026-11-28T15:17:12.620498+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Pistoia+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"back office commerciale\" OR \"sales operations\") Prato Toscana",
+            "area": "Prato Toscana",
+            "checkedAt": "2026-11-28T15:17:12.633247+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Prato+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"back office commerciale\" OR \"sales operations\") Siena Toscana",
+            "area": "Siena Toscana",
+            "checkedAt": "2026-11-28T15:17:12.639829+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Siena+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"back office commerciale\" OR \"sales operations\") Toscana",
+            "area": "Toscana",
+            "checkedAt": "2026-11-28T15:17:12.677225+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"back office commerciale\" OR \"sales operations\") Valdarno Toscana",
+            "area": "Valdarno Toscana",
+            "checkedAt": "2026-11-28T15:17:12.705129+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Valdarno+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"order management\" OR \"segreteria commerciale\") Firenze Toscana",
+            "area": "Firenze Toscana",
+            "checkedAt": "2026-11-28T15:17:12.735654+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Firenze+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"order management\" OR \"segreteria commerciale\") Arezzo Toscana",
+            "area": "Arezzo Toscana",
+            "checkedAt": "2026-11-28T15:17:12.741733+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Arezzo+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"order management\" OR \"segreteria commerciale\") Grosseto Toscana",
+            "area": "Grosseto Toscana",
+            "checkedAt": "2026-11-28T15:17:12.773258+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Grosseto+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"order management\" OR \"segreteria commerciale\") Livorno Toscana",
+            "area": "Livorno Toscana",
+            "checkedAt": "2026-11-28T15:17:12.781822+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Livorno+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"order management\" OR \"segreteria commerciale\") Lucca Toscana",
+            "area": "Lucca Toscana",
+            "checkedAt": "2026-11-28T15:17:12.792121+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Lucca+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"order management\" OR \"segreteria commerciale\") Massa-Carrara Toscana",
+            "area": "Massa-Carrara Toscana",
+            "checkedAt": "2026-11-28T15:17:12.816496+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Massa-Carrara+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"order management\" OR \"segreteria commerciale\") Pisa Toscana",
+            "area": "Pisa Toscana",
+            "checkedAt": "2026-11-28T15:17:12.835823+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Pisa+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"order management\" OR \"segreteria commerciale\") Pistoia Toscana",
+            "area": "Pistoia Toscana",
+            "checkedAt": "2026-11-28T15:17:12.839619+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Pistoia+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"order management\" OR \"segreteria commerciale\") Prato Toscana",
+            "area": "Prato Toscana",
+            "checkedAt": "2026-11-28T15:17:12.857091+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Prato+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"order management\" OR \"segreteria commerciale\") Siena Toscana",
+            "area": "Siena Toscana",
+            "checkedAt": "2026-11-28T15:17:12.865807+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Siena+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"order management\" OR \"segreteria commerciale\") Toscana",
+            "area": "Toscana",
+            "checkedAt": "2026-11-28T15:17:12.881527+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "query": "site:linkedin.com/jobs/view (\"order management\" OR \"segreteria commerciale\") Valdarno Toscana",
+            "area": "Valdarno Toscana",
+            "checkedAt": "2026-11-28T15:17:12.916044+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Alinkedin.com%2Fjobs%2Fview+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Valdarno+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"ufficio gare\" OR \"tender specialist\") Firenze Toscana",
+            "area": "Firenze Toscana",
+            "checkedAt": "2026-11-28T15:17:12.932683+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Firenze+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"ufficio gare\" OR \"tender specialist\") Arezzo Toscana",
+            "area": "Arezzo Toscana",
+            "checkedAt": "2026-11-28T15:17:12.957455+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Arezzo+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"ufficio gare\" OR \"tender specialist\") Grosseto Toscana",
+            "area": "Grosseto Toscana",
+            "checkedAt": "2026-11-28T15:17:12.969920+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Grosseto+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"ufficio gare\" OR \"tender specialist\") Livorno Toscana",
+            "area": "Livorno Toscana",
+            "checkedAt": "2026-11-28T15:17:12.997357+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Livorno+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"ufficio gare\" OR \"tender specialist\") Lucca Toscana",
+            "area": "Lucca Toscana",
+            "checkedAt": "2026-11-28T15:17:13.022816+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Lucca+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"ufficio gare\" OR \"tender specialist\") Massa-Carrara Toscana",
+            "area": "Massa-Carrara Toscana",
+            "checkedAt": "2026-11-28T15:17:13.029380+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Massa-Carrara+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"ufficio gare\" OR \"tender specialist\") Pisa Toscana",
+            "area": "Pisa Toscana",
+            "checkedAt": "2026-11-28T15:17:13.032135+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Pisa+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"ufficio gare\" OR \"tender specialist\") Pistoia Toscana",
+            "area": "Pistoia Toscana",
+            "checkedAt": "2026-11-28T15:17:13.049882+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Pistoia+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"ufficio gare\" OR \"tender specialist\") Prato Toscana",
+            "area": "Prato Toscana",
+            "checkedAt": "2026-11-28T15:17:13.106818+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Prato+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"ufficio gare\" OR \"tender specialist\") Siena Toscana",
+            "area": "Siena Toscana",
+            "checkedAt": "2026-11-28T15:17:13.137712+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Siena+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"ufficio gare\" OR \"tender specialist\") Toscana",
+            "area": "Toscana",
+            "checkedAt": "2026-11-28T15:17:13.138055+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"ufficio gare\" OR \"tender specialist\") Valdarno Toscana",
+            "area": "Valdarno Toscana",
+            "checkedAt": "2026-11-28T15:17:13.148077+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22ufficio+gare%22+OR+%22tender+specialist%22%29+Valdarno+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"bid coordinator\" OR \"proposal specialist\") Firenze Toscana",
+            "area": "Firenze Toscana",
+            "checkedAt": "2026-11-28T15:17:13.154615+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Firenze+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"bid coordinator\" OR \"proposal specialist\") Arezzo Toscana",
+            "area": "Arezzo Toscana",
+            "checkedAt": "2026-11-28T15:17:13.155024+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Arezzo+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"bid coordinator\" OR \"proposal specialist\") Grosseto Toscana",
+            "area": "Grosseto Toscana",
+            "checkedAt": "2026-11-28T15:17:13.224176+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Grosseto+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"bid coordinator\" OR \"proposal specialist\") Livorno Toscana",
+            "area": "Livorno Toscana",
+            "checkedAt": "2026-11-28T15:17:13.225142+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Livorno+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"bid coordinator\" OR \"proposal specialist\") Lucca Toscana",
+            "area": "Lucca Toscana",
+            "checkedAt": "2026-11-28T15:17:13.243325+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Lucca+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"bid coordinator\" OR \"proposal specialist\") Massa-Carrara Toscana",
+            "area": "Massa-Carrara Toscana",
+            "checkedAt": "2026-11-28T15:17:13.244894+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Massa-Carrara+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"bid coordinator\" OR \"proposal specialist\") Pisa Toscana",
+            "area": "Pisa Toscana",
+            "checkedAt": "2026-11-28T15:17:13.246828+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Pisa+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"bid coordinator\" OR \"proposal specialist\") Pistoia Toscana",
+            "area": "Pistoia Toscana",
+            "checkedAt": "2026-11-28T15:17:13.274527+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Pistoia+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"bid coordinator\" OR \"proposal specialist\") Prato Toscana",
+            "area": "Prato Toscana",
+            "checkedAt": "2026-11-28T15:17:13.327728+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Prato+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"bid coordinator\" OR \"proposal specialist\") Siena Toscana",
+            "area": "Siena Toscana",
+            "checkedAt": "2026-11-28T15:17:13.355026+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Siena+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"bid coordinator\" OR \"proposal specialist\") Toscana",
+            "area": "Toscana",
+            "checkedAt": "2026-11-28T15:17:13.362967+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"bid coordinator\" OR \"proposal specialist\") Valdarno Toscana",
+            "area": "Valdarno Toscana",
+            "checkedAt": "2026-11-28T15:17:13.377018+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22bid+coordinator%22+OR+%22proposal+specialist%22%29+Valdarno+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"PMO\" OR \"project support\") Firenze Toscana",
+            "area": "Firenze Toscana",
+            "checkedAt": "2026-11-28T15:17:13.392706+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22PMO%22+OR+%22project+support%22%29+Firenze+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"PMO\" OR \"project support\") Arezzo Toscana",
+            "area": "Arezzo Toscana",
+            "checkedAt": "2026-11-28T15:17:13.405331+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22PMO%22+OR+%22project+support%22%29+Arezzo+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"PMO\" OR \"project support\") Grosseto Toscana",
+            "area": "Grosseto Toscana",
+            "checkedAt": "2026-11-28T15:17:13.417787+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22PMO%22+OR+%22project+support%22%29+Grosseto+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"PMO\" OR \"project support\") Livorno Toscana",
+            "area": "Livorno Toscana",
+            "checkedAt": "2026-11-28T15:17:13.435076+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22PMO%22+OR+%22project+support%22%29+Livorno+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"PMO\" OR \"project support\") Lucca Toscana",
+            "area": "Lucca Toscana",
+            "checkedAt": "2026-11-28T15:17:13.441886+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22PMO%22+OR+%22project+support%22%29+Lucca+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"PMO\" OR \"project support\") Massa-Carrara Toscana",
+            "area": "Massa-Carrara Toscana",
+            "checkedAt": "2026-11-28T15:17:13.487474+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22PMO%22+OR+%22project+support%22%29+Massa-Carrara+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"PMO\" OR \"project support\") Pisa Toscana",
+            "area": "Pisa Toscana",
+            "checkedAt": "2026-11-28T15:17:13.488097+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22PMO%22+OR+%22project+support%22%29+Pisa+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"PMO\" OR \"project support\") Pistoia Toscana",
+            "area": "Pistoia Toscana",
+            "checkedAt": "2026-11-28T15:17:13.498975+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22PMO%22+OR+%22project+support%22%29+Pistoia+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"PMO\" OR \"project support\") Prato Toscana",
+            "area": "Prato Toscana",
+            "checkedAt": "2026-11-28T15:17:13.541056+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22PMO%22+OR+%22project+support%22%29+Prato+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"PMO\" OR \"project support\") Siena Toscana",
+            "area": "Siena Toscana",
+            "checkedAt": "2026-11-28T15:17:13.550848+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22PMO%22+OR+%22project+support%22%29+Siena+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"PMO\" OR \"project support\") Toscana",
+            "area": "Toscana",
+            "checkedAt": "2026-11-28T15:17:13.557587+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22PMO%22+OR+%22project+support%22%29+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"PMO\" OR \"project support\") Valdarno Toscana",
+            "area": "Valdarno Toscana",
+            "checkedAt": "2026-11-28T15:17:13.584897+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22PMO%22+OR+%22project+support%22%29+Valdarno+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"back office commerciale\" OR \"sales operations\") Firenze Toscana",
+            "area": "Firenze Toscana",
+            "checkedAt": "2026-11-28T15:17:13.603929+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Firenze+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"back office commerciale\" OR \"sales operations\") Arezzo Toscana",
+            "area": "Arezzo Toscana",
+            "checkedAt": "2026-11-28T15:17:13.648576+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Arezzo+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"back office commerciale\" OR \"sales operations\") Grosseto Toscana",
+            "area": "Grosseto Toscana",
+            "checkedAt": "2026-11-28T15:17:13.654241+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Grosseto+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"back office commerciale\" OR \"sales operations\") Livorno Toscana",
+            "area": "Livorno Toscana",
+            "checkedAt": "2026-11-28T15:17:13.662186+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Livorno+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"back office commerciale\" OR \"sales operations\") Lucca Toscana",
+            "area": "Lucca Toscana",
+            "checkedAt": "2026-11-28T15:17:13.688869+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Lucca+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"back office commerciale\" OR \"sales operations\") Massa-Carrara Toscana",
+            "area": "Massa-Carrara Toscana",
+            "checkedAt": "2026-11-28T15:17:13.724325+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Massa-Carrara+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"back office commerciale\" OR \"sales operations\") Pisa Toscana",
+            "area": "Pisa Toscana",
+            "checkedAt": "2026-11-28T15:17:13.766302+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Pisa+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"back office commerciale\" OR \"sales operations\") Pistoia Toscana",
+            "area": "Pistoia Toscana",
+            "checkedAt": "2026-11-28T15:17:13.774153+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Pistoia+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"back office commerciale\" OR \"sales operations\") Prato Toscana",
+            "area": "Prato Toscana",
+            "checkedAt": "2026-11-28T15:17:13.795171+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Prato+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"back office commerciale\" OR \"sales operations\") Siena Toscana",
+            "area": "Siena Toscana",
+            "checkedAt": "2026-11-28T15:17:13.804731+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Siena+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"back office commerciale\" OR \"sales operations\") Toscana",
+            "area": "Toscana",
+            "checkedAt": "2026-11-28T15:17:13.826707+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"back office commerciale\" OR \"sales operations\") Valdarno Toscana",
+            "area": "Valdarno Toscana",
+            "checkedAt": "2026-11-28T15:17:13.845681+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22back+office+commerciale%22+OR+%22sales+operations%22%29+Valdarno+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"order management\" OR \"segreteria commerciale\") Firenze Toscana",
+            "area": "Firenze Toscana",
+            "checkedAt": "2026-11-28T15:17:13.880154+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Firenze+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"order management\" OR \"segreteria commerciale\") Arezzo Toscana",
+            "area": "Arezzo Toscana",
+            "checkedAt": "2026-11-28T15:17:13.885645+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Arezzo+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"order management\" OR \"segreteria commerciale\") Grosseto Toscana",
+            "area": "Grosseto Toscana",
+            "checkedAt": "2026-11-28T15:17:13.887929+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Grosseto+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"order management\" OR \"segreteria commerciale\") Livorno Toscana",
+            "area": "Livorno Toscana",
+            "checkedAt": "2026-11-28T15:17:13.902890+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Livorno+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"order management\" OR \"segreteria commerciale\") Lucca Toscana",
+            "area": "Lucca Toscana",
+            "checkedAt": "2026-11-28T15:17:13.932474+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Lucca+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"order management\" OR \"segreteria commerciale\") Massa-Carrara Toscana",
+            "area": "Massa-Carrara Toscana",
+            "checkedAt": "2026-11-28T15:17:13.964167+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Massa-Carrara+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"order management\" OR \"segreteria commerciale\") Pisa Toscana",
+            "area": "Pisa Toscana",
+            "checkedAt": "2026-11-28T15:17:13.980033+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Pisa+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"order management\" OR \"segreteria commerciale\") Pistoia Toscana",
+            "area": "Pistoia Toscana",
+            "checkedAt": "2026-11-28T15:17:13.984014+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Pistoia+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"order management\" OR \"segreteria commerciale\") Prato Toscana",
+            "area": "Prato Toscana",
+            "checkedAt": "2026-11-28T15:17:14.017351+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Prato+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"order management\" OR \"segreteria commerciale\") Siena Toscana",
+            "area": "Siena Toscana",
+            "checkedAt": "2026-11-28T15:17:14.017921+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Siena+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"order management\" OR \"segreteria commerciale\") Toscana",
+            "area": "Toscana",
+            "checkedAt": "2026-11-28T15:17:14.083575+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "Indeed Italia",
+            "query": "site:it.indeed.com (\"order management\" OR \"segreteria commerciale\") Valdarno Toscana",
+            "area": "Valdarno Toscana",
+            "checkedAt": "2026-11-28T15:17:14.087206+00:00",
+            "method": "indexed_public_discovery",
+            "candidateLinksFound": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?q=site%3Ait.indeed.com+%28%22order+management%22+OR+%22segreteria+commerciale%22%29+Valdarno+Toscana&format=rss&cc=IT&setlang=it&mkt=it-IT"
+            ],
+            "outcome": "unconfirmed: zero relevant indexed posting links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "method": "individual_detail_verification",
+            "checkedAt": "2026-11-28T15:17:14.176110+00:00",
+            "candidateLinksFound": 10,
+            "specificJobPagesAttempted": 3,
+            "specificJobPagesOpened": 2,
+            "specificJobPagesErrors": 1,
+            "specificJobPagesDeferred": 7,
+            "specificJobPagesVerified": 0,
+            "blockedHttpStatus": 429,
+            "indexedFallback": true,
+            "outcome": "unavailable: detail channel blocked"
+          },
+          {
+            "source": "Indeed Italia",
+            "method": "individual_detail_verification",
+            "checkedAt": "2026-11-28T15:17:14.176123+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesAttempted": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesErrors": 0,
+            "specificJobPagesDeferred": 0,
+            "specificJobPagesVerified": 0,
+            "blockedHttpStatus": 403,
+            "indexedFallback": true,
+            "outcome": "unavailable: detail channel blocked"
+          },
+          {
+            "source": "AICOM",
+            "method": "employer_board",
+            "checkedAt": "2026-11-28T15:17:14.176637+00:00",
+            "evidenceUrls": [
+              "https://aicomspa-1736851116.teamtailor.com/jobs"
+            ],
+            "outcome": "success: 6 vacancy links"
+          },
+          {
+            "source": "Var Group",
+            "method": "employer_board",
+            "checkedAt": "2026-11-28T15:17:14.176851+00:00",
+            "evidenceUrls": [
+              "https://www.careers.vargroup.com/jobs"
+            ],
+            "outcome": "success: 20 vacancy links"
+          },
+          {
+            "source": "Motoabbigliamento",
+            "method": "employer_board",
+            "checkedAt": "2026-11-28T15:17:14.177132+00:00",
+            "evidenceUrls": [
+              "https://motoabbigliamento.teamtailor.com/jobs"
+            ],
+            "outcome": "success: 4 vacancy links"
+          },
+          {
+            "source": "Prada Group Valdarno",
+            "method": "employer_board",
+            "checkedAt": "2026-11-28T15:17:14.177465+00:00",
+            "evidenceUrls": [
+              "https://jobs.pradagroup.com/search/?q=&locationsearch=Terranuova"
+            ],
+            "outcome": "success: 4 vacancy links"
+          },
+          {
+            "source": "Plures / Estra",
+            "method": "employer_board",
+            "checkedAt": "2026-11-28T15:17:15.831023+00:00",
+            "evidenceUrls": [
+              "https://aliaserviziambientali.wd103.myworkdayjobs.com/wday/cxs/aliaserviziambientali/Multiutility_External_Career_Site/jobs"
+            ],
+            "outcome": "success: 6 Prato vacancy links"
+          },
+          {
+            "source": "LinkedIn Jobs",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.530081+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [],
+            "outcome": "handled_by_primary_or_ats_adapter"
+          },
+          {
+            "source": "Indeed Italia",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.530214+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [],
+            "outcome": "handled_by_primary_or_ats_adapter"
+          },
+          {
+            "source": "Monster Italia",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.530225+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.monster.it/lavoro/cerca?q=ufficio-gare",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Amonster.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "unavailable: HTTP Error 403: HTTP Forbidden",
+            "indexedLinksFound": 0,
+            "outcome": "unavailable: native source blocked; index produced no links"
+          },
+          {
+            "source": "Glassdoor Jobs",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.530549+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.glassdoor.it/Lavoro/italia-ufficio-gare-lavori-SRCH_IL.0,6_IN120_KO7,18.htm",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aglassdoor.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "unavailable: HTTP Error 403: Forbidden",
+            "indexedLinksFound": 0,
+            "outcome": "unavailable: native source blocked; index produced no links"
+          },
+          {
+            "source": "Jooble Italia",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.530914+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://it.jooble.org/lavoro-ufficio-gare",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Ait.jooble.org+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "unavailable: HTTP Error 403: Forbidden",
+            "indexedLinksFound": 0,
+            "outcome": "unavailable: native source blocked; index produced no links"
+          },
+          {
+            "source": "Talent.com Italia",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.531117+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://it.talent.com/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Ait.talent.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Careerjet Italia",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.531415+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.careerjet.it/offerte-lavoro-ufficio-gare.html",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Acareerjet.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Jobsora Italia",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.531717+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Ait.jobsora.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_configured_endpoint",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Trovolavoro",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.532088+00:00",
+            "candidateLinksFound": 1,
+            "specificJobPagesOpened": 1,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://offerte.trovolavoro.com/it/careers/jobs_by_city/italia",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aofferte.trovolavoro.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "candidate_links",
+            "indexedLinksFound": 0,
+            "specificJobPagesAttempted": 1,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Subito Lavoro",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.532448+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.subito.it/annunci-italia/vendita/offerte-lavoro/?q=ufficio%20gare",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Asubito.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "unavailable: HTTP Error 403: Forbidden",
+            "indexedLinksFound": 0,
+            "outcome": "unavailable: native source blocked; index produced no links"
+          },
+          {
+            "source": "Helplavoro",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.532789+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Ahelplavoro.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_configured_endpoint",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "CVing",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.533219+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.cving.com/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Acving.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "SIISL",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.533557+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Asiisl.lavoro.gov.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_configured_endpoint",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "EURES",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.534029+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://eures.europa.eu/index_it",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aeures.europa.eu+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "ARTI Toscana / Toscana Lavoro",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.600437+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://lavoro.regione.toscana.it/ToscanaLavoro/cittadini/offerteLavoro.xhtml",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Alavoro.regione.toscana.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Cliclavoro / servizi Ministero",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.615922+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.cliclavoro.gov.it/guide/orientamento-al-lavoro",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Acliclavoro.gov.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Randstad Italia",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.682554+00:00",
+            "candidateLinksFound": 19,
+            "specificJobPagesOpened": 19,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.randstad.it/offerte-lavoro/q-ufficio-gare/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Arandstad.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "candidate_links",
+            "indexedLinksFound": 0,
+            "specificJobPagesAttempted": 19,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Adecco Italia",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.761641+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.adecco.it/offerte-lavoro",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aadecco.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Manpower Italia",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.799220+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.manpower.it/it/trova-lavoro",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Amanpower.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Gi Group",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.821741+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.gigroup.it/offerte-lavoro/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Agigroup.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Grafton",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:16.852871+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://it.grafton.com/offerte-lavoro/toscana-re/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Ait.grafton.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Hays Italia",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:17.013633+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.hays.com/it-IT/ricerca-offerte/a-toscana-italia",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Ahays.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Michael Page Italia",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:17.066579+00:00",
+            "candidateLinksFound": 1,
+            "specificJobPagesOpened": 1,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.michaelpage.it/jobs/toscana",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Amichaelpage.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "candidate_links",
+            "indexedLinksFound": 0,
+            "specificJobPagesAttempted": 1,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Page Personnel Italia",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:17.084028+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Apagepersonnel.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_configured_endpoint",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "LHH Italia",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:17.133244+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Alhh.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_configured_endpoint",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Jefferson Wells Italia",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:17.150490+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.jeffersonwells.it/it/carriere",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Ajeffersonwells.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Experis Italia",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:17.315614+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.experis.it/it/all-jobs",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aexperis.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Openjobmetis",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:17.346586+00:00",
+            "candidateLinksFound": 2,
+            "specificJobPagesOpened": 2,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.openjobmetis.it/it/candidati/offerte-di-lavoro",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aopenjobmetis.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "candidate_links",
+            "indexedLinksFound": 0,
+            "specificJobPagesAttempted": 2,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Synergie Italia",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:17.608988+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.synergie-italia.it/candidato/offerte-di-lavoro",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Asynergie-italia.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Orienta",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:17.934921+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.orienta.net/it/orienta-job/offerte-di-lavoro.html",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aorienta.net+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Lavoropiù",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:18.077129+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.lavoropiu.it/offerte-per-professione/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Alavoropiu.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "unavailable: HTTP Error 403: Forbidden",
+            "indexedLinksFound": 0,
+            "outcome": "unavailable: native source blocked; index produced no links"
+          },
+          {
+            "source": "Umana",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:18.104546+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.umana.it/per-le-persone/offerte-di-lavoro/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aumana.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Ali Lavoro",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:18.139802+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://careers.alilavoro.it/jobs.php",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Acareers.alilavoro.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "During",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:18.204319+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://portale.during.it/offerta-lavoro/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aportale.during.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Etjca",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:18.232985+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.etjca.it/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aetjca.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "MAW",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:18.312899+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.maw.it/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Amaw.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Humangest",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:18.738657+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://humangest.it/trova-lavoro/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Ahumangest.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "ADHR Group",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:18.928562+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.adhr.it/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aadhr.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Atempo",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:18.986086+00:00",
+            "candidateLinksFound": 1,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.atempospa.it/servizi-per-i-lavoratori/annunci/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aatempospa.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "candidate_links",
+            "indexedLinksFound": 0,
+            "specificJobPagesAttempted": 1,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Eurointerim",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:19.159056+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.eurointerim.it/lavora-con-noi/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aeurointerim.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "La Risorsa Umana",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:19.476763+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.larisorsaumana.it/ricerca-offerte",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Alarisorsaumana.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "IQM Selezione",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:19.685153+00:00",
+            "candidateLinksFound": 4,
+            "specificJobPagesOpened": 4,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.iqmselezione.it/ricerche-in-corso.php",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aiqmselezione.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "candidate_links",
+            "indexedLinksFound": 0,
+            "specificJobPagesAttempted": 4,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Praxi",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:20.115408+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://recruitment.praxi/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Arecruitment.praxi+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Wyser / executive search network",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:20.174860+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://it.wyser-search.com/offerte-lavoro/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Ait.wyser-search.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Google indexed vacancies",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:20.251059+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Agoogle.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_configured_endpoint",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Bing indexed vacancies",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:20.322314+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Abing.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_configured_endpoint",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "DuckDuckGo indexed vacancies",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:20.412946+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aduckduckgo.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_configured_endpoint",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Accenture Careers",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:20.427238+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.accenture.com/it-it/careers/jobsearch",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aaccenture.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Engineering Careers",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:20.498532+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aeng.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_configured_endpoint",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "DXC Careers",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:20.507914+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://careers.dxc.com/it/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Acareers.dxc.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Dedalus Careers",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:20.571961+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.dedalus.com/italy/it/lavorare-in-dedalus/le-nostre-offerte-di-lavoro/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Adedalus.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "unavailable: HTTP Error 521: <none>",
+            "indexedLinksFound": 0,
+            "outcome": "unavailable: native source blocked; index produced no links"
+          },
+          {
+            "source": "Var Group Careers",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:20.628200+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.careers.vargroup.com/jobs",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Acareers.vargroup.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Baker Hughes Careers",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:20.681540+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://careers.bakerhughes.com/it/it/search-results?qcity=Florence&qcountry=Italy&qstate=Firenze",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Acareers.bakerhughes.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Aruba Careers",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:20.784115+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aaruba.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_configured_endpoint",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Bertolotti Careers / Factorial",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:20.804565+00:00",
+            "candidateLinksFound": 2,
+            "specificJobPagesOpened": 2,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://bertolotti.factorial.it/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Abertolotti.factorial.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "candidate_links",
+            "indexedLinksFound": 0,
+            "specificJobPagesAttempted": 2,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Kering Careers",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:20.812838+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Akering.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_configured_endpoint",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "AICOM Careers / Teamtailor",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:20.883564+00:00",
+            "candidateLinksFound": 1,
+            "specificJobPagesOpened": 1,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://aicomspa-1736851116.teamtailor.com/jobs",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aaicomspa-1736851116.teamtailor.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "candidate_links",
+            "indexedLinksFound": 0,
+            "specificJobPagesAttempted": 1,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "La Marzocco Careers",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:20.904987+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://lamarzocco.intervieweb.it/it/career",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Alamarzocco.intervieweb.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "unavailable: HTTP Error 403: Forbidden",
+            "indexedLinksFound": 0,
+            "outcome": "unavailable: native source blocked; index produced no links"
+          },
+          {
+            "source": "Menarini Careers / LinkedIn",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:20.928639+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.menarini.com/it-it/carriere/posizioni-aperte.html",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Amenarini.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "EngiNe Careers / Zenita Group",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:21.033151+00:00",
+            "candidateLinksFound": 4,
+            "specificJobPagesOpened": 4,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://engine.it/offerte-di-lavoro/pmo-project-management-office/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aengine.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "candidate_links",
+            "indexedLinksFound": 0,
+            "specificJobPagesAttempted": 4,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Gruppo Florence Careers",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:21.125070+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://careers.gruppoflorence.it/job/view-job.php?id=627-back-office-commerciale-business-development-chiesina-uzzanese&language=en",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Acareers.gruppoflorence.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Ferragamo Careers / LinkedIn",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:21.399739+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://it.linkedin.com/jobs/view/showroom-order-management-fixed-term-contract-at-ferragamo-4485085824",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Ait.linkedin.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "unavailable: HTTP Error 404: Not Found",
+            "indexedLinksFound": 0,
+            "outcome": "unavailable: native source blocked; index produced no links"
+          },
+          {
+            "source": "In Job",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:21.457182+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://careers.injob.com/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Ainjob.com+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Areajob",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:21.592895+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://areajob.it/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aareajob.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Arkigest",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:21.905800+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://lavoro.arkigest.it/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Aarkigest.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "InfoJobs Italia",
+            "method": "catalog_source_individual_vacancy_probe",
+            "checkedAt": "2026-11-28T15:17:22.002233+00:00",
+            "candidateLinksFound": 0,
+            "specificJobPagesOpened": 0,
+            "specificJobPagesVerified": 0,
+            "evidenceUrls": [
+              "https://www.infojobs.it/",
+              "https://www.bing.com/search?format=rss&cc=IT&setlang=it&mkt=it-IT&q=site%3Ainfojobs.it+%28%22ufficio+gare%22+OR+tender+OR+%22PMO%22+OR+%22sales+operations%22+OR+%22back+office%22%29+%28Toscana+OR+Firenze+OR+Arezzo+OR+Grosseto+OR+Livorno+OR+Lucca+OR+Massa+OR+Carrara+OR+Pisa+OR+Pistoia+OR+Prato+OR+Siena+OR+Valdarno%29"
+            ],
+            "directOutcome": "no_readable_role_links",
+            "indexedLinksFound": 0,
+            "outcome": "unconfirmed: no verified original posting"
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Toscana",
+            "query": "ufficio-gare",
+            "checkedAt": "2026-11-28T15:17:25.803777+00:00",
+            "outcome": "index_page_accessible; detail check required",
+            "candidatesFound": 3,
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-ufficio-gare-toscana"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Toscana",
+            "query": "back-office-commerciale",
+            "checkedAt": "2026-11-28T15:17:25.804044+00:00",
+            "outcome": "index_page_accessible; detail check required",
+            "candidatesFound": 3,
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-back-office-commerciale-toscana"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Toscana",
+            "query": "pmo",
+            "checkedAt": "2026-11-28T15:17:25.804442+00:00",
+            "outcome": "index_page_accessible; detail check required",
+            "candidatesFound": 3,
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-pmo-toscana"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Toscana",
+            "query": "sales-operations",
+            "checkedAt": "2026-11-28T15:17:25.805091+00:00",
+            "outcome": "index_page_accessible; detail check required",
+            "candidatesFound": 2,
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-sales-operations-toscana"
+            ]
+          },
+          {
+            "source": "Jobsora regional indexed listings",
+            "method": "regional_index_discovery_only",
+            "region": "Toscana",
+            "query": "project-coordinator",
+            "checkedAt": "2026-11-28T15:17:25.805490+00:00",
+            "outcome": "index_page_accessible; detail check required",
+            "candidatesFound": 3,
+            "evidenceUrls": [
+              "https://it.jobsora.com/lavoro-project-coordinator-toscana"
+            ]
+          }
+        ],
+        "note": "All providers share original-posting availability, role, employer and remote/hybrid publication gate. Aggregator-only and indexed results cannot be published. Catalog queries do not imply complete coverage; partial status is deliberate.",
+        "directNewJobsIncluded": 0
       }
     }
   },
