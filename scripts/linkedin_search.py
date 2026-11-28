@@ -14,14 +14,15 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 from jobsora_extract import clean, field
+from tuscany_scope import PROVINCES, in_tuscany
 
 TERMS = (
-    "ufficio gare", "tender specialist", "PMO", "back office commerciale",
-    "sales operations", "project coordinator", "gare e appalti",
-    "bid coordinator", "proposal specialist", "project support",
-    "segreteria commerciale", "order management",
+    "tender office", "ufficio gare", "gare e appalti", "tender specialist",
+    "bid proposal", "proposal specialist", "responsabile ufficio gare", "tender contract",
+    "sales support", "segreteria commerciale", "back office commerciale", "sales operations",
+    "PMO", "project coordinator", "order management",
 )
-AREAS = ("Firenze, Toscana, Italia", "Italia")
+AREAS = ("Toscana, Italia",) + tuple(p + ", Toscana, Italia" for p in PROVINCES)
 MODE = re.compile(
     r"\b(?:smart[\s-]?working|lavoro\s+(?:ibrido|da remoto|agile)|"
     r"modalit[aà]\s+(?:di\s+lavoro\s+)?ibrid[ao]|"
@@ -148,7 +149,7 @@ def _linked_job(item):
         if isinstance(address, dict):
             listed_location = clean(address.get("addressLocality") or address.get("addressRegion")) or listed_location
     mode = _verified_mode(desc)
-    if not (title and company and mode):
+    if not (title and company and mode and in_tuscany(listed_location)):
         return None
     return {
         "title": title, "company": company, "place": listed_location,
@@ -187,7 +188,7 @@ def _indeed_job(key):
                 continue
         company = clean((job.get("hiringOrganization") or {}).get("name"))
         title = clean(job.get("title"))
-        if not (company and title):
+        if not (company and title and in_tuscany(clean(address.get("addressLocality")) or clean(address.get("addressRegion")))):
             continue
         return {
             "title": title, "company": company,
@@ -200,9 +201,7 @@ def _indeed_job(key):
 
 def _search_linkedin(pair):
     term, area = pair
-    params = {"keywords": term, "location": area, "start": 0, "f_WT": "2,3"}
-    if area == "Italia":
-        params["geoId"] = "103350119"
+    params = {"keywords": term, "location": area, "start": 0, "sortBy": "DD"}
     url = ("https://www.linkedin.com/jobs-guest/jobs/api/"
            "seeMoreJobPostings/search?" + urlencode(params))
     log = dict(source="LinkedIn Jobs", query=term, area=area, method="direct_public_cards",
@@ -210,6 +209,19 @@ def _search_linkedin(pair):
     try:
         body = page(url)
         found = _linkedin_card_ids(body)
+        for start in range(25, 100, 25):
+            if not found or len(found) < start:
+                break
+            next_url = url.rsplit("?", 1)[0] + "?" + urlencode({**params, "start": start})
+            log["evidenceUrls"].append(next_url)
+            try:
+                more = _linkedin_card_ids(page(next_url))
+            except (OSError, ValueError) as exc:
+                log["paginationError"] = str(exc)[:140]
+                break
+            if not set(more) - set(found):
+                break
+            found.update(more)
         log["outcome"] = ("success: " + str(len(found)) + " public vacancy cards"
                           if found else "unconfirmed: no readable vacancy cards")
         log["candidateLinksFound"] = len(found)
@@ -222,7 +234,7 @@ def _search_linkedin(pair):
 def _search_indeed(pair):
     term, area = pair
     url = "https://it.indeed.com/jobs?" + urlencode({
-        "q": term, "l": "Firenze, Toscana" if area != "Italia" else "Italia",
+        "q": term, "l": area.replace(", Italia", ""),
         "sort": "date",
     })
     log = dict(source="Indeed Italia", query=term, area=area, method="direct_public_cards",
@@ -246,11 +258,11 @@ def discover(previous_logs=()):
     indeed = []
     logs = []
     # Search two portals independently: no success/previous-error shortcuts.
-    with ThreadPoolExecutor(max_workers=3) as pool:
+    with ThreadPoolExecutor(max_workers=6) as pool:
         for log, cards in pool.map(_search_linkedin, pairs):
             logs.append(log)
             linkedin.update(cards)
-    with ThreadPoolExecutor(max_workers=3) as pool:
+    with ThreadPoolExecutor(max_workers=6) as pool:
         for log, keys in pool.map(_search_indeed, pairs):
             logs.append(log)
             indeed.extend(keys)
@@ -263,8 +275,8 @@ def discover(previous_logs=()):
         linkedin.setdefault(ident, area)
     indeed.extend(indexed_indeed)
     logs.extend(indexed_logs)
-    linkedin_items = list(linkedin.items())[:75]
-    indeed_keys = list(dict.fromkeys(indeed))[:75]
+    linkedin_items = list(linkedin.items())
+    indeed_keys = list(dict.fromkeys(indeed))
     with ThreadPoolExecutor(max_workers=4) as pool:
         linked = [job for job in pool.map(_linked_job, linkedin_items) if job]
     with ThreadPoolExecutor(max_workers=4) as pool:
@@ -305,7 +317,7 @@ def self_test():
     assert _verified_mode("Solo in sede, senza smart working") is None
     from indexed_jobs import self_test as indexed_self_test
     indexed_self_test()
-    assert len(TERMS) * len(AREAS) == 24
+    assert len(AREAS) == 11 and 'Italia' not in AREAS
     print("LinkedIn city parsing and independent Indeed discovery: OK")
 
 

@@ -17,18 +17,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 from jobsora_extract import listing_candidates, verify_many, norm
+from tuscany_scope import in_tuscany, PROVINCES
 
-REGIONS = [
-    ("Valle d'Aosta", "valle-d-aosta"), ("Piemonte", "piemonte"),
-    ("Liguria", "liguria"), ("Lombardia", "lombardia"),
-    ("Trentino-Alto Adige", "trentino-alto-adige"), ("Veneto", "veneto"),
-    ("Friuli-Venezia Giulia", "friuli-venezia-giulia"),
-    ("Emilia-Romagna", "emilia-romagna"), ("Toscana", "toscana"),
-    ("Umbria", "umbria"), ("Marche", "marche"), ("Lazio", "lazio"),
-    ("Abruzzo", "abruzzo"), ("Molise", "molise"), ("Campania", "campania"),
-    ("Puglia", "puglia"), ("Basilicata", "basilicata"),
-    ("Calabria", "calabria"), ("Sicilia", "sicilia"), ("Sardegna", "sardegna"),
-]
+REGIONS = [("Toscana", "toscana")]
 BASE = Path("data/jobs.json")
 ROME = ZoneInfo("Europe/Rome")
 ROLE = re.compile(
@@ -87,14 +78,7 @@ def _fetch_feed(source):
 
 def feed_rows():
     # Parallel independent sources: one slow feed must not block the entire scan.
-    sources = [
-        ("Jobicy-Europe", "https://jobicy.com/api/jobs?count=200&geo=europe", "jobicy"),
-        ("Jobicy-Anywhere", "https://jobicy.com/api/jobs?count=200&geo=anywhere", "jobicy"),
-        ("Arbeitnow-page1", "https://www.arbeitnow.com/api/job-board-api?page=1", "arbeitnow"),
-        ("Arbeitnow-page2", "https://www.arbeitnow.com/api/job-board-api?page=2", "arbeitnow"),
-        ("Arbeitnow-page3", "https://www.arbeitnow.com/api/job-board-api?page=3", "arbeitnow"),
-        ("Remotive", "https://remotive.com/api/remote-jobs?limit=200", "remotive"),
-    ]
+    sources = []
     catalog = json.loads(Path("data/source_catalog.json").read_text())
     for board in catalog["sources"]:
         account = board.get("smartRecruitersAccount")
@@ -218,7 +202,7 @@ def mapped_job(source, kind, raw, today, now):
     if not (title and company and url.startswith("https://") and (ROLE.search(title) or re.search(r"\b(?:ufficio gare|gare e appalti|segreteria commerciale|gestione ordini|supporto commerciale|sales operations|revenue operations|MICE|inside sales|amministrazione commerciale|ufficio commerciale|supporto alle vendite|supporto amministrativo|customer operations|vendor administration|contract administrator)\b", title, re.I))):
         return None
     # Fail closed: regional presence and ambiguous geographic restrictions need manual verification.
-    if not remote or kind not in ("linkedin","employer","smartrecruiters") and not re.fullmatch(r"(?:italy|italia|europe|european union|eu|emea|worldwide|anywhere|global)", place.strip(), re.I):
+    if not remote or not in_tuscany(place):
         return None
     parsed = urllib.parse.urlparse(url)
     if parsed.path.strip("/") in ("", "jobs", "careers", "remote-jobs"):
@@ -267,8 +251,8 @@ def adequate(run):
     # Queries to RSS indexes do not certify a scan; require evidence of
     # both major portals and inspection of individual vacancy pages.
     return (run.get("status") == "partial"
-            and len(coverage) >= 20
-            and int(catalog.get("catalogSourcesAccountedFor") or 0) >= 200
+            and len(coverage) >= 1
+            and int(catalog.get("catalogSourcesAccountedFor") or 0) >= 25
             and int(primary.get("LinkedIn Jobs") or 0) >= 12
             and int(primary.get("Indeed Italia") or 0) >= 12
             and (int(gate.get("candidatePagesAttempted") or 0) > 0
@@ -367,7 +351,7 @@ def self_test():
         "primaryPortalAttempts":{"LinkedIn Jobs":24,"Indeed Italia":24},
         "universalDetailGate":{"candidatePagesAttempted":4},
         "completedAt":"2026-11-23T15:35:00Z"})
-    assert len(REGIONS)==20 and len(REGIONAL_ROLES)==5
+    assert REGIONS == [("Toscana", "toscana")] and len(REGIONAL_ROLES)==5
     from linkedin_search import self_test as primary_portal_test
     from verify_vacancies import self_test as all_sources_test
     primary_portal_test()
@@ -447,9 +431,9 @@ def main(slot_override=None):
                          "outcome":"unavailable: "+msg, "evidenceUrls":[]}]
     for name, action in (
         ("LinkedIn Jobs / Indeed Italia", lambda: discover(previous_logs)),
-        ("Public ATS / remote job feeds", feed_rows),
+        ("Local employer ATS", feed_rows),
         ("Italian employer careers", discover_boards),
-        ("National job-board catalog", discover_catalog),
+        ("Tuscany job-board catalog", discover_catalog),
     ):
         found_rows, found_logs = safe_group(name, action)
         rows.extend(found_rows)
@@ -458,7 +442,7 @@ def main(slot_override=None):
         regional_coverage, regional_logs, candidate_postings = region_discovery()
     except Exception as exc:
         msg = f"{type(exc).__name__}: {str(exc)[:200]}"
-        print(f"::warning::Alice 20-region discovery failed: {msg}")
+        print(f"::warning::Alice Toscana discovery failed: {msg}")
         regional_coverage = {region: {"attempted":0,"indexPagesAccessible":0,
             "unavailable":1,"candidateLinksFound":0,"status":"unavailable"}
             for region, _ in REGIONS}
@@ -481,6 +465,7 @@ def main(slot_override=None):
     # original application page is confirmed, do not publish it as verified.
     verified_regional = [j for j in checked_regional
                          if j.get("verificationLevel") == "individual_original_posting"
+                         and in_tuscany(j.get("location"))
                          and j.get("remote") is True
                          and j.get("workMode") != "Da verificare"]
     from verify_vacancies import verify_many_mapped
@@ -564,7 +549,7 @@ def main(slot_override=None):
         known.add(semantic(candidate))
     data["jobs"] = old
     run = {"scheduledFor": scheduled_for, "engine":"github_backup", "startedAt": now, "completedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-           "status": "partial" if (successes or found_accessible) else "failed", "coverageMode": "national_20_region_discovery_plus_verified_public_feeds",
+           "status": "partial" if (successes or found_accessible) else "failed", "coverageMode": "tuscany_10_province_primary_portals_plus_local_sources",
            "requiredSourcesTotal": required_sources_total, "requiredSourcesChecked": len(checked_sources),
            "sourcesExplored": len(checked_sources), "sourcesChecked": checked_sources,
            "directSourcesChecked": [], "siteRestrictedSourcesChecked": [],
@@ -622,7 +607,7 @@ def main(slot_override=None):
            "excludedUnconfirmedSmartWorking":len(checked_regional)-len(verified_regional),
            "newRegionalJobs":regional_added,
            "newJobs":len(added),
-           "regionsTarget": 20, "regionsAttempted": [x[0] for x in REGIONS],
+           "regionsTarget": 1, "regionsAttempted": [x[0] for x in REGIONS], "provincesTarget": PROVINCES,
            "regionCoverage": regional_coverage,
            "activeJobs": sum(j.get("active", True) is not False for j in old),
            "searchLog": logs + regional_logs, "note": "All providers share original-posting availability, role, employer and remote/hybrid publication gate. Aggregator-only and indexed results cannot be published. Catalog queries do not imply complete coverage; partial status is deliberate."}
@@ -648,7 +633,7 @@ def main(slot_override=None):
         data["generatedAt"] = now
     data["manualRefresh"] = data.get("manualRefresh")  # do not alter separate manual scan
     write_catalog(BASE, data)
-    print(f"Nationwide: {len(REGIONS)} regions, {len(regional_logs)} listing checks, "
+    print(f"Tuscany: {len(REGIONS)} regions, {len(regional_logs)} listing checks, "
           f"{len(candidate_postings)} detail page attempts, {len(verified_regional)} valid aggregator details, "
           f"{regional_added} new regional jobs, {len(added)} overall new, {len(old)} total, slot={slot}")
 

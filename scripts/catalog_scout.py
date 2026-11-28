@@ -80,6 +80,7 @@ def _rss_links(source):
     # with a checked or verified individual posting.
     query = (f"site:{host} {QUERY_ROLES}" if host else
              f'"{name}" (tender OR "ufficio gare" OR PMO)')
+    query += ' (Toscana OR Firenze OR Arezzo OR Grosseto OR Livorno OR Lucca OR Massa OR Carrara OR Pisa OR Pistoia OR Prato OR Siena OR Valdarno)'
     url = "https://www.bing.com/search?" + urlencode({
         "format": "rss", "cc": "IT", "setlang": "it", "mkt": "it-IT", "q": query,
     })
@@ -226,7 +227,7 @@ def self_test():
     assert _host({"searchDomain":"www.example.it"}) == "example.it"
     assert not _original_posting.__defaults__
     names = json.loads(SOURCE.read_text(encoding="utf-8"))["sources"]
-    assert len(names) >= 200
+    assert 25 <= len(names) <= 80
     print("Catalog source checks configured:", len(names), "distinct catalogue entries")
 
 

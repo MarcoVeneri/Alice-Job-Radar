@@ -6,6 +6,7 @@ import math
 import sys
 from collections import Counter
 from pathlib import Path
+from tuscany_scope import in_tuscany
 
 
 def normalized_score(value):
@@ -69,12 +70,20 @@ def normalize_catalog(data):
                 # Missing/unknown eligibility must not become a positive claim.
                 job[key] = normalized_bool(old)
                 counts[key] += 1
+    if (data.get("filterPolicy") or {}).get("scope") == "tuscany-only":
+        for job in jobs:
+            if job.get("active") and not in_tuscany(job.get("location")):
+                job["active"] = False
+                job["scopeExcluded"] = "outside_or_unconfirmed_tuscany"
+                counts["scopeExcluded"] += 1
     if counts:
         print("Job metadata normalized:", dict(counts))
     return counts
 
 
 def write_catalog(path, data):
+    if "filterPolicy" in data:
+        data["filterPolicy"].update({"scope":"tuscany-only","version":"tuscany-2026-11-28","minimum":"explicit smart working / hybrid / remote and verified Tuscany site","preservedHistoricalJobs":True})
     normalize_catalog(data)
     path = Path(path)
     tmp = path.with_name(path.name + ".tmp")

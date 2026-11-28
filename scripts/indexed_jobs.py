@@ -20,7 +20,8 @@ GROUPS = (
     ("back office commerciale", "sales operations"),
     ("order management", "segreteria commerciale"),
 )
-AREAS = ("Firenze Toscana", "Valdarno Arezzo", "Italia")
+from tuscany_scope import PROVINCES
+AREAS = tuple(p + " Toscana" for p in PROVINCES) + ("Toscana", "Valdarno Toscana")
 LI_RE = re.compile(r"/jobs/view/(?:[^/?#]*?-)?(\d{9,})(?:[/?#]|$)", re.I)
 JK_RE = re.compile(r"[0-9a-f]{12,}", re.I)
 
@@ -90,7 +91,7 @@ def discover_indexed(platforms=("LinkedIn Jobs","Indeed Italia")):
     logs = []
     linkedin = {}
     indeed = []
-    with ThreadPoolExecutor(max_workers=2) as pool:
+    with ThreadPoolExecutor(max_workers=6) as pool:
         for (platform, terms, area), (log, listings) in zip(tasks, pool.map(_one, tasks)):
             logs.append(log)
             for key, link, title in listings:
@@ -106,8 +107,8 @@ def self_test():
     assert _extract("https://it.indeed.com/viewjob?jk=51921db8917b2edf", "Indeed Italia") == "51921db8917b2edf"
     assert _extract("https://fake.example/jobs/view/tender-4491829304", "LinkedIn Jobs") is None
     assert _extract("https://fake.example/viewjob?jk=51921db8917b2edf", "Indeed Italia") is None
-    assert len(GROUPS) * len(AREAS) * 2 == 30
-    print("Indexed fallback: safe posting IDs and 30 cross-portal queries OK")
+    assert len(AREAS) == 12 and "Italia" not in AREAS
+    print("Indexed fallback: safe posting IDs and Tuscany cross-portal queries OK")
 
 if __name__ == "__main__":
     self_test()

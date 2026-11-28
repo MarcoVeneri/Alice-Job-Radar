@@ -1,6 +1,6 @@
-const VERSION="658";
-const CACHE=`alice-job-radar-native-v${VERSION}-smartonly658`;
-const SHELL=["./scan-clock.js?v=658","./?ajr=658","./index.html?ajr=658","./config.js?v=658","./audit-fix.js?v=658","./manifest.webmanifest?v=658","./icon.svg?v=658"];
+const VERSION="659";
+const CACHE=`alice-job-radar-native-v${VERSION}-tuscany659`;
+const SHELL=["./scan-clock.js?v=659","./?ajr=659","./index.html?ajr=659","./config.js?v=659","./audit-fix.js?v=659","./manifest.webmanifest?v=659","./icon.svg?v=659"];
 
 const FAST_CACHE=CACHE+"-fast1";
 const scope=new URL(self.registration.scope);
